@@ -1,0 +1,83 @@
+﻿l_english: 
+
+#Parties
+COU_fascism_party:0 ""
+COU_fascism_party_long:0 ""
+COU_communism_party:0 "VGK"
+COU_communism_party_long:0 "Vereinigte Gewerkschaften von Kurland"
+COU_democratic_party:0 ""
+COU_democratic_party_long:0 ""
+COU_paternal_autocrat_party:0 "Baltische Landeswehr"
+COU_paternal_autocrat_party_long:0 ""
+COU_neutrality_party:0 ""
+COU_neutrality_party_long:0 ""
+COU_social_democrat_party:0 ""
+COU_social_democrat_party_long:0 ""
+COU_social_liberal_party:0 ""
+COU_social_liberal_party_long:0 ""
+COU_classic_liberal_party:0 ""
+COU_classic_liberal_party_long:0 ""
+COU_totalitarian_socialist_party:0 "VGK"
+COU_totalitarian_socialist_party_long:0 "Vereinigte Gewerkschaften von Kurland"
+COU_revolutionary_socialist_party:0 ""
+COU_revolutionary_socialist_party_long:0 ""
+COU_democratic_socialist_party:0 ""
+COU_democratic_socialist_party_long:0 ""
+
+#Country Names
+ COU_fascism:0 "Courland"
+ COU_fascism_DEF:0 "Courland"
+ COU_totalitarian_socialist:0 "Courland Worker's Republic"
+ COU_totalitarian_socialist_DEF:0 "the Austrian Volkstaat"
+ COU_paternal_autocrat:0 "Courland"
+ COU_paternal_autocrat_DEF:0 "Courland"
+ COU_democratic:0 "Austria"
+ COU_democratic_DEF:0 "the Republic of Austria"
+ COU_neutrality:1 "Austria"
+ COU_neutrality_DEF:1 "the Republic of Austria"
+ COU_democratic_socialist:0 "Austria"
+ COU_democratic_socialist_DEF:0 "the Republic of Austria"
+ COU_revolutionary_socialist:0 "Austria"
+ COU_revolutionary_socialist_DEF:0 "the Republic of Austria"
+ COU_social_democrat:0 "Republic of Austria"
+ COU_social_democrat_DEF:0 "the Republic of Austria"
+ COU_social_liberal:0 "Republic of Austria"
+ COU_social_liberal_DEF:0 "the Republic of Austria"
+ COU_classic_liberal:0 "Republic of Austria"
+ COU_classic_liberal_DEF:0 "the Republic of Austria"
+ COU_communism:0 "People's Republic of Austria"
+ COU_communism_DEF:0 "the People's Republic of Austria"
+ 
+ COU_fascism_ADJ:0 "Courlandic"
+ COU_totalitarian_socialist_ADJ:0 "Austrian"
+ COU_democratic_ADJ:0 "Austrian"
+ COU_paternal_autocrat_ADJ:0 "Austrian"
+ COU_democratic_socialist_ADJ:0 "Austrian"
+ COU_neutrality_ADJ:0 "Austrian"
+ COU_revolutionary_socialist_ADJ:0 "Austrian"
+ COU_social_democrat_ADJ:0 "Austrian"
+ COU_social_liberal_ADJ:0 "Austrian"
+ COU_classic_liberal_ADJ:0 "Austrian"
+ COU_communism_ADJ:0 "Austrian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ AUS_unitedstates_social_democrat:0 "United States of Greater Austria"
+ AUS_unitedstates_social_democrat_ADJ:0 "Greater Austrian"
+ AUS_unitedstates_social_democrat_DEF:0 "the United States of Greater Austria"
+ 

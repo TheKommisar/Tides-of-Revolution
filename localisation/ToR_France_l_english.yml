@@ -1,0 +1,79 @@
+﻿l_english: 
+
+#Parties
+FRA_fascism_party:0 "AF"
+FRA_fascism_party_long:0 "Action Française"
+FRA_communism_party:0 "PCF-M"
+FRA_communism_party_long:0 "Parti communiste français - modérés"
+FRA_democratic_party:0 "FR"
+FRA_democratic_party_long:0 "Fédération républicaine"
+FRA_paternal_autocrat_party:0 "AF"
+FRA_paternal_autocrat_party_long:0 "Action Française"
+FRA_neutrality_party:0 "Croix-de-Feu"
+FRA_neutrality_party_long:0 "Croix-de-Feu"
+FRA_social_democrat_party:0 "PRS"
+FRA_social_democrat_party_long:0 "Parti républicain-socialiste"
+FRA_social_liberal_party:0 "PR"
+FRA_social_liberal_party_long:0 "Parti radical"
+FRA_classic_liberal_party:0 "ARD"
+FRA_classic_liberal_party_long:0 "Alliance républicaine démocratique"
+FRA_totalitarian_socialist_party:0 "PCF-J"
+FRA_totalitarian_socialist_party_long:0 "Parti communiste français - jacobins"
+FRA_revolutionary_socialist_party:0 "SFIO-R"
+FRA_revolutionary_socialist_party_long:0 "Section française de l'Internationale ouvrière - révolutionnaires"
+FRA_democratic_socialist_party:0 "SFIO-D"
+FRA_democratic_socialist_party_long:0 "Section française de l'Internationale ouvrière - faction démocratique"
+
+#Country Names
+ FRA_fascism:0 "French State"
+ FRA_fascism_DEF:0 "the French State"
+ FRA_totalitarian_socialist:0 "Commune of France"
+ FRA_totalitarian_socialist_DEF:0 "the Commune of France"
+ FRA_paternal_autocrat:0 "French State"
+ FRA_paternal_autocrat_DEF:0 "the French State"
+ FRA_democratic:0 "French Republic"
+ FRA_democratic_DEF:0 "the French Republic"
+ FRA_neutrality:0 "French National Republic"
+ FRA_neutrality_DEF:0 "the French National Republic"
+ FRA_democratic_socialist:0 "French Republic"
+ FRA_democratic_socialist_DEF:0 "the French Republic"
+ FRA_revolutionary_socialist:0 "French Republic"
+ FRA_revolutionary_socialist_DEF:0 "the French Republic"
+ FRA_social_democrat:0 "French Republic"
+ FRA_social_democrat_DEF:0 "the French Republic"
+ FRA_social_liberal:0 "French Republic"
+ FRA_social_liberal_DEF:0 "the French Republic"
+ FRA_classic_liberal:0 "French Republic"
+ FRA_classic_liberal_DEF:0 "the French Republic"
+ FRA_communism:0 "Commune of France"
+ FRA_communism_DEF:0 "the Commune of France"
+ 
+ FRA_fascism_ADJ:0 "French"
+ FRA_totalitarian_socialist_ADJ:0 "French"
+ FRA_democratic_ADJ:0 "French"
+ FRA_paternal_autocrat_ADJ:0 "French"
+ FRA_democratic_socialist_ADJ:0 "French"
+ FRA_neutrality_ADJ:0 "French"
+ FRA_revolutionary_socialist_ADJ:0 "French"
+ FRA_social_democrat_ADJ:0 "French"
+ FRA_social_liberal_ADJ:0 "French"
+ FRA_classic_liberal_ADJ:0 "French"
+ FRA_communism_ADJ:0 "French"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
