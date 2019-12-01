@@ -109,7 +109,8 @@ create_faction = pri
 add_to_faction = FRA
 
 add_ideas = {
-	FRA_protected_by_the_maginot_line
+	FRA_protected_by_the_maginot_line 
+        legacy_of_the_commune
 	limited_conscription
 }
 

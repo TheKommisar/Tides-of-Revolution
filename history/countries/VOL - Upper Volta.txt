@@ -1,0 +1,38 @@
+﻿capital = 778
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+        totalitarian_socialist = 1
+	communism = 5
+	revolutionary_socialist = 1
+	democratic_socialist = 15
+        social_democrat = 30
+        social_liberal = 15
+        classic_liberal = 5
+        democratic = 10
+        neutrality = 3
+        paternal_autocrat = 5
+        fascism = 10
+}
+create_country_leader = {
+	name = "Nazi Boni"
+	desc = "POLITICS_NAZI_BONI_DESC"
+	picture = "gfx/leaders/VOL/Portrait_VOL_Nazi_Boni"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
