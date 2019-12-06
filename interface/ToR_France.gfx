@@ -1,0 +1,10 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_legacy_of_the_commune"
+		texturefile = "gfx/interface/ideas/FRA/fourth_international.dds"
+	}
+}

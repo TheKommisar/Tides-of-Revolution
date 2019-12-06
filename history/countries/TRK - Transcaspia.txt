@@ -1,0 +1,43 @@
+﻿capital = 584
+
+OOB = "TRK_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+        totalitarian_socialist = 4
+	communism = 6
+	revolutionary_socialist = 10
+	democratic_socialist = 5
+        social_democrat = 30
+        social_liberal = 3
+        classic_liberal = 12
+        democratic = 10
+        neutrality = 4
+        paternal_autocrat = 5
+        fascism = 11
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Yakov Popok"
+	desc = "POLITICS_YAKOV_POPOK_DESC"
+	picture = "Portrait_TRK_Yakov_Popok.tga"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
