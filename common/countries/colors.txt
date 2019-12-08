@@ -545,3 +545,15 @@ BWA = {
         color = rgb { 170 25 25 }
         color_ui = rgb { 200 35 35 }
 }
+IVO = { 
+        color = rgb { 247 127 10 }
+        color_ui = rgb { 247 127 10 }
+}
+TRK = {
+	color = rgb { 84 210 0 }
+	color_ui = rgb { 84 210 0 }
+}
+RUS = {
+	color = rgb { 54 126 88 }
+	color_ui = rgb { 54 126 88 }
+}

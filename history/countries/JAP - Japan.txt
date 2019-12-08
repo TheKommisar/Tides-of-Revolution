@@ -1,4 +1,4 @@
-﻿capital = 282
+﻿capital = 531
 
 oob = "JAP_1936"
 
@@ -15,7 +15,6 @@ add_ideas = {
 
 	JAP_zaibatsus
 	JAP_duplicate_research_efforts
-	JAP_militarism
 }
 
 if = {
@@ -23,12 +22,6 @@ if = {
 	add_ideas = {
 		JAP_interservice_rivalry_balanced		
 	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 set_technology = {
@@ -115,37 +108,70 @@ create_import = {
 		exporter = USA
 }
 
+set_convoys = 400
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+		not = { has_dlc = "Waking the Tiger" }
+	}
+	set_autonomy = {
+		target = MEN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = MAN
+		autonomous_state = autonomy_integrated_puppet
+	}
+}
+if = {
+	limit = { 
+		not = {
+			has_dlc = "Waking the Tiger"
+			has_dlc = "Together for Victory"
+		}
+	}
+	set_autonomy = {
+		target = MEN
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = MAN
+		autonomous_state = autonomy_puppet
+	}
+}
+if = {
+	limit = { 
+		has_dlc = "Waking the Tiger"
+	}
+	set_autonomy = {
+		target = MEN
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+	set_autonomy = {
+		target = MAN
+		autonomous_state = autonomy_wtt_imperial_protectorate
+	}
+}
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 20
-	communism = 62
-	revolutionary_socialist = 10
-	democratic_socialist = 2
-        social_democrat = 0
-        social_liberal = 2
-        classic_liberal = 2
-        democratic = 0
-        neutrality = 1
-        utilitarian_despot = 1
-        fascism = 0
+	democratic = 100
 }
 
 create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "Portrait_Japan_Hirohito.dds"
+	picture = "Portrait_Emperor_Hirohito.tga"
 	expire = "1989.1.1"
-	ideology = fascism_ideology
+	ideology = conservatism
 	traits = {
-		warrior_code
 		emperor_showa
-		imperial_sanction
 	}
 	id = 700 #Hirohito
 }
@@ -156,16 +182,6 @@ create_country_leader = {
 	picture = "GFX_Portrait_kyuichi_tokuda"
 	expire = "1989.1.1"
 	ideology = marxism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_tetsu_katayama"
-	expire = "1989.1.1"
-	ideology = liberalism
 	traits = {
 	}
 }
@@ -183,6 +199,32 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
+create_field_marshal = {
+	name = "Hisaichi Terauchi"
+	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
+	traits = { 
+		offensive_doctrine
+		JAP_samurai_lineage   # hakushaku
+		politically_connected
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Shunroku Hata"
+		picture = "Portrait_Japan_Shunroku_Hata.dds"
+	traits = { offensive_doctrine JAP_samurai_lineage }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
 create_corps_commander = {
 	name = "Akira Muto"
 		picture = "Portrait_Japan_Akira_Muto.dds"
@@ -193,6 +235,18 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 1
 }
+
+create_corps_commander = {
+	name = "Kanji Ishiwara"
+		picture = "Portrait_Japan_Kanji_Ishiwara.dds"
+	traits = { JAP_samurai_lineage }
+	skill = 1 
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
 create_corps_commander = {
 	name = "Shizuichi Tanaka"
 		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
@@ -238,6 +292,28 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Naruhiko Higashikuni"
+	picture = "Portrait_Japan_Naruhiko_Higashikuni.dds"
+	traits = { JAP_samurai_lineage politically_connected }
+	skill = 3 
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Seishiro Itagaki"
+		picture = "Portrait_Japan_Seishiro_Itagaki.dds"
+	traits = { JAP_samurai_lineage inflexible_strategist trait_reckless }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
 	name = "Takashi Sakai"
 		picture = "Portrait_Japan_Takashi_Sakai.dds"
 	traits = { infantry_officer trait_reckless }
@@ -246,6 +322,17 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Kenji Doihara"
+		picture = "Portrait_Japan_Kenji_Doihara.dds"
+	traits = { career_officer substance_abuser }
+	skill = 1 
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -293,6 +380,17 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Hatazo Adachi"
+		picture = "Portrait_Japan_Hatazo_Adachi.dds"
+	traits = { trickster JAP_samurai_lineage trait_reckless infantry_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
 	name = "Iwane Matsui"
 		picture = "Portrait_Japan_Iwane_Matsui.dds"
 	traits = { old_guard trait_reckless }
@@ -302,6 +400,17 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
+create_corps_commander = {
+	name = "Sadao Araki"
+		picture = "Portrait_Japan_Sadao_Araki.dds"
+	traits = { JAP_samurai_lineage }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 create_corps_commander = {
 	name = "Keisuke Fujie"
 		picture = "Portrait_Japan_Keisuke_Fujie.dds"
@@ -435,6 +544,28 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
+	name = "Nobutake Kondō"
+		picture = "Portrait_Japan_Nobutake_Kondo.dds"
+	traits = { battleship_adherent naval_lineage fly_swatter }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Takeo Takagi"
+		picture = "Portrait_Japan_Takeo_Takagi.dds"
+	traits = { spotter }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
 	name = "Soemu Toyoda"
 		picture = "Portrait_Japan_Soemu_Toyoda.dds"
 	traits = { bold ironside old_guard_navy }
@@ -443,6 +574,17 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 2
 	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Jisaburo Ozawa"
+		picture = "Portrait_Japan_Jisaburo_Ozawa.dds"
+	traits = { bold aviation_enthusiast navy_career_officer blockade_runner superior_tactician }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 4
 }
 
 create_navy_leader = {

@@ -43,7 +43,7 @@ ideologies = {
 
 	}
 
-	communism = { #vanguardist
+	communism = { #collectivist
 		
 		types = {
 		

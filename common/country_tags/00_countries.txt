@@ -182,5 +182,8 @@ SLV = "countries/Slovenia.txt"
 BOS = "countries/Bosnia.txt"
 MAC = "countries/Macedonia.txt"
 NIR = "countries/Northern Ireland.txt"
+#####
 COU = "countries/Courland.txt"
 BWA = "countries/British West Africa.txt"
+TRK = "countries/Transcaspia.txt"
+RUS = "countries/Russia.txt"

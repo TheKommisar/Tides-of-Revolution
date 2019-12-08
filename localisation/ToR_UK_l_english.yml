@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+ENG_fascism_party:0 "Empire Loyalists"
+ENG_fascism_party_long:0 "Empire Loyalist Party"
+ENG_communism_party:0 "CPGB-Jacobins"
+ENG_communism_party_long:0 "Communist Party of Great Britain - Jacobin faction"
+ENG_democratic_party:0 "Tories"
+ENG_democratic_party_long:0 "Conservative and Unionist Party"
+ENG_paternal_autocrat_party:0 "British Army"
+ENG_paternal_autocrat_party_long:0 "British Army"
+ENG_neutrality_party:0 "Constitutionalists"
+ENG_neutrality_party_long:0 "Constitutionalists"
+ENG_social_democrat_party:0 "Labour"
+ENG_social_democrat_party_long:0 "Labour Party"
+ENG_social_liberal_party:0 "Liberals"
+ENG_social_liberal_party_long:0 "Liberal Party"
+ENG_classic_liberal_party:0 "Liberal Nationals"
+ENG_classic_liberal_party_long:0 "Liberal National Party"
+ENG_totalitarian_socialist_party:0 "International League"
+ENG_totalitarian_socialist_party_long:0 "Workers' International League"
+ENG_revolutionary_socialist_party:0 "CPGB-Leninists"
+ENG_revolutionary_socialist_party_long:0 "Communist Party of Great Britain - Leninist faction"
+ENG_democratic_socialist_party:0 "Independent Labour"
+ENG_democratic_socialist_party_long:0 "Independent Labour Party"
+
+#Country Names
+ ENG_fascism:0 "Great Britain"
+ ENG_fascism_DEF:0 "Great Britain"
+ ENG_totalitarian_socialist:0 "Union of Britain"
+ ENG_totalitarian_socialist_DEF:0 "the Union of Britain"
+ ENG_paternal_autocrat:0 "Great Britain"
+ ENG_paternal_autocrat_DEF:0 "Great Britain"
+ ENG_democratic:0 "United Kingdom"
+ ENG_democratic_DEF:0 "the United Kingdom"
+ ENG_neutrality:1 "United Kingdom"
+ ENG_neutrality_DEF:1 "the United Kingdom"
+ ENG_democratic_socialist:0 "United Kingdom"
+ ENG_democratic_socialist_DEF:0 "the United Kingdom"
+ ENG_revolutionary_socialist:0 "Union of Britain"
+ ENG_revolutionary_socialist_DEF:0 "the Union of Britain"
+ ENG_social_democrat:0 "United Kingdom"
+ ENG_social_democrat_DEF:0 "the United Kingdom"
+ ENG_social_liberal:0 "United Kingdom"
+ ENG_social_liberal_DEF:0 "the United Kingdom"
+ ENG_classic_liberal:0 "United Kingdom"
+ ENG_classic_liberal_DEF:0 "the United Kingdom"
+ ENG_communism:0 "Union of Britain"
+ ENG_communism_DEF:0 "the Union of Britain"
+ 
+ ENG_fascism_ADJ:0 "British"
+ ENG_totalitarian_socialist_ADJ:0 "British"
+ ENG_democratic_ADJ:0 "British"
+ ENG_paternal_autocrat_ADJ:0 "British"
+ ENG_democratic_socialist_ADJ:0 "British"
+ ENG_neutrality_ADJ:0 "British"
+ ENG_revolutionary_socialist_ADJ:0 "British"
+ ENG_social_democrat_ADJ:0 "British"
+ ENG_social_liberal_ADJ:0 "British"
+ ENG_classic_liberal_ADJ:0 "British"
+ ENG_communism_ADJ:0 "British"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

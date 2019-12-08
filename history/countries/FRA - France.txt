@@ -78,7 +78,6 @@ if = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 set_convoys = 300
@@ -117,9 +116,9 @@ add_ideas = {
 #give_guarantee = CZE
 
 create_country_leader = {
-	name = "Georges Valois"
-	desc = "POLITICS_GEORGES_VALOIS_DESC"
-	picture = "Portrait_France_Georges_Valois.tga"
+	name = "Jean Longuet"
+	desc = "POLITICS_JEAN_LONGUET_DESC"
+	picture = "Portrait_France_Jean_Longuet.tga"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialist_subtype
 	traits = {
@@ -128,11 +127,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maurice Thorez"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "GFX_portrait_fra_maurice_thorez"
+	name = "Georges Valois"
+	desc = "POLITICS_GEORGES_VALOIS_DESC"
+	picture = "Portrait_France_Georges_Valois.tga"
 	expire = "1965.1.1"
-	ideology = 	stalinism
+	ideology = 	totalitarian_socialist_subtype
 	traits = {
 		
 	}
