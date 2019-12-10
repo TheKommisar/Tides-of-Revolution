@@ -78,7 +78,6 @@ if = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 set_convoys = 300
@@ -93,7 +92,7 @@ set_politics = {
 
 set_popularities = {
         totalitarian_socialist = 10
-	communism = 18
+	collectivist = 18
 	revolutionary_socialist = 42
 	democratic_socialist = 18
         social_democrat = 10

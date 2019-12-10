@@ -43,23 +43,11 @@ ideologies = {
 
 	}
 
-	communism = { #vanguardist
+	collectivist = { 
 		
 		types = {
 		
-			marxism = {
-			}
-			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
+			collectivist_subtype = {
 			}
 		}
 		

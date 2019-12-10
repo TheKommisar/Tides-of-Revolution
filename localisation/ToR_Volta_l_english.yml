@@ -3,8 +3,8 @@
 #Parties
 VOL_fascism_party:0 ""
 VOL_fascism_party_long:0 ""
-VOL_communism_party:0 ""
-VOL_communism_party_long:0 ""
+VOL_collectivist_party:0 ""
+VOL_collectivist_party_long:0 ""
 VOL_democratic_party:0 ""
 VOL_democratic_party_long:0 ""
 VOL_paternal_autocrat_party:0 ""
@@ -45,8 +45,8 @@ VOL_democratic_socialist_party_long:0 ""
  VOL_social_liberal_DEF:0 "Upper Volta"
  VOL_classic_liberal:0 "Upper Volta"
  VOL_classic_liberal_DEF:0 "Upper Volta"
- VOL_communism:0 "Upper Volta"
- VOL_communism_DEF:0 "Upper Volta"
+ VOL_collectivist:0 "Upper Volta"
+ VOL_collectivist_DEF:0 "Upper Volta"
  
  VOL_fascism_ADJ:0 "Voltaic"
  VOL_totalitarian_socialist_ADJ:0 "Voltaic"
@@ -58,7 +58,7 @@ VOL_democratic_socialist_party_long:0 ""
  VOL_social_democrat_ADJ:0 "Voltaic"
  VOL_social_liberal_ADJ:0 "Voltaic"
  VOL_classic_liberal_ADJ:0 "Voltaic"
- VOL_communism_ADJ:0 "Voltaic"
+ VOL_collectivist_ADJ:0 "Voltaic"
 
 
 

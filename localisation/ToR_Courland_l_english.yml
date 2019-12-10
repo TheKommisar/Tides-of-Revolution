@@ -3,8 +3,8 @@
 #Parties
 COU_fascism_party:0 ""
 COU_fascism_party_long:0 ""
-COU_communism_party:0 "VGK"
-COU_communism_party_long:0 "Vereinigte Gewerkschaften von Kurland"
+COU_collectivist_party:0 "VGK"
+COU_collectivist_party_long:0 "Vereinigte Gewerkschaften von Kurland"
 COU_democratic_party:0 ""
 COU_democratic_party_long:0 ""
 COU_paternal_autocrat_party:0 "Baltische Landeswehr"
@@ -45,8 +45,8 @@ COU_democratic_socialist_party_long:0 ""
  COU_social_liberal_DEF:0 "Courland"
  COU_classic_liberal:0 "Courland"
  COU_classic_liberal_DEF:0 "Courland"
- COU_communism:0 "Courland Worker's Republic"
- COU_communism_DEF:0 "the Courland Worker's Republic"
+ COU_collectivist:0 "Courland Worker's Republic"
+ COU_collectivist_DEF:0 "the Courland Worker's Republic"
  
  COU_fascism_ADJ:0 "Courlandic"
  COU_totalitarian_socialist_ADJ:0 "Courlandic"
@@ -58,7 +58,7 @@ COU_democratic_socialist_party_long:0 ""
  COU_social_democrat_ADJ:0 "Courlandic"
  COU_social_liberal_ADJ:0 "Courlandic"
  COU_classic_liberal_ADJ:0 "Courlandic"
- COU_communism_ADJ:0 "Courlandic"
+ COU_collectivist_ADJ:0 "Courlandic"
 
 
 

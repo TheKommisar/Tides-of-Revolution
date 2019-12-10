@@ -96,17 +96,11 @@ if = {
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
-	set_global_flag = MTG_second_london_conference
-	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
-
-set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
 	stiff_upper_lip
 	ENG_the_war_to_end_all_wars
-	george_v
 }
 	
 
@@ -187,17 +181,27 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_liberal
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
-set_popularities = {	democratic = 97	fascism = 2
-	communism = 1
+set_popularities = {
+        totalitarian_socialist = 1
+	collectivist = 0
+	revolutionary_socialist = 2
+	democratic_socialist = 4
+        social_democrat = 21
+        social_liberal = 35
+        classic_liberal = 9
+        democratic = 26
+        neutrality = 0
+        paternal_autocrat = 0
+        fascism = 2
 }
 
 
-create_faction = Allies
+create_faction = commonwealth
 add_to_faction = ENG
 add_to_faction = CAN
 add_to_faction = AST
@@ -214,53 +218,30 @@ give_guarantee = BEL
 give_guarantee = POR
 give_guarantee = GRE
 
-# Order matters - here Chamberlain becomes starting leader
+
 
 create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
+	name = "George V"
+	desc = "POLITICS_GEORGE_V_DESC"
+	picture = "George_V.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_liberal_subtype
 	traits = {
 		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
 	}
 }
 
-
-create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = liberalism
-	traits = {
-		conservative_grandee
-	}
-}
-
-#create_country_leader = {
-#	name = "Neville Chamberlain"
-#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+#create_country_leader = { labour party leader
+#	name = "Oswald Mosley"
+#	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+#	picture = "Portrait_Britain_Oswald_Mosley.dds"
 #	expire = "1965.1.1"
-#	ideology = liberalism
+#	ideology = fascism_ideology
 #	traits = {
-#		
+#		champion_of_peace_1
+#		economic_reformer
 #	}
 #}
-
-create_country_leader = {
-	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		champion_of_peace_1
-		economic_reformer
-	}
-}
 
 create_country_leader = {
 	name = "Harry Pollitt"

@@ -3,8 +3,8 @@
 #Parties
 GER_fascism_party:0 "DAP"
 GER_fascism_party_long:0 "Deutsche Arbeiterpartei"
-GER_communism_party:0 "KPD"
-GER_communism_party_long:0 "Kommunistische Partei Deutschlands"
+GER_collectivist_party:0 "KPD"
+GER_collectivist_party_long:0 "Kommunistische Partei Deutschlands"
 GER_democratic_party:0 "Zentrum"
 GER_democratic_party_long:0 "Deutsche Zentrumspartei"
 GER_paternal_autocrat_party:0 "KBD"
@@ -45,8 +45,8 @@ GER_democratic_socialist_party_long:0 "Sozialistische Arbeiterpartei Deutschland
  GER_social_liberal_DEF:0 "the German Empire"
  GER_classic_liberal:0 "German Empire"
  GER_classic_liberal_DEF:0 "the German Empire"
- GER_communism:0 "German Socialist Republic"
- GER_communism_DEF:0 "the German Socialist Republic"
+ GER_collectivist:0 "German Socialist Republic"
+ GER_collectivist_DEF:0 "the German Socialist Republic"
  
  GER_fascism_ADJ:0 "German"
  GER_totalitarian_socialist_ADJ:0 "German"
@@ -58,7 +58,7 @@ GER_democratic_socialist_party_long:0 "Sozialistische Arbeiterpartei Deutschland
  GER_social_democrat_ADJ:0 "German"
  GER_social_liberal_ADJ:0 "German"
  GER_classic_liberal_ADJ:0 "German"
- GER_communism_ADJ:0 "German"
+ GER_collectivist_ADJ:0 "German"
 
 
 

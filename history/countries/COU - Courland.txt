@@ -23,7 +23,7 @@ set_politics = {
 
 set_popularities = {
         totalitarian_socialist = 0
-	communism = 1
+	collectivist = 1
 	revolutionary_socialist = 2
 	democratic_socialist = 5
         social_democrat = 4

@@ -3,8 +3,8 @@
 #Parties
 AUS_fascism_party:0 "GDVP"
 AUS_fascism_party_long:0 "Großdeutsche Volkspartei"
-AUS_communism_party:0 "KPÖ"
-AUS_communism_party_long:0 "Kommunistische Partei Österreichs"
+AUS_collectivist_party:0 "KPÖ"
+AUS_collectivist_party_long:0 "Kommunistische Partei Österreichs"
 AUS_democratic_party:0 "CS"
 AUS_democratic_party_long:0 "Christlichsoziale Partei"
 AUS_paternal_autocrat_party:0 "Heimwehr"
@@ -45,8 +45,8 @@ AUS_democratic_socialist_party_long:0 "Sozialdemokratische Arbeiterpartei Öster
  AUS_social_liberal_DEF:0 "the Republic of Austria"
  AUS_classic_liberal:0 "Republic of Austria"
  AUS_classic_liberal_DEF:0 "the Republic of Austria"
- AUS_communism:0 "People's Republic of Austria"
- AUS_communism_DEF:0 "the People's Republic of Austria"
+ AUS_collectivist:0 "People's Republic of Austria"
+ AUS_collectivist_DEF:0 "the People's Republic of Austria"
  
  AUS_fascism_ADJ:0 "Austrian"
  AUS_totalitarian_socialist_ADJ:0 "Austrian"
@@ -58,7 +58,7 @@ AUS_democratic_socialist_party_long:0 "Sozialdemokratische Arbeiterpartei Öster
  AUS_social_democrat_ADJ:0 "Austrian"
  AUS_social_liberal_ADJ:0 "Austrian"
  AUS_classic_liberal_ADJ:0 "Austrian"
- AUS_communism_ADJ:0 "Austrian"
+ AUS_collectivist_ADJ:0 "Austrian"
 
 
 

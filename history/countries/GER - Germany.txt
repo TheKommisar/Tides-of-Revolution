@@ -109,7 +109,7 @@ set_politics = {
 
 set_popularities = {
         totalitarian_socialist = 0
-	communism = 0
+	collectivist = 0
 	revolutionary_socialist = 0
 	democratic_socialist = 8
         social_democrat = 6
@@ -123,6 +123,7 @@ set_popularities = {
 
 add_ideas = {
 	general_staff
+        sour_loser
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation

@@ -3,8 +3,8 @@
 #Parties
 FRA_fascism_party:0 "AF"
 FRA_fascism_party_long:0 "Action Française"
-FRA_communism_party:0 "PCF-M"
-FRA_communism_party_long:0 "Parti communiste français - modérés"
+FRA_collectivist_party:0 "PCF-M"
+FRA_collectivist_party_long:0 "Parti communiste français - modérés"
 FRA_democratic_party:0 "FR"
 FRA_democratic_party_long:0 "Fédération républicaine"
 FRA_paternal_autocrat_party:0 "AF"
@@ -45,8 +45,8 @@ FRA_democratic_socialist_party_long:0 "Section française de l'Internationale ou
  FRA_social_liberal_DEF:0 "the French Republic"
  FRA_classic_liberal:0 "French Republic"
  FRA_classic_liberal_DEF:0 "the French Republic"
- FRA_communism:0 "Commune of France"
- FRA_communism_DEF:0 "the Commune of France"
+ FRA_collectivist:0 "Commune of France"
+ FRA_collectivist_DEF:0 "the Commune of France"
  
  FRA_fascism_ADJ:0 "French"
  FRA_totalitarian_socialist_ADJ:0 "French"
@@ -58,7 +58,7 @@ FRA_democratic_socialist_party_long:0 "Section française de l'Internationale ou
  FRA_social_democrat_ADJ:0 "French"
  FRA_social_liberal_ADJ:0 "French"
  FRA_classic_liberal_ADJ:0 "French"
- FRA_communism_ADJ:0 "French"
+ FRA_collectivist_ADJ:0 "French"
 
 
 legacy_of_the_commune:0 "Legacy of the Paris Commune"
