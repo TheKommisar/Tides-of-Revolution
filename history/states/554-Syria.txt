@@ -8,9 +8,6 @@ state={
 
 	history={
 		owner = SAU
-		victory_points = {
-			4111 5
-		}
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -21,6 +18,6 @@ state={
 
 
 	provinces={
-		1074 4111 4486 4550 7184 
+		4486 7184 10383 12316 2013 
 	}
 }

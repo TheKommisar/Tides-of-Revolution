@@ -1,0 +1,66 @@
+﻿capital = 676
+
+OOB = "ASY_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+        totalitarian_socialist = 0
+	collectivist = 0
+	revolutionary_socialist = 0
+	democratic_socialist = 0
+        social_democrat = 0
+        social_liberal = 0
+        classic_liberal = 0
+        democratic = 0
+        neutrality = 0
+        paternal_autocrat = 100
+        fascism = 0
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Agha Petroz"
+	desc = "POLITICS_AGHA_PETROZ_DESC"
+	picture = "Agha_Petros.dds"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shimun XXI Eshai"
+	desc = "POLITICS_SHIMUN_ESHAI_DESC"
+	picture = "Shimun_Eshai.dds"
+	expire = "1999.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+##### MILITARY
+
+create_field_marshal = {
+	name = "Agha Petroz"
+	picture = "Agha_Petros.dds"
+	traits = { offensive_doctrine desert_fox war_hero }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
