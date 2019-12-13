@@ -188,9 +188,9 @@ set_politics = {
 }
 set_popularities = {
         totalitarian_socialist = 1
-	collectivist = 0
-	revolutionary_socialist = 2
-	democratic_socialist = 4
+	vanguardist = 0
+        orthodox_marxist = 2
+	revolutionary_socialist = 4
         social_democrat = 21
         social_liberal = 35
         classic_liberal = 9

@@ -23,7 +23,7 @@ set_politics = {
 set_popularities = {
 	democratic = 98
 	fascism = 1
-	collectivist = 1
+	vanguardist = 1
 }
 
 create_country_leader = {

@@ -16,9 +16,9 @@ set_politics = {
 }
 set_popularities = {
         totalitarian_socialist = 0
-	collectivist = 0
+	vanguardist = 0
+        orthodox_marxist = 0
 	revolutionary_socialist = 0
-	democratic_socialist = 0
         social_democrat = 0
         social_liberal = 0
         classic_liberal = 0
