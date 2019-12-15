@@ -1,4 +1,4 @@
-﻿capital = 584
+﻿capital = 405
 
 OOB = "TRK_1936"
 
@@ -17,9 +17,9 @@ set_politics = {
 
 set_popularities = {
         totalitarian_socialist = 4
-	communism = 6
+	vanguardist = 6
+        orthodox_marxist = 5
 	revolutionary_socialist = 10
-	democratic_socialist = 5
         social_democrat = 30
         social_liberal = 3
         classic_liberal = 12

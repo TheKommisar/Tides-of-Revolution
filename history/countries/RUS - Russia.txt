@@ -52,9 +52,9 @@ set_politics = {
 
 set_popularities = {
         totalitarian_socialist = 0
-	communism = 3
-	revolutionary_socialist = 4
-	democratic_socialist = 2
+	vanguardist = 3
+        orthodox_marxist = 0
+	revolutionary_socialist = 6
         social_democrat = 16
         social_liberal = 12
         classic_liberal = 2
