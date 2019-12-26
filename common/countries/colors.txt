@@ -55,8 +55,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 179 138 184 }
+	color_ui = rgb { 179 138 184 }
 }
 ITA = {
 	color = rgb { 59 148 65 }
@@ -564,4 +564,12 @@ FER = {
 ASY = {
 	color = rgb { 80 120 230 }
 	color_ui = rgb { 80 120 230 }
+}
+SPA = {
+	color = rgb { 242  205  94 }
+	color_ui = rgb { 242  205  94 }
+}
+TRA = {
+        color = rgb { 102 51 0 }
+	color_ui = rgb { 102 51 0 }
 }

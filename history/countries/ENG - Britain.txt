@@ -101,6 +101,10 @@ if = {
 add_ideas = {
 	stiff_upper_lip
 	ENG_the_war_to_end_all_wars
+        ENG_Herbert_Samuel_hog
+        ENG_David_Lloyd_George_frm
+        ENG_Isaac_Foot_eco
+        ENG_Winston_Churchill_sec
 }
 	
 
@@ -146,22 +150,27 @@ if = {
         set_autonomy = {
 		target = IRE
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
+		freedom_level = 0.8
 	}
         set_autonomy = {
 		target = BWA
 		autonomous_state = autonomy_colony
-		freedom_level = 0.2
+		freedom_level = 0.3
 	}
         set_autonomy = {
 		target = EGY
 		autonomous_state = autonomy_protectorate
-		freedom_level = 0.2
+		freedom_level = 0.9
 	}
         set_autonomy = {
 		target = ISR
 		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
+		freedom_level = 0.6
+	}
+        set_autonomy = {
+		target = SUD
+		autonomous_state = autonomy_protectorate
+		freedom_level = 0.9
 	}
 	else = {
 		puppet = MAL
@@ -170,6 +179,7 @@ if = {
                 puppet = BWA
                 puppet = EGY
                 puppet = ISR
+                puppet = SUD
 	}
 }
 
@@ -194,10 +204,10 @@ set_popularities = {
         social_democrat = 21
         social_liberal = 35
         classic_liberal = 9
-        democratic = 26
-        neutrality = 0
+        social_conservative = 26
+        authoritarian_democrat = 0
         paternal_autocrat = 0
-        fascism = 2
+        national_populist = 2
 }
 
 

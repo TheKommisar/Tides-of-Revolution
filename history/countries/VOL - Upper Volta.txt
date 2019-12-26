@@ -21,10 +21,10 @@ set_popularities = {
         social_democrat = 40
         social_liberal = 15
         classic_liberal = 5
-        democratic = 10
-        neutrality = 3
+        social_conservative = 10
+        authoritarian_democrat = 3
         paternal_autocrat = 5
-        fascism = 10
+        national_populist = 10
 }
 create_country_leader = {
 	name = "Nazi Boni"

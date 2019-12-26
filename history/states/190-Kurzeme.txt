@@ -10,9 +10,13 @@ state={
 		victory_points = {
 			9262 3
 		}
+                victory_points = {
+			6342 5
+		}
 		owner = COU
 		buildings = {
 			infrastructure = 5
+                        industrial_complex = 1
 			9262 = {
 				naval_base = 1
 			}

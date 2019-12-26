@@ -22,10 +22,10 @@ set_popularities = {
         social_democrat = 0
         social_liberal = 0
         classic_liberal = 0
-        democratic = 0
-        neutrality = 0
+        social_conservative = 0
+        authoritarian_democrat = 0
         paternal_autocrat = 100
-        fascism = 0
+        national_populist = 0
 }
 
 set_convoys = 5

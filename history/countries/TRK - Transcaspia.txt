@@ -23,10 +23,10 @@ set_popularities = {
         social_democrat = 30
         social_liberal = 3
         classic_liberal = 12
-        democratic = 10
-        neutrality = 4
+        social_conservative = 10
+        authoritarian_democrat = 4
         paternal_autocrat = 5
-        fascism = 11
+        national_populist = 11
 }
 
 set_convoys = 5
@@ -37,6 +37,17 @@ create_country_leader = {
 	picture = "Portrait_TRK_Yakov_Popok.tga"
 	expire = "1999.1.1"
 	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mohammed Alim Khan"
+	desc = "POLITICS_MOHAMMED_KHAN_DESC"
+	picture = "Portrait_TRK_Mohammed_Alim_Khan.tga"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat
 	traits = {
 		#
 	}

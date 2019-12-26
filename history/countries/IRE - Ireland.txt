@@ -15,14 +15,14 @@ set_convoys = 10
 set_cosmetic_tag = IRE_ENG_subject
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_conservative
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	fascism = 1
+	social_conservative = 98
+	national_populist = 1
 	vanguardist = 1
 }
 
@@ -31,7 +31,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -42,7 +42,7 @@ create_country_leader = {
 	desc = "POLITICS_EOIN_ODUFFY_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

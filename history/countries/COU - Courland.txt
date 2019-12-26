@@ -29,10 +29,10 @@ set_popularities = {
         social_democrat = 4
         social_liberal = 10
         classic_liberal = 17
-        democratic = 31
-        neutrality = 10
+        social_conservative = 31
+        authoritarian_democrat = 10
         paternal_autocrat = 17
-        fascism = 3
+        national_populist = 3
 
 }
 
