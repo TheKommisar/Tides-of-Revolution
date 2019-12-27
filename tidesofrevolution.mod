@@ -1,10 +1,10 @@
-name="Tides of Revolution - World at War"
-path="mod/tidesofrevolution/"
+version="1.8.*"
 replace_path="events"
 tags={
 	"Alternative History"
-	"Gameplay"
-	"Ideologies"
 	"National Focuses"
+	"Ideologies"
+	"Gameplay"
 }
-supported_version="1.8.*"
+name="Tides of Revolution"
+path="C:/Users/Liam/Documents/Paradox Interactive/Hearts of Iron IV/mod/tidesofrevolution"
