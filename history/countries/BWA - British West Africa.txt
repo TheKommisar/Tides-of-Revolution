@@ -21,10 +21,10 @@ set_popularities = {
         social_democrat = 0
         social_liberal = 2
         classic_liberal = 0
-        democratic = 5
-        neutrality = 6
+        social_conservative = 5
+        authoritarian_democrat = 6
         paternal_autocrat = 85
-        fascism = 0
+        national_populist = 0
 }
 create_country_leader = {
 	name = "Bernard Henry Bourdillon"

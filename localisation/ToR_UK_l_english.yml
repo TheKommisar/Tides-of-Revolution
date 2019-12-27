@@ -1,16 +1,16 @@
 ﻿l_english: 
 
 #Parties
-ENG_fascism_party:0 "Empire Loyalists"
-ENG_fascism_party_long:0 "Empire Loyalist Party"
+ENG_national_populist_party:0 "Empire Loyalists"
+ENG_national_populist_party_long:0 "Empire Loyalist Party"
 ENG_vanguardist_party:0 "CPGB-Jacobins"
 ENG_vanguardist_party_long:0 "Communist Party of Great Britain - Jacobin faction"
-ENG_democratic_party:0 "Tories"
-ENG_democratic_party_long:0 "Conservative and Unionist Party"
+ENG_social_conservative_party:0 "Tories"
+ENG_social_conservative_party_long:0 "Conservative and Unionist Party"
 ENG_paternal_autocrat_party:0 "British Army"
 ENG_paternal_autocrat_party_long:0 "British Army"
-ENG_neutrality_party:0 "Constitutionalists"
-ENG_neutrality_party_long:0 "Constitutionalists"
+ENG_authoritarian_democrat_party:0 "Constitutionalists"
+ENG_authoritarian_democrat_party_long:0 "Constitutionalists"
 ENG_social_democrat_party:0 "Labour"
 ENG_social_democrat_party_long:0 "Labour Party"
 ENG_social_liberal_party:0 "Liberals"
@@ -25,16 +25,16 @@ ENG_orthodox_marxist_party:0 "Independent Labour"
 ENG_orthodox_marxist_party_long:0 "Independent Labour Party"
 
 #Country Names
- ENG_fascism:0 "Great Britain"
- ENG_fascism_DEF:0 "Great Britain"
+ ENG_national_populist:0 "Great Britain"
+ ENG_national_populist_DEF:0 "Great Britain"
  ENG_totalitarian_socialist:0 "Union of Britain"
  ENG_totalitarian_socialist_DEF:0 "the Union of Britain"
  ENG_paternal_autocrat:0 "Great Britain"
  ENG_paternal_autocrat_DEF:0 "Great Britain"
- ENG_democratic:0 "United Kingdom"
- ENG_democratic_DEF:0 "the United Kingdom"
- ENG_neutrality:1 "United Kingdom"
- ENG_neutrality_DEF:1 "the United Kingdom"
+ ENG_social_conservative:0 "United Kingdom"
+ ENG_social_conservative_DEF:0 "the United Kingdom"
+ ENG_authoritarian_democrat:1 "United Kingdom"
+ ENG_authoritarian_democrat_DEF:1 "the United Kingdom"
  ENG_orthodox_marxist:0 "Union of Britain"
  ENG_orthodox_marxist_DEF:0 "the Union of Britain"
  ENG_revolutionary_socialist:0 "Union of Britain"
@@ -48,12 +48,12 @@ ENG_orthodox_marxist_party_long:0 "Independent Labour Party"
  ENG_vanguardist:0 "Union of Britain"
  ENG_vanguardist_DEF:0 "the Union of Britain"
  
- ENG_fascism_ADJ:0 "British"
+ ENG_national_populist_ADJ:0 "British"
  ENG_totalitarian_socialist_ADJ:0 "British"
- ENG_democratic_ADJ:0 "British"
+ ENG_social_conservative_ADJ:0 "British"
  ENG_paternal_autocrat_ADJ:0 "British"
  ENG_orthodox_marxist_ADJ:0 "British"
- ENG_neutrality_ADJ:0 "British"
+ ENG_authoritarian_democrat_ADJ:0 "British"
  ENG_revolutionary_socialist_ADJ:0 "British"
  ENG_social_democrat_ADJ:0 "British"
  ENG_social_liberal_ADJ:0 "British"
@@ -65,9 +65,13 @@ ENG_orthodox_marxist_party_long:0 "Independent Labour Party"
 
 #Ministers
 #should be reintegrated
+ENG_Herbert_Samuel_hog:0 "Herbert Samuel, 1st Viscount Samuel, Prime Minister of the United Kingdom"
+ENG_Oswald_Mosley_hog:0 "Sir Oswald Mosley, 6th Baronet, Prime Minister of the United Kingdom"
+ENG_David_Lloyd_George_frm:0 "David Lloyd George, 1st Earl Lloyd-George of Dwyfor, Secretary of State for Foreign Affairs"
+ENG_Winston_Churchill_sec:0 "Winston Spencer-Churchill, Secretary of State for the Home Department"
+ENG_Isaac_Foot_eco:0 "Isaac Foot, Chancellor of the Exchequer"
+ENG_George_Lambert_int:0 "George Lambert, 1st Viscount Lambert, War Secretary"
 
-
- 
 #Focuses
 #should be reintegrated
 

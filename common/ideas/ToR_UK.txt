@@ -1,0 +1,137 @@
+ideas = {
+head_of_government = {
+        ENG_Herbert_Samuel_hog = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Herbert_Samuel_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Herbert_Samuel_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Herbert_Samuel_hog"
+			}
+			traits = {
+				hog_pragmatic_statesman
+			}
+			cancel_if_invalid = yes
+		}
+        ENG_Oswald_Mosley_hog = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Oswald_Mosley_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Oswald_Mosley_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Oswald_Mosley_hog"
+			}
+			traits = {
+				hog_pragmatic_statesman
+			}
+			cancel_if_invalid = yes
+		}
+}
+foreign_minister = {
+         ENG_David_Lloyd_George_frm = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = David_Lloyd_George_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = David_Lloyd_George_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_David_Lloyd_George_frm"
+			}
+			traits = {
+				frm_skilled_negotiator
+			}
+			cancel_if_invalid = yes
+		}
+}
+economy_minister = {
+           ENG_Isaac_Foot_eco = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Isaac_Foot_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Isaac_Foot_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Isaac_Foot_eco"
+			}
+			traits = {
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+}
+security_minister = {
+           ENG_Winston_Churchill_sec = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Winston_Churchill_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Winston_Churchill_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Winston_Churchill_sec"
+			}
+			traits = {
+				sec_british_bulldog
+			}
+			cancel_if_invalid = yes
+		}
+}
+head_of_intel = {
+           ENG_George_Lambert_int = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = George_Lambert_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = George_Lambert_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_George_Lambert_int"
+			}
+			traits = {
+				int_foreign_expert
+			}
+			cancel_if_invalid = yes
+		}
+}

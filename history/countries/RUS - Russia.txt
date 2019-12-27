@@ -44,7 +44,7 @@ add_to_faction = RUS
 set_convoys = 50
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_populist
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,10 +58,10 @@ set_popularities = {
         social_democrat = 16
         social_liberal = 12
         classic_liberal = 2
-        democratic = 7
-        neutrality = 13
+        social_conservative = 7
+        authoritarian_democrat = 13
         paternal_autocrat = 5
-        fascism = 36
+        national_populist = 36
 
 }
 
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Russia_Mikhail_Kalinin.tga"
 	expire = "1999.3.1"
-	ideology = stalinism
+	ideology = orthodox_marxist_subtype
 	traits = {
 	}
 }
@@ -135,7 +135,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Russia_Viktor_Baydalakov.tga"
 	expire = "1999.3.1"
-	ideology = nazism
+	ideology = national_populist_subtype
 	traits = {
 	}
 }

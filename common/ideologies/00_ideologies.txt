@@ -244,18 +244,13 @@ ideologies = {
 		ai_neutral = yes	
 	}
 
-	democratic = {
+	social_conservative = {
 	
 		types = {
 			
-			conservatism = {
+			social_conservative_subtype = {
 			}
 		
-			liberalism = {
-			}
-		
-			socialism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -300,20 +295,11 @@ ideologies = {
 		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
-	neutrality = { #aut dem
+	authoritarian_democrat = { #aut dem
 	
 		types = {
 		
-			despotism  = {
-			}
-			
-			oligarchism  = {
-			}
-			
-			moderatism = {
-			}
-			
-			centrism = {
+			authoritarian_democrat_subtype = {
 			}
 		}
 
@@ -384,21 +370,13 @@ ideologies = {
 		#can_be_boosted = no
 	}
 
-	fascism = { #nat col
+	national_populist = { #nat col
 	
 		types = {
 		
-			nazism = {
+			national_populist_subtype = {
 			}
 			
-			fascism_ideology = {
-			}
-			
-			falangism = {
-			}
-			
-			rexism = {
-			}
 		}
 		
 		dynamic_faction_names = {

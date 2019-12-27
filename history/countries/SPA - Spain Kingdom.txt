@@ -26,7 +26,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = social_conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -39,10 +39,10 @@ set_popularities = {
         social_democrat = 14
         social_liberal = 33
         classic_liberal = 5
-        democratic = 35
-        neutrality = 3
+        social_conservative = 35
+        authoritarian_democrat = 3
         paternal_autocrat = 1
-        fascism = 1
+        national_populist = 1
 }
 
 set_convoys = 150
@@ -110,7 +110,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "Portrait_SPR_J_M_Gil_Robles_Quinones.tga"
 	expire = "1999.1.1"
-	ideology = despotism
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -121,7 +121,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "Portrait_SPA_Infante_Jaime.tga"
 	expire = "1999.1.1"
-	ideology = conservatism
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

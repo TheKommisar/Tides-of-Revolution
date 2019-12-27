@@ -22,10 +22,10 @@ set_popularities = {
         social_democrat = 0
         social_liberal = 0
         classic_liberal = 0
-        democratic = 0
-        neutrality = 0
+        social_conservative = 0
+        authoritarian_democrat = 0
         paternal_autocrat = 100
-        fascism = 0
+        national_populist = 0
 }
 
 create_country_leader = {
@@ -52,7 +52,7 @@ create_country_leader = {
 	name = "Émile Eddé"
 	desc = ""
 	picture = "Portrait_SYR_Emile_Edde.tga"
-	ideology = market_liberal_subtype
+	ideology = classic_liberal_subtype
 	traits = {
 		#
 	}
@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "Antoun Saadeh"
 	desc = ""
 	picture = "Portrait_SYR_Antoun_Sadeh.tga"
-	ideology = nazism
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}

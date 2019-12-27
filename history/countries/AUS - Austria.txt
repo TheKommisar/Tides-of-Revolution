@@ -31,10 +31,10 @@ set_popularities = {
         social_democrat = 34
         social_liberal = 9
         classic_liberal = 17
-        democratic = 30
-        neutrality = 0
+        social_conservative = 30
+        authoritarian_democrat = 0
         paternal_autocrat = 0
-        fascism = 2
+        national_populist = 2
 
 }
 
@@ -49,6 +49,28 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = {
+	name = "Karl Eglseer"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trait_mountaineer trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Miklos Horthy"
+	picture = "Horthy.tga"
+	traits = { chief_engineer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 3
 }
 
 set_stability = 0.50

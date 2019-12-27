@@ -85,10 +85,10 @@ set_popularities = {
         social_democrat = 27
         social_liberal = 28
         classic_liberal = 34
-        democratic = 5
-        neutrality = 2
+        social_conservative = 5
+        authoritarian_democrat = 2
         paternal_autocrat = 0
-        fascism = 0
+        national_populist = 0
 }
 
 #LEADERS
@@ -138,7 +138,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Bennet_Champ_Clark.tga"
 	expire = "1999.1.1"
-	ideology = conservatism
+	ideology = social_conservative_subtype
 	traits = {
 	}
 }
@@ -168,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Theodore_Gilmore.tga"
 	expire = "1999.1.1"
-	ideology = nazism
+	ideology = national_populist_subtype
 	traits = {
 	}
 }
