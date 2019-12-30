@@ -172,6 +172,16 @@ if = {
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.9
 	}
+        set_autonomy = {
+		target = BEA
+		autonomous_state = autonomy_colony
+		freedom_level = 0.3
+	}
+        set_autonomy = {
+		target = RHO
+		autonomous_state = autonomy_colony
+		freedom_level = 0.3
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ
@@ -180,6 +190,8 @@ if = {
                 puppet = EGY
                 puppet = ISR
                 puppet = SUD
+                puppet = BEA
+                puppet = RHO
 	}
 }
 
@@ -237,7 +249,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+		
 	}
 }
 

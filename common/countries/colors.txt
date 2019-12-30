@@ -1,8 +1,8 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 77 93 83 } 
-	color_ui = rgb { 77 88 99 } #Formerly 77 88 99. Rounded it up.
+	color = rgb { 77 93 83 } #looks dark imo, might change to a more grey colour
+	color_ui = rgb { 77 88 99 } # could be rounded up to 80 90 100
 }
 ENG = {
 	color = rgb { 185 35 38 }
@@ -371,18 +371,19 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 112 88 52 }
+	color_ui = rgb { 22 95 186 }	
 }
 
+
 AZR = {
-	color = rgb { 69  151  49 }
-	color_ui = rgb { 69  151  49 }
+	color = rgb { 40 170 137 }
+	color_ui = rgb { 40 170 137 }
 }
 
 GEO = {
-	color = rgb { 255  150  150 }
-	color_ui = rgb { 255  204  204 }
+	color = rgb { 149 21 21 }
+	color_ui = rgb { 149 21 21 }
 }
 
 ARM = {
@@ -416,13 +417,13 @@ MAL = {
 }
 
 MNT = {
-	color = rgb { 77  90  105 }
+	color = rgb { 47  40  155 }
 	color_ui = rgb { 77  90  105 }
 }
 
 BLR = {
-	color = rgb { 180 220 190 }
-	color_ui = rgb { 180 220 190 }
+	color = rgb { 239 238 215 }
+	color_ui = rgb { 239 238 215 }
 }
 MAN = {
 	color = rgb { 255 120 71 }
@@ -573,4 +574,16 @@ SPA = {
 TRA = {
         color = rgb { 102 51 0 }
 	color_ui = rgb { 102 51 0 }
+}
+BEA = { 
+        color = rgb { 170 25 25 }
+        color_ui = rgb { 200 35 35 }
+}
+RHO = { 
+        color = rgb { 47 99 38 }
+        color_ui = rgb { 47 99 38 }
+}
+MOU = { 
+        color = rgb { 104 150 137 }
+        color_ui = rgb { 104 150 137 }
 }

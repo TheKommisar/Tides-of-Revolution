@@ -1,0 +1,29 @@
+spriteTypes = {
+
+#Ministers
+
+	spriteType = {
+		name = "GFX_idea_GER_Ernst_Junger_hog"
+		texturefile = "gfx/interface/ideas/GER/ministers/GER_Ernst_Junger.tga"
+	}
+     
+        spriteType = {
+		name = "GFX_idea_GER_Konstantin_Neurath_frm"
+		texturefile = "gfx/interface/ideas/GER/ministers/GER_Konstantin_Neurath.tga"
+	}
+
+        spriteType = {
+		name = "GFX_idea_GER_Alfred_Hugenberg_eco"
+		texturefile = "gfx/interface/ideas/GER/ministers/GER_Alfred_Hugenberg.tga"
+	}
+        
+        spriteType = {
+		name = "GFX_idea_GER_Otto_Lossow_sec"
+		texturefile = "gfx/interface/ideas/GER/ministers/GER_Otto_Lossow.tga"
+	}
+
+        spriteType = {
+		name = "GFX_idea_GER_Hans_Frank_int"
+		texturefile = "gfx/interface/ideas/GER/ministers/GER_Hans_Frank.tga"
+	}
+}

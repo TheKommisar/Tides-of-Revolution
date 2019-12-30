@@ -1,0 +1,116 @@
+ideas = {
+head_of_government = {
+        GER_Ernst_Junger_hog = {
+				
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ernst_Junger_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ernst_Junger_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Ernst_Junger_hog"
+			}
+			traits = {
+				#
+			}
+			cancel_if_invalid = yes
+		}
+}
+foreign_minister = {
+         GER_Konstantin_Neurath_frm = {
+				
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Konstantin_Neurath_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Konstantin_Neurath_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Konstantin_Neurath_frm"
+			}
+			traits = {
+				#
+			}
+			cancel_if_invalid = yes
+		}
+}
+economy_minister = {
+           GER_Alfred_Hugenberg_eco = {
+				
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Alfred_Hugenberg_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Alfred_Hugenberg_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Alfred_Hugenberg_eco"
+			}
+			traits = {
+				#
+			}
+			cancel_if_invalid = yes
+		}
+}
+security_minister = {
+           GER_Otto_Lossow_sec = {
+				
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Otto_Lossow_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Otto_Lossow_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Otto_Lossow_sec"
+			}
+			traits = {
+				#
+			}
+			cancel_if_invalid = yes
+		}
+}
+head_of_intel = {
+           GER_Hans_Frank_int = {
+				
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Hans_Frank_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Hans_Frank_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Hans_Frank_int"
+			}
+			traits = {
+				int_foreign_expert
+			}
+			cancel_if_invalid = yes
+		}
+}

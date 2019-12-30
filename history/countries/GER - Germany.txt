@@ -127,6 +127,10 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+        GER_Ernst_Junger_hog
+        GER_Konstantin_Neurath_frm
+        GER_Alfred_Hugenberg_eco
+        GER_Otto_Lossow_sec
 }
 
 create_country_leader = {
