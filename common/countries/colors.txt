@@ -563,7 +563,7 @@ FER = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
 }
-ASY = {
+KUR = {
 	color = rgb { 80 120 230 }
 	color_ui = rgb { 80 120 230 }
 }

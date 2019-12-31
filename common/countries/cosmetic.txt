@@ -226,3 +226,8 @@ RHO_british = {
         color = rgb { 170 25 25 }
         color_ui = rgb { 200 35 35 }
 }
+
+SUD_british = { 
+        color = rgb { 170 25 25 }
+        color_ui = rgb { 200 35 35 }
+}

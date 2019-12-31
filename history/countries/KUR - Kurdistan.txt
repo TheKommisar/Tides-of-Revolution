@@ -1,6 +1,6 @@
 ﻿capital = 676
 
-OOB = "ASY_1936"
+OOB = "KUR_1936"
 
 set_technology = {
 	infantry_weapons = 1
@@ -31,9 +31,9 @@ set_popularities = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Agha Petroz"
-	desc = "POLITICS_AGHA_PETROZ_DESC"
-	picture = "Agha_Petros.dds"
+	name = "Mahmud Barzanji"
+	desc = "POLITICS_MAHMUD_BARZANJI_DESC"
+	picture = "Portrait_KUR_Mahmud_Barzanji.tga"
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
