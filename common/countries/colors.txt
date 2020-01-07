@@ -584,6 +584,10 @@ RHO = {
         color_ui = rgb { 47 99 38 }
 }
 MOU = { 
-        color = rgb { 104 150 137 }
-        color_ui = rgb { 104 150 137 }
+        color = rgb { 49 104 49 }
+        color_ui = rgb { 49 104 49 }
+}
+CRI = { 
+        color = rgb { 17 51 95 }
+        color_ui = rgb { 17 51 95 }
 }

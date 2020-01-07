@@ -60,7 +60,14 @@ USA_orthodox_marxist_party_long:0 "Socialist Party of America
  USA_classic_liberal_ADJ:0 "American"
  USA_vanguardist_ADJ:0 "American"
 
-
+ usa.101.t:0 "Pershing requests to return to active service!"
+ usa.101.d:0 "Although having retired in 1924, General of the Armies John Joseph "Black Jack" Pershing has offered to come out of retirement and serve his nation in this time of war. Pershing served in the Great War as the commander of the American Expeditionary Force and led his forces to victory, and in a letter to the president he requests to be returned to active military service in order to oversee the command of the armed forces in this war and achieve victory once again. Though skilled and highly experienced, many other commanders in the army are reluctant as to whether or not his ideas are still up-to-date, since military tactics and warfare has come a considerable legnth since World War One."
+ usa.101.a:0 "He must return to the military."
+ usa.101.b:0 "We do not need him."
+ usa.102.t:0 "An offer from Siam"
+ usa.102.d:0 "The King Prajadhipok of Siam, or Rama VII, has approached the American ambassador to Siam offering us an elephant volunteer division for the war effort and a few other artifacts as a sign of goodwill and support for our faction in this time of crisis. Although support for our cause is welcome, the letter also stated that we would be fully responsible in taking care of these elephants for the duration of the war effort. One elephant itself incurs a great expense to care for, let alone a thousand of them, and we can’t possibly divert resources directed for the war effort for each one of them. As well as that, elephants are also slow moving and easy targets for the enemy to take down. Yet, the elephants in the division are white elephants, and should we decline their offer the Siamese government would view our declination as a severe insult as a white elephant in Siamese culture is the greatest gift one could offer."
+ usa.102.a:0 "We'll take anything we can get."
+ usa.102.b:0 "No, thank you."
 
 
 #Ministers
