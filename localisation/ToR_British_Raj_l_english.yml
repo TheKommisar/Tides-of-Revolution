@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+RAJ_national_populist_party:0 "Hindu Grand-Assembly"
+RAJ_national_populist_party_long:0 "All-India Hindu Grand-Assembly"
+RAJ_vanguardist_party:0 "AIFB"
+RAJ_vanguardist_party_long:0 "All India Forward Bloc"
+RAJ_social_conservative_party:0 "Unionist Party"
+RAJ_social_conservative_party_long:0 "Unionist Party"
+RAJ_paternal_autocrat_party:0 "Colonial Service"
+RAJ_paternal_autocrat_party_long:0 "His Majesty's Colonial Service"
+RAJ_authoritarian_democrat_party:0 "Colonial Service"
+RAJ_authoritarian_democrat_party_long:0 "His Majesty's Colonial Service"
+RAJ_social_democrat_party:0 "INC"
+RAJ_social_democrat_party_long:0 "Indian National Congress"
+RAJ_social_liberal_party:0 "Swaraj Party"
+RAJ_social_liberal_party_long:0 "Swaraj Party"
+RAJ_classic_liberal_party:0 "ILP"
+RAJ_classic_liberal_party_long:0 "Indian Liberal Party"
+RAJ_totalitarian_socialist_party:0 "AIFB"
+RAJ_totalitarian_socialist_party_long:0 "All India Forward Bloc"
+RAJ_revolutionary_socialist_party:0 "Congress Socialists"
+RAJ_revolutionary_socialist_party_long:0 "Congress Socialist Party"
+RAJ_orthodox_marxist_party:0 "CPI"
+RAJ_orthodox_marxist_party_long:0 "Communist Party of India"
+
+#Country Names
+RAJ_national_populist:0 "Free India"
+RAJ_national_populist_DEF:0 "Free India"
+RAJ_totalitarian_socialist:0 "Bharatiya Commune"
+RAJ_totalitarian_socialist_DEF:0 "the Bharatiya Commune"
+RAJ_paternal_autocrat:0 "India"
+RAJ_paternal_autocrat_DEF:0 "India"
+RAJ_social_conservative:0 "Indian Republic"
+RAJ_social_conservative_DEF:0 "the Indian Republic"
+RAJ_authoritarian_democrat:1 "India"
+RAJ_authoritarian_democrat_DEF:1 "India"
+RAJ_orthodox_marxist:0 "Bharatiya Commune""
+RAJ_orthodox_marxist_DEF:0 "the Bharatiya Commune"
+RAJ_revolutionary_socialist:0 "Bharatiya Commune"
+RAJ_revolutionary_socialist_DEF:0 "the Bharatiya Commune"
+RAJ_social_democrat:0 "Indian Republic"
+RAJ_social_democrat_DEF:0 "the Indian Republic"
+RAJ_social_liberal:0 "Indian Republic"
+RAJ_social_liberal_DEF:0 "the Indian Republic"
+RAJ_classic_liberal:0 "Indian Republic"
+RAJ_classic_liberal_DEF:0 "the Indian Republic"
+RAJ_vanguardist:0 "Bharatiya Commune"
+RAJ_vanguardist_DEF:0 "the Bharatiya Commune"
+ 
+RAJ_national_populist_ADJ:0 "Indian"
+RAJ_totalitarian_socialist_ADJ:0 "Indian"
+RAJ_social_conservative_ADJ:0 "Indian"
+RAJ_paternal_autocrat_ADJ:0 "Indian"
+RAJ_orthodox_marxist_ADJ:0 "Indian"
+RAJ_authoritarian_democrat_ADJ:0 "Indian"
+RAJ_revolutionary_socialist_ADJ:0 "Indian"
+RAJ_social_democrat_ADJ:0 "Indian"
+RAJ_social_liberal_ADJ:0 "Indian"
+RAJ_classic_liberal_ADJ:0 "Indian"
+RAJ_vanguardist_ADJ:0 "Indian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+
+RAJ_UK_autonomy_dominion:0 "Dominion of India"
+ 

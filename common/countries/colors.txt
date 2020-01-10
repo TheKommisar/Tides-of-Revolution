@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 77 88 99 } # could be rounded up to 80 90 100
 }
 ENG = {
-	color = rgb { 185 35 38 }
-	color_ui = rgb { 255 43 46 }
+	color = rgb { 170 25 25 }
+        color_ui = rgb { 200 35 35 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -301,8 +301,8 @@ SLO = {
 	color_ui = rgb { 255 255 255 }
 }
 RAJ = {
-	color = rgb { 204 102 0 }
-	color_ui = rgb { 255 128 0 }
+	color = rgb { 158 50 50 }
+	color_ui = rgb { 158 50 50 }
 }
 
 CRO = {
