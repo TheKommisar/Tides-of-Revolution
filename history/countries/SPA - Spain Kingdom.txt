@@ -50,6 +50,9 @@ set_stability = 0.4
 
 add_ideas = {
 SPA_crisis_in_the_government
+SPA_strong_military
+SPA_crisis_in_government_hidden
+SPA_national_unrest
 }
 
 #LEADERS
