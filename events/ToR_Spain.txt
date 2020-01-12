@@ -5,9 +5,9 @@
 add_namespace = spain
 
 country_event = { #monthly unrest
-	id = spain.1
- title = spain.1.t	
-	desc = spain.1.d
+	id = spain.1000
+ title = spain.1000.t	
+	desc = spain.1000.d
 	picture = GFX_report_event_people_running
 	
 	mean_time_to_happen = { days = 30 }
@@ -20,7 +20,7 @@ country_event = { #monthly unrest
  }
 	
 	option = {
-		name = spain.1.a
+		name = spain.1000.a
  add_political_power = -40
  hidden_effect = {
  add_to_var = { SPA_unrest_level = 1 }
@@ -29,9 +29,9 @@ country_event = { #monthly unrest
 }
 
 country_event = { #unrest is high
-	id = spain.2
- title = spain.2.t	
-	desc = spain.2.d
+	id = spain.2000
+ title = spain.2000.t	
+	desc = spain.2000.d
 	picture = GFX_report_event_people_running
 	
 	mean_time_to_happen = { days = 60 }
@@ -47,7 +47,7 @@ country_event = { #unrest is high
  }
 	
 	option = {
-		name = spain.2.a
+		name = spain.2000.a
  add_political_power = -75
  hidden_effect = {
  add_to_var = { SPA_unrest_level = 2 }
