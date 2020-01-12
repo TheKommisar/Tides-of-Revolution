@@ -16,7 +16,7 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,12 +27,16 @@ set_popularities = {
         orthodox_marxist = 0
 	revolutionary_socialist = 0
         social_democrat = 1
-        social_liberal = 5
-        classic_liberal = 10
-        social_conservative = 14
-        authoritarian_democrat = 52
-        paternal_autocrat = 8
-        national_populist = 10
+        social_liberal = 8
+        classic_liberal = 1
+        social_conservative = 6
+        authoritarian_democrat = 6
+        paternal_autocrat = 64
+        national_populist = 14
+}
+
+add_ideas = {
+IRQ_religious_schism
 }
 
 create_country_leader = {
@@ -40,7 +44,7 @@ create_country_leader = {
 	desc = "POLITICS_ZEID_I_DESC"
 	picture = "Portrait_IRQ_Zeid_Hashmid.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
