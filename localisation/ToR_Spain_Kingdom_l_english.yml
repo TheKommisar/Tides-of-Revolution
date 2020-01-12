@@ -75,9 +75,13 @@ SPA_session_with_the_clergy:0 "Session with the Clergy"
 
 #Events
 
-spain.1.t:0 "The Monthly Strike"
+spain.1.t:0 "The Monthly Riots"
 spain.1.d:0 "As our regime is ineffictively, some of the peasants are striking against our rule and questioning our authority."
 spain.1.a:0 "Troublesome Peasants"
+
+spain.2.t:0 "Bigger than expected"
+spain.2.d:0 "As we're ignoring the monthly riots, the riots are going far worse than expected."
+spain.2.a:0 "Damn it peasants!"
 
 #Descriptions
 

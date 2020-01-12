@@ -34,7 +34,7 @@ country_event = { #unrest is high
 	desc = spain.2.d
 	picture = GFX_report_event_people_running
 	
-	mean_time_to_happen = { days = 45 }
+	mean_time_to_happen = { days = 60 }
  
  trigger = {
  tag = SPA
@@ -47,7 +47,7 @@ country_event = { #unrest is high
  }
 	
 	option = {
-		name = spain.1.a
+		name = spain.2.a
  add_political_power = -75
  hidden_effect = {
  add_to_var = { SPA_unrest_level = 2 }
