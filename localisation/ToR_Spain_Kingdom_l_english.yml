@@ -74,7 +74,10 @@ SPA_address_the_cabinet:0 "Address the Cabinet"
 SPA_session_with_the_clergy:0 "Session with the Clergy"
 
 #Events
-#should be reintegrated
+
+spain.1.t:0 "The Monthly Strike"
+spain.1.d:0 "As our regime is ineffictively, some of the peasants are striking against our rule and questioning our authority."
+spain.1.a:0 "Troublesome Peasants"
 
 #Descriptions
 
@@ -91,3 +94,6 @@ SPA_national_unrest_desc:0 "Our ineffictive regime is treating the peasants and 
 
 #cosmetic tags
  
+#Flags
+SPA_reforms:0 "The Royal Reforms"
+SPA_lowered_unrest:0 "The unrest has been eased"

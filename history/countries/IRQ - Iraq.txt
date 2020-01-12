@@ -37,6 +37,8 @@ set_popularities = {
 
 add_ideas = {
 IRQ_religious_schism
+IRQ_unpopular_monarch
+IRQ_golden_square
 }
 
 create_country_leader = {

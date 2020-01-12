@@ -1,0 +1,26 @@
+###########################
+# Spanish Events
+###########################
+
+add_namespace = spain
+
+country_event = { #monthly_unrest
+	id = spain.1
+ title = spain.1.t	
+	desc = spain.1.d
+	picture = GFX_report_event_people_running
+	
+	mean_time_to_happen = { days = 30 }
+ 
+ trigger = {
+ tag = SPA
+ date > 1.1.1936
+ has_idea = SPA_national_unrest
+ NOT = { has_country_flag = SPA_lowered_unrest }
+ }
+	
+	option = {
+		name = spain.1.a
+ add_political_power = -40
+	}
+}
