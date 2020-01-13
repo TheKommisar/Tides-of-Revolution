@@ -1,0 +1,14 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "SPA_strong_army"
+		texturefile = "gfx/interface/ideas/SPA/SPA_strong_army.png"
+	}
+spriteType = {
+		name = "SPA_crisis_in_the_government"
+		texturefile = "gfx/interface/ideas/SPA/SPA_crisis_in_the_government.png"
+	}
+}
