@@ -1,8 +1,8 @@
 ﻿l_english: 
 
 #Parties
-IRQ_national_populist_party:0 ""
-IRQ_national_populist_party_long:0 ""
+IRQ_national_populist_party:0 "Golden Square"
+IRQ_national_populist_party_long:0 "Golden Square"
 IRQ_vanguardist_party:0 ""
 IRQ_vanguardist_party_long:0 ""
 IRQ_social_conservative_party:0 ""
@@ -66,8 +66,9 @@ IRQ_vanguardist_ADJ:0 "Iraqi"
 #Ministers
 #should be reintegrated
 
-
- 
+#Ideas
+IRQ_religious_schism:0 "Religious Schism"
+IRQ_religious_schism_desc:0 "The Sunnis and Shiites are hating eachother so they fight in our regime violently."
 #Focuses
 #should be reintegrated
 

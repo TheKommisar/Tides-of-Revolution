@@ -67,7 +67,11 @@ SPA_vanguardist_ADJ:0 "Spanish"
 
  
 #Focuses
-#should be reintegrated
+
+SPA_matters_at_hand:0 "Matters at Hand"
+SPA_calamity_at_the_countryside:0 "Calamity at the Countryside"
+SPA_address_the_cabinet:0 "Address the Cabinet"
+SPA_session_with_the_clergy:0 "Session with the Clergy"
 
 SPA_matters_at_hand:0 "The Matters at Hand"
 SPA_matters_at_hand_desc:0 "Spain has been riddled with internal problems threatening to overthrow the monarchy ever since the Spanish-American War. If Spain is to be the next great power these things need to end immediately."
@@ -75,7 +79,14 @@ SPA_session_with_the_clergy:0 "Session with the Clergy"
 SPA_session_with_the_clergy_desc:0 "The Roman Catholic Church is one of the most powerful organisations in Spain, yet they show great dissatisfaction at our leadership. We need to discuss why and what we are able to do to change this."
 
 #Events
-#should be reintegrated
+
+spain.1000.t:0 "The Monthly Riots"
+spain.1000.d:0 "As our regime is ineffictively, some of the peasants are striking against our rule and questioning our authority."
+spain.1000.a:0 "Troublesome Peasants"
+
+spain.2000.t:0 "Bigger than expected"
+spain.2000.d:0 "As we're ignoring the monthly riots, the riots are going far worse than expected."
+spain.2000.a:0 "Damn it peasants!"
 
 #Descriptions
 
@@ -83,11 +94,14 @@ POLITICS_ALFONSO_XIII_DESC:0 "Born on May 17 1886, Alfonso XIII of Spain is not 
 
 #Ideas
 SPA_crisis_in_the_government:0 "Crisis in the Cabinet"
-SPA_crisis_in_the_government_desc:0 "The cabinet is fractured and the government is in disaster - WIP Desc (im noob in writing descs)"
+SPA_crisis_in_the_government_desc:0 "The cabinet is fractured and the government is not working as intended."
 SPA_strong_military:0 "The Bull that Braves"
 SPA_strong_military_desc:0 "The Spanish Army is the main land army of the Kingdom of Spain. Founded sometime in the 15th century, it has existed continuously since the reign of King Ferdinand II of Aragon. It is one of the oldest and strongest land armies on earth, and has played a major role in keeping stability in the Kingdom.\n\nVeteran and War Hero General Francisco Franco leads the force as its Chief of Staff, with his prior experience coming from the wars in the Rif and Morocco, the latter of which he oversaw to victory. Franco’s most famous victory was at the Battle of Khenifra in 1924, where an encircled and outmanned Spanish expeditionary force led by Franco was able to annihilate the much larger Berber force, crippling their fighting capabilities and eventually forcing them to sue for peace.\n\n§RHowever, this can backfire at us§"
 SPA_national_unrest:0 "National Unrest"
-SPA_national_unrest_desc:0 "Tl;dr the peasants HATE us"
+SPA_national_unrest_desc:0 "Our ineffictive regime is treating the peasants and the working class improperly, and they're wanting to overthrow us with any means."
 
 #cosmetic tags
  
+#Flags
+SPA_reforms:0 "The Royal Reforms"
+SPA_lowered_unrest:0 "The unrest has been eased"
