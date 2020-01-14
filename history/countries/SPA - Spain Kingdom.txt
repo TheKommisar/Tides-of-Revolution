@@ -1,6 +1,13 @@
 ﻿capital = 41
 
 oob = "SPR_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SPR_1936_naval_mtg"
+	else = {
+		set_naval_oob = "SPR_1936_naval_legacy"
+	}
+}
 
 set_research_slots = 3
 
@@ -50,6 +57,8 @@ set_stability = 0.4
 
 add_ideas = {
 SPA_crisis_in_the_government
+SPA_strong_military
+SPA_national_unrest
 }
 
 #LEADERS
@@ -167,6 +176,17 @@ create_country_leader = {
 #COMMANDERS
 
 create_field_marshal = {
+	name = "José Sanjurjo Sacanell"
+	picture = "Portrait_SPA_Sanjurjo_Sacanell.tga"
+	traits = { old_guard }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_field_marshal = {
 	name = "José Miaja"
 	picture = "Jose_Miaja.tga"
 	traits = { defensive_doctrine }
@@ -199,6 +219,27 @@ create_corps_commander = {
     logistics_skill = 1
 }
 
+create_corps_commander = {
+	name = "Francisco Franco"
+	picture = "SPA_Francisco_Franco.tga"
+	traits = { hill_fighter war_hero career_officer infantry_officer }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Rafael Estrada Arnais"
+	picture = "Portrait_SPA_Estrada_Arnais.tga"
+	skill = 2
+	maneuvering_skill = 2
+	defense_skill = 1
+	attack_skill = 1
+	coordination_skill = 2
+	id = 309
+}
 
 ### Ship Variants ###
 

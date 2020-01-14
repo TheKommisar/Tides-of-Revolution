@@ -1,0 +1,70 @@
+focus_tree = {
+	id = spain_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPA
+		}
+	}
+	
+	focus = {
+		id = SPA_matters_at_hand
+		icon = GFX_focus_spa_matters_at_hand
+		x = 3
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		reward = {
+		set_country_flag = SPA_reforms
+		}
+	}
+ 
+	focus = {
+		id = SPA_calamity_at_the_countryside
+		icon = GFX_goal_unknown 
+		x = 3
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+		focus = SPA_matters_at_hand
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = SPA_address_the_cabinet
+		icon = GFX_goal_unknown 
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+		focus = SPA_matters_at_hand
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = SPA_session_with_the_clergy
+		icon = GFX_focus_spa_session_with_the_clergy
+		x = 6
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+		focus = SPA_matters_at_hand
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	} 
+}

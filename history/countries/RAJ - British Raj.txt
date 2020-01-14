@@ -203,6 +203,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "T.E. Lawrence"
+        desc = "RAJ_TE_LAWRENCE_ARMY_DESC"
 	picture = "TELawrence.dds"
 	traits = { trickster war_hero guerilla_fighter desert_fox }
 	skill = 3
