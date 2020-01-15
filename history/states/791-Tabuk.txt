@@ -1,0 +1,17 @@
+state={
+	id=791
+	name="STATE_791"
+	provinces={
+		1033 12101 12455 
+	}
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SYR
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
