@@ -1,0 +1,91 @@
+l_english: 
+
+#Parties
+SAU_national_populist_party:0 "Ikhwan"
+SAU_national_populist_party_long:0 "Ikhwan"
+SAU_collectivist_party:0 ""
+SAU_collectivist_party_long:0 ""
+SAU_social_conservative_party:0 ""
+SAU_social_conservative_party_long:0 ""
+SAU_paternal_autocrat_party:0 "House of Saud"
+SAU_paternal_autocrat_party_long:0 "House of Saud"
+SAU_authoritarian_democrat_party:0 "House of Saud"
+SAU_authoritarian_democrat_party_long:0 "House of Saud"
+SAU_social_democrat_party:0 ""
+SAU_social_democrat_party_long:0 ""
+SAU_social_liberal_party:0 ""
+SAU_social_liberal_party_long:0 ""
+SAU_classic_liberal_party:0 ""
+SAU_classic_liberal_party_long:0 ""
+SAU_totalitarian_socialist_party:0 ""
+SAU_totalitarian_socialist_party_long:0 ""
+SAU_revolutionary_socialist_party:0 ""
+SAU_revolutionary_socialist_party_long:0 ""
+SAU_orthodox_marxist_party:0 ""
+SAU_orthodox_marxist_party_long:0 ""
+
+#Country Names
+ SAU_national_populist:0 "Emirate of Nejd"
+ SAU_national_populist_DEF:0 "the Emirate of Nejd"
+ SAU_totalitarian_socialist:0 "United Arab Republic"
+ SAU_totalitarian_socialist_DEF:0 "the United Arab Republic"
+ SAU_paternal_autocrat:0 "Emirate of Nejd"
+ SAU_paternal_autocrat_DEF:0 "Emirate of Nejd"
+ SAU_social_conservative:0 "Emirate of Nejd"
+ SAU_social_conservative_DEF:0 "Emirate of Nejd"
+ SAU_authoritarian_democrat:0 "Emirate of Nejd"
+ SAU_authoritarian_democrat_DEF:0 "Emirate of Nejd"
+ SAU_orthodox_marxist:0 "United Arab Republic"
+ SAU_orthodox_marxist_DEF:0 "the United Arab Republic"
+ SAU_revolutionary_socialist:0 "United Arab Republic"
+ SAU_revolutionary_socialist_DEF:0 "the United Arab Republic"
+ SAU_social_democrat:0 "Emirate of Nejd"
+ SAU_social_democrat_DEF:0 "Emirate of Nejd"
+ SAU_social_liberal:0 "Emirate of Nejd"
+ SAU_social_liberal_DEF:0 "Emirate of Nejd"
+ SAU_classic_liberal:0 "Emirate of Nejd"
+ SAU_classic_liberal_DEF:0 "Emirate of Nejd"
+ SAU_vanguardist:0 "United Arab Republic"
+ SAU_vanguardist_DEF:0 "the United Arab Republic"
+ 
+ SAU_national_populist_ADJ:0 "Nejdi"
+ SAU_totalitarian_socialist_ADJ:0 "Nejdi"
+ SAU_social_conservative_ADJ:0 "Nejdi"
+ SAU_paternal_autocrat_ADJ:0 "Nejdi"
+ SAU_orthodox_marxist_ADJ:0 "Nejdi"
+ SAU_authoritarian_democrat_ADJ:0 "Nejdi"
+ SAU_revolutionary_socialist_ADJ:0 "Nejdi"
+ SAU_social_democrat_ADJ:0 "Nejdi"
+ SAU_social_liberal_ADJ:0 "Nejdi"
+ SAU_classic_liberal_ADJ:0 "Nejdi"
+ SAU_vanguardist_ADJ:0 "Nejdi"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+
+##Ikhwan
+
+SAU_IKH_national_populist:0 "Ikhwan"
+SAU_IKH_national_populist_DEF:0 "the Ikhwan"
+SAU_IKH_national_populist_ADJ:0 "Ikhwani"
+
+##Unification
+
+SAU_UNIF_authoritarian_democrat:0 "Kingdom of Saudi Arabia"
+SAU_UNIF_authoritarian_democrat_DEF:0 "the Kingdom of Saudi Arabia"
+SAU_UNIF_authoritarian_democrat_ADJ:0 "Saudi"
