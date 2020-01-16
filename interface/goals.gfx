@@ -1347,4 +1347,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/spa_session_with_the_clergy.tga"
 	}
 
+        SpriteType = { 
+		name = "GFX_focus_spa_chaos_in_the_countryside"
+		texturefile = "gfx/interface/goals/chaos_in_the_countryside.dds"
+	}
+
+        SpriteType = { 
+		name = "GFX_focus_spa_address_the_cabinet"
+		texturefile = "gfx/interface/goals/address_the_cabinet.dds"
+	}
+
 }

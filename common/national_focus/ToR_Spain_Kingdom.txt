@@ -24,8 +24,8 @@ focus_tree = {
 	}
  
 	focus = {
-		id = SPA_calamity_at_the_countryside
-		icon = GFX_goal_unknown 
+		id = SPA_chaos_in_the_countryside
+		icon = GFX_focus_spa_chaos_in_the_countryside
 		x = 3
 		y = 1
 		cost = 10
@@ -40,7 +40,7 @@ focus_tree = {
 	
 	focus = {
 		id = SPA_address_the_cabinet
-		icon = GFX_goal_unknown 
+		icon = GFX_focus_spa_address_the_cabinet
 		x = 0
 		y = 1
 		cost = 10

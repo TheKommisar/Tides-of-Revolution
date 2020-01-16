@@ -591,7 +591,3 @@ CRI = {
         color = rgb { 17 51 95 }
         color_ui = rgb { 17 51 95 }
 }
-HEJ = { 
-	color = rgb { 171  190  152 }
-	color_ui = rgb { 171 190 152 }
-}

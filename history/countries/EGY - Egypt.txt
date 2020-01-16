@@ -34,8 +34,8 @@ set_popularities = {
         social_liberal = 0
         classic_liberal = 0
         social_conservative = 0
-        authoritarian_democrat = 30
-        paternal_autocrat = 70
+        authoritarian_democrat = 0
+        paternal_autocrat = 100
         national_populist = 0
 }
 
@@ -44,16 +44,6 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Egypt_Fuad_I.tga"
 	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Colonial Administration"
-	desc = ""
-	picture = "Portrait_Egypt_Fuad_I.tga"
-	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
