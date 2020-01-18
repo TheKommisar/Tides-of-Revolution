@@ -6,18 +6,20 @@ set_technology = {
 	gwtank = 1
 }
 
-if = {
-	limit = {
-		EGY = {
-			is_puppet_of = ENG
-		}
-	}
-	EGY = {
-		set_cosmetic_tag = EGY_UK
-	}
-}
+#if = {
+#	limit = {
+#		EGY = {
+#			is_puppet_of = ENG
+#		}
+#	}
+#	EGY = {
+#		set_cosmetic_tag = EGY_UK
+	#}
+#}
 
 set_convoys = 20
+
+set_cosmetic_tag = EGY_UK
 
 set_politics = {
 	ruling_party = paternal_autocrat
@@ -31,12 +33,12 @@ set_popularities = {
         orthodox_marxist = 0
 	revolutionary_socialist = 0
         social_democrat = 0
-        social_liberal = 0
-        classic_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 30
-        paternal_autocrat = 70
-        national_populist = 0
+        social_liberal = 7
+        classic_liberal = 3
+        social_conservative = 10
+        authoritarian_democrat = 20
+        paternal_autocrat = 56
+        national_populist = 14
 }
 
 create_country_leader = {

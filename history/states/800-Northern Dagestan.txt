@@ -1,0 +1,19 @@
+state={
+	id=800
+	name="STATE_800"
+	manpower = 1
+
+	state_category = town
+
+	history = {
+	    owner = RUS
+	    add_core_of = RUS
+	    buildings = {
+	        infrastructure = 3
+	    }
+	}
+
+	provinces={
+		683 700 712 728 6730 6748 11632 
+	}
+}

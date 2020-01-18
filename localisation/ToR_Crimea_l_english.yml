@@ -1,0 +1,54 @@
+﻿l_english: 
+
+#Parties
+
+#Country Names
+ CRM_national_populist:0 "State of Crimea"
+ CRM_national_populist_DEF:0 "the State of Crimea"
+ CRM_totalitarian_socialist:0 "Crimean People's Republic"
+ CRM_totalitarian_socialist_DEF:0 "the Crimean People's Republic"
+ CRM_paternal_autocrat:0 "Crimean Regional Government"
+ CRM_paternal_autocrat_DEF:0 "the Crimean Regional Government"
+ CRM_social_conservative:0 "Crimea"
+ CRM_social_conservative_DEF:0 "the Crimean People's Republic"
+ CRM_authoritarian_democrat:0 "Crimean People's Republic"
+ CRM_authoritarian_democrat_DEF:0 "the Crimean People's Republic"
+ CRM_orthodox_marxist:0 "Crimea"
+ CRM_orthodox_marxist_DEF:0 "the Crimean People's Republic"
+ CRM_revolutionary_socialist:0 "Crimea"
+ CRM_revolutionary_socialist_DEF:0 "the Crimean People's Republic"
+ CRM_social_democrat:0 "Crimea"
+ CRM_social_democrat_DEF:0 "the Crimean People's Republic"
+ CRM_social_liberal:0 "Crimea"
+ CRM_social_liberal_DEF:0 "the Crimean People's Republic"
+ CRM_classic_liberal:0 "Crimea"
+ CRM_classic_liberal_DEF:0 "the Crimean People's Republic"
+ CRM_vanguardist:0 "Crimean People's Republic"
+ CRM_vanguardist_DEF:0 "the Crimean People's Republic"
+ 
+ CRM_national_populist_ADJ:0 "Crimea"
+ CRM_totalitarian_socialist_ADJ:0 "Crimea"
+ CRM_social_conservative_ADJ:0 "Crimea"
+ CRM_paternal_autocrat_ADJ:0 "Crimea"
+ CRM_orthodox_marxist_ADJ:0 "Crimea"
+ CRM_authoritarian_democrat_ADJ:0 "Crimea"
+ CRM_revolutionary_socialist_ADJ:0 "Crimea"
+ CRM_social_democrat_ADJ:0 "Crimea"
+ CRM_social_liberal_ADJ:0 "Crimea"
+ CRM_classic_liberal_ADJ:0 "Crimea"
+ CRM_vanguardist_ADJ:0 "Crimea"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

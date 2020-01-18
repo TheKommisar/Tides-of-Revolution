@@ -1,21 +1,18 @@
-
 state={
 	id=554
 	name="STATE_554"
-
+	provinces={
+		1074 4111 4486 4550 7170 7184 
+	}
 	history={
-		owner = SAU
+		owner = SYR
 		buildings = {
 			infrastructure = 3
 			air_base = 1
 
 		}
-		add_core_of = SAU
-
-	}
-
-	provinces={
-		4486 7184 
+		add_core_of = SYR
+		add_core_of = HEJ
 	}
 	manpower=547797
 	buildings_max_level_factor=1.000
