@@ -1,4 +1,4 @@
-﻿capital = 446
+capital = 292
 
 # Starting tech
 set_technology = {
@@ -6,16 +6,6 @@ set_technology = {
 	gwtank = 1
 }
 
-if = {
-	limit = {
-		EGY = {
-			is_puppet_of = ENG
-		}
-	}
-	EGY = {
-		set_cosmetic_tag = EGY_UK
-	}
-}
 
 set_convoys = 20
 
@@ -34,15 +24,15 @@ set_popularities = {
         social_liberal = 0
         classic_liberal = 0
         social_conservative = 0
-        authoritarian_democrat = 30
-        paternal_autocrat = 70
-        national_populist = 0
+        authoritarian_democrat = 5
+        paternal_autocrat = 80
+        national_populist = 15
 }
 
 create_country_leader = {
-	name = "Fuad I"
+	name = "Abdulaziz I"
 	desc = ""
-	picture = "Portrait_Egypt_Fuad_I.tga"
+	picture = ""
 	ideology = paternal_autocrat_subtype
 	traits = {
 		#
@@ -50,10 +40,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Colonial Administration"
+	name = "Faisal Al-Duwaish"
 	desc = ""
-	picture = "Portrait_Egypt_Fuad_I.tga"
-	ideology = authoritarian_democrat_subtype
+	picture = ""
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
