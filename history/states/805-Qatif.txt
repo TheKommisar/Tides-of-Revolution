@@ -1,8 +1,11 @@
 state={
-	id=806
-	name="STATE_806"
+	id=805
+	name="STATE_805"
 	provinces={
 		1955 10791 12702 
+	}
+	history={
+		owner = IRQ
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
