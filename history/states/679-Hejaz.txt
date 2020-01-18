@@ -1,14 +1,12 @@
+
 state={
 	id=679
 	name="STATE_679"
-	manpower = 1511000
-	
-	state_category = slightly_sparse
 
 	history={
 		owner = HEJ
-		victory_points = { 
-		    5037 10
+		victory_points = {
+			5037 10 
 		}
 		victory_points = {
 			12758 1 
@@ -20,14 +18,19 @@ state={
 			infrastructure = 3
 			12883 = {
 				naval_base = 5
+
 			}
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
 		add_core_of = HEJ
+
 	}
 
 	provinces={
-		1033 2027 2033 2090 2095 4981 5037 7934 8092 10748 10835 12101 12758 12883 1923
+		1033 1923 2027 2033 2090 2095 4981 5037 7934 8092 10748 10835 12101 12758 12883 
 	}
+	manpower=1511000
+	buildings_max_level_factor=1.000
 }

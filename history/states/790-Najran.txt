@@ -1,0 +1,17 @@
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		5006 8073 10786 
+	}
+	history={
+		owner = YEM
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = YEM
+		add_core_of = HEJ
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
