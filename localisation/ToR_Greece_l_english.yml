@@ -1,14 +1,14 @@
 ﻿l_english: 
 
 #Parties
-GRE_national_populist_party:0 "EEE"
-GRE_national_populist_party_long:0 "Ethniki Enosis Ellados"
+GRE_national_populist_party:0 "EV"
+GRE_national_populist_party_long:0 "Énosis Vasilofrónon"
 GRE_vanguardist_party:0 "KKE"
 GRE_vanguardist_party_long:0 "Kommounistikó Kómma Elládas"
 GRE_social_conservative_party:0 "LK"
 GRE_social_conservative_party_long:0 "Laïkòn Kómma"
-GRE_paternal_autocrat_party:0 "Choúnta"
-GRE_paternal_autocrat_party_long:0 "Military Junta"
+GRE_paternal_autocrat_party:0 "KE"
+GRE_paternal_autocrat_party_long:0 "Kómma ton Eleftherofrónon"
 GRE_authoritarian_democrat_party:0 "KE"
 GRE_authoritarian_democrat_party_long:0 "Kómma ton Eleftherofrónon"
 GRE_social_democrat_party:0 "EME-AkP"
@@ -73,19 +73,6 @@ GRE_vanguardist_ADJ:0 "Greek"
 
 #Events
 #should be reintegrated
-
-greece.1.t:0 "Prime Minister shot and killed in Athens"
-greece.1.d:0 "It was a shot that rang across Greece.\n\nAt 3PM this afternoon, Prime Minister of Greece Eleftherios Venizelos was descending the steps of the Hellenic Parliament, after a round of fruitless, yet intense negotiations with representatives of the largest trade unions of the country. At the bottom step a congregation of journalists had camped outside since morning when the talks began, many of them foreign journalists reporting the unstable situation in Greece. Among the journalists was a relatively unknown junior reporter, reportedly working for ‘a major foreign media corporation’. As the Prime Minister was answering questions, he writhed his way towards the front, and got there just as he was about to leave for his motorcade. The reporter managed to get his attention just before he entered his car, before he reached for his pocket for a notepad. Instead, what he took out was a flintlock pistol, and he proceeded to shoot the Prime Minister three times in the head, killing him instantly. Before the assassin could be apprehended he quickly shot himself in the head, and died as well.\nHis motive will never be known.\n\nGreece is in shock. Eleftherios Venizelos is known to many as the Father of the Nation and kept Greece unified during this time of instability. Now with his death, the fate of the country is uncertain. An emergency meeting of the Gerousia has been called to decide the future of the Hellenic Republic, and from there we will decide what to do."
-greece.1.a:0 "This just had to happen, didn't it?"
-
-#
-
-#Descriptions
-
-#cosmetic tags
-
-
-GRE_political_turmoil:0 "Political Turmoil"
 
 #Descriptions
 

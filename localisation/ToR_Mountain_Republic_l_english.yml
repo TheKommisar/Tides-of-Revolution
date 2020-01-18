@@ -1,0 +1,54 @@
+﻿l_english: 
+
+#Parties
+
+#Country Names
+ MRP_national_populist:0 "Mountainous Republic"
+ MRP_national_populist_DEF:0 "the Mountainous Republic"
+ MRP_totalitarian_socialist:0 "Mountainous Republic"
+ MRP_totalitarian_socialist_DEF:0 "the Mountainous Republic"
+ MRP_paternal_autocrat:0 "State of Mountainous Republic"
+ MRP_paternal_autocrat_DEF:0 "the State of Mountainous Republic"
+ MRP_social_conservative:0 "Mountainous Republic"
+ MRP_social_conservative_DEF:0 "the Mountainous Republic"
+ MRP_authoritarian_democrat:0 "Mountainous Republic"
+ MRP_authoritarian_democrat_DEF:0 "the Mountainous Republic"
+ MRP_orthodox_marxist:0 "Mountainous Republic"
+ MRP_orthodox_marxist_DEF:0 "the Mountainous Republic"
+ MRP_revolutionary_socialist:0 "Mountainous Republic"
+ MRP_revolutionary_socialist_DEF:0 "the Mountainous Republic"
+ MRP_social_democrat:0 "Mountainous Republic"
+ MRP_social_democrat_DEF:0 "the Mountainous Republic"
+ MRP_social_liberal:0 "Mountainous Republic"
+ MRP_social_liberal_DEF:0 "the Mountainous Republic"
+ MRP_classic_liberal:0 "Mountainous Republic"
+ MRP_classic_liberal_DEF:0 "the Mountainous Republic"
+ MRP_vanguardist:0 "Mountainous Republic"
+ MRP_vanguardist_DEF:0 "the Mountainous Republic"
+ 
+ MRP_national_populist_ADJ:0 "Terek"
+ MRP_totalitarian_socialist_ADJ:0 "Terek"
+ MRP_social_conservative_ADJ:0 "Terek"
+ MRP_paternal_autocrat_ADJ:0 "Terek"
+ MRP_orthodox_marxist_ADJ:0 "Terek"
+ MRP_authoritarian_democrat_ADJ:0 "Terek"
+ MRP_revolutionary_socialist_ADJ:0 "Terek"
+ MRP_social_democrat_ADJ:0 "Terek"
+ MRP_social_liberal_ADJ:0 "Terek"
+ MRP_classic_liberal_ADJ:0 "Terek"
+ MRP_vanguardist_ADJ:0 "Terek"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
