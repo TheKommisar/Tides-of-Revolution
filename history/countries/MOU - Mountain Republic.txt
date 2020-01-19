@@ -1,0 +1,51 @@
+﻿capital = 232
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+        totalitarian_socialist = 0
+	vanguardist = 0
+        orthodox_marxist = 0
+	revolutionary_socialist = 0
+        social_democrat = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservative = 0
+        authoritarian_democrat = 100
+        paternal_autocrat = 0
+        national_populist = 0
+}
+
+create_country_leader = {
+	name = "Tapa Tchermoeff"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Mountain_Republic_Tapa_Tchermoeff.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Tapa Tchermoeff"
+	picture = "Portrait_Mountain_Republic_Tapa_Tchermoeff.dds"
+	traits = { defensive_doctrine old_guard }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

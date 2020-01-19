@@ -1,0 +1,23 @@
+
+state={
+	id=554
+	name="STATE_554"
+	manpower = 547797
+	
+	state_category = rural
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		add_core_of = SAU	
+
+	}
+
+
+	provinces={
+		4486 7184 10383 12316 2013 
+	}
+}

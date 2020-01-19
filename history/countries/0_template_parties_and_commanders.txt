@@ -1,0 +1,65 @@
+##this file is to store the template of party popularities, leaders and commanders
+###if anything goes wrong, blame firework
+
+set_politics = {
+	ruling_party = 
+	last_election = "" # uses YY/MM/DD so for example something happening on Jan 10 1936 would be 1936/1/10
+	election_frequency = 48 # number is of months
+	elections_allowed = yes/no
+}
+set_popularities = {
+        totalitarian_socialist = 0
+	vanguardist = 0
+        orthodox_marxist = 0
+	revolutionary_socialist = 0
+        social_democrat = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservative = 0
+        authoritarian_democrat = 0
+        paternal_autocrat = 0
+        national_populist = 0
+}
+
+create_country_leader = { 
+	name = ""
+	desc = ""
+	picture = ""
+	ideology = _subtype #all ideology subtypes have _subtype suffix attached
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = ""
+	picture = ""
+	traits = { # }
+	skill = 0
+    attack_skill = 0
+    defense_skill = 0
+    planning_skill = 0
+    logistics_skill = 0
+}
+
+create_corps_commander = {
+	name = ""
+	picture = ""
+	traits = { # }
+	skill = 0
+    attack_skill = 0
+    defense_skill = 0
+    planning_skill = 0
+    logistics_skill = 0
+}
+
+create_navy_leader = {
+	name = ""
+	portrait_path = ""
+	traits = { # }
+	skill = 0
+	attack_skill = 0
+	defense_skill = 0
+	maneuvering_skill = 0
+	coordination_skill = 0
+}

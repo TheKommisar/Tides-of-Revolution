@@ -1,0 +1,92 @@
+leader_traits = {
+######################
+# Head of Government
+#####################
+
+	hog_pragmatic_statesman = {
+		political_power_gain = 0.05
+                stability_factor = 0.01
+
+		random = no
+	}
+
+
+
+#####################
+# Foreign Minister
+#####################
+
+	frm_charismatic_diplomat = {
+		opinion_gain_monthly = 0.25
+
+		random = no
+	}
+
+	frm_skilled_negotiator = {
+		opinion_gain_monthly = 0.15
+		political_power_gain = 0.02
+
+		random = no
+	}
+
+
+#####################
+# Economy Minister
+#####################
+
+	eco_laissez_faire_capitalist = {
+		production_speed_arms_factory_factor = -0.02
+		production_speed_buildings_factor = 0.04
+		local_resources_factor = 0.02
+		political_power_gain = -0.03
+
+		random = no
+	}
+
+	eco_economic_interventionist = {
+		monthly_population = 0.01
+		production_speed_buildings_factor = 0.05
+		local_resources_factor = 0.03
+		political_power_gain = -0.05
+
+		random = no
+	}
+
+
+
+#####################
+# Security Minister
+#####################
+
+	sec_crime_fighter = {
+		political_power_gain = 0.05
+		conscription_factor = -0.02
+
+		random = no
+	}
+
+        ############## unique traits
+
+        sec_british_bulldog = { # churchill
+
+		random = no
+	}
+
+
+#####################
+# Head of Intel
+#####################
+
+	int_foreign_expert = { 
+		decryption = 1
+
+		random = no
+	}
+
+	int_brash_buffoon = { 
+		decryption = 0.5
+		political_power_gain = -0.05
+
+		random = no
+	}
+}

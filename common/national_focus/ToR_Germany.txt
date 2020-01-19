@@ -1,0 +1,841 @@
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+
+        continuous_focus_position = { x = 1 y = 1 }
+	
+                focus = {
+		id = GER_italiancivilwar
+		icon = GFX_focus_generic_air_defense
+		x = 27
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_ourplaceinthesun
+		icon = GFX_focus_generic_air_defense
+		x = 16
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_antisocialist
+		icon = GFX_goal_anti_comintern_pact
+		x = 10
+		y = 1
+		cost = 4
+		prerequisite = { focus = GER_ourplaceinthesun }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_integratebufferstates
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 11
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_antisocialist }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			puppet = LIT
+			puppet = LAT
+			puppet = EST
+		}
+	}
+	
+		focus = {
+		id = GER_kievplan
+		icon = GFX_goal_generic_small_arms
+		x = 12
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_integratebufferstates }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_demandcolonies
+		icon = GFX_goal_generic_position_armies
+		x = 16
+		y = 1
+		cost = 4
+		prerequisite = { focus = GER_ourplaceinthesun }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_aidchina
+		icon = GFX_focus_chi_cooperation_with_the_nationalists
+		x = 9
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_antisocialist }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_sovietseparatists
+		icon = GFX_focus_secret_rearmament
+		x = 8
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_aidchina }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_reclaimdanzig
+		icon = GFX_goal_generic_military_deal
+		x = 16
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_partitionpoland focus = GER_partitionroumania }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			create_wargoal = {
+				type = take_state_focus
+				target = POL
+				generator = { 85 86 }
+			}
+		}
+	}
+	
+		focus = {
+		id = GER_partitionpoland
+		icon = GFX_goal_generic_major_alliance
+		x = 15
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_allybulgaria focus = GER_allyhungary focus = GER_allyukraine }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_partitionroumania
+		icon = GFX_goal_generic_major_alliance
+		x = 17
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_allybulgaria focus = GER_allyhungary focus = GER_allyukraine }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_avengeweltkrieg
+		icon = GFX_goal_generic_major_war
+		x = 18
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_partitionpoland focus = GER_partitionroumania }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			create_wargoal = {
+				type = take_state_focus
+				target = FRA
+				generator = { 28 766 }
+			}
+		}
+	}
+	
+		focus = {
+		id = GER_austrianintervention
+		icon = GFX_focus_ger_oppose_hitler
+		x = 21
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_reachouttocourland }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_schlieffenplan
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_partitionpoland focus = GER_partitionroumania }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			create_wargoal = { type = puppet_wargoal_focus target = BEL }
+			create_wargoal = { type = puppet_wargoal_focus target = LUX }
+		}
+	}
+	
+		focus = {
+		id = GER_moscowplot
+		icon = GFX_focus_wonderweapons
+		x = 10
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_integratebufferstates focus = GER_aidchina}
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_redmenace
+		icon = GFX_focus_ger_strike_at_the_source
+		x = 10
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_sovietseparatists focus = GER_kievplan focus = GER_moscowplot }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = SOV }
+		}
+	}
+	
+		focus = {
+		id = GER_allyhungary
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 16
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_demandcolonies }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_allybulgaria
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 18
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_demandcolonies }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_allyukraine
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 14
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_demandcolonies }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_closekanal
+		icon = GFX_goal_generic_amphibious_assault
+		x = 23
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_reachouttocourland }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_invadedenmark
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_secureborders }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			create_wargoal = { type = annex_everything target = DEN }
+		}
+	}
+	
+		focus = {
+		id = GER_invadeczech
+		icon = GFX_goal_unknown
+		x = 23
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_secureborders }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+			create_wargoal = {
+				type = take_state_focus
+				target = CZE
+				generator = { 74 69 }
+			}
+		}
+	}
+	
+		focus = {
+		id = GER_secureborders
+		icon = GFX_goal_generic_build_tank
+		x = 22
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_closekanal focus = GER_austrianintervention }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		
+	
+	
+		
+	
+		focus = {
+		id = GER_illicitfunds
+		icon = GFX_goal_unknown
+		x = 32
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_indadvancement focus = GER_armsproduction }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_militarybuildup1
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 31
+		y = 5
+		cost = 4
+		prerequisite = { focus = GER_warbonds }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_militarybuildup2
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 31
+		y = 6
+		cost = 4
+		prerequisite = { focus = GER_militarybuildup1 }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_militarybuildup3
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 31
+		y = 7
+		cost = 4
+		prerequisite = { focus = GER_militarybuildup2 }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+		focus = {
+		id = GER_civilianbuildup1
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 33
+		y = 5
+		cost = 4
+		prerequisite = { focus = GER_warbonds }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_civilianbuildup2
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 33
+		y = 6
+		cost = 4
+		prerequisite = { focus = GER_civilianbuildup1 }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_civilianbuildup3
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 33
+		y = 7
+		cost = 4
+		prerequisite = { focus = GER_civilianbuildup2 }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_warbonds
+		icon = GFX_goal_unknown
+		x = 32
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_illicitfunds }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_ideas = war_bonds_focus
+		}
+	}
+	
+	
+	focus = {
+		id = GER_increaseddefensespending
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 31
+		y = 1
+		cost = 4
+		prerequisite = { focus = GER_domesticinvestment }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_subsidizedindustry
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 33
+		y = 1
+		cost = 4
+		prerequisite = { focus = GER_domesticinvestment }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_indadvancement
+		icon = GFX_goal_generic_build_airforce
+		x = 33
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_subsidizedindustry }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_armsproduction
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 31
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_increaseddefensespending }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_domesticinvestment
+		icon = GFX_goal_generic_construction2
+		x = 32
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	
+	focus = {
+		id = GER_reachouttocourland
+		icon = GFX_goal_generic_military_sphere
+		x = 22
+		y = 1
+		cost = 4
+		prerequisite = { focus = GER_ourplaceinthesun }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	
+	
+	focus = {
+		id = GER_revampwaracademies
+		icon = GFX_focus_generic_military_mission
+		x = 38
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_commissionofwarstudies }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_remilitarization
+		icon = GFX_goal_generic_secret_weapon
+		x = 38
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_recruitmentcampaigns
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 36
+		y = 1
+		cost = 4
+		prerequisite = { focus = GER_remilitarization }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_wargames
+		icon = GFX_goal_unknown
+		x = 36
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_recruitmentcampaigns }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_equipmentupgrades
+		icon = GFX_goal_generic_small_arms
+		x = 36
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_wargames }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_mandatoryconscription
+		icon = GFX_focus_generic_little_entente
+		x = 36
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_equipmentupgrades }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_commissionofwarstudies
+		icon = GFX_goal_generic_army_doctrines
+		x = 38
+		y = 1
+		cost = 4
+		prerequisite = { focus = GER_remilitarization }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_rationing
+		icon = GFX_goal_generic_consumer_goods
+		x = 40
+		y = 1
+		cost = 4
+		prerequisite = { focus = GER_remilitarization }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_modernizedoctrine
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 38
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_revampwaracademies }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_geistderniederlage
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 38
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_modernizedoctrine }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_wagefreezes
+		icon = GFX_focus_generic_treaty
+		x = 40
+		y = 2
+		cost = 4
+		prerequisite = { focus = GER_rationing }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_pricecontrols
+		icon = GFX_goal_continuous_suppression
+		x = 40
+		y = 3
+		cost = 4
+		prerequisite = { focus = GER_wagefreezes }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = GER_nationalizearms
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 40
+		y = 4
+		cost = 4
+		prerequisite = { focus = GER_pricecontrols }
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}

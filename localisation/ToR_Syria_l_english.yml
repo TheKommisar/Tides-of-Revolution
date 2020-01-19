@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+SYR_national_populist_party:0 ""
+SYR_national_populist_party_long:0 ""
+SYR_vanguardist_party:0 ""
+SYR_vanguardist_party_long:0 ""
+SYR_social_conservative_party:0 ""
+SYR_social_conservative_party_long:0 ""
+SYR_paternal_autocrat_party:0 "Bani al-Atrash"
+SYR_paternal_autocrat_party_long:0 "Bani al-Atrash"
+SYR_authoritarian_democrat_party:0 "Bani al-Atrash"
+SYR_authoritarian_democrat_party_long:0 "Bani al-Atrash"
+SYR_social_democrat_party:0 ""
+SYR_social_democrat_party_long:0 ""
+SYR_social_liberal_party:0 ""
+SYR_social_liberal_party_long:0 ""
+SYR_classic_liberal_party:0 ""
+SYR_classic_liberal_party_long:0 ""
+SYR_totalitarian_socialist_party:0 ""
+SYR_totalitarian_socialist_party_long:0 ""
+SYR_revolutionary_socialist_party:0 ""
+SYR_revolutionary_socialist_party_long:0 ""
+SYR_orthodox_marxist_party:0 ""
+SYR_orthodox_marxist_party_long:0 ""
+
+#Country Names
+SYR_national_populist:0 "Kingdom of Syria"
+SYR_national_populist_DEF:0 "the Druze Kingdom of Syria"
+SYR_totalitarian_socialist:0 "Syrian Workers' Union"
+SYR_totalitarian_socialist_DEF:0 "the Syrian Workers' Union"
+SYR_paternal_autocrat:0 "Kingdom of Syria"
+SYR_paternal_autocrat_DEF:0 "the Druze Kingdom of Syria"
+SYR_social_conservative:0 "Syrian Republic"
+SYR_social_conservative_DEF:0 "the Syrian Republic"
+SYR_authoritarian_democrat:1 "Kingdom of Syria"
+SYR_authoritarian_democrat_DEF:1 "the Druze Kingdom of Syria"
+SYR_orthodox_marxist:0 "Syrian Republic"
+SYR_orthodox_marxist_DEF:0 "the Syrian Republic"
+SYR_revolutionary_socialist:0 "Syrian Republic"
+SYR_revolutionary_socialist_DEF:0 "the Syrian Republic"
+SYR_social_democrat:0 "Syrian Republic"
+SYR_social_democrat_DEF:0 "the Syrian Republic"
+SYR_social_liberal:0 "Syrian Republic"
+SYR_social_liberal_DEF:0 "the Syrian Republic"
+SYR_classic_liberal:0 "Syrian Republic"
+SYR_classic_liberal_DEF:0 "the Syrian Republic"
+SYR_vanguardist:0 "Syrian Commune"
+SYR_vanguardist_DEF:0 "the Syrian Commune"
+ 
+SYR_national_populist_ADJ:0 "Syrian"
+SYR_totalitarian_socialist_ADJ:0 "Syrian"
+SYR_social_conservative_ADJ:0 "Syrian"
+SYR_paternal_autocrat_ADJ:0 "Syrian"
+SYR_orthodox_marxist_ADJ:0 "Syrian"
+SYR_authoritarian_democrat_ADJ:0 "Syrian"
+SYR_revolutionary_socialist_ADJ:0 "Syrian"
+SYR_social_democrat_ADJ:0 "Syrian"
+SYR_social_liberal_ADJ:0 "Syrian"
+SYR_classic_liberal_ADJ:0 "Syrian"
+SYR_vanguardist_ADJ:0 "Syrian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
