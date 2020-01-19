@@ -1,0 +1,86 @@
+﻿l_english: 
+
+#Parties
+EGY_national_populist_party:0 "Ittihad"
+EGY_national_populist_party_long:0 "Union Party - Muslim Brotherhood"
+EGY_collectivist_party:0 ""
+EGY_collectivist_party_long:0 ""
+EGY_social_conservative_party:0 "Watan"
+EGY_social_conservative_party_long:0 "National Party"
+EGY_paternal_autocrat_party:0 "Mohammed Ali Dynasty"
+EGY_paternal_autocrat_party_long:0 "Mohammed Ali Dynasty"
+EGY_authoritarian_democrat_party:0 "Mohammed Ali Dynasty"
+EGY_authoritarian_democrat_party_long:0 "Mohammed Ali Dynasty"
+EGY_social_democrat_party:0 "Haiy'ah"
+EGY_social_democrat_party_long:0 "Institutional Party"
+EGY_social_liberal_party:0 "Dusturiyun"
+EGY_social_liberal_party_long:0 "Liberal Constitional Party"
+EGY_classic_liberal_party:0 "Wafd"
+EGY_classic_liberal_party_long:0 "Delegation Party"
+EGY_totalitarian_socialist_party:0 "Adala"
+EGY_totalitarian_socialist_party_long:0 "Justice Party"
+EGY_revolutionary_socialist_party:0 "Umma"
+EGY_revolutionary_socialist_party_long:0 "People's Party"
+EGY_orthodox_marxist_party:0 "Shabab"
+EGY_orthodox_marxist_party_long:0 "Youth Party"
+
+#EGYntry Names
+ EGY_national_populist:0 "Egypt"
+ EGY_national_populist_DEF:0 "Egypt"
+ EGY_totalitarian_socialist:0 "United Arab Republic"
+ EGY_totalitarian_socialist_DEF:0 "the United Arab Republic"
+ EGY_paternal_autocrat:0 "Kingdom of Egypt"
+ EGY_paternal_autocrat_DEF:0 "the Kingdom of Egypt"
+ EGY_social_conservative:0 "Kingdom of Egypt"
+ EGY_social_conservative_DEF:0 "the Kingdom of Egypt"
+ EGY_authoritarian_democrat:0 "Kingdom of Egypt"
+ EGY_authoritarian_democrat_DEF:0 "the Kingdom of Egypt"
+ EGY_orthodox_marxist:0 "United Arab Republic"
+ EGY_orthodox_marxist_DEF:0 "the United Arab Republic"
+ EGY_revolutionary_socialist:0 "United Arab Republic"
+ EGY_revolutionary_socialist_DEF:0 "the United Arab Republic"
+ EGY_social_democrat:0 "Republic of Egypt"
+ EGY_social_democrat_DEF:0 "the Republic of Egypt"
+ EGY_social_liberal:0 "Republic of Egypt"
+ EGY_social_liberal_DEF:0 "the Republic of Egypt"
+ EGY_classic_liberal:0 "Republic of Egypt"
+ EGY_classic_liberal_DEF:0 "the Republic of Egypt"
+ EGY_vanguardist:0 "United Arab Republic"
+ EGY_vanguardist_DEF:0 "the United Arab Republic"
+ 
+ EGY_national_populist_ADJ:0 "Egyptian"
+ EGY_totalitarian_socialist_ADJ:0 "Egyptian"
+ EGY_social_conservative_ADJ:0 "Egyptian"
+ EGY_paternal_autocrat_ADJ:0 "Egyptian"
+ EGY_orthodox_marxist_ADJ:0 "Egyptian"
+ EGY_authoritarian_democrat_ADJ:0 "Egyptian"
+ EGY_revolutionary_socialist_ADJ:0 "Egyptian"
+ EGY_social_democrat_ADJ:0 "Egyptian"
+ EGY_social_liberal_ADJ:0 "Egyptian"
+ EGY_classic_liberal_ADJ:0 "Egyptian"
+ EGY_vanguardist_ADJ:0 "Egyptian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+EGY_UK_paternal_autocrat:0 "Kingdom of Egypt"
+EGY_UK_paternal_autocrat_DEF:0 "Kingdom of Egypt" 
+
+EGY_UK_paternal_autocrat_party:0 "Mohammed Ali Dynasty"
+EGY_UK_paternal_autocrat_party_long:0 "Mohammed Ali Dynasty"
+EGY_UK_authoritarian_democrat_party:0 "Colonial Adminstration"
+EGY_UK_authoritarian_democrat_party_long:0 "Colonial Adminstration"

@@ -1,0 +1,18 @@
+state={
+	id=803
+	name="STATE_803"
+	provinces={
+		3916 5014 10811 
+	}
+	history={
+		owner = KUR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KUR
+		add_core_of = IRQ
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
