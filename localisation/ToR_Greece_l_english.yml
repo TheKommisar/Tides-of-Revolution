@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+GRE_national_populist_party:0 "EV"
+GRE_national_populist_party_long:0 "Énosis Vasilofrónon"
+GRE_vanguardist_party:0 "KKE"
+GRE_vanguardist_party_long:0 "Kommounistikó Kómma Elládas"
+GRE_social_conservative_party:0 "LK"
+GRE_social_conservative_party_long:0 "Laïkòn Kómma"
+GRE_paternal_autocrat_party:0 "KE"
+GRE_paternal_autocrat_party_long:0 "Kómma ton Eleftherofrónon"
+GRE_authoritarian_democrat_party:0 "KE"
+GRE_authoritarian_democrat_party_long:0 "Kómma ton Eleftherofrónon"
+GRE_social_democrat_party:0 "EME-AkP"
+GRE_social_democrat_party_long:0 "Eniaío Métopo Ergatón, Agrotón kai Prosfýgon"
+GRE_social_liberal_party:0 "EEK"
+GRE_social_liberal_party_long:0 "Ethnikón Enotikón Kómma"
+GRE_classic_liberal_party:0 "KF"
+GRE_classic_liberal_party_long:0 "Kómma Filelefthéron"
+GRE_totalitarian_socialist_party:0 "KKE"
+GRE_totalitarian_socialist_party_long:0 "Kommounistikó Kómma Elládas"
+GRE_revolutionary_socialist_party:0 "SKE"
+GRE_revolutionary_socialist_party_long:0 "Sosialistikó Kómma Elládas"
+GRE_orthodox_marxist_party:0 "KKE"
+GRE_orthodox_marxist_party_long:0 "Kommounistikó Kómma Elládas"
+
+#Country Names
+GRE_national_populist:0 "Hellenia"
+GRE_national_populist_DEF:0 "Hellenia"
+GRE_totalitarian_socialist:0 "Greek Workers' Union"
+GRE_totalitarian_socialist_DEF:0 "the Greek Workers' Union"
+GRE_paternal_autocrat:0 "Hellenic Republic"
+GRE_paternal_autocrat_DEF:0 "the Hellenic Republic"
+GRE_social_conservative:0 "Hellenic Republic"
+GRE_social_conservative_DEF:0 "the Hellenic Republic"
+GRE_authoritarian_democrat:1 "Hellenic Republic"
+GRE_authoritarian_democrat_DEF:1 "the Hellenic Republic"
+GRE_orthodox_marxist:0 "Greek Peoples' Republic"
+GRE_orthodox_marxist_DEF:0 "the Greek Peoples' Republic"
+GRE_revolutionary_socialist:0 "Greek Democratic Republic"
+GRE_revolutionary_socialist_DEF:0 "the Greek Democratic Republic"
+GRE_social_democrat:0 "Hellenic Republic"
+GRE_social_democrat_DEF:0 "the Hellenic Republic"
+GRE_social_liberal:0 "Hellenic Republic"
+GRE_social_liberal_DEF:0 "the Hellenic Republic"
+GRE_classic_liberal:0 "Hellenic Republic"
+GRE_classic_liberal_DEF:0 "the Hellenic Republic"
+GRE_vanguardist:0 "Greek Commune"
+GRE_vanguardist_DEF:0 "the Greek Commune"
+ 
+GRE_national_populist_ADJ:0 "Greek"
+GRE_totalitarian_socialist_ADJ:0 "Greek"
+GRE_social_conservative_ADJ:0 "Greek"
+GRE_paternal_autocrat_ADJ:0 "Greek"
+GRE_orthodox_marxist_ADJ:0 "Greek"
+GRE_authoritarian_democrat_ADJ:0 "Greek"
+GRE_revolutionary_socialist_ADJ:0 "Greek"
+GRE_social_democrat_ADJ:0 "Greek"
+GRE_social_liberal_ADJ:0 "Greek"
+GRE_classic_liberal_ADJ:0 "Greek"
+GRE_vanguardist_ADJ:0 "Greek"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
