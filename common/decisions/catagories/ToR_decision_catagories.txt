@@ -1,0 +1,9 @@
+SPA_calamity_in_the_countryside = {
+icon = GFX_goal_unknown
+
+available = {
+tag = SPA
+has_country_flag = SPA_calamity_focus
+}
+
+}

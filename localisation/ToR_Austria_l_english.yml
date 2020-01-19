@@ -1,0 +1,87 @@
+﻿l_english: 
+
+#Parties
+AUS_national_populist_party:0 "Heimatblock"
+AUS_national_populist_party_long:0 "Heimatblock"
+AUS_vanguardist_party:0 "Kommunisten"
+AUS_vanguardist_party_long:0 "Kommunistische Partei Österreichs"
+AUS_social_conservative_party:0 "CS-Christlichsoziale"
+AUS_social_conservative_party_long:0 "Christlichsoziale Partei - Christlichsoziale fraktion"
+AUS_paternal_autocrat_party:0 "GDVP"
+AUS_paternal_autocrat_party_long:0 "Großdeutsche Volkspartei"
+AUS_authoritarian_democrat_party:0 "CS-VF"
+AUS_authoritarian_democrat_party_long:0 "Christlichsoziale Partei - Vaterländische Front fraktion"
+AUS_social_democrat_party:0 "SDAPÖ-Demokraten"
+AUS_social_democrat_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs - Demokraten"
+AUS_social_liberal_party:0 "Nationalliberale"
+AUS_social_liberal_party_long:0 "Nationalliberale Partei Österreichs"
+AUS_classic_liberal_party:0 "Landbund"
+AUS_classic_liberal_party_long:0 "Landbund"
+AUS_totalitarian_socialist_party:0 "Austromarxisten"
+AUS_totalitarian_socialist_party_long:0 "Austromarxisten Partei Österreichs"
+AUS_revolutionary_socialist_party:0 "SDAPÖ-Sozialisten"
+AUS_revolutionary_socialist_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs - Sozialisten"
+AUS_orthodox_marxist_party:0 "Austromarxisten"
+AUS_orthodox_marxist_party_long:0 "Austromarxisten Partei Österreichs"
+
+#Country Names
+ AUS_national_populist:0 "Deutsches Österreich"
+ AUS_national_populist_DEF:0 "the Deutsches Österreich"
+ AUS_totalitarian_socialist:0 "Austrian Volkstaat"
+ AUS_totalitarian_socialist_DEF:0 "the Austrian Volkstaat"
+ AUS_paternal_autocrat:0 "Federal State of Austria"
+ AUS_paternal_autocrat_DEF:0 "the Federal State of Austria"
+ AUS_social_conservative:0 "Austria"
+ AUS_social_conservative_DEF:0 "the Republic of Austria"
+ AUS_authoritarian_democrat:1 "Austria"
+ AUS_authoritarian_democrat_DEF:1 "the Republic of Austria"
+ AUS_orthodox_marxist:0 "Socialist Republic of Austria"
+ AUS_orthodox_marxist_DEF:0 "the Socialist Republic of Austria"
+ AUS_revolutionary_socialist:0 "Austria"
+ AUS_revolutionary_socialist_DEF:0 "the Republic of Austria"
+ AUS_social_democrat:0 "Republic of Austria"
+ AUS_social_democrat_DEF:0 "the Republic of Austria"
+ AUS_social_liberal:0 "Republic of Austria"
+ AUS_social_liberal_DEF:0 "the Republic of Austria"
+ AUS_classic_liberal:0 "Republic of Austria"
+ AUS_classic_liberal_DEF:0 "the Republic of Austria"
+ AUS_vanguardist:0 "People's Republic of Austria"
+ AUS_vanguardist_DEF:0 "the People's Republic of Austria"
+ 
+ AUS_national_populist_ADJ:0 "Austrian"
+ AUS_totalitarian_socialist_ADJ:0 "Austrian"
+ AUS_social_conservative_ADJ:0 "Austrian"
+ AUS_paternal_autocrat_ADJ:0 "Austrian"
+ AUS_orthodox_marxist_ADJ:0 "Austrian"
+ AUS_authoritarian_democrat_ADJ:0 "Austrian"
+ AUS_revolutionary_socialist_ADJ:0 "Austrian"
+ AUS_social_democrat_ADJ:0 "Austrian"
+ AUS_social_liberal_ADJ:0 "Austrian"
+ AUS_classic_liberal_ADJ:0 "Austrian"
+ AUS_vanguardist_ADJ:0 "Austrian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+austriahungary.1000.t:0 "Conrad von Hötzendorf passes away"
+austriahungary.1000.d:0 "WW1 Field Marshal and Great War hero Franz Xaver Josef Graf Conrad von Hötzendorf passed away today peacefully at his estate in Mergentheim, Germany, aged 83. He is best known for commanding Austro-Hungarian forces on the Eastern Front against Russia, and leading the successful Russian Civil War intervention against the Soviets. Several well known figures attended his funeral at Hietzing Cemetery, including that of Archduke Otto of Austria and British Secretary of State for the Home Department Winston Churchill. Franz's only regret is not having kicked the Russians out of the Great War earlier."
+austriahungary.1000.a:0 "If only we had such competent army leaders like him now..."
+
+#Descriptions
+
+#cosmetic tags
+ AUS_unitedstates_social_democrat:0 "United States of Greater Austria"
+ AUS_unitedstates_social_democrat_ADJ:0 "Greater Austrian"
+ AUS_unitedstates_social_democrat_DEF:0 "the United States of Greater Austria"
+ 
