@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=98
@@ -6,10 +7,22 @@ state={
 	history={
 		victory_points = {
 			3230 5 
+=======
+state={
+	id=98
+	name="STATE_98"
+	manpower = 1412100
+	
+	state_category = rural
+	history={
+		victory_points = {
+			3230 5
+>>>>>>> parent of 963a13c... changing to master
 		}
 		owner = POL
 		buildings = {
 			infrastructure = 6
+<<<<<<< HEAD
 
 		}
 		add_core_of = POL
@@ -22,4 +35,13 @@ state={
 	manpower=1412100
 	buildings_max_level_factor=1.000
 	state_category=rural
+=======
+		}
+		add_core_of = POL
+	}
+
+	provinces={
+		548 3230 6259 6321 6401 6567 9290 9316 11274 11329 11385 
+	}
+>>>>>>> parent of 963a13c... changing to master
 }

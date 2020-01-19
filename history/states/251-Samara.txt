@@ -11,6 +11,12 @@ state={
 		victory_points = {
 			11225 3 
 		}
+<<<<<<< HEAD
+=======
+                victory_points = {
+			9299 1
+		}
+>>>>>>> parent of 963a13c... changing to master
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2

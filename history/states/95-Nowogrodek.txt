@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 963a13c... changing to master
 state={
 	id=95
 	name="STATE_95"
 
 	history={
 		victory_points = {
+<<<<<<< HEAD
 			9304 1 
+=======
+			9304 1
+>>>>>>> parent of 963a13c... changing to master
 		}
 		owner = BLR
 		buildings = {
@@ -18,7 +25,11 @@ state={
 	}
 
 	provinces={
+<<<<<<< HEAD
 		3309 6306 6359 9236 9304 9359 11341 
+=======
+		6359 6413 9236 9304 9359 11341 
+>>>>>>> parent of 963a13c... changing to master
 	}
 	manpower=1598900
 	buildings_max_level_factor=1.000

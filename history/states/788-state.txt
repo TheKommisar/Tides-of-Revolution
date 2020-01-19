@@ -1,0 +1,22 @@
+state={
+	id=788
+	name="STATE_788"
+	manpower = 200120
+	
+	state_category = rural
+	
+	history={
+		owner = LIT
+		victory_points = {
+			3393 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LIT
+	}
+
+	provinces={
+		318 3281 3366 3393 13206 
+	}
+}
