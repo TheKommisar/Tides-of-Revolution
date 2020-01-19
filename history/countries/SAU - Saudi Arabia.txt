@@ -1,0 +1,50 @@
+capital = 292
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+        totalitarian_socialist = 0
+	vanguardist = 0
+        orthodox_marxist = 0
+	revolutionary_socialist = 0
+        social_democrat = 0
+        social_liberal = 0
+        classic_liberal = 0
+        social_conservative = 0
+        authoritarian_democrat = 5
+        paternal_autocrat = 80
+        national_populist = 15
+}
+
+create_country_leader = {
+	name = "Abdulaziz I"
+	desc = ""
+	picture = ""
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Faisal Al-Duwaish"
+	desc = ""
+	picture = ""
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
