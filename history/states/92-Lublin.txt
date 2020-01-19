@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 963a13c... changing to master
 state={
 	id=92
 	name="STATE_92"
@@ -29,11 +26,7 @@ state={
 	}
 
 	provinces={
-<<<<<<< HEAD
 		3521 3559 6484 6580 9452 9521 9544 11399 11466 
-=======
-		290 3521 3559 6484 6580 9452 9521 9544 11399 11466 
->>>>>>> parent of 963a13c... changing to master
 	}
 	manpower=2464600
 	buildings_max_level_factor=1.000

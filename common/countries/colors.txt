@@ -422,13 +422,8 @@ MNT = {
 }
 
 BLR = {
-<<<<<<< HEAD
 	color = rgb { 109 136 109 }
 	color_ui = rgb { 109 136 109 }
-=======
-	color = rgb { 239 238 215 }
-	color_ui = rgb { 239 238 215 }
->>>>>>> parent of 963a13c... changing to master
 }
 MAN = {
 	color = rgb { 255 120 71 }
@@ -588,7 +583,6 @@ RHO = {
         color = rgb { 47 99 38 }
         color_ui = rgb { 47 99 38 }
 }
-<<<<<<< HEAD
 KUB = {
         color = rgb { 219 37 131 }
 	color_ui = rgb { 219 37 131 }
@@ -602,13 +596,4 @@ MRP = {
 CRM = {
         color = rgb { 102 126 160 }
 	color_ui = rgb { 102 126 160 }
-=======
-MOU = { 
-        color = rgb { 49 104 49 }
-        color_ui = rgb { 49 104 49 }
-}
-CRI = { 
-        color = rgb { 17 51 95 }
-        color_ui = rgb { 17 51 95 }
->>>>>>> parent of 963a13c... changing to master
 }

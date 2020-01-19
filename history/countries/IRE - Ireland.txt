@@ -27,15 +27,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-<<<<<<< HEAD
 	name = "St John Brodrick"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_John_Brodrick.dds"
-=======
-	name = "Éamon de Valera"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_Ireland_Eamon_de_Valera.dds"
->>>>>>> parent of 963a13c... changing to master
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {

@@ -1,13 +1,9 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 963a13c... changing to master
 state={
 	id=97
 	name="STATE_97"
 
 	history={
-<<<<<<< HEAD
 		owner = POL
 		victory_points = {
 			11301 3 
@@ -17,17 +13,6 @@ state={
 		}
 		victory_points = {
 			3254 1 
-=======
-		owner = LIT
-		victory_points = {
-			11301 3
-		}
-		victory_points = {
-			3393 3
-		}
-		victory_points = {
-			3254 1
->>>>>>> parent of 963a13c... changing to master
 		}
 		buildings = {
 			infrastructure = 5
@@ -35,20 +20,12 @@ state={
 			air_base = 3
 
 		}
-<<<<<<< HEAD
 		add_core_of = POL
-=======
-		add_core_of = LIT
->>>>>>> parent of 963a13c... changing to master
 
 	}
 
 	provinces={
-<<<<<<< HEAD
 		290 347 11357 13223 
-=======
-		347 400 3254 11247 11301 11357 
->>>>>>> parent of 963a13c... changing to master
 	}
 	manpower=1157200
 	buildings_max_level_factor=1.000

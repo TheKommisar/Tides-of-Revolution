@@ -2,25 +2,15 @@
 state={
 	id=220
 	name="STATE_220"
-<<<<<<< HEAD
-=======
-	manpower = 1680086
-	state_category = city
->>>>>>> parent of 963a13c... changing to master
 
 	history={
 		owner = RUS
 		victory_points = {
-<<<<<<< HEAD
 			3580 5 
-=======
-			3580 5
->>>>>>> parent of 963a13c... changing to master
 		}
 		buildings = {
 			infrastructure = 5
 			air_base = 1
-<<<<<<< HEAD
 
 		}
 		add_core_of = RUS
@@ -33,13 +23,4 @@ state={
 	manpower=1680086
 	buildings_max_level_factor=1.000
 	state_category=city
-=======
-		}
-		add_core_of = RUS
-	}
-
-	provinces={
-		457 558 580 3554 3580 6254 6304 6543 6603 9260 9542 9579 11244 11526 
-	}
->>>>>>> parent of 963a13c... changing to master
 }

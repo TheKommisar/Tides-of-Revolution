@@ -62,10 +62,6 @@ value = 0
 }
 
 add_ideas = {
-<<<<<<< HEAD
-=======
-SPA_crisis_in_the_government
->>>>>>> parent of 963a13c... changing to master
 SPA_strong_military
 SPA_national_unrest
 SPA_crisis_in_government_hidden

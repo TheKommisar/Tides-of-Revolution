@@ -4,7 +4,6 @@
 
 add_namespace = usa
 
-<<<<<<< HEAD
 #country_event = { #
 #       id = usa.1
 #	title = usa.1.t
@@ -22,8 +21,6 @@ add_namespace = usa
 #		name = usa.1.b
 #	}
 #}
-=======
->>>>>>> parent of 963a13c... changing to master
 
 ############################################
 ###########FLAVOUR EVENTS FOR THE USA#######

@@ -7,11 +7,7 @@ state={
 	state_category = city
 
 	history={
-<<<<<<< HEAD
 		owner = CRM
-=======
-		owner = CRI
->>>>>>> parent of 963a13c... changing to master
 		victory_points = {
 			3686 20
 		}
@@ -34,11 +30,7 @@ state={
 				coastal_bunker = 1
 			}
 		}
-<<<<<<< HEAD
 		add_core_of = CRM
-=======
-		add_core_of = CRI
->>>>>>> parent of 963a13c... changing to master
 	}
 
 	provinces={

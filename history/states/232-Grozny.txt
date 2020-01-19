@@ -2,7 +2,6 @@
 state={
 	id=232
 	name="STATE_232"
-<<<<<<< HEAD
 	resources={
 		oil=19.000
 	}
@@ -12,25 +11,10 @@ state={
 		buildings = {
 			infrastructure = 4
 
-=======
-	manpower = 1658292
-	
-	state_category = rural
-	
-	resources={
-		oil=19 # was: 26
-	}
-
-	history={
-		owner = MOU
-		buildings = {
-			infrastructure = 4
->>>>>>> parent of 963a13c... changing to master
 		}
 		victory_points = {
 			3672 5 
 		}
-<<<<<<< HEAD
 		add_core_of = MRP
 
 	}
@@ -41,12 +25,4 @@ state={
 	manpower=1658292
 	buildings_max_level_factor=1.000
 	state_category=rural
-=======
-		add_core_of = MOU
-	}
-
-	provinces={
-		683 700 712 728 1450 3668 3672 3682 3711 4463 6689 6701 6730 6748 7554 7624 9645 11632 
-	}
->>>>>>> parent of 963a13c... changing to master
 }

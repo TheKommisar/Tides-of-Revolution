@@ -193,11 +193,6 @@ SPA = "countries/Spain Kingdom.txt"
 TRA = "countries/Transylvania.txt"
 BEA = "countries/British West Africa.txt"
 RHO = "countries/Rhodesia.txt"
-<<<<<<< HEAD
 KUB = "countries/Kuban.txt"
 MRP = "countries/Mountainous Republic.txt"
 CRM = "countries/Crimea.txt"
-=======
-MOU = "countries/Mountain Republic.txt"
-CRI = "countries/Crimea.txt"
->>>>>>> parent of 963a13c... changing to master
