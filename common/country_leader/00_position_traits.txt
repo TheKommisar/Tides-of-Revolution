@@ -38,20 +38,18 @@ leader_traits = {
 	totalitarian_socialist = {}
 	vanguard_communist = {}
 	revolutionary_socialist = {}
-	democratic_socialist = {}
 	social_democrat = {}
 	social_liberal = {}
 	classic_liberal = {}
 	social_conservative = {}
 	authoritarian_democrat = {}
-	utilitarian_despot = {}
-	national_collectivist = {}
-	nihilistic_extremist = {}
+	paternal_autocrat = {}
+	national_populist = {}
 	
 #####################
 # Unique/Personal ideologies
 #####################
 
-	magonist = {}
+	#
 
 }

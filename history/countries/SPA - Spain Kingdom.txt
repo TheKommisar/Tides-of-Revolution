@@ -62,7 +62,6 @@ value = 0
 }
 
 add_ideas = {
-SPA_crisis_in_the_government
 SPA_strong_military
 SPA_national_unrest
 SPA_crisis_in_government_hidden

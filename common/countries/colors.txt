@@ -597,3 +597,7 @@ CRM = {
         color = rgb { 102 126 160 }
 	color_ui = rgb { 102 126 160 }
 }
+HEJ = { 
+	color = rgb { 171  190  152 }
+	color_ui = rgb { 171 190 152 }
+}

@@ -80,6 +80,15 @@ set_politics = {
 }
 UKR = { puppet = CMA }
 
-
+create_country_leader = {
+	name = "Solomon Krym"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Mountain_Republic_Tapa_Tchermoeff.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
 
 

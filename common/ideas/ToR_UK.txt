@@ -18,6 +18,8 @@ head_of_government = {
 			}
 			traits = {
 				hog_pragmatic_statesman
+                                social_liberal
+                                head_of_government
 			}
 			cancel_if_invalid = yes
 		}
@@ -38,7 +40,9 @@ head_of_government = {
 				log = "[GetDateText]: [Root.GetName]: add idea ENG_Oswald_Mosley_hog"
 			}
 			traits = {
-				hog_pragmatic_statesman
+				hog_naive_optimist
+                                social_democrat
+                                head_of_government
 			}
 			cancel_if_invalid = yes
 		}
