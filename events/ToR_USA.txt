@@ -4,6 +4,23 @@
 
 add_namespace = usa
 
+#country_event = { #
+#       id = usa.1
+#	title = usa.1.t
+#	desc = usa.1.d
+#	picture = GFX_report_event_british_inspect_troops
+#
+#       fire_only_once = yes
+#
+#       is_triggered_only = yes
+#
+#       option = { # he returns to army
+#		name = usa.1.a
+#	}
+#	option = { # offer refused
+#		name = usa.1.b
+#	}
+#}
 
 ############################################
 ###########FLAVOUR EVENTS FOR THE USA#######

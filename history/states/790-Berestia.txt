@@ -1,0 +1,25 @@
+
+state={
+	id=790
+	name="STATE_790"
+
+	history={
+		owner = BLR
+		add_core_of = BLR
+		victory_points = {
+			3392 5 
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		3256 3392 6415 11528 13222 
+	}
+	manpower=90232
+	buildings_max_level_factor=1.000
+	state_category=city
+}
