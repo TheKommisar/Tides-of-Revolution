@@ -59,9 +59,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antanas Smetona"
-	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "Portrait_Lithuania_Augustinas_Voldemaras.tga"
+	name = "Karolis I"
+	desc = "POLITICS_KAROLIS_I_DESC"
+	picture = "Portrait_Lithuania_Karolis_I.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
