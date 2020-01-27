@@ -227,7 +227,7 @@ RHO_british = {
         color_ui = rgb { 200 35 35 }
 }
 
-SUD_british = { 
+SUD_UK = { 
         color = rgb { 170 25 25 }
         color_ui = rgb { 200 35 35 }
 }

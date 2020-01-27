@@ -14,7 +14,24 @@ country = {
 		
 			modifier = {
 			        political_power_factor = -0.6
-				stability_factor = -0.25		
+				stability_factor = -0.3		
+			}
+		}
+        GRE_political_divide = {
+				
+			allowed = {
+				original_tag = GRE
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+			        political_power_factor = -0.3
+				stability_factor = -0.15		
 			}
 		}
 }

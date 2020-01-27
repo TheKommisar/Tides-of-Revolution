@@ -63,17 +63,11 @@ give_guarantee = URG
 #SUBJECTS
 
 set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
-}
-set_autonomy = {
 	target = HAI
 	autonomous_state =  autonomy_puppet
 }
-set_autonomy = {
-	target = NIC
-	autonomous_state =  autonomy_puppet
-}
+
+#nicaragua and the phillippines are both us puppets but arent shown here
 
 
 set_convoys = 400
@@ -89,7 +83,7 @@ set_politics = {
 	ruling_party = classic_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
         totalitarian_socialist = 0

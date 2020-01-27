@@ -14,7 +14,7 @@ if = {
 		}
 	}
 	SUD = {
-		set_cosmetic_tag = SUD_british
+		set_cosmetic_tag = SUD_UK
 	}
 }
 

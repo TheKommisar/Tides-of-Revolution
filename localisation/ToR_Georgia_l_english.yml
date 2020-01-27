@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+GEO_national_populist_party:0 ""
+GEO_national_populist_party_long:0 ""
+GEO_vanguardist_party:0 ""
+GEO_vanguardist_party_long:0 ""
+GEO_social_conservative_party:0 ""
+GEO_social_conservative_party_long:0 ""
+GEO_paternal_autocrat_party:0 ""
+GEO_paternal_autocrat_party_long:0 ""
+GEO_authoritarian_democrat_party:0 ""
+GEO_authoritarian_democrat_party_long:0 ""
+GEO_social_democrat_party:0 ""
+GEO_social_democrat_party_long:0 ""
+GEO_social_liberal_party:0 ""
+GEO_social_liberal_party_long:0 ""
+GEO_classic_liberal_party:0 ""
+GEO_classic_liberal_party_long:0 ""
+GEO_totalitarian_socialist_party:0 ""
+GEO_totalitarian_socialist_party_long:0 ""
+GEO_revolutionary_socialist_party:0 ""
+GEO_revolutionary_socialist_party_long:0 ""
+GEO_orthodox_marxist_party:0 ""
+GEO_orthodox_marxist_party_long:0 ""
+
+#Country Names
+GEO_national_populist:0 "Georgia"
+GEO_national_populist_DEF:0 "Georgia"
+GEO_totalitarian_socialist:0 "Georgia"
+GEO_totalitarian_socialist_DEF:0 "Georgia"
+GEO_paternal_autocrat:0 "Georgia"
+GEO_paternal_autocrat_DEF:0 "Georgia"
+GEO_social_conservative:0 "Georgia"
+GEO_social_conservative_DEF:0 "the Democratic Republic of Georgia"
+GEO_authoritarian_democrat:1 "Georgia"
+GEO_authoritarian_democrat_DEF:1 "Georgia"
+GEO_orthodox_marxist:0 "Georgia"
+GEO_orthodox_marxist_DEF:0 "Georgia"
+GEO_revolutionary_socialist:0 "Georgia"
+GEO_revolutionary_socialist_DEF:0 "the Democratic Republic of Georgia"
+GEO_social_democrat:0 "Georgia"
+GEO_social_democrat_DEF:0 "the Democratic Republic of Georgia"
+GEO_social_liberal:0 "Georgia"
+GEO_social_liberal_DEF:0 "the Democratic Republic of Georgia"
+GEO_classic_liberal:0 "Georgia"
+GEO_classic_liberal_DEF:0 "the Democratic Republic of Georgia"
+GEO_vanguardist:0 "Georgia"
+GEO_vanguardist_DEF:0 "the Democratic Republic of Georgia"
+ 
+GEO_national_populist_ADJ:0 "Georgian"
+GEO_totalitarian_socialist_ADJ:0 "Georgian"
+GEO_social_conservative_ADJ:0 "Georgian"
+GEO_paternal_autocrat_ADJ:0 "Georgian"
+GEO_orthodox_marxist_ADJ:0 "Georgian"
+GEO_authoritarian_democrat_ADJ:0 "Georgian"
+GEO_revolutionary_socialist_ADJ:0 "Georgian"
+GEO_social_democrat_ADJ:0 "Georgian"
+GEO_social_liberal_ADJ:0 "Georgian"
+GEO_classic_liberal_ADJ:0 "Georgian"
+GEO_vanguardist_ADJ:0 "Georgian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
