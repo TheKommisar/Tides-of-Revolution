@@ -1,0 +1,80 @@
+l_english: 
+
+#Parties
+ARM_national_populist_party:0 "TK"
+ARM_national_populist_party_long:0 "Taronist Kusaktsutyun"
+ARM_vanguardist_party:0 "PPSH"
+ARM_vanguardist_party_long:0 "Partia e Punës e Shqipërisë"
+ARM_social_conservative_party:0 "Progressives"
+ARM_social_conservative_party_long:0 "Partia Progresive"
+ARM_paternal_autocrat_party:0 "Wied-Neuwied"
+ARM_paternal_autocrat_party_long:0 "House of Wied-Neuwied"
+ARM_authoritarian_democrat_party:0 "Dro"
+ARM_authoritarian_democrat_party_long:0 "Dro Clique"
+ARM_social_democrat_party:0 "Dashnak"
+ARM_social_democrat_party_long:0 "Dashnaktsutyun"
+ARM_social_liberal_party:0 "RAK"
+ARM_social_liberal_party_long:0 "Ramgavar Azatakan Kusaktsutyun"
+ARM_classic_liberal_party:0 "OL"
+ARM_classic_liberal_party_long:0 "Opozita Liberale"
+ARM_totalitarian_socialist_party:0 "PPSH"
+ARM_totalitarian_socialist_party_long:0 "Partia e Punës e Shqipërisë"
+ARM_revolutionary_socialist_party:0 "PSS"
+ARM_revolutionary_socialist_party_long:0 "Partia Socialiste e Shqipërisë"
+ARM_orthodox_marxist_party:0 "PPSH"
+ARM_orthodox_marxist_party_long:0 "Partia e Punës e Shqipërisë"
+
+#Country Names
+ARM_national_populist:0 "Republic of Armenia"
+ARM_national_populist_DEF:0 "the Republic of Armenia"
+ARM_totalitarian_socialist:0 "Armenian Workers' Union"
+ARM_totalitarian_socialist_DEF:0 "the Armenian Workers' Union"
+ARM_paternal_autocrat:0 "Republic of Armenia"
+ARM_paternal_autocrat_DEF:0 "the Republic of Armenia"
+ARM_social_conservative:0 "Republic of Armenia"
+ARM_social_conservative_DEF:0 "the Republic of Armenia"
+ARM_authoritarian_democrat:1 "Republic of Armenia"
+ARM_authoritarian_democrat_DEF:1 "the Republic of Armenia"
+ARM_orthodox_marxist:0 "Armenian Republic"
+ARM_orthodox_marxist_DEF:0 "the Armenian Republic"
+ARM_revolutionary_socialist:0 "Armenian Republic"
+ARM_revolutionary_socialist_DEF:0 "the Armenian Republic"
+ARM_social_democrat:0 "Republic of Armenia"
+ARM_social_democrat_DEF:0 "the Republic of Armenia"
+ARM_social_liberal:0 "Republic of Armenia"
+ARM_social_liberal_DEF:0 "the Republic of Armenia"
+ARM_classic_liberal:0 "Republic of Armenia"
+ARM_classic_liberal_DEF:0 "the Republic of Armenia"
+ARM_vanguardist:0 "Armenian Commune"
+ARM_vanguardist_DEF:0 "the Armenian Commune"
+ 
+ARM_national_populist_ADJ:0 "Armenian"
+ARM_totalitarian_socialist_ADJ:0 "Armenian"
+ARM_social_conservative_ADJ:0 "Armenian"
+ARM_paternal_autocrat_ADJ:0 "Armenian"
+ARM_orthodox_marxist_ADJ:0 "Armenian"
+ARM_authoritarian_democrat_ADJ:0 "Armenian"
+ARM_revolutionary_socialist_ADJ:0 "Armenian"
+ARM_social_democrat_ADJ:0 "Armenian"
+ARM_social_liberal_ADJ:0 "Armenian"
+ARM_classic_liberal_ADJ:0 "Armenian"
+ARM_vanguardist_ADJ:0 "Armenian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
