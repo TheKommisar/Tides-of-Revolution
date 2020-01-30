@@ -25,10 +25,10 @@ set_popularities = {
         totalitarian_socialist = 0
 	    vanguardist = 0
         orthodox_marxist = 0
-	    revolutionary_socialist = 0
+	    revolutionary_socialist = 2
         social_democrat = 0
-        social_liberal = 5
-        classic_liberal = 3
+        social_liberal = 6
+        classic_liberal = 0
         social_conservative = 14
         authoritarian_democrat = 53
         paternal_autocrat = 17
@@ -39,11 +39,33 @@ add_ideas = {
 }
 
 create_country_leader = {
+	name = "Rustum Haidar"
+	desc = ""
+	picture = "Portrait_HEJ_Ali_Hashmid.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Ali I"
 	desc = ""
 	picture = "Portrait_HEJ_Ali_Hashmid.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ali I"
+	desc = ""
+	picture = "Portrait_HEJ_Ali_Hashmid.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
 	traits = {
 		#
 	}
