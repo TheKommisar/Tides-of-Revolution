@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+BUL_national_populist_party:0 ""
+BUL_national_populist_party_long:0 ""
+BUL_vanguardist_party:0 ""
+BUL_vanguardist_party_long:0 ""
+BUL_social_conservative_party:0 ""
+BUL_social_conservative_party_long:0 ""
+BUL_paternal_autocrat_party:0 ""
+BUL_paternal_autocrat_party_long:0 ""
+BUL_authoritarian_democrat_party:0 ""
+BUL_authoritarian_democrat_party_long:0 ""
+BUL_social_democrat_party:0 ""
+BUL_social_democrat_party_long:0 ""
+BUL_social_liberal_party:0 ""
+BUL_social_liberal_party_long:0 ""
+BUL_classic_liberal_party:0 ""
+BUL_classic_liberal_party_long:0 ""
+BUL_totalitarian_socialist_party:0 ""
+BUL_totalitarian_socialist_party_long:0 ""
+BUL_revolutionary_socialist_party:0 ""
+BUL_revolutionary_socialist_party_long:0 ""
+BUL_orthodox_marxist_party:0 ""
+BUL_orthodox_marxist_party_long:0 ""
+
+#Country Names
+BUL_national_populist:0 "Kingdom of Bulgaria"
+BUL_national_populist_DEF:0 "the Kingdom of Bulgaria"
+BUL_totalitarian_socialist:0 "Bulgarian Workers' Union"
+BUL_totalitarian_socialist_DEF:0 "the Bulgarian Workers' Union"
+BUL_paternal_autocrat:0 "Kingdom of Bulgaria"
+BUL_paternal_autocrat_DEF:0 "the Kingdom of Bulgaria"
+BUL_social_conservative:0 "Bulgarian Republic"
+BUL_social_conservative_DEF:0 "the Bulgarian Republic"
+BUL_authoritarian_democrat:1 "Kingdom of Bulgaria"
+BUL_authoritarian_democrat_DEF:1 "the Kingdom of Bulgaria"
+BUL_orthodox_marxist:0 "Bulgarian Republic"
+BUL_orthodox_marxist_DEF:0 "the Bulgarian Republic"
+BUL_revolutionary_socialist:0 "Bulgarian Republic"
+BUL_revolutionary_socialist_DEF:0 "the Bulgarian Republic"
+BUL_social_democrat:0 "Bulgarian Republic"
+BUL_social_democrat_DEF:0 "the Bulgarian Republic"
+BUL_social_liberal:0 "Bulgarian Republic"
+BUL_social_liberal_DEF:0 "the Bulgarian Republic"
+BUL_classic_liberal:0 "Bulgarian Republic"
+BUL_classic_liberal_DEF:0 "the Bulgarian Republic"
+BUL_vanguardist:0 "Bulgarian Commune"
+BUL_vanguardist_DEF:0 "the Bulgarian Commune"
+ 
+BUL_national_populist_ADJ:0 "Bulgarian"
+BUL_totalitarian_socialist_ADJ:0 "Bulgarian"
+BUL_social_conservative_ADJ:0 "Bulgarian"
+BUL_paternal_autocrat_ADJ:0 "Bulgarian"
+BUL_orthodox_marxist_ADJ:0 "Bulgarian"
+BUL_authoritarian_democrat_ADJ:0 "Bulgarian"
+BUL_revolutionary_socialist_ADJ:0 "Bulgarian"
+BUL_social_democrat_ADJ:0 "Bulgarian"
+BUL_social_liberal_ADJ:0 "Bulgarian"
+BUL_classic_liberal_ADJ:0 "Bulgarian"
+BUL_vanguardist_ADJ:0 "Bulgarian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

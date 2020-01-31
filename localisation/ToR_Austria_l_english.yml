@@ -74,10 +74,14 @@ AUS_orthodox_marxist_party_long:0 "Austromarxisten Partei Österreichs"
 #Events
 #should be reintegrated
 
+austriahungary.1000.t:0 "Conrad von Hotzendorf dies"
+austriahungary.1000.d:0 "WW1 Field Marshal and Great War hero Franz Xaver Josef Graf Conrad von Hötzendorf passed away today peacefully at his estate in Mergentheim, Germany, aged 83. He is best known for commanding Austro-Hungarian forces on the Eastern Front against Russia, and leading the successful Russian Civil War intervention against the Soviets. Several well known figures attended his funeral at Hietzing Cemetery, including that of Archduke Otto of Austria and British Secretary of State for the Home Department Winston Churchill. His only regret is not having kicked the Russians out of the war earlier."
+austriahungary.1000.a:0 "If only we had such competent commanders like him today..."
+
 #Descriptions
 
 #cosmetic tags
- AUS_unitedstates_social_democrat:0 "Federation of the Danube"
- AUS_unitedstates_social_democrat_ADJ:0 "Danubian"
- AUS_unitedstates_social_democrat_DEF:0 "the Federation of the Danube"
+ AUS_unitedstates_social_democrat:0 "United States of Greater Austria"
+ AUS_unitedstates_social_democrat_ADJ:0 "Greater Austrian"
+ AUS_unitedstates_social_democrat_DEF:0 "the United States of Greater Austria"
  

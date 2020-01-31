@@ -1,0 +1,105 @@
+﻿l_english: 
+
+#Parties
+SPA_national_populist_party:0 "Falange Española"
+SPA_national_populist_party_long:0 "Falange Española"
+SPA_vanguardist_party:0 "PCE"
+SPA_vanguardist_party_long:0 "Partido Comunista de España"
+SPA_social_conservative_party:0 "Acción Popular"
+SPA_social_conservative_party_long:0 "Acción Popular"
+SPA_paternal_autocrat_party:0 "JONS"
+SPA_paternal_autocrat_party_long:0 "Juntas de Ofensiva Nacional-Sindicalista"
+SPA_authoritarian_democrat_party:0 "Acción Popular"
+SPA_authoritarian_democrat_party_long:0 "Acción Popular"
+SPA_social_democrat_party:0 "PSOE"
+SPA_social_democrat_party_long:0 "Partido Socialista Obrero Español"
+SPA_social_liberal_party:0 "Izquierda Republicana"
+SPA_social_liberal_party_long:0 "Izquierda Republicana"
+SPA_classic_liberal_party:0 "PLC"
+SPA_classic_liberal_party_long:0 "Partido Liberal-Conservador"
+SPA_totalitarian_socialist_party:0 "PCE"
+SPA_totalitarian_socialist_party_long:0 "Partido Comunista de España - Radicales"
+SPA_revolutionary_socialist_party:0 "CNT-FAI"
+SPA_revolutionary_socialist_party_long:0 "Confederación Nacional del Trabajo - Federación Anarquista Ibérica"
+SPA_orthodox_marxist_party:0 "POUM"
+SPA_orthodox_marxist_party_long:0 "Partido Obrero de Unificación Marxista"
+
+#Country Names
+SPA_national_populist:0 "Kingdom of Spain"
+SPA_national_populist_DEF:0 "the Kingdom of Spain"
+SPA_totalitarian_socialist:0 "Spanish Workers' Union"
+SPA_totalitarian_socialist_DEF:0 "the Spanish Workers' Union"
+SPA_paternal_autocrat:0 "Kingdom of Spain"
+SPA_paternal_autocrat_DEF:0 "the Kingdom of Spain"
+SPA_social_conservative:0 "Kingdom of Spain"
+SPA_social_conservative_DEF:0 "the Kingdom of Spain"
+SPA_authoritarian_democrat:1 "Kingdom of Spain"
+SPA_authoritarian_democrat_DEF:1 "the Kingdom of Spain"
+SPA_orthodox_marxist:0 "Kingdom of Spain"
+SPA_orthodox_marxist_DEF:0 "the Kingdom of Spain"
+SPA_revolutionary_socialist:0 "Kingdom of Spain"
+SPA_revolutionary_socialist_DEF:0 "the Kingdom of Spain"
+SPA_social_democrat:0 "Kingdom of Spain"
+SPA_social_democrat_DEF:0 "the Kingdom of Spain"
+SPA_social_liberal:0 "Kingdom of Spain"
+SPA_social_liberal_DEF:0 "the Kingdom of Spain"
+SPA_classic_liberal:0 "Kingdom of Spain"
+SPA_classic_liberal_DEF:0 "the Kingdom of Spain"
+SPA_vanguardist:0 "Spanish Commune"
+SPA_vanguardist_DEF:0 "the Spanish Commune"
+ 
+SPA_national_populist_ADJ:0 "Spanish"
+SPA_totalitarian_socialist_ADJ:0 "Spanish"
+SPA_social_conservative_ADJ:0 "Spanish"
+SPA_paternal_autocrat_ADJ:0 "Spanish"
+SPA_orthodox_marxist_ADJ:0 "Spanish"
+SPA_authoritarian_democrat_ADJ:0 "Spanish"
+SPA_revolutionary_socialist_ADJ:0 "Spanish"
+SPA_social_democrat_ADJ:0 "Spanish"
+SPA_social_liberal_ADJ:0 "Spanish"
+SPA_classic_liberal_ADJ:0 "Spanish"
+SPA_vanguardist_ADJ:0 "Spanish"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+SPA_matters_at_hand:0 "The Matters at Hand"
+SPA_matters_at_hand_desc:0 "Spain has been riddled with internal problems threatening to overthrow the monarchy ever since the Spanish-American War. If Spain is to be the next great power these things need to end immediately."
+SPA_session_with_the_clergy:0 "Session with the Clergy"
+SPA_session_with_the_clergy_desc:0 "The Roman Catholic Church is one of the most powerful organisations in Spain, yet they show great dissatisfaction at our leadership. We need to discuss why and what we are able to do to change this."
+SPA_chaos_in_the_countryside:0 "Chaos in the Countryside"
+SPA_address_the_cabinet:0 "Address the Cabinet"
+
+
+
+#Events
+#should be reintegrated
+
+spain.1000.t:0 "The Monthly Riots"
+spain.1000.d:0 "As our regime is ineffictively, some of the peasants are striking against our rule and questioning our authority."
+spain.1000.a:0 "Troublesome Peasants"
+
+spain.2000.t:0 "Bigger than expected"
+spain.2000.d:0 "As we're ignoring the monthly riots, the riots are going far worse than expected."
+spain.2000.a:0 "Damn it peasants!"
+
+#Descriptions
+
+POLITICS_ALFONSO_XIII_DESC:0 "Born on May 17 1886, Alfonso XIII of Spain is not one known to have luck on his side, with his childhood mired with disasters, deaths and countless tragedies inflicted upon his family and the Kingdom of Spain. He is the second King of Spain since the short-lived Republic of 1873 which deposed the monarchy, before it was restored not more than a year after its abolishment. The first son of Alfonso XII, his wait as heir to the throne was set to be a long one, yet in a stroke of misfortune his father passed away just shy of his 28th birthday, placing him as the new king, although not yet born. Dysentery they said, or it could have been tuberculosis. But none of that matters now.\n\nHis mother would serve as regent of Spain until his 16th birthday. During that time, Spain lost some of its most valuable colonial possessions as a result of the Spanish-American War, and from there on Spain’s status on the world stage dwindled as problems once miniscule began to plague the country. After the Great War, Spain under his reign did stabilise somewhat, but was hit by the ever-so-aptly named Spanish Flu of 1918, yet this was balanced out with a quick and decisive war in the Rif ordered by Alfonso himself, which settled the Spanish colonial debate and gave Spain the boost of confidence it needed in these trying times.\n\nAlfonso is not a man you have a neutral opinion of; you either love him, or hate him. One side of the populace regard him as the saviour of Spain, a figurehead of determination, to push through in the most desperate of times, yet the other view him as nothing but a spineless coward; the worst monarch in Spain’s unstable history. Yet whatever opinion you have of this man, you can’t not admit he is one of their boldest monarchs in history, although such boldness could make or break Spain’s status from here."
+
+#Ideas
+SPA_crisis_in_the_government:0 "Chaos in the Cortes"
+SPA_crisis_in_the_government_desc:0 "“If I was a Spaniard, me, and possibly my entire family, would be dead.”\n - Unknown"
+SPA_strong_military:0 "The Bull that Braves"
+SPA_strong_military_desc:0 "The Spanish Army is the main land army of the Kingdom of Spain. Founded sometime in the 15th century, it has existed continuously since the reign of King Ferdinand II of Aragon. It is one of the oldest and strongest land armies on earth, and has played a major role in keeping stability in the Kingdom.\n\nVeteran and War Hero General Francisco Franco leads the force as its Chief of Staff, with his prior experience coming from the wars in the Rif and Morocco, the latter of which he oversaw to victory. Franco’s most famous victory was at the Battle of Khenifra in 1924, where an encircled and outmanned Spanish expeditionary force led by Franco was able to annihilate the much larger Berber force, crippling their fighting capabilities and eventually forcing them to sue for peace.\n\n§RHowever, should they turn against us, we will be in danger§"
+SPA_national_unrest:0 "Divided Monarchy Support"
+SPA_national_unrest_desc:0 "Gather a hundred different Spaniards into one room and ask them a question on whether they support the monarchy. From wherever the across country you’ve chosen them, and whatever their gender, it is certain that exactly half of them would reply with yes, and the other: no."
+
+#cosmetic tags
+ 

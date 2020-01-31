@@ -1,0 +1,18 @@
+state={
+	id=804
+	name="STATE_804"
+	manpower = 2000
+
+	state_category = wasteland
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	provinces={
+		12207
+	}
+}

@@ -13,6 +13,7 @@ bookmarks = {
 			ideas = {
 				FRA_protected_by_the_maginot_line
                                 legacy_of_the_commune
+                                weak_army
 			}
 			focuses = {
 				#FRA_initiate_government_reform

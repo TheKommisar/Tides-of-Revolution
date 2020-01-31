@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+UKR_national_populist_party:0 ""
+UKR_national_populist_party_long:0 ""
+UKR_collectivist_party:0 ""
+UKR_collectivist_party_long:0 ""
+UKR_social_conservative_party:0 ""
+UKR_social_conservative_party_long:0 ""
+UKR_paternal_autocrat_party:0 ""
+UKR_paternal_autocrat_party_long:0 ""
+UKR_authoritarian_democrat_party:0 "Supporters of the Hetman"
+UKR_authoritarian_democrat_party_long:0 "Supporters of the Hetman"
+UKR_social_democrat_party:0 ""
+UKR_social_democrat_party_long:0 ""
+UKR_social_liberal_party:0 ""
+UKR_social_liberal_party_long:0 ""
+UKR_classic_liberal_party:0 ""
+UKR_classic_liberal_party_long:0 ""
+UKR_totalitarian_socialist_party:0 ""
+UKR_totalitarian_socialist_party_long:0 ""
+UKR_revolutionary_socialist_party:0 ""
+UKR_revolutionary_socialist_party_long:0 ""
+UKR_orthodox_marxist_party:0 ""
+UKR_orthodox_marxist_party_long:0 ""
+
+#Country Names
+ UKR_national_populist:0 "Ukrainian State"
+ UKR_national_populist_DEF:0 "Ukrainian State"
+ UKR_totalitarian_socialist:0 "Ukrainian People's Republic"
+ UKR_totalitarian_socialist_DEF:0 "the Ukrainian People's Republic"
+ UKR_paternal_autocrat:0 "Ukrainian State"
+ UKR_paternal_autocrat_DEF:0 "Ukrainian State"
+ UKR_social_conservative:0 "Ukrainian State"
+ UKR_social_conservative_DEF:0 "Ukrainian State"
+ UKR_authoritarian_democrat:1 "Ukrainian State"
+ UKR_authoritarian_democrat_DEF:1 "Ukrainian State"
+ UKR_orthodox_marxist:0 "Ukrainian State Worker's Republic"
+ UKR_orthodox_marxist_DEF:0 "the Ukrainian People's Republic"
+ UKR_revolutionary_socialist:0 "Ukrainian People's Republic"
+ UKR_revolutionary_socialist_DEF:0 "the Ukrainian People's Republic"
+ UKR_social_democrat:0 "Ukrainian State"
+ UKR_social_democrat_DEF:0 "Ukrainian State"
+ UKR_social_liberal:0 "Ukrainian State"
+ UKR_social_liberal_DEF:0 "Ukrainian State"
+ UKR_classic_liberal:0 "Ukrainian State"
+ UKR_classic_liberal_DEF:0 "Ukrainian State"
+ UKR_vanguardist:0 "Ukrainian People's Republic"
+ UKR_vanguardist_DEF:0 "the Ukrainian People's Republic"
+ 
+ UKR_national_populist_ADJ:0 "Ukrainian"
+ UKR_totalitarian_socialist_ADJ:0 "Ukrainian"
+ UKR_social_conservative_ADJ:0 "Ukrainian"
+ UKR_paternal_autocrat_ADJ:0 "Ukrainian"
+ UKR_orthodox_marxist_ADJ:0 "Ukrainian"
+ UKR_authoritarian_democrat_ADJ:0 "Ukrainian"
+ UKR_revolutionary_socialist_ADJ:0 "Ukrainian"
+ UKR_social_democrat_ADJ:0 "Ukrainian"
+ UKR_social_liberal_ADJ:0 "Ukrainian"
+ UKR_classic_liberal_ADJ:0 "Ukrainian"
+ UKR_vanguardist_ADJ:0 "Ukrainian"
+
+ BLR_authoritarian_democrat:0 "Byelorussia"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

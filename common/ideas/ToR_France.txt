@@ -19,5 +19,28 @@ country = {
 					can_create_factions = yes
 				}
 		}
+        weak_army = {
+				
+			allowed = {
+				original_tag = FRA
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			research_bonus = {
+				land_doctrine = -0.25
+				naval_doctrine = -0.25
+				air_doctrine = -0.25
+			}
+			modifier = {
+				army_org_factor = -0.35
+				training_time_factor = 0.35
+				war_support_factor = -0.1
+			}
+		}
 }
 }

@@ -5,6 +5,10 @@ spriteTypes = {
 #national spirits
 spriteType = {
 		name = "GFX_idea_legacy_of_the_commune"
-		texturefile = "gfx/interface/ideas/FRA/fourth_international.dds"
+		texturefile = "gfx/interface/ideas/FRA/legacy_of_the_commune.tga"
+	}
+spriteType = {
+		name = "GFX_idea_weak_army"
+		texturefile = "gfx/interface/ideas/FRA/generic_communist_army.dds"
 	}
 }

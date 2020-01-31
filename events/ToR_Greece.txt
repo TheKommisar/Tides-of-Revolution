@@ -2,37 +2,23 @@
 
 add_namespace = greece
 
-#Eleftherios Venizelos assassinated!
+#Eleftherios Venizelos death
 country_event = {
 	id = greece.1
         title = greece.1.t	
 	desc = greece.1.d
-	picture = GFX_report_event_gathering_protest
+	picture = GFX_report_event_people_running
 	
 	fire_only_once = yes
 	
-	trigger = {
-		tag = GRE
-		date > 1936.1.10
-	}
-	
-	mean_time_to_happen = { days = 2 }
+	is_triggered_only = yes
 	
 	option = {
 		name = greece.1.a
-                kill_country_leader = yes
-                set_country_flag = GRE_venizelos_assassinated
-
-		if = {
-			limit = {
-				GRE = { 
-					NOT = { 
-						has_idea = GRE_political_turmoil 
-					}
-				}
-			}
-			add_ideas = GRE_political_turmoil
-		}
+                retire_country_leader = yes
+                
+		remove_ideas = GRE_political_divide
+		add_ideas = GRE_political_turmoil
 
 		create_country_leader = {
 			name = "The Gerousia"
@@ -42,5 +28,188 @@ country_event = {
 			ideology = classic_liberal_subtype
 			traits = {}
 		}
+
+                hidden_effect = {  country_event = { days = 30 id = greece.2 }
+             
+            }
 	}
+}
+
+country_event = {
+	id = greece.2 #snap election
+        title = greece.2.t	
+	desc = greece.2.dt
+	picture = GFX_report_event_gathering_protest
+
+        is_triggered_only = yes
+   
+        option = { #liberal party wins
+                ai_chance = {
+			factor = 1
+		}
+                retire_country_leader = yes
+                create_country_leader = {
+			name = "Themistoklis Sofoulis"
+			desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = classic_liberal_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "Panagis Tsaldaris"
+			desc = "POLITICS_PANAGIS_TSALDARIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = social_conservative_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "Nikos Zachariadis"
+			desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = vanguardist_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "placeholder"
+			desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = national_populist_subtype
+			traits = {}
+		}
+		name = greece.2.a
+                add_political_power = -20
+        }
+        option = { # peoples party wins
+                ai_chance = {
+			factor = 1
+		}
+                retire_country_leader = yes
+                create_country_leader = {
+			name = "Panagis Tsaldaris"
+			desc = "POLITICS_PANAGIS_TSALDARIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = social_conservative_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "Themistoklis Sofoulis"
+			desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = classic_liberal_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "Nikos Zachariadis"
+			desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = vanguardist_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "placeholder"
+			desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = national_populist_subtype
+			traits = {}
+		}
+                set_politics = {
+	        ruling_party = social_conservative
+                }
+		name = greece.2.b
+                add_political_power = -20
+        }
+        option = { # popular front wins 
+                ai_chance = {
+			factor = 1
+		}
+                retire_country_leader = yes
+                create_country_leader = {
+			name = "Panagis Tsaldaris"
+			desc = "POLITICS_PANAGIS_TSALDARIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = social_conservative_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "Themistoklis Sofoulis"
+			desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = classic_liberal_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "Nikos Zachariadis"
+			desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = vanguardist_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "placeholder"
+			desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = national_populist_subtype
+			traits = {}
+		}
+                set_politics = {
+	        ruling_party = vanguardist
+                }
+		name = greece.2.c
+                add_political_power = -20
+        }
+        option = { # national bloc wins 
+                ai_chance = {
+			factor = 1
+		}
+                retire_country_leader = yes
+                create_country_leader = {
+			name = "Panagis Tsaldaris"
+			desc = "POLITICS_PANAGIS_TSALDARIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = social_conservative_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "Themistoklis Sofoulis"
+			desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = classic_liberal_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "Nikos Zachariadis"
+			desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = vanguardist_subtype
+			traits = {}
+		}
+                create_country_leader = {
+			name = "placeholder"
+			desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
+			picture = "dsdd"
+			expire = "1965.1.1"
+			ideology = national_populist_subtype
+			traits = {}
+		}
+                set_politics = {
+	        ruling_party = national_populist
+                }
+		name = greece.2.d
+                add_political_power = -20
+        }
 }

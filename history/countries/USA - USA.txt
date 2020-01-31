@@ -62,6 +62,14 @@ give_guarantee = URG
 
 #SUBJECTS
 
+set_autonomy = {
+	target = HAI
+	autonomous_state =  autonomy_puppet
+}
+
+#nicaragua and the phillippines are both us puppets but arent shown here
+
+
 set_convoys = 400
 
 add_ideas = {
@@ -75,7 +83,7 @@ set_politics = {
 	ruling_party = classic_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
         totalitarian_socialist = 0
@@ -568,64 +576,4 @@ create_equipment_variant = {
 		ship_reliability_upgrade = 1
 	}
 
-}
-
-1939.1.1 = {
-	
-	create_equipment_variant = {
-		name = "Salmon Class"
-		type = submarine_2
-		upgrades = {
-			ship_reliability_upgrade = 1
-			sub_engine_upgrade = 1
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 1
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Benson & Gleaves Class"
-		type = destroyer_2
-		upgrades = {
-			ship_torpedo_upgrade = 3
-			destroyer_engine_upgrade = 3
-			ship_ASW_upgrade = 3
-			ship_anti_air_upgrade = 3
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Wasp Class"
-		type = carrier_2
-		upgrades = {
-			ship_deckspace_upgrade = 2
-			carrier_armor_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_reliability_upgrade = 2
-		}
-	}
-
-	create_equipment_variant = {
-		name = "F2A Buffalo"
-		type = cv_fighter_equipment_1
-		upgrades = {
-			cv_plane_gun_upgrade = 5
-			cv_plane_range_upgrade = 0
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 5
-		}
-	}
-
-
-	# 1941
-	#create_equipment_variant = {
-	#	name = "South Dakota Class"
-	#	type = battleship_2
-	#	upgrades = {
-	#		ship_reliability_upgrade = 3
-	#		ship_engine_upgrade = 3
-	#		ship_armor_upgrade = 3
-	#		ship_gun_upgrade = 3
-	#	}
-	#}
 }
