@@ -3,26 +3,26 @@
 #Parties
 ARM_national_populist_party:0 "TK"
 ARM_national_populist_party_long:0 "Taronist Kusaktsutyun"
-ARM_vanguardist_party:0 "PPSH"
-ARM_vanguardist_party_long:0 "Partia e Punës e Shqipërisë"
-ARM_social_conservative_party:0 "Progressives"
-ARM_social_conservative_party_long:0 "Partia Progresive"
-ARM_paternal_autocrat_party:0 "Wied-Neuwied"
-ARM_paternal_autocrat_party_long:0 "House of Wied-Neuwied"
+ARM_vanguardist_party:0 ""
+ARM_vanguardist_party_long:0 ""
+ARM_social_conservative_party:0 ""
+ARM_social_conservative_party_long:0 ""
+ARM_paternal_autocrat_party:0 "Dro"
+ARM_paternal_autocrat_party_long:0 "Dro Clique"
 ARM_authoritarian_democrat_party:0 "Dro"
 ARM_authoritarian_democrat_party_long:0 "Dro Clique"
 ARM_social_democrat_party:0 "Dashnak"
 ARM_social_democrat_party_long:0 "Dashnaktsutyun"
 ARM_social_liberal_party:0 "RAK"
 ARM_social_liberal_party_long:0 "Ramgavar Azatakan Kusaktsutyun"
-ARM_classic_liberal_party:0 "OL"
-ARM_classic_liberal_party_long:0 "Opozita Liberale"
-ARM_totalitarian_socialist_party:0 "PPSH"
-ARM_totalitarian_socialist_party_long:0 "Partia e Punës e Shqipërisë"
-ARM_revolutionary_socialist_party:0 "PSS"
-ARM_revolutionary_socialist_party_long:0 "Partia Socialiste e Shqipërisë"
-ARM_orthodox_marxist_party:0 "PPSH"
-ARM_orthodox_marxist_party_long:0 "Partia e Punës e Shqipërisë"
+ARM_classic_liberal_party:0 ""
+ARM_classic_liberal_party_long:0 ""
+ARM_totalitarian_socialist_party:0 ""
+ARM_totalitarian_socialist_party_long:0 ""
+ARM_revolutionary_socialist_party:0 ""
+ARM_revolutionary_socialist_party_long:0 ""
+ARM_orthodox_marxist_party:0 ""
+ARM_orthodox_marxist_party_long:0 ""
 
 #Country Names
 ARM_national_populist:0 "Republic of Armenia"
@@ -67,7 +67,6 @@ ARM_vanguardist_ADJ:0 "Armenian"
 #should be reintegrated
 
 
-
 #Focuses
 #should be reintegrated
 
@@ -77,3 +76,4 @@ ARM_vanguardist_ADJ:0 "Armenian"
 #Descriptions
 
 #cosmetic tags
+

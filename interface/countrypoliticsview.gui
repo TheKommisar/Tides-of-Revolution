@@ -773,7 +773,7 @@ guiTypes = {
 		
 	}
 	
-	containerWindowType = {
+		containerWindowType = {
 		name = "political_selectable_idea_entry"
 		size = { width = 231 height = 148 }
 		clipping = no
