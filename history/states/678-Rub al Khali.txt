@@ -3,7 +3,8 @@ state={
 	id=678
 	name="STATE_678"
 	manpower=42
-	state_category = wasteland
+	state_category = wasteland 
+        impassable = yes
 
 	history={
 		owner = SAU

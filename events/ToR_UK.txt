@@ -60,7 +60,7 @@ country_event = {
 	id = uk.3
 	title = uk.3.t # Government of Burma Act 1935
 	desc = uk.3.d
-	picture = gfx/event_pictures/burma_government_house.dds
+	picture = GFX_report_event_burma_government_house
 	
 	trigger = {
 		TAG = ENG
@@ -107,7 +107,7 @@ country_event = {
 			}
 			set_autonomy = {
 				target = BRM
-				autonomous_state = sod_satellite_state
+				autonomous_state = puppet
 				freedom_level = 0.35
 				}
 			}
@@ -146,17 +146,17 @@ country_event = {
 			}
 			BRM = { 
 				set_politics = { 
-					ruling_party = neutrality
+					ruling_party = authoritarian_democrat
 					last_election = "1936.11.26"
 					election_frequency = 48
 					elections_allowed = no
 				}
-				set_political_party = {
-					ideology = democratic popularity = 51
-					ideology = fascism popularity = 1
-					ideology = communism popularity = 1
-					ideology = neutrality popularity = 47
-				}
+				#set_political_party = {
+				#	ideology = democratic popularity = 51
+				#	ideology = fascism popularity = 1
+				#	ideology = communism popularity = 1
+				#	ideology = neutrality popularity = 47
+				#}
 			}
 		}
 
@@ -191,7 +191,7 @@ country_event = {
 			}
                         set_autonomy = {
 			        target = BRM
-				autonomous_state = sod_satellite_state
+				autonomous_state = puppet
 				freedom_level = 0.35
 				}
 			}
@@ -230,17 +230,17 @@ country_event = {
 			}
 			BRM = { 
 				set_politics = { 
-					ruling_party = neutrality
+					ruling_party = authoritarian_democrat
 					last_election = "1936.11.26"
 					election_frequency = 48
 					elections_allowed = no
 				}
-				set_political_party = {
-					ideology = democratic popularity = 51
-					ideology = fascism popularity = 1
-					ideology = communism popularity = 1
-					ideology = neutrality popularity = 47
-				}
+				#set_political_party = {
+				#	ideology = democratic popularity = 51
+				#	ideology = fascism popularity = 1
+				#	ideology = communism popularity = 1
+				#	ideology = neutrality popularity = 47
+				#}
 			}
 		}
 }
