@@ -15,42 +15,13 @@ focus_tree = {
         continuous_focus_position = { x = 1 y = 1 }
 	
                 focus = {
-		id = GER_italiancivilwar
+		id = GER_was_ist_des_deutschen_vaterland
 		icon = GFX_focus_generic_air_defense
-		x = 27
-		y = 0
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_ourplaceinthesun
-		icon = GFX_focus_generic_air_defense
-		x = 16
-		y = 0
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_antisocialist
-		icon = GFX_goal_anti_comintern_pact
-		x = 10
+                prerequisite = { focus = GER_looking_outwards }
+		x = 19
 		y = 1
-		cost = 4
-		prerequisite = { focus = GER_ourplaceinthesun }
+                relative_position_id = GER_looking_outwards
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -61,781 +32,920 @@ focus_tree = {
 	}
 	
 		focus = {
-		id = GER_integratebufferstates
-		icon = GFX_goal_generic_intelligence_exchange
-		x = 11
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_antisocialist }
-		ai_will_do = {
-			factor = 1
+		id = GER_looking_outwards
+		icon = no_icon
+		available = {
 		}
-		
-		completion_reward = {
-			add_political_power = 50
-			puppet = LIT
-			puppet = LAT
-			puppet = EST
-		}
-	}
-	
-		focus = {
-		id = GER_kievplan
-		icon = GFX_goal_generic_small_arms
-		x = 12
-		y = 3
-		cost = 4
-		prerequisite = { focus = GER_integratebufferstates }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_demandcolonies
-		icon = GFX_goal_generic_position_armies
-		x = 16
-		y = 1
-		cost = 4
-		prerequisite = { focus = GER_ourplaceinthesun }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_aidchina
-		icon = GFX_focus_chi_cooperation_with_the_nationalists
-		x = 9
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_antisocialist }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_sovietseparatists
-		icon = GFX_focus_secret_rearmament
-		x = 8
-		y = 3
-		cost = 4
-		prerequisite = { focus = GER_aidchina }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_reclaimdanzig
-		icon = GFX_goal_generic_military_deal
-		x = 16
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_partitionpoland focus = GER_partitionroumania }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-			create_wargoal = {
-				type = take_state_focus
-				target = POL
-				generator = { 85 86 }
-			}
-		}
-	}
-	
-		focus = {
-		id = GER_partitionpoland
-		icon = GFX_goal_generic_major_alliance
+		cancel_if_invalid = yes
 		x = 15
-		y = 3
-		cost = 4
-		prerequisite = { focus = GER_allybulgaria focus = GER_allyhungary focus = GER_allyukraine }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_partitionroumania
-		icon = GFX_goal_generic_major_alliance
-		x = 17
-		y = 3
-		cost = 4
-		prerequisite = { focus = GER_allybulgaria focus = GER_allyhungary focus = GER_allyukraine }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_avengeweltkrieg
-		icon = GFX_goal_generic_major_war
-		x = 18
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_partitionpoland focus = GER_partitionroumania }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-			create_wargoal = {
-				type = take_state_focus
-				target = FRA
-				generator = { 28 766 }
-			}
-		}
-	}
-	
-		focus = {
-		id = GER_austrianintervention
-		icon = GFX_focus_ger_oppose_hitler
-		x = 21
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_reachouttocourland }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_schlieffenplan
-		icon = GFX_goal_generic_major_war
-		x = 14
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_partitionpoland focus = GER_partitionroumania }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-			create_wargoal = { type = puppet_wargoal_focus target = BEL }
-			create_wargoal = { type = puppet_wargoal_focus target = LUX }
-		}
-	}
-	
-		focus = {
-		id = GER_moscowplot
-		icon = GFX_focus_wonderweapons
-		x = 10
-		y = 3
-		cost = 4
-		prerequisite = { focus = GER_integratebufferstates focus = GER_aidchina}
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_redmenace
-		icon = GFX_focus_ger_strike_at_the_source
-		x = 10
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_sovietseparatists focus = GER_kievplan focus = GER_moscowplot }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			create_wargoal = { type = annex_everything target = SOV }
-		}
-	}
-	
-		focus = {
-		id = GER_allyhungary
-		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 16
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_demandcolonies }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_allybulgaria
-		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 18
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_demandcolonies }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_allyukraine
-		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 14
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_demandcolonies }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_closekanal
-		icon = GFX_goal_generic_amphibious_assault
-		x = 23
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_reachouttocourland }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_invadedenmark
-		icon = GFX_goal_unknown
-		x = 21
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_secureborders }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-			create_wargoal = { type = annex_everything target = DEN }
-		}
-	}
-	
-		focus = {
-		id = GER_invadeczech
-		icon = GFX_goal_unknown
-		x = 23
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_secureborders }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-			create_wargoal = {
-				type = take_state_focus
-				target = CZE
-				generator = { 74 69 }
-			}
-		}
-	}
-	
-		focus = {
-		id = GER_secureborders
-		icon = GFX_goal_generic_build_tank
-		x = 22
-		y = 3
-		cost = 4
-		prerequisite = { focus = GER_closekanal focus = GER_austrianintervention }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		
-	
-	
-		
-	
-		focus = {
-		id = GER_illicitfunds
-		icon = GFX_goal_unknown
-		x = 32
-		y = 3
-		cost = 4
-		prerequisite = { focus = GER_indadvancement focus = GER_armsproduction }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_militarybuildup1
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 31
-		y = 5
-		cost = 4
-		prerequisite = { focus = GER_warbonds }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_militarybuildup2
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 31
-		y = 6
-		cost = 4
-		prerequisite = { focus = GER_militarybuildup1 }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_militarybuildup3
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 31
-		y = 7
-		cost = 4
-		prerequisite = { focus = GER_militarybuildup2 }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-		focus = {
-		id = GER_civilianbuildup1
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 33
-		y = 5
-		cost = 4
-		prerequisite = { focus = GER_warbonds }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_civilianbuildup2
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 33
-		y = 6
-		cost = 4
-		prerequisite = { focus = GER_civilianbuildup1 }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_civilianbuildup3
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 33
-		y = 7
-		cost = 4
-		prerequisite = { focus = GER_civilianbuildup2 }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_warbonds
-		icon = GFX_goal_unknown
-		x = 32
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_illicitfunds }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_ideas = war_bonds_focus
-		}
-	}
-	
-	
-	focus = {
-		id = GER_increaseddefensespending
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 31
-		y = 1
-		cost = 4
-		prerequisite = { focus = GER_domesticinvestment }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_subsidizedindustry
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 33
-		y = 1
-		cost = 4
-		prerequisite = { focus = GER_domesticinvestment }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_indadvancement
-		icon = GFX_goal_generic_build_airforce
-		x = 33
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_subsidizedindustry }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_armsproduction
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 31
-		y = 2
-		cost = 4
-		prerequisite = { focus = GER_increaseddefensespending }
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_domesticinvestment
-		icon = GFX_goal_generic_construction2
-		x = 32
 		y = 0
-		cost = 4
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	
-	focus = {
-		id = GER_reachouttocourland
-		icon = GFX_goal_generic_military_sphere
-		x = 22
-		y = 1
-		cost = 4
-		prerequisite = { focus = GER_ourplaceinthesun }
-		ai_will_do = {
-			factor = 1
+
+                focus = {
+		id = GER_is_it_styria
+		icon = no_icon
+                prerequisite = { focus = GER_was_ist_des_deutschen_vaterland }
+		available = {
 		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	
-	
-	focus = {
-		id = GER_revampwaracademies
-		icon = GFX_focus_generic_military_mission
-		x = 38
+		cancel_if_invalid = yes
+		x = -3
 		y = 2
-		cost = 4
-		prerequisite = { focus = GER_commissionofwarstudies }
+                relative_position_id = GER_was_ist_des_deutschen_vaterland
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_remilitarization
-		icon = GFX_goal_generic_secret_weapon
-		x = 38
-		y = 0
-		cost = 4
-		ai_will_do = {
-			factor = 1
+
+                focus = {
+		id = GER_is_it_where_the_danube_rushes_along
+		icon = no_icon
+                prerequisite = { focus = GER_is_it_where_the_gull_belt focus = GER_is_it_where_marsi_cattle_roam }
+		available = {
 		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_recruitmentcampaigns
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 36
+		cancel_if_invalid = yes
+		x = 1
 		y = 1
-		cost = 4
-		prerequisite = { focus = GER_remilitarization }
+                relative_position_id = GER_is_it_where_the_gull_belt
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_wargames
-		icon = GFX_goal_unknown
-		x = 36
+
+        focus = {
+		id = GER_is_it_tyrol
+		icon = no_icon
+                prerequisite = { focus = GER_is_it_where_the_danube_rushes_along }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+                relative_position_id = GER_is_it_where_the_danube_rushes_along
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_it_must_be_austria
+		icon = no_icon
+                prerequisite = { focus = GER_is_it_tyrol }
+                prerequisite = { focus = GER_is_it_where_the_sand_of_dunes_blows }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+                relative_position_id = GER_is_it_tyrol
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}  
+
+        focus = {
+		id = GER_as_far_as_the_german_tongue_sounds
+		icon = no_icon
+                prerequisite = { focus = GER_it_must_be_austria }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+                relative_position_id = GER_it_must_be_austria
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}  
+
+
+        focus = {
+		id = GER_is_it_prussia
+		icon = no_icon
+		prerequisite = { focus = GER_was_ist_des_deutschen_vaterland }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -1
+		y = 1
+                relative_position_id = GER_was_ist_des_deutschen_vaterland
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_is_it_swabia
+		icon = no_icon
+		prerequisite = { focus = GER_was_ist_des_deutschen_vaterland }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+                relative_position_id = GER_was_ist_des_deutschen_vaterland
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_is_it_where_rhine_blossom
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_prussia }
+                prerequisite = { focus = GER_is_it_swabia }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+                relative_position_id = GER_is_it_prussia
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_is_it_where_the_gull_belt
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_where_rhine_blossom focus = GER_is_it_styria }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -4
+		y = 1
+                relative_position_id = GER_is_it_where_rhine_blossom
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_is_it_bavaria
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_where_rhine_blossom }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+                relative_position_id = GER_is_it_where_rhine_blossom
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_is_it_where_marsi_cattle_roam
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_where_rhine_blossom focus = GER_is_it_styria }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -2
+		y = 1
+                relative_position_id = GER_is_it_where_rhine_blossom
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+                focus = {
+		id = GER_is_it_where_mark_mold_iron
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_where_rhine_blossom }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 2
+		y = 1
+                relative_position_id = GER_is_it_where_rhine_blossom
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+                focus = {
+		id = GER_is_it_the_land_of_the_swiss
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_where_mark_mold_iron }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+                relative_position_id = GER_is_it_where_mark_mold_iron
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_is_it_pomerania
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_where_mark_mold_iron focus = GER_is_it_where_marsi_cattle_roam focus = GER_is_it_bavaria focus = GER_is_it_where_the_gull_belt }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+                relative_position_id = GER_is_it_where_marsi_cattle_roam
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_is_it_westphalia
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_where_mark_mold_iron focus = GER_is_it_where_marsi_cattle_roam focus = GER_is_it_bavaria focus = GER_is_it_where_the_gull_belt }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 3
+		y = 1
+                relative_position_id = GER_is_it_where_marsi_cattle_roam
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = GER_is_it_where_the_sand_of_dunes_blows
+		icon = no_icon
+		prerequisite = { focus = GER_is_it_pomerania }
+                prerequisite = { focus = GER_is_it_westphalia }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+                relative_position_id = GER_is_it_pomerania
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_western_focus
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		prerequisite = { focus = GER_looking_outwards }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -4
+		y = 1
+		relative_position_id = GER_looking_outwards
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_french_policy
+		icon = GFX_goal_generic_france
+		prerequisite = { focus = GER_western_focus }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -3
+		y = 1
+		relative_position_id = GER_western_focus
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+#Be friends with France
+
+    focus = {
+		id = GER_french_rapprochement
+		icon = GFX_focus_chi_reach_out_to_france
+		prerequisite = { focus = GER_french_policy }
+		mutually_exclusive = { focus = GER_antagonize_france }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+		relative_position_id = GER_french_policy
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_send_diplomats
+		icon = GFX_focus_FRA_normalize_relations
+		prerequisite = { focus = GER_french_rapprochement }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
 		y = 2
-		cost = 4
-		prerequisite = { focus = GER_recruitmentcampaigns }
+		relative_position_id = GER_french_policy
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_equipmentupgrades
-		icon = GFX_goal_generic_small_arms
-		x = 36
+
+    focus = {
+		id = GER_alsace_for_alliance
+		icon = GFX_focus_FRA_alsace_question
+		prerequisite = { focus = GER_send_diplomats }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
 		y = 3
-		cost = 4
-		prerequisite = { focus = GER_wargames }
+		relative_position_id = GER_french_policy
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_mandatoryconscription
-		icon = GFX_focus_generic_little_entente
-		x = 36
+
+#Yeet France off the map
+
+    focus = {
+		id = GER_antagonize_france
+		icon = GFX_focus_attack_france
+		prerequisite = { focus = GER_french_policy }
+		mutually_exclusive = { focus = GER_french_rapprochement }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -1
+		y = 1
+		relative_position_id = GER_french_policy
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_send_troops
+		icon = GFX_focus_GER_destroy_france
+		prerequisite = { focus = GER_antagonize_france }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -1
+		y = 2
+		relative_position_id = GER_french_policy
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_exploit_french_industry
+		icon = GFX_focus_GER_exploit_french_industry
+		prerequisite = { focus = GER_send_troops }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -1
+		y = 3
+		relative_position_id = GER_french_policy
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+#shared
+
+    focus = {
+		id = GER_use_french_ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = GER_exploit_french_industry focus = GER_alsace_for_alliance }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
 		y = 4
-		cost = 4
-		prerequisite = { focus = GER_equipmentupgrades }
+		relative_position_id = GER_french_policy
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_commissionofwarstudies
-		icon = GFX_goal_generic_army_doctrines
-		x = 38
+
+####################
+###BRITISH POLICY###
+####################
+
+    focus = {
+		id = GER_deal_with_britain
+		icon = GFX_goal_generic_england_flag
+		prerequisite = { focus = GER_western_focus }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 3
 		y = 1
-		cost = 4
-		prerequisite = { focus = GER_remilitarization }
+		relative_position_id = GER_western_focus
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_rationing
-		icon = GFX_goal_generic_consumer_goods
-		x = 40
+
+#Be friends with Britain
+
+    focus = {
+		id = GER_britain_friends
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = GER_deal_with_britain }
+		mutually_exclusive = { focus = GER_continue_british_rivalry }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -1
 		y = 1
-		cost = 4
-		prerequisite = { focus = GER_remilitarization }
+		relative_position_id = GER_deal_with_britain
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_modernizedoctrine
+
+    focus = {
+		id = GER_new_naval_treaties
+		icon = GFX_focus_GER_british_naval_treaty
+		prerequisite = { focus = GER_britain_friends }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = GER_britain_friends
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_trade_dominions
+		icon = GFX_goal_generic_british_dominions
+		prerequisite = { focus = GER_new_naval_treaties }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 2
+		relative_position_id = GER_britain_friends
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+#Attack Britain
+
+    focus = {
+		id = GER_continue_british_rivalry
+		icon = GFX_focus_attack_britain
+		prerequisite = { focus = GER_deal_with_britain }
+		mutually_exclusive = { focus = GER_britain_friends }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+		relative_position_id = GER_deal_with_britain
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_attack_britain
+		icon = GFX_focus_GER_attack_ENG
+		prerequisite = { focus = GER_continue_british_rivalry }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = GER_continue_british_rivalry
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_target_shipping
+		icon = GFX_goal_generic_navy_anti_submarine
+		prerequisite = { focus = GER_attack_britain }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 2
+		relative_position_id = GER_continue_british_rivalry
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+#Shared
+
+    focus = {
+		id = GER_seas_mastery
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		x = 38
+		prerequisite = { focus = GER_target_shipping focus = GER_trade_dominions }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -1
 		y = 3
-		cost = 4
-		prerequisite = { focus = GER_revampwaracademies }
+		relative_position_id = GER_continue_british_rivalry
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_geistderniederlage
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		x = 38
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_modernizedoctrine }
-		ai_will_do = {
-			factor = 1
+
+#######################
+###End the trade war###
+#######################
+
+    focus = {
+		id = GER_trade_war_negotiations
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = GER_deal_with_britain focus = GER_french_policy }
+		available = {
 		}
-		
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	
-	focus = {
-		id = GER_wagefreezes
-		icon = GFX_focus_generic_treaty
-		x = 40
+		cancel_if_invalid = yes
+		x = 0
 		y = 2
-		cost = 4
-		prerequisite = { focus = GER_rationing }
+		relative_position_id = GER_western_focus
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_pricecontrols
-		icon = GFX_goal_continuous_suppression
-		x = 40
+
+#######################
+###Chaos in the East###
+#######################
+
+    focus = {
+		id = GER_chaos_in_the_east
+		icon = GFX_goal_generic_russian_collapse
+		prerequisite = { focus = GER_looking_outwards }
+		available = {
+		    has_global_flag = RUS_civil_war_started
+		}
+		cancel_if_invalid = yes
+		x = 6
+		y = 1
+		relative_position_id = GER_looking_outwards
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_baltic_occupation
+		icon = GFX_focus_GER_army_with_state
+		prerequisite = { focus = GER_chaos_in_the_east }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 2
+		y = 1
+		relative_position_id = GER_chaos_in_the_east
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		    country_event = { id = ger_foreign.1 days = 0 }
+		}
+	}
+
+    focus = {
+		id = GER_germanize_baltics
+		icon = GFX_focus_GER_baltic_germanisation
+		prerequisite = { focus = GER_baltic_occupation }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 2
+		relative_position_id = GER_chaos_in_the_east
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_polish_question
+		icon = GFX_goal_generic_polish_question
+		prerequisite = { focus = GER_chaos_in_the_east }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -2
+		y = 1
+		relative_position_id = GER_chaos_in_the_east
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_conquer_poland
+		icon = GFX_focus_GER_conquer_poland
+		prerequisite = { focus = GER_polish_question }
+		mutually_exclusive = { focus = GER_polish_friends }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -1
+		y = 1
+		relative_position_id = GER_polish_question
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_polish_friends
+		icon = GFX_focus_generic_polish_flag
+		prerequisite = { focus = GER_polish_question }
+		mutually_exclusive = { focus = GER_conquer_poland }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+		relative_position_id = GER_polish_question
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_ally_poland
+		icon = GFX_focus_generic_polish_alliance
+		prerequisite = { focus = GER_polish_friends }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 2
+		relative_position_id = GER_polish_question
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_support_finland
+		icon = GFX_goal_generic_finnish_friendship
+		prerequisite = { focus = GER_chaos_in_the_east }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = GER_chaos_in_the_east
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_friends_in_ukraine
+		icon = GFX_goal_generic_ukrainian_flag
+		prerequisite = { focus = GER_chaos_in_the_east }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -4
+		y = 1
+		relative_position_id = GER_chaos_in_the_east
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_grain_imports
+		icon = GFX_goal_generic_wheat_fields
+		prerequisite = { focus = GER_friends_in_ukraine }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -4
 		y = 3
-		cost = 4
-		prerequisite = { focus = GER_wagefreezes }
+		relative_position_id = GER_chaos_in_the_east
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
-	
-	focus = {
-		id = GER_nationalizearms
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 40
-		y = 4
-		cost = 4
-		prerequisite = { focus = GER_pricecontrols }
+
+    focus = {
+		id = GER_support_tsar
+		icon = GFX_goal_generic_tsar_flag
+		prerequisite = { focus = GER_chaos_in_the_east }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 4
+		y = 1
+		relative_position_id = GER_chaos_in_the_east
+		cost = 5
 		ai_will_do = {
-			factor = 1
 		}
 		
 		completion_reward = {
-			add_political_power = 50
 		}
 	}
+
+    focus = {
+		id = GER_anti_reds_intervention
+		icon = GFX_focus_GER_attack_commies
+		prerequisite = { focus = GER_support_tsar }
+		mutually_exclusive = { focus = GER_protect_sphere }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = -1
+		y = 1
+		relative_position_id = GER_support_tsar
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_protect_sphere
+		icon = GFX_focus_GER_protect_sphere
+		prerequisite = { focus = GER_support_tsar }
+		mutually_exclusive = { focus = GER_anti_reds_intervention }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+		relative_position_id = GER_support_tsar
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = GER_attack_russia
+		icon = GFX_focus_ger_strike_at_the_source
+		prerequisite = { focus = GER_anti_reds_intervention focus = GER_protect_sphere }
+		available = {
+		}
+		cancel_if_invalid = yes
+		x = 0
+		y = 2
+		relative_position_id = GER_support_tsar
+		cost = 5
+		ai_will_do = {
+		}
+		
+		completion_reward = {
+		}
+	}
+}
