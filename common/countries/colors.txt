@@ -216,7 +216,7 @@ PER = {
 	color_ui = rgb { 92 147 126 }
 }
 PHI = {
-	color = rgb { 152 130 191 }
+	color = rgb { 157 158 101 }
 	color_ui = rgb { 198 169 248 }
 }
 PRU = {

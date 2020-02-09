@@ -1,0 +1,26 @@
+opinion_modifiers = {
+
+    accepted_economic_investment = { value = 50 }
+    refused_economic_investment { value = -50 }
+
+    us_accepted_military_alliance = { value = 50 }
+    us_rejected_military_alliance = { value = -50 }
+
+    eng_accepted_air_equipment = { value = 50 }
+    eng_rejected_air_equipment = { value = -50 }
+
+    jap_accepted_naval_vessels = { value = 50 }
+    jap_rejected_naval_vessels = { value = -50 }
+
+    sov_accepted_support = { value = 50 }
+    sov_rejected_support = { value = -50 }
+
+    diplomatic_mission = { value = 100 }
+
+    trade_treaty_accepted = { value = 100 }
+    trade_treaty_refused = { value = -100 }
+
+    seato_our_liberators = { value = 200 }
+
+    renounced_imperialism = { value = -100 }
+}
