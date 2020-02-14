@@ -1,8 +1,9 @@
 ﻿l_english:
  # SHOULD NOT BE TRANSLATED FROM ENGLISH
+ maintheme:0 "On the Hills of Manchuria"
 
  # HOI4 Soundtrack
- maintheme:0 "Main Theme - On the Hills of Manchuria"
+ main_vanilla:0 "Main Theme - Allies"
  axis_war_1:0 "Axis Theme"
  allies_peace_1:0 "Morning of D-day"
  general_war_1:0 "Bring Forth the Tanks"
