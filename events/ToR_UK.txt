@@ -107,7 +107,7 @@ country_event = {
 			}
 			set_autonomy = {
 				target = BRM
-				autonomous_state = puppet
+				autonomous_state = autonomy_colony
 				freedom_level = 0.35
 				}
 			}
@@ -143,11 +143,7 @@ country_event = {
 					amount = 300
 					producer = "RAJ"
 				}
-			}
-                        set_autonomy = {
-		        target = BRM
-		        autonomous_state = autonomy_colony
-	                }  
+			} 
 			BRM = { 
 				set_politics = { 
 					ruling_party = authoritarian_democrat
@@ -202,7 +198,7 @@ country_event = {
 			}
                         set_autonomy = {
 			        target = BRM
-				autonomous_state = puppet
+				autonomous_state = autonomy_colony
 				freedom_level = 0.35
 				}
 			}
@@ -239,10 +235,6 @@ country_event = {
 					producer = "RAJ"
 				}
 			}
-                        set_autonomy = {
-		        target = BRM
-		        autonomous_state = autonomy_colony
-	                }  
 			BRM = { 
 				set_politics = { 
 					ruling_party = authoritarian_democrat

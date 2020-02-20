@@ -601,3 +601,7 @@ HEJ = {
 	color = rgb { 171  190  152 }
 	color_ui = rgb { 171 190 152 }
 }
+NFL = { 
+        color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}

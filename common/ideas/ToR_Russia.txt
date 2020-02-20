@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		RUS_polarized_society = {
+			picture = goal_revolution
+			modifier = {
+				national_populist_drift = 0.2
+				vanguardist_drift = 0.1
+				collectivist_drift = 0.1
+				stability_factor = - 0.20
+				production_speed_buildings_factor = -0.10
+				production_factory_max_efficiency_factor = -0.30
+				political_power_gain = -0.3
+			}
+	}
+		RUS_socialist_violence = {
+			picture = focus_ger_bulwark_against_bolshevism
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.2
+				consumer_goods_factor = 0.05
+			}
+	}
+		RUS_underdeveloped_countryside = {
+		     picture = focus_refugee_management
+			 modifier = {
+			    production_factory_max_efficiency_factor = -0.30
+			    production_speed_buildings_factor = -0.10
+			    conscription_factor = -0.20
+			}     
+	}
+			RUS_kaisers_influence = {
+		     picture = focus_ger_revive_kaiserreich
+			 modifier = {
+			    production_speed_industrial_complex_factor = 0.13
+				trade_opinion_factor = 0.20
+				war_support_factor = 0.15
+			}     
+	}
+			RUS_church_question = {
+		     picture = goal_tax_church
+			 modifier = {
+			     consumer_goods_factor = 0.05
+			     stability_factor = -0.10
+			}     
+	}
+}
