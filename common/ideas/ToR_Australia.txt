@@ -1,0 +1,19 @@
+ideas = {
+country = {
+     
+AST_emu_war = {
+			allowed = {
+				original_tag = AST
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+				}
+		}
+		}
+}

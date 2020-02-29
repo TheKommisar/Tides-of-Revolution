@@ -1,11 +1,12 @@
 
 state={
-	id=791
-	name="STATE_791"
+	id=802
+	name="STATE_802"
 
 	history={
-		owner = UKR
-		add_core_of = UKR
+		owner = GER
+		add_core_of = GER
+                add_claim_by = BEL
 		buildings = {
 			infrastructure = 4
 
@@ -14,9 +15,9 @@ state={
 	}
 
 	provinces={
-		315 343 371 9288 9342 11229 11298 11325 13224 
+		3488 
 	}
-	manpower=139000
+	manpower=5000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

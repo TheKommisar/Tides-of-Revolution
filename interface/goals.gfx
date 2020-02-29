@@ -1356,5 +1356,44 @@ spriteTypes = {
 		name = "GFX_focus_spa_address_the_cabinet"
 		texturefile = "gfx/interface/goals/address_the_cabinet.dds"
 	}
-
+        SpriteType = { 
+		name = "GFX_focus_as_far_as_the_german_tongue_sounds"
+		texturefile = "gfx/interface/goals/as_far_as_the_german_tongue_sounds.dds"
+	}
+        SpriteType = { 
+		name = "GFX_german_cows"
+		texturefile = "gfx/interface/goals/german_cows.dds"
+	}
+        SpriteType = { 
+		name = "GFX_german_iron"
+		texturefile = "gfx/interface/goals/german_iron.dds"
+	}
+        SpriteType = { 
+		name = "GFX_it_must_be_austria"
+		texturefile = "gfx/interface/goals/it_must_be_austria.dds"
+	}
+        SpriteType = { 
+		name = "GFX_pomerania"
+		texturefile = "gfx/interface/goals/pomerania.dds"
+	}
+        SpriteType = { 
+		name = "GFX_switzerland"
+		texturefile = "gfx/interface/goals/switzerland.dds"
+	}
+        SpriteType = { 
+		name = "GFX_tyrol"
+		texturefile = "gfx/interface/goals/tyrol.dds"
+	}
+        SpriteType = { 
+		name = "GFX_westphalia"
+		texturefile = "gfx/interface/goals/westphalia.dds"
+	}
+        SpriteType = { 
+		name = "GFX_rhine_blossom"
+		texturefile = "gfx/interface/goals/rhine_blossom.dds"
+	}
+        SpriteType = { 
+		name = "GFX_sand_dunes"
+		texturefile = "gfx/interface/goals/sand_dunes.dds"
+	}
 }

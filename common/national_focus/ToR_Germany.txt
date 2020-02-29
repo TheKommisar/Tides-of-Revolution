@@ -85,7 +85,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_tyrol
-		icon = no_icon
+		icon = GFX_tyrol
                 prerequisite = { focus = GER_is_it_where_the_danube_rushes_along }
 		available = {
 		}
@@ -103,7 +103,7 @@ focus_tree = {
 
         focus = {
 		id = GER_it_must_be_austria
-		icon = no_icon
+		icon = GFX_it_must_be_austria
                 prerequisite = { focus = GER_is_it_tyrol }
                 prerequisite = { focus = GER_is_it_where_the_sand_of_dunes_blows }
 		available = {
@@ -121,8 +121,8 @@ focus_tree = {
 	}  
 
         focus = {
-		id = GER_as_far_as_the_german_tongue_sounds
-		icon = no_icon
+		id = GER_as_far_the_german_tongue_sounds
+		icon = GFX_focus_as_far_as_the_german_tongue_sounds
                 prerequisite = { focus = GER_it_must_be_austria }
 		available = {
 		}
@@ -177,7 +177,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_where_rhine_blossom
-		icon = no_icon
+		icon = GFX_rhine_blossom
 		prerequisite = { focus = GER_is_it_prussia }
                 prerequisite = { focus = GER_is_it_swabia }
 		available = {
@@ -232,7 +232,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_where_marsi_cattle_roam
-		icon = no_icon
+		icon = GFX_german_cows
 		prerequisite = { focus = GER_is_it_where_rhine_blossom focus = GER_is_it_styria }
 		available = {
 		}
@@ -250,7 +250,7 @@ focus_tree = {
 
                 focus = {
 		id = GER_is_it_where_mark_mold_iron
-		icon = no_icon
+		icon = GFX_german_iron
 		prerequisite = { focus = GER_is_it_where_rhine_blossom }
 		available = {
 		}
@@ -268,7 +268,7 @@ focus_tree = {
 
                 focus = {
 		id = GER_is_it_the_land_of_the_swiss
-		icon = no_icon
+		icon = GFX_switzerland
 		prerequisite = { focus = GER_is_it_where_mark_mold_iron }
 		available = {
 		}
@@ -286,7 +286,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_pomerania
-		icon = no_icon
+		icon = GFX_pomerania
 		prerequisite = { focus = GER_is_it_where_mark_mold_iron focus = GER_is_it_where_marsi_cattle_roam focus = GER_is_it_bavaria focus = GER_is_it_where_the_gull_belt }
 		available = {
 		}
@@ -304,7 +304,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_westphalia
-		icon = no_icon
+		icon = GFX_westphalia
 		prerequisite = { focus = GER_is_it_where_mark_mold_iron focus = GER_is_it_where_marsi_cattle_roam focus = GER_is_it_bavaria focus = GER_is_it_where_the_gull_belt }
 		available = {
 		}
@@ -322,7 +322,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_where_the_sand_of_dunes_blows
-		icon = no_icon
+		icon = GFX_sand_dunes
 		prerequisite = { focus = GER_is_it_pomerania }
                 prerequisite = { focus = GER_is_it_westphalia }
 		available = {
