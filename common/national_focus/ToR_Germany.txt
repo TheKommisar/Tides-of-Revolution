@@ -16,11 +16,9 @@ focus_tree = {
 	
                 focus = {
 		id = GER_was_ist_des_deutschen_vaterland
-		icon = GFX_focus_generic_air_defense
-                prerequisite = { focus = GER_looking_outwards }
-		x = 19
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 50
 		y = 1
-                relative_position_id = GER_looking_outwards
 		cost = 5
 		ai_will_do = {
 			factor = 1
@@ -49,7 +47,7 @@ focus_tree = {
 
                 focus = {
 		id = GER_is_it_styria
-		icon = no_icon
+		icon = GFX_is_it_styria
                 prerequisite = { focus = GER_was_ist_des_deutschen_vaterland }
 		available = {
 		}
@@ -67,7 +65,7 @@ focus_tree = {
 
                 focus = {
 		id = GER_is_it_where_the_danube_rushes_along
-		icon = no_icon
+		icon = GFX_danube
                 prerequisite = { focus = GER_is_it_where_the_gull_belt focus = GER_is_it_where_marsi_cattle_roam }
 		available = {
 		}
@@ -122,7 +120,7 @@ focus_tree = {
 
         focus = {
 		id = GER_as_far_the_german_tongue_sounds
-		icon = GFX_focus_as_far_as_the_german_tongue_sounds
+		icon = GFX_focus_ger_return_of_the_kaiser
                 prerequisite = { focus = GER_it_must_be_austria }
 		available = {
 		}
@@ -141,7 +139,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_prussia
-		icon = no_icon
+		icon = GFX_is_it_prussia
 		prerequisite = { focus = GER_was_ist_des_deutschen_vaterland }
 		available = {
 		}
@@ -159,7 +157,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_swabia
-		icon = no_icon
+		icon = GFX_is_it_swabia
 		prerequisite = { focus = GER_was_ist_des_deutschen_vaterland }
 		available = {
 		}
@@ -196,7 +194,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_where_the_gull_belt
-		icon = no_icon
+		icon = GFX_gull_belt
 		prerequisite = { focus = GER_is_it_where_rhine_blossom focus = GER_is_it_styria }
 		available = {
 		}
@@ -214,7 +212,7 @@ focus_tree = {
 
         focus = {
 		id = GER_is_it_bavaria
-		icon = no_icon
+		icon = GFX_bavaria
 		prerequisite = { focus = GER_is_it_where_rhine_blossom }
 		available = {
 		}
@@ -321,16 +319,13 @@ focus_tree = {
 	}
 
         focus = {
-		id = GER_is_it_where_the_sand_of_dunes_blows
-		icon = GFX_sand_dunes
-		prerequisite = { focus = GER_is_it_pomerania }
-                prerequisite = { focus = GER_is_it_westphalia }
+		id = GER_a_nation_in_disarray
+		icon = GFX
 		available = {
 		}
 		cancel_if_invalid = yes
-		x = 1
-		y = 1
-                relative_position_id = GER_is_it_pomerania
+		x = 10
+		y = 10
 		cost = 5
 		ai_will_do = {
 		}
@@ -338,614 +333,5 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
-
-    focus = {
-		id = GER_western_focus
-		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
-		prerequisite = { focus = GER_looking_outwards }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -4
-		y = 1
-		relative_position_id = GER_looking_outwards
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_french_policy
-		icon = GFX_goal_generic_france
-		prerequisite = { focus = GER_western_focus }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -3
-		y = 1
-		relative_position_id = GER_western_focus
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-#Be friends with France
-
-    focus = {
-		id = GER_french_rapprochement
-		icon = GFX_focus_chi_reach_out_to_france
-		prerequisite = { focus = GER_french_policy }
-		mutually_exclusive = { focus = GER_antagonize_france }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 1
-		y = 1
-		relative_position_id = GER_french_policy
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_send_diplomats
-		icon = GFX_focus_FRA_normalize_relations
-		prerequisite = { focus = GER_french_rapprochement }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 1
-		y = 2
-		relative_position_id = GER_french_policy
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_alsace_for_alliance
-		icon = GFX_focus_FRA_alsace_question
-		prerequisite = { focus = GER_send_diplomats }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 1
-		y = 3
-		relative_position_id = GER_french_policy
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-#Yeet France off the map
-
-    focus = {
-		id = GER_antagonize_france
-		icon = GFX_focus_attack_france
-		prerequisite = { focus = GER_french_policy }
-		mutually_exclusive = { focus = GER_french_rapprochement }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -1
-		y = 1
-		relative_position_id = GER_french_policy
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_send_troops
-		icon = GFX_focus_GER_destroy_france
-		prerequisite = { focus = GER_antagonize_france }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -1
-		y = 2
-		relative_position_id = GER_french_policy
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_exploit_french_industry
-		icon = GFX_focus_GER_exploit_french_industry
-		prerequisite = { focus = GER_send_troops }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -1
-		y = 3
-		relative_position_id = GER_french_policy
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-#shared
-
-    focus = {
-		id = GER_use_french_ports
-		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = GER_exploit_french_industry focus = GER_alsace_for_alliance }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 0
-		y = 4
-		relative_position_id = GER_french_policy
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-####################
-###BRITISH POLICY###
-####################
-
-    focus = {
-		id = GER_deal_with_britain
-		icon = GFX_goal_generic_england_flag
-		prerequisite = { focus = GER_western_focus }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 3
-		y = 1
-		relative_position_id = GER_western_focus
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-#Be friends with Britain
-
-    focus = {
-		id = GER_britain_friends
-		icon = GFX_focus_chi_british_cooperation
-		prerequisite = { focus = GER_deal_with_britain }
-		mutually_exclusive = { focus = GER_continue_british_rivalry }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -1
-		y = 1
-		relative_position_id = GER_deal_with_britain
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_new_naval_treaties
-		icon = GFX_focus_GER_british_naval_treaty
-		prerequisite = { focus = GER_britain_friends }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 0
-		y = 1
-		relative_position_id = GER_britain_friends
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_trade_dominions
-		icon = GFX_goal_generic_british_dominions
-		prerequisite = { focus = GER_new_naval_treaties }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 0
-		y = 2
-		relative_position_id = GER_britain_friends
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-#Attack Britain
-
-    focus = {
-		id = GER_continue_british_rivalry
-		icon = GFX_focus_attack_britain
-		prerequisite = { focus = GER_deal_with_britain }
-		mutually_exclusive = { focus = GER_britain_friends }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 1
-		y = 1
-		relative_position_id = GER_deal_with_britain
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_attack_britain
-		icon = GFX_focus_GER_attack_ENG
-		prerequisite = { focus = GER_continue_british_rivalry }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 0
-		y = 1
-		relative_position_id = GER_continue_british_rivalry
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_target_shipping
-		icon = GFX_goal_generic_navy_anti_submarine
-		prerequisite = { focus = GER_attack_britain }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 0
-		y = 2
-		relative_position_id = GER_continue_british_rivalry
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-#Shared
-
-    focus = {
-		id = GER_seas_mastery
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = GER_target_shipping focus = GER_trade_dominions }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -1
-		y = 3
-		relative_position_id = GER_continue_british_rivalry
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-#######################
-###End the trade war###
-#######################
-
-    focus = {
-		id = GER_trade_war_negotiations
-		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = GER_deal_with_britain focus = GER_french_policy }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 0
-		y = 2
-		relative_position_id = GER_western_focus
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-#######################
-###Chaos in the East###
-#######################
-
-    focus = {
-		id = GER_chaos_in_the_east
-		icon = GFX_goal_generic_russian_collapse
-		prerequisite = { focus = GER_looking_outwards }
-		available = {
-		    has_global_flag = RUS_civil_war_started
-		}
-		cancel_if_invalid = yes
-		x = 6
-		y = 1
-		relative_position_id = GER_looking_outwards
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_baltic_occupation
-		icon = GFX_focus_GER_army_with_state
-		prerequisite = { focus = GER_chaos_in_the_east }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 2
-		y = 1
-		relative_position_id = GER_chaos_in_the_east
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		    country_event = { id = ger_foreign.1 days = 0 }
-		}
-	}
-
-    focus = {
-		id = GER_germanize_baltics
-		icon = GFX_focus_GER_baltic_germanisation
-		prerequisite = { focus = GER_baltic_occupation }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 1
-		y = 2
-		relative_position_id = GER_chaos_in_the_east
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_polish_question
-		icon = GFX_goal_generic_polish_question
-		prerequisite = { focus = GER_chaos_in_the_east }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -2
-		y = 1
-		relative_position_id = GER_chaos_in_the_east
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_conquer_poland
-		icon = GFX_focus_GER_conquer_poland
-		prerequisite = { focus = GER_polish_question }
-		mutually_exclusive = { focus = GER_polish_friends }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -1
-		y = 1
-		relative_position_id = GER_polish_question
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_polish_friends
-		icon = GFX_focus_generic_polish_flag
-		prerequisite = { focus = GER_polish_question }
-		mutually_exclusive = { focus = GER_conquer_poland }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 1
-		y = 1
-		relative_position_id = GER_polish_question
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_ally_poland
-		icon = GFX_focus_generic_polish_alliance
-		prerequisite = { focus = GER_polish_friends }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 1
-		y = 2
-		relative_position_id = GER_polish_question
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_support_finland
-		icon = GFX_goal_generic_finnish_friendship
-		prerequisite = { focus = GER_chaos_in_the_east }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 0
-		y = 1
-		relative_position_id = GER_chaos_in_the_east
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_friends_in_ukraine
-		icon = GFX_goal_generic_ukrainian_flag
-		prerequisite = { focus = GER_chaos_in_the_east }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -4
-		y = 1
-		relative_position_id = GER_chaos_in_the_east
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_grain_imports
-		icon = GFX_goal_generic_wheat_fields
-		prerequisite = { focus = GER_friends_in_ukraine }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -4
-		y = 3
-		relative_position_id = GER_chaos_in_the_east
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_support_tsar
-		icon = GFX_goal_generic_tsar_flag
-		prerequisite = { focus = GER_chaos_in_the_east }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 4
-		y = 1
-		relative_position_id = GER_chaos_in_the_east
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_anti_reds_intervention
-		icon = GFX_focus_GER_attack_commies
-		prerequisite = { focus = GER_support_tsar }
-		mutually_exclusive = { focus = GER_protect_sphere }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = -1
-		y = 1
-		relative_position_id = GER_support_tsar
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_protect_sphere
-		icon = GFX_focus_GER_protect_sphere
-		prerequisite = { focus = GER_support_tsar }
-		mutually_exclusive = { focus = GER_anti_reds_intervention }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 1
-		y = 1
-		relative_position_id = GER_support_tsar
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
-
-    focus = {
-		id = GER_attack_russia
-		icon = GFX_focus_ger_strike_at_the_source
-		prerequisite = { focus = GER_anti_reds_intervention focus = GER_protect_sphere }
-		available = {
-		}
-		cancel_if_invalid = yes
-		x = 0
-		y = 2
-		relative_position_id = GER_support_tsar
-		cost = 5
-		ai_will_do = {
-		}
-		
-		completion_reward = {
-		}
-	}
+        
 }

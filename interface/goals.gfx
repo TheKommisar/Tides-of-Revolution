@@ -1357,8 +1357,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/address_the_cabinet.dds"
 	}
         SpriteType = { 
-		name = "GFX_focus_as_far_as_the_german_tongue_sounds"
-		texturefile = "gfx/interface/goals/as_far_as_the_german_tongue_sounds.dds"
+		name = "GFX_as_far_as_the_german_tongue_sounds"
+		texturefile = "gfx/interface/goals/as_far_as_the german_tongue_sounds.dds"
 	}
         SpriteType = { 
 		name = "GFX_german_cows"
@@ -1396,4 +1396,30 @@ spriteTypes = {
 		name = "GFX_sand_dunes"
 		texturefile = "gfx/interface/goals/sand_dunes.dds"
 	}
+        SpriteType = { 
+		name = "GFX_danube"
+		texturefile = "gfx/interface/goals/danube.dds"
+	}
+        SpriteType = { 
+		name = "GFX_is_it_prussia"
+		texturefile = "gfx/interface/goals/is_it_prussia.dds"
+	} 
+        SpriteType = { 
+		name = "GFX_is_it_styria"
+		texturefile = "gfx/interface/goals/is_it_styria.dds"
+	}
+        SpriteType = { 
+		name = "GFX_is_it_swabia"
+		texturefile = "gfx/interface/goals/is_it_swabia.dds"
+	}
+        SpriteType = { 
+		name = "GFX_gull_belt"
+		texturefile = "gfx/interface/goals/gull_belt.dds"
+	}
+        SpriteType = { 
+		name = "GFX_bavaria"
+		texturefile = "gfx/interface/goals/bavaria.dds"
+	}
+
+
 }

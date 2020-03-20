@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+ISR_national_populist_party:0 "Zion"
+ISR_national_populist_party_long:0 "Land of Zion"
+ISR_vanguardist_party:0 "Ahdut HaAvoda"
+ISR_vanguardist_party_long:0 "Ahdut HaAvoda"
+ISR_social_conservative_party:0 "Hapoel HaMizrachi"
+ISR_social_conservative_party_long:0 "Hapoel HaMizrachi"
+ISR_paternal_autocrat_party:0 "National Front"
+ISR_paternal_autocrat_party_long:0 "National Front for Israel"
+ISR_authoritarian_democrat_party:0 "Agudat Yisrael"
+ISR_authoritarian_democrat_party_long:0 "Agudat Yisrael"
+ISR_social_democrat_party:0 "MAPAI"
+ISR_social_democrat_party_long:0 "MAPAI"
+ISR_social_liberal_party:0 "General Zionists"
+ISR_social_liberal_party_long:0 "General Zionists"
+ISR_classic_liberal_party:0 "General Zionists"
+ISR_classic_liberal_party_long:0 "General Zionists"
+ISR_totalitarian_socialist_party:0 "PKP"
+ISR_totalitarian_socialist_party_long:0 "PKP"
+ISR_revolutionary_socialist_party:0 "MAPAI"
+ISR_revolutionary_socialist_party_long:0 "MAPAI"
+ISR_orthodox_marxist_party:0 "HaShomer HaTzair"
+ISR_orthodox_marxist_party_long:0 "HaShomer HaTzair"
+
+#Country Names
+ISR_national_populist:0 "Israel"
+ISR_national_populist_DEF:0 "Israel"
+ISR_totalitarian_socialist:0 "Israel"
+ISR_totalitarian_socialist_DEF:0 "Israel"
+ISR_paternal_autocrat:0 "Israel"
+ISR_paternal_autocrat_DEF:0 "Israel"
+ISR_social_conservative:0 "Israel"
+ISR_social_conservative_DEF:0 "Israel"
+ISR_authoritarian_democrat:1 "Israel"
+ISR_authoritarian_democrat_DEF:1 "Israel"
+ISR_orthodox_marxist:0 "Israel"
+ISR_orthodox_marxist_DEF:0 "Israel"
+ISR_revolutionary_socialist:0 "Israel"
+ISR_revolutionary_socialist_DEF:0 "Israel"
+ISR_social_democrat:0 "Israel"
+ISR_social_democrat_DEF:0 "Israel"
+ISR_social_liberal:0 "Israel"
+ISR_social_liberal_DEF:0 "Israel"
+ISR_classic_liberal:0 "Israel"
+ISR_classic_liberal_DEF:0 "Israel"
+ISR_vanguardist:0 "Israel"
+ISR_vanguardist_DEF:0 "Israel"
+ 
+ISR_national_populist_ADJ:0 "Israeli"
+ISR_totalitarian_socialist_ADJ:0 "Israeli"
+ISR_social_conservative_ADJ:0 "Israeli"
+ISR_paternal_autocrat_ADJ:0 "Israeli"
+ISR_orthodox_marxist_ADJ:0 "Israeli"
+ISR_authoritarian_democrat_ADJ:0 "Israeli"
+ISR_revolutionary_socialist_ADJ:0 "Israeli"
+ISR_social_democrat_ADJ:0 "Israeli"
+ISR_social_liberal_ADJ:0 "Israeli"
+ISR_classic_liberal_ADJ:0 "Israeli"
+ISR_vanguardist_ADJ:0 "Israeli"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
