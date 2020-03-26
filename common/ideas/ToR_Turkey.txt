@@ -1,0 +1,17 @@
+ideas = {
+
+    country = {
+        
+        TUR_the_great_humiliation = {
+            allowed = { original_tag = TUR }
+
+            picture = TUR_the_great_humiliation
+
+            modifier = {
+                justify_war_goal_time = -0.10
+                army_core_defence_factor = -0.05
+		monthly_population = -0.05
+            }
+        }
+    }
+}
