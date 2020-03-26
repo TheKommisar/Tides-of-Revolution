@@ -13,5 +13,17 @@ ideas = {
 		monthly_population = -0.05
             }
         }
+	        TUR_sick_man_of_europe = {
+            allowed = { original_tag = TUR }
+
+            picture = TUR_sick_man_of_europe
+
+            modifier = {
+                political_power_cost = 0.02
+                conscription_factor = -0.05
+		monthly_population = -0.05
+		army_morale_factor = -0.10
+            }
+        }
     }
 }
