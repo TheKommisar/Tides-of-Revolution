@@ -1,0 +1,125 @@
+division_template = {
+	name = "Workers Militia"		
+	division_names_group = SRI_MIL_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Revolutionary Division"		
+	division_names_group = SRI_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+                infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Red Sailors" 				# Marines
+	division_names_group = SRI_INF_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Mounted Police Defectors" 				# Cavalry
+	division_names_group = SRI_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Police Brigade"		
+	division_names_group = SRI_MIL_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+        support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+units = {		
+	division = {			
+		name = "Milanese Volunteers"		
+		location = 3780
+		division_template = "Workers Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.25
+
+	}
+        division = {			
+		name = "Red Guard"		
+		location = 773
+		division_template = "Revolutionary Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+        division = {			
+		name = "Bolognese Volunteers"		
+		location = 6606
+		division_template = "Workers Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.25
+
+	}
+        division = {			
+		name = "Milanese Police Defectors"		
+		location = 3780
+		division_template = "Workers Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+        division = {			
+		name = "Red Guard"		
+		location = 6780
+		division_template = "Revolutionary Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+        division = {			
+		name = "Red Guard"		
+		location = 6606
+		division_template = "Revolutionary Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+        division = {			
+		name = "Genoa Sailors"		
+		location = 6788
+		division_template = "Red Sailors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+        division = {			
+		name = "Ravenna Sailors"		
+		location = 782
+		division_template = "Red Sailors"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+}

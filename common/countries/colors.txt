@@ -605,3 +605,7 @@ NFL = {
         color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
+SRI = { 
+        color = rgb { 92 40 37 } 
+        color_ui = rgb { 92 40 37 }
+}

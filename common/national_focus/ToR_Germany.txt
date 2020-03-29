@@ -121,7 +121,7 @@ focus_tree = {
         focus = {
 		id = GER_as_far_the_german_tongue_sounds
 		icon = GFX_focus_ger_return_of_the_kaiser
-                prerequisite = { focus = GER_it_must_be_austria }
+                prerequisite = { focus = GER_it_must_be_austria } 
 		available = {
 		}
 		cancel_if_invalid = yes
@@ -319,13 +319,16 @@ focus_tree = {
 	}
 
         focus = {
-		id = GER_a_nation_in_disarray
-		icon = GFX
+		id = GER_is_it_where_the_sand_of_dunes_blows
+		icon = GFX_sand_dunes
+                prerequisite = { focus = GER_is_it_pomerania }
+                prerequisite = { focus = GER_is_it_westphalia }
 		available = {
 		}
 		cancel_if_invalid = yes
-		x = 10
-		y = 10
+		x = 1
+		y = 1
+                relative_position_id = GER_is_it_pomerania
 		cost = 5
 		ai_will_do = {
 		}

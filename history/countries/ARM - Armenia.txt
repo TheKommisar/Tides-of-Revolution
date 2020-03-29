@@ -2,7 +2,18 @@
 
 oob = "ARM_1936"
 
+set_stability = 0.7
+set_war_support = 0.4
+
 set_research_slots = 3
+
+add_ideas = { 
+        ARM_armenian_genocide
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+}
+
 
 # Starting tech
 set_technology = {
