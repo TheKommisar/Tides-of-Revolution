@@ -1,0 +1,22 @@
+state={
+	id=819
+	name="STATE_819"
+	manpower = 200000
+
+	state_category = pastoral
+
+	history={
+		owner = SIA
+                add_core_of = SIA
+                victory_points = {
+			4302 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		1353 4251 4302 5236 10134 10177 10467 12460 
+	}
+}

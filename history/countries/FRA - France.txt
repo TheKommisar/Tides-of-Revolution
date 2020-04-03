@@ -348,6 +348,19 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+create_corps_commander = {
+	name = "Marcel Petiot"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Marcel_Petiot.tga"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
 #### Naval leaders
 
 create_navy_leader = {

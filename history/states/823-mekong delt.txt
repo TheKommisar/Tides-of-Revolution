@@ -1,0 +1,22 @@
+state={
+	id=823
+	name="STATE_823"
+	manpower = 90000
+
+	state_category = pastoral
+
+	history={
+		owner = VIN
+                add_core_of = VIN
+                victory_points = {
+			12133 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		 1423 4223 4284 4341 7303 7331 12133 
+	}
+}

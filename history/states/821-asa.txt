@@ -1,7 +1,7 @@
 state={
-	id=815
-	name="STATE_815"
-	manpower = 300000
+	id=821
+	name="STATE_821"
+	manpower = 546776
 
 	state_category = pastoral
 
@@ -9,11 +9,11 @@ state={
 		owner = VIN
                 add_core_of = VIN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 	}
 	
 	provinces={
-		1620 4330 4596 7645 10204 12167 12260 12288 
+		1302 4379 4397 7280 9988 10016 11909 11936 12297 
 	}
 }
