@@ -78,3 +78,13 @@ RUS_vanguardist_DEF:0 "Soviet Russia"
 
 #cosmetic tags
  
+RUS_polarized_society:0 "Polarized society"
+ RUS_polarized_society_desc:0 "Russian society is once again being divided and conflict between the two eternal enemies seems inevitable."
+ RUS_socialist_violence:0 "Socialist violence"
+ RUS_socialist_violence_desc:0 "Our cities are crawled with the red rats and keeping them pacified is proving to be more and more dangerous."
+ RUS_underdeveloped_countryside:0 "Underdeveloped countryside"
+ RUS_underdeveloped_countryside_desc:0 "After the war, most of spendings went into urbanization and industrialization of large cities, the poor farmers are being mostly neglected, and large influx of Russian refugees from breakaway states certainly does not help."
+ RUS_kaisers_influence:0 "Kaiser's influence"
+ RUS_kaisers_influence_desc:0 "Over the years, Kaiser Wilhelm II has managed to set up an extensive diplomatic and propagandistic connections with Russian people"
+ RUS_church_question:0 "Church question"
+ RUS_church_question_desc:0 "Our church is lazy and corrupted, reforms will need to take place sooner or later."

@@ -2,7 +2,7 @@ on_actions = {
 	on_startup = {
 		effect = { #flavour events and whatnot
 			AUS = { country_event = { days = 180 id = austriahungary.1000 } }
-                        ENG = { country_event = { days = 314 id = uk.1000 } }
+            ENG = { country_event = { days = 314 id = uk.1000 } }
 
 			every_country = {
 				if = {
@@ -14,5 +14,6 @@ on_actions = {
 				}
 			}
 		}
+		#effect = { #canon events, timed
 	}
 }

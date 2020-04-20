@@ -107,7 +107,7 @@ country_event = {
 			}
 			set_autonomy = {
 				target = BRM
-				autonomous_state = puppet
+				autonomous_state = autonomy_colony
 				freedom_level = 0.35
 				}
 			}
@@ -143,7 +143,7 @@ country_event = {
 					amount = 300
 					producer = "RAJ"
 				}
-			}
+			} 
 			BRM = { 
 				set_politics = { 
 					ruling_party = authoritarian_democrat
@@ -151,12 +151,19 @@ country_event = {
 					election_frequency = 48
 					elections_allowed = no
 				}
-				#set_political_party = {
-				#	ideology = democratic popularity = 51
-				#	ideology = fascism popularity = 1
-				#	ideology = communism popularity = 1
-				#	ideology = neutrality popularity = 47
-				#}
+				set_popularities = {
+                                       totalitarian_socialist = 0
+	                               vanguardist = 0
+                                       orthodox_marxist = 0
+	                               revolutionary_socialist = 0
+                                       social_democrat = 0
+                                       social_liberal = 0
+                                       classic_liberal = 0
+                                       social_conservative = 0
+                                       authoritarian_democrat = 100
+                                       paternal_autocrat = 0
+                                       national_populist = 0
+                               }
 			}
 		}
 
@@ -191,7 +198,7 @@ country_event = {
 			}
                         set_autonomy = {
 			        target = BRM
-				autonomous_state = puppet
+				autonomous_state = autonomy_colony
 				freedom_level = 0.35
 				}
 			}
@@ -235,12 +242,19 @@ country_event = {
 					election_frequency = 48
 					elections_allowed = no
 				}
-				#set_political_party = {
-				#	ideology = democratic popularity = 51
-				#	ideology = fascism popularity = 1
-				#	ideology = communism popularity = 1
-				#	ideology = neutrality popularity = 47
-				#}
+				set_popularities = {
+                                       totalitarian_socialist = 0
+	                               vanguardist = 0
+                                       orthodox_marxist = 0
+	                               revolutionary_socialist = 0
+                                       social_democrat = 0
+                                       social_liberal = 0
+                                       classic_liberal = 0
+                                       social_conservative = 0
+                                       authoritarian_democrat = 100
+                                       paternal_autocrat = 0
+                                       national_populist = 0
+                               }
 			}
 		}
 }

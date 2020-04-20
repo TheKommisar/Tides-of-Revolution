@@ -1,0 +1,20 @@
+state={
+	id=803
+	name="STATE_803"
+	manpower = 45000
+
+	state_category = city
+
+	history = {
+	    owner = RUS
+	    add_core_of = RUS
+	    add_claim_by = LAT
+	    buildings = {
+	        infrastructure = 4
+	    }
+	}
+
+	provinces={
+		222 310 319 341 3333 6459 7482 9275 
+	}
+}

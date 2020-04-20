@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+BRM_national_populist_party:0 "Thakins"
+BRM_national_populist_party_long:0 "Dobama Asiayone"
+BRM_vanguardist_party:0 "CPB"
+BRM_vanguardist_party_long:0 "Communist Party of Burma"
+BRM_social_conservative_party:0 "Five Flowers Alliance"
+BRM_social_conservative_party_long:0 "United General Council of Burmese Associations"
+BRM_paternal_autocrat_party:0 "Poor Man's Party"
+BRM_paternal_autocrat_party_long:0 "Sinyetha - Poor Man's Party"
+BRM_authoritarian_democrat_party:0 "Poor Man's Party"
+BRM_authoritarian_democrat_party_long:0 "Sinyetha - Poor Man's Party"
+BRM_social_democrat_party:0 "HRP"
+BRM_social_democrat_party_long:0 "Home Rule Party"
+BRM_social_liberal_party:0 "Hlaing-Myat-Paw GCBA"
+BRM_social_liberal_party_long:0 "Hlaing-Myat-Paw General Council of Burmese Associations"
+BRM_classic_liberal_party:0 "Five Flowers Alliance"
+BRM_classic_liberal_party_long:0 "United General Council of Burmese Associations"
+BRM_totalitarian_socialist_party:0 "CPB"
+BRM_totalitarian_socialist_party_long:0 "Communist Party of Burma"
+BRM_revolutionary_socialist_party:0 "CPB"
+BRM_revolutionary_socialist_party_long:0 "Communist Party of Burma"
+BRM_orthodox_marxist_party:0 "CPB"
+BRM_orthodox_marxist_party_long:0 "Communist Party of Burma"
+
+#Country Names
+BRM_national_populist:0 "Myanmar"
+BRM_national_populist_DEF:0 "State of Myanmar"
+BRM_totalitarian_socialist:0 "Myanmar"
+BRM_totalitarian_socialist_DEF:0 "Republic of the Union of Myanmar"
+BRM_paternal_autocrat:0 "Burma"
+BRM_paternal_autocrat_DEF:0 "Burma"
+BRM_social_conservative:0 "Burma"
+BRM_social_conservative_DEF:0 "Burma"
+BRM_authoritarian_democrat:0 "Burma"
+BRM_authoritarian_democrat_DEF:0 "Burma"
+BRM_orthodox_marxist:0 "Burma"
+BRM_orthodox_marxist_DEF:0 "Burma"
+BRM_revolutionary_socialist:0 "Myanmar"
+BRM_revolutionary_socialist_DEF:0 "Republic of the Union of Myanmar"
+BRM_social_democrat:0 "Burma"
+BRM_social_democrat_DEF:0 "Burma"
+BRM_social_liberal:0 "Burma"
+BRM_social_liberal_DEF:0 "Burma"
+BRM_classic_liberal:0 "Burma"
+BRM_classic_liberal_DEF:0 "Burma"
+BRM_vanguardist:0 "Myanmar"
+BRM_vanguardist_DEF:0 "Republic of the Union of Myanmar"
+ 
+BRM_national_populist_ADJ:0 "Burmese"
+BRM_totalitarian_socialist_ADJ:0 "Burmese"
+BRM_social_conservative_ADJ:0 "Burmese"
+BRM_paternal_autocrat_ADJ:0 "Burmese"
+BRM_orthodox_marxist_ADJ:0 "Burmese"
+BRM_authoritarian_democrat_ADJ:0 "Burmese"
+BRM_revolutionary_socialist_ADJ:0 "Burmese"
+BRM_social_democrat_ADJ:0 "Burmese"
+BRM_social_liberal_ADJ:0 "Burmese"
+BRM_classic_liberal_ADJ:0 "Burmese"
+BRM_vanguardist_ADJ:0 "Burmese"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+
+BRM_UK_autonomy_colony:0 "British Burma"
+ 

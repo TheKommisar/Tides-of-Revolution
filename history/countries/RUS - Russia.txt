@@ -66,6 +66,11 @@ set_popularities = {
 }
 
 add_ideas = {
+RUS_polarized_society
+RUS_socialist_violence
+RUS_underdeveloped_countryside
+RUS_kaisers_influence
+RUS_church_question
 }
 
 #LEADERS

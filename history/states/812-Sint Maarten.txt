@@ -1,0 +1,21 @@
+state={
+	id=812
+	name="STATE_812"
+	manpower = 24503
+
+	state_category = rural
+
+	history={
+		owner = HOL
+		victory_points = {
+			13084 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		13084 
+	}
+}

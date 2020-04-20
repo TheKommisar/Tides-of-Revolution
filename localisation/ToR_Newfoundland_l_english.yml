@@ -1,0 +1,81 @@
+﻿l_english: 
+
+#Parties
+NFL_national_populist_party:0 ""
+NFL_national_populist_party_long:0 ""
+NFL_vanguardist_party:0 ""
+NFL_vanguardist_party_long:0 ""
+NFL_social_conservative_party:0 "UNP"
+NFL_social_conservative_party_long:0 "United Newfoundland Party"
+NFL_paternal_autocrat_party:0 ""
+NFL_paternal_autocrat_party_long:0 ""
+NFL_authoritarian_democrat_party:0 ""
+NFL_authoritarian_democrat_party_long:0 ""
+NFL_social_democrat_party:0 "FPU"
+NFL_social_democrat_party_long:0 "Fishermen's Protective Union"
+NFL_social_liberal_party:0 "Liberal"
+NFL_social_liberal_party_long:0 "Liberal Party"
+NFL_classic_liberal_party:0 "LCPP"
+NFL_classic_liberal_party_long:0 "Liberal-Conservative-Progressive Party"
+NFL_totalitarian_socialist_party:0 ""
+NFL_totalitarian_socialist_party_long:0 ""
+NFL_revolutionary_socialist_party:0 ""
+NFL_revolutionary_socialist_party_long:0 ""
+NFL_orthodox_marxist_party:0 ""
+NFL_orthodox_marxist_party_long:0 ""
+
+#Country Names
+NFL_national_populist:0 "Republic of Newfoundland"
+NFL_national_populist_DEF:0 "the Republic of Newfoundland"
+NFL_totalitarian_socialist:0 "Republic of Newfoundland"
+NFL_totalitarian_socialist_DEF:0 "the Republic of Newfoundland"
+NFL_paternal_autocrat:0 "Republic of Newfoundland"
+NFL_paternal_autocrat_DEF:0 "the Republic of Newfoundland"
+NFL_social_conservative:0 "Republic of Newfoundland"
+NFL_social_conservative_DEF:0 "the Republic of Newfoundland"
+NFL_authoritarian_democrat:1 "Republic of Newfoundland"
+NFL_authoritarian_democrat_DEF:1 "the Republic of Newfoundland"
+NFL_orthodox_marxist:0 "Republic of Newfoundland"
+NFL_orthodox_marxist_DEF:0 "the Republic of Newfoundland"
+NFL_revolutionary_socialist:0 "Republic of Newfoundland"
+NFL_revolutionary_socialist_DEF:0 "the Republic of Newfoundland"
+NFL_social_democrat:0 "Republic of Newfoundland"
+NFL_social_democrat_DEF:0 "the Republic of Newfoundland"
+NFL_social_liberal:0 "Republic of Newfoundland"
+NFL_social_liberal_DEF:0 "the Republic of Newfoundland"
+NFL_classic_liberal:0 "Republic of Newfoundland"
+NFL_classic_liberal_DEF:0 "the Republic of Newfoundland"
+NFL_vanguardist:0 "Republic of Newfoundland"
+NFL_vanguardist_DEF:0 "the Republic of Newfoundland"
+ 
+NFL_national_populist_ADJ:0 "Newfoundlander"
+NFL_totalitarian_socialist_ADJ:0 "Newfoundlander"
+NFL_social_conservative_ADJ:0 "Newfoundlander"
+NFL_paternal_autocrat_ADJ:0 "Newfoundlander"
+NFL_orthodox_marxist_ADJ:0 "Newfoundlander"
+NFL_authoritarian_democrat_ADJ:0 "Newfoundlander"
+NFL_revolutionary_socialist_ADJ:0 "Newfoundlander"
+NFL_social_democrat_ADJ:0 "Newfoundlander"
+NFL_social_liberal_ADJ:0 "Newfoundlander"
+NFL_classic_liberal_ADJ:0 "Newfoundlander"
+NFL_vanguardist_ADJ:0 "Newfoundlander"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+
+NFL_UK_autonomy_dominion:0 "Dominion of Newfoundland"

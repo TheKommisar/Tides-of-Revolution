@@ -231,3 +231,8 @@ SUD_UK = {
         color = rgb { 170 25 25 }
         color_ui = rgb { 200 35 35 }
 }
+
+BRM_UK = { 
+        color = rgb { 139 77 158 }
+        color_ui = rgb { 200 14 158 }
+}

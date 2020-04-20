@@ -1,0 +1,98 @@
+
+add_namespace = italy
+
+country_event = {
+    id = italy.1
+    title = italy.1.t    
+    desc = italy.1.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    is_triggered_only = yes
+
+   option = {
+		name = italy.1.a
+		ai_chance = {
+			factor = 100
+		}
+		SRI = {
+			set_country_flag = choice_made
+		}
+		add_stability = 0.15
+		add_war_support = 0.2
+		SRI = {
+			if = {
+				limit = {
+					FROM = {
+						controls_state = 159
+					}
+				}
+				transfer_state = 159
+			}
+                        
+                 
+            SRI = { declare_war_on = { 
+				target = ITA
+				type = annex_everything
+            }}
+               SRI = { set_province_controller = 6606 }
+               SRI = { set_province_controller = 6780 }
+                SRI = { set_province_controller = 6788 }              
+                SRI = { set_province_controller = 782}
+             SRI = {
+				add_manpower = 30000
+				load_oob = SRI_rebellion
+			}
+                                    add_equipment_to_stockpile = {
+                         type = infantry_equipment
+                         amount = 1000
+                         producer = SRI
+                 } 
+		    news_event = { hours = 6 id = tornews.3 }
+		}
+    }
+     option = {
+		name = italy.1.b
+		ai_chance = {
+			factor = 0
+		}
+		SRI = {
+			set_country_flag = choice_made
+		} 
+                add_stability = 0.15
+		add_war_support = 0.2
+        SRI = {
+			if = {
+				limit = {
+					FROM = {
+						controls_state = 159
+					}
+				}
+				transfer_state = 159
+			}
+               
+               
+		SRI = { declare_war_on = { 
+				target = ITA
+				type = annex_everything
+                       } }
+                SRI = { set_province_controller = 6606 }
+                SRI = { set_province_controller = 6780 }
+                SRI = { set_province_controller = 6788 }
+                SRI = { set_province_controller = 782}
+                SRI = {
+				add_manpower = 100000
+				load_oob = SRI_rebellion
+			}
+                add_equipment_to_stockpile = {
+                         type = infantry_equipment
+                         amount = 1000
+                         producer = SRI
+                 } 
+		SRI = {
+			change_tag_from = ITA
+		}
+		news_event = { hours = 6 id = tornews.3 }
+		}
+	}
+}

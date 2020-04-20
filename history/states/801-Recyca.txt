@@ -1,0 +1,19 @@
+state={
+	id=801
+	name="STATE_801"
+	manpower = 50000
+
+	state_category = city
+
+	history = {
+	    owner = BLR
+	    add_core_of = BLR
+	    buildings = {
+	        infrastructure = 4
+	    }
+	}
+
+	provinces={
+		3203 3507 6319 9249 
+	}
+}

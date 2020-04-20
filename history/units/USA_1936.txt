@@ -26,18 +26,18 @@ division_template = {
 	division_names_group = USA_INF_01
 
 	regiments = {						
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-		infantry = { x = 3 y = 1 }
-		infantry = { x = 3 y = 2 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		militia = { x = 3 y = 0 }
+		militia = { x = 3 y = 1 }
+		militia = { x = 3 y = 2 }
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
@@ -70,9 +70,9 @@ division_template = {
 	division_names_group = USA_GAR_01		# Brigade level irregular unit, so no default names
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }   
@@ -111,84 +111,16 @@ units = {
 	}
 
 	### 1st Army -- note: Armies only paper organizations in 1936 ###
-	# I Army Corps #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 26
-		}
-		location = 6732
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 43
-		}
-		location = 6732
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
 	# II Army Corps #
 	division= {			
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3878
+		location = 6845
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 27
-		}
-		location = 3878
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 44
-		}
-		location = 3878
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	# III Army Corps #
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 28
-		}
-		location = 6984
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
-	division= {			
-		division_name = {
-			is_name_ordered = yes
-			name_order = 29
-		}
-		location = 6984
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}			
+	}							
 
 	### 3rd Army -- note: Armies only paper organizations in 1936 ###			
 	# VIII Army Corps #
@@ -197,7 +129,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 12782
+		location = 6732
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
@@ -208,7 +140,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 12782
+		location = 1827
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
 	}			
@@ -223,40 +155,14 @@ units = {
 		location = 9671
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-	}							
-
-	####### Pacific Theater	#######
-	### Alaska Defense Command ###
-	division = {			
-		name = "Alaska Defense Command"		
-		location = 13091
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
-
-	}			
-			
-	### Hawaiian Department ###
-	division = {			
-		name = "Hawaiian Division"		
-		location = 4180
-		division_template = "National Guard Division"		# older equipment, less training than NG division
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-	# North Pacific Defenses #									
-
-	### U.S. Army Forces in the Far East ###		
-	division = {										
-		name = "Philippine Division"			
-		location = 10265
-		division_template = "Infantry Division"			# older equipment, less training than NG division
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}				
+	}	
+        # Haiti and Nicaragua divisions
+        division = {
+		name = "Haiti Marines"
+		location = 4641
+		division_template = "Marine Brigade"		
+		start_experience_factor = 0.7
+	}											
 }
 	
 	

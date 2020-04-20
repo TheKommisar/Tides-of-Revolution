@@ -1,0 +1,37 @@
+ideas = {
+country = {
+     
+AST_emu_war = {
+			allowed = {
+				original_tag = AST
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+				}
+		}
+legacy_of_the_anzacs = {
+			allowed = {
+				original_tag = AST
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+			    army_morale_factor = 0.1
+                            army_org = 2.5
+                            conscription = 0.002
+                            supply_consumption_factor = -0.25
+				}
+		}
+		}
+}

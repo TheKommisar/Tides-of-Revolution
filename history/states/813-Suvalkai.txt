@@ -1,0 +1,19 @@
+state={
+	id=813
+	name="STATE_813"
+	manpower = 25500
+
+	state_category = city
+
+	history = {
+	    owner = LIT
+	    add_core_of = LIT
+	    buildings = {
+	        infrastructure = 4
+	    }
+	}
+
+	provinces={
+		400 3254 
+	}
+}

@@ -1,0 +1,16 @@
+GER_install_french_puppet = {
+    picture = GFX_decision_cat_france
+
+    visible = {
+        tag = GER
+    }
+}
+
+GER_baltic_germanisation = {
+    picture = GFX_decision_cat_baltic_duchy
+
+    visible = {
+        tag = GER
+        has_completed_focus = GER_germanize_baltics
+    }
+}

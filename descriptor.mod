@@ -1,9 +1,10 @@
-version="1.8.*"
+version="0.1"
 replace_path="events"
 tags={
 	"Alternative History"
-	"National Focuses"
-	"Ideologies"
+	"Events"
 	"Gameplay"
+	"National Focuses"
 }
-name="Tides of Revolution"
+name="tidesofrevolution"
+supported_version="1.9.1"

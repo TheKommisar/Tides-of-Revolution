@@ -1,0 +1,27 @@
+spriteTypes = {
+        spriteType = {
+		name = "GFX_report_event_people_running"
+		texturefile = "gfx/event_pictures/Generic/report_event_people_running.dds"
+	}
+
+      spriteType = {
+		name = "GFX_report_event_burma_government_house"
+		texturefile = "gfx/event_pictures/Asia/burma_government_house.dds"
+	}
+
+      spriteType = {
+		name = "GFX_report_event_statue_of_liberty"
+		texturefile = "gfx/event_pictures/North america/statue_of_liberty.dds"
+	}
+
+
+##############News events or rectangular photos	
+
+      spriteType = {
+		name = "GFX_news_event_americans_marching"
+		texturefile = "gfx/event_pictures/News events/americans_marching.dds"
+	}
+
+
+
+}

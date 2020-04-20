@@ -195,7 +195,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 3 y = 375 }
+			position = { x = 170 y = 242 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
@@ -206,7 +206,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 95 y = 8 }
+				position = { x = 110 y = 8 }
 				font = "hoi_18mbs"
 				text = "autonomy"
 				maxWidth = 193
@@ -222,7 +222,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_level_glow"
-				position = { x = 48 y = 2 }
+				position = { x = 63 y = 2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -230,7 +230,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 60 y = 9 }
+				position = { x = 75 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
@@ -238,19 +238,19 @@ guiTypes = {
 			iconType = {
 				name = "autonomy_progress"
 				spriteType = "GFX_subject_progressbar_long"
-				position = { x = 101 y = 29 }
+				position = { x = 116 y = 29 }
 				frame = 100
 			}
 			
 			buttonType = {
 				name = "next_autonomy_level"
-				position = { x = 284 y = 5 }
+				position = { x = 299 y = 5 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 			
 			iconType = {
 				name = "next_level_glow"
-				position = { x = 272 y = -2 }
+				position = { x = 287 y = -2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -258,14 +258,14 @@ guiTypes = {
 			
 			iconType = {
 				name = "next_autonomy_level_icon"
-				position = { x = 289 y = 9 }
+				position = { x = 304 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
 
 			iconType = {
 				name = "continuous_glow"
-				position = { x = 6 y = 2 }
+				position = { x = 4 y = 2 }
 				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
 				alwaystransparent = yes				
 				scale = 0.4
@@ -273,7 +273,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "current_autonomy_level_icon"
-				position = { x = 15 y = 10 }
+				position = { x = 20 y = 10 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 			}
 		}
@@ -397,23 +397,36 @@ guiTypes = {
 				maxHeight = 20
 				alwaystransparent = yes
 			}
-			gridboxtype = {
-				name = "spirit_grid"
-				position = { x = 98 y = 20 }
-				size = { width = 100%% height = 100%% }
-				slotsize = { width = 60 height = 64 }
-				max_slots = { x = 6 y = 2 }
-				format = "UPPER_LEFT"
-			}
-			gridboxtype = {
-				name = "spirit_grid_over_defined"
-				position = { x = 90 y = 5 }
-				size = { width = 100%% height = 100%% }
-				slotsize = { width = 34 height = 38 }
-				max_slots = { x = 10 y = 3 }
-				format = "UPPER_LEFT"
-			}			
 			
+			
+			containerWindowType = {
+				name = "national_spirit_container"
+				position = { x = 90 y = 19 }
+				size = { width = 365 height = 68 }
+				
+				verticalScrollbar = "right_vertical_slider"
+				
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+				
+				gridboxtype = {
+					name = "spirit_grid"
+					position = { x = 12 y = 0 }
+					size = { width = 350 height = 100%% }
+					slotsize = { width = 60 height = 68 }
+					max_slots = { x = 8 y = 1 }
+					format = "UPPER_LEFT"
+				}
+				gridboxtype = {
+					name = "spirit_grid_over_defined"
+					size = { width = 350 height = 100%% }
+					slotsize = { width = 33 height = 32 }
+					max_slots_horizontal = 10
+					format = "UPPER_LEFT"
+				}
+			}
 		}
 		iconType = {
 			name = "leader"
@@ -616,14 +629,14 @@ guiTypes = {
 	}
 	
 	
-	containerWindowType = {
+		containerWindowType = {
 		name = "political_ideas_window"
 		position = { x = -356 y = 80 }	
-		show_position = { x = 544 y = 80 }
+		show_position = { x = 540 y = 80 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=730 height=100%% }
+		size = { width=500 height=590 }
 		show_sound = open_sub_window
 		
 		background = {
@@ -633,31 +646,31 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "title"
-			position = { x = 10 y = 4 }
+			position = { x = 0 y = 4 }
 			font = "hoi_20b"
 			text = "Economic Laws"
 			maxWidth = 450
 			maxHeight = 20
-			format = left
+			format = center
 		}
 		instantTextboxType = {
 			name = "switch"
-			position = { x = 10 y = 26 }
+			position = { x = 0 y = 26 }
 			font = "hoi_18b"
 			text = "Switch out Henschel"
 			maxWidth = 450
 			maxHeight = 20
-			format = left
+			format = center
 		}
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 50 }
-			size = { width=730 height=100%% }	
+			size = { width=500 height=100%% }	
 			
 			containerWindowType = {
 				name = "grid"
-				position = { x = 0 y = 0 }
-				size = { width=730 height=-4 }
+				position = { x = 0 y = -8 }
+				size = { width=500 height=-4 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 4 bottom = 12}	
 
@@ -671,14 +684,23 @@ guiTypes = {
 					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
 					position = { x = -1 y = 0 }					
 				}
-				
+
 				gridBoxType = {
-					name = "box"
+					name = "box_grid"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 131 }
-					max_slots_horizontal = 3
+					slotsize = { width = 231 height = 75 }
+					max_slots_horizontal = 2
 					add_horizontal = yes
+					format = "UPPER_LEFT"
+				}
+
+				gridBoxType = {
+					name = "box_list"
+					position = { x = 10 y = 10 }
+					size = { width = 500 height = 1 }
+					slotsize = { width = 462 height = 75 }
+					add_horizontal = no
 					format = "UPPER_LEFT"
 				}
 			}
@@ -753,8 +775,8 @@ guiTypes = {
 			spriteType = "GFX_ongoing_generic_glow_yellow"
 			scale = 0.65			
 			alwaystransparent = yes
-		}	
-
+		}		
+		
 		buttonType = {
 			name = "add_idea_button"
 			position = { x = 0 y = 0 }
@@ -773,9 +795,9 @@ guiTypes = {
 		
 	}
 	
-		containerWindowType = {
-		name = "political_selectable_idea_entry"
-		size = { width = 231 height = 148 }
+	containerWindowType = {
+		name = "political_selectable_idea_entry_grid"
+		size = { width = 231 height = 74 }
 		clipping = no
 			
 		background = {
@@ -786,7 +808,7 @@ guiTypes = {
 			
 		iconType = {
 			name = "icon"
-			position = { x = 43 y = 78 }
+			position = { x = 42 y = 38 }
 			spriteType = "GFX_placeholder_bordered"
 			centerposition = yes
 			alwaystransparent = yes
@@ -801,35 +823,139 @@ guiTypes = {
 			frame = 1
 		}
 		
-		instantTextboxType = {
-			name = "name"
-			position = { x = 10 y = 10 }
-			font = "hoi_18mbs"
-			fixedsize = yes			
-			text = "name"
-			maxWidth = 220
-			maxHeight = 38
-			format = center	
-			alwaystransparent = yes			
-		}
-		
-		gridboxtype = {
-			name = "traits_grid"
-			position = { x = 90 y = 48 }
-			size = { width = 231 height = 100%% }
-			slotsize = { width = 200 height = 15 }
-			add_horizontal = no
-			format = "UPPER_LEFT"
+		containerWindowType = {
+		    name = "traits_container"
+		    position = { x = 76 y = 0 }	
+		    show_position = { x = 0 y = 0 }
+			size = { width=170 height=100%% }
+			
+			instantTextboxType = {
+				name = "name"
+				position = { x = 0 y = 10 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = ""
+				maxWidth = 150
+				maxHeight = 13
+				format = left
+				alwaystransparent = yes			
+			}
+
+			instantTextboxType = {
+				name = "traits"
+				position = { x = 0 y = 28 }
+				font = "hoi_16mbs"
+				fixedsize = yes			
+				text = ""
+				maxWidth = 140
+				maxHeight = 100%%
+				format = left
+				alwaystransparent = yes			
+			}
 		}
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 15 y = 108 }
+			position = { x = 80 y = 47 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
 			maxHeight = 10
-			format = left
+			format = right
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "stats"
+			position = { x = 300 y = 32 }
+			font = "hoi_16mbs"
+			text = ""
+			maxWidth = 142
+			maxHeight = 10
+			format = center
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "political_selectable_idea_entry_list"
+		size = { width = 462 height = 74 }
+		clipping = no
+			
+		background = {
+			name = "idea_entry_bg"
+			position = { x = 3 y = 0 }
+			spriteType = "GFX_idea_entry_bg_3"
+		}
+			
+		iconType = {
+			name = "icon"
+			position = { x = 42 y = 38 }
+			spriteType = "GFX_placeholder_bordered"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "idea_traits"
+			position = { x = 53 y = 51 }
+			spriteType = "GFX_idea_traits_strip"
+			centerposition = yes
+			alwaystransparent = yes
+			frame = 1
+		}
+		
+		containerWindowType = {
+		    name = "traits_container"
+		    position = { x = 84 y = 0 }	
+		    show_position = { x = 0 y = 0 }
+			size = { width=170 height=100%% }
+			
+			instantTextboxType = {
+				name = "name"
+				position = { x = 0 y = -13 }
+				font = "hoi_18mbs"
+				fixedsize = yes			
+				text = ""
+				maxWidth = 160
+				maxHeight = 100%%
+				format = left
+				vertical_alignment = center
+				alwaystransparent = yes			
+			}
+
+			instantTextboxType = {
+				name = "traits"
+				position = { x = 0 y = 10 }
+				font = "hoi_16mbs"
+				fixedsize = yes			
+				text = "name"
+				maxWidth = 160
+				maxHeight = 100%%
+				format = left
+				alwaystransparent = yes			
+			}
+		}
+		
+		instantTextboxType = {
+			name = "cost"
+			position = { x = 200 y = 32 }
+			font = "hoi_16mbs"
+			text = ""
+			maxWidth = 142
+			maxHeight = 10
+			format = center
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "stats"
+			position = { x = 300 y = 32 }
+			font = "hoi_16mbs"
+			text = ""
+			maxWidth = 142
+			maxHeight = 10
+			format = center
 			alwaystransparent = yes
 		}
 	}
