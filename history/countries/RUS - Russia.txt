@@ -1,10 +1,10 @@
-﻿capital = 219
+﻿capital = 195
 
-oob = "RUS_1936"
+#oob = "RUS_1936"
 
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.8
+set_stability = 0.50
+set_war_support = 0.60
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -38,8 +38,6 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-create_faction = russian_alliance
-add_to_faction = RUS
 
 set_convoys = 50
 
@@ -66,11 +64,10 @@ set_popularities = {
 }
 
 add_ideas = {
-RUS_polarized_society
-RUS_socialist_violence
-RUS_underdeveloped_countryside
-RUS_kaisers_influence
-RUS_church_question
+RUS_novaya_rossiya
+RUS_the_three_decades_of_humiliation
+RUS_setbacks_of_the_rejuvenation_plan
+RUS_treaty_of_brest_litovsk
 }
 
 #LEADERS
