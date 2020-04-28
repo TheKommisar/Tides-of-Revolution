@@ -1,0 +1,22 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_RUS_setbacks_of_the_rejuvenation_plan"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_setbacks_of_the_rejuvenation_plan.tga"
+	}
+spriteType = {
+		name = "GFX_idea_RUS_treaty_of_brest_litovsk"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_treaty_of_brest_litovsk.tga"
+	}
+spriteType = {
+		name = "GFX_idea_RUS_3_decades_of_humiliation"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_3_decades_of_humiliation.tga"
+	}
+spriteType = {
+		name = "GFX_idea_RUS_novo_rossiya"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_novo_rossiya.tga"
+	}
+	

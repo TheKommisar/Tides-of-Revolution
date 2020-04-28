@@ -1,5 +1,6 @@
 add_namespace = tornews
 
+#EMU WAR
 news_event = { 
 	id = tornews.1
 	title = tornews.1.t
@@ -15,4 +16,37 @@ news_event = {
     option = {
         name = tornews.1.a
     }
+}
+
+### KGV DEAD
+
+news_event = { 
+	id = tornews.2
+	title = tornews.2.t
+	desc = tornews.2.d
+
+    picture = news_event_ast_army
+    
+	major = yes
+
+	trigger = {
+		date > 1936.1.20
+		NOT = { has_global_flag = gv_dead }
+		NOT = { tag = ENG }
+		ENG = { has_country_flag = kgv_dead }
+	}
+
+	show_major = {
+		NOT = { tag = ENG }
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	immediate = { set_global_flag = gv_dead }
+
+	option = {
+		name = "Rest in peace."
+	}
 }

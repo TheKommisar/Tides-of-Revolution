@@ -9,7 +9,7 @@ if = {
 	}
 }
 
-GRE = { country_event = { days = 12 id = greece.1 } }
+GRE = { country_event = { days = 40 id = greece.1 } }
 
 set_research_slots = 3
 

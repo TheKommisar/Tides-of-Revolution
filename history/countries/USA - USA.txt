@@ -75,8 +75,6 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 
-#nicaragua is also a us puppet but it is not shown here
-
 
 set_convoys = 400
 
@@ -87,11 +85,11 @@ add_ideas = {
 	free_trade
 }
 
-#country_event = { id = usa.1 days = 1 } #Intro Event
+country_event = { id = usa.1 days = 1 } #Intro Event
 country_event = { id = usa.3 days = 100 random = 400 } #Lady Liberty Statue Bombing
-
+country_event = { id = usa.7 days = 60 } #Boulder Dam completion
 country_event = { id = usa.5 days = 40 random = 2880 } #Crime spree
-country_event = { id = ustates.28 days = 60 random = 3600 } #Paramilitary groups
+country_event = { id = usa.1000 days = 185 } #July 4
 
 
 set_politics = {
@@ -101,17 +99,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 8
+        totalitarian_socialist = 0
 	vanguardist = 6
-        orthodox_marxist = 8
-	revolutionary_socialist = 3
-        social_democrat = 20
+        orthodox_marxist = 9
+	revolutionary_socialist = 9
+        social_democrat = 10
         social_liberal = 10
-        classic_liberal = 24
-        social_conservative = 5
+        classic_liberal = 22
+        social_conservative = 7
         authoritarian_democrat = 2
-        paternal_autocrat = 10
-        national_populist = 4
+        paternal_autocrat = 15
+        national_populist = 10
 }
 
 #LEADERS
@@ -167,7 +165,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Huey Long"
+	name = "Charles Lindbergh"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Huey_Long.tga"
 	expire = "1999.1.1"

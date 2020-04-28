@@ -1,0 +1,15 @@
+### American Ideas
+ideas = {
+	### Country ideas ###
+	country = {
+	### Starting Ideas ###
+		USA_great_depression = { #The Great Depression
+			allowed = { always = no }
+			picture = usa_great_depression_2
+			modifier = {
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.35
+				production_speed_buildings_factor = -0.25
+				consumer_goods_factor = 0.40
+			}
+		}
