@@ -1,18 +1,20 @@
 ﻿l_english: 
 
 #Parties FOR MOTHA FUCKIN MURICA
-USA_national_populist_party:0 "American Purity Party"
-USA_national_populist_party_long:0 "American Purity Party"
+USA_national_populist_party:0 "Silver Legion"
+USA_national_populist_party_long:0 "Silver Legion of America"
 USA_vanguardist_party:0 "Communist League"
 USA_vanguardist_party_long:0 "Communist League of America"
 USA_social_conservative_party:0 "Democratic Party"
 USA_social_conservative_party_long:0 "Democratic Party (Conservative Wing)"
-USA_paternal_autocrat_party:0 "Independence Party"
-USA_paternal_autocrat_party_long:0 "Independence Party"
-USA_authoritarian_democrat_party:0 "Share the Wealth Party"
-USA_authoritarian_democrat_party_long:0 "Share the Wealth Party"
-USA_social_democrat_party:0 "Nat. Progressive Party"
-USA_social_democrat_party_long:0 "National Progressive Party"
+USA_paternal_autocrat_party:0 "American Purity Party"
+USA_paternal_autocrat_party_long:0 "American Purity Party"
+USA_authoritarian_democrat_party:0 "American Purity Party"
+USA_authoritarian_democrat_party_long:0 "American Purity Party"
+USA_authoritarian_democrat_party_macarthur:0 "Democratic Preservation Council"
+USA_authoritarian_democrat_party_macarthur_long:0 "Democratic Preservation Council"
+USA_social_democrat_party:0 "Progressive Party"
+USA_social_democrat_party_long:0 "Progressive Party"
 USA_social_liberal_party:0 "Republican Party"
 USA_social_liberal_party_long:0 "Republican Party"
 USA_classic_liberal_party:0 "Democratic Party"
@@ -45,8 +47,8 @@ USA_orthodox_marxist_party_long:0 "Socialist Party of America
  USA_social_liberal_DEF:0 "the United States of America"
  USA_classic_liberal:0 "United States of America"
  USA_classic_liberal_DEF:0 "the United States of America"
- USA_vanguardist:0 "American Soviet Republic"
- USA_vanguardist_DEF:0 "the American Soviet Republic"
+ USA_vanguardist:0 "American Communal Republic"
+ USA_vanguardist_DEF:0 "the American Communal Republic"
  
  USA_national_populist_ADJ:0 "American"
  USA_totalitarian_socialist_ADJ:0 "American"
@@ -74,14 +76,32 @@ USA_orthodox_marxist_party_long:0 "Socialist Party of America
 #Events
 #should be reintegrated
 
+usa.3.t:0 "Death of Lady Liberty"
+usa.3.d:0 "This morning New Yorkers woke up to see a smoldering mess in the place of the Statue of Liberty, for a bomb had taken her down the previous night. At around midnight, a large explosion was heard, which witnesses say was similar to that of cannon fire, and for a minute or so the New York skyline was lit up by the artificial fireball which ensued.\n\nThe explosion was left ignored until daytime due to the lack of visibility. In that time, residents of the city and surrounding boroughs were wide-awake from the commotion, believing the explosion to be gas or ammunition related; as day broke it soon turned out to be something much worse. It soon became apparent that the New York skyline was incomplete, filled with one structure less. As of now, the incident is under investigation, and Liberty Island has been closed off to the public. It is believed that the bomb was planted at the base of the statue, with additional explosives in the statue’s crown and torch.\n\nAlthough no suspects have been labelled, people have been quick to point fingers at underground communist and anarchist groups of the city - both of which have been known to cause trouble to authorities in the past. But as of now, one thing is certain - Lady Liberty is gone."
+usa.3.a:0 "Those bastards!" 
+
+usa.4.t:0 "The Big Question"
+usa.4.d:0 "America has never before been this close to internal conflict ever since 1861. The divide among our citizens has become greater than we have ever seen in our history. Constant clashes between far-left and right militias take place in every corner of the country. This year's presidential election has become unrecognisable, with a multitude of radical parties contending alongside the Democrats and Republicans. In order to avoid a complete breakdown of our society, a considerable amount of cabinet members and senior military officers have proposed that the constitution be suspended and elections be cancelled in order to bring about stability to this nation once more."
+usa.4.a:0 "Are they crazy? Doing that will make everything worse!"
+usa.4.b:0 "Invite the military, we must save this country!"
+
+usa.7.t:0 "Boulder Dam completed"
+usa.7.d:0 "The Boulder Dam, located in the Black Canyon of the Colorado River has officially finished construction. Construction of the dam started in 1931, four years after the onset of the Great Depression and gave jobs to thousands of men, but cost the lives of hundreds of them as well. The opening ceremony of the dam was meant to include a ceremony and a speech delivered by the President himself, but was unfortunately cut short due to supporters of the Socialist Party of America converging to protest the poor working conditions builders faced in construction of the dam."
+usa.7.a:0 "So they're now out of jobs?"
+
 usa.101.t:0 "Pershing requests to return to active service"
-usa.101.d:0 "Although having retired in 1924, General of the Armies John Joseph "Black Jack" Pershing has offered to come out of retirement and serve his nation in this time of war. Pershing served in the Great War as the commander of the American Expeditionary Force and led his forces to victory, and in a letter to the president he requests to be returned to active military service in order to oversee the command of the armed forces in this war and achieve victory once again. Though skilled and highly experienced, many other commanders in the army are reluctant as to whether or not his ideas are still up-to-date, since military tactics and warfare has come a considerable length since World War One."
+usa.101.d:0 "Although having retired in 1924, General of the Armies John Joseph "Black Jack" Pershing has offered to come out of retirement and serve his nation in this time of war. Although having never served in the Great War, he is a veteran of the Spanish-American War and took part in the intervention in Russia, and is often seen as the man who - under his command - helped White forces win. In a letter to the president he requests to be returned to active military service in order to oversee the command of the armed forces in this war and unify America once again. Though skilled and highly experienced, many other commanders in the army are reluctant as to whether or not his ideas are still up-to-date, since military tactics and warfare have come a considerable length since the Russian Intervention."
 usa.101.a:0 "He must return to the military."
 usa.101.b:0 "We do not need him."
+
 usa.102.t:0 "An offer from Siam"
 usa.102.d:0 "The King Prajadhipok of Siam, or Rama VII, has approached the American ambassador to Siam offering us an elephant volunteer division for the war effort and a few other artifacts as a sign of goodwill and support for our faction in this time of crisis. Although support for our cause is welcome, the letter also stated that we would be fully responsible in taking care of these elephants for the duration of the war effort. One elephant itself incurs a great expense to care for, let alone a thousand of them, and we can’t possibly divert resources directed for the war effort for each one of them. As well as that, elephants are also slow moving and easy targets for the enemy to take down. Yet, the elephants in the division are white elephants, and should we decline their offer the Siamese government would view our declination as a severe insult as a white elephant in Siamese culture is the greatest gift one could offer."
 usa.102.a:0 "We'll take anything we can get."
 usa.102.b:0 "No, thank you."
+
+usa.1000.t:0 "The Fourth of July"
+usa.1000.d:0 "On Independence Day, the Fourth of July, celebrations took place today all across the country. Nearly everyone has set aside their political differences to celebrate the traditions of the United States with fireworks, parades, barbecues, beer, picnics and baseball games."
+usa.1000.a:0 "We shall celebrate the democratic ideals!"
 
 #Descriptions
 

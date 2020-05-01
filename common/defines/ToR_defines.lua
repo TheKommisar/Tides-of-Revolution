@@ -1,5 +1,6 @@
 -- Tides of Revolution Defines
 
+NDefines.NGame.START_DATE = "1936.1.1.1"
 NDefines.NGame.END_DATE = "1959.1.1.1"										-- Vanilla 1949.1.1.1
 NDefines.NGame.DECISION_ALERT_TIMEOUT_DAYS = 60								-- Vanilla is 30
 NDefines.NGame.EVENT_TIMEOUT_DEFAULT = 30                                   -- Vanilla is 13

@@ -1,32 +1,32 @@
 ﻿l_english: 
 
 #Parties
-RUS_national_populist_party:0 ""
-RUS_national_populist_party_long:0 ""
-RUS_vanguardist_party:0 ""
-RUS_vanguardist_party_long:0 ""
-RUS_social_conservative_party:0 ""
-RUS_social_conservative_party_long:0 ""
-RUS_paternal_autocrat_party:0 ""
-RUS_paternal_autocrat_party_long:0 ""
-RUS_authoritarian_democrat_party:0 ""
-RUS_authoritarian_democrat_party_long:0 ""
-RUS_social_democrat_party:0 ""
-RUS_social_democrat_party_long:0 ""
-RUS_social_liberal_party:0 ""
-RUS_social_liberal_party_long:0 ""
-RUS_classic_liberal_party:0 ""
-RUS_classic_liberal_party_long:0 ""
-RUS_totalitarian_socialist_party:0 ""
-RUS_totalitarian_socialist_party_long:0 ""
-RUS_revolutionary_socialist_party:0 ""
-RUS_revolutionary_socialist_party_long:0 ""
-RUS_orthodox_marxist_party:0 ""
-RUS_orthodox_marxist_party_long:0 ""
+RUS_national_populist_party:0 "NTS"
+RUS_national_populist_party_long:0 "Nacional'no Trudovoj Sojuz (National Labor Union)"
+RUS_vanguardist_party:0 "Bolsheviks"
+RUS_vanguardist_party_long:0 "Bolsheviks"
+RUS_social_conservative_party:0 "Oktyabristi"
+RUS_social_conservative_party_long:0 "Soyuz 17 Oktyabrya (Union of October 17)"
+RUS_paternal_autocrat_party:0 "Voyennaya Khunta"
+RUS_paternal_autocrat_party_long:0 "Voyennaya Khunta (Military Junta)"
+RUS_authoritarian_democrat_party:0 "Voyennaya Khunta"
+RUS_authoritarian_democrat_party_long:0 "Voyennaya Khunta (Military Junta)"
+RUS_social_democrat_party:0 "SRs"
+RUS_social_democrat_party_long:0 "Partiya Sotsialistov-Revolyutsionerov (Socialist Revolutionary Party)"
+RUS_social_liberal_party:0 "K-D"
+RUS_social_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya (Constitutional Democratic Party)"
+RUS_classic_liberal_party:0 "K-D"
+RUS_classic_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya (Constitutional Democratic Party)"
+RUS_totalitarian_socialist_party:0 "Bolsheviks"
+RUS_totalitarian_socialist_party_long:0 "Bolsheviks"
+RUS_revolutionary_socialist_party:0 "Mensheviks"
+RUS_revolutionary_socialist_party_long:0 "Mensheviks"
+RUS_orthodox_marxist_party:0 "Bolsheviks"
+RUS_orthodox_marxist_party_long:0 "Bolsheviks"
 
 #Country Names
-RUS_national_populist:0 "Russian State"
-RUS_national_populist_DEF:0 "the Russian State"
+RUS_national_populist:0 "Solidarist Russia"
+RUS_national_populist_DEF:0 "Solidarist Russia"
 RUS_totalitarian_socialist:0 "Soviet Russia"
 RUS_totalitarian_socialist_DEF:0 "Soviet Russia"
 RUS_paternal_autocrat:0 "Russian State"
@@ -78,13 +78,20 @@ RUS_vanguardist_DEF:0 "Soviet Russia"
 
 #cosmetic tags
  
-RUS_polarized_society:0 "Polarized society"
- RUS_polarized_society_desc:0 "Russian society is once again being divided and conflict between the two eternal enemies seems inevitable."
- RUS_socialist_violence:0 "Socialist violence"
- RUS_socialist_violence_desc:0 "Our cities are crawled with the red rats and keeping them pacified is proving to be more and more dangerous."
- RUS_underdeveloped_countryside:0 "Underdeveloped countryside"
- RUS_underdeveloped_countryside_desc:0 "After the war, most of spendings went into urbanization and industrialization of large cities, the poor farmers are being mostly neglected, and large influx of Russian refugees from breakaway states certainly does not help."
- RUS_kaisers_influence:0 "Kaiser's influence"
- RUS_kaisers_influence_desc:0 "Over the years, Kaiser Wilhelm II has managed to set up an extensive diplomatic and propagandistic connections with Russian people"
- RUS_church_question:0 "Church question"
- RUS_church_question_desc:0 "Our church is lazy and corrupted, reforms will need to take place sooner or later."
+
+#Ideas
+RUS_novaya_rossiya:0 "Novaya Rossiya"
+RUS_novaya_rossiya_desc:0 "Novaya Rossiya (New Russia) is Baydalakov’s Russia, a fanatically nationalist, anti-semitic, ageist and totalitarian regime centered around the belief that a new generation of super-Russians will right the wrongs of their incompetent elders and bring about a new Russian world order. "
+RUS_the_three_decades_of_humiliation:0 "The Three Decades of Humiliation"
+RUS_the_three_decades_of_humiliation_desc:0 "For three decades Russia has been the laughing stock of the world, failure during the Great War, the Bolshevik revolution, the subsequent civil war and then the misery of the 1920’s and early 1930’s... Russia’s soul has been wounded."
+RUS_setbacks_of_the_rejuvenation_plan:0 "Setbacks of the Rejuvenation Plan"
+RUS_setbacks_of_the_rejuvenation_plan_desc:0 "Baydalakov’s Economic Rejuvenation Plan, although proclaimed a success, is anything but. The economy is in incompetent hands and has become unbalanced with military industries dominating the nation, leaving little for civilian industries such as agriculture. Xenophobia and Russia’s isolationist policies have worsened the situation. If this problem is not fixed Russia may literally starve to death!"
+RUS_treaty_of_brest_litovsk:0 "Treaty of Brest-Litovsk"
+RUS_treaty_of_brest_litovsk_desc:0 "The Treaty of Brest-Litovsk was signed by the Bolsheviks with the Germans following Russia’s defeat in the Great War, yet it is still forced upon Russia. The Treaty forbids Russia from expanding its borders, and forces Russia to pay reparations to Germany."
+
+
+
+
+
+
+

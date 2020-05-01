@@ -4,23 +4,164 @@
 
 add_namespace = usa
 
-#country_event = { #
-#       id = usa.1
-#	title = usa.1.t
-#	desc = usa.1.d
-#	picture = GFX_report_event_british_inspect_troops
-#
-#       fire_only_once = yes
-#
-#       is_triggered_only = yes
-#
-#       option = { # he returns to army
-#		name = usa.1.a
-#	}
-#	option = { # offer refused
-#		name = usa.1.b
-#	}
-#}
+country_event = { # introduction
+       id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_report_event_british_inspect_troops
+
+      fire_only_once = yes
+
+      is_triggered_only = yes
+
+     
+	option = { # offer refused
+		name = usa.1.b
+	}
+}
+
+country_event = { # liberty statue bombing
+       id = usa.3
+	title = usa.3.t
+	desc = usa.3.d
+	picture = GFX_report_event_statue_of_liberty
+
+       fire_only_once = yes
+
+       is_triggered_only = yes
+
+       option = { # those commie bastards...
+		name = usa.3.a
+                add_popularity = {
+                ideology = vanguardist
+                popularity = 0.05
+                }
+                add_popularity = {
+                ideology = orthodox_marxist
+                popularity = 0.05
+                }
+                add_political_power = -70
+                add_stability = -0.1
+	}
+}
+
+country_event = { # cancel elections?
+       id = usa.4
+	title = usa.4.t
+	desc = usa.4.d
+	picture = GFX_report_event_statue_of_liberty
+
+       fire_only_once = yes
+
+       is_triggered_only = yes
+
+       option = { # NOOOOOOOOOOOOOO YOU CANT ERODE DEMOCRACY THATS GOING TO MAKE EVERYTHING WORSE!!!
+		name = usa.4.a
+		add_political_power = 100
+		ai_chance = {
+			base = 70
+		             }
+		}
+       option = { # haha elections go cancel
+		name = usa.4.b   
+                set_country_flag = USA_election_cancelled  # military also steps in
+                add_political_power = -50
+                add_stability = -0.2
+				ai_chance = {
+			    base = 30
+		             }
+			    set_country_flag = USA_election_cancelled
+		add_popularity = {
+                ideology = authoritarian_democrat
+                popularity = 0.3
+                }
+		create_country_leader = {
+	    name = "Douglas MacArthur"
+	    desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+	    picture = "Portrait_USA_Douglas_Macarthur.tga"
+	    expire = "1965.1.1"
+	    ideology = authoritarian_democrat_subtype
+	    traits = { #
+		}
+		}
+		set_politics = {
+	    ruling_party = authoritarian_democrat
+         }
+		set_party_name = { ideology = authoritarian_democrat name = USA_authoritarian_democrat_party_macarthur name_long = USA_authoritarian_democrat_party_macarthur_long }
+	}
+}
+}
+
+country_event = { # Crime spree
+	id = usa.5
+	title = usa.5.t
+	desc = usa.5.d
+	picture = GFX_report_event 
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		NOT = {
+			has_country_flag = USA_election_1936_flag 
+            has_country_flag = USA_election_cancelled
+		}
+	}
+
+	option = { 
+		name = ustates.5.a
+		add_stability = -0.05
+                hidden_effect = {
+			USA = {
+				country_event = {
+					id = usa.5
+					days = 60
+                    random = 3600
+				}
+			}
+		}
+	}
+}
+
+country_event = { # 1936 Democratic Primary
+	id = usa.6
+	title = usa.6.t
+	desc = usa.6.d
+	picture = GFX_report_event_generic_usa_treaty
+
+	fire_only_once = yes
+	is_triggered_only = yes 
+
+	option = { # nominate Al Smith
+		name = usa.6.a
+		hidden_effect = {
+			set_country_flag = USA_al_smith_chosen_democrats
+		}
+	}
+	option = { # nominate bennett champ clark
+		name = usa.6.b
+		hidden_effect = {
+			set_country_flag = USA_champ_clark_chosen_democrats
+		}
+	}
+}
+
+country_event = { # hoover dam done
+	id = usa.7
+	title = usa.7.t
+	desc = usa.7.d
+	picture = GFX_report_event_generic_usa_treaty
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes 
+
+	option = { 
+		name = usa.7.a
+		add_political_power = 20 
+		add_stability = 0.05
+	}
+}
 
 ############################################
 ###########FLAVOUR EVENTS FOR THE USA#######
@@ -99,32 +240,18 @@ country_event = {
 	}
 }
 
-#elephants return to siam
-#country_event = {
-#	id = usa.103
-#	title = usa.103.t
-#	desc = usa.103.d
-#	picture = GFX_report_event_generic_usa_treaty
-#
-#	fire_only_once = yes
-#	
-#	trigger = {
-#		tag = USA
-#		has_war = no
-#		has_country_flag = secondcivilwar_over
-#	}
-#	
-#	mean_time_to_happen = {
-#		days = 30
-#	}
-#
-#       option = { # offer accepted
-#		name = usa.102.a
-#		add_political_power = -10
-#		load_oob = USA_elephant
-#	}
-#
-#       option = { # offer refused
-#		name = usa.102.b
-#	}
-#}
+country_event = { # JULY 4
+	id = usa.1000
+	title = usa.1000.t
+	desc = usa.1000.d
+	picture = GFX_report_event_generic_usa_treaty
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes 
+
+	option = { 
+		name = usa.1000.a
+		add_political_power = 20 
+	}
+}

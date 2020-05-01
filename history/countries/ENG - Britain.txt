@@ -18,6 +18,9 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.1
 
+country_event = { id = uk.2 days = 1 } #Intro Event
+country_event = { id = uk.3 days = 50 } #election
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

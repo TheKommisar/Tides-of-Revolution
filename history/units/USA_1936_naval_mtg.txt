@@ -395,10 +395,10 @@ units= {
 	##### ASIATIC FLEET #####
 	fleet = {
 		name = "Asiatic Fleet"			
-		naval_base = 10265 # Manilla
+		naval_base = 12140  # Guam
 		task_force = {					
 			name = "Asiatic Fleet"				
-			location = 10265 # Manilla
+			location = 12140 # Guam
 			ship = { name = "USS Augusta" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola Class" } } }				
 			ship = { name = "USS Marblehead" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
 			### Destroyer Squadron 5 ###				
@@ -421,7 +421,7 @@ units= {
 		}					
 		task_force = {					
 			name = "5th Submarine Squadron"				
-			location = 10265 # Manilla
+			location = 12140 # Manilla
 			# 10th Submarine Division				
 			ship = { name = "USS S-36" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }
 			ship = { name = "USS S-37" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Class" } } }

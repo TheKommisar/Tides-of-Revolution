@@ -72,15 +72,6 @@ units = {
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.1
 	}
-	
-	navy = {					
-		name = "Fleet of the Philippines"
-		base = 10265
-		location = 10265
-
-		ship = { name = "Kalayaan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PHI creator = PHI create_if_missing = yes } } }
-		ship = { name = "Matapang" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PHI creator = PHI create_if_missing = yes } } }
-	}
 }
 
 air_wings = {

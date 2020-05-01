@@ -7,7 +7,6 @@ spriteType = {
 		name = "GFX_idea_GRE_political_turmoil"
 		texturefile = "gfx/interface/ideas/GRE/GRE_political_turmoil.dds"
 	}
-}
 spriteType = {
 		name = "GFX_idea_GRE_political_divide"
 		texturefile = "gfx/interface/ideas/GRE/GRE_political_turmoil.dds"

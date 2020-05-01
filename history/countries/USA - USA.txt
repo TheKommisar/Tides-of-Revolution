@@ -1,9 +1,16 @@
 ﻿capital = 361
 
 oob = "USA_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "USA_1936_naval_mtg"
+	else = {
+		set_naval_oob = "USA_1936_naval_legacy"
+	}
+}
 
 set_research_slots = 4
-set_stability = 0.75
+set_stability = 0.3
 set_war_support = 0
 # Starting tech
 set_technology = {
@@ -68,8 +75,6 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 
-#nicaragua is also a us puppet but it is not shown here
-
 
 set_convoys = 400
 
@@ -80,6 +85,13 @@ add_ideas = {
 	free_trade
 }
 
+country_event = { id = usa.1 days = 1 } #Intro Event
+country_event = { id = usa.3 days = 100 random = 400 } #Lady Liberty Statue Bombing
+country_event = { id = usa.7 days = 60 } #Boulder Dam completion
+country_event = { id = usa.5 days = 40 random = 2880 } #Crime spree
+country_event = { id = usa.1000 days = 185 } #July 4
+
+
 set_politics = {
 	ruling_party = classic_liberal
 	last_election = "1932.11.8"
@@ -88,16 +100,16 @@ set_politics = {
 }
 set_popularities = {
         totalitarian_socialist = 0
-	vanguardist = 3
-        orthodox_marxist = 0
-	revolutionary_socialist = 1
-        social_democrat = 27
-        social_liberal = 28
-        classic_liberal = 34
-        social_conservative = 5
+	vanguardist = 6
+        orthodox_marxist = 9
+	revolutionary_socialist = 9
+        social_democrat = 10
+        social_liberal = 10
+        classic_liberal = 22
+        social_conservative = 7
         authoritarian_democrat = 2
-        paternal_autocrat = 0
-        national_populist = 0
+        paternal_autocrat = 15
+        national_populist = 10
 }
 
 #LEADERS
@@ -117,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Norman_Thomas.tga"
 	expire = "1999.1.1"
-	ideology = democratic_socialist_subtype
+	ideology = revolutionary_socialist_subtype
 	traits = {
 	}
 }
@@ -134,9 +146,9 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Alfred Smith"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	desc = "POLITICS_AL_SMITH_DESC"
 	picture = "Portrait_USA_Al_Smith.tga"
-	expire = "1999.1.1"
+	expire = "1965.1.1"
 	ideology = classic_liberal_subtype
 	traits = {
 	}
@@ -153,7 +165,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Huey Long"
+	name = "Charles Lindbergh"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Huey_Long.tga"
 	expire = "1999.1.1"
