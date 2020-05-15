@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+BEL_totalitarian_socialist_party:0 "Arbeiders/Ouvriers"
+BEL_totalitarian_socialist_party_long:0 "Belgische Werkliedenpertij/Parti Ouvrier Belge"
+BEL_vanguardist_party:0 "Arbeiders/Ouvriers"
+BEL_vanguardist_party_long:0 "Belgische Werkliedenpertij/Parti Ouvrier Belge"
+BEL_orthodox_marxist_party:0 "Collectivistes"
+BEL_orthodox_marxist_party_long:0 "Kollektivistische Partij van België/Parti Collectiviste de Belgique"
+BEL_revolutionary_socialist_socialist_party:0 "Collectivistes"
+BEL_revolutionary_socialist_party_long:0 "Kollektivistische Partij van België/Parti Collectiviste de Belgique"
+BEL_social_democrat_party:0 "Arbeiders/Ouvriers"
+BEL_social_democrat_party_long:0 "Belgische Werkliedenpertij/Parti Ouvrier Belge"
+BEL_social_liberal_party:0 "Progressistes"
+BEL_social_liberal_party_long:0 "Progressistische Partij/Parti Progressiste"
+BEL_classic_liberal_party:0 "Liberalen/Libéraux"
+BEL_classic_liberal_party_long:0 "Liberale Partij/Parti Libéral"
+BEL_social_conservative_party:0 "Katholieken"
+BEL_social_conservative_party_long:0 "Katholieke Partij/Parti Catholique"
+BEL_authoritarian_democrat_party:0 "Monarchisten"
+BEL_authoritarian_democrat_party_long:0 "Monarchistische Partij/Parti Monarchiste"
+BEL_paternal_autocrat_party:0 "Verdinaso"
+BEL_paternal_autocrat_party_long:0 "Verbond van Dietsche Nationaal Solidaristen"
+BEL_national_populist_party:0 "Rex"
+BEL_national_populist_party_long:0 "Parti Rexiste"
+
+#Country Names
+BEL_national_populist:0 "Kingdom of Belgium"
+BEL_national_populist_DEF:0 "the Kingdom of Belgium"
+BEL_totalitarian_socialist:0 "Belgian Sydicate"
+BEL_totalitarian_socialist_DEF:0 "the Belgian Syndicate"
+BEL_paternal_autocrat:0 "Kingdom of Belgium"
+BEL_paternal_autocrat_DEF:0 "the Kingdom of Belgium"
+BEL_social_conservative:0 "Kingdom of Belgium"
+BEL_social_conservative_DEF:0 "the Kingdom of Belgium"
+BEL_authoritarian_democrat:0 "Kingdom of Belgium"
+BEL_authoritarian_democrat_DEF:0 "the Kingdom of Belgium"
+BEL_orthodox_marxist:0 "Belgian Syndicate"
+BEL_orthodox_marxist_DEF:0 "the Belgian Syndicate"
+BEL_revolutionary_socialist:0 "Belgian Syndicate"
+BEL_revolutionary_socialist_DEF:0 "the Belgian Syndicate"
+BEL_social_democrat:0 "Kingdom of Belgium"
+BEL_social_democrat_DEF:0 "the Kingdom of Belgium"
+BEL_social_liberal:0 "Kingdom of Belgium"
+BEL_social_liberal_DEF:0 "the Kingdom of Belgium"
+BEL_classic_liberal:0 "Kingdom of Belgium"
+BEL_classic_liberal_DEF:0 "the Kingdom of Belgium"
+BEL_vanguardist:0 "Belgian People's Republic"
+BEL_vanguardist_DEF:0 "the Belgian People's Republic"
+ 
+BEL_national_populist_ADJ:0 "Belgian"
+BEL_totalitarian_socialist_ADJ:0 "Belgian"
+BEL_social_conservative_ADJ:0 "Belgian"
+BEL_paternal_autocrat_ADJ:0 "Belgian"
+BEL_orthodox_marxist_ADJ:0 "Belgian"
+BEL_authoritarian_democrat_ADJ:0 "Belgian"
+BEL_revolutionary_socialist_ADJ:0 "Belgian"
+BEL_social_democrat_ADJ:0 "Belgian"
+BEL_social_liberal_ADJ:0 "Belgian"
+BEL_classic_liberal_ADJ:0 "Belgian"
+BEL_vanguardist_ADJ:0 "Belgian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

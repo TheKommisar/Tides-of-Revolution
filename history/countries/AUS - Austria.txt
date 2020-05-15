@@ -78,6 +78,7 @@ set_popularities = {
 
 create_faction = Donaubund
 add_to_faction = AUS
+add_to_faction = ALB
 
 create_country_leader = {
 	name = "Franz II"

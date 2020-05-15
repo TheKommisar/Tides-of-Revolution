@@ -110,15 +110,15 @@ set_politics = {
 set_popularities = {
         totalitarian_socialist = 0
 	vanguardist = 0
-        orthodox_marxist = 8
-	revolutionary_socialist = 0
-        social_democrat = 6
-        social_liberal = 4
-        classic_liberal = 2
+        orthodox_marxist = 13
+	revolutionary_socialist = 6
+        social_democrat = 3
+        social_liberal = 0
+        classic_liberal = 6
         social_conservative = 10
-        authoritarian_democrat = 18
-        paternal_autocrat = 42
-        national_populist = 10
+        authoritarian_democrat = 14
+        paternal_autocrat = 40
+        national_populist = 8
 }
 
 add_ideas = {

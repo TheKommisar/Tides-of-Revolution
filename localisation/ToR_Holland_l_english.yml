@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+HOL_national_populist_party:0 "Nationaal Herstel"
+HOL_national_populist_party_long:0 "Verbond voor Nationaal Herstel (Extremists)"
+HOL_vanguardist_party:0 "Patriotten"
+HOL_vanguardist_party_long:0 "Revolutionair Patriottisch Front"
+HOL_social_conservative_party:0 "Anti-Revolutionairen"
+HOL_social_conservative_party_long:0 "Anti-Revolutionaire Partij"
+HOL_paternal_autocrat_party:0 "Nationaal Herstel"
+HOL_paternal_autocrat_party_long:0 "Verbond voor Nationaal Herstel"
+HOL_authoritarian_democrat_party:0 "Militaire Junta"
+HOL_authoritarian_democrat_party_long:0 "Militaire Junta"
+HOL_social_democrat_party:0 "Sociaal-Democraten"
+HOL_social_democrat_party_long:0 "Sociaal-Democratische Arbeiderspartij"
+HOL_social_liberal_party:0 "Vrijdenkers"
+HOL_social_liberal_party_long:0 "Vrijzinnig Democratische Bond"
+HOL_classic_liberal_party:0 "Liberalen"
+HOL_classic_liberal_party_long:0 "Liberale Staatspartij"
+HOL_totalitarian_socialist_party:0 "Nationaal Patriotten"
+HOL_totalitarian_socialist_party_long:0 "Revolutionair Patriottisch Front"
+HOL_revolutionary_socialist_party:0 "Socialisten"
+HOL_revolutionary_socialist_party_long:0 "Revolutionair Socialistische Arbeiderspartij"
+HOL_orthodox_marxist_party:0 "Arbeids-Secretariaat"
+HOL_orthodox_marxist_party_long:0 "Nationaal Arbeids-Secretariaat"
+
+#Country Names
+HOL_national_populist:0 "Kingdom of the Netherlands"
+HOL_national_populist_DEF:0 "the Kingdom of the Netherlands"
+HOL_totalitarian_socialist:0 "Dutch Workers' Union"
+HOL_totalitarian_socialist_DEF:0 "the Dutch Workers' Union"
+HOL_paternal_autocrat:0 "Kingdom of the Netherlands"
+HOL_paternal_autocrat_DEF:0 "the Kingdom of the Netherlands"
+HOL_social_conservative:0 "Kingdom of the Netherlands"
+HOL_social_conservative_DEF:0 "the Kingdom of the Netherlands"
+HOL_authoritarian_democrat:0 "Kingdom of the Netherlands"
+HOL_authoritarian_democrat_DEF:0 "the Kingdom of the Netherlands"
+HOL_orthodox_marxist:0 "Dutch Republic"
+HOL_orthodox_marxist_DEF:0 "the Dutch Republic"
+HOL_revolutionary_socialist:0 "Dutch Republic"
+HOL_revolutionary_socialist_DEF:0 "the Dutch Republic"
+HOL_social_democrat:0 "Kingdom of the Netherlands"
+HOL_social_democrat_DEF:0 "the Kingdom of the Netherlands"
+HOL_social_liberal:0 "Kingdom of the Netherlands"
+HOL_social_liberal_DEF:0 "the Kingdom of the Netherlands"
+HOL_classic_liberal:0 "Kingdom of the Netherlands"
+HOL_classic_liberal_DEF:0 "the Kingdom of the Netherlands"
+HOL_vanguardist:0 "Dutch Commune"
+HOL_vanguardist_DEF:0 "the Dutch Commune"
+ 
+HOL_national_populist_ADJ:0 "Dutch"
+HOL_totalitarian_socialist_ADJ:0 "Dutch"
+HOL_social_conservative_ADJ:0 "Dutch"
+HOL_paternal_autocrat_ADJ:0 "Dutch"
+HOL_orthodox_marxist_ADJ:0 "Dutch"
+HOL_authoritarian_democrat_ADJ:0 "Dutch"
+HOL_revolutionary_socialist_ADJ:0 "Dutch"
+HOL_social_democrat_ADJ:0 "Dutch"
+HOL_social_liberal_ADJ:0 "Dutch"
+HOL_classic_liberal_ADJ:0 "Dutch"
+HOL_vanguardist_ADJ:0 "Dutch"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

@@ -1,0 +1,23 @@
+###########################
+# Serbian evetns
+###########################
+
+add_namespace = serbia
+
+country_event = {
+	id = serbia.10
+	title = serbia.10.t	# Serbian entente thing
+	desc = serbia.10.d	#
+	picture = GFX_report_event_canada_patriation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = serbia.10.a # we accept
+                SER = { add_to_faction = ROOT }
+	}
+	
+	option = {
+		name = serbia.10.b # dont join faction
+	}
+}
