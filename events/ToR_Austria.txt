@@ -19,3 +19,84 @@ country_event = { # conrad von hotzendorf
                 add_political_power = -40
 	}
 }
+
+country_event = { # intervene in Italy?
+	id = austriahungary.100
+        title = austriahungary.100.t	
+	desc = austriahungary.100.d
+	picture = GFX_report_event_europe_funeral
+	
+	fire_only_once = yes
+
+        trigger = {
+         original_tag = AUS
+         has_global_flag = icw
+         has_war = no
+        }
+	
+	option = {
+		name = austriahungary.100.a
+                add_political_power = -20
+                AUS = { transfer_state = 160 }
+                AUS = { transfer_state = 159 }
+                country_event = { days = 5 id = austriahungary.101 }
+                
+	}
+        option = {
+		name = austriahungary.100.a
+	}
+}
+
+country_event = { # set up government?
+	id = austriahungary.101
+        title = austriahungary.101.t	
+	desc = austriahungary.101.d
+	picture = GFX_report_event_europe_funeral
+	
+	fire_only_once = yes
+
+        is_triggered_only = yes
+	
+	option = {
+		name = austriahungary.100.a
+                every_owned_state = {
+			limit = { is_core_of = ITA }
+			if = {
+				limit = { is_claimed_by = AUS }
+				remove_claim_by = AUS
+			}
+			ITR = { transfer_state = PREV }
+		}
+                ITR = { add_state_core = 160 }
+                ITR = { add_state_core = 159 }
+		puppet = ITR
+		add_to_faction = ITR
+                ITR = { country_event = { days = 3 id = italyrepublic.1 } }
+                hidden_effect = {
+                ITR = {
+                       set_politics = {
+	                ruling_party = social_liberal
+	                last_election = "1936.1.1"
+	                election_frequency = 48
+	                elections_allowed = no
+                       }
+                       set_popularities = {
+                          totalitarian_socialist = 0
+	                  vanguardist = 0
+                          orthodox_marxist = 0
+	                  revolutionary_socialist = 0
+                          social_democrat = 0
+                          social_liberal = 100
+                          classic_liberal = 0
+                          social_conservative = 0
+                          authoritarian_democrat = 0
+                          paternal_autocrat = 0
+                          national_populist = 0
+                       }
+                } }
+	}
+        option = {
+		name = austriahungary.100.a
+                add_political_power = -20
+	}
+}

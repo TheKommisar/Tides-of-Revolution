@@ -1,0 +1,1999 @@
+#####################################
+#		USA FOCUS TREE 				#
+#		DONE BY UNKNOWNENTITY #			#
+#####################################
+
+
+
+focus_tree = {
+        id = usa_focus
+country = {
+  factor = 0
+
+  modifier = {
+    add = 10
+    tag = USA
+  }
+}
+
+
+
+#########################################
+#########################################
+#			Captain Of Titanic			#
+#########################################
+#########################################
+focus = { #Captain Of A Sinking Ship
+        id = usa_titanic
+        icon = GFX_goal_unknown
+        x = 8
+        y = 1
+        cost = 2
+        available_if_capitulated = yes 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Calm The Hell Down
+        id = usa_calm_down
+        icon = GFX_goal_unknown
+        x = 11
+        y = 2
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_titanic } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Clean House
+        id = usa_clean_house
+        icon = GFX_goal_unknown
+        x = 5
+        y = 2
+        cost = 2
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_titanic } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Reaffirm Our Progressive Stance
+        id = usa_reaffirm_stance
+        icon = GFX_goal_unknown
+        x = 3
+        y = 3
+        cost = 2
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_clean_house } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Work Within The Party
+        id = usa_work_within_party
+        icon = GFX_goal_unknown
+        x = 7
+        y = 3
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_clean_house } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Compromise With The Communists
+        id = usa_commies
+        icon = GFX_goal_unknown
+        x = 8
+        y = 4
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_work_within_party } 
+                mutually_exclusive = { focus = usa_compromise_establishment } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Compromise With The Establishment
+        id = usa_compromise_establishment
+        icon = GFX_goal_unknown
+        x = 6
+        y = 4
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_work_within_party } 
+                mutually_exclusive = { focus = usa_commies } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Reach Out To The CPUSA
+        id = usa_cpusa
+        icon = GFX_goal_unknown
+        x = 2
+        y = 4
+        cost = 5
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_reaffirm_stance } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Gather Support
+        id = usa_gather_support
+        icon = GFX_goal_unknown
+        x = 4
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_reaffirm_stance } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Keep It Together
+        id = usa_keep_together
+        icon = GFX_goal_unknown
+        x = 7
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_commies focus = usa_compromise_establishment } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Bring Relief To The People
+        id = usa_bring_relief
+        icon = GFX_goal_unknown
+        x = 11
+        y = 3
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_calm_down } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Introduce The Jones-Krueger Bill
+        id = usa_jones_krueger
+        icon = GFX_goal_unknown
+        x = 11
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_bring_relief } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Introduce The Rural Electrification Bill
+        id = usa_electrification
+        icon = GFX_goal_unknown
+        x = 11
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_jones_krueger } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #This Isn't Working!
+        id = usa_not_work
+        icon = GFX_goal_unknown
+        x = 11
+        y = 6
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_electrification } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Pack The Court
+        id = usa_not_cheating
+        icon = GFX_goal_unknown
+        x = 11
+        y = 7
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_not_work } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Try More, Unconventional Tactics
+        id = usa_unconventional_tactics
+        icon = GFX_goal_unknown
+        x = 11
+        y = 8
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_not_cheating } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Convince Some Moderates
+        id = usa_convince_moderates
+        icon = GFX_goal_unknown
+        x = 11
+        y = 9
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_unconventional_tactics } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Get Our Hands Dirty
+        id = usa_dirty
+        icon = GFX_goal_unknown
+        x = 9
+        y = 10
+        cost = 5
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_convince_moderates } 
+                mutually_exclusive = { focus = usa_dignity } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Keep Our Dignity
+        id = usa_dignity
+        icon = GFX_goal_unknown
+        x = 13
+        y = 10
+        cost = 5
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_convince_moderates } 
+                mutually_exclusive = { focus = usa_dirty } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Contact Foreign Aid
+        id = usa_foreign_aid
+        icon = GFX_goal_unknown
+        x = 11
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_dirty focus = usa_dignity } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+
+focus = { #Yes Man, Best Men
+        id = usa_yes_bro_best_bro
+        icon = GFX_goal_unknown
+        x = 7
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_roosevelt } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Workers Of America, Unite!
+        id = usa_workers_unite
+        icon = GFX_goal_unknown
+        x = 3
+        y = 9
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_marxism } 
+                prerequisite = { focus = usa_cinema } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #A Party Reborn
+        id = usa_party
+        icon = GFX_goal_unknown
+        x = 7
+        y = 9
+        cost = 8
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_yes_bro_best_bro } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+
+focus = { #Redefine Roosevelts Ideas
+        id = usa_roosevelt
+        icon = GFX_goal_unknown
+        x = 7
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_to_hell_with_libs } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Marxism With American Characteristics
+        id = usa_marxism
+        icon = GFX_goal_unknown
+        x = 2
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_reform_party } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #In The Cinema
+        id = usa_cinema
+        icon = GFX_goal_unknown
+        x = 4
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_radio } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+
+focus = { #Attract The Radicals
+        id = usa_thats_rad_dude
+        icon = GFX_goal_unknown
+        x = 2
+        y = 5
+        cost = 5
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_cpusa } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Silence The Opposition
+        id = usa_shhhhhh
+        icon = GFX_goal_unknown
+        x = 2
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_thats_rad_dude } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Entice The People
+        id = usa_entice
+        icon = GFX_goal_unknown
+        x = 4
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_gather_support } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #In The Sunday Paper
+        id = usa_sunday
+        icon = GFX_goal_unknown
+        x = 4
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_entice } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #On The Radio
+        id = usa_radio
+        icon = GFX_goal_unknown
+        x = 4
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_sunday } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Reform The Party
+        id = usa_reform_party
+        icon = GFX_goal_unknown
+        x = 2
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_shhhhhh } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #To Hell With The Moderates
+        id = usa_to_hell_with_libs
+        icon = GFX_goal_unknown
+        x = 7
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_keep_together } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################
+#		An Issue 				#
+#################################
+
+focus = { #An Issue
+        id = usa_an_issue
+        icon = GFX_goal_unknown
+        x = 5
+        y = 10
+        cost = 10
+        available_if_capitulated = yes 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Squash Rumors
+        id = usa_rumors
+        icon = GFX_goal_unknown
+        x = 7
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_an_issue } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Fake News
+        id = usa_fake_news
+        icon = GFX_goal_unknown
+        x = 3
+        y = 12
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_speak_investigation } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #The Coverup
+        id = usa_coverup
+        icon = GFX_goal_unknown
+        x = 7
+        y = 12
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_rumors } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Saturday Night Massacre
+        id = usa_saturday_genocide
+        icon = GFX_goal_unknown
+        x = 5
+        y = 13
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_fake_news } 
+                prerequisite = { focus = usa_coverup } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Farewell To The King
+        id = usa_bye_huey
+        icon = GFX_goal_unknown
+        x = 5
+        y = 14
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_saturday_genocide } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Speak Against The Investigation
+        id = usa_speak_investigation
+        icon = GFX_goal_unknown
+        x = 3
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_an_issue } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+
+#################################
+#		Time For Choosing 		#
+#################################
+
+focus = { #A Time For Choosing
+        id = usa_time_choosing
+        icon = GFX_goal_unknown
+        x = 18
+        y = 1
+        cost = 10
+        available_if_capitulated = yes 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Out With The Old, In With The Old
+        id = usa_out_with_old
+        icon = GFX_goal_unknown
+        x = 18
+        y = 2
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_time_choosing } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Bridge The Gap
+        id = usa_bridgethegap
+        icon = GFX_goal_unknown
+        x = 18
+        y = 3
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_out_with_old } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Reinstate The Status Quo
+        id = usa_status_quo
+        icon = GFX_goal_unknown
+        x = 18
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_bridgethegap } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Begin Relief Programs
+        id = usa_begin_relief
+        icon = GFX_goal_unknown
+        x = 18
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_status_quo } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Put Funding Into Social Security
+        id = usa_fund_social_security
+        icon = GFX_goal_unknown
+        x = 16
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_begin_relief } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Pull Yourself Up By Your Bootstraps!
+        id = usa_boot_straps
+        icon = GFX_goal_unknown
+        x = 20
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_begin_relief } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Formation Of The NRA
+        id = usa_nra
+        icon = GFX_goal_unknown
+        x = 16
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_fund_social_security } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Advertise Army Recruitment
+        id = usa_army_recruitment
+        icon = GFX_goal_unknown
+        x = 20
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_boot_straps } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+
+ }
+
+focus = { #The Tennessee Valley Question
+        id = usa_tennessee_valley
+        icon = GFX_goal_unknown
+        x = 18
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_army_recruitment } 
+                prerequisite = { focus = usa_nra } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Collectivism Detected On American Soil
+        id = usa_collectivism
+        icon = GFX_goal_unknown
+        x = 16
+        y = 9
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_tennessee_valley } 
+                mutually_exclusive = { focus = usa_im_a_poor_man } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Lethal Votes Engaged
+        id = usa_lethal_votes
+        icon = GFX_goal_unknown
+        x = 16
+        y = 10
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_collectivism } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Back To Our Roots
+        id = usa_roots
+        icon = GFX_goal_unknown
+        x = 16
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_lethal_votes } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Lassie-Faire Economic Policies
+        id = usa_lassie_faire
+        icon = GFX_goal_unknown
+        x = 16
+        y = 12
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_roots } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Repeal Regulation
+        id = usa_repeal_regulation
+        icon = GFX_goal_unknown
+        x = 16
+        y = 13
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_lassie_faire } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Pro Business Policy
+        id = usa_pro_business
+        icon = GFX_goal_unknown
+        x = 16
+        y = 14
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_repeal_regulation } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #I Am For The Poor Man
+        id = usa_im_a_poor_man
+        icon = GFX_goal_unknown
+        x = 20
+        y = 9
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_tennessee_valley } 
+                mutually_exclusive = { focus = usa_collectivism } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+
+focus = { #Expand Social Security
+        id = usa_expand_social_security
+        icon = GFX_goal_unknown
+        x = 20
+        y = 10
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_im_a_poor_man } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #New Reforms
+        id = usa_new_reforms
+        icon = GFX_goal_unknown
+        x = 20
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_expand_social_security } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Support Unions
+        id = usa_unions_suck
+        icon = GFX_goal_unknown
+        x = 20
+        y = 12
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_new_reforms } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Keep Radicals At Bay
+        id = usa_not_rad_dude
+        icon = GFX_goal_unknown
+        x = 20
+        y = 13
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_unions_suck } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Radical Centrism
+        id = usa_epic_middle
+        icon = GFX_goal_unknown
+        x = 20
+        y = 14
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_not_rad_dude } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Restoring American Glory
+        id = usa_american_glory
+        icon = GFX_goal_unknown
+        x = 18
+        y = 15
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_epic_middle focus = usa_pro_business } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+#################################
+#		Voice Of Reason 		#
+#################################
+
+focus = { #Voice Of Reason
+        id = usa_voice_reason
+        icon = GFX_goal_unknown
+        x = 25
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #The Silent Majority
+        id = usa_silent_majority
+        icon = GFX_goal_unknown
+        x = 25
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_voice_reason } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Appeal To The Business Men
+        id = usa_appeal_businessmen
+        icon = GFX_goal_unknown
+        x = 27
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_silent_majority } 
+                mutually_exclusive = { focus = usa_appeal_farmers } 
+                mutually_exclusive = { focus = usa_appeal_factory_worker } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Appeal To The Factory Worker
+        id = usa_appeal_factory_worker
+        icon = GFX_goal_unknown
+        x = 25
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_silent_majority } 
+                mutually_exclusive = { focus = usa_appeal_farmers } 
+                mutually_exclusive = { focus = usa_appeal_businessmen } 
+                mutually_exclusive = { focus = usa_ } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Appeal To The Farmers
+        id = usa_appeal_farmers
+        icon = GFX_goal_unknown
+        x = 23
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_silent_majority } 
+                mutually_exclusive = { focus = usa_appeal_factory_worker } 
+                mutually_exclusive = { focus = usa_appeal_businessmen } 
+                mutually_exclusive = { focus = usa_ } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #The Forgotten Middleman
+        id = usa_forgotten_middleman
+        icon = GFX_goal_unknown
+        x = 23
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_crop_subsidies } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Crop Subsidies
+        id = usa_crop_subsidies
+        icon = GFX_goal_unknown
+        x = 23
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_appeal_farmers } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+
+focus = {#Expand Welfare 
+        id = usa_expand_welfare
+        icon = GFX_goal_unknown
+        x = 25
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_appeal_factory_worker } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Socialism Is NOT The Answer
+        id = usa_socialism_sucks
+        icon = GFX_goal_unknown
+        x = 25
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_expand_welfare } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Cut Regulations
+        id = usa_cut_regulations
+        icon = GFX_goal_unknown
+        x = 27
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_appeal_businessmen } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #What's Good For Business Is Good For The People
+        id = usa_good_business_good_people
+        icon = GFX_goal_unknown
+        x = 27
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_cut_regulations } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+#The One TRUE Party
+focus = { 
+        id = usa_true_party
+        icon = GFX_goal_unknown
+        x = 25
+        y = 9
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_forgotten_middleman focus = usa_socialism_sucks focus = usa_good_business_good_people } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+############################################################################################################
+###################				FRESH FACE 				####################################################
+############################################################################################################
+
+
+focus = { #A Fresh Face
+        id = usa_fresh_face
+        icon = GFX_goal_unknown
+        x = 34
+        y = 1
+        cost = 10
+        available_if_capitulated = yes 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #American Phoenix
+        id = usa_phoenix
+        icon = GFX_goal_unknown
+        x = 34
+        y = 2
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_fresh_face } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+#############################
+#	Leadership For 40s 		#
+#############################
+
+
+focus = { #Leadership For The 40's
+        id = usa_40s_leadership
+        icon = GFX_goal_unknown
+        x = 38
+        y = 3
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_phoenix } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #The American Duty
+        id = usa_american_duty
+        icon = GFX_goal_unknown
+        x = 36
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_great_american_promise } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #The True Successors To Washington
+        id = usa_true_successors_washington
+        icon = GFX_goal_unknown
+        x = 40
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_history_books } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #New American Nationalism
+        id = usa_new_american_nationalism
+        icon = GFX_goal_unknown
+        x = 38
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_nation_under_god } 
+                prerequisite = { focus = usa_true_successors_washington } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Rally The People!
+        id = usa_epic_rally
+        icon = GFX_goal_unknown
+        x = 36
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_40s_leadership } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #The Great American Promise
+        id = usa_great_american_promise
+        icon = GFX_goal_unknown
+        x = 36
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_epic_rally } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #One Nation Under God
+        id = usa_nation_under_god
+        icon = GFX_goal_unknown
+        x = 36
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_american_duty } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #The Message Of The Founding Father
+        id = usa_message_founding_father
+        icon = GFX_goal_unknown
+        x = 40
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_40s_leadership } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Hamilton, Not Jefferson
+        id = usa_hammy_not_jeff    #haha my name jeff (im sorry, (not really))#
+        icon = GFX_goal_unknown
+        x = 40
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_message_founding_father } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #New History Book Standards
+        id = usa_history_books
+        icon = GFX_goal_unknown
+        x = 40
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_hammy_not_jeff } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+#################################
+#	Dealing With The Economy 	#
+#################################
+#	aka economy section			#
+#################################
+
+focus = { #Dealing With The Economy
+        id = usa_dealing_with_economy
+        icon = GFX_goal_unknown
+        x = 31
+        y = 3
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_phoenix } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #The Military Industrial Complex
+        id = usa_MIC
+        icon = GFX_goal_unknown
+        x = 31
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_military_recruitment_campaign } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #More Tanks, Planes, And Automobiles
+        id = usa_more_stuff
+        icon = GFX_goal_unknown
+        x = 31
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_MIC } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #American Highway Project
+        id = usa_highways
+        icon = GFX_goal_unknown
+        x = 29
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_building_projects } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Building Projects
+        id = usa_building_projects
+        icon = GFX_goal_unknown
+        x = 29
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_cut_welfare } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Uncle Sam Needs YOU
+        id = usa_uncle_sammy_needs
+        icon = GFX_goal_unknown
+        x = 31
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_more_stuff } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Cut Welfare
+        id = usa_cut_welfare
+        icon = GFX_goal_unknown
+        x = 29
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_pull_them_up } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Repeal Anti Business Laws
+        id = usa_repeal_anti_business_laws
+        icon = GFX_goal_unknown
+        x = 33
+        y = 5
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_fordism } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Subsidize Industry
+        id = usa_subsidize_industry
+        icon = GFX_goal_unknown
+        x = 33
+        y = 6
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_repeal_anti_business_laws } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #American Corporatism
+        id = usa_american_corporatism
+        icon = GFX_goal_unknown
+        x = 33
+        y = 7
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_subsidize_industry } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Embrace Fordism
+        id = usa_fordism
+        icon = GFX_goal_unknown
+        x = 33
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_dealing_with_economy } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+focus = { #Start Military Recruitment Campaign
+        id = usa_military_recruitment_campaign
+        icon = GFX_goal_unknown
+        x = 31
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_dealing_with_economy } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Center Of Business
+        id = usa_center_business
+        icon = GFX_goal_unknown
+        x = 31
+        y = 8
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_highways } 
+                prerequisite = { focus = usa_uncle_sammy_needs } 
+                prerequisite = { focus = usa_american_corporatism } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Pull Them Up #Aka pulling yourself up by the bootstraps 2
+        id = usa_pull_them_up
+        icon = GFX_goal_unknown
+        x = 29
+        y = 4
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_dealing_with_economy } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+
+
+#####################
+#	Lindbergh 		#
+#####################
+
+focus = { #The Lindbergh Problem
+        id = usa_lindbergh
+        icon = GFX_goal_unknown
+        x = 32
+        y = 10
+        cost = 10
+        available_if_capitulated = yes 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+#Shut Him Up!
+focus = { 
+        id = usa_stfu
+        icon = GFX_goal_unknown
+        x = 30
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_lindbergh } 
+                mutually_exclusive = { focus = usa_let_him_speak } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Let Him Speak
+        id = usa_let_him_speak
+        icon = GFX_goal_unknown
+        x = 34
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_lindbergh } 
+                mutually_exclusive = { focus = usa_stfu } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Distance Ourselves From Radicals
+        id = usa_distance_rad_dude
+        icon = GFX_goal_unknown
+        x = 30
+        y = 12
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_stfu } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Cease Contact With Coughlin
+        id = usa_cease_coughlin
+        icon = GFX_goal_unknown
+        x = 30
+        y = 13
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_distance_rad_dude } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #The Southern Strategy
+        id = usa_southern_strategy
+        icon = GFX_goal_unknown
+        x = 34
+        y = 12
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_let_him_speak } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Use Coughlin
+        id = usa_use_coughlin
+        icon = GFX_goal_unknown
+        x = 34
+        y = 13
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_southern_strategy } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Party Of The Worker
+        id = usa_party_of_the_worker
+        icon = GFX_goal_unknown
+        x = 34
+        y = 14
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_use_coughlin } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+
+focus = { #Party Of Business
+        id = usa_party_of_business
+        icon = GFX_goal_unknown
+        x = 30
+        y = 14
+        cost = 10
+        available_if_capitulated = yes 
+                prerequisite = { focus = usa_cease_coughlin } 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ } 
+
+###### MACARTHUR PATH
+
+focus = { #New man in Washington
+        id = usa_macarthur
+        icon = GFX_goal_unknown
+        x = 25
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ }
+
+focus = { #New man in Washington
+        id = usa_defender_of_democracy
+        icon = GFX_goal_unknown
+        x = 25
+        y = 11
+        cost = 10
+        available_if_capitulated = yes 
+                    ai_will_do = { 
+                factor = 1
+        } 
+                completion_reward = {
+                
+        }
+ }

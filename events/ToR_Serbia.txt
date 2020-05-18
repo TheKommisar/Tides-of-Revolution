@@ -1,0 +1,65 @@
+###########################
+# Serbian evetns
+###########################
+
+add_namespace = serbia
+
+country_event = {
+	id = serbia.2
+	title = serbia.2.t	# annexing Montenegro thing
+	desc = serbia.2.d	#
+	picture = GFX_report_event_canada_patriation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = serbia.2.a # we accept
+                SER = { annex_country = {
+                         target = MNT
+                         transfer_troops = yes
+                       } }
+	}
+	
+	option = {
+		name = serbia.2.b # never
+                SER = { country_event = {
+                         id = serbia.3
+                }
+	}
+}
+}
+
+country_event = {
+	id = serbia.3
+	title = serbia.3.t	# annexing Montenegro thing
+	desc = serbia.3.d	#
+	picture = GFX_report_event_canada_patriation
+	
+	is_triggered_only = yes
+	
+	option = { #war moment
+		name = serbia.3.a # we accept
+                create_wargoal = {
+					type = annex_everything
+					target = MNT
+		}
+	}
+}
+
+country_event = {
+	id = serbia.10
+	title = serbia.10.t	# Serbian entente thing
+	desc = serbia.10.d	#
+	picture = GFX_report_event_canada_patriation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = serbia.10.a # we accept
+                SER = { add_to_faction = ROOT }
+	}
+	
+	option = {
+		name = serbia.10.b # dont join faction
+	}
+}

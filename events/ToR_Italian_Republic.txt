@@ -1,0 +1,86 @@
+
+add_namespace = italyrepublic
+
+country_event = {
+    id = italyrepublic.1
+    title = italyrepublic.1.t    
+    desc = italyrepublic.1.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = italyrepublic.1.a
+                country_event = { days = 5 id = italyrepublic.2 }
+		ai_chance = {
+			factor = 100
+		}
+    }
+}
+
+country_event = {
+    id = italyrepublic.2 # picking the leader
+    title = italyrepublic.2.t    
+    desc = italyrepublic.2.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {  #ivanoe bonomi
+		name = italyrepublic.2.a
+                retire_country_leader = yes
+                create_country_leader = {
+        	name = "Ivanoe Bonomi"
+        	desc = "POLITICS_EDWARD_VIII_DESC"
+        	picture = "Portrait_ITR_Ivanoe_Bonomi.tga"
+        	expire = "1965.1.1"
+        	ideology = social_liberal_subtype
+        	traits = {
+        		#
+        	}
+        }
+		ai_chance = {
+			factor = 34
+		}
+    }
+    option = {  #alcide de gasperi
+		name = italyrepublic.2.b
+                create_country_leader = {
+        	name = "Alcide Gasperi"
+        	desc = "POLITICS_EDWARD_VIII_DESC"
+        	picture = "Portrait_ITR_Alcide_Gasperi.tga"
+        	expire = "1965.1.1"
+        	ideology = social_conservative_subtype
+        	traits = {
+        		#
+        	}
+        }
+		ai_chance = {
+			factor = 34
+		}
+    }
+    option = {  #carlo roselli
+		name = italyrepublic.2.c
+                create_country_leader = {
+        	name = "Carlo Roselli"
+        	desc = "POLITICS_EDWARD_VIII_DESC"
+        	picture = "Portrait_ITR_Carlo_Rossi.tga"
+        	expire = "1965.1.1"
+        	ideology = social_democrat_subtype
+        	traits = {
+        		#
+        	}
+        }
+		ai_chance = {
+			factor = 32
+		}
+    }
+}

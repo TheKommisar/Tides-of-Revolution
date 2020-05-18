@@ -102,10 +102,10 @@ country_event = { # Crime spree
 
 	trigger = {
 		tag = USA
-		NOT = {
-			has_country_flag = USA_election_1936_flag 
-            has_country_flag = USA_election_cancelled
-		}
+		#NOT = {
+		#	has_country_flag = USA_election_1936_flag 
+        #    has_country_flag = USA_election_cancelled
+		#}
 	}
 
 	option = { 

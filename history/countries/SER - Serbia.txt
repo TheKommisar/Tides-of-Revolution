@@ -1,6 +1,6 @@
 ﻿capital = 107
 
-oob = "YUG_1936"
+oob = "SER_1936"
 
 set_research_slots = 3
 
@@ -49,14 +49,25 @@ if = {
 
 set_convoys = 0
 
+set_popularities = {
+        totalitarian_socialist = 0
+	vanguardist = 0
+        orthodox_marxist = 4
+	revolutionary_socialist = 6
+        social_democrat = 0
+        social_liberal = 16
+        classic_liberal = 15
+        social_conservative = 10
+        authoritarian_democrat = 37
+        paternal_autocrat = 12
+        national_populist = 0
+}
+
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = no
-}
-set_popularities = {
-    authoritarian_democrat = 100
 }
 
 set_stability = 0.6

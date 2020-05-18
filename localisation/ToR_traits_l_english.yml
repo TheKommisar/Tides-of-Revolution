@@ -11,3 +11,7 @@ foreign_minister:0 "Foreign Minister"
 economy_minister:0 "Economy Minister"
 security_minister:0 "Interior Minister"
 head_of_intel:0 "Intelligence Minister"
+
+former_republican:0 "Former Republican"
+former_republican_desc:0 "This commander has formerly served under the tricolour flag of the French Third Republic, and as such may have tendencies against the state."
+bearer_of_artillery:0 "Artillery Expert"

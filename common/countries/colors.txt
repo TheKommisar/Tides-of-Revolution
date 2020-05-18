@@ -609,3 +609,7 @@ SRI = {
         color = rgb { 92 40 37 } 
         color_ui = rgb { 92 40 37 }
 }
+ITR = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
