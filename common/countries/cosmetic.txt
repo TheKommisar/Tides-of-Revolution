@@ -232,7 +232,7 @@ SUD_UK = {
         color_ui = rgb { 200 35 35 }
 }
 
-BRM_UK = { 
-        color = rgb { 139 77 158 }
-        color_ui = rgb { 200 14 158 }
+ITA_LBA = { 
+        color = rgb { 59 148 65 }
+	color_ui = rgb { 74 186 82 }
 }

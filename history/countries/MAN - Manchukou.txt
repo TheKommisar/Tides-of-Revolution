@@ -1,0 +1,90 @@
+﻿capital = 328
+oob = "MAN_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	construction1 = 1
+	excavation1 = 1
+	fuel_silos = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+	}
+}
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+        totalitarian_socialist = 0
+	vanguardist = 0
+        orthodox_marxist = 1
+	revolutionary_socialist = 0
+        social_democrat = 1
+        social_liberal = 0
+        classic_liberal = 8
+        social_conservative = 4
+        authoritarian_democrat = 44
+        paternal_autocrat = 19
+        national_populist = 23
+}
+
+create_country_leader = {
+	name = "Zhang Zuolin"
+	picture = "Portrait_FNG_Zhang_Zuolin.tga"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zhang Zuolin"
+	picture = "Portrait_FNG_Zhang_Zuolin.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Zhang Haipeng"
+	GFX = "GFX_portrait_man_zhang_haipeng"
+	traits = {  }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}

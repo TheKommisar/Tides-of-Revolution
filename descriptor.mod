@@ -6,5 +6,5 @@ tags={
 	"Gameplay"
 	"National Focuses"
 }
-name="tidesofrevolution"
+name="Tides of Revolution"
 supported_version="1.9.1"

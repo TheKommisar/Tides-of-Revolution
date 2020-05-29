@@ -21,17 +21,80 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_conservative = 98
-	national_populist = 1
-	vanguardist = 1
+        totalitarian_socialist = 0
+	vanguardist = 2
+        orthodox_marxist = 3
+	revolutionary_socialist = 0
+        social_democrat = 20
+        social_liberal = 4
+        classic_liberal = 11
+        social_conservative = 29
+        authoritarian_democrat = 7
+        paternal_autocrat = 14
+        national_populist = 10
 }
 
 create_country_leader = {
-	name = "St John Brodrick"
+	name = "John Brodrick"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "Portrait_Ireland_John_Brodrick.dds"
-	expire = "1965.1.1"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Brodrick"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Portrait_Ireland_John_Brodrick.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Brodrick"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Portrait_Ireland_John_Brodrick.dds"
+	expire = "1999.1.1"
+	ideology = classic_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Brodrick"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Portrait_Ireland_John_Brodrick.dds"
+	expire = "1999.1.1"
 	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Brodrick"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Portrait_Ireland_John_Brodrick.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Michael Collins"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Portrait_Ireland_Michael_Collins.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
@@ -49,34 +112,34 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "James Larkin"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	name = "Betty Sinclair"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "Portrait_Ireland_Betty_Sinclair.tga"
+	expire = "1999.1.1"
+	ideology = collectivist_subtype
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "William Norton"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
+create_field_marshal = {
+	name = "Richard Mulcahy"
+	portrait_path = "Portrait_Ireland_Richard_Mulcahy.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
-	name = "Michael Costello"
-	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+	name = "Eoin O'Duffy"
+	portrait_path = "Portrait_Ireland_Eoin_ODuffy.tga"
 	traits = {  }
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
+	defense_skill = 1
+	planning_skill = 2
 	logistics_skill = 2
 }

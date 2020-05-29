@@ -59,8 +59,8 @@ division_template = {
 
 units = {		
 	division = {			
-		name = "Milanese Volunteers"		
-		location = 3780
+		name = "Genoese Volunteers"		
+		location = 6788
 		division_template = "Workers Militia"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.25
@@ -68,7 +68,7 @@ units = {
 	}
         division = {			
 		name = "Red Guard"		
-		location = 773
+		location = 3976
 		division_template = "Revolutionary Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -83,9 +83,9 @@ units = {
 
 	}
         division = {			
-		name = "Milanese Police Defectors"		
-		location = 3780
-		division_template = "Workers Militia"
+		name = "Genoese Police Defectors"		
+		location = 6788
+		division_template = "Police Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
 

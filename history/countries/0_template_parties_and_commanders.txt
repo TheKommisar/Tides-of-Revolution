@@ -2,7 +2,7 @@
 
 set_politics = {
 	ruling_party = 
-	last_election = "" # uses YY/MM/DD so for example something happening on Jan 10 1936 would be 1936/1/10
+	last_election = "" # uses YY.MM.DD so for example something happening on Jan 10 1936 would be 1936.1.10
 	election_frequency = 48 # number is of months
 	elections_allowed = no 
 }

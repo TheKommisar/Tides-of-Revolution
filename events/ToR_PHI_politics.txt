@@ -20,7 +20,6 @@ country_event {
             has_government = authoritarian_democrat
             has_government = paternal_autocrat
             has_government = national_populist
-            has_government = valkist
         }
     }
 
@@ -62,7 +61,6 @@ country_event = {
             has_government = authoritarian_democrat
             has_government = paternal_autocrat
             has_government = national_populist
-            has_government = valkist
         }
     }
 

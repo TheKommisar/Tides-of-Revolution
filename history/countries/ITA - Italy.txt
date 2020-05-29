@@ -2,6 +2,8 @@ capital = 2
 
 oob = "ITA_1936"
 
+country_event = { id = italy.1 days = 1 } #Intro Event
+
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
@@ -91,13 +93,6 @@ if = {
 	}
 	set_naval_oob = "ITA_1936_naval_mtg"
 }
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
-}
-
 
 set_convoys = 200
 
@@ -109,25 +104,25 @@ set_politics = {
 }
 set_popularities = {
         totalitarian_socialist = 0
-	vanguardist = 0
-        orthodox_marxist = 0
-	revolutionary_socialist = 0
-        social_democrat = 32
-        social_liberal = 9
-        classic_liberal = 9
-        social_conservative = 25
-        authoritarian_democrat = 25
+	vanguardist = 2
+        orthodox_marxist = 4
+	revolutionary_socialist = 8
+        social_democrat = 36
+        social_liberal = 11
+        classic_liberal = 3
+        social_conservative = 19
+        authoritarian_democrat = 2
         paternal_autocrat = 0
-        national_populist = 0
+        national_populist = 15
 }
 
 
 
 
 create_country_leader = {
-	name = "Victor Emmanuel III"
+	name = "Umberto II"
 	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-	picture = "GFX_portrait_italy_victor_emmanuel_iii"
+	picture = "Portrait_Italy_Umberto_II.dds"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {

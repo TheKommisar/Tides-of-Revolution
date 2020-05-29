@@ -100,26 +100,11 @@ country_event = { # Crime spree
 
 	fire_only_once = yes
 
-	trigger = {
-		tag = USA
-		#NOT = {
-		#	has_country_flag = USA_election_1936_flag 
-        #    has_country_flag = USA_election_cancelled
-		#}
-	}
+    is_triggered_only = yes
 
 	option = { 
-		name = ustates.5.a
+		name = usa.5.a
 		add_stability = -0.05
-                hidden_effect = {
-			USA = {
-				country_event = {
-					id = usa.5
-					days = 60
-                    random = 3600
-				}
-			}
-		}
 	}
 }
 
@@ -139,6 +124,12 @@ country_event = { # 1936 Democratic Primary
 		}
 	}
 	option = { # nominate bennett champ clark
+		name = usa.6.b
+		hidden_effect = {
+			set_country_flag = USA_champ_clark_chosen_democrats
+		}
+	}
+	option = { # nominate that racist guy I cant name right now
 		name = usa.6.b
 		hidden_effect = {
 			set_country_flag = USA_champ_clark_chosen_democrats
