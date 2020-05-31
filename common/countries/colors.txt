@@ -613,3 +613,7 @@ ITR = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
 }
+TXS = {
+	color = rgb { 111 107 160 }
+	color_ui = rgb { 111 107 160 }
+}

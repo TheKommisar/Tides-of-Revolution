@@ -12,15 +12,15 @@ focus_tree = {
 	
 	default = no
 
-
+        continuous_focus_position = { x = 50 y = 1900 }
 
 	focus = {
 		id = RUS_march_on_mother_russia
 		icon = GFX_
 		prerequisite = { focus =  }
-		x = 0
+		x = 10
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -37,10 +37,11 @@ focus_tree = {
 	focus = {
 		id = RUS_the_russian_economic_miracle
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_march_on_mother_russia }
+		x = -8
+		y = 1
+                relative_position_id = RUS_march_on_mother_russia
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -57,10 +58,11 @@ focus_tree = {
 	focus = {
 		id = RUS_ride_the_momentum
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_the_russian_economic_miracle }
+                relative_position_id = RUS_the_russian_economic_miracle
+		x = -4
+		y = 1
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -77,10 +79,11 @@ focus_tree = {
 	focus = {
 		id = RUS_overhaul_baydalakovgrad
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_ride_the_momentum }
+		x = -2
+		y = 1
+                relative_position_id = RUS_ride_the_momentum
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -95,12 +98,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_the_baydalakaovgrad_institute
+		id = RUS_the_baydalakovgrad_institute
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_overhaul_baydalakovgrad }
+		x = -1
+		y = 1 
+                relative_position_id = RUS_overhaul_baydalakovgrad
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -114,33 +118,35 @@ focus_tree = {
 
 		}
 	}
-	focus = {
-		id = RUS_beacon_of_new_russia
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
+#	focus = {
+#		id = RUS_beacon_of_new_russia
+#		icon = GFX_
+#		prerequisite = { focus = RUS_overhaul_baydalakovgrad focus = RUS_the_baydalakovgrad_institute }
+#		x = -2
+#		y = 2
+#                relative_position_id = RUS_overhaul_baydalakovgrad
+#		cost = 6
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		available = {}
+#		bypass = {}
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = yes
+#
+#		completion_reward = {
+#
+#		}
+#	}
 	focus = {
 		id = RUS_connect_the_empire
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_ride_the_momentum }
+		x = 2
+		y = 1
+                relative_position_id = RUS_ride_the_momentum
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -157,10 +163,11 @@ focus_tree = {
 	focus = {
 		id = RUS_all_roads_lead_to_petrograd
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_connect_the_empire }
+		x = 1
+		y = 1
+                relative_position_id = RUS_connect_the_empire
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -177,10 +184,11 @@ focus_tree = {
 	focus = {
 		id = RUS_end_import_dependency
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_ride_the_momentum }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_ride_the_momentum
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -197,10 +205,11 @@ focus_tree = {
 	focus = {
 		id = RUS_building_a_new_bread_basket
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_end_import_dependency }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_end_import_dependency
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -217,10 +226,11 @@ focus_tree = {
 	focus = {
 		id = RUS_melting_of_the_sickles
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_building_a_new_bread_basket }
+		x = -1
+		y = 1 
+                relative_position_id = RUS_building_a_new_bread_basket
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -237,10 +247,11 @@ focus_tree = {
 	focus = {
 		id = RUS_the_agricultural_revolution
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_building_a_new_bread_basket }
+		x = 1
+		y = 1 
+                relative_position_id = RUS_building_a_new_bread_basket
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -255,12 +266,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_address_the_famine_myth
+		id = RUS_address_the_famines
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_melting_of_the_sickles }
+                prerequisite = { focus = RUS_the_agricultural_revolution }
+                relative_position_id = RUS_the_agricultural_revolution
+		x = -1
+		y = 1
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -277,10 +290,12 @@ focus_tree = {
 	focus = {
 		id = RUS_a_troublesome_truth
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_address_the_famines }
+		x = -2
+		y = 1
+                relative_position_id = RUS_address_the_famines
+                mutually_exclusive = { focus = RUS_a_communist_lie } 
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -297,10 +312,11 @@ focus_tree = {
 	focus = {
 		id = RUS_shift_the_blame
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_a_troublesome_truth }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_a_troublesome_truth
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -317,10 +333,11 @@ focus_tree = {
 	focus = {
 		id = RUS_german_economic_aid
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_shift_the_blame }
+		x = -1
+		y = 1
+                relative_position_id = RUS_shift_the_blame
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -337,10 +354,11 @@ focus_tree = {
 	focus = {
 		id = RUS_join_the_kaiser_wilhelm_society
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_german_economic_aid }
+		x = -1
+		y = 1
+                relative_position_id = RUS_german_economic_aid
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -357,10 +375,11 @@ focus_tree = {
 	focus = {
 		id = RUS_emergency_economic_restructuring
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_shift_the_blame }
+		x = 1
+		y = 1
+                relative_position_id = RUS_shift_the_blame
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -377,10 +396,12 @@ focus_tree = {
 	focus = {
 		id = RUS_the_second_rejuvenation_plan
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_emergency_economic_restructuring } 
+                prerequisite = { focus = RUS_german_economic_aid }
+		x = -1
+		y = 1
+                relative_position_id = RUS_emergency_economic_restructuring
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -397,10 +418,11 @@ focus_tree = {
 	focus = {
 		id = RUS_invest_in_civilian_industries
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_the_second_rejuvenation_plan } 
+		x = -1
+		y = 1
+                relative_position_id = RUS_the_second_rejuvenation_plan
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -417,10 +439,11 @@ focus_tree = {
 	focus = {
 		id = RUS_nationalize_rampant_arms_manufacturers
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_the_second_rejuvenation_plan } 
+		x = 1
+		y = 1
+                relative_position_id = RUS_the_second_rejuvenation_plan
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -437,10 +460,12 @@ focus_tree = {
 	focus = {
 		id = RUS_a_communist_lie
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_address_the_famines }
+		x = 2
+		y = 1
+                relative_position_id = RUS_address_the_famines
+                mutually_exclusive = { focus = RUS_a_troublesome_truth }
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -457,10 +482,11 @@ focus_tree = {
 	focus = {
 		id = RUS_the_second_purge
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_a_communist_lie }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_a_communist_lie
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -477,10 +503,11 @@ focus_tree = {
 	focus = {
 		id = RUS_control_the_spread_of_information
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_the_second_purge }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_the_second_purge
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -497,10 +524,11 @@ focus_tree = {
 	focus = {
 		id = RUS_continue_as_normal
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_control_the_spread_of_information }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_control_the_spread_of_information
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -517,10 +545,11 @@ focus_tree = {
 	focus = {
 		id = RUS_the_ural_archipelago
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_continue_as_normal }
+		x = -1
+		y = 1
+                relative_position_id = RUS_continue_as_normal
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -537,10 +566,11 @@ focus_tree = {
 	focus = {
 		id = RUS_celebrate_the_urban_man
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_continue_as_normal }
+		x = 1
+		y = 1
+                relative_position_id = RUS_continue_as_normal 
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -557,10 +587,11 @@ focus_tree = {
 	focus = {
 		id = RUS_smash_the_boundaries
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_the_russian_economic_miracle }
+		x = 4
+		y = 1
+                relative_position_id = RUS_the_russian_economic_miracle
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -574,13 +605,14 @@ focus_tree = {
 
 		}
 	}
-	focus = {
+        focus = {
 		id = RUS_crush_the_profiteers
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_smash_the_boundaries }
+		x = -1
+		y = 1
+                relative_position_id = RUS_smash_the_boundaries
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -594,13 +626,14 @@ focus_tree = {
 
 		}
 	}
-	focus = {
+        focus = {
 		id = RUS_destroy_the_old
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_smash_the_boundaries }
+		x = 1
+		y = 1
+                relative_position_id = RUS_smash_the_boundaries
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -614,33 +647,14 @@ focus_tree = {
 
 		}
 	}
-	focus = {
-		id = RUS_nizhegorodsky_avtomobilny_zavod
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
+        focus = {
 		id = RUS_unite_the_classes
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_destroy_the_old focus = RUS_crush_the_profiteers }
+		x = -1
+		y = 1
+                relative_position_id = RUS_crush_the_profiteers
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -654,33 +668,14 @@ focus_tree = {
 
 		}
 	}
-	focus = {
-		id = RUS_a_uniquel_russian_brotherhood
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
+        focus = {
 		id = RUS_the_individuals_contribution
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_destroy_the_old focus = RUS_crush_the_profiteers }
+		x = 1
+		y = 1
+                relative_position_id = RUS_crush_the_profiteers
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -694,13 +689,37 @@ focus_tree = {
 
 		}
 	}
-	focus = {
+        focus = {
+		id = RUS_a_uniquely_russian_brotherhood
+		icon = GFX_
+		prerequisite = { focus = RUS_destroy_the_old focus = RUS_crush_the_profiteers }
+		x = 3
+		y = 1
+                relative_position_id = RUS_crush_the_profiteers
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+        focus = {
 		id = RUS_the_torch_of_solidarity
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_the_individuals_contribution  }
+                prerequisite = { focus = RUS_unite_the_classes }
+                prerequisite = { focus = RUS_a_uniquely_russian_brotherhood }
+		x = -2
+		y = 1
+                relative_position_id = RUS_a_uniquely_russian_brotherhood
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -717,10 +736,11 @@ focus_tree = {
 	focus = {
 		id = RUS_rebuilding_the_russian_spirit
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_march_on_mother_russia }
+		x = 8
+		y = 1 
+                relative_position_id = RUS_march_on_mother_russia
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -737,10 +757,11 @@ focus_tree = {
 	focus = {
 		id = RUS_strength_through_knowledge
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_rebuilding_the_russian_spirit }
+		x = -5
+		y = 1
+                relative_position_id = RUS_rebuilding_the_russian_spirit
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -757,10 +778,11 @@ focus_tree = {
 	focus = {
 		id = RUS_form_the_sb
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_strength_through_knowledge }
+		x = -2
+		y = 1
+                relative_position_id = RUS_strength_through_knowledge
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -777,10 +799,11 @@ focus_tree = {
 	focus = {
 		id = RUS_combat_communard_influence
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_form_the_sb }
+		x = -1
+		y = 1
+                relative_position_id = RUS_form_the_sb
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -797,10 +820,11 @@ focus_tree = {
 	focus = {
 		id = RUS_hunt_the_bolshevik_exiles
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_combat_communard_influence }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_combat_communard_influence
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -817,10 +841,11 @@ focus_tree = {
 	focus = {
 		id = RUS_keep_your_friends_close
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_form_the_sb }
+		x = 1
+		y = 1
+                relative_position_id = RUS_form_the_sb
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -837,10 +862,11 @@ focus_tree = {
 	focus = {
 		id = RUS_but_your_enemies_closer
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_keep_your_friends_close }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_keep_your_friends_close
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -857,10 +883,12 @@ focus_tree = {
 	focus = {
 		id = RUS_a_final_blow_to_the_red_beast
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_but_your_enemies_closer }
+                prerequisite = { focus = RUS_hunt_the_bolshevik_exiles }
+		x = 1
+		y = 1
+                relative_position_id = RUS_hunt_the_bolshevik_exiles
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -877,10 +905,11 @@ focus_tree = {
 	focus = {
 		id = RUS_control_the_youth_control_the_nation
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_strength_through_knowledge }
+		x = 2
+		y = 1
+                relative_position_id = RUS_strength_through_knowledge
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -897,10 +926,11 @@ focus_tree = {
 	focus = {
 		id = RUS_write_the_doctrine_of_solidaritism
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_control_the_youth_control_the_nation }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1  
+                relative_position_id = RUS_control_the_youth_control_the_nation
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -917,10 +947,11 @@ focus_tree = {
 	focus = {
 		id = RUS_study_the_bolshevik_revolution
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_write_the_doctrine_of_solidaritism }
+		x = -1
+		y = 1
+                relative_position_id = RUS_write_the_doctrine_of_solidaritism
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -937,10 +968,11 @@ focus_tree = {
 	focus = {
 		id = RUS_education_for_all_people
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_write_the_doctrine_of_solidaritism }
+		x = 1
+		y = 1
+                relative_position_id = RUS_write_the_doctrine_of_solidaritism
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -957,10 +989,12 @@ focus_tree = {
 	focus = {
 		id = RUS_humiliate_the_fools
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_study_the_bolshevik_revolution }
+                prerequisite = { focus = RUS_education_for_all_people }
+		x = 1
+		y = 1
+                relative_position_id = RUS_study_the_bolshevik_revolution
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -977,10 +1011,12 @@ focus_tree = {
 	focus = {
 		id = RUS_reverse_the_brain_drain
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_humiliate_the_fools }
+                prerequisite = { focus = RUS_a_final_blow_to_the_red_beast }
+		x = -2
+		y = 1
+                relative_position_id = RUS_humiliate_the_fools
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -997,10 +1033,11 @@ focus_tree = {
 	focus = {
 		id = RUS_solidaritism_on_display
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_reverse_the_brain_drain }
+		x = -1
+		y = 1
+                relative_position_id = RUS_reverse_the_brain_drain
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1017,10 +1054,11 @@ focus_tree = {
 	focus = {
 		id = RUS_invite_foreign_experts
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_reverse_the_brain_drain }
+		x = 1
+		y = 1
+                relative_position_id = RUS_reverse_the_brain_drain
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1035,92 +1073,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_a_cleaner_society
+		id = RUS_the_eastern_paradise
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = RUS_an_eastern_paradise_of_freedom_and_equality
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = RUS_dissolve_the_presidency
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = RUS_the_oath_of_the_three_marshals
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = RUS_strengthen_the_democratic_front
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_invite_foreign_experts }
+                prerequisite = { focus = RUS_solidaritism_on_display }
+		x = -1
+		y = 1
+                relative_position_id = RUS_invite_foreign_experts
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1137,10 +1097,11 @@ focus_tree = {
 	focus = {
 		id = RUS_remove_all_restrictions
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_rebuilding_the_russian_spirit }
+		x = 5
+		y = 1
+                relative_position_id = RUS_rebuilding_the_russian_spirit
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1155,12 +1116,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_reinsurance_treaty_with_germany
+		id = RUS_renegotiate_brest
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_remove_all_restrictions }
+		x = -2
+		y = 1
+                relative_position_id = RUS_remove_all_restrictions
+                mutually_exclusive = { focus = RUS_tear_up_the_treaty }
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1175,52 +1138,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_tear_up_the_treaty_of_brest_litovsk
+		id = RUS_tear_up_the_treaty
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = RUS_a_holy_blessing
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-		available = {}
-		bypass = {}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = RUS_legacy_of_russian_conquest
-		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_remove_all_restrictions }
+		x = 2
+		y = 1
+                relative_position_id = RUS_remove_all_restrictions
+                mutually_exclusive = { focus = RUS_renegotiate_brest }
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1237,10 +1162,13 @@ focus_tree = {
 	focus = {
 		id = RUS_the_will_of_the_people
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_remove_all_restrictions }
+                prerequisite = { focus = RUS_renegotiate_brest }
+                prerequisite = { focus = RUS_tear_up_the_treaty }
 		x = 0
-		y = 0
-		cost = 10
+		y = 2
+                relative_position_id = RUS_remove_all_restrictions
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1257,10 +1185,11 @@ focus_tree = {
 	focus = {
 		id = RUS_start_the_war_machine
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_the_will_of_the_people }
 		x = 0
-		y = 0
-		cost = 10
+		y = 1
+                relative_position_id = RUS_the_will_of_the_people
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1277,10 +1206,11 @@ focus_tree = {
 	focus = {
 		id = RUS_secure_the_bread_basket
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = -1
+		y = 1
+                relative_position_id = RUS_start_the_war_machine
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1297,10 +1227,11 @@ focus_tree = {
 	focus = {
 		id = RUS_liberate_the_southern_slavs
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_secure_the_bread_basket }
 		x = 0
-		y = 0
-		cost = 10
+		y = 2
+                relative_position_id = RUS_secure_the_bread_basket
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1317,10 +1248,11 @@ focus_tree = {
 	focus = {
 		id = RUS_retake_the_north_west
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_start_the_war_machine }
 		x = 0
-		y = 0
-		cost = 10
+		y = 2
+                relative_position_id = RUS_start_the_war_machine
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1337,10 +1269,11 @@ focus_tree = {
 	focus = {
 		id = RUS_march_to_the_oil
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = 1
+		y = 1
+                relative_position_id = RUS_start_the_war_machine
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1357,10 +1290,11 @@ focus_tree = {
 	focus = {
 		id = RUS_the_quest_for_ports
 		icon = GFX_
-		prerequisite = { focus =  }
+		prerequisite = { focus = RUS_march_to_the_oil }
 		x = 0
-		y = 0
-		cost = 10
+		y = 2
+                relative_position_id = RUS_march_to_the_oil
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1377,10 +1311,11 @@ focus_tree = {
 	focus = {
 		id = RUS_return_to_middle_asia
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = 3
+		y = 1
+                relative_position_id = RUS_start_the_war_machine
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1397,10 +1332,11 @@ focus_tree = {
 	focus = {
 		id = RUS_reclaim_the_far_east
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = 5
+		y = 1
+                relative_position_id = RUS_start_the_war_machine 
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1417,10 +1353,12 @@ focus_tree = {
 	focus = {
 		id = RUS_the_second_great_game
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
-		cost = 10
+		prerequisite = { focus = RUS_reclaim_the_far_east }
+		prerequisite = { focus = RUS_return_to_middle_asia }
+                relative_position_id = RUS_return_to_middle_asia
+		x = 1
+		y = 1
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1440,7 +1378,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1460,7 +1398,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1480,7 +1418,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1500,7 +1438,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1520,7 +1458,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1540,7 +1478,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1560,7 +1498,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1580,7 +1518,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1600,7 +1538,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1620,7 +1558,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1640,7 +1578,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1660,7 +1598,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1680,7 +1618,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1700,7 +1638,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1720,7 +1658,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1740,7 +1678,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1760,7 +1698,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1780,7 +1718,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1800,7 +1738,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1820,7 +1758,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1840,7 +1778,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1860,7 +1798,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1880,7 +1818,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1900,7 +1838,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1920,7 +1858,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1940,7 +1878,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1960,7 +1898,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -1980,7 +1918,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2000,7 +1938,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2020,7 +1958,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2040,7 +1978,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2060,7 +1998,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2080,7 +2018,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2100,7 +2038,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2120,7 +2058,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2140,7 +2078,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2160,7 +2098,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2180,7 +2118,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2200,7 +2138,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2220,7 +2158,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2240,7 +2178,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2260,7 +2198,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2280,7 +2218,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2300,7 +2238,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2320,7 +2258,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2340,7 +2278,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2360,7 +2298,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2380,7 +2318,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2400,7 +2338,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2420,7 +2358,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2440,7 +2378,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2460,7 +2398,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2480,7 +2418,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2500,7 +2438,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2520,7 +2458,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2540,7 +2478,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2560,7 +2498,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2580,7 +2518,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2600,7 +2538,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2620,7 +2558,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2640,7 +2578,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2660,7 +2598,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2680,7 +2618,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2700,7 +2638,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2720,7 +2658,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2740,7 +2678,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2760,7 +2698,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2780,7 +2718,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2800,7 +2738,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2820,7 +2758,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2840,7 +2778,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2860,7 +2798,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2880,7 +2818,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2900,7 +2838,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2920,7 +2858,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2940,7 +2878,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2960,7 +2898,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -2980,7 +2918,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -3000,7 +2938,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -3020,7 +2958,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -3040,7 +2978,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -3060,7 +2998,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}
@@ -3080,7 +3018,7 @@ focus_tree = {
 		prerequisite = { focus =  }
 		x = 0
 		y = 0
-		cost = 10
+		cost = 6
 		ai_will_do = {
 			factor = 1
 		}

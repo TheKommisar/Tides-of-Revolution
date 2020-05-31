@@ -13,9 +13,30 @@ focus_tree = {
 	default = no
 
         focus = {
-		id = SER_outwards_ambitions
+		id = SER_end_of_the_emergency
 	    icon = GFX_focus_generic_little_entente
 		x = 2
+		y = 0
+		cost = 1
+		#prerequisite = { focus =  }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {	
+		}
+		bypass = {		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		completion_reward = {
+			country_event = serbia.11
+		}
+	}
+
+        focus = {
+		id = SER_outwards_ambitions
+	    icon = GFX_focus_generic_little_entente
+		x = 10
 		y = 0
 		cost = 6
 		#prerequisite = { focus =  }

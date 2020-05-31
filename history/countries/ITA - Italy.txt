@@ -94,19 +94,6 @@ if = {
 	set_naval_oob = "ITA_1936_naval_mtg"
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = LBA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.5
-	}
-	else = {
-		puppet = LBA
-	}
-}
 set_convoys = 200
 
 set_politics = {
