@@ -1,0 +1,69 @@
+﻿l_english: 
+
+#Parties
+
+CAN_totalitarian_socialist_party:0 "CPC"
+CAN_totalitarian_socialist_party_long:0 "Communist Party of Canada"
+
+CAN_vanguardist_party:0 "CPC"
+CAN_vanguardist_party_long:0 "Communist Party of Canada"
+
+CAN_orthodox_marxist_party:0 "CPC"
+CAN_orthodox_marxist_party_long:0 "Communist Party of Canada"
+
+CAN_revolutionary_socialist_party:0 "CCF"
+CAN_revolutionary_socialist_party_long:0 "Co-operative Commonwealth Federation"
+
+CAN_social_democrat_party:0 "CCF"
+CAN_social_democrat_party_long:0 "Co-operative Commonwealth Federation"
+
+CAN_social_liberal_party:0 "Liberal"
+CAN_social_liberal_party_long:0 "Liberal Party of Canada"
+
+CAN_classic_liberal_party:0 "Liberal"
+CAN_classic_liberal_party_long:0 "Liberal Party of Canada"
+
+CAN_social_conservative_party:0 "Conservative"
+CAN_social_conservative_party_long:0 "Conservative Party of Canada"
+
+CAN_authoritarian_democrat_party:0 "Reconstruction"
+CAN_authoritarian_democrat_party_long:0 "Reconstruction Party of Canada"
+
+CAN_paternal_autocrat_party:0 "MG"
+CAN_paternal_autocrat_party_long:0 "Military Government"
+
+CAN_national_populist_party:0 "NUP"
+CAN_national_populist_party_long:0 "National Unity Party"
+
+
+#Country Names
+
+CAN_totalitarian_socialist:0 "Canadian People's Republic"
+CAN_totalitarian_socialist_DEF:0 "the Canadian People's Republic"
+
+CAN_vanguardist:0 "Canadian People's Republic"
+CAN_vanguardist_DEF:0 "the Canadian People's Republic"
+
+CAN:0 "Canada"
+CAN_DEF:0 "Canada"
+
+CAN_national_populist:0 "Canadian Unitary State"
+CAN_national_populist_DEF:0 "the Canadian Unitary State"
+
+CAN_ADJ:0 "Canadian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+

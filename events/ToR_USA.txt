@@ -46,50 +46,56 @@ country_event = { # liberty statue bombing
 }
 
 country_event = { # cancel elections?
-       id = usa.4
+    id = usa.4
 	title = usa.4.t
 	desc = usa.4.d
 	picture = GFX_report_event_statue_of_liberty
 
-       fire_only_once = yes
+    fire_only_once = yes
 
-       is_triggered_only = yes
+    is_triggered_only = yes
 
-       option = { # NOOOOOOOOOOOOOO YOU CANT ERODE DEMOCRACY THATS GOING TO MAKE EVERYTHING WORSE!!!
-		name = usa.4.a
+    option = { # NOOOOOOOOOOOOOO YOU CANT ERODE DEMOCRACY THATS GOING TO MAKE EVERYTHING WORSE!!!
+	    name = usa.4.a
 		add_political_power = 100
+        hidden_effect = { #Trigger the election
+            country_event = {
+                id = usa.8
+                days = 21 #I'll do the math on exactly when it should fire later
+            }
+        }
 		ai_chance = {
-			base = 70
-		             }
+			 base = 70
 		}
-       option = { # haha elections go cancel
-		name = usa.4.b   
-                set_country_flag = USA_election_cancelled  # military also steps in
-                add_political_power = -50
-                add_stability = -0.2
-				ai_chance = {
-			    base = 30
-		             }
-			    set_country_flag = USA_election_cancelled
+	}
+
+    option = { # haha elections go cancel
+        name = usa.4.b   
+        set_country_flag = USA_election_cancelled  # military also steps in
+        add_political_power = -50
+        add_stability = -0.2
+		ai_chance = {
+			base = 30
+		}
+		set_country_flag = USA_election_cancelled
 		add_popularity = {
-                ideology = authoritarian_democrat
-                popularity = 0.3
-                }
+            ideology = authoritarian_democrat
+            popularity = 0.3                
+        }
 		create_country_leader = {
-	    name = "Douglas MacArthur"
-	    desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-	    picture = "Portrait_USA_Douglas_Macarthur.tga"
-	    expire = "1965.1.1"
-	    ideology = authoritarian_democrat_subtype
-	    traits = { #
-		}
+	        name = "Douglas MacArthur"
+	        desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+	        picture = "Portrait_USA_Douglas_Macarthur.tga"
+	        expire = "1965.1.1"
+	        ideology = authoritarian_democrat_subtype
+	        traits = { #
+		    }
 		}
 		set_politics = {
-	    ruling_party = authoritarian_democrat
-         }
+	        ruling_party = authoritarian_democrat
+        }
 		set_party_name = { ideology = authoritarian_democrat name = USA_authoritarian_democrat_party_macarthur name_long = USA_authoritarian_democrat_party_macarthur_long }
 	}
-}
 }
 
 country_event = { # Crime spree
@@ -132,7 +138,7 @@ country_event = { # 1936 Democratic Primary
 	option = { # nominate that racist guy I cant name right now
 		name = usa.6.b
 		hidden_effect = {
-			set_country_flag = USA_champ_clark_chosen_democrats
+			set_country_flag = USA_blease_chosen_democrats
 		}
 	}
 }
@@ -153,6 +159,88 @@ country_event = { # hoover dam done
 		add_stability = 0.05
 	}
 }
+
+country_event = { #1936 elections
+    id = usa.8
+    title = usa.8.t
+    desc = usa.8.d
+    picture = GFX_report_event_generic_usa_treaty
+
+    is_triggered_only = yes
+
+    #Make multiple events for different outcomes of the primaries, for now it will be handled by just this one
+
+    option = { #Republicans win
+        name = usa.8.a
+    }
+
+    option = { #Democrats win
+        name = usa.8.b
+        if = {
+            limit = {
+                has_country_flag = USA_al_smith_chosen_democrats
+            }
+		    create_country_leader = {
+	            name = "Al Smith"
+	            desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+	            picture = "Portrait_USA_Al_Smith.tga"
+	            expire = "1965.1.1"
+	            ideology = authoritarian_democrat_subtype
+	            traits = { #
+		        }
+		    }
+		}
+
+        if = {
+            limit = {
+                has_country_flag = USA_champ_clark_chosen_democrats
+            }
+		    create_country_leader = {
+	            name = "Bennett Champ Clark"
+	            desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+	            picture = "Portrait_USA_Al_Smith.tga"
+	            expire = "1965.1.1"
+	            ideology = authoritarian_democrat_subtype
+	            traits = { #
+		        }
+		    }
+		    set_politics = {
+		        ruling_party = social_conservative
+		    }
+		    add_popularity = {
+		        ideology = social_conservative
+		        popularity = 0.2
+		    }
+		}
+
+        if = {
+            limit = {
+                has_country_flag = USA_blease_chosen_democrats
+            }
+		    create_country_leader = {
+	            name = "Coleman Livingston Blease"
+	            desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
+	            picture = "Portrait_USA_Al_Smith.tga"
+	            expire = "1965.1.1"
+	            ideology = authoritarian_democrat_subtype
+	            traits = { #
+		        }
+		    }
+		    set_politics = {
+		        ruling_party = authoritarian_democrat
+		    }
+		    add_popularity = {
+		        ideology = authoritarian_democrat 
+		        popularity = 0.2
+		    }
+		}
+	}
+}
+
+
+
+
+
 
 ############################################
 ###########FLAVOUR EVENTS FOR THE USA#######
