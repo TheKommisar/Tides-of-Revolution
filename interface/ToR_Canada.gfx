@@ -1,0 +1,8 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_CAN_Vimy_Ridge_Victory"
+		texturefile = "gfx/interface/ideas/CAN/Vimy_Ridge_Victory.tga"
+	}
+}
