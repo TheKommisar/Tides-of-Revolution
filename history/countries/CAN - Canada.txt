@@ -84,8 +84,6 @@ create_country_leader = {
 	}
 }
 
-add_ideas = CAN_Vimy_Ridge_Victory
-
 set_convoys = 100
 set_stability = 0.75
 
