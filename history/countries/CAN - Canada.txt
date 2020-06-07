@@ -53,6 +53,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = CAN_UK
+
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1935.10.14"

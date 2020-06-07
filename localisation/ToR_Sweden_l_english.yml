@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+SWE_national_populist_party:0 "Lindholmarna"
+SWE_national_populist_party_long:0 "Nationalsocialistiska Arbetarepartiet"
+SWE_vanguardist_party:0 "Sillénarna"
+SWE_vanguardist_party_long:0 "Sveriges Kommunistiska Parti"
+SWE_social_conservative_party:0 "M"
+SWE_social_conservative_party_long:0 "Allmänna Valmansförbundet"
+SWE_paternal_autocrat_party:0 "Nysvenskarna"
+SWE_paternal_autocrat_party_long:0 "Nysvenska Rörelsen"
+SWE_authoritarian_democrat_party:0 "SNU"
+SWE_authoritarian_democrat_party_long:0 "Sveriges Nationella Förbund"
+SWE_social_democrat_party:0 "S/SAP"
+SWE_social_democrat_party_long:0 "Sveriges Socialdemokratiska Arbetareparti"
+SWE_social_liberal_party:0 "L"
+SWE_social_liberal_party_long:0 "Folkpartiet"
+SWE_classic_liberal_party:0 "B"
+SWE_classic_liberal_party_long:0 "Bondeförbundet"
+SWE_totalitarian_socialist_party:0 "Linderotarna"
+SWE_totalitarian_socialist_party_long:0 "Sveriges Kommunistiska Parti"
+SWE_revolutionary_socialist_party:0 "Kilbomarna"
+SWE_revolutionary_socialist_party_long:0 "Socialistiska Partiet"
+SWE_orthodox_marxist_party:0 "Flygarna"
+SWE_orthodox_marxist_party_long:0 "Socialistiska Partiet"
+
+#Country Names
+SWE_national_populist:0 "Kingdom of Sweden"
+SWE_national_populist_DEF:0 "the Kingdom of Sweden"
+SWE_totalitarian_socialist:0 "Swedish Peoples Front"
+SWE_totalitarian_socialist_DEF:0 "the Swedish Peoples Front"
+SWE_paternal_autocrat:0 "Kingdom of Sweden"
+SWE_paternal_autocrat_DEF:0 "the Kingdom of Sweden"
+SWE_social_conservative:0 "Kingdom of Sweden"
+SWE_social_conservative_DEF:0 "the Kingdom of Sweden"
+SWE_authoritarian_democrat:0 "Kingdom of Sweden"
+SWE_authoritarian_democrat_DEF:0 "the Kingdom of Sweden"
+SWE_orthodox_marxist:0 "Swedish Peoples Front"
+SWE_orthodox_marxist_DEF:0 "the Swedish Peoples Front"
+SWE_revolutionary_socialist:0 "Swedish Republic"
+SWE_revolutionary_socialist_DEF:0 "the Swedish Republic"
+SWE_social_democrat:0 "Kingdom of Sweden"
+SWE_social_democrat_DEF:0 "the Kingdom of Sweden"
+SWE_social_liberal:0 "Kingdom of Sweden"
+SWE_social_liberal_DEF:0 "the Kingdom of Sweden"
+SWE_classic_liberal:0 "Kingdom of Sweden"
+SWE_classic_liberal_DEF:0 "the Kingdom of Sweden"
+SWE_vanguardist:0 "Swedish Peoples Front"
+SWE_vanguardist_DEF:0 "the Swedish Peoples Front"
+ 
+SWE_national_populist_ADJ:0 "Swedish"
+SWE_totalitarian_socialist_ADJ:0 "Swedish"
+SWE_social_conservative_ADJ:0 "Swedish"
+SWE_paternal_autocrat_ADJ:0 "Swedish"
+SWE_orthodox_marxist_ADJ:0 "Swedish"
+SWE_authoritarian_democrat_ADJ:0 "Swedish"
+SWE_revolutionary_socialist_ADJ:0 "Swedish"
+SWE_social_democrat_ADJ:0 "Swedish"
+SWE_social_liberal_ADJ:0 "Swedish"
+SWE_classic_liberal_ADJ:0 "Swedish"
+SWE_vanguardist_ADJ:0 "Swedish"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
