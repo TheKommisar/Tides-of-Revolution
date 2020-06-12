@@ -613,7 +613,15 @@ ITR = {
 	color = rgb { 67 127 63 }
 	color_ui = rgb { 87 165 82 }
 }
-TXS = {
+TEX = {
 	color = rgb { 111 107 160 }
 	color_ui = rgb { 111 107 160 }
+}
+CAL = {
+        color = rgb { 242 205 94 }
+	color_ui = rgb { 242 205 94 }
+}
+ALA = {
+        color = rgb { 15 32 75 }
+	color_ui = rgb { 15 32 75 }
 }

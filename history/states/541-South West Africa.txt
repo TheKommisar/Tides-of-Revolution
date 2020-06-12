@@ -14,7 +14,11 @@ state={
 		victory_points = {
 			4879 1
 		}
-		add_core_of = SAF
+<<<<<<< HEAD
+=======
+		add_core_of = NMB
+                add_core_of = SAF
+>>>>>>> 8d2938928260fb9bf50a541997f67940a364c1a9
 	}
 
 	provinces={

@@ -236,3 +236,13 @@ ITA_LBA = {
         color = rgb { 59 148 65 }
 	color_ui = rgb { 74 186 82 }
 }
+
+CAL_defense_command = {
+        color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+ALA_defense_command = {
+        color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
