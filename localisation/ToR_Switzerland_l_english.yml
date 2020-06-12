@@ -1,0 +1,58 @@
+﻿l_english: 
+
+#Parties
+
+#Country Names
+SWI_national_populist:0 "Switzerland"
+SWI_national_populist_DEF:0 "Switzerland"
+SWI_totalitarian_socialist:0 "Switzerland"
+SWI_totalitarian_socialist_DEF:0 "Switzerland"
+SWI_paternal_autocrat:0 "Switzerland"
+SWI_paternal_autocrat_DEF:0 "Switzerland"
+SWI_social_conservative:0 "Switzerland"
+SWI_social_conservative_DEF:0 "Switzerland"
+SWI_authoritarian_democrat:1 "Switzerland"
+SWI_authoritarian_democrat_DEF:1 "Switzerland"
+SWI_orthodox_marxist:0 "Switzerland"
+SWI_orthodox_marxist_DEF:0 "Switzerland"
+SWI_revolutionary_socialist:0 "Switzerland"
+SWI_revolutionary_socialist_DEF:0 "Switzerland"
+SWI_social_democrat:0 "Switzerland"
+SWI_social_democrat_DEF:0 "Switzerland"
+SWI_social_liberal:0 "Switzerland"
+SWI_social_liberal_DEF:0 "Switzerland"
+SWI_classic_liberal:0 "Switzerland"
+SWI_classic_liberal_DEF:0 "Switzerland"
+SWI_vanguardist:0 "Switzerland"
+SWI_vanguardist_DEF:0 "Switzerland"
+ 
+SWI_national_populist_ADJ:0 "Swiss"
+SWI_totalitarian_socialist_ADJ:0 "Swiss"
+SWI_social_conservative_ADJ:0 "Swiss"
+SWI_paternal_autocrat_ADJ:0 "Swiss"
+SWI_orthodox_marxist_ADJ:0 "Swiss"
+SWI_authoritarian_democrat_ADJ:0 "Swiss"
+SWI_revolutionary_socialist_ADJ:0 "Swiss"
+SWI_social_democrat_ADJ:0 "Swiss"
+SWI_social_liberal_ADJ:0 "Swiss"
+SWI_classic_liberal_ADJ:0 "Swiss"
+SWI_vanguardist_ADJ:0 "Swiss"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

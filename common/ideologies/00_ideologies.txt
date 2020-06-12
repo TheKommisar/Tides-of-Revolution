@@ -376,6 +376,9 @@ ideologies = {
 		
 			national_populist_subtype = {
 			}
+
+                        revolutionary_nationalist = {
+			}
 			
 		}
 		

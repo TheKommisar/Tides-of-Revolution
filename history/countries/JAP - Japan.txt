@@ -161,7 +161,7 @@ if = {
 		autonomous_state = autonomy_wtt_imperial_protectorate
 	}
         set_autonomy = {
-		target = MAN
+		target = FER
 		autonomous_state = autonomy_puppet
 	}
 }
