@@ -1,0 +1,38 @@
+﻿l_english: 
+
+#Parties
+SAF_social_conservative_party:0 "SAP"
+SAF_social_conservative_party_long:0 "South Africa Part"
+SAF_paternal_autocrat_party:0 "NP"
+SAF_paternal_autocrat_party_long:0 "National Party"
+SAF_authoritarian_democrat_party:0 "NP-M"
+SAF_authoritarian_democrat_party_long:0 "National Party - Moderate"
+#Country Names
+SAF_paternal_autocrat:0 "Union of South Africa"
+SAF_paternal_autocrat_DEF:0 "the Union of South Africa"
+SAF_authoritarian_democrat:1 "Union of South Africa"
+SAF_authoritarian_democrat_DEF:1 "Union of South Africa"
+SAF_social_conservative:1 "Union of South Africa"
+SAF_social_conservative_DEF:1 "Union of South Africa"
+
+SAF_paternal_autocrat_ADJ:0 "South African"
+SAF_authoritarian_democrat_ADJ:0 "South African"
+SAF_social_conservative_ADJ:0 "South African"
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

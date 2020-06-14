@@ -246,3 +246,18 @@ ALA_defense_command = {
         color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
 }
+
+PUB_defense_command = {
+        color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+DNV_defense_command = {
+        color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+RMT_defense_command = {
+        color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}

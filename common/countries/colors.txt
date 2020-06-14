@@ -625,3 +625,15 @@ ALA = {
         color = rgb { 15 32 75 }
 	color_ui = rgb { 15 32 75 }
 }
+PUB = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+DNV = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+RMT = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
