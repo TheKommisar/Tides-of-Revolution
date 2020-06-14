@@ -88,6 +88,5 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = social_conservative_subtype
 	traits = {
-
 	}
 }
