@@ -1376,7 +1376,7 @@ focus_tree = {
 		id = RUS_the_white_army
 		icon = GFX_
 		prerequisite = { focus =  }
-		x = 0
+		x = 40
 		y = 0
 		cost = 6
 		ai_will_do = {
@@ -1395,9 +1395,9 @@ focus_tree = {
 	focus = {
 		id = RUS_an_air_force_in_limbo
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_white_army }
+		x = 33
+		y = 1
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1415,9 +1415,9 @@ focus_tree = {
 	focus = {
 		id = RUS_form_the_white_air_force
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_an_air_force_in_limbo }
+		x = 33
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1435,9 +1435,10 @@ focus_tree = {
 	focus = {
 		id = RUS_rychagovs_modernization_scheme
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_form_the_white_air_force }
+		mutually_exclusive = { focus = RUS_yanchenkos_flying_circus }
+		x = 32
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1455,9 +1456,9 @@ focus_tree = {
 	focus = {
 		id = RUS_import_foreign_aircraft
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_rychagovs_modernization_scheme }
+		x = 32
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1475,9 +1476,10 @@ focus_tree = {
 	focus = {
 		id = RUS_yanchenkos_flying_circus
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_form_the_white_air_force }
+		mutually_exclusive = { focus = RUS_rychagovs_modernization_scheme }
+		x = 34
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1495,9 +1497,9 @@ focus_tree = {
 	focus = {
 		id = RUS_open_new_aviation_schools
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_yanchenkos_flying_circus }
+		x = 34
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1515,9 +1517,10 @@ focus_tree = {
 	focus = {
 		id = RUS_dust_off_the_tsarist_factories
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_import_foreign_aircraft
+				focus = RUS_open_new_aviation_schools }
+		x = 33
+		y = 5
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1535,9 +1538,9 @@ focus_tree = {
 	focus = {
 		id = RUS_experimental_research_bureaus
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_dust_off_the_tsarist_factories }
+		x = 33
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1555,9 +1558,9 @@ focus_tree = {
 	focus = {
 		id = RUS_harness_the_atom
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_experimental_research_bureaus }
+		x = 33
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1575,9 +1578,9 @@ focus_tree = {
 	focus = {
 		id = RUS_grigorovichs_ground_pounders
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_dust_off_the_tsarist_factories }
+		x = 35
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1595,9 +1598,9 @@ focus_tree = {
 	focus = {
 		id = RUS_militarize_the_solidarist_guard
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_white_army }
+		x = 40
+		y = 1
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1615,9 +1618,10 @@ focus_tree = {
 	focus = {
 		id = RUS_the_grey_army
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_militarize_the_solidarist_guard }
+                mutually_exclusive = { focus = RUS_the_solidarist_revolution } 
+		x = 37
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1635,9 +1639,9 @@ focus_tree = {
 	focus = {
 		id = RUS_send_in_the_guard
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_grey_army }
+		x = 37
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1655,9 +1659,9 @@ focus_tree = {
 	focus = {
 		id = RUS_the_red_solution
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_send_in_the_guard }
+		x = 38
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1675,9 +1679,9 @@ focus_tree = {
 	focus = {
 		id = RUS_brother_divisions
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_send_in_the_guard }
+		x = 36
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1695,9 +1699,10 @@ focus_tree = {
 	focus = {
 		id = RUS_margelovs_magnificent_men
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_grey_army
+				focus = RUS_the_solidarist_revolution }
+		x = 40
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1715,9 +1720,10 @@ focus_tree = {
 	focus = {
 		id = RUS_the_solidarist_revolution
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_militarize_the_solidarist_guard }
+		mutually_exclusive = { focus = RUS_the_grey_army }
+		x = 43
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1733,11 +1739,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = RUS_a-soldiers_rebirth
+		id = RUS_a_soldiers_rebirth
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_solidarist_revolution }
+		x = 43
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1755,9 +1761,9 @@ focus_tree = {
 	focus = {
 		id = RUS_solidarist_training_manuals
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_a_soldiers_rebirth }
+		x = 43
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1775,9 +1781,10 @@ focus_tree = {
 	focus = {
 		id = RUS_denikins_guard
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		mutually_exclusive = { focus = RUS_vlasovs_guard }
+		x = 40
+		y = 5
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1795,9 +1802,9 @@ focus_tree = {
 	focus = {
 		id = RUS_radicalize_the_army
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_denikins_guard }
+		x = 38
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1815,9 +1822,9 @@ focus_tree = {
 	focus = {
 		id = RUS_memories_of_the_civil_war
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_denikins_guard }
+		x = 40
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1835,9 +1842,9 @@ focus_tree = {
 	focus = {
 		id = RUS_a_professional_guard
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_memories_of_the_civil_war }
+		x = 40
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1855,9 +1862,9 @@ focus_tree = {
 	focus = {
 		id = RUS_bring_the_big_guns
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_a_professional_guard }
+		x = 39
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1875,9 +1882,9 @@ focus_tree = {
 	focus = {
 		id = RUS_solidarist_general_staff
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_a_professional_guard }
+		x = 41
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1895,9 +1902,9 @@ focus_tree = {
 	focus = {
 		id = RUS_loyalty_to_the_cause
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		x = 44
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1915,9 +1922,9 @@ focus_tree = {
 	focus = {
 		id = RUS_the_ukrainian_solidarist_guard
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		x = 42
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1935,9 +1942,9 @@ focus_tree = {
 	focus = {
 		id = RUS_special_detachments
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		x = 43
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1955,9 +1962,10 @@ focus_tree = {
 	focus = {
 		id = RUS_vlasovs_guard
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		mutually_exclusive = { focus = RUS_denkins_guard }
+		x = 46
+		y = 5
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1975,9 +1983,9 @@ focus_tree = {
 	focus = {
 		id = RUS_steel_and_brotherhood
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_vlasovs_guard }
+		x = 46
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -1995,9 +2003,9 @@ focus_tree = {
 	focus = {
 		id = RUS_rally_our_brothers
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_steel_and_brotherhood }
+		x = 45
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2015,9 +2023,9 @@ focus_tree = {
 	focus = {
 		id = RUS_motorize_the_guard
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_steel_and_brotherhood }
+		x = 47
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2035,9 +2043,10 @@ focus_tree = {
 	focus = {
 		id = RUS_solidarity_for_all
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_rally_our_brothers }
+		prerequisite = { focus = RUS_motorize_the_guard }
+		x = 46
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2055,9 +2064,9 @@ focus_tree = {
 	focus = {
 		id = RUS_the_armoured_spears_of_solidaritism
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_motorize_the_guard }
+		x = 48
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2075,9 +2084,9 @@ focus_tree = {
 	focus = {
 		id = RUS_wrangel_submits
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_white_army }
+		x = 55
+		y = 1
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2095,9 +2104,9 @@ focus_tree = {
 	focus = {
 		id = RUS_authorize_modernization_of_the_army
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_wrangel_submits }
+		x = 55
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2115,9 +2124,9 @@ focus_tree = {
 	focus = {
 		id = RUS_increase_rifle_production
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_authorize_modernization_of_the_army }
+		x = 54
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2135,9 +2144,9 @@ focus_tree = {
 	focus = {
 		id = RUS_brief_the_officers
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_authorize_modernization_of_the_army }
+		x = 56
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2155,9 +2164,10 @@ focus_tree = {
 	focus = {
 		id = RUS_novgorod_maneuvers
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_increase_rifle_production }
+		prerequisite = { focus = RUS_brief_the_officers }
+		x = 55
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2175,9 +2185,10 @@ focus_tree = {
 	focus = {
 		id = RUS_develop_opertika
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_novgorod_maneuvers }
+		mutually_exclusive = { focus = RUS_stick_to_the_manual }
+		x = 52
+		y = 5
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2195,9 +2206,9 @@ focus_tree = {
 	focus = {
 		id = RUS_drill_the_army_to_perfection
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_develop_opertika }
+		x = 52
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2215,9 +2226,9 @@ focus_tree = {
 	focus = {
 		id = RUS_combined_arms_doctrine
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_drill_the_army_to_perfection }
+		x = 52
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2235,9 +2246,9 @@ focus_tree = {
 	focus = {
 		id = RUS_a_russian_tank_program
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_combined_arms_doctrine }
+		x = 51
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2255,9 +2266,9 @@ focus_tree = {
 	focus = {
 		id = RUS_motorize_the_army
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_a_russian_tank_program }
+		x = 49
+		y = 9
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2275,9 +2286,9 @@ focus_tree = {
 	focus = {
 		id = RUS_nimble_spearheads
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_a_russian_tank_program }
+		x = 51
+		y = 9
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2295,9 +2306,9 @@ focus_tree = {
 	focus = {
 		id = RUS_introduce_modern_communications
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_combined_arms_doctrine }
+		x = 53
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2315,9 +2326,9 @@ focus_tree = {
 	focus = {
 		id = RUS_coordinate_the_artillery
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_introduce_modern_communications }
+		x = 53
+		y = 9
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2335,9 +2346,9 @@ focus_tree = {
 	focus = {
 		id = RUS_coordinate_the_air_force
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_introduce_modern_communications }
+		x = 55
+		y = 9
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2355,9 +2366,12 @@ focus_tree = {
 	focus = {
 		id = RUS_a_modern_fighting_force
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_motorize_the_army }
+		prerequisite = { focus = RUS_nimble_spearheads }
+		prerequisite = { focus = RUS_coordinate_the_artillery }
+		prerequisite = { focus = RUS_coordinate_the_air_force }
+		x = 52
+		y = 10
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2375,9 +2389,10 @@ focus_tree = {
 	focus = {
 		id = RUS_study_the_civil_war
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_stick_to_the_manual
+				 focus = RUS_develop_opertika }
+		x = 55
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2395,9 +2410,9 @@ focus_tree = {
 	focus = {
 		id = RUS_gornaya_soldiers
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_study_the_civil_war }
+		x = 54
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2415,9 +2430,9 @@ focus_tree = {
 	focus = {
 		id = RUS_legacy_of_the_ice_marches
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_study_the_civil_war }
+		x = 56
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2435,9 +2450,10 @@ focus_tree = {
 	focus = {
 		id = RUS_prepare_for_any_condition
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_gornaya_soldiers }
+		prerequisite = { focus = RUS_legacy_of_the_ice_marches }
+		x = 55
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2455,9 +2471,10 @@ focus_tree = {
 	focus = {
 		id = RUS_stick_to_the_manual
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_novgorod_maneuvers }
+		mutually_exclusive = { focus =  RUS_develop_opertika }
+		x = 58
+		y = 5
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2475,9 +2492,9 @@ focus_tree = {
 	focus = {
 		id = RUS_human_wave_tactics
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_stick_to_the_manual }
+		x = 58
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2495,9 +2512,9 @@ focus_tree = {
 	focus = {
 		id = RUS_an_aristocratic_general_staff
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_human_wave_tactics }
+		x = 58
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2515,9 +2532,9 @@ focus_tree = {
 	focus = {
 		id = RUS_champion_the_cavalry
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_an_aristocratic_general_staff }
+		x = 59
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2535,9 +2552,9 @@ focus_tree = {
 	focus = {
 		id = RUS_creeping_barrages
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_an_aristocratic_general_staff }
+		x = 57
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2555,9 +2572,10 @@ focus_tree = {
 	focus = {
 		id = RUS_a_soldiers_duty
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_champion_the_cavalry }
+		prerequisite = { focus = RUS_creeping_barrages }
+		x = 58
+		y = 9
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2575,9 +2593,9 @@ focus_tree = {
 	focus = {
 		id = RUS_solidarist_charges
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_a_soldiers_duty }
+		x = 58
+		y = 10
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2595,9 +2613,9 @@ focus_tree = {
 	focus = {
 		id = RUS_reactivate_tsarist_forts
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_human_wave_tactics }
+		x = 60
+		y = 7
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2615,9 +2633,10 @@ focus_tree = {
 	focus = {
 		id = RUS_defense_in_depth
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_reactivate_tsarist_forts }
+		prerequisite = { focus = RUS_an_aristocratic_general_staff }
+		x = 62
+		y = 8
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2635,9 +2654,9 @@ focus_tree = {
 	focus = {
 		id = RUS_scorched_earth
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_defense_in_depth }
+		x = 61
+		y = 9
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2655,9 +2674,9 @@ focus_tree = {
 	focus = {
 		id = RUS_infantry_tanks
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_defense_in_depth }
+		x = 63
+		y = 9
 		cost = 6
 		ai_will_do = {
 			factor = 1
