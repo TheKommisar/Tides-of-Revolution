@@ -1,4 +1,4 @@
-﻿capital = 112 
+capital = 112 
 
 oob = "POR_1936"
 
@@ -88,10 +88,6 @@ create_country_leader = {
 	expire = "1953.3.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
-		
+
 	}
 }
-
-
-
-
