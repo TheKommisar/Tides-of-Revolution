@@ -31,7 +31,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Antonio Gramsci"
 	desc = ""
-	picture = ""
+	picture = "Portrait_SRI_Antonio_Gramsci.tga"
 	ideology = orthodox_marxist_subtype
 	traits = {
 		#

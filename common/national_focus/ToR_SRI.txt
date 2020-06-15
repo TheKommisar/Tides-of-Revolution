@@ -1,0 +1,177 @@
+focus_tree = {
+	id = italian_socialists_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SRI
+		}
+	}
+
+
+	#Civil War path
+
+	focus = {
+		id = SRI_avanti_italiano
+		icon = GFX_goal_tripartite_pact
+		available = {
+		}
+		x = 20
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_unite_the_workers
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = SRI_avanti_italiano }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = SRI_avanti_italiano
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_militarize_the_fgci
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = SRI_unite_the_workers }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = SRI_unite_the_workers
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_strengthen_the_militias
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = SRI_unite_the_workers }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = SRI_unite_the_workers
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_fight_monarchism
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = SRI_militarize_the_fgci }
+		prerequisite = { focus = SRI_strengthen_the_militias }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = SRI_unite_the_workers
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_look_abroad
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = SRI_avanti_italiano }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = SRI_avanti_italiano
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_brigate_internazionali
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = SRI_look_abroad }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = SRI_look_abroad
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_ask_for_french_material_support
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = SRI_look_abroad }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = SRI_look_abroad
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_together_against_capitalism
+		icon = GFX_goal_tripartite_pact
+		prerequisite = { focus = SRI_ask_for_french_material_support }
+		prerequisite = { focus = SRI_brigate_internazionali }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = SRI_look_abroad
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+}
