@@ -1488,7 +1488,7 @@ focus_tree = {
 		bypass = {}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = yes
+		available_if_capitulated = yesRUS_import_foreign_aircraft
 
 		completion_reward = {
 
@@ -2695,7 +2695,7 @@ focus_tree = {
 		id = RUS_the_white_fleet
 		icon = GFX_
 		prerequisite = { focus =  }
-		x = 0
+		x = 68
 		y = 0
 		cost = 6
 		ai_will_do = {
@@ -2714,9 +2714,9 @@ focus_tree = {
 	focus = {
 		id = RUS_work_with_what_we_have
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_white_fleet }
+		x = 66
+		y = 1
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2734,9 +2734,9 @@ focus_tree = {
 	focus = {
 		id = RUS_develop_kronstadt
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_work_with_what_we_have }
+		x = 66
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2754,9 +2754,9 @@ focus_tree = {
 	focus = {
 		id = RUS_invest_in_submarines
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_develop_kronstadt }
+		x = 64
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2774,9 +2774,9 @@ focus_tree = {
 	focus = {
 		id = RUS_improve_northern_bases
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_invest_in_submarines }
+		x = 63
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2794,9 +2794,9 @@ focus_tree = {
 	focus = {
 		id = RUS_baltic_raiders
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_invest_in_submarines }
+		x = 65
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2814,9 +2814,9 @@ focus_tree = {
 	focus = {
 		id = RUS_expand_the_surface_fleet
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_develop_kronstadt }
+		x = 68
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2834,9 +2834,9 @@ focus_tree = {
 	focus = {
 		id = RUS_cruiser_centralization
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_expand_the_surface_fleet }
+		x = 67
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2854,9 +2854,9 @@ focus_tree = {
 	focus = {
 		id = RUS_coastal_batteries
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_expand_the_surface_fleet }
+		x = 69
+		y = 4
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2874,9 +2874,9 @@ focus_tree = {
 	focus = {
 		id = RUS_return_to_the_black_sea
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_white_fleet }
+		x = 72
+		y = 1
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2894,9 +2894,9 @@ focus_tree = {
 	focus = {
 		id = RUS_seize_ukrainian_ships
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_return_to_the_black_sea }
+		x = 70
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2914,9 +2914,9 @@ focus_tree = {
 	focus = {
 		id = RUS_overhaul_the_fleet
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_return_to_the_black_sea }
+		x = 72
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2934,9 +2934,9 @@ focus_tree = {
 	focus = {
 		id = RUS_floating_fortresses
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_overhaul_the_fleet }
+		x = 72
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2954,9 +2954,10 @@ focus_tree = {
 	focus = {
 		id = RUS_rebuild_naval_installations
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_return_to_the_black_sea }
+		prerequisite = { focus = RUS_return_to_the_pacific }
+		x = 74
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2974,9 +2975,9 @@ focus_tree = {
 	focus = {
 		id = RUS_return_to_the_pacific
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_the_white_fleet }
+		x = 76
+		y = 1
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -2994,9 +2995,9 @@ focus_tree = {
 	focus = {
 		id = RUS_deep_sea_fleets
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_return_to_the_pacific }
+		x = 76
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -3014,9 +3015,9 @@ focus_tree = {
 	focus = {
 		id = RUS_avianosets
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_deep_sea_fleets }
+		x = 76
+		y = 3
 		cost = 6
 		ai_will_do = {
 			factor = 1
@@ -3034,9 +3035,9 @@ focus_tree = {
 	focus = {
 		id = RUS_seize_far_eastern_ships
 		icon = GFX_
-		prerequisite = { focus =  }
-		x = 0
-		y = 0
+		prerequisite = { focus = RUS_return_to_the_pacific }
+		x = 78
+		y = 2
 		cost = 6
 		ai_will_do = {
 			factor = 1
