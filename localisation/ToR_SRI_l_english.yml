@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+SRI_totalitarian_socialist_party:0 "Massimalisti"
+SRI_totalitarian_socialist_party_long:0 "Partito Comunista d'Italia fazione Massimalista"
+SRI_vanguardist_party:0 "Massimalisti"
+SRI_vanguardist_party_long:0 "Partito Comunista d'Italia fazione Massimalista"
+SRI_orthodox_marxist_party:0 "PCI"
+SRI_orthodox_marxist_party_long:0 "Partito Comunista d'Italia"
+SRI_revolutionary_socialist_socialist_party:0 "PSI"
+SRI_revolutionary_socialist_party_long:0 "Partito Socialista Italiano"
+SRI_social_democrat_party:0 "PSU"
+SRI_social_democrat_party_long:0 "Partito Socialista Unitario"
+SRI_social_liberal_party:0 "PRI"
+SRI_social_liberal_party_long:0 "Partito Radicale Italiano"
+SRI_classic_liberal_party:0 "PLI"
+SRI_classic_liberal_party_long:0 "Partito Liberale Italiano"
+SRI_social_conservative_party:0 "PPI"
+SRI_social_conservative_party_long:0 "Partito Popolare Italiano"
+SRI_authoritarian_democrat_party:0 "PMI"
+SRI_authoritarian_democrat_party_long:0 "Partito Monarchicho Italiano"
+SRI_paternal_autocrat_party:0 "Giunta Militare"
+SRI_paternal_autocrat_party_long:0 "Giunta Militare"
+SRI_national_populist_party:0 "ANI"
+SRI_national_populist_party_long:0 "Associazione Nazionalista Italiana"
+
+#Country Names
+SRI_national_populist:0 "Kingdom of Italy"
+SRI_national_populist_DEF:0 "the Kingdom of Italy"
+SRI_totalitarian_socialist:0 "Italian Sydicate"
+SRI_totalitarian_socialist_DEF:0 "the Socialist Republic of Italy"
+SRI_paternal_autocrat:0 "Kingdom of Italy"
+SRI_paternal_autocrat_DEF:0 "the Kingdom of Italy"
+SRI_social_conservative:0 "Kingdom of Italy"
+SRI_social_conservative_DEF:0 "the Kingdom of Italy"
+SRI_authoritarian_democrat:0 "Kingdom of Italy"
+SRI_authoritarian_democrat_DEF:0 "the Kingdom of Italy"
+SRI_orthodox_marxist:0 "Socialist Republic of Italy"
+SRI_orthodox_marxist_DEF:0 "the Socialist Republic of Italy"
+SRI_revolutionary_socialist:0 "Socialist Republic of Italy"
+SRI_revolutionary_socialist_DEF:0 "the Socialist Republic of Italy"
+SRI_social_democrat:0 "Kingdom of Italy"
+SRI_social_democrat_DEF:0 "the Kingdom of Italy"
+SRI_social_liberal:0 "Kingdom of Italy"
+SRI_social_liberal_DEF:0 "the Kingdom of Italy"
+SRI_classic_liberal:0 "Kingdom of Italy"
+SRI_classic_liberal_DEF:0 "the Kingdom of Italy"
+SRI_vanguardist:0 "Italian People's Republic"
+SRI_vanguardist_DEF:0 "the Italian People's Republic"
+ 
+SRI_national_populist_ADJ:0 "Red Italian"
+SRI_totalitarian_socialist_ADJ:0 "Red Italian"
+SRI_social_conservative_ADJ:0 "Red Italian"
+SRI_paternal_autocrat_ADJ:0 "Red Italian"
+SRI_orthodox_marxist_ADJ:0 "Red Italian"
+SRI_authoritarian_democrat_ADJ:0 "Red Italian"
+SRI_revolutionary_socialist_ADJ:0 "Red Italian"
+SRI_social_democrat_ADJ:0 "Red Italian"
+SRI_social_liberal_ADJ:0 "Red Italian"
+SRI_classic_liberal_ADJ:0 "Red Italian"
+SRI_vanguardist_ADJ:0 "Red Italian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

@@ -1,4 +1,4 @@
-
+﻿
 add_namespace = italy
 
 country_event = {
@@ -22,7 +22,7 @@ country_event = {
     }
 }
 
-country_event = {
+country_event = { #Outbreak of the Civil War
     id = italy.2
     title = italy.2.t    
     desc = italy.2.d
@@ -141,3 +141,70 @@ country_event = {
 		}
 	}
 }
+
+
+country_event = { #France - should we send the Italians support?
+    id = italy.3
+    title = italy.3.t
+    desc = italy.3.d
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+
+    trigger = {
+        tag = FRA
+        italy = { has_war_with = ITA }
+    }
+
+    option = { #Send them weapons and volunteers
+        name = italy.3.a
+        ai_chance = {
+            factor = 80
+        }
+        add_manpower = -5000
+        send_equipment = {
+            type = infantry_equipment
+            amount = 500
+            target = SRI
+        }
+    }
+
+    option = { #its not worth it
+        add_stability = -0.03
+    }
+}
+
+country_event = { #SRI - France supports us!
+    id = italy.4
+    title = italy.4.t
+    desc = italy.4.d
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+
+    is_triggered_only = yes
+
+    option = { #Thanks, France
+        name = italy.4.a
+        add_manpower = 5000
+        add_political_power = 25
+    }
+}
+
+country_event = { #Italy - Libya declares neutrality!
+    id = italy.5
+    title = italy.5.t
+    desc = italy.5.d
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+
+    is_triggered_only = yes
+
+    option = { #Fuck
+        name = italy.5.a
+        release = LBA
+        LBA = {
+            set_cosmetic_tag = ITA_LBA
+            transfer_state = 665
+            transfer_state = 458
+        }
+    }
+}
+
+
+
