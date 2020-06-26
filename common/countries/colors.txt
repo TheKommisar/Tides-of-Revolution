@@ -637,3 +637,11 @@ RMT = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
 }
+SCH = {
+	color = rgb { 181 133 52 }
+	color_ui = rgb { 181 133 52 }
+}
+SHN = {
+	color = rgb { 100 147 179 }
+	color_ui = rgb { 100 147 179 }
+}

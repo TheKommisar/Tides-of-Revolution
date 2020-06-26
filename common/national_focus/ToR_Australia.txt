@@ -13,10 +13,201 @@ focus_tree = {
 	default = no
 
 focus = {
-		id = AST_navy
+		id = AST_navy_training
 		icon = GFX_goal_generic_build_airforce
-		x = 5
+		x = 3
 		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_protect_convoys
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_navy_training }
+		x = -1
+		y = 1
+                relative_position_id = AST_navy_training
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_contest_pacific
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_navy_training }
+		x = 1
+		y = 1
+                relative_position_id = AST_navy_training
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_new_destroyers
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_protect_convoys }
+		x = -1
+		y = 1
+                relative_position_id = AST_protect_convoys
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_develop_cockatoo_island_shipyard
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_protect_convoys focus = AST_contest_pacific }
+		x = -1
+		y = 1
+                relative_position_id = AST_contest_pacific
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_carrier_research
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_contest_pacific }
+		x = 1
+		y = 1
+                relative_position_id = AST_contest_pacific
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_submarines
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_new_destroyers focus = AST_carrier_research }
+		x = 0
+		y = 1
+                relative_position_id = AST_new_destroyers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_cruiser_research
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_new_destroyers focus = AST_carrier_research }
+		x = 2
+		y = 1
+                relative_position_id = AST_new_destroyers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_capital_ships
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_new_destroyers focus = AST_carrier_research }
+		x = 0
+		y = 1
+                relative_position_id = AST_carrier_research
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+focus = {
+		id = AST_guardian_of_the_pacific
+		icon = GFX_goal_generic_build_airforce
+                prerequisite = { focus = AST_submarines }
+                prerequisite = { focus = AST_capital_ships }
+                prerequisite = { focus = AST_cruiser_research }
+		x = 0
+		y = 1
+                relative_position_id = AST_cruiser_research
 
 		cost = 10
 
