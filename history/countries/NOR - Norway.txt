@@ -56,7 +56,7 @@ set_convoys = 200		# biggest merchant marine in the world
 set_stability = 0.7
 
 set_politics = {
-	ruling_party = classic_liberal
+	ruling_party = social_democrat
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -80,22 +80,34 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
 	picture = "Portrait_Norway_Martin_Tranmel.tga"
 	expire = "1999.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Haakon VII"
-	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
-	picture = "Portrait_Norway_Haakon_VII.tga"
-	expire = "1999.1.1"
+	name = "Johan Ludwig Mowinckel"
+	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
+	picture = "Portrait_Johan_Ludwig_Mowinckel.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ingolf Elster Christensen"
+	desc = "POLITICS_INGOLF_ELSTER_CHRISTENSEN_DESC"
+	picture = "Portrait_Ingolf_Elster_Christensen.tga"
+	expire = "1965.1.1"
 	ideology = classic_liberal_subtype
 	traits = {
 		#
 	}
 }
+
 
 create_country_leader = {
 	name = "Vidkun Quisling"

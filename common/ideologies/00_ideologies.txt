@@ -98,7 +98,7 @@ ideologies = {
 			"FACTION_NAME_collectivist_5"
 			"FACTION_NAME_collectivist_6"
 		}
-		color = { 205 0 0 } #205 0 0 works good as an alternative, too similar to Vanguardist though.
+		color = { 205 0 0 } 
 		rules = {
 			can_force_government = no
 			can_puppet = no

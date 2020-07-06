@@ -1,7 +1,0 @@
-opinion_modifiers = {
-
-    asean_accepted = { value = 100 }
-    asean_refused = { value = -100 }
-    left_asean = { value = -100 }
-
-}

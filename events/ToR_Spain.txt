@@ -13,17 +13,17 @@ country_event = { #monthly unrest
 	mean_time_to_happen = { days = 30 }
  
  trigger = {
- tag = SPA
+ tag = SPR
  date > 1.1.1936
- has_idea = SPA_national_unrest
- NOT = { has_country_flag = SPA_lowered_unrest }
+ has_idea = SPR_national_unrest
+ NOT = { has_country_flag = SPR_lowered_unrest }
  }
 	
 	option = {
 		name = spain.1000.a
  add_political_power = -40
  hidden_effect = {
- add_to_var = { SPA_unrest_level = 1 }
+ add_to_var = { SPR_unrest_level = 1 }
  }
 	}
 }
@@ -37,10 +37,10 @@ country_event = { #unrest is high
 	mean_time_to_happen = { days = 60 }
  
  trigger = {
- tag = SPA
- has_idea = SPA_national_unrest
+ tag = SPR
+ has_idea = SPR_national_unrest
  check_variable = {
-    var = SPA_unrest
+    var = SPR_unrest
     value = 5
     compare = greater_than_or_equals
   }
@@ -50,7 +50,7 @@ country_event = { #unrest is high
 		name = spain.2000.a
  add_political_power = -75
  hidden_effect = {
- add_to_var = { SPA_unrest_level = 2 }
+ add_to_var = { SPR_unrest_level = 2 }
  }
 	}
 }
@@ -69,7 +69,7 @@ country_event = { #varianle declaring
  
 	option = {
 		name = spain.3110.a
- set_variable = SPA_unrest_level
+ set_variable = SPR_unrest_level
  }
 	}
 }

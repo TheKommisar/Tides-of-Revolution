@@ -4,15 +4,15 @@ spriteTypes = {
 #ministers
 #national spirits
 spriteType = {
-		name = "GFX_idea_SPA_crisis_in_the_government"
-		texturefile = "gfx/interface/ideas/SPA/SPA_cabinet_crisis.dds"
+		name = "GFX_idea_SPR_crisis_in_the_government"
+		texturefile = "gfx/interface/ideas/SPR/SPR_cabinet_crisis.dds"
 	}
 spriteType = {
-		name = "GFX_idea_SPA_national_unrest"
-		texturefile = "gfx/interface/ideas/SPA/SPA_national_unrest.dds"
+		name = "GFX_idea_SPR_national_unrest"
+		texturefile = "gfx/interface/ideas/SPR/SPR_national_unrest.dds"
 	}
 spriteType = {
-		name = "GFX_idea_SPA_strong_military"
-		texturefile = "gfx/interface/ideas/SPA/SPA_strong_military.dds"
+		name = "GFX_idea_SPR_strong_military"
+		texturefile = "gfx/interface/ideas/SPR/SPR_strong_military.dds"
 	}
 }
