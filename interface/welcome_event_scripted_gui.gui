@@ -1,0 +1,50 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "welcome_event_container"
+		position = { x = 0 y = 0 }
+		size = { width = 750 height = 630 }
+		moveable = yes
+		orientation = CENTER
+		origo = center
+
+		background = {
+			name = "welcome_event_logo"
+			quadTextureSprite = "GFX_welcome_event_logo"
+			position = { x = 20 y = 0 }
+		}
+
+		background = {
+			name = "welcome_event_background"
+			quadTextureSprite = "GFX_welcome_event_background"
+			position = { x = 4 y = 357 }
+		}
+
+		instantTextboxType = {
+			name = "welcome_to_tor_header"
+			position = { x=150 y=382 }
+			font = "hoi_36header"
+			text = "ToR_welcome"
+			maxWidth = 700
+		}
+
+		instantTextboxType = {
+			name = "information"
+			position = { x=61 y=447 }
+			font = "hoi_18mbs"
+			text = "ToR_information"
+			maxWidth = 675
+		}
+
+		buttonType = {
+			name = "continue_button"
+			position = { x = 283 y = 589 }
+			quadTextureSprite ="GFX_button_221x34"	
+			buttonText = "Continue"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			shortcut = "ESCAPE"
+		}
+	}
+}
