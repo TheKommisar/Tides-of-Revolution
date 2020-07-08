@@ -13,7 +13,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "Let's get this show on the road."
+		name = "Thank you, very cool!"
 		ai_chance = { factor = 100 }
 	}
 
