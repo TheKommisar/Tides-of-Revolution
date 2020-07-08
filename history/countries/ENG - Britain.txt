@@ -102,8 +102,12 @@ if = {
 }
 
 add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
+ENG_Legacy_of_the_Great_War
+ENG_sluggish_economy
+ENG_Decentralised_Empire
+ENG_the_grand_fleet
+ENG_disorganised_defence
+ENG_the_officers_plot
         ENG_Herbert_Samuel_hog
         ENG_David_Lloyd_George_frm
         ENG_Isaac_Foot_eco
@@ -217,16 +221,16 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-        totalitarian_socialist = 1
-	vanguardist = 0
-        orthodox_marxist = 2
-	revolutionary_socialist = 4
+        totalitarian_socialist = 3
+	vanguardist = 2
+        orthodox_marxist = 3
+	revolutionary_socialist = 3
         social_democrat = 21
-        social_liberal = 35
-        classic_liberal = 9
-        social_conservative = 26
-        authoritarian_democrat = 0
-        paternal_autocrat = 0
+        social_liberal = 31
+        classic_liberal = 4
+        social_conservative = 18
+        authoritarian_democrat = 7
+        paternal_autocrat = 6
         national_populist = 2
 }
 
