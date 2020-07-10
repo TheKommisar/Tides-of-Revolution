@@ -109,9 +109,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carol II"
+	name = "Octavian Goga"
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
-	picture = "Portrait_RRM_Carol_II.tga"
+	picture = "Portrait_Romania_Octavian_Goga.dds"
 	expire = "1999.1.1"
 	ideology = national_populist_subtype
 	traits = {

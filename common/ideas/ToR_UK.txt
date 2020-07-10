@@ -23,48 +23,25 @@ head_of_government = {
 			}
 			cancel_if_invalid = yes
 		}
-        ENG_Clement_Attlee_hog = {
+        ENG_Oswald_Mosley_hog = {
 				
 			allowed = { original_tag = ENG }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					NOT = { has_country_flag = Clement_Attlee_dead }
+					NOT = { has_country_flag = Oswald_Mosley_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				NOT = { has_country_flag = Clement_Attlee_dead }
+				NOT = { has_country_flag = Oswald_Mosley_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Clement_Attlee_hog"
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Oswald_Mosley_hog"
 			}
 			traits = {
 				hog_naive_optimist
                                 social_democrat
-                                head_of_government
-			}
-			cancel_if_invalid = yes
-		}
-          ENG_Henry_Page_Croft_hog = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Henry_Page_Croft_dead }
-					has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Henry_Page_Croft_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Henry_Page_Croft_hog"
-			}
-			traits = {
-				hog_naive_optimist
-                                social_conservative
                                 head_of_government
 			}
 			cancel_if_invalid = yes
@@ -86,48 +63,6 @@ foreign_minister = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea ENG_David_Lloyd_George_frm"
-			}
-			traits = {
-				frm_skilled_negotiator
-			}
-			cancel_if_invalid = yes
-		}
-          ENG_Ernest_Bevin_frm = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Ernest_Bevin_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Ernest_Bevin_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Ernest_Bevin_frm"
-			}
-			traits = {
-				frm_skilled_negotiator
-			}
-			cancel_if_invalid = yes
-		}
-          ENG_Anthony_Eden_frm = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Anthony_Eden_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Anthony_Eden_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Anthony_Eden_frm"
 			}
 			traits = {
 				frm_skilled_negotiator
@@ -157,48 +92,6 @@ economy_minister = {
 			}
 			cancel_if_invalid = yes
 		}
-            ENG_Herbert_Morrison_eco = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Herbert_Morrison_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Herbert_Morrison_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Herbert_Morrison_eco"
-			}
-			traits = {
-				eco_laissez_faire_capitalist
-			}
-			cancel_if_invalid = yes
-		}
-            ENG_Kingsley_Wood_eco = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Kingsley_Wood_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Kingsley_Wood_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Kingsley_Wood_eco"
-			}
-			traits = {
-				eco_laissez_faire_capitalist
-			}
-			cancel_if_invalid = yes
-		}
 }
 security_minister = {
            ENG_Winston_Churchill_sec = {
@@ -219,48 +112,6 @@ security_minister = {
 			}
 			traits = {
 				sec_british_bulldog
-			}
-			cancel_if_invalid = yes
-		}
-            ENG_James_Chuter_Ede_sec = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = James_Chuter_Ede_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = James_Chuter_Ede_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_James_Chuter_Ede_sec"
-			}
-			traits = {
-				
-			}
-			cancel_if_invalid = yes
-		}
-           ENG_Leo_Amery_sec = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Leo_Amery_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Leo_Amery_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Leo_Amery_sec"
-			}
-			traits = {
-				
 			}
 			cancel_if_invalid = yes
 		}

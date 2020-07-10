@@ -794,5 +794,26 @@
  STATE_793:0 "Guadalajara"
  STATE_794:0 "Eastern Aragón"
  STATE_795:0 "Santarém"
- STATE_796:0 "Cabinda"
- STATE_797:0 "Sint-Maarten" ###
+ STATE_796:0 "North Angola"
+ STATE_797:0 "Vawkavysk" ###
+ STATE_798:0 "Klintsy" ###
+ STATE_799:0 "Brest"
+ STATE_800:0 "Vitebsk" ###
+ STATE_801:0 "Recyca"
+ STATE_802:0 "Eupen"
+ STATE_803:0 "Dvinsk"
+ STATE_804:0 "Commander Islands"
+ STATE_805:0 "Nordschleswig"
+ STATE_806:0 "Aleppo"
+ STATE_807:0 "Lomza"
+ STATE_808:0 "Eastern Thrace"
+ STATE_809:0 "Northern Dagestan"
+ STATE_810:0 "Lori"
+ STATE_811:0 "Western Mongolia"
+ STATE_812:0 "Sint-Maarten"
+ STATE_813:0 "Suvalkai"
+ STATE_815:0 "Dong Bac Cam"
+ STATE_818:0 "Lan Chang"
+ STATE_819:0 "Tay Bac Trung Viet"
+ STATE_820:0 "Trung Viet"
+ STATE_821:0 "Cuu Long"
