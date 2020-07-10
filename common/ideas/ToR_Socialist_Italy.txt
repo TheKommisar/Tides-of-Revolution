@@ -1,0 +1,25 @@
+ideas = {
+country = {
+        SRI_fight_for_italy = {
+				
+			allowed = {
+				original_tag = SRI
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+                                surrender_limit = 0.10
+				war_support_factor = 0.20
+				training_time_army_factor = -0.10
+				conscription_factor = 0.25
+				out_of_supply_factor = -0.50
+				no_supply_grace = 168
+			}
+		}
+}
+}
