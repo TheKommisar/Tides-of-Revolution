@@ -11,7 +11,7 @@ guiTypes = {
 		background = {
 			name = "welcome_event_logo"
 			quadTextureSprite = "GFX_welcome_event_logo"
-			position = { x = -5 y = -60 }
+			position = { x = 20 y = 0 }
 		}
 
 		background = {
@@ -25,7 +25,7 @@ guiTypes = {
 			position = { x=150 y=382 }
 			font = "hoi_36header"
 			text = "ToR_welcome"
-			maxWidth = 500
+			maxWidth = 700
 		}
 
 		instantTextboxType = {
