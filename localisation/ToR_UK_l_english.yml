@@ -1,8 +1,8 @@
 ﻿l_english: 
 
 #Parties
-ENG_national_populist_party:0 "National Populisti"
-ENG_national_populist_party_long:0 "British National Populisti"
+ENG_national_populist_party:0 "Social Credit"
+ENG_national_populist_party_long:0 "Social Credit Party"
 ENG_vanguardist_party:0 "CPGB-Jacobins"
 ENG_vanguardist_party_long:0 "Communist Party of Great Britain - Jacobin faction"
 ENG_social_conservative_party:0 "Tories"
@@ -19,10 +19,10 @@ ENG_classic_liberal_party:0 "Liberal Nationals"
 ENG_classic_liberal_party_long:0 "Liberal National Party"
 ENG_totalitarian_socialist_party:0 "International League"
 ENG_totalitarian_socialist_party_long:0 "Workers' International League"
-ENG_revolutionary_socialist_party:0 "CPGB-Leninists"
-ENG_revolutionary_socialist_party_long:0 "Communist Party of Great Britain - Leninist faction"
-ENG_orthodox_marxist_party:0 "Independent Labour"
-ENG_orthodox_marxist_party_long:0 "Independent Labour Party"
+ENG_revolutionary_socialist_party:0 "Independent Labour"
+ENG_revolutionary_socialist_party_long:0 "Independent Labour Party"
+ENG_orthodox_marxist_party:0 "CPGB-Leninists"
+ENG_orthodox_marxist_party_long:0 "Communist Party of Great Britain - Leninist faction"
 
 #Country Names
  ENG_national_populist:0 "Great Britain"
@@ -65,12 +65,19 @@ ENG_orthodox_marxist_party_long:0 "Independent Labour Party"
 
 #Ministers
 #should be reintegrated
-ENG_Herbert_Samuel_hog:0 "Herbert Samuel, 1st Viscount Samuel"
-ENG_Oswald_Mosley_hog:0 "Sir Oswald Mosley, 6th Baronet"
-ENG_David_Lloyd_George_frm:0 "David Lloyd George, 1st Earl Lloyd-George of Dwyfor"
-ENG_Winston_Churchill_sec:0 "Winston Spencer-Churchill"
+ENG_Herbert_Samuel_hog:0 "Herbert Samuel"
+ENG_Clement_Attlee_hog:0 "Clement Attlee"
+ENG_Henry_Page_Croft_hog:0 "Henry Page Croft"
+ENG_David_Lloyd_George_frm:0 "David Lloyd George"
+ENG_Ernest_Bevin_frm:0 "Ernest Bevin"
+ENG_Anthony_Eden_frm:0 "Anthony Eden"
 ENG_Isaac_Foot_eco:0 "Isaac Foot"
-ENG_George_Lambert_int:0 "George Lambert, 1st Viscount Lambert"
+ENG_Herbert_Morrison_eco:0 "Herbert Morrison"
+ENG_Kingsley_Wood_eco:0 "Kingsley Wood"
+ENG_James_Chuter_Ede_sec:0 "James Chuter Ede"
+ENG_Winston_Churchill_sec:0 "Winston Spencer-Churchill"
+ENG_Leo_Amery_sec:0 "Leopold Amery"
+ENG_George_Lambert_int:0 "George Lambert"
 
 #Focuses
 #should be reintegrated
@@ -87,8 +94,9 @@ uk.2.a:0 "Rule Britannia! Britannia rules the waves!"
 
 uk.3.t:0 "Elections of 1936"
 uk.3.d:0 "The elections are finally here. Which party will win? (WIP text)"
-uk.3.a:0 "The Labour Party, led by Oswald Mosley, wins!"
-uk.3.b:0 "The Conservative Party"
+uk.3.a:0 "Labour! No more war!"
+uk.3.b:0 "The Tories! Down with France!"
+uk.3.c:0 "Liberal! Four more years!"
 
 #Descriptions
 

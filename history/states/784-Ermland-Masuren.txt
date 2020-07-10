@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 state={
 	id=784
@@ -7,11 +8,25 @@ state={
 		owner = LIT
 		victory_points = {
 			3320 3 
+=======
+state={
+	id=784
+	name="STATE_784"
+	manpower = 517081
+	
+	state_category = rural
+	
+	history={
+		owner = LIT
+		victory_points = {
+			3320 3
+>>>>>>> 730f0e4d90d40c6a0096963fd945d4ed222b67f0
 		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 5
+<<<<<<< HEAD
 
 		}
 		add_core_of = LIT
@@ -24,4 +39,13 @@ state={
 	manpower=517081
 	buildings_max_level_factor=1.000
 	state_category=rural
+=======
+		}
+		add_core_of = LIT
+	}
+
+	provinces={
+		3320 9274 9295 11342
+	}
+>>>>>>> 730f0e4d90d40c6a0096963fd945d4ed222b67f0
 }

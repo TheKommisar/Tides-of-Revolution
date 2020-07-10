@@ -30,7 +30,7 @@ country_event = {
         create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Portrait_Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = social_liberal_subtype
         	traits = {
@@ -40,7 +40,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Portrait_Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = social_democrat_subtype
         	traits = {
@@ -50,7 +50,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Portrait_Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = classic_liberal_subtype
         	traits = {
@@ -60,7 +60,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Portrait_Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = social_conservative_subtype
         	traits = {
@@ -70,7 +70,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Portrait_Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = authoritarian_democrat_subtype
         	traits = {
@@ -80,7 +80,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Portrait_Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = paternal_autocrat_subtype
         	traits = {
@@ -120,7 +120,10 @@ country_event = {
 		name = uk.3.a
 		add_political_power = 10
 		add_ideas = { 
-            ENG_Oswald_Mosley_hog
+            ENG_Clement_Attlee_hog
+            ENG_Ernest_Bevin_frm
+            ENG_Herbert_Morrison_eco
+            ENG_James_Chuter_Ede_sec 
             }
 		set_politics = {
 	        ruling_party = social_democrat
@@ -131,17 +134,28 @@ country_event = {
         }
 	}
 	option = { #Conservative
-		name = uk.3.a
+		name = uk.3.b
 		add_political_power = 10
 		add_ideas = { 
-            #
+            ENG_Henry_Page_Croft_hog
+            ENG_Anthony_Eden_frm
+            ENG_Kingsley_Wood_eco
+            ENG_Leo_Amery_sec 
             }
 		set_politics = {
 	        ruling_party = social_conservative
         }
 		add_popularity = {
-            ideology = social_democrat
+            ideology = social_conservative
             popularity = 0.2
+        }
+	}
+        option = { #Liberals
+		name = uk.3.c
+		add_political_power = 30
+		add_popularity = {
+            ideology = social_liberal
+            popularity = 0.1
         }
 	}
 }

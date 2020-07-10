@@ -6,12 +6,12 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = MRP
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = RUS
+		add_core_of = MRP
 		victory_points = {
 			9628 3
 		}
