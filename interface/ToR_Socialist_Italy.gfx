@@ -1,0 +1,10 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_SRI_fight_for_italy"
+		texturefile = "gfx/interface/ideas/GRE/GRE_political_turmoil.dds"
+	}
+}

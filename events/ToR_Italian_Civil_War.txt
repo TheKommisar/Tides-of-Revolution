@@ -18,7 +18,6 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-                set_country_flag = libya_guerilla_ongoing
     }
 }
 
@@ -34,7 +33,6 @@ country_event = { #Outbreak of the Civil War
     trigger = {
 		tag = ITA
 		date > 1936.5.5
-		has_country_flag = libya_guerilla_ongoing
     }
 
     option = {
@@ -73,6 +71,14 @@ country_event = { #Outbreak of the Civil War
 				}
 				transfer_state = 162
 			}
+                        if = {
+				limit = {
+					FROM = {
+						controls_state = 159
+					}
+				}
+				transfer_state = 159
+			}
                         
                  
             SRI = { declare_war_on = { 
@@ -99,10 +105,10 @@ country_event = { #Outbreak of the Civil War
                 set_global_flag = icw
 		SRI = {
 			set_country_flag = choice_made
-		} 
-                add_stability = 0.15
+		}
+		add_stability = 0.15
 		add_war_support = 0.2
-        SRI = {
+		SRI = {
 			if = {
 				limit = {
 					FROM = {
@@ -119,25 +125,41 @@ country_event = { #Outbreak of the Civil War
 				}
 				transfer_state = 161
 			}
-               
-               
-		SRI = { declare_war_on = { 
+                        if = {
+				limit = {
+					FROM = {
+						controls_state = 162
+					}
+				}
+				transfer_state = 162
+			}
+                        if = {
+				limit = {
+					FROM = {
+						controls_state = 159
+					}
+				}
+				transfer_state = 159
+			}
+                        
+                 
+            SRI = { declare_war_on = { 
 				target = ITA
 				type = annex_everything
-                       } }
-                SRI = {
-				add_manpower = 100000
+            }}
+             SRI = {
+				add_manpower = 30000
 				load_oob = SRI_rebellion
 			}
-                add_equipment_to_stockpile = {
+                                    add_equipment_to_stockpile = {
                          type = infantry_equipment
                          amount = 1000
                          producer = SRI
                  } 
+		    news_event = { hours = 6 id = tornews.3 }
+		}
 		SRI = {
 			change_tag_from = ITA
-		}
-		news_event = { hours = 6 id = tornews.3 }
 		}
 	}
 }

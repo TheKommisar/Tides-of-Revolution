@@ -50,3 +50,19 @@ news_event = {
 		name = "Rest in peace."
 	}
 }
+
+news_event = { 
+	id = tornews.3
+	title = tornews.3.t
+	desc = tornews.3.d
+
+    picture = news_event_ast_army
+    
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tornews.3.a
+	}
+}

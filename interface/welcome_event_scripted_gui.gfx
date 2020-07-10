@@ -1,11 +1,11 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_welcome_event_logo"
-		textureFile = "gfx/interface/welcome_event_logo.dds"
+		textureFile = "gfx/splash/splash.tga"
 	}
 	
 	spriteType = {
 		name = "GFX_welcome_event_background"
-		textureFile = "gfx/interface/welcome_event_background.dds"
+		textureFile = "gfx/splash/splash_box.tga"
 	}
 }

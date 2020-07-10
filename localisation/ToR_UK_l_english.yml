@@ -20,31 +20,31 @@ ENG_classic_liberal_party_long:0 "Liberal National Party"
 ENG_totalitarian_socialist_party:0 "International League"
 ENG_totalitarian_socialist_party_long:0 "Workers' International League"
 ENG_revolutionary_socialist_party:0 "Independent Labour"
-ENG_revolutionary_socialist_party_long:0 "Independent Labour Party" 
+ENG_revolutionary_socialist_party_long:0 "Independent Labour Party"
 ENG_orthodox_marxist_party:0 "CPGB-Leninists"
 ENG_orthodox_marxist_party_long:0 "Communist Party of Great Britain - Leninist faction"
 
 #Country Names
- ENG_national_populist:0 "United Kingdom"
- ENG_national_populist_DEF:0 "The United Kingdom"
+ ENG_national_populist:0 "Great Britain"
+ ENG_national_populist_DEF:0 "Great Britain"
  ENG_totalitarian_socialist:0 "Union of Britain"
  ENG_totalitarian_socialist_DEF:0 "the Union of Britain"
  ENG_paternal_autocrat:0 "United Kingdom"
- ENG_paternal_autocrat_DEF:0 "The United Kingdom"
+ ENG_paternal_autocrat_DEF:0 "the United Kingdom"
  ENG_social_conservative:0 "United Kingdom"
- ENG_social_conservative_DEF:0 "The United Kingdom"
+ ENG_social_conservative_DEF:0 "the United Kingdom"
  ENG_authoritarian_democrat:1 "United Kingdom"
- ENG_authoritarian_democrat_DEF:1 "The United Kingdom"
+ ENG_authoritarian_democrat_DEF:1 "the United Kingdom"
  ENG_orthodox_marxist:0 "Union of Britain"
  ENG_orthodox_marxist_DEF:0 "the Union of Britain"
  ENG_revolutionary_socialist:0 "Union of Britain"
  ENG_revolutionary_socialist_DEF:0 "the Union of Britain"
  ENG_social_democrat:0 "United Kingdom"
- ENG_social_democrat_DEF:0 "The United Kingdom"
+ ENG_social_democrat_DEF:0 "the United Kingdom"
  ENG_social_liberal:0 "United Kingdom"
- ENG_social_liberal_DEF:0 "The United Kingdom"
+ ENG_social_liberal_DEF:0 "the United Kingdom"
  ENG_classic_liberal:0 "United Kingdom"
- ENG_classic_liberal_DEF:0 "The United Kingdom"
+ ENG_classic_liberal_DEF:0 "the United Kingdom"
  ENG_vanguardist:0 "Union of Britain"
  ENG_vanguardist_DEF:0 "the Union of Britain"
  
@@ -79,6 +79,7 @@ ENG_Winston_Churchill_sec:0 "Winston Spencer-Churchill"
 ENG_Leo_Amery_sec:0 "Leopold Amery"
 ENG_George_Lambert_int:0 "George Lambert"
 
+
 #Ideas
 ENG_Legacy_of_the_Great_War:0 "The War to end all Wars"
 ENG_Legacy_of_the_Great_War_desc:0 "Though Britain may have emerged victorious in the Great War it was at an immense cost and for almost nothing in return, a generation lost and the once invincible Empire shackled to crippling debt and the national psyche deeply scarred. The resulting impact has made the British people unwilling to intervene on the world stage or to persue a policy of rearnament, crippling the ability for the government to rebuild the woefully understrength army."
@@ -97,6 +98,7 @@ ENG_disorganised_defence_desc:0 "Following the abolition of conscription the Bri
 
 ENG_the_officers_plot:0 "The Officers Plot"
 ENG_the_officers_plot_desc:0 "Whilst many in high society think that the greatest threat Britain faces is across the channel from Communist France they are mistaken. Rather it is a cabal of disgruntled officers from across the British Army, dissatisifed at the way the Liberals have run the country and inspired by the coup in Germany. Though there existance is an open secret across British society there size, strength and true intentions are still unknown though it is feared that the people will know shortly."
+
 
 
 #Focuses
@@ -120,6 +122,7 @@ uk.3.c:0 "Liberal! Four more years!"
 
 #Descriptions
 POLITICS_GEORGE_V_DESC:0 "WIP \n\nGeorge was not supposed to be King and was originally destined to serve in the navy until the death of his brother Albert Victor in 1892. Following his death he became Duke of York and after the death of his Grandmother Queen Victoria he became Prince of Wales. Despite his newfound position though he lived a quite life in the rather unimpressive York Cottege, a marked contrast to his father King Edward Vii.\n\n In 1910 following the death of his father Edward Vii he became King. His reign has seen the British Empire face its greatest trials, Irish Nationalism, the rise of socialism and far right movements and of course the Great War and its aftermath. These have all put a great strain on the King, his health having declined significantly through the 1920s and early 1930s, he is not expected to live for much longer."
+
 
 #cosmetic tags
  

@@ -288,11 +288,10 @@ head_of_intel = {
 			cancel_if_invalid = yes
 		}
 }
-
 country = {
 
 		ENG_Legacy_of_the_Great_War = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -300,11 +299,11 @@ country = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 			removal_cost = -1
 
 			picture = ENG_the_war_to_end_all_wars
-						
+
 			modifier = {
 				war_support_factor = -0.2
 				production_speed_arms_factory_factor = -0.4
@@ -314,7 +313,7 @@ country = {
 		}
 
 		ENG_sluggish_economy = {
-			
+
 			allowed = {
 				always = no
 			}
@@ -322,34 +321,34 @@ country = {
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 			removal_cost = -1
 
 			picture = great_depression
-						
+
 			modifier = {
 				consumer_goods_factor = 0.1
 				industrial_capacity_factory = -0.15
 				industrial_capacity_dockyard = -0.15
 			}
 		}
-		
+
 		stiff_upper_lip = {
-			
+
 			allowed = {
 				always = no
 			}
-			
+
 			removal_cost = -1
-			
+
 			allowed_civil_war = {
 				always = yes
 			}
-			
+
 			modifier = {
 				drift_defence_factor = 0.5
 			}
-						
+
 		}
 
 		ENG_the_grand_fleet = {
@@ -363,7 +362,7 @@ country = {
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				consumer_goods_factor = 0.05	
 
@@ -383,7 +382,7 @@ country = {
 				ship_hull_light = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				
+
 				ship_hull_submarine = {
 					build_cost_ic = -0.05 instant = yes
 				}
@@ -408,7 +407,7 @@ country = {
 			}
 
 			picture = eng_guided_by_britain
-			
+
 			removal_cost = -1	
 
 		}
@@ -432,7 +431,7 @@ country = {
 			}
 
 			picture = ast_volunteer_defence_corps
-			
+
 			removal_cost = -1	
 
 		}
@@ -452,7 +451,7 @@ country = {
 			}
 
 			picture = chi_incompetent_officers
-			
+
 			removal_cost = -1	
 
 		}

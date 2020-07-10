@@ -102,12 +102,12 @@ if = {
 }
 
 add_ideas = {
-ENG_Legacy_of_the_Great_War
-ENG_sluggish_economy
-ENG_Decentralised_Empire
-ENG_the_grand_fleet
-ENG_disorganised_defence
-ENG_the_officers_plot
+	ENG_Legacy_of_the_Great_War
+        ENG_sluggish_economy
+        ENG_Decentralised_Empire
+        ENG_the_grand_fleet
+        ENG_disorganised_defence
+        ENG_the_officers_plot
         ENG_Herbert_Samuel_hog
         ENG_David_Lloyd_George_frm
         ENG_Isaac_Foot_eco
