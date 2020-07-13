@@ -1,16 +1,16 @@
 ﻿l_english: 
 
 #Parties
-ENG_national_populist_party:0 "National Populisti"
-ENG_national_populist_party_long:0 "British National Populisti"
+ENG_national_populist_party:0 "Social Credit"
+ENG_national_populist_party_long:0 "Social Credit Party"
 ENG_vanguardist_party:0 "CPGB-Jacobins"
 ENG_vanguardist_party_long:0 "Communist Party of Great Britain - Jacobin faction"
 ENG_social_conservative_party:0 "Tories"
 ENG_social_conservative_party_long:0 "Conservative and Unionist Party"
-ENG_paternal_autocrat_party:0 "British Army"
-ENG_paternal_autocrat_party_long:0 "British Army"
-ENG_authoritarian_democrat_party:0 "Constitutionalists"
-ENG_authoritarian_democrat_party_long:0 "Constitutionalists"
+ENG_paternal_autocrat_party:0 "Imperial League"
+ENG_paternal_autocrat_party_long:0 "Imperial League"
+ENG_authoritarian_democrat_party:0 "National Party"
+ENG_authoritarian_democrat_party_long:0 "National Party"
 ENG_social_democrat_party:0 "Labour"
 ENG_social_democrat_party_long:0 "Labour Party"
 ENG_social_liberal_party:0 "Liberals"
@@ -19,18 +19,18 @@ ENG_classic_liberal_party:0 "Liberal Nationals"
 ENG_classic_liberal_party_long:0 "Liberal National Party"
 ENG_totalitarian_socialist_party:0 "International League"
 ENG_totalitarian_socialist_party_long:0 "Workers' International League"
-ENG_revolutionary_socialist_party:0 "CPGB-Leninists"
-ENG_revolutionary_socialist_party_long:0 "Communist Party of Great Britain - Leninist faction"
-ENG_orthodox_marxist_party:0 "Independent Labour"
-ENG_orthodox_marxist_party_long:0 "Independent Labour Party"
+ENG_revolutionary_socialist_party:0 "Independent Labour"
+ENG_revolutionary_socialist_party_long:0 "Independent Labour Party"
+ENG_orthodox_marxist_party:0 "CPGB-Leninists"
+ENG_orthodox_marxist_party_long:0 "Communist Party of Great Britain - Leninist faction"
 
 #Country Names
  ENG_national_populist:0 "Great Britain"
  ENG_national_populist_DEF:0 "Great Britain"
  ENG_totalitarian_socialist:0 "Union of Britain"
  ENG_totalitarian_socialist_DEF:0 "the Union of Britain"
- ENG_paternal_autocrat:0 "Great Britain"
- ENG_paternal_autocrat_DEF:0 "Great Britain"
+ ENG_paternal_autocrat:0 "United Kingdom"
+ ENG_paternal_autocrat_DEF:0 "the United Kingdom"
  ENG_social_conservative:0 "United Kingdom"
  ENG_social_conservative_DEF:0 "the United Kingdom"
  ENG_authoritarian_democrat:1 "United Kingdom"
@@ -65,12 +65,41 @@ ENG_orthodox_marxist_party_long:0 "Independent Labour Party"
 
 #Ministers
 #should be reintegrated
-ENG_Herbert_Samuel_hog:0 "Herbert Samuel, 1st Viscount Samuel"
-ENG_Oswald_Mosley_hog:0 "Sir Oswald Mosley, 6th Baronet"
-ENG_David_Lloyd_George_frm:0 "David Lloyd George, 1st Earl Lloyd-George of Dwyfor"
-ENG_Winston_Churchill_sec:0 "Winston Spencer-Churchill"
+ENG_Herbert_Samuel_hog:0 "Herbert Samuel"
+ENG_Clement_Attlee_hog:0 "Clement Attlee"
+ENG_Henry_Page_Croft_hog:0 "Henry Page Croft"
+ENG_David_Lloyd_George_frm:0 "David Lloyd George"
+ENG_Ernest_Bevin_frm:0 "Ernest Bevin"
+ENG_Anthony_Eden_frm:0 "Anthony Eden"
 ENG_Isaac_Foot_eco:0 "Isaac Foot"
-ENG_George_Lambert_int:0 "George Lambert, 1st Viscount Lambert"
+ENG_Herbert_Morrison_eco:0 "Herbert Morrison"
+ENG_Kingsley_Wood_eco:0 "Kingsley Wood"
+ENG_James_Chuter_Ede_sec:0 "James Chuter Ede"
+ENG_Winston_Churchill_sec:0 "Winston Spencer-Churchill"
+ENG_Leo_Amery_sec:0 "Leopold Amery"
+ENG_George_Lambert_int:0 "George Lambert"
+
+
+#Ideas
+ENG_Legacy_of_the_Great_War:0 "The War to end all Wars"
+ENG_Legacy_of_the_Great_War_desc:0 "Though Britain may have emerged victorious in the Great War it was at an immense cost and for almost nothing in return, a generation lost and the once invincible Empire shackled to crippling debt and the national psyche deeply scarred. The resulting impact has made the British people unwilling to intervene on the world stage or to persue a policy of rearnament, crippling the ability for the government to rebuild the woefully understrength army."
+
+ENG_sluggish_economy:0 "Sluggish Economy"
+ENG_sluggish_economy_desc:0 "Britain in the early 1920s was plunged into economic ruin due to massive war debts to America, a fall in global trade and successive stock market shocks. Despite a massive attempt by the Liberals to restore prosperity this has had a limited effect and Britain is still burdened with a weak and uncompetitive economy."
+
+ENG_Decentralised_Empire:0 "Decentralised Empire"
+ENG_Decentralised_Empire_desc:0 "The 1918 Imperial Conference led to the largest series of changes to Imperial governance in recent memory as the dominions were given full self governance, India was granted home rule and the colonies were given increased local control over there affairs (though still with appointed govenors). This has led to a period of surprising stability throughout the Empire and for London the costs of maintaining it are far less. There are issues however as the Empire now lacks a clear centre of authority or clear goals in mind, furthermore several colonial govenors have entrenched themselves in there colonies and openly defying orders from London, but these issues will surely pass right?"
+
+ENG_the_grand_fleet:0 "The Grand Fleet"
+ENG_the_grand_fleet_desc:0 "Though prehaps not as dominant as it once was the Royal Navy still stands as the largest and most formidable fleet on the planet boasting a vast number of capital ships. Though costly to the treasury its benefits to defence of both the British Isles and the Empire are seen by manny to greatly outway it. Furthermore the experiance from maintaining such a massive fleet has given Britain an advantage in shipbuilding and naval warfare."
+
+ENG_disorganised_defence:0 "Disorganised Militias"
+ENG_disorganised_defence_desc:0 "Following the abolition of conscription the British Army adopted a system of local part time militias in order to bolster the tiny professional army intended to be called up in the event of a major war. However there implementation was poorly done by the apethetic liberal government and lacked the support of the people. As a result instead of the national system of defence intended there are scattered units across the country who often hugely vary in quality, many are under the control of extremist groups such as the Imperial Leagues and the Greenshirts. This is not to mention the crippling effect it has on the regualr armies manpower pool. Something must be done!"
+
+ENG_the_officers_plot:0 "The Officers Plot"
+ENG_the_officers_plot_desc:0 "Whilst many in high society think that the greatest threat Britain faces is across the channel from Communist France they are mistaken. Rather it is a cabal of disgruntled officers from across the British Army, dissatisifed at the way the Liberals have run the country and inspired by the coup in Germany. Though there existance is an open secret across British society there size, strength and true intentions are still unknown though it is feared that the people will know shortly."
+
+
 
 #Focuses
 #should be reintegrated
@@ -87,10 +116,13 @@ uk.2.a:0 "Rule Britannia! Britannia rules the waves!"
 
 uk.3.t:0 "Elections of 1936"
 uk.3.d:0 "The elections are finally here. Which party will win? (WIP text)"
-uk.3.a:0 "The Labour Party, led by Oswald Mosley, wins!"
-uk.3.b:0 "The Conservative Party"
+uk.3.a:0 "Labour! No more war!"
+uk.3.b:0 "The Tories! Down with France!"
+uk.3.c:0 "Liberal! Four more years!"
 
 #Descriptions
+POLITICS_GEORGE_V_DESC:0 "WIP \n\nGeorge was not supposed to be King and was originally destined to serve in the navy until the death of his brother Albert Victor in 1892. Following his death he became Duke of York and after the death of his Grandmother Queen Victoria he became Prince of Wales. Despite his newfound position though he lived a quite life in the rather unimpressive York Cottege, a marked contrast to his father King Edward Vii.\n\n In 1910 following the death of his father Edward Vii he became King. His reign has seen the British Empire face its greatest trials, Irish Nationalism, the rise of socialism and far right movements and of course the Great War and its aftermath. These have all put a great strain on the King, his health having declined significantly through the 1920s and early 1930s, he is not expected to live for much longer."
+
 
 #cosmetic tags
  

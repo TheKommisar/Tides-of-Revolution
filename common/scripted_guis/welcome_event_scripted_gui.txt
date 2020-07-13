@@ -1,0 +1,18 @@
+scripted_gui = {
+	
+	welcome_event_scripted_gui = {
+		context_type = player_context
+		window_name = "welcome_event_container"
+
+		visible = {
+			has_country_flag = show_welcome_event
+		}
+
+		effects = {
+			continue_button_click = {
+				clr_country_flag = show_welcome_event
+				country_event = intro.1 # intro Event
+			}
+		}
+	}
+}

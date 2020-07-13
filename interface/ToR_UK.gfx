@@ -8,8 +8,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_ENG_Oswald_Mosley_hog"
-		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Oswald_Mosley.tga"
+		name = "GFX_idea_ENG_Clement_Attlee_hog"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Clement_Attlee.tga"
+	}
+
+        spriteType = {
+		name = "GFX_idea_ENG_Henry_Page_Croft_hog"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Henry_Page_Croft.tga"
 	}
      
         spriteType = {
@@ -18,13 +23,43 @@ spriteTypes = {
 	}
 
         spriteType = {
+		name = "GFX_idea_ENG_Ernest_Bevin_frm"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Ernest_Bevin.tga"
+	}
+
+        spriteType = {
+		name = "GFX_idea_ENG_Anthony_Eden_frm"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Anthony_Eden.tga"
+	}
+
+        spriteType = {
 		name = "GFX_idea_ENG_Isaac_Foot_eco"
 		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Isaac_Foot.tga"
+	}
+
+        spriteType = {
+		name = "GFX_idea_ENG_Herbert_Morrison_eco"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Herbert_Morrison.tga"
+	}
+
+        spriteType = {
+		name = "GFX_idea_ENG_Kingsley_Wood_eco"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Kingsley_Wood.tga"
 	}
         
         spriteType = {
 		name = "GFX_idea_ENG_Winston_Churchill_sec"
 		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Winston_Churchill.tga"
+	}
+
+        spriteType = {
+		name = "GFX_idea_ENG_James_Chuter_Ede_sec"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_James_Chuter_Ede.tga"
+	}
+
+        spriteType = {
+		name = "GFX_idea_ENG_Leo_Amery_sec"
+		texturefile = "gfx/interface/ideas/ENG/ministers/ENG_Leopold_Amery.tga"
 	}
 
         spriteType = {
