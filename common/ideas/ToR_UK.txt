@@ -23,48 +23,25 @@ head_of_government = {
 			}
 			cancel_if_invalid = yes
 		}
-        ENG_Clement_Attlee_hog = {
+        ENG_Oswald_Mosley_hog = {
 				
 			allowed = { original_tag = ENG }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					NOT = { has_country_flag = Clement_Attlee_dead }
+					NOT = { has_country_flag = Oswald_Mosley_dead }
 					has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				NOT = { has_country_flag = Clement_Attlee_dead }
+				NOT = { has_country_flag = Oswald_Mosley_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Clement_Attlee_hog"
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Oswald_Mosley_hog"
 			}
 			traits = {
 				hog_naive_optimist
                                 social_democrat
-                                head_of_government
-			}
-			cancel_if_invalid = yes
-		}
-          ENG_Henry_Page_Croft_hog = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Henry_Page_Croft_dead }
-					has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Henry_Page_Croft_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Henry_Page_Croft_hog"
-			}
-			traits = {
-				hog_naive_optimist
-                                social_conservative
                                 head_of_government
 			}
 			cancel_if_invalid = yes
@@ -86,48 +63,6 @@ foreign_minister = {
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea ENG_David_Lloyd_George_frm"
-			}
-			traits = {
-				frm_skilled_negotiator
-			}
-			cancel_if_invalid = yes
-		}
-          ENG_Ernest_Bevin_frm = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Ernest_Bevin_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Ernest_Bevin_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Ernest_Bevin_frm"
-			}
-			traits = {
-				frm_skilled_negotiator
-			}
-			cancel_if_invalid = yes
-		}
-          ENG_Anthony_Eden_frm = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Anthony_Eden_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Anthony_Eden_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Anthony_Eden_frm"
 			}
 			traits = {
 				frm_skilled_negotiator
@@ -157,48 +92,6 @@ economy_minister = {
 			}
 			cancel_if_invalid = yes
 		}
-            ENG_Herbert_Morrison_eco = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Herbert_Morrison_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Herbert_Morrison_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Herbert_Morrison_eco"
-			}
-			traits = {
-				eco_laissez_faire_capitalist
-			}
-			cancel_if_invalid = yes
-		}
-            ENG_Kingsley_Wood_eco = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Kingsley_Wood_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Kingsley_Wood_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Kingsley_Wood_eco"
-			}
-			traits = {
-				eco_laissez_faire_capitalist
-			}
-			cancel_if_invalid = yes
-		}
 }
 security_minister = {
            ENG_Winston_Churchill_sec = {
@@ -219,48 +112,6 @@ security_minister = {
 			}
 			traits = {
 				sec_british_bulldog
-			}
-			cancel_if_invalid = yes
-		}
-            ENG_James_Chuter_Ede_sec = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = James_Chuter_Ede_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = James_Chuter_Ede_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_James_Chuter_Ede_sec"
-			}
-			traits = {
-				
-			}
-			cancel_if_invalid = yes
-		}
-           ENG_Leo_Amery_sec = {
-				
-			allowed = { original_tag = ENG }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Leo_Amery_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Leo_Amery_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Leo_Amery_sec"
-			}
-			traits = {
-				
 			}
 			cancel_if_invalid = yes
 		}
@@ -288,175 +139,3 @@ head_of_intel = {
 			cancel_if_invalid = yes
 		}
 }
-country = {
-
-		ENG_Legacy_of_the_Great_War = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = ENG_the_war_to_end_all_wars
-
-			modifier = {
-				war_support_factor = -0.2
-				production_speed_arms_factory_factor = -0.4
-				production_speed_dockyard_factor = -0.2
-				conversion_cost_civ_to_mil_factor= 0.4
-			}
-		}
-
-		ENG_sluggish_economy = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = great_depression
-
-			modifier = {
-				consumer_goods_factor = 0.1
-				industrial_capacity_factory = -0.15
-				industrial_capacity_dockyard = -0.15
-			}
-		}
-
-		stiff_upper_lip = {
-
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				drift_defence_factor = 0.5
-			}
-
-		}
-
-		ENG_the_grand_fleet = {
-			picture = generic_sea_focused_navy
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				consumer_goods_factor = 0.05	
-
-			}
-
-			equipment_bonus = {
-
-				ship_hull_heavy = {
-					build_cost_ic = -0.05 instant = yes
-				}
-				ship_hull_carrier = {
-					build_cost_ic = -0.05 instant = yes
-				}
-				ship_hull_cruiser = {
-					build_cost_ic = -0.05 instant = yes
-				}
-				ship_hull_light = {
-					build_cost_ic = -0.05 instant = yes
-				}
-
-				ship_hull_submarine = {
-					build_cost_ic = -0.05 instant = yes
-				}
-			}
-		}
-
-		ENG_Decentralised_Empire = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				stability_factor = 0.10
-				consumer_goods_factor = -0.05
-				conscription_factor = -0.05
-
-			}
-
-			picture = eng_guided_by_britain
-
-			removal_cost = -1	
-
-		}
-
-
-		ENG_disorganised_defence = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				conscription_factor = -0.3
-				army_core_defence_factor = -0.05
-				army_core_attack_factor = -0.05
-
-			}
-
-			picture = ast_volunteer_defence_corps
-
-			removal_cost = -1	
-
-		}
-
-		ENG_the_officers_plot = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-
-			}
-
-			picture = chi_incompetent_officers
-
-			removal_cost = -1	
-
-		}
-
-
-
-
- }

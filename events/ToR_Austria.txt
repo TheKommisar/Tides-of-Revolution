@@ -38,6 +38,7 @@ country_event = { # intervene in Italy?
 		name = austriahungary.100.a
                 add_political_power = -20
                 AUS = { transfer_state = 160 }
+                AUS = { transfer_state = 159 }
                 country_event = { days = 5 id = austriahungary.101 }
                 
 	}
