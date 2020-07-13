@@ -57,7 +57,7 @@ news_event = {
 	desc = tornews.3.d
 
     picture = news_event_ast_army
-    
+
 	major = yes
 
 	is_triggered_only = yes

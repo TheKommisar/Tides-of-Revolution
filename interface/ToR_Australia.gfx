@@ -5,7 +5,7 @@ spriteTypes = {
 #national spirits
 spriteType = {
 		name = "GFX_idea_AST_emu_war"
-		texturefile = "gfx/interface/ideas/AST/second_emu_war.tga"
+		texturefile = "gfx/interface/ideas/AST/emu_infestation.DDS"
 	}
 spriteType = {
 		name = "GFX_idea_legacy_of_the_anzacs"

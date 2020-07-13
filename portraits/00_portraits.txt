@@ -12,21 +12,12 @@ default = {
 		#female = {
 		#}
 	#}
-
-	operative = {
-		male = {
-			"gfx/leaders/operative_unknown.dds"
-		}
-		female = {
-			"gfx/leaders/operative_unknown.dds"
-		}
-	}
-
+	
 	male = {
 		"gfx/leaders/leader_unknown.dds"
 	}
 	female = {
-		"gfx/leaders/leader_unknown_female.dds"
+		"gfx/leaders/leader_unknown.dds"
 	}
 }
 
@@ -133,7 +124,7 @@ continent = {
 	}
 
 	political = {
-                totalitarian_socialist  = {
+		totalitarian_socialist  = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
 			}
@@ -532,7 +523,7 @@ continent = {
 					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
 			}
 		}
-	}		
+	}	
 
 }
 
@@ -976,7 +967,7 @@ PAK = {
 	}
 	
 	political = {
-		totalitarian_socialist  = {
+                totalitarian_socialist  = {
 				male = { 
 					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds" 
 			}
@@ -1034,7 +1025,7 @@ PAK = {
 	}
 }
 
-SPA = {
+SPR = {
 	army = {
 		male = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
@@ -1287,7 +1278,7 @@ GEO = {
 					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
 			}
 		}
-	}		
+	}	
 }
 
 BAH = {

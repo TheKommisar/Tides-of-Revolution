@@ -641,3 +641,7 @@ SHN = {
 	color = rgb { 100 147 179 }
 	color_ui = rgb { 100 147 179 }
 }
+EQA = {
+	color = rgb { 47 104 47 }
+	color_ui = rgb { 47 104 47 }
+}

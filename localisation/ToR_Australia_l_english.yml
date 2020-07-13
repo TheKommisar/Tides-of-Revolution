@@ -3,7 +3,7 @@
 #Parties
 AST_national_populist_party:0 "Centre Party"
 AST_national_populist_party_long:0 "Centre Party"
-AST_vanguardist_party:0 "CPA"
+AST_vanguardist_party:0 "CPA (Bolsheviks)"
 AST_vanguardist_party_long:0 "Communist Party of Australia"
 AST_social_conservative_party:0 "Country Party"
 AST_social_conservative_party_long:0 "Australian Country Party"
@@ -12,16 +12,16 @@ AST_paternal_autocrat_party_long:0 "Military Junta"
 AST_authoritarian_democrat_party:0 "AFM"
 AST_authoritarian_democrat_party_long:0 "Australia First Movement"
 AST_social_democrat_party:0 "Lang Labor"
-AST_social_democrat_party_long:0 "Australian Labor Party"
+AST_social_democrat_party_long:0 "Australian Labor Party (New South Wales)"
 AST_social_liberal_party:0 "Labor"
-AST_social_liberal_party_long:0 "Australian Labor Party"
+AST_social_liberal_party_long:0 "Australian Labor Party (Hughes-Evans)"
 AST_classic_liberal_party:0 "UAP"
 AST_classic_liberal_party_long:0 "United Australia Party"
-AST_totalitarian_socialist_party:0 "CPA"
+AST_totalitarian_socialist_party:0 "CPA (National Vanguardist)"
 AST_totalitarian_socialist_party_long:0 "Communist Party of Australia"
 AST_revolutionary_socialist_party:0 "Radical Labor"
-AST_revolutionary_socialist_party_long:0 "Australian Labor Party (Radical Wing)"
-AST_orthodox_marxist_party:0 "CPA"
+AST_revolutionary_socialist_party_long:0 "Australian Labor Party (Radicals)"
+AST_orthodox_marxist_party:0 "CPA (Unionists)"
 AST_orthodox_marxist_party_long:0 "Communist Party of Australia"
 
 #Country Names
@@ -63,15 +63,14 @@ AST_vanguardist_ADJ:0 "Australian"
 #######events
 
 australia.1.t:0 "Farmers Agitated by Emus"
-australia.1.d:0 "A letter arrived from the Governor of Western Australia today regarding the emu threat persisting throughout the countryside. His letter, in short, described the current situation Australian farmers have had currently battling the emu threat \n\nConsidering how we lost the First Emu War, the government is split 50/50 on whether to intervene militarily. Some argue leaving the farmers to deal with the birds is the better choice, while others say that having learnt from misakes of the first war, we can avoid them, and win against the emus. A third option involves placing a bounty out for the birds, and although it may not be as effective as intervening it could certainly save us embarassment. The latter option will cull the emu threat faster, but we risk wasting resources should we fail." 
+australia.1.d:0 "A letter arrived from the Governor of Western New Zealand today regarding the emu threat persisting throughout the countryside. His letter, in short, described the current situation New Zealander farmers have had currently battling the emu threat \n\nConsidering how we lost the First Emu War, the government is split 50/50 on whether to intervene militarily. Some argue leaving the farmers to deal with the birds is the better choice, while others say that having learnt from misakes of the first war, we can avoid them, and win against the emus. A third option involves placing a bounty out for the birds, and although it may not be as effective as intervening it could certainly save us embarassment. The latter option will cull the emu threat faster, but we risk wasting resources should we fail." 
 australia.1.a:0 "Sit by and do nothing"
-australia.1.b:0 "Intervene"
-australia.1.c:0 "Make them kill the emus"
+australia.1.b:0 "Intervene with the army"
+australia.1.c:0 "Make the farmers kill the emus"
  
 ###########################################ideas
 
-AST_emu_war:0 "Second Great Emu War"
-AST_emu_war_desc:0 "Those damned emus are at it again! Out in the outback, an alliance of emus have decided to wage war against our farmers and our crops, wreaking havoc by eating all of the plants!"
+AST_emu_war:0 "Emu infestation"
 
 legacy_of_the_anzacs:0 "Legacy of the Anzacs"
 legacy_of_the_anzacs_desc:0 "Australians and New Zealanders fought and died together in the Great War at Gallipoli, the Middle East, and France, displaying the true qualities of mateship and of our people. We shall never forget their sacrifices. Lest we forget."

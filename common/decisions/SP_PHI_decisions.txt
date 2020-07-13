@@ -1,0 +1,38 @@
+PHI_war_decisions = {
+
+    PHI_whitepeace_uk = {
+        allowed = { original_tag = PHI }
+
+        available = { 
+            BEA = { exists = no }
+            custom_trigger_tooltip = PHI_controls_british_holdings
+
+            hidden_trigger = {
+                has_full_control_of = 336 
+                has_full_control_of = 819
+                has_full_control_of = 820
+                has_full_control_of = 821
+                has_full_control_of = 333
+                has_full_control_of = 944
+
+                has_full_control_of = 334
+                has_full_control_of = 943
+                has_full_control_of = 951
+                has_full_control_of = 790
+                has_full_control_of = 672
+                has_full_control_of = 797
+                has_full_control_of = 335
+                has_full_control_of = 711
+                has_full_control_of = 822
+                has_full_control_of = 823
+                has_full_control_of = 667
+
+                has_full_control_of = 288
+                has_full_control_of = 640
+                has_full_control_of = 812
+                has_full_control_of = 805 
+            }
+        }
+    }
+
+}
