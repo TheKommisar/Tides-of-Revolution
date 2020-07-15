@@ -82,7 +82,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Jan Smuts"
+	name = "George Villiers"
 	desc = ""
 	picture = "no_portrait.tga"
 	expire = "1953.3.1"
