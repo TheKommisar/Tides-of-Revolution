@@ -29,10 +29,10 @@ set_popularities = {
         social_democrat = 4
         social_liberal = 10
         classic_liberal = 17
-        social_conservative = 31
-        authoritarian_democrat = 10
-        paternal_autocrat = 17
-        national_populist = 3
+        social_conservative = 10
+        authoritarian_democrat = 18
+        paternal_autocrat = 24
+        national_populist = 9
 
 }
 
@@ -45,5 +45,35 @@ create_country_leader = {
 		#
 	}
 }
+create_field_marshal = {
+	name = "Pavel Avalov"
+	picture = "Portrait_Baltic_Pavel_Bermondt_Avalov.tga"
+	traits = { }
+	skill = 4
+	attack_skill = 4
+ 	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
 
+create_corps_commander = {
+	name = "Anatol von Lieven"
+	picture = "Portrait_Baltic_Anatol_von_Lieven.tga"
+	traits = {  }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Josef Bischoff"
+	picture = "Portrait_Baltic_Joseph_Bischoff.tga"
+	traits = {  }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
 set_stability = 0.50
