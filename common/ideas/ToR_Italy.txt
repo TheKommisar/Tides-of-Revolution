@@ -1,0 +1,21 @@
+ideas = {
+country = {
+        ITA_national_unity_government = {
+				
+			allowed = {
+				original_tag = ITA
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+                                 stability_factor = 0.20
+                                 political_power_factor = 0.25	
+			}
+		}
+}
+}

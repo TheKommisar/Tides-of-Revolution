@@ -82,6 +82,13 @@ spriteTypes = {
 		name = "GFX_bavaria"
 		texturefile = "gfx/interface/goals/bavaria.dds"
 	}
-
-
+        SpriteType = { 
+		name = "GFX_fight_monarchism"
+		texturefile = "gfx/interface/goals/fight_monarchism.tga"
+	}
+                SpriteType = { 
+		name = "GFX_militarize_fgci"
+		texturefile = "gfx/interface/goals/SRI/SRI_militarize_fgci.tga"
+	}
+   
 }

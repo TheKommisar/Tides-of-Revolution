@@ -137,17 +137,18 @@ bookmarks = {
 
 
 		# minors from DLC ####
-		"PHI"={
+		"AST"={
 			minor = yes
-			history = "PHI_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
+			history = "AST_GATHERING_STORM_DESC"
+			ideology = classic_liberal
 			ideas = {
-				
+				legacy_of_the_anzacs
+                                AST_economic_depression
 			}
 			focuses = {
-				#POL_the_baltic_alliance
-				#POL_draw_closer_to_britain
-				#POL_seek_accommodation_with_germany
+				AST_1937_elections
+				AST_anzac_spirit
+				AST_recovered_economy
 			}
 		}
 		

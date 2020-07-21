@@ -15,7 +15,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_avanti_italiano
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_SRI_irridentism
 		available = {
 		    has_war_with = ITA
 		}
@@ -32,7 +32,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_unite_the_workers
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_syndicalist_workers
 		prerequisite = { focus = SRI_avanti_italiano }
 		available = {
 		}
@@ -50,7 +50,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_militarize_the_fgci
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_militarize_fgci
 		prerequisite = { focus = SRI_unite_the_workers }
 		available = {
 		}
@@ -68,7 +68,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_strengthen_the_militias
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_chi_army_reform
 		prerequisite = { focus = SRI_unite_the_workers }
 		available = {
 		}
@@ -86,7 +86,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_fight_monarchism
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_fight_monarchism
 		prerequisite = { focus = SRI_militarize_the_fgci }
 		prerequisite = { focus = SRI_strengthen_the_militias }
 		available = {
@@ -105,7 +105,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_look_abroad
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = SRI_avanti_italiano }
 		available = {
 		}
@@ -123,7 +123,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_brigate_internazionali
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_SWI_international_aid
 		prerequisite = { focus = SRI_look_abroad }
 		available = {
 		}
@@ -141,7 +141,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_ask_for_french_material_support
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_focus_chi_reach_out_to_france
 		prerequisite = { focus = SRI_look_abroad }
 		available = {
 		}
@@ -159,7 +159,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_together_against_capitalism
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = SRI_ask_for_french_material_support }
 		prerequisite = { focus = SRI_brigate_internazionali }
 		available = {
@@ -178,7 +178,7 @@ focus_tree = {
 
 	focus = {
 		id = SRI_the_revolution_triumphs
-		icon = GFX_goal_tripartite_pact
+		icon = GFX_SRI_united
 		prerequisite = { focus = SRI_together_against_capitalism }
 		prerequisite = { focus = SRI_fight_monarchism }
 		available = {

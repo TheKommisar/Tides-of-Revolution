@@ -7,7 +7,7 @@ ITA_vanguardist_party:0 "Massimalisti"
 ITA_vanguardist_party_long:0 "Partito Comunista d'Italia fazione Massimalista"
 ITA_orthodox_marxist_party:0 "PCI"
 ITA_orthodox_marxist_party_long:0 "Partito Comunista d'Italia"
-ITA_revolutionary_socialist_socialist_party:0 "PSI"
+ITA_revolutionary_socialist_party:0 "PSI"
 ITA_revolutionary_socialist_party_long:0 "Partito Socialista Italiano"
 ITA_social_democrat_party:0 "PSU"
 ITA_social_democrat_party_long:0 "Partito Socialista Unitario"
@@ -66,6 +66,8 @@ ITA_vanguardist_ADJ:0 "Italian"
 #Ministers
 #should be reintegrated
 
+ITA_national_unity_government:0 "National Unity Government"
+ITA_national_unity_government_desc:0 "The National Unity government, known to the people as the tri-party coalition, was created in 1923 in order to prevent the takeover of radicalism in the country. Consisting of the Partito Popolare Italiano, Partito Liberale Italiano and the Partito Socialista Unitario, it has won nearly every election since its founding, to the surprise of many."
 
  
 #Focuses
@@ -74,11 +76,33 @@ ITA_vanguardist_ADJ:0 "Italian"
 #Events
 #should be reintegrated
 
+italy.1.t:0 "The Italian Situation"
+italy.1.d:0 "The Kingdom of Italy joined the Great War on the side of the Entente on May 23, 1915. Almost immediately, fighting began along Italy’s border with Austria, with the Italian army hoping to quickly bring the Austrians to their knees with a surprise offensive. Unsurprisingly, this failed, and soon the Alpine Front as it was known degraded into trench warfare, which would continue for the next 5 years. In 1920, with the European revolutions in full swing, the Treaty of Versailles was signed between the Entente and Central Powers restoring mainly the status quo. Italy, which had only been able to gain a slice of Turkey, Tunisia and an even smaller slice of Austria, entered a period of crisis known as the Red Biennium, where many expected the country to fall to civil war. This period would only end in 1925 with the formation of the tri-party coalition, consisting of the Partito Popolare Italiano, Partito Liberale Italiano and Partito Socialista Unitario. The 3 party coalition was formed to prevent a radical takeover and has won every election since then.\n\n But all is far from stable in the kingdom, with the revolution in France and exit from the Great War with nearly nothing gained having polarized Italian politics to the point where many fear a civil war would break out at any day. The Great Depression in 1928 ripped through the Italian economy, the shockwaves of which have still not been resolved.\nIn 1934, a corruption scandal involving King Victor Emmanuel III, the tri-party coalition and the army forced the king to abdicate and elections to be held in order to save face. Between 1934 and 1936, there have been 5 elections; the most recent were held in September 1935, and resulted in the re-election of former Prime Minister Francesco Saverio Nitti. Nitti had rode into power on promises to reform the political and social system and root out corruption, though many are questioning Nitti’s effectiveness as he has not yet been able to carry them out."
+italy.1.a:0 "Viva Italia!"
+
+
+
 italy.2.t:0 "Northern Revolution"
 italy.2.d:0 "A revolution has begun. Years of division and political tensions have finally culminated, as today several regions of northern Italy, under the leadership of noted communist and philosopher Antonio Gramsci have declared a revolution against the Italian government. Gramsci, who had been residing in exile in France, made the declaration over national radio in Turin, and urged workers to take up arms against the government. Within hours of the declaration, workers across the north rallied in major cities, occupying major government buildings and military installations. The Venice garrison, which itself saw combat, has fortunately managed to prevent the city’s capture by rebel forces, yet as of late there has been no communication from the garrisons in Bologna or Milan.\n\nGiven how quickly the revolutionaries have managed to occupy much of the country in so little time, many believe the revolution may be the work of the socialist government of France, located directly to the east. This rumour is extremely plausible, as the mountain ranges and forests of the north are optimal locations for weapons and munitions smuggling. But for now there is nothing we can do, as we are at war once more."
 italy.2.a:0 "Death to the Communists!"
 italy.2.b:0 "Death to the Monarchists!"
 
+italy.6.t:0 "Francesco Saverio Nitti dismissed by No Confidence vote"
+italy.6.d:0 "Although having been reelected in late September of last year, the Nitti administration, riding into office on promises of political and social reform, have failed to deliver the promises of their campaign, as well as having been accused of corruption. Nitti, who had served as Prime Minister intermittently since 1919 was dismissed in a near-unanimous vote of No Confidence. On the same day, fresh elections were announced by the Senate with King Umberto II's approval to be held in exactly a month, in order to decide on a new cabinet to lead the country. Nitti's role as Prime Minister will be filled by Minister of the Interior Ivanoe Bonomi for the time being."   
+italy.6.a:0 "How many elections will we have this year?"
+
+italy.7.t:0 "Disagreements over the army policy"
+italy.7.d:0 "With only half a month left until election day, debates over the coalition's policies have begun to spark divisive exchange between the members of the tri-party coalition. One such policy is the army policy, originally written by conservative members of Nitti's cabinet. The policy, which calls for light rearmament against the French and Austrians has been heavily opposed by the Socialist Party, which makes up a majority of the coalition. They argue that detente with the two countries would serve to help maintain peace in the region, and prevent a war with Austria or France."
+italy.7.a:0 "We should side with the PPI's army policy"
+italy.7.b:0 "We should side with the PSU's army policy"
+
+italy.8.t:0 "The Coalition breaks"
+italy.8.d:0 "Months of infighting amongst the PLI-PPI-PSU coalition have caused it to dissolve, leaving large gaps for radical parties to occupy. The split, caused by the coalition's inability to resolve the controversial army policy has left citizens and foreigners alike to speculate Italy's future. As former moderate politicians join ranks with radical parties such as the PCI and the ANI, millions of Italians now fear for the country's stability. Conspiracies of a 'futurist' party heading to dominate the polls or an pro-monarchist army coup have taken hold among the populace and gripped fear into those who buy into them. Yet as a democracy, it is too late to call off the elections now as it would only serve to make things worse."
+italy.8.a:0 "Only a few more days until election, damnit!"
+
+italy.9.t:0 "PPI leaves the national unity coalition"
+italy.9.d:0 "this is the secret path for avoiding the civ war"
+italy.9.a:0 "We didn't like them anyway."
 
 #Descriptions
 
