@@ -1,0 +1,8 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_ITA_national_unity_government"
+		texturefile = "gfx/interface/ideas/generic_treaty.tga"
+	}
+}
