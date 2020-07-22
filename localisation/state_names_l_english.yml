@@ -1,4 +1,5 @@
 ﻿l_english:
+ STATE_800:0 "South Jutland"
  STATE_1:0 "Corsica"
  STATE_2:0 "Latium"
  STATE_3:0 "Switzerland"
@@ -797,3 +798,7 @@
  STATE_796:0 "North Angola"
  STATE_797:0 "Vawkavysk"
  STATE_798:0 "Klintsy"
+ STATE_799:0 "South Jutland"
+ STATE_801:0 "Suwalki"
+ STATE_802:0 "Trentino"
+ STATE_803:0 "Dvinsk"
