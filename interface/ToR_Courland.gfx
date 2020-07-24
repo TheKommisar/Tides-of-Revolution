@@ -1,0 +1,13 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_COU_german_minority_rule"
+		texturefile = "gfx/interface/ideas/COU/german_minority_rule.tga"
+	}
+spriteType = {
+		name = "GFX_idea_COU_german_russian_conflict"
+		texturefile = "gfx/interface/ideas/COU/german_russian_conflict.tga"
+	}

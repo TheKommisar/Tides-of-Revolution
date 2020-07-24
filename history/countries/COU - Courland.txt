@@ -35,7 +35,9 @@ set_popularities = {
         national_populist = 9
 
 }
-
+add_ideas = { COU_Minority_Rule
+	COU_Russo_German_Conflict
+}
 create_country_leader = {
 	name = "Rudiger von der Goltz"
 	desc = "POLITICS_RUDIGER_VON_DER_GOLTZ_DESC"
@@ -72,6 +74,16 @@ create_corps_commander = {
 	traits = {  }
 	skill = 3
     attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Gustav von Plewhe"
+	picture = "portrait_baltic_Karl_Gustav_von_Plehwe.tga"
+	traits = {  }
+	skill = 2
+    attack_skill = 2
     defense_skill = 2
     planning_skill = 2
     logistics_skill = 1
