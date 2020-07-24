@@ -33,5 +33,45 @@ legacy_of_the_anzacs = {
                             supply_consumption_factor = -0.25
 				}
 		}
+AST_economic_depression = {
+                        picture = usa_great_depression
+
+			allowed = {
+				original_tag = AST
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+                                stability_factor = -0.10
+				}
+		}
+AST_prosperous_economy = {
+                        picture = usa_great_depression
+
+			allowed = {
+				original_tag = AST
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+                                stability_factor = 0.10
+                                political_power_gain = 0.4
+				}
+		}
 		}
 }

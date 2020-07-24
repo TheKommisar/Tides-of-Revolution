@@ -39,15 +39,7 @@ if = {
 }
 
 add_ideas = {
-	PHI_thirst_for_democracy
-	PHI_agriculture_economy
-	PHI_marxist_professors
-
-	PHI_Basilio_J_Valdez_HoG_ADE
-	PHI_Ferdinand_Marcos_FOR_SCO
-	PHI_Serafin_Fausto_ECO_SCO
-	PHI_Benigno_Aquino_Sr_SEC_ADE
-
+#
 }
 
 set_convoys = 25
@@ -55,7 +47,7 @@ set_stability = 0.72
 set_war_support = 0.38
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_liberal
 	last_election = "1935.9.15"
 	election_frequency = 72
 	elections_allowed = no
@@ -67,9 +59,9 @@ set_popularities = {
     orthodox_marxist = 0 
     revolutionary_socialist = 4
     social_democrat = 8
-    social_liberal = 16
+    social_liberal = 25
     classic_liberal = 2
-    social_conservative = 25
+    social_conservative = 16
     authoritarian_democrat = 30
     paternal_autocrat = 0
     national_populist = 0
@@ -123,9 +115,9 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Sergio P. Osmeña"
+	name = "Manuel Luis Quezon"
 	desc = "POLITICS_SEGIO_OSMENA_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Sergio_Osmena.tga"
+	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon_KR"
 	expire = "1944.8.1"
 	ideology = social_liberal_subtype
 	traits = { }
