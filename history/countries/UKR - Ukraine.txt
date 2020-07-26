@@ -111,28 +111,13 @@ set_politics = {
     last_election = "1936.1.1"
     election_frequency = 48
 }
-add_ideas = {
-UKR_uncontrolled_nationalism
-UKR_agriculture
-UKR_hetmans_host
 
-}
 create_country_leader = {
 	name = "Pavlo Skoropadskyi"
 	desc = "SKOROPADSKYI_POLITICS_DESC"
 	picture = "Portrait_UKR_Pavlo_Skoropadsky.tga"
 	expire = "1953.3.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-		
-	}
-}
-create_country_leader = {
-	name = "Sergey Efremov"
-	desc = "EFREMOV_POLITICS_DESC"
-	picture = "Portrait_UKR_Pavlo_Skoropadsky.tga"
-	expire = "1953.3.1"
-	ideology = social_liberal_subtype
 	traits = {
 		
 	}

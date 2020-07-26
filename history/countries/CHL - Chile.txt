@@ -69,11 +69,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Juan Esteban Montero"
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-<<<<<<< HEAD
 	picture = "Portrait_CHL_Juan_Esteban_Montero.tga"
-=======
-	picture = "Portrait_CHL_Juan_Esteban_Montero"
->>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7
 	expire = "1999.1.1"
 	ideology = social_liberal_subtype
 	traits = {
