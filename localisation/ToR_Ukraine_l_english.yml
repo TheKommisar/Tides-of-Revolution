@@ -1,28 +1,28 @@
 ﻿l_english: 
 
 #Parties
-UKR_national_populist_party:0 ""
-UKR_national_populist_party_long:0 ""
+UKR_national_populist_party:0 "OUN"
+UKR_national_populist_party_long:0 "Organization of Ukrainian Nationalists"
 UKR_collectivist_party:0 ""
 UKR_collectivist_party_long:0 ""
-UKR_social_conservative_party:0 ""
+UKR_social_conservative_party:0 "UDHS"
 UKR_social_conservative_party_long:0 ""
-UKR_paternal_autocrat_party:0 ""
-UKR_paternal_autocrat_party_long:0 ""
-UKR_authoritarian_democrat_party:0 "Supporters of the Hetman"
-UKR_authoritarian_democrat_party_long:0 "Supporters of the Hetman"
-UKR_social_democrat_party:0 ""
-UKR_social_democrat_party_long:0 ""
-UKR_social_liberal_party:0 ""
-UKR_social_liberal_party_long:0 ""
-UKR_classic_liberal_party:0 ""
-UKR_classic_liberal_party_long:0 ""
-UKR_totalitarian_socialist_party:0 ""
-UKR_totalitarian_socialist_party_long:0 ""
-UKR_revolutionary_socialist_party:0 ""
-UKR_revolutionary_socialist_party_long:0 ""
-UKR_orthodox_marxist_party:0 ""
-UKR_orthodox_marxist_party_long:0 ""
+UKR_paternal_autocrat_party:0 "Hetman's Host"
+UKR_paternal_autocrat_party_long:0 "Hetman's Host"
+UKR_authoritarian_democrat_party:0 "Hetman's Host"
+UKR_authoritarian_democrat_party_long:0 "Hetman's Host"
+UKR_social_democrat_party:0 "USDRB"
+UKR_social_democrat_party_long:0 "Ukrainian Social Democratic Labour Party"
+UKR_social_liberal_party:0 "URP"
+UKR_social_liberal_party_long:0 "Ukrainian Radical Party"
+UKR_classic_liberal_party:0 "UDP"
+UKR_classic_liberal_party_long:0 "Ukrainian Democratic Party"
+UKR_vanguardist_party:0 "UNVF"
+UKR_vanguardist_party_long:0 "Ukrainian National Liberation Front"
+UKR_revolutionary_socialist_party:0 "UPSR"
+UKR_revolutionary_socialist_party_long:0 "Ukrainian Socialist-Revolutionary Party"
+UKR_orthodox_marxist_party:0 "UKP"
+UKR_orthodox_marxist_party_long:0 "Ukrainian Communist Party"
 
 #Country Names
  UKR_national_populist:0 "Ukrainian State"
@@ -45,8 +45,8 @@ UKR_orthodox_marxist_party_long:0 ""
  UKR_social_liberal_DEF:0 "Ukrainian State"
  UKR_classic_liberal:0 "Ukrainian State"
  UKR_classic_liberal_DEF:0 "Ukrainian State"
- UKR_vanguardist:0 "Ukrainian People's Republic"
- UKR_vanguardist_DEF:0 "the Ukrainian People's Republic"
+ UKR_vanguardist:0 "Ukrainian National People's Republic"
+ UKR_vanguardist_DEF:0 "the Ukrainian National People's Republic"
  
  UKR_national_populist_ADJ:0 "Ukrainian"
  UKR_totalitarian_socialist_ADJ:0 "Ukrainian"
@@ -64,7 +64,13 @@ UKR_orthodox_marxist_party_long:0 ""
 
 
 
-
+#Ideas
+UKR_uncontrolled_nationalism:0 "Uncontrolled Nationalism"
+UKR_uncontrolled_nationalism_desc:0 "Ukraine is, quite frankly, a place of intense disdain for it's neighbours and for it's government. Skoropadskyi initially started out with the support of the nationalists, with many extreme right groups vouching their support for the Hetman, however times change, and in Ukraine's case they changed drastically. Skoropadskyi's constant refusal to lay claims on East Galicia and Crimea, along with his co-operation with German troops, his exporting of resources to foreign powers at incredibly cheap costs, and his rather unconfrontational tone when it came to the Russian threat effectively ruined Skoropadskyi's initially warm relationship with the nationalists. The Hetman's economic policies have also further driven nationalists to oppose him, low pay, lack of protections and an effective nobility of former Russian oligarchs running Ukraine's economy combied with lack of any true national development independent of these groups has driven many Ukraianian Nationalists as well as Socialists to support two major opposition groups. The Organization of Ukranian Nationalists with it's far right, populist and ultranationalist platform seeking to establish Greater Ukraine as a power in Eastern Europe and the Ukranian National Liberation Front, an extremely Nationalist and Communist organization which rejects internationalism and embraces Ukrainian ultranationalism hand in hand with the class struggle. It is clear the incredible question of this untamable Nationalism, which is detached from the government of Ukraine itself in it's current state, needs to be answered and thouroughly rooted out or embraced by the Hetman if his regime is to survive as one with even a moderate sense of being Ukrainian."
+UKR_agriculture:0 "Agricultural Nation"
+UKR_agriculture_desc:0 "Ukraine is an agricultural power, this is part of Ukraine's Identity, it has always been the breadbasket of Europe. While this abundance of agricultural has certainly ensured the people are fed and happy, this has also created a climate of complete agrarianism, the whole of Ukraine is greatly behind in industry for the needs of the modern ages industrial powers. Ukraine suffers in the modern age because of this agricultural way of life, despite all it's benefits the issue of modernization is a big one, and will have to be adressed. In addition though most of the work of the peasants is on the land they farm, said land is mostly owned by the upper classes, who themselves would rather sell the crops they earn abroad at better prices than contribute their materials or profits for any national development away from the Rural and Agrarian economy of Ukraine."
+UKR_hetmans_host:0 "The Hetman's Host"
+UKR_hetmans_host_desc:0 "The Hetman's Host is the common name of the camarilla of elite oligarchs, military officers and autocratic bureaucrats which make up the government of Pavlo Skoropadskyi. This small group is in effective control of the entire country, in particular the economy is managed by the oligarchs while the military has taken up the job of surpressing the populace and ensuring said oligarchs maintain their wealth. This system, while incredibly unpopular and extremely partial, has resuted in a streamlined governing process where corruption and executive orders from the Hetman have centralized the economy and allowed the government to control the wealth as long as it keeps it's friends close. However while this system has certainly made governing a simple process for the Hetman and his Host, it has galvanized the populace against him, this has led socialist and generally populist elements to become the major force in the peasantry, this effectively means that should the Hetman's control falter, that the populace will certainly exploit said weakness to overthrow his unpopular regime and enact ruthless vengance upon those who assisted him in controlling his state in such an autocracy."
 #Ministers
 #should be reintegrated
 

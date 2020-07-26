@@ -5,7 +5,7 @@ oob = "SER_1936"
 set_research_slots = 3
 
 add_ideas = {
-	anti_german_military
+	SER_nationalism
 }
 
 set_technology = {
