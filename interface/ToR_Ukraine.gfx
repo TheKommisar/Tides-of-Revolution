@@ -15,4 +15,8 @@ spriteType = {
 		name = "GFX_idea_UKR_hetmans_host"
 		texturefile = "gfx/interface/ideas/UKR/the_hetmans_host.tga"
 	}
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7

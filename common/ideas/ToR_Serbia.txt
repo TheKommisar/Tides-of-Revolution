@@ -13,12 +13,20 @@ ideas = {
 
 			removal_cost = -1
 
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7
 			modifier = {
 				stability_factor = 0.10
 				political_power_gain = 0.15
 				war_support_factor = 0.20
 			}
+<<<<<<< HEAD
 		}
 	}
 }
+=======
+		}
+>>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7

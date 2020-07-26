@@ -1,11 +1,16 @@
 ideas = {
 country = {
+<<<<<<< HEAD
 
+=======
+     
+>>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7
 UKR_uncontrolled_nationalism = {
 			picture = UKR_uncontrolled_nationalism
 			allowed = {
 				original_tag = UKR
 			}
+<<<<<<< HEAD
 
 			allowed_civil_war = {
 				always = yes
@@ -13,6 +18,15 @@ UKR_uncontrolled_nationalism = {
 
 			removal_cost = -1
 
+=======
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+>>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7
 			modifier = {
                                 stability_factor = -0.10
                                 war_support_factor = 0.25
@@ -26,6 +40,7 @@ UKR_agriculture = {
 			allowed = {
 				original_tag = UKR
 			}
+<<<<<<< HEAD
 
 			allowed_civil_war = {
 				always = yes
@@ -33,6 +48,15 @@ UKR_agriculture = {
 
 			removal_cost = -1
 
+=======
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+>>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7
 			modifier = {
 			consumer_goods_factor = -0.10
 			production_speed_arms_factory_factor = -0.1
@@ -46,6 +70,7 @@ UKR_hetmans_host = {
 			allowed = {
 				original_tag = UKR
 			}
+<<<<<<< HEAD
 
 			allowed_civil_war = {
 				always = yes
@@ -53,6 +78,15 @@ UKR_hetmans_host = {
 
 			removal_cost = -1
 
+=======
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+>>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7
 			modifier = {
               			stability_factor = -0.10	
                                 political_power_factor = 0.15
@@ -60,6 +94,10 @@ UKR_hetmans_host = {
 				production_factory_max_efficiency_factor = 0.05
 				industrial_capacity_factory = 0.05
 				}
+<<<<<<< HEAD
 		}
 	}
 }
+=======
+		}
+>>>>>>> 92aaa13aa7a09dadbc5b235c099e41609c024fc7
