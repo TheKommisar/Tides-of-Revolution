@@ -46,7 +46,6 @@ if = {
 	}
 	set_naval_oob = "BRA_1936_naval"	
 }
-set_country_flag = monroe_doctrine
 
 set_politics = {
 	ruling_party = authoritarian_democrat

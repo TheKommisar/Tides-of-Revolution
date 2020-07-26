@@ -14,6 +14,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/North america/statue_of_liberty.dds"
 	}
 
+spriteType = {
+		name = "GFX_report_event_italy_palace"
+		texturefile = "gfx/event_pictures/Europe/Italy/report_event_ITA_palace.dds"
+	}
+
 
 ##############News events or rectangular photos	
 

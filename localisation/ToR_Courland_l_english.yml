@@ -1,28 +1,28 @@
 ﻿l_english: 
 
 #Parties
-COU_national_populist_party:0 ""
-COU_national_populist_party_long:0 ""
+COU_national_populist_party:0 "Baltisches Freikorp"
+COU_national_populist_party_long:0 "Baltisches Freikorps"
 COU_collectivist_party:0 "VGK"
 COU_collectivist_party_long:0 "Vereinigte Gewerkschaften von Kurland"
-COU_social_conservative_party:0 ""
-COU_social_conservative_party_long:0 ""
+COU_social_conservative_party:0 "DbVP"
+COU_social_conservative_party_long:0 "Deutsch-baltische Volkspartei"
 COU_paternal_autocrat_party:0 "Baltische Landeswehr"
 COU_paternal_autocrat_party_long:0 "Baltische Landeswehr"
 COU_authoritarian_democrat_party:0 "Kurländische Landesrat"
 COU_authoritarian_democrat_party_long:0 "Kurländische Landesrat"
-COU_social_democrat_party:0 ""
-COU_social_democrat_party_long:0 ""
-COU_social_liberal_party:0 ""
-COU_social_liberal_party_long:0 ""
-COU_classic_liberal_party:0 ""
-COU_classic_liberal_party_long:0 ""
+COU_social_democrat_party:0 "DbFP"
+COU_social_democrat_party_long:0 "Deutsch-baltische Fortschrittspartei"
+COU_social_liberal_party:0 "DbRP"
+COU_social_liberal_party_long:0 "Deutsch-baltische Reformpartei"
+COU_classic_liberal_party:0 "DbDP"
+COU_classic_liberal_party_long:0 "Deutsch-baltische Demokratische Partei"
 COU_totalitarian_socialist_party:0 "VGK"
 COU_totalitarian_socialist_party_long:0 "Vereinigte Gewerkschaften von Kurland"
-COU_revolutionary_socialist_party:0 ""
-COU_revolutionary_socialist_party_long:0 ""
-COU_orthodox_marxist_party:0 ""
-COU_orthodox_marxist_party_long:0 ""
+COU_revolutionary_socialist_party:0 "VGK"
+COU_revolutionary_socialist_party_long:0 "Vereinigte Gewerkschaften von Kurland"
+COU_orthodox_marxist_party:0 "VGK"
+COU_orthodox_marxist_party_long:0 "Vereinigte Gewerkschaften von Kurland"
 
 #Country Names
  COU_national_populist:0 "Courland"
@@ -60,7 +60,11 @@ COU_orthodox_marxist_party_long:0 ""
  COU_classic_liberal_ADJ:0 "Courlandic"
  COU_vanguardist_ADJ:0 "Courlandic"
 
-
+#Ideas
+COU_Minority_Rule:0 "German Minority Rule"
+COU_Minority_Rule_desc:0 "Though much of the Ethnic Russian population is granted the ability to obtain political power in theory, the real practical owners of Courland resides within the Baltic German Nobility, the German Ethnic Military Officers, and the Large community of German Emigres from the Vaterland. While this has the advantageous effect of protecting the government and it's German subjects from possible retribution for their long rule of the regions majority population, it also has the effect of the entire population being uncoperative to the extreme. Shots ring out from the forests, bombs targeting Baltic German owned buildings blast out into the streets, riots and strikes fall through the countryside, needless to say the Latvian population does not appreciate our control of Courland. This almost constant resistance from the population has resulted in massive instability and the government is hard pressed to control the country with the small population it has as a support base." 
+COU_Russo_German_Conflict:0 "Russo-German Conflict"
+COU_Russo_German_Conflict_desc:0 "The Russian White Army officers and small pieces of the Ethnic Russian population of the Baltics initially co-operated with the German minority and it's patrons from Germany proper, united in their efforts to destroy the independent republics of Latvia and Estonia before turning towards the Bolshevik threat. However as the war with the Baltics grinded to a halt upon the Western Dvina, with the Russian civil war coming to a close with the reds defeated and the Baltic returning to peace with Courland begrudgingly recognizing the independence of Latvia and Estonia with the latter two even more gratingly recognizing Courland's rule over everything West of the Daugava. With their common enemies no longer a looming threat, the Russian and German minorites and officers began to clash viciously over everything from Administration of Agriculture to Religion and Political Aspirations. This divide continues within the Army and the Government, with the Russians hold a far different view of how the state should be run, with some of the officers even espousing a desire for a Russian Monarchist restoration within the Baltics to retake Russia from the current government, some Russians simply want equal control of the country from the Baltic Germans, while others want to force the old nobility to submit to the Russians as had been for centuries. Regardless of their aspirations or the reasons for the conflict, it is clear that unless something is changed the current situation will only continue to divide and weaken the already unsupported government." 
 
 
 #Ministers

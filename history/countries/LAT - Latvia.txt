@@ -10,7 +10,7 @@ if = {
 }
 
 add_ideas = {
-	limited_conscription
+	extensive_conscription
 }
 
 set_technology = {
@@ -55,6 +55,7 @@ set_popularities = {
         paternal_autocrat = 0
         national_populist = 0
 }
+add_ideas = { LAT_national_liberation }
 
 create_country_leader = {
 	name = "Karlis Ulmanis"

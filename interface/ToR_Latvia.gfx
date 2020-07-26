@@ -1,0 +1,8 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_LAT_national_war"
+		texturefile = "gfx/interface/ideas/LAT/latvia_national_liberation_war.tga"
+	}
+}

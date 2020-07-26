@@ -168,8 +168,8 @@ ELS = {
 	color_ui = rgb { 198 169 248 }
 }
 ETH = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 150 120 105 }
+	color_ui = rgb { 150 120 105 }
 }
 GUA = {
 	color = rgb { 72 49 112 }
@@ -204,11 +204,11 @@ NIC = {
 	color_ui = rgb { 146 179 191 }
 }
 NZL = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 122 85 151 }
+	color_ui = rgb { 152 130 191 }
 }
 PAN = {
-	color = rgb { 152 130 191 }
+	color = rgb { 192 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
 PER = {
@@ -538,7 +538,7 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
-######################################
+###################################### NEW COUNTRIES GO BELOW HERE ############################################################################
 COU = {
 	color = rgb { 99 137 153 }
 	color_ui = rgb { 99 137 153 }
@@ -644,4 +644,8 @@ SHN = {
 EQA = {
 	color = rgb { 47 104 47 }
 	color_ui = rgb { 47 104 47 }
+}
+KAS = {
+        color = rgb { 71 178 224 }
+	color_ui = rgb { 71 178 224 }
 }
