@@ -290,7 +290,7 @@ head_of_intel = {
 }
 country = {
 
-		ENG_Legacy_of_the_Great_War = {
+		ENG_the_rearmament_crisis = {
 
 			allowed = {
 				always = no
@@ -305,6 +305,7 @@ country = {
 			picture = ENG_the_war_to_end_all_wars
 
 			modifier = {
+				conscription_factor = -0.4
 				war_support_factor = -0.2
 				production_speed_arms_factory_factor = -0.4
 				production_speed_dockyard_factor = -0.2
@@ -413,7 +414,7 @@ country = {
 		}
 
 
-		ENG_disorganised_defence = {
+		ENG_paramilitary_violence = {
 
 			allowed = {
 				always = no
@@ -424,7 +425,8 @@ country = {
 			}
 
 			modifier = {
-				conscription_factor = -0.3
+				conscription_factor = -0.1
+				stability_factor = -0.15
 				army_core_defence_factor = -0.05
 				army_core_attack_factor = -0.05
 
@@ -436,25 +438,6 @@ country = {
 
 		}
 
-		ENG_the_officers_plot = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-
-			}
-
-			picture = chi_incompetent_officers
-
-			removal_cost = -1	
-
-		}
 
 
 

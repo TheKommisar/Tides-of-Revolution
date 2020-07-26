@@ -76,8 +76,8 @@ SWI = {
 	color_ui = rgb { 245 29 29 }
 }
 TUR = {
-	color = rgb { 123 0 0 }
-	color_ui = rgb { 123 0 0 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 GRE = {
 	color = rgb { 63 141 227 }
@@ -648,4 +648,8 @@ EQA = {
 KAS = {
         color = rgb { 71 178 224 }
 	color_ui = rgb { 71 178 224 }
+}
+STR = {
+        color = rgb { 149 45 102 }
+	color_ui = rgb { 149 45 102 }
 }
