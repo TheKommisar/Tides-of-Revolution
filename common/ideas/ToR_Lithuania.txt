@@ -1,0 +1,25 @@
+ideas = {
+
+	country = {
+			
+		LIT_lithuanian_turmoil = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea LAT_national_war"}
+			available = {
+				country_exists = LIT
+			}
+			modifier = {
+				stability_factor = -0.1
+			}
+			picture = LIT_turmoil
+		}
+
+
+
+
+
+
+
+
+
+
+

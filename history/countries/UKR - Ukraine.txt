@@ -94,11 +94,11 @@ if = {
 
 
 set_popularities = {
-	authoritarian_democrat = 46
+	authoritarian_democrat = 41
 	paternal_autocrat = 2
-	vanguardist = 14
+	totalitarian_socialist = 17
 	revolutionary_socialist = 2
-	social_democrat = 9
+	social_democrat = 11
 	national_populist = 14
 	social_conservative = 2
 	social_liberal = 8
