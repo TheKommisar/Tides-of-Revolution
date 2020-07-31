@@ -47,6 +47,10 @@ set_technology = {
 #Monroe Doctrine
 give_guarantee = PAN
 give_guarantee = NIC
+give_guarantee = ELS
+give_guarantee = GUA
+give_guarantee = COS
+give_guarantee = HON
 
 #SUBJECTS
 

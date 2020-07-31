@@ -15,7 +15,7 @@ set_politics = {
 	ruling_party = classic_liberal
 	last_election = "1933.12.15"
 	election_frequency = 84
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
         totalitarian_socialist = 0

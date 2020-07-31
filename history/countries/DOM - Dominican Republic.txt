@@ -1,0 +1,34 @@
+﻿capital = 319
+
+oob = "DOM_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	ruling_party = classic_liberal 
+	last_election = "1934.5.16"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	classic_liberal = 65
+        paternal_autocrat = 30
+        vanguardist = 5
+}
+
+create_country_leader = {
+	name = "Rafael Estrella Ureña"
+	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
+	picture = "Portrait_Rafael_Estrella_Urena.tga"
+	expire = "1965.1.1"
+	ideology = classic_liberal_subtype
+	traits = {
+		#
+	}
+}

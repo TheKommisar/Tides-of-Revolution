@@ -63,4 +63,13 @@ set_popularities = {
 }
 
 
-
+create_country_leader = {
+	name = "J.F.C. Fuller"
+	desc = "POLITICS_JFCFULLER_DESC"
+	picture = "Portrait_JFC_Fuller.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

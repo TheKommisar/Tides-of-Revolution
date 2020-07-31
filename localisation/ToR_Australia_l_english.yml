@@ -75,6 +75,23 @@ australia.2.c:0 "Send in a small force to deal with them"
 australia.3.t:0 "Australia Day"
 australia.3.d:0 "Today, Australians across the country gather for a day of celebration, to celebrate the anniversary of the landing of the First Fleet at Sydney in 1788. Across the country, there are festivities and parties, barbecues and picnics and carnivals, as well as much drinking."
 australia.3.a:0 "Hurrah for Australia!"
+
+australia_naval.1.t:0 "Buying the HMS Argus"
+australia_naval.1.d:0 "We have finished retrofitting the HMS Argus but instead of returning it let us give them an offer to buy it."
+australia_naval.1.a:0 "Send the offer"
+
+australia_naval.2.t:0 "An Offer from Australia"
+australia_naval.2.d:0 "The Australians have sent us an offer to buy the retrofitted carrier HMS Argus from us. Although it has been mothballed since the 1920s and maintaining it requires high costs it could be useful in the event of another major war."
+australia_naval.2.a:0 "They can have it"
+australia_naval.2.b:0 "We still need it"
+
+australia_naval.3.t:0 "The carrier docks at Sydney Harbour"
+australia_naval.3.d:0 "The British, seeing no reason to refuse our request have sent the ship off to Sydney Harbour. The requested money will be shipped off tomorrow."
+australia_naval.3.a:0 "Wonderful!"
+
+australia_naval.4.t:0 "The British refuse the request"
+australia_naval.4.d:0 "The British, still seeing importance in the carrier have refused our request. Instead, they have given us some money and rifles for our troubles."
+australia_naval.4.a:0 "Well, it's better than nothing."
  
 ###########################################ideas
 
@@ -150,9 +167,9 @@ AST_thriving_economy:0 "Thriving Economy"
 AST_thriving_economy_desc:0 "Thanks to the efforts of us and the people we have finally managed to completely resolve our economic woes."
 
 AST_army_expansion:0 "Australian Army Expansion"
-AST_grand_battleplan:0 "Grand Battleplan Army Doctrine"
-AST_superior_firepower:0 "Superior Firepower Army Doctrine"
-AST_mobile_warfare:0 "Mobile Warfare Army Doctrine"
+AST_grand_battleplan:0 "Stick To What We Know"
+AST_superior_firepower:0 "Rain Hell On Them"
+AST_mobile_warfare:0 "A Mobile Army"
 AST_officer_academies:0 "Officer Academies"
 AST_artillery_production:0 "Artillery Production"
 AST_tank_trials:0 "Tank Trials"

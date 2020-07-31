@@ -200,6 +200,17 @@ create_corps_commander = {
     logistics_skill = 1
 }
 
+create_corps_commander = {
+	name = "Leslie Morshead"
+	picture = "Portrait_AST_Leslie_Morshead.tga"
+	traits = { infantry_officer desert_fox }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
 create_navy_leader = {
 	name = "John Gregory Crace"
 	picture = "Portrait_AST_John_Gregory_Crace.tga"
