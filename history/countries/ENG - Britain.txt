@@ -103,6 +103,7 @@ if = {
 
 add_ideas = {
 ENG_the_rearmament_crisis
+ENG_legacy_of_the_great_war
 ENG_paramilitary_violence
         ENG_sluggish_economy
         ENG_Decentralised_Empire
