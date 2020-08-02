@@ -206,6 +206,8 @@ if = {
 	}
 }
 
+give_guarantee = STR
+STR = { give_military_access = ENG }
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

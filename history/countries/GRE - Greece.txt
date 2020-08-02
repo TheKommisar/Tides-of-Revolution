@@ -59,6 +59,10 @@ if = {
 	}
 }
 
+
+STR = { give_military_access = GRE }
+give_guarantee = STR
+
 set_convoys = 10
 
 set_politics = {

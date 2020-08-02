@@ -96,6 +96,9 @@ if = {
 	set_naval_oob = "ITA_1936_naval_mtg"
 }
 
+STR = { give_military_access = ITA }
+give_guarantee = STR
+
 set_convoys = 200
 
 set_politics = {
