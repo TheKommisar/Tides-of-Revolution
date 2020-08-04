@@ -130,9 +130,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carlos Miró-Quesada"
+	name = "Luis A. Flores"
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "Portrait_PRU_Carlos_Miro.tga"
+	picture = "Portrait_Peru_Luis_Flores.tga"
 	expire = "1999.1.1"
 	ideology = national_populist_subtype
 	traits = {

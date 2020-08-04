@@ -1929,7 +1929,7 @@ focus = {
 		}
 	}
 focus = {
-		id = AST_hms_eagle
+		id = AST_hms_argus
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = AST_naval_academies } 
 		x = 0
@@ -1954,7 +1954,7 @@ focus = {
 		id = AST_guardian_of_the_pacific
 		icon = GFX_goal_USA_liberty_ships
 		prerequisite = { focus = AST_strong_naval_core } 
-                prerequisite = { focus = AST_hms_eagle }
+                prerequisite = { focus = AST_hms_argus }
 		x = -2
 		y = 1
 		relative_position_id = AST_strong_naval_core 

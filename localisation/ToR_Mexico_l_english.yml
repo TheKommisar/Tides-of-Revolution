@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+MEX_totalitarian_socialist_party:0 ""
+MEX_totalitarian_socialist_party_long:0 ""
+MEX_vanguardist_party:0 "Comunistas"
+MEX_vanguardist_party_long:0 "Comunistas"
+MEX_orthodox_marxist_party:0 "NV"
+MEX_orthodox_marxist_party_long:0 "Neo-Villistas"
+MEX_revolutionary_socialist_party:0 "LMAS"
+MEX_revolutionary_socialist_party_long:0 "Liga Mexicana de Anarcho-Socialistas"
+MEX_social_democrat_party:0 "ERI"
+MEX_social_democrat_party_long:0 "Ejército Revolucionario Institucional"
+MEX_social_liberal_party:0 "PRM"
+MEX_social_liberal_party_long:0 "Partido de la Revolución Mexicana"
+MEX_classic_liberal_party:0 "Partido Liberal"
+MEX_classic_liberal_party_long:0 "Partido Liberal de la Revolución Mexicana"
+MEX_social_conservative_party:0 "PAN"
+MEX_social_conservative_party_long:0 "Partido Acción Nacional"
+MEX_authoritarian_democrat_party:0 "PNR"
+MEX_authoritarian_democrat_party_long:0 "National Revolution Party"
+MEX_paternal_autocrat_party:0 "RpP"
+MEX_paternal_autocrat_party_long:0 "Rally para Plutarco"
+MEX_national_populist_party:0 "UNS"
+MEX_national_populist_party_long:0 "Unión Nacional Sinarquista"
+
+#Country Names
+MEX_national_populist:0 "Estado de México"
+MEX_national_populist_DEF:0 "The Estado de México"
+MEX_totalitarian_socialist:0 "Mexico"
+MEX_totalitarian_socialist_DEF:0 "Mexico"
+MEX_paternal_autocrat:0 "United Mexican States"
+MEX_paternal_autocrat_DEF:0 "the United Mexican States"
+MEX_social_conservative:0 "United Mexican States"
+MEX_social_conservative_DEF:0 "the United Mexican States"
+MEX_authoritarian_democrat:0 "United Mexican States"
+MEX_authoritarian_democrat_DEF:0 "the United Mexican States"
+MEX_orthodox_marxist:0 "Mexican Socialist Republic"
+MEX_orthodox_marxist_DEF:0 "the Mexican Socialist Republic"
+MEX_revolutionary_socialist:0 "Mexican Socialist Republic"
+MEX_revolutionary_socialist_DEF:0 "the Mexican Socialist Republic"
+MEX_social_democrat:0 "United Mexican States"
+MEX_social_democrat_DEF:0 "the United Mexican States"
+MEX_social_liberal:0 "United Mexican States"
+MEX_social_liberal_DEF:0 "the United Mexican States"
+MEX_classic_liberal:0 "United Mexican States"
+MEX_classic_liberal_DEF:0 "the United Mexican States"
+MEX_vanguardist:0 "Mexican Socialist Republic"
+MEX_vanguardist_DEF:0 "the Mexican Socialist Republic"
+ 
+MEX_national_populist_ADJ:0 "Mexican"
+MEX_totalitarian_socialist_ADJ:0 "Mexican"
+MEX_social_conservative_ADJ:0 "Mexican"
+MEX_paternal_autocrat_ADJ:0 "Mexican"
+MEX_orthodox_marxist_ADJ:0 "Mexican"
+MEX_authoritarian_democrat_ADJ:0 "Mexican"
+MEX_revolutionary_socialist_ADJ:0 "Mexican"
+MEX_social_democrat_ADJ:0 "Mexican"
+MEX_social_liberal_ADJ:0 "Mexican"
+MEX_classic_liberal_ADJ:0 "Mexican"
+MEX_vanguardist_ADJ:0 "Mexican"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

@@ -27,20 +27,9 @@ set_popularities = {
 create_country_leader = {
 	name = "Mario Briceño Iragorry"
 	desc = "POLITICS_MARIO_IRAGORRY_DESC"
-	picture = "Mario_Briceno_2_portrait.tga
+	picture = "Mario_Briceno_2_portrait.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Juan Bautista Fuenmayor"
-	desc = "POLITICS_JUAN_BAUTISTA_FUENMAYOR_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = orthodox_marxist_subtype
 	traits = {
 		#
 	}

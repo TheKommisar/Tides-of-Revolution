@@ -102,9 +102,9 @@ if = {
 }
 
 add_ideas = {
-ENG_the_rearmament_crisis
-ENG_legacy_of_the_great_war
-ENG_paramilitary_violence
+        ENG_the_rearmament_crisis
+        ENG_legacy_of_the_great_war
+        ENG_paramilitary_violence
         ENG_sluggish_economy
         ENG_Decentralised_Empire
         ENG_the_grand_fleet
@@ -124,10 +124,6 @@ if = {
 			has_dlc = "Together for Victory"
 			has_dlc = "Man the Guns"
 		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = RAJ
@@ -195,7 +191,6 @@ if = {
 		freedom_level = 0.4
 	}
 	else = {
-		puppet = MAL
 		puppet = RAJ
                 puppet = IRE
                 puppet = BWA
