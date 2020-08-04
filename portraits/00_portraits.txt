@@ -43,11 +43,6 @@ continent = {
 	}
 	
 	political = {
-                totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
@@ -124,11 +119,6 @@ continent = {
 	}
 
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
@@ -204,11 +194,6 @@ continent = {
 	}
 	
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds" 
@@ -285,11 +270,6 @@ continent = {
 	}
 	
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
@@ -365,13 +345,6 @@ continent = {
 	}
 	
 	political = {
-                totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
@@ -468,11 +441,6 @@ continent = {
 	}
 
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds" 
@@ -546,11 +514,6 @@ continent = {
 	}
 	
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds" 
@@ -899,11 +862,6 @@ RAJ = {
 	}
 	
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds" 
@@ -967,11 +925,6 @@ PAK = {
 	}
 	
 	political = {
-                totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds" 
@@ -1064,11 +1017,6 @@ AFG = {
 		}
 	}
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds" 
@@ -1223,11 +1171,6 @@ GEO = {
 		}
 	}
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds" 
@@ -1301,13 +1244,6 @@ BAH = {
 	}
 	
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
-					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
@@ -1403,11 +1339,6 @@ BLZ = {
 	}
 	
 	political = {
-		totalitarian_socialist  = {
-				male = { 
-					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds" 
-			}
-		}
                 vanguardist = {
 				male = { 
 					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds" 

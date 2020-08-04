@@ -84,7 +84,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 6
         orthodox_marxist = 9
 	revolutionary_socialist = 9
@@ -104,7 +103,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_CSA_Earl_Bowder.tga"
 	expire = "1999.1.1"
-	ideology = totalitarian_socialist_subtype
+	ideology = vanguardist_subtype
 	traits = {
 	}
 }

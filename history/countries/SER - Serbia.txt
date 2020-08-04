@@ -50,7 +50,6 @@ if = {
 set_convoys = 0
 
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 0
         orthodox_marxist = 4
 	revolutionary_socialist = 6

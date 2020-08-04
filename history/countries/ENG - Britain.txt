@@ -218,8 +218,7 @@ set_politics = {
 	elections_allowed = no ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-        totalitarian_socialist = 3
-	vanguardist = 2
+	vanguardist = 5
         orthodox_marxist = 3
 	revolutionary_socialist = 3
         social_democrat = 21

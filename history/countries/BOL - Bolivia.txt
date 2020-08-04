@@ -38,8 +38,7 @@ set_popularities = {
     social_conservative = 10
     classic_liberal = 0
     social_liberal = 10
-    authoritarian_democrat = 5
-    totalitarian_socialist = 0 
+    authoritarian_democrat = 5 
 }
 
 create_country_leader = {

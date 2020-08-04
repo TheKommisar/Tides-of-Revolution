@@ -55,7 +55,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 0
         orthodox_marxist = 2
 	revolutionary_socialist = 8

@@ -22,7 +22,6 @@ set_convoys = 20
 set_convoys = 5
 
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 1
         orthodox_marxist = 0
 	revolutionary_socialist = 12
@@ -94,54 +93,6 @@ create_country_leader = {
 	picture = "Portrait_Chile_Jorge_Von_Marees.tga"
 	expire = "1999.1.1"
 	ideology = national_populist_subtype
-	traits = {
-		#
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-create_country_leader = {
-	name = "Arturo Alessandri"
-	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "GFX_Portrait_chile_arturo_alessandri"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-
-create_country_leader = {
-	name = "Jorge González von Marées"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Carlos Contreras Labarca"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
 	traits = {
 		#
 	}
