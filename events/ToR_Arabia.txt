@@ -1,0 +1,28 @@
+
+
+add_namespace = Arabia
+
+country_event = {
+    id = Arabia.1
+    title = Arabia.1.t
+    desc = Arabia.1.d
+    picture = GFX_report_event_vienna_award_negotiations
+
+    trigger = {
+     OR = {
+      original_tag = HEJ
+      original_tag = NEJ
+      original_tag = SHM
+      original_tag = YEM
+      original_tag = OMA
+      original_tag = IRQ
+      original_tag = SYR
+      original_tag = BHR
+      original_tag = QAT
+     }
+    }
+
+    option = {
+        name = Arabia.1.a
+    }
+}
