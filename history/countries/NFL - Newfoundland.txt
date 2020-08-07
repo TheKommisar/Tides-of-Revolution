@@ -18,12 +18,17 @@ set_politics = {
 }
 
 set_popularities = {
-	social_conservative = 50
-	social_liberal = 37
-	social_democrat = 8
-	vanguardist = 5
+    vanguardist = 3
+    orthodox_marxist = 5
+    revolutionary_socialist = 11
+    social_democrat = 14
+    social_liberal = 8
+    classic_liberal = 24
+    social_conservative = 32
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    national_populist = 3
 }
-
 set_convoys = 5
 
 create_country_leader = {
