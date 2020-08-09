@@ -1035,7 +1035,7 @@ focus = {
 	}
 focus = {
 		id = AST_arms_research
-		icon = GFX_goal_generic_positive_trade_relations_gold
+		icon = GFX_focus_research
                 prerequisite = { focus = AST_lessons_of_the_great_war }
 		x = -2
 		y = 1
@@ -1057,7 +1057,7 @@ focus = {
 	}
 focus = {
 		id = AST_fortress_australia
-		icon = GFX_goal_generic_positive_trade_relations_gold
+		icon = GFX_goal_nested_fortifications
                 prerequisite = { focus = AST_lessons_of_the_great_war }
 		x = 0
 		y = 1
@@ -1079,7 +1079,7 @@ focus = {
 	}
 focus = {
 		id = AST_invest_military_companies
-		icon = GFX_goal_generic_positive_trade_relations_gold
+		icon = GFX_goal_generic_construct_mil_factory
                 prerequisite = { focus = AST_lessons_of_the_great_war }
 		x = 2
 		y = 1
@@ -1101,7 +1101,7 @@ focus = {
 	}
 focus = {
 		id = AST_begin_rearming
-		icon = GFX_goal_generic_positive_trade_relations_gold
+		icon = GFX_focus_chi_army_reform
                 prerequisite = { focus = AST_arms_research }  
 		prerequisite = { focus = AST_fortress_australia }
                 prerequisite = { focus = AST_invest_military_companies }

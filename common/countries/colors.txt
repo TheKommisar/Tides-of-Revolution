@@ -9,7 +9,7 @@ ENG = {
         color_ui = rgb { 200 35 35 }
 }
 SOV = {
-	color = rgb { 125 13 24 }
+	color = rgb { 125 13 24 } # would consider changing to FR's Soviet red
 	color_ui = rgb { 163 17 31 }
 }
 SWE = {
@@ -116,8 +116,8 @@ HUN = {
 	color_ui = rgb { 187 74 74 }
 }
 AFG = {
-	color = rgb { 64 160 167 }
-	color_ui = rgb { 83 208 217 }
+	color = rgb { 0 146 167 } # Original is 64 160 167
+	color_ui = rgb { 0 106 167 }
 }
 ARG = {
 	color = rgb { 100 182 240 }

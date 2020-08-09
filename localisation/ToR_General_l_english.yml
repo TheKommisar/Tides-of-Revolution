@@ -1,0 +1,146 @@
+﻿l_english:
+
+### Loading Messages ###
+LOADING_GUI:0 "Establishing the Fourth French Republic"
+#"Loading GUI"
+LOADING_HISTORY:0 "Spreading Socialist ideals"
+#"Loading History"
+LOADING_SAVEGAME:0 "Reshaping history: $NAME$"
+#"Loading savegame: $NAME$"
+LOADING_SAVEGAME_NO_NAME:0 "Loading savegame"
+#"Loading savegame"
+LOADING_DATABASES:0 "Executing Traitors"
+#"Loading databases"
+LOADING_MAP_SPRITES:0 "Occupying Constantinople"
+#"Loading sprites"
+LOAD_GFX_PDXMAP_SHADERS:0 "Watching the Rhine"
+#"Loading Map(Creating Shaders)..."
+LOAD_GFX_PDXMAP_TERRAIN:0 "Federalising Austria-Hungary"
+#"Loading Map(Creating Terrain)..."
+LOAD_GFX_PDXMAP_BORDERS:0 "Signing the Treaty of Geneva"
+#"Loading Map(Creating Borders)..."
+LOAD_GFX_PDXMAP_TEXTURES:0 "Intervening in the Russian Civil War"
+#"Loading Map(Creating Textures)..."
+LOAD_GFX_PDXMAP_TREES:0 "Causing a Great Depression"
+#"Loading Map(Creating Trees)..."
+LOAD_GFX_PDXMAP_RIVERS:0 "Exiling the Monarchists"
+#"Loading Map(Creating Rivers)..."
+LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 "Rekindling the Tides of Revolution"
+#"Loading Map(Creating objects)..."
+LOAD_EVENTS:0 "Destablizing the Republic"
+#"Loading Events"
+LOAD_GFX:0 "Writing Kaiserreich"
+#"Loading Graphics"
+LOADING_MAIN_MENU:0 "Decentralizing the British Empire"
+#"Loading main menu"
+PRECALC_NAVAL_DIST:0 "Surrendering Control to the Kaiser"
+#"Precalculating Naval Distances"
+EXITING_TO_FRONTEND:0 "Bypassing the Siegfried Line"
+#"Returning to main menu"
+LOAD_INIT:0 "Placing us in the Sun"
+#"Initialising Game..."
+LOAD_FLAGS:0 "Spreading the Revolution To Bulgaria"
+#"Creating Flags"
+PROC_FLAGS:0 "Kicking off the French Civil War"
+#"Processing Flags"
+INIT_MAP_LOGIC:0 "Making Baydalakov President"
+#"Initialising map logic"
+INIT_GAMESTATE:0 "Disestablishing Democracy"
+#"Initialising game"
+EXECUTE_HISTORY:0 "Repeating History"
+#"Executing history"
+CREATING_CHKSUM:0 "Executing the Tsar's Family"
+#"Creating checksum"
+GENERATING_GRADIENT_BORDERS:0 "Bribing Government Officials"
+#"Generating Gradient Borders"
+
+
+###OTHER COUNTRIES DESC###
+OTHER_WHISPERS_OF_ANTIQUITY_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the nationalists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its current situation, plummeting into the hells of war. And it will not wait for your decisions."
+
+#POLITICS_JFC_FULLER_DESC:0 "J.F.C. Fuller is the military dictator and leader of the former United Kingdom. With the death of the duumvirate of Haig and Kitchener, Fuller was the military's successful candidate to succeed to the position of dictator. However, he has brought with him his fascination for the occult and belief in Anglo-Saxon revival, which has caused some to regret their choice. Fuller is an erratic and cruel dictator, crushing dissent and seeking to aggressively expand his state in order to solidify control and restore England to her former glory."
+
+POLITICS_TOM_MANN_DESC:0 "A veteran trade unionist, Tom Mann has had a long career in socialist agitation and longs to see international revolution. First, however, he must start at home."
+
+POLITICS_OSWALD_MOSLEY_DESC:0 "Oswald Mosley saw the defeat of the British Empire in the Guerra Mondiale from the front lines. He then watched in horror as Britain collapsed in on herself and the military seized power, destroying centuries of parliamentary traditions and usurping rightful authority. He spurned Folkloric Ednewing and the Anglo-Saxon revival as nonsensical backward thinking, arguing instead from the underground political scene that Britain needed a "new machine" to fulfil her political goals. Now, Mosley is able to restore Britain's glory himself, though whether or not he permits royal power to return remains in question."
+
+#POLITICS_EDWARD_VIII_DESC:0 "With the death of George V at the end of 1935, Edward VIII became the de jure King-Emperor of the United Kingdom and her Empire overseas. However, it took for the removal of the lickspittle maniac J.F.C. Fuller for Edward to assume his full power within the United Kingdom itself. Now the King must turn to the errant parts of his Dominions and reassert British rule. Edward VIII himself is not an absolute dictator, but politics have not reverted to a pre-military coup state.."
+
+POLITICS_PAUL_REYNAUD_DESC:0 "Paul Reynaud made his first major appearance in French politics in 1919, Reynaud was elected as part of the Conservative 'Blue Horizon' Bloc. Quickly developing a reputation for being a Savvy politician, Reynaud soon clarified his allegiance as a member of the Fédération Républicaine. Quickly climbing ranks within the party due to his Militant nature in foreign policy, Reynaud rose to the position of the Vice-President of the FR. In 1925, Auguste Isaac resigned his position as President of the Fédération Républicaine and sought to appoint a Militant successor in order to strengthen the platform of the party. Reynaud was a natural candidate due to his popularity within the party and firm stance on foreign affiars. Under Reynaud's leadership, the Fédération Républicaine managed gathering the most votes and seats in both the 1928 & 1932 Elections. An extremely pragmatic man, Reynaud follows one doctrine in foreign policy; France has no Friends, only Interests."
+
+### Laws ###
+#undisturbed_isolation:0 "Splendid Isolation"
+#undisturbed_isolation_desc:0 "With its victory in Great War, Britain once again retreated into isolation, content to manage its Empire and avoid further entanglements on the European continent. With the onset of political developments in British India and Colonial Africa the attention of the British Empire is focused squarely on internal affairs."
+
+isolation:0 "Isolation"
+isolation_desc:0 "Prioritizing internal affairs and managing our own nation is a preferable alternative to foreign intervention.\n"
+
+civilian_economy:0 "Peacetime Demobilization"
+civilian_economy_desc:0 "I believe it is peace for our time. Go home and get a nice quiet sleep.\n"
+
+low_economic_mobilisation:0 "Early Mobilization"
+low_economic_mobilisation_desc:0 "Opportunity belongs to those who seize it.\n"
+
+partial_economic_mobilisation:0 "Partial Mobilization"
+partial_economic_mobilisation_desc:0 "War looms on the horizon, we'd be simply foolish to disregard preparations for it.\n"
+
+war_economy:0 "Wartime Mobilization"
+war_economy_desc:0 "We are at war; we cannot afford to provide our enemies with slightest shred of sympathy.\n"
+
+tot_economic_mobilisation:0 "Total Mobilization"
+tot_economic_mobilisation_desc:0 "You don't reason with intellectuals. You shoot them.\n"
+
+free_trade:0 "Free Trade"
+free_trade_desc:0 "Globalization and free trade tends to spur economic growth, and they lead to lower prices on many goods.\n"
+
+export_focus:0 "Open Markets" #Export Focus
+export_focus_desc:0 "I'm not opposed to free trade if it's fair trade. But I am opposed to bad trade deals.\n"
+
+limited_exports:0 "Regulated Markets" #Limited Exports
+limited_exports_desc:0 "As with anything in life; you must apply moderation.\n"
+
+closed_economy:0 "Closed Markets" #Closed Economy
+closed_economy_desc:0 "Trade? Who needs trade?\n"
+
+disarmed_nation:0 "Disarmed Nation"
+disarmed_nation_desc:0 "It's for the best that we follow a limit imposed on our Military.\n"
+
+volunteer_only:0 "Volunteer-Only"
+volunteer_only_desc:0 "A "Just War" - if there could be such a thing - would not require conscription. Volunteers would be plentiful.\n"
+
+limited_conscription:0 "Limited Conscription"
+limited_conscription_desc:0 "Conscription if necessary, but not necessarily conscription.\n"
+
+extensive_conscription:0 "Extensive Conscription"
+extensive_conscription_desc:0 "Conscription is the vitality of a nation, the purification of its morality, and the real foundations of all its habits.\n"
+
+service_by_requirement:0 "Service by Requirement"
+service_by_requirement_desc:0 "Are you doing your part?\n"
+
+all_adults_serve:0 "All Adults Serve"
+all_adults_serve_desc:0 "The worse the man, the better the soldier.\n"
+
+scraping_the_barrel:0 "Scraping the Barrel"
+scraping_the_barrel_desc:0 "Every man, every women and every child will contribute to the War Effort, one way or another.\n"
+
+### Difficulty settings ###
+#custom_diff_strong_ger:0 "Strengthen Eintracht von Europa"
+#custom_diff_strong_sov:0 "Strengthen The Russian Empire"
+#custom_diff_strong_fra:0 "Strengthen France"
+#custom_diff_strong_ita:0 "Strengthen Patto di Sangue"
+#custom_diff_strong_eng:0 "Strengthen the UK"
+#custom_diff_strong_usa:0 "Strengthen America"
+#custom_diff_strong_mex:0 "Strengthen Mexico"
+#custom_diff_strong_jap:0 "Strengthen Japan"
+#custom_diff_strong_tur:0 "Strengthen Ottomans"
+
+### Interface ###
+#minister:1 "Ministers"
+#research_production:1 "Companies"
+#industrial_concern:1 "Industrial Company"
+#weapons_manufacturer:0 "Weapons Manufacturer"
+#tank_manufacturer:1 "Heavy Equipment Manufacturer"
+#air_naval_manufacturer:0 "Air and Naval Manufacturer"
+#POLITICS_NOELECTIONS:0 "Any elections by event."
+#can_replace_hog:0 "Can Replace Head Of Government"
+#ministers_cannot_be_replaced:0 "Ministers Cannot Be Replaced"
