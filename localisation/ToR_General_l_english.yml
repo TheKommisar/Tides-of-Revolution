@@ -144,3 +144,8 @@ scraping_the_barrel_desc:0 "Every man, every women and every child will contribu
 #POLITICS_NOELECTIONS:0 "Any elections by event."
 #can_replace_hog:0 "Can Replace Head Of Government"
 #ministers_cannot_be_replaced:0 "Ministers Cannot Be Replaced"
+
+##### Tooltips #####
+
+unlocked_later:0 "Your path remains closed until an opportunity presents itself."
+ENG_annex:0 "§RThis will result in your annexation!§"

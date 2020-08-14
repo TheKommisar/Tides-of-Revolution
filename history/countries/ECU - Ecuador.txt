@@ -12,7 +12,7 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = classic_liberal
+	ruling_party = paternal_autocrat
 	last_election = "1933.12.15"
 	election_frequency = 84
 	elections_allowed = no
@@ -23,19 +23,19 @@ set_popularities = {
 	revolutionary_socialist = 1
         social_democrat = 5
         social_liberal = 9
-        classic_liberal = 37
-        social_conservative = 28
+        classic_liberal = 0
+        social_conservative = 2
         authoritarian_democrat = 15
-        paternal_autocrat = 0
-        national_populist = 2
+        paternal_autocrat = 37
+        national_populist = 28
 }
 
 create_country_leader = {
-	name = "Isidro Ayora"
+	name = "Carlos Freile Larrea"
 	desc = "POLITICS_FEDERICO_PAEZ_DESC"
-	picture = "Portrait_Ecuador_Isidro_Ayora.tga"
+	picture = "CarlosFreile.dds"
 	expire = "1965.1.1"
-	ideology = classic_liberal_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
