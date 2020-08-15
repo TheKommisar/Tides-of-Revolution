@@ -16,36 +16,35 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_liberal
 	last_election = "1932.10.28"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    totalitarian_socialist = 0
-    vanguardist = 10
+    vanguardist = 0
     orthodox_marxist = 0
-    revolutionary_socialist = 0
-    social_democrat = 0
-    social_liberal = 0
-    classic_liberal = 30
+    revolutionary_socialist = 2
+    social_democrat = 16
+    social_liberal = 48
+    classic_liberal = 12
     social_conservative = 20
-    authoritarian_democrat = 0
-    paternal_autocrat = 40
+    authoritarian_democrat = 2
+    paternal_autocrat = 0
     national_populist = 0
 }
 
-create_country_leader = {
-	name = "United Fruit Company"
-	desc = "COLINDRES_DESC"
-	picture = "gfx/leaders/HON/HON_united_fruit_company.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "United Fruit Company" # removed, this shit is too fucking cursed
+#	desc = "COLINDRES_DESC"
+#	picture = "gfx/leaders/HON/HON_united_fruit_company.tga" # haha French laugh
+#	expire = "1965.1.1"
+#	ideology = paternal_autocrat_subtype
+#	traits = {
+#		#
+#	}
+#}
 
 create_country_leader = {
 	name = "Vicente Mejía Colindres"

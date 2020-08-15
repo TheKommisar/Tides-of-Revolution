@@ -45,6 +45,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = INS_HOL # Netherlands East Indies
+
 set_convoys = 25
 set_politics = {
 	ruling_party = paternal_autocrat
@@ -53,7 +55,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	paternal_autocrat = 100
+	vanguardist = 0
+        orthodox_marxist = 2
+	revolutionary_socialist = 8
+        social_democrat = 2
+        social_liberal = 8
+        classic_liberal = 10
+        social_conservative = 3
+        authoritarian_democrat = 7
+        paternal_autocrat = 60
+        national_populist = 0
 }
 
 
@@ -68,20 +79,15 @@ create_country_leader = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	create_field_marshal = {
-		name = "Hein ter Poorten"
-		gfx = "GFX_portrait_hol_hein_ter_poorten"
-		traits = { inspirational_leader logistics_wizard }
-		skill = 3
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 3
+create_field_marshal = {
+	name = "Hein ter Poorten"
+	gfx = "GFX_generic"
+	traits = { inspirational_leader logistics_wizard }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
 	}
 }
 
-set_cosmetic_tag = INS_HOL # Netherlands East Indies

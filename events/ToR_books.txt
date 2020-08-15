@@ -42,7 +42,6 @@ country_event = {
 		name = alt_history.1.b
 		trigger = {
 			   OR = {
-                              has_government = totalitarian_socialist
                               has_government = vanguardist
                               has_government = orthodox_marxist
                               has_government = revolutionary_socialist

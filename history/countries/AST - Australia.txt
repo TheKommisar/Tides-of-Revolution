@@ -74,7 +74,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 1
         orthodox_marxist = 3
 	revolutionary_socialist = 3
@@ -198,6 +197,17 @@ create_corps_commander = {
     defense_skill = 1
     planning_skill = 2
     logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Leslie Morshead"
+	picture = "Portrait_AST_Leslie_Morshead.tga"
+	traits = { infantry_officer desert_fox }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
 }
 
 create_navy_leader = {

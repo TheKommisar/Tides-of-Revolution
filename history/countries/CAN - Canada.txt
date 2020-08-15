@@ -10,7 +10,6 @@ if = {
 }
 
 set_research_slots = 3
-set_country_flag = monroe_doctrine
 set_stability = 0.8
 set_war_support = 0.1
 
@@ -70,8 +69,7 @@ set_popularities = {
 	social_democrat = 16
 	vanguardist = 1
 	orthodox_marxist = 2
-	totalitarian_socialist = 0.5
-	national_populist = 0.5
+	national_populist = 1
 	authoritarian_democrat = 8
 }
 

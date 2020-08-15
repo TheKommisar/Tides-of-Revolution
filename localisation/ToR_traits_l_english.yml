@@ -1,5 +1,6 @@
 ﻿l_english: 
-
+#Leader Traits
+lit_weak_council:0 "Weak Council"
 #head of government
 hog_pragmatic_statesman:0 "Pragmatic Statesman"
 hog_happy_amateur:0 "Happy Amateur"

@@ -1,0 +1,8 @@
+leader_traits = {
+
+	lit_weak_council = {
+		political_power_gain = -0.1
+                stability_factor = -0.05
+
+		random = no
+	}

@@ -94,15 +94,23 @@ if = {
 	}
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_conservative = 10
-	authoritarian_democrat  = 90
+	    vanguardist = 0
+        orthodox_marxist = 0
+	    revolutionary_socialist = 7
+        social_democrat = 4
+        social_liberal = 26
+        classic_liberal = 4
+        social_conservative = 8
+        authoritarian_democrat = 9
+        paternal_autocrat = 35
+        national_populist = 7
 }
 
 set_ideas = {

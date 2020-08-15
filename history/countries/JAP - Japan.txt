@@ -113,6 +113,7 @@ set_convoys = 400
 create_faction = prosperity_sphere
 add_to_faction = FER
 add_to_faction = VIN
+add_to_faction = MAN
 
 if = {
 	limit = {
@@ -165,7 +166,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_conservative = 100
+    vanguardist = 1
+    orthodox_marxist = 2
+    revolutionary_socialist = 2
+    social_democrat = 13
+    social_liberal = 5
+    classic_liberal = 25
+    social_conservative = 28
+    authoritarian_democrat = 5
+    paternal_autocrat = 9
+    national_populist = 10
 }
 
 create_country_leader = {

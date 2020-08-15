@@ -108,7 +108,6 @@ set_politics = {
 }
 
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 0
         orthodox_marxist = 13
 	revolutionary_socialist = 6
@@ -134,9 +133,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Wilhelm III"
-	desc = "POLITICS_WILHELM_III_DESC"
-	picture = "Portrait_Germany_Wilhelm_III.tga"
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = "Portrait_Germany_Wilhelm_II.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -145,9 +144,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wilhelm III"
-	desc = "POLITICS_WILHELM_III_DESC"
-	picture = "Portrait_Germany_Wilhelm_III.tga"
+	name = "Wilhelm II"
+	desc = "POLITICS_WILHELM_II_DESC"
+	picture = "Portrait_Germany_Wilhelm_II.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

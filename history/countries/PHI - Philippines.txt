@@ -42,6 +42,13 @@ add_ideas = {
 #
 }
 
+USA = { 
+        set_autonomy = {
+        target = PHI
+	autonomous_state =  autonomy_puppet
+}
+}
+
 set_convoys = 25
 set_stability = 0.72
 set_war_support = 0.38
@@ -54,7 +61,6 @@ set_politics = {
 }
 
 set_popularities = {
-    totalitarian_socialist = 0
     vanguardist = 15 
     orthodox_marxist = 0 
     revolutionary_socialist = 4
@@ -65,14 +71,6 @@ set_popularities = {
     authoritarian_democrat = 30
     paternal_autocrat = 0
     national_populist = 0
-}
-create_country_leader = {
-	name = "Crisanto Evangelista"
-	desc = "POLITICS_CRISTIANO_EVANGELISTA_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Crisanto_Evangelista.tga"
-	expire = "1943.6.2"
-	ideology = totalitarian_socialist_subtype
-	traits = { }
 }
 create_country_leader = {
 	name = "Crisanto Evangelista"
@@ -117,7 +115,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Manuel Luis Quezon"
 	desc = "POLITICS_SEGIO_OSMENA_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon_KR"
+	picture = "Portrait_Philippines_Manuel_Luis_Quezon_KR.tga"
 	expire = "1944.8.1"
 	ideology = social_liberal_subtype
 	traits = { }

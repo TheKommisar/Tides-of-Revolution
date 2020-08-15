@@ -1,53 +1,12 @@
 ideologies = {
-	
-          totalitarian_socialist = { 
-		
-		types = {
-		
-			totalitarian_socialist_subtype = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-		
-		color = { 127 0 0 }
-		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-		
-		ai_communist = yes # uses the commie AI behaviour
-		
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-			can_create_factions = no
-		}		
-		modifiers = {
-			#join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-			production_speed_buildings_factor = 0.05
-		}
-		
-		faction_modifiers = {
-			
-		}
-
-	}
 
 	vanguardist = { 
 		
 		types = {
 		
 			vanguardist_subtype = {
+			} 
+                        totalitarian_socialist = {
 			}
 		}
 		
@@ -153,7 +112,6 @@ ideologies = {
         social_democrat = {
 		types = {
 			social_democrat_subtype = {}
-                        democratic_socialism = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"

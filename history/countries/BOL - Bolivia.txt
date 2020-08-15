@@ -1,0 +1,159 @@
+﻿capital = 302
+
+oob = "BOL_1936"
+
+add_ideas = {
+	civilian_economy
+	export_focus
+	volunteer_only
+}
+set_research_slots = 3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	gwtank = 1
+	tech_mountaineers = 1
+	basic_light_tank = 1
+	fuel_silos = 1
+}
+set_stability = 0.4
+set_war_support = 0.4
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1934.11.11"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+set_popularities = {
+    revolutionary_socialist = 10
+    social_democrat = 10
+    national_populist = 25
+    vanguardist = 15
+    orthodox_marxist = 15
+    social_conservative = 10
+    classic_liberal = 0
+    social_liberal = 10
+    authoritarian_democrat = 5 
+}
+
+create_country_leader = {
+	name = "José Luis Tejada Sorzano"
+	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
+	picture = "JoseLuisTejada.tga"
+	expire = "1965.1.1"
+	ideology = classic_liberal_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Franz Tamayo Solares"
+	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
+	picture = "Franz_Tamayo_portrait.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tristán Marof"
+	desc = "POLITICS_TRISTAN_MAROF_DESC"
+	picture = "TristanMarof.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José Antonio Arze"
+	desc = "POLITICS_ARZE_DESC"
+	picture = "JoseAntonioArze.tga"
+	expire = "1965.1.1"
+	ideology = orthodox_marxist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carlos Salazar Mostajo"
+	desc = "POLITICS_CARLOS_MOSTAJO_DESC"
+	picture = "CarlosMostajo.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "Óscar Únzaga de la Vega"
+	desc = "POLITICS_OSCAR_UNZAGA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Enrique Peñaranda"
+	picture = "BOL_Enrique_Castillo.tga"
+	traits = {}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Bernardino Bilbao Rioja "
+	picture = "BOL_Bernardino_Bilbao_Rioja.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "David Toro"
+	picture = "BOL_David_Toro.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Carlos Quintanilla Quiroga"
+	picture = "BOL_Carlos_Quintanilla_Quiroga.tga"
+	traits = {}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Germán Busch"
+	picture = "BOL_German_Busch.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}

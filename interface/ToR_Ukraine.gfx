@@ -1,0 +1,18 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_UKR_uncontrolled_nationalism"
+		texturefile = "gfx/interface/ideas/UKR/uncontrolled_nationalism.tga"
+	}
+spriteType = {
+		name = "GFX_idea_UKR_agricultural_nation"
+		texturefile = "gfx/interface/ideas/UKR/ukraine_agricultural_nation.tga"
+	}
+spriteType = {
+		name = "GFX_idea_UKR_hetmans_host"
+		texturefile = "gfx/interface/ideas/UKR/the_hetmans_host.tga"
+	}
+} 

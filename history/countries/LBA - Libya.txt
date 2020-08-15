@@ -15,7 +15,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-    totalitarian_socialist = 0
     vanguardist = 0
     orthodox_marxist = 0
     revolutionary_socialist = 5
@@ -43,16 +42,6 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Arabia_Generic_land_3.dds"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hassan as-Senussi"
-	desc = ""
-	picture = "Portrait_Arabia_Generic_communism1.dds"
-	ideology = leninism
 	traits = {
 		#
 	}

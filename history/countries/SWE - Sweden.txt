@@ -68,7 +68,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 0
         orthodox_marxist = 3
 	revolutionary_socialist = 7
@@ -84,15 +83,15 @@ set_convoys = 25
 set_stability = 0.9
 
 
-create_country_leader = {
-	name = "Sven Linderot"
-	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "Portrait_Sven_Linderot.tga"
-	expire = "1999.1.1"
-	ideology = totalitarian_socialist_subtype
-	traits = {
-	}
-}
+#create_country_leader = {
+#	name = "Sven Linderot"
+#	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+#	picture = "Portrait_Sven_Linderot.tga"
+#	expire = "1999.1.1"
+#	ideology = totalitarian_socialist_subtype
+#	traits = {
+#	}
+#}
 
 create_country_leader = {
 	name = "Hugo Sillén"
