@@ -1,0 +1,68 @@
+
+add_namespace = belgium
+
+# the 1936 election
+country_event = {
+    id = belgium.1
+    title = belgium.1.t
+    desc = belgium.1.desc
+
+    is_triggered_only = yes
+
+    option = { #Catholics
+        name = belgium.1.a
+        complete_national_focus = BEL_1936_elections
+        complete_national_focus = BEL_catholics_retain_power
+        add_popularity = {
+            ideology = social_conservative
+            popularity = 0.05
+        }
+    }
+
+    option  = { #Labour
+        name = belgium.1.b
+        complete_national_focus = BEL_1936_elections
+        complete_national_focus = BEL_labour_party
+        add_popularity = {
+            ideology = social_democrat
+            popularity = 0.2
+        }
+        set_politics = {
+            ruling_party = social_democrat
+            elections_allowed = no
+        }
+    }
+
+    option = {  #Commies
+        name = belgium.1.c
+        complete_national_focus = BEL_1936_elections
+        complete_national_focus = BEL_communist_triumph
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.2
+        }
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+
+    }
+
+    option = {  #Nazis
+        name = belgium.1.d
+        complete_national_focus = BEL_1936_elections
+        complete_national_focus = BEL_communist_triumph
+        add_popularity = {
+            ideology = national_populist
+            popularity = 0.2
+        }
+        set_politics = {
+            ruling_party = national_populist
+            elections_allowed = no
+        }
+
+    }
+}
+
+
+

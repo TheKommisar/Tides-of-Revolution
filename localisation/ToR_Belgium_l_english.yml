@@ -69,10 +69,56 @@ BEL_vanguardist_ADJ:0 "Belgian"
 
  
 #Focuses
+BEL_1936_elections:0 "The Elections of 1936"
+BEL_1936_elections_desc:0 ""
+
+BEL_communist_triumph:0 "A Victory for the People"
+BEL_communist_triumph_desc:0 ""
+
+BEL_exile_the_monarchy:0 "Exile the Monarchy"
+BEL_exile_the_monarchy_desc:0 ""
+
+BEL_reach_out_to_france:0 "Reach out to France"
+BEL_reach_out_to_france_desc:0 ""
+
+BEL_centralize_the_government:0 "Centralize the Government"
+BEL_centralize_the_government_desc:0 ""
+
+BEL_arrest_revolutions_enemies:0 "Arrest Traitors to the Revolution"
+BEL_arrest_revolutions_enemies_desc:0 ""
+
+BEL_a_state_for_the_people:0 "The People's State"
+BEL_a_state_for_the_people_desc:0 ""
+
+BEL_labour_victory:0 "Labour Victory"
+BEL_labour_victory_desc:0 ""
+
+BEL_walk_the_middle_road:0 "Walk the Middle Road"
+BEL_walk_the_middle_road_desc:0 ""
+
+BEL_feed_the_poor:0 "Feeding the Poor"
+BEL_feed_the_poor_desc:0 ""
+
+BEL_democratic_socialism:0 "Democratic Socialism"
+BEL_democratic_socialism_desc:0 "
+"
 #should be reintegrated
 
 #Events
+
+belgium.1.t:0 "The Elections of 1936"
+belgium.1.desc:0 "After several turbulent years under the leadership of Prime Minister van Zeeland, the time for another election has once again come to Belgium. Though many expect the moderates of the Labour Party or Catholics to emerge victorious once again, there is no denying that there is an air of change within Belgian society as well as unrest boiling under the surface as a result of the economic downturn that developed with the stagnation of the British economy. As the results come in, it becomes obvious that..."
+belgium.1.a:0 "...The Catholics are once again triumphant"
+belgium.1.b:0 "...The Labour Party is victorious"
+belgium.1.c:0 "...The Communists have pulled off a surprise victory"
 #should be reintegrated
+
+#Ideas
+
+BEL_political_polarization:0 "Political Polarization"
+BEL_political_polarization_desc:0 "Belgium is surrounded by countries governed by radical and dangerous ideologies, who are happy to exert their influence over our small nation. Socialist unrest grows in our more industrialized areas, in part with the help and support of the French, while far-right factions such as Degrelle's Rexist Party rise up with the promise of helping it. The increases in support for these radical ideology threaten the stability of not only our government, but the nation as a whole, and they will need to be countered in order to secure our country's future."
+BEL_great_war_horrors:0 "Great War Horrors"
+BEL_great_war_horrors_desc:0 "There is no denying the amount of suffering caused by the Great War that took Europe by storm in 1914, however Belgium may well have endured the worst of it. In 1914 the Germans marched across our exposed Eastern border, leveling entire villages and committing countless atrocities against the civilian population. Though Belgium once again finds herself between a rock and a hard place with the radicalizing France and Germany on her borders, many Belgians would be reluctant to get involved in another conflict and the government attempts to maintain a neutral stance in foreign affairs."
 
 #Descriptions
 
