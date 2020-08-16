@@ -19,11 +19,6 @@ set_technology = {
 	fuel_refining = 1
 }
 
-add_ideas = {
-    BEL_political_polarization
-    BEL_great_war_horrors
-}
-
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1936.1.1" 

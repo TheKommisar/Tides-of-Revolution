@@ -240,7 +240,7 @@ SIK = {
 	color_ui = rgb { 222 247 198 }
 }
 TIB = {
-	color = rgb { 80 115 45}
+	color = rgb { 180  180  180 }
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
@@ -652,4 +652,28 @@ KAS = {
 STR = {
         color = rgb { 149 45 102 }
 	color_ui = rgb { 149 45 102 }
+}
+GNA = {
+    color = rgb { 115  166  64 }
+    color_ui = rgb { 115 166  64 }
+}
+VOL = {
+    color = rgb { 218 164  32 }
+    color_ui = { 218 164  32 }
+}
+NGR = {
+    color = rgb { 0 19 18 }
+    color_ui = rgb { 0 19 18 }
+}
+MLI = {
+	color = rgb { 150 175 159 }
+	color_ui = rgb { 150 175 159 }
+}
+MRT = {
+    color = rgb { 92 81 135 }
+    color_ui = rgb { 92 81 135 }
+}
+MAD = {
+	color = rgb { 119  80  51 }
+	color_ui = rgb { 119  80  51 }
 }
