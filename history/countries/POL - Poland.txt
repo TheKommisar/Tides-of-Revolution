@@ -74,27 +74,27 @@ set_politics = {
 }
 set_popularities = {
         totalitarian_socialist = 0
-	vanguardist = 0
-        orthodox_marxist = 0
-	revolutionary_socialist = 0
-        social_democrat = 0
-        social_liberal = 0
-        classic_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 100
-        paternal_autocrat = 0
-        national_populist = 0
+	vanguardist = 2
+        orthodox_marxist = 1
+	revolutionary_socialist = 3
+        social_democrat = 4
+        social_liberal = 5
+        classic_liberal = 13
+        social_conservative = 7
+        authoritarian_democrat = 52
+        paternal_autocrat = 6
+        national_populist = 7
 }
 
 
 #LEADERS
 
 create_country_leader = {
-	name = "Stanisław Wojciechowski"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Stanislaw_Wojciechowski.tga"
+	name = "Adam Czartoryski"
+	desc = "POLITICS_ADAM_CZARTORYSKI_DESC"
+	picture = "Portrait_Poland_Adam_Czartoryski.tga"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -133,16 +133,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Witold I"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "POL_Witold_Leon_Czartoryski.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Adam Doboszyński"
