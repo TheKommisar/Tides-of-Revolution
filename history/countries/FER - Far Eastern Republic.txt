@@ -9,22 +9,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	vanguardist = 4
-        orthodox_marxist = 1
+        totalitarian_socialist = 0
+	vanguardist = 1
+        orthodox_marxist = 0
 	revolutionary_socialist = 3
         social_democrat = 14
-        social_liberal = 3
+        social_liberal = 5
         classic_liberal = 2
-        social_conservative = 3
-        authoritarian_democrat = 48
-        paternal_autocrat = 18
-        national_populist = 4
+        social_conservative = 11
+        authoritarian_democrat = 18
+        paternal_autocrat = 38
+        national_populist = 8
 }
 
 set_convoys = 5
@@ -34,7 +35,7 @@ create_country_leader = {
 	desc = "POLITICS_GRIGORY_SEMYONOV_DESC"
 	picture = "Portrait_Far_Eastern_Republic_Grigory_Semyonov.dds"
 	expire = "1999.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
