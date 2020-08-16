@@ -27,7 +27,7 @@ BEL_national_populist_party_long:0 "Parti Rexiste"
 #Country Names
 BEL_national_populist:0 "Kingdom of Belgium"
 BEL_national_populist_DEF:0 "the Kingdom of Belgium"
-BEL_totalitarian_socialist:0 "Belgian Sydicate"
+BEL_totalitarian_socialist:0 "Belgian Syndicate"
 BEL_totalitarian_socialist_DEF:0 "the Belgian Syndicate"
 BEL_paternal_autocrat:0 "Kingdom of Belgium"
 BEL_paternal_autocrat_DEF:0 "the Kingdom of Belgium"
@@ -72,7 +72,7 @@ BEL_vanguardist_ADJ:0 "Belgian"
 BEL_1936_elections:0 "The Elections of 1936"
 BEL_1936_elections_desc:0 ""
 
-BEL_communist_triumph:0 "A Victory for the People"
+BEL_communist_triumph:0 "A Victory for the People - Communist Victory"
 BEL_communist_triumph_desc:0 ""
 
 BEL_exile_the_monarchy:0 "Exile the Monarchy"
@@ -90,7 +90,7 @@ BEL_arrest_revolutions_enemies_desc:0 ""
 BEL_a_state_for_the_people:0 "The People's State"
 BEL_a_state_for_the_people_desc:0 ""
 
-BEL_labour_victory:0 "Labour Victory"
+BEL_labour_victory:0 "The Socialists - Labour Victory"
 BEL_labour_victory_desc:0 ""
 
 BEL_walk_the_middle_road:0 "Walk the Middle Road"
@@ -100,8 +100,101 @@ BEL_feed_the_poor:0 "Feeding the Poor"
 BEL_feed_the_poor_desc:0 ""
 
 BEL_democratic_socialism:0 "Democratic Socialism"
-BEL_democratic_socialism_desc:0 "
-"
+BEL_democratic_socialism_desc:0 ""
+
+BEL_catholics_retain_power:0 "The Status Quo - Catholic Victory"
+BEL_catholics_retain_power_desc:0 ""
+
+BEL_strengthen_catholic_identity:0 "Strengthen Catholic Identity"
+BEL_strengthen_catholic_identity_desc:0 ""
+
+BEL_cooperate_with_the_liberals:0 "Cooperation with the Liberals"
+BEL_cooperate_with_the_liberals_desc:0 ""
+
+BEL_christian_democracy:0 "Christian Democracy"
+BEL_christian_democracy_desc:0 ""
+
+BEL_combat_extremism:0 "Combat Extremism"
+BEL_combat_extremism_desc:0 ""
+
+BEL_celebrate_democracy:0 "Celebrate Democracy"
+BEL_celebrate_democracy_desc:0 ""
+
+BEL_stability_at_last:0 "Stability, at last"
+BEL_stability_at_last_desc:0 ""
+
+BEL_far_right_coalition:0 "The Nationalists - Rex/Verdinaso Victory"
+BEL_far_right_coalition_desc:0 ""
+
+BEL_crack_down_on_communism:0 "Crack Down on Communism"
+BEL_crack_down_on_communism_desc:0 ""
+
+BEL_promote_belgian_unitarism:0 "Promote Belgian Unitarism"
+BEL_promote_belgian_unitarism_desc:0 ""
+
+BEL_a_new_belgium:0 "A New Belgium"
+BEL_a_new_belgium_desc:0 ""
+
+BEL_anti_communist_coup:0 "Anti-Communist Coup"
+BEL_anti_communist_coup_desc:0 ""
+
+BEL_king_albert_restores_order:0 "King Albert Restores Order"
+BEL_king_albert_restores_order_desc:0 ""
+
+BEL_cooperate_with_the_military:0 "Military Support"
+BEL_cooperate_with_the_military_desc:0 ""
+
+BEL_censor_the_press:0 "A Censored Press"
+BEL_censor_the_press_desc:0 ""
+
+BEL_king_and_law:0 "The King and the Law"
+BEL_king_and_law_desc:0 ""
+
+BEL_royalist_fervour:0 "Royalist Fervour"
+BEL_royalist_fervour_desc:0 ""
+
+BEL_kings_research:0 "A Royal University"
+BEL_kings_research_desc:0 ""
+
+BEL_degrelle_seizes_power:0 "Fascists Seize Power"
+BEL_degrelle_seizes_power_desc:0 ""
+
+BEL_abandon_monarchist_principles:0 "Abandon Monarchist Principles"
+BEL_abandon_monarchist_principles_desc:0 ""
+
+BEL_all_power_to_degrelle:0 "All Power to Degrelle"
+BEL_all_power_to_degrelle_desc:0 ""
+
+BEL_looking_outwards:0 "Looking Outwards"
+BEL_looking_outwards_desc:0 ""
+
+BEL_choosing_our_friends:0 "Choosing our Friends"
+BEL_choosing_our_friends_desc:0 ""
+
+BEL_side_with_britain:0 "Side with Britain"
+BEL_side_with_britain_desc:0 ""
+
+BEL_side_with_france:0 "Look to France"
+BEL_side_with_france_desc:0 ""
+
+BEL_military_cooperation:0 "Military Cooperation"
+BEL_military_cooperation_desc:0 ""
+
+BEL_strict_neutrality:0 "Strict Neutrality"
+BEL_strict_neutrality_desc:0 ""
+
+BEL_fortify_the_meuse:0 "Fortify the Meuse"
+BEL_fortify_the_meuse_desc:0 ""
+
+BEL_belgian_revanchism:0 "Belgian Revanchism"
+BEL_belgian_revanchism_desc:0 ""
+
+BEL_our_alsace_lorraine:0 "Our Alsace-Lorraine"
+BEL_our_alsace_lorraine_desc:0 ""
+
+BEL_dutch_claims:0 "Dutch Claims"
+BEL_dutch_claims_desc:0 ""
+
 #should be reintegrated
 
 #Events

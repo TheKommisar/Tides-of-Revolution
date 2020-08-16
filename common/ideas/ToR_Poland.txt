@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+		POL_Polish_Liberty = {
+			picture = POL_
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.20
+			}
+		}

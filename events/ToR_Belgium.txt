@@ -12,17 +12,17 @@ country_event = {
     option = { #Catholics
         name = belgium.1.a
         complete_national_focus = BEL_1936_elections
-        complete_national_focus = BEL_catholics_retain_power
         add_popularity = {
             ideology = social_conservative
             popularity = 0.05
         }
+        set_country_flag = BEL_catholic_victory_flag
     }
 
     option  = { #Labour
         name = belgium.1.b
         complete_national_focus = BEL_1936_elections
-        complete_national_focus = BEL_labour_party
+        complete_national_focus = BEL_labour_victory
         add_popularity = {
             ideology = social_democrat
             popularity = 0.2
@@ -31,6 +31,7 @@ country_event = {
             ruling_party = social_democrat
             elections_allowed = no
         }
+        set_country_flag = BEL_labour_victory_flag
     }
 
     option = {  #Commies
@@ -45,13 +46,14 @@ country_event = {
             ruling_party = orthodox_marxist
             elections_allowed = no
         }
+        set_country_flag = BEL_communist_victory_flag
 
     }
 
     option = {  #Nazis
         name = belgium.1.d
         complete_national_focus = BEL_1936_elections
-        complete_national_focus = BEL_communist_triumph
+        complete_national_focus = BEL_far_right_coalition
         add_popularity = {
             ideology = national_populist
             popularity = 0.2
@@ -60,6 +62,7 @@ country_event = {
             ruling_party = national_populist
             elections_allowed = no
         }
+        set_country_flag = BEL_far_right_victory_flag
 
     }
 }
