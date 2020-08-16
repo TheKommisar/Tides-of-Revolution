@@ -1,4 +1,21 @@
 ideas = {
+	country = {
+	GER_republican_menace = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture=
+		removal_cost = -1
+		modifier = {
+		political_power_gain = -0.1
+		drift_defence_factor = -0.25
+		army_core_defence_factor = 0.06
+
+			}
+		}
 head_of_government = {
         GER_Ernst_Junger_hog = {
 				
@@ -69,18 +86,18 @@ economy_minister = {
 		}
 }
 security_minister = {
-           GER_Otto_Lossow_sec = {
+           GER_Erich_Ludendorff_sec = {
 				
 			allowed = { original_tag = GER }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					NOT = { has_country_flag = Otto_Lossow_dead }
+					NOT = { has_country_flag = Erich_Ludendorff_dead }
 					#has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				NOT = { has_country_flag = Otto_Lossow_dead }
+				NOT = { has_country_flag = Erich_Ludendorff_dead }
 			}
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea GER_Otto_Lossow_sec"

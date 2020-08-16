@@ -1,0 +1,856 @@
+focus_tree = {
+	id = belgian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BEL
+		}
+	}
+
+	#Political branch
+
+	focus = {
+		id = BEL_1936_elections
+		icon = GFX_goal_DOM_Call_Special_Election
+		available = {
+		    has_country_flag = always_false
+		}
+		x = 7
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Communist path
+
+	focus = {
+		id = BEL_communist_triumph
+		icon = GFX_goal_ideology_syndicalist
+		prerequisite = { focus = BEL_1936_elections }
+		available = {
+		    has_country_flag = always_false
+		}
+		x = -3
+		y = 1
+		relative_position_id = BEL_1936_elections
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_exile_the_monarchy
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		prerequisite = { focus = BEL_communist_triumph }
+		available = {
+		}
+		x = -3
+		y = 1
+		relative_position_id = BEL_communist_triumph
+		cost = 21
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_reach_out_to_france
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_exile_the_monarchy }
+		available = {
+		}
+		x = -3
+		y = 2
+		relative_position_id = BEL_communist_triumph
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_centralize_the_government
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_communist_triumph }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_communist_triumph
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_arrest_revolutions_enemies
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_centralize_the_government }
+		available = {
+		}
+		x = -1
+		y = 2
+		relative_position_id = BEL_communist_triumph
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+	focus = {
+		id = BEL_a_state_for_the_people
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_reach_out_to_france }
+		prerequisite = { focus = BEL_arrest_revolutions_enemies }
+		available = {
+		}
+		x = -2
+		y = 3
+		relative_position_id = BEL_communist_triumph
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Labour Path
+
+	focus = {
+		id = BEL_labour_victory
+		icon = GFX_goal_ideology_social_democrat
+		prerequisite = { focus = BEL_1936_elections }
+		available = {
+		    has_country_flag = BEL_labour_victory_flag
+		}
+		bypass = { has_country_flag = BEL_labour_victory_flag }
+		x = -1
+		y = 1
+		relative_position_id = BEL_1936_elections
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_walk_the_middle_road
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_labour_victory }
+		available = {
+		    has_country_flag = always_false
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_labour_victory
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_feed_the_poor
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = BEL_walk_the_middle_road }
+		available = {
+		    has_country_flag = always_false
+		}
+		x = -1
+		y = 2
+		relative_position_id = BEL_labour_victory
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_democratic_socialism
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_feed_the_poor }
+		prerequisite = { focus = BEL_celebrate_democracy }
+		available = {
+		    has_country_flag = always_false
+		}
+		x = 1
+		y = 1
+		relative_position_id = BEL_feed_the_poor
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Catholics path
+
+	focus = {
+		id = BEL_catholics_retain_power
+		icon = GFX_goal_ideology_social_conservative
+		prerequisite = { focus = BEL_1936_elections }
+		available = {
+		    has_country_flag = BEL_catholic_victory_flag
+		}
+		bypass = { has_country_flag = BEL_catholic_victory_flag }
+		x = 1
+		y = 1
+		relative_position_id = BEL_1936_elections
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_strengthen_catholic_identity
+		icon = GFX_BEL_Improve_Catholic_Relations
+		prerequisite = { focus = BEL_catholics_retain_power }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = BEL_catholics_retain_power
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_cooperate_with_the_liberals
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_strengthen_catholic_identity }
+		available = {
+		}
+		x = 1
+		y = 2
+		relative_position_id = BEL_catholics_retain_power
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_popularity = {
+		        ideology = classic_liberal
+		        popularity = 0.03
+		    }
+		    add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = BEL_christian_democracy
+		icon = GFX_BEL_christian_democracy
+		prerequisite = { focus = BEL_cooperate_with_the_liberals }
+		prerequisite = { focus = BEL_celebrate_democracy }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_cooperate_with_the_liberals
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_combat_extremism
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = { focus = BEL_labour_victory focus = BEL_catholics_retain_power }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = BEL_labour_victory
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_celebrate_democracy
+		icon = GFX_BEL_support_democracy
+		prerequisite = { focus = BEL_combat_extremism }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = BEL_combat_extremism
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_stability_at_last
+		icon = GFX_BEL_flag
+		prerequisite = { focus = BEL_christian_democracy focus = BEL_democratic_socialism focus = BEL_a_new_belgium focus = BEL_king_and_law focus = BEL_a_state_for_the_people }
+		available = {
+		}
+		x = 0
+		y = 3
+		relative_position_id = BEL_combat_extremism
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Nazis
+
+	focus = {
+		id = BEL_far_right_coalition
+		icon = GFX_goal_ideology_national_populist
+		prerequisite = { focus = BEL_1936_elections }
+		available = {
+		    has_country_flag = BEL_far_right_victory_flag
+		}
+		bypass = { has_country_flag = BEL_far_right_victory_flag }
+		x = 3
+		y = 1
+		relative_position_id = BEL_1936_elections
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_crack_down_on_communism
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_far_right_coalition focus = BEL_degrelle_seizes_power }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = BEL_far_right_coalition
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BEL_promote_belgian_unitarism
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_crack_down_on_communism }
+		available = {
+		}
+		x = 1
+		y = 2
+		relative_position_id = BEL_far_right_coalition
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_stability = 0.05
+		    add_political_power = 5
+		}
+	}
+
+	focus = {
+		id = BEL_a_new_belgium
+		icon = GFX_goal_ideology_national_populist
+		prerequisite = { focus = BEL_promote_belgian_unitarism }
+		prerequisite = { focus = BEL_all_power_to_degrelle focus = BEL_kings_research }
+		available = {
+		}
+		x = 2
+		y = 3
+		relative_position_id = BEL_far_right_coalition
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#anti-communist coup
+
+	focus = {
+		id = BEL_anti_communist_coup
+		icon = GFX_focus_AUS_that_which_remains
+		available = {
+		    has_country_flag = always_false
+		}
+		x = 15
+		y = 0
+		cost = 15
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#monarchists
+
+	focus = {
+		id = BEL_king_albert_restores_order
+		icon = GFX_BEL_king_albert_restores_order
+		prerequisite = { focus = BEL_anti_communist_coup }
+		mutually_exclusive = { focus = BEL_degrelle_seizes_power }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = BEL_anti_communist_coup
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_cooperate_with_the_military
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_king_albert_restores_order }
+		available = {
+		}
+		x = 2
+		y = 2
+		relative_position_id = BEL_anti_communist_coup
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_censor_the_press
+		icon = GFX_goal_generic_seize_press
+		prerequisite = { focus = BEL_cooperate_with_the_military }
+		available = {
+		}
+		x = 2
+		y = 3
+		relative_position_id = BEL_anti_communist_coup
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_king_and_law
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = BEL_censor_the_press }
+		prerequisite = { focus = BEL_kings_research }
+		available = {
+		}
+		x = 1
+		y = 4
+		relative_position_id = BEL_anti_communist_coup
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = BEL_royalist_fervour
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = { focus = BEL_king_albert_restores_order focus = BEL_degrelle_seizes_power focus = BEL_far_right_coalition }
+		mutually_exclusive = { focus = BEL_abandon_monarchist_principles }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_king_albert_restores_order
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_kings_research
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_royalist_fervour }
+		available = {
+		}
+		x = -1
+		y = 2
+		relative_position_id = BEL_king_albert_restores_order
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#fascist-exclusive focus
+
+	focus = {
+		id = BEL_degrelle_seizes_power
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_anti_communist_coup }
+		mutually_exclusive = { focus = BEL_king_albert_restores_order }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_anti_communist_coup
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_abandon_monarchist_principles
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_degrelle_seizes_power }
+		mutually_exclusive = { focus = BEL_royalist_fervour }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_degrelle_seizes_power
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_all_power_to_degrelle
+		icon = GFX_focus_AUS_that_which_remains
+		prerequisite = { focus = BEL_abandon_monarchist_principles }
+		mutually_exclusive = { focus = BEL_royalist_fervour }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = BEL_abandon_monarchist_principles
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Foreign Policy Branch
+
+	focus = {
+		id = BEL_looking_outwards
+		icon = GFX_goal_foreign_diplomacy
+		available = {
+		   has_completed_focus = BEL_stability_at_last
+		}
+		x = 11
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_choosing_our_friends
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		prerequisite = { focus = BEL_looking_outwards }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = BEL_looking_outwards
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_side_with_britain
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = BEL_choosing_our_friends }
+		mutually_exclusive = { focus = BEL_side_with_france focus = BEL_strict_neutrality }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = BEL_choosing_our_friends
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_side_with_france
+		icon = GFX_focus_chi_reach_out_to_france
+		prerequisite = { focus = BEL_choosing_our_friends }
+		mutually_exclusive = { focus = BEL_side_with_britain focus = BEL_strict_neutrality }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = BEL_choosing_our_friends
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_military_cooperation
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = BEL_side_with_france focus = BEL_side_with_britain  }
+		available = {
+		}
+		x = -1
+		y = 2
+		relative_position_id = BEL_choosing_our_friends
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_strict_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = BEL_choosing_our_friends }
+		mutually_exclusive = { focus = BEL_side_with_britain focus = BEL_side_with_france }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = BEL_choosing_our_friends
+		cost = 3
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_fortify_the_meuse
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = BEL_strict_neutrality }
+		available = {
+		}
+		x = 2
+		y = 2
+		relative_position_id = BEL_choosing_our_friends
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    805 = {
+		        add_building_construction = {
+		            type = bunker
+		            level = 2
+		            instant_build = yes
+		            province = 9444
+		        }
+		        add_building_construction = {
+		            type = bunker
+		            level = 2
+		            instant_build = yes
+		            province = 6537
+		        }
+		    }
+		    34 = {
+		        add_building_construction = {
+		            type = bunker
+		            level = 2
+		            instant_build = yes
+		            province = 13081
+		        }
+		        add_building_construction = {
+		            type = bunker
+		            level = 2
+		            instant_build = yes
+		            province = 3516
+		        }
+		        add_building_construction = {
+		            type = bunker
+		            level = 2
+		            instant_build = yes
+		            province = 11519
+		        }
+		    }
+		}
+	}
+
+	focus = {
+		id = BEL_belgian_revanchism
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = BEL_looking_outwards }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_looking_outwards
+
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_our_alsace_lorraine
+		icon = GFX_BEL_our_alsace_lorraine
+		prerequisite = { focus = BEL_belgian_revanchism }
+		available = {
+		}
+		x = -2
+		y = 2
+		relative_position_id = BEL_looking_outwards
+
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    add_state_claim = 806
+		}
+	}
+
+	focus = {
+		id = BEL_dutch_claims
+		icon = GFX_BEL_dutch_claims
+		prerequisite = { focus = BEL_belgian_revanchism }
+		available = {
+		}
+		x = -1
+		y = 3
+		relative_position_id = BEL_looking_outwards
+
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+}
