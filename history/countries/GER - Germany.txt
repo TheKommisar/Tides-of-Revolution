@@ -112,12 +112,12 @@ set_popularities = {
 	vanguardist = 4
         orthodox_marxist = 3
 	revolutionary_socialist = 3
-        social_democrat = 19
+        social_democrat = 21
         social_liberal = 8
         classic_liberal = 5
         social_conservative = 15
         authoritarian_democrat = 6
-        paternal_autocrat = 29
+        paternal_autocrat = 27
         national_populist = 8
 }
 
