@@ -79,7 +79,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 0
         orthodox_marxist = 2
 	revolutionary_socialist = 0 #placeholder
@@ -119,7 +118,7 @@ create_country_leader = {
 	desc = ""
 	picture = ""
 	expire = "1953.3.1"
-	ideology = totalitarian_socialist_subtype
+	ideology = vanguardist_subtype
 	traits = {
 		
 	}

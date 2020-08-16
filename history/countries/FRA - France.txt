@@ -91,11 +91,10 @@ set_politics = {
 }
 
 set_popularities = {
-        totalitarian_socialist = 10
-	vanguardist = 18
+	vanguardist = 23
         orthodox_marxist = 18
 	revolutionary_socialist = 42
-        social_democrat = 10
+        social_democrat = 15
         social_liberal = 2
         classic_liberal = 0
         social_conservative = 0
@@ -132,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGES_VALOIS_DESC"
 	picture = "Portrait_France_Georges_Valois.tga"
 	expire = "1965.1.1"
-	ideology = 	totalitarian_socialist_subtype
+	ideology = 	vanguardist_subtype
 	traits = {
 		
 	}

@@ -61,7 +61,6 @@ set_politics = {
 }
 
 set_popularities = {
-    totalitarian_socialist = 0
     vanguardist = 15 
     orthodox_marxist = 0 
     revolutionary_socialist = 4
@@ -72,14 +71,6 @@ set_popularities = {
     authoritarian_democrat = 30
     paternal_autocrat = 0
     national_populist = 0
-}
-create_country_leader = {
-	name = "Crisanto Evangelista"
-	desc = "POLITICS_CRISTIANO_EVANGELISTA_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Crisanto_Evangelista.tga"
-	expire = "1943.6.2"
-	ideology = totalitarian_socialist_subtype
-	traits = { }
 }
 create_country_leader = {
 	name = "Crisanto Evangelista"

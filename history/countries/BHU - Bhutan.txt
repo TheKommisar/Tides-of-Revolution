@@ -1,0 +1,41 @@
+﻿capital = 324
+
+oob = "BHU_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+add_ideas = {
+	
+}
+
+set_stability = 1
+set_war_support = 1
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    social_conservative = 10
+    authoritarian_democrat = 84
+    paternal_autocrat = 6
+}
+
+create_country_leader = {
+	name = "Jigme Wangchuck"
+	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
+	picture = "GFX_portrait_buthan_jigme_wangchuk"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

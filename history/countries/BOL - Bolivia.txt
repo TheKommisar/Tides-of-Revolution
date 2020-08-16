@@ -38,8 +38,7 @@ set_popularities = {
     social_conservative = 10
     classic_liberal = 0
     social_liberal = 10
-    authoritarian_democrat = 5
-    totalitarian_socialist = 0 
+    authoritarian_democrat = 5 
 }
 
 create_country_leader = {
@@ -53,9 +52,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Bautista Saavedra Mallea"
+	name = "Franz Tamayo Solares"
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
-	picture = "BautistaSaavedra.tga"
+	picture = "Franz_Tamayo_portrait.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {

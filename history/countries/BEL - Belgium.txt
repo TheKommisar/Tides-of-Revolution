@@ -19,6 +19,11 @@ set_technology = {
 	fuel_refining = 1
 }
 
+add_ideas = {
+    BEL_political_polarization
+    BEL_great_war_horrors
+}
+
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1936.1.1" 
@@ -26,9 +31,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 3
 	vanguardist = 16
-        orthodox_marxist = 2
+        orthodox_marxist = 5
 	revolutionary_socialist = 1
         social_democrat = 19
         social_liberal = 7

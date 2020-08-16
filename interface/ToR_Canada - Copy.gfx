@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_political_polarization"
+		texturefile = "gfx/interface/ideas/BEL/political_polarization.tga"
+	}
+}

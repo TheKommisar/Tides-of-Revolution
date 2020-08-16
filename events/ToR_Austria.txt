@@ -46,7 +46,7 @@ country_event = { # intervene in Italy?
 	}
 }
 
-country_event = { # set up government?
+country_event = { # set up government? Venice
 	id = austriahungary.101
         title = austriahungary.101.t	
 	desc = austriahungary.101.d
@@ -80,7 +80,6 @@ country_event = { # set up government?
 	                elections_allowed = no
                        }
                        set_popularities = {
-                          totalitarian_socialist = 0
 	                  vanguardist = 0
                           orthodox_marxist = 0
 	                  revolutionary_socialist = 0

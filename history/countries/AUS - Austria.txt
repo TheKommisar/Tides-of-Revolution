@@ -62,7 +62,6 @@ set_politics = {
 }
 
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 1
         orthodox_marxist = 2
 	revolutionary_socialist = 5
@@ -78,12 +77,12 @@ set_popularities = {
 
 create_faction = Donaubund
 add_to_faction = AUS
-add_to_faction = ALB
+# add_to_faction = ALB # not yet
 
 create_country_leader = {
-	name = "Franz II"
-	desc = "POLITICS_FRANZ_II_DESC"
-	picture = "Portrait_Austria_Franz_Ferdinand.tga"
+	name = "Karl I"
+	desc = "POLITICS_KARL_I_DESC"
+	picture = "Portrait_AUS_Karl_I.tga"
 	ideology = social_democrat_subtype
 	traits = {
 		#

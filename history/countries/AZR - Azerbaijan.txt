@@ -1,0 +1,103 @@
+﻿capital = 229 #Baku
+
+oob = "AZR_1936"
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.50
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_signal_company = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	transport = 1
+	fuel_silos = 1
+}
+
+add_ideas = {
+	party_pop_0_30
+	GEN_HOG_Sli
+	GEN_FOR_Sli
+	GEN_ECO_Sli
+	GEN_SEC_Sli
+	semi_presidential_republic
+}
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    vanguardist = 4
+    orthodox_marxist = 7
+    revolutionary_socialist = 15
+    social_democrat = 16
+    social_liberal = 30
+    classic_liberal = 5
+    social_conservative = 16
+    authoritarian_democrat = 4
+    paternal_autocrat = 2
+    national_populist = 1
+}
+
+create_country_leader = {
+	name = "Mirza Guseynov"
+	desc = ""
+	picture = "Portrait_AZR_Mirza_Guseynov.tga"
+	expire = "1953.3.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Mammad Amin Rasulzade"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Javad Malik-Yeganov"
+	desc = ""
+	picture = "Portrait_AZR_Javad_Malik_Yeganov.tga"
+	expire = "1953.3.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Gara Garabeyov"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}

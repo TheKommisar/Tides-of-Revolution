@@ -90,5 +90,4 @@ spriteTypes = {
 		name = "GFX_militarize_fgci"
 		texturefile = "gfx/interface/goals/SRI/SRI_militarize_fgci.tga"
 	}
-   
-}
+

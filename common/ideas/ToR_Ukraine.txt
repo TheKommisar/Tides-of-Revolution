@@ -18,7 +18,7 @@ UKR_uncontrolled_nationalism = {
                                 war_support_factor = 0.25
                                 political_power_factor = -0.20
 				national_populist_drift = 0.01	
-				totalitarian_socialist_drift = 0.01	
+				vanguardist_drift = 0.01	
 				}
 		}
 UKR_agriculture = {

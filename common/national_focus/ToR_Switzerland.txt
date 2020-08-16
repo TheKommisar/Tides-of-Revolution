@@ -15,13 +15,624 @@ focus_tree = {
 		}
 	}
 
+        default = no
+
 	continuous_focus_position = { x = -800 y = 2000 }	
+
+#### ARMS DEALING > NATIONAL UNITY > REFUGE POLICY ####
+
+  focus = {
+		id = SWI_continuing_economic_planning
+		icon = GFX_goal_economic_control
+		x = 2
+		y = 0
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_continuing_economic_planning"
+
+    add_timed_idea = { idea = SWI_continuing_economic_planning  days = 90 }
+    add_political_power = 35
+		country_event = swi.2
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_outside_pressure
+		icon = GFX_goal_volunteer_alliance
+    prerequisite = { focus = SWI_continuing_economic_planning }
+    available = {
+				has_global_flag = SWI_countries_do_not_like_our_weapons_sales
+				}
+		x = 2
+		y = 1
+		cost = 5
+
+    available = { always = no }
+
+		}
+
+  focus = {
+		id = SWI_revoke_manufacture_privilege
+		icon = GFX_goal_break_rifle
+    prerequisite = { focus = SWI_continuing_economic_planning }
+		x = 2
+		y = 2
+		cost = 5
+
+		available = {
+
+		has_global_flag = SWI_treaty_signed
+
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_revoke_manufacture_privilege"
+
+			swap_ideas = {
+				remove_idea = SWI_arms_industry
+				add_idea = SWI_arms_industry_licenses_revoked
+				}
+				add_political_power = 35
+				set_global_flag = SWI_manufacture_privilege_revoked
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_treaty_of_annecy
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_outside_pressure }
+		x = 0
+		y = 2
+		cost = 5
+		bypass = {
+			has_global_flag = SWI_french_condone_weapons_sales
+			has_global_flag = SWI_germans_condone_weapons_sales
+		}
+
+    available = { always = no }
+
+	}
+
+  focus = {
+		id = SWI_treaty_of_munich
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_outside_pressure }
+		x = 4
+		y = 2
+		cost = 5
+		bypass = {
+			has_global_flag = SWI_french_condone_weapons_sales
+			has_global_flag = SWI_germans_condone_weapons_sales
+		}
+
+		available = { always = no }
+
+
+	}
+
+  focus = {
+		id = SWI_backdown
+		icon = GFX_focus_CZE_german_puppet
+    prerequisite = { focus = SWI_treaty_of_annecy focus = SWI_treaty_of_munich }
+		mutually_exclusive = { focus = SWI_standup }
+		x = 1
+		y = 3
+		cost = 5
+		bypass = {
+			has_global_flag = SWI_french_condone_weapons_sales
+			has_global_flag = SWI_germans_condone_weapons_sales
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_backdown"
+
+			IF = {
+				limit = {
+					has_global_flag = SWI_treaty_of_annecy
+					}
+					country_event = swi.10
+					}
+
+			IF = {
+			limit = {
+				has_global_flag = SWI_treaty_of_munich
+				}
+				country_event = swi.13
+				}
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_standup
+		icon = GFX_goal_authority
+    prerequisite = { focus = SWI_treaty_of_annecy focus = SWI_treaty_of_munich }
+		mutually_exclusive = { focus = SWI_backdown }
+		x = 3
+		y = 3
+		cost = 5
+		bypass = {
+			has_global_flag = SWI_french_condone_weapons_sales
+			has_global_flag = SWI_germans_condone_weapons_sales
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_standup"
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_weapons_as_taxes
+		icon = GFX_goal_production
+    prerequisite = { focus = SWI_standup focus = SWI_backdown }
+		x = 0
+		y = 4
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_weapons_as_taxes"
+
+		IF = {
+			limit = {
+				NOT = {
+					has_global_flag = SWI_manufacture_privilege_revoked
+						}
+				}
+					swap_ideas = {
+						remove_idea = SWI_arms_industry
+						add_idea = SWI_arms_industry_taxing_weapons
+						}
+				}
+
+		IF = {
+			limit = {
+					has_global_flag = SWI_manufacture_privilege_revoked
+				}
+					swap_ideas = {
+						remove_idea = SWI_arms_industry_licenses_revoked
+						add_idea = SWI_arms_industry_licenses_revoked_taxing_weapons
+								}
+						}
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_state_manufactories_1
+		icon = GFX_goal_generic_construct_mil_factory
+    prerequisite = { focus = SWI_weapons_as_taxes }
+		x = 0
+		y = 5
+		cost = 8
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_state_manufactories_1"
+
+		3 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+						 }
+		}
+
+		3 = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+						 }
+		}
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_policy_on_weapons_apprenticeships
+		icon = GFX_goal_generic_forceful_treaty
+    prerequisite = { focus = SWI_state_manufactories_1 }
+		x = 0
+		y = 6
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_policy_on_weapons_apprenticeships"
+
+		country_event = swi.16
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_looking_for_new_trading_partners
+		icon = GFX_goal_generic_positive_trade_relations
+    prerequisite = { focus = SWI_backdown focus = SWI_standup }
+		x = 4
+		y = 4
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_looking_for_new_trading_partners"
+
+		add_timed_idea = { idea = SWI_diplomatic_ventures  days = 45 }
+		add_political_power = 10
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_request_access_through_italian_ports
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_looking_for_new_trading_partners }
+		x = 4
+		y = 5
+		cost = 5
+		available = {
+        ITA = { exists = yes }
+				NOT = {
+				has_war_with = ITA
+				}
+    }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_request_access_through_italian_ports"
+
+		ITA = { country_event = { id = swi.17 days = 2 } }
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_the_search_begins
+		icon = GFX_goal_ideology_market_liberal
+    prerequisite = { focus = SWI_request_access_through_italian_ports }
+		x = 4
+		y = 6
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_the_search_begins"
+
+		country_event = swi.30
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_state_manufactories_2
+		icon = GFX_goal_generic_construct_mil_factory
+    prerequisite = { focus = SWI_standup focus = SWI_backdown }
+		x = 2
+		y = 4
+		cost = 8
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_state_manufactories_2"
+
+			756 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+							 }
+			}
+
+			756 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+						 	}
+		}
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_revise_the_treaty
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+    prerequisite = { focus = SWI_state_manufactories_2 }
+		x = 2
+		y = 5
+		cost = 5
+		bypass = {
+			has_global_flag = SWI_french_condone_weapons_sales
+			has_global_flag = SWI_germans_condone_weapons_sales
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_revise_the_treaty"
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_national_unity_campaigns
+		icon = GFX_goal_generic_national_unity
+    prerequisite = { focus = SWI_revise_the_treaty }
+		x = 2
+		y = 6
+		cost = 10
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_national_unity_campaigns"
+
+		add_war_support = 0.075
+		add_stability = 0.075
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_all_germans_for_switzerland
+		icon = GFX_goal_all_krauts_for_switzerland
+    prerequisite = { focus = SWI_national_unity_campaigns }
+		x = 0
+		y = 7
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_all_germans_for_switzerland"
+
+		151 = {
+						add_extra_state_shared_building_slots = 2
+		}
+
+		add_political_power = 10
+
+		add_war_support = 0.01
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_all_franks_for_switzerland
+		icon = GFX_goal_all_frogs_for_switzerland
+    prerequisite = { focus = SWI_national_unity_campaigns }
+		x = 2
+		y = 7
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_all_franks_for_switzerland"
+
+		755 = {
+						add_extra_state_shared_building_slots = 2
+		}
+
+		add_political_power = 10
+
+		add_war_support = 0.01
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_italians_for_switzerland
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_national_unity_campaigns }
+		x = 4
+		y = 7
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_italians_for_switzerland"
+
+		756 = {
+						add_extra_state_shared_building_slots = 2
+		}
+
+		add_political_power = 10
+
+		add_war_support = 0.01
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_suppress_the_VWF
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_all_germans_for_switzerland }
+		x = 0
+		y = 8
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_suppress_the_VWF"
+
+		add_popularity = { ideology = valkist popularity = -0.05 }
+		IF = {
+			limit = {
+				NOT = {
+					has_global_flag = SWI_french_radicals_suppressed
+						}
+				}
+						add_ideas = SWI_radical_suppression_german
+						set_global_flag = SWI_german_radicals_suppressed
+				}
+
+			IF = {
+				limit = {
+						has_global_flag = SWI_french_radicals_suppressed
+					}
+							swap_ideas = {
+								remove_idea = SWI_radical_suppression_german
+								add_idea = SWI_radical_suppression_german_and_french
+								}
+							set_global_flag = SWI_german_radicals_suppressed
+					}
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_suppress_the_FVP
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_all_franks_for_switzerland }
+		x = 2
+		y = 8
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_suppress_the_FVP"
+
+		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
+		IF = {
+			limit = {
+				NOT = {
+					has_global_flag = SWI_german_radicals_suppressed
+						}
+				}
+						add_ideas = SWI_radical_suppression_french
+						set_global_flag = SWI_french_radicals_suppressed
+				}
+
+			IF = {
+				limit = {
+						has_global_flag = SWI_german_radicals_suppressed
+					}
+							swap_ideas = {
+								remove_idea = SWI_radical_suppression_french
+								add_idea = SWI_radical_suppression_german_and_french
+								}
+							set_global_flag = SWI_french_radicals_suppressed
+					}
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_integrate_the_ticino_leagues
+		icon = GFX_goal_liberty
+    prerequisite = { focus = SWI_italians_for_switzerland }
+		x = 4
+		y = 8
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_integrate_the_ticino_leagues"
+
+		increase_ruling_party_popularity_by_10 = yes
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_grand_ethnic_coalition
+		icon = GFX_goal_volunteer_alliance
+    prerequisite = { focus = SWI_suppress_the_VWF focus = SWI_suppress_the_FVP focus = SWI_integrate_the_ticino_leagues }
+		x = 2
+		y = 9
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_grand_ethnic_coalition"
+
+		add_political_power = 75
+
+		add_war_support = 0.025
+
+		add_stability = 0.025
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_french_refuge
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_grand_ethnic_coalition }
+		x = 1
+		y = 10
+		cost = 5
+		available = {
+			FRA = { surrender_progress > 0.5 }
+			FRA = {
+			has_war_with = GER
+			}
+			has_global_flag = FRA_refugees_depart
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_french_refuge"
+
+		country_event = swi.23
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_german_refuge
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_grand_ethnic_coalition }
+		x = 3
+		y = 10
+		cost = 5
+		available = {
+			GER = { surrender_progress > 0.5 }
+			GER = {
+			has_war_with = FRA
+			}
+			has_global_flag = GER_refugees_depart
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_german_refuge"
+
+		country_event = swi.23
+
+		}
+
+	}
+
+  focus = {
+		id = SWI_great_war_refugee_policy
+		icon = GFX_goal_generic_elections
+    prerequisite = { focus = SWI_french_refuge focus = SWI_german_refuge }
+		x = 2
+		y = 11
+		cost = 5
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SWI_great_war_refugee_policy"
+
+		}
+
+	}
 	
 ## Switzerland Armed Neutrality Tree
 	focus = {
 		id = SWI_focus_armed_neutrality
 		icon = GFX_SWI_armed_neutrality #Unique Icon
-		x = 5
+		x = 30
 		y = 0
 		cost = 5
 		
@@ -172,7 +783,6 @@ focus_tree = {
 			x = 1
 			y = 1
 			cost = 5
-			prerequisite = { focus = SWI_army_modernization }
 			prerequisite = { focus = SWI_army_mobilization }
 			prerequisite = { focus = SWI_war_games }
 			mutually_exclusive = { focus = SWI_standing_army }
@@ -188,11 +798,11 @@ focus_tree = {
 		focus = {
 			id = SWI_emergency_procedures
 			icon = GFX_goal_generic_defence #unique icon needed
-			x = 0
+			x = -1
 			y = 1
 			cost = 5
-			prerequisite = { focus = SWI_militia_focus }
-			relative_position_id = SWI_militia_focus
+			prerequisite = { focus = SWI_expanded_militia_equipment }
+			relative_position_id = SWI_expanded_militia_equipment
 			#ai_will_do = {
 			#	factor = 100
 			#}
@@ -204,11 +814,11 @@ focus_tree = {
 		focus = {
 			id = SWI_prepared_at_any_time
 			icon = GFX_goal_generic_major_war
-			x = 2
+			x = 1
 			y = 1
 			cost = 5
-			prerequisite = { focus = SWI_militia_focus }
-			relative_position_id = SWI_militia_focus
+			prerequisite = { focus = SWI_expanded_militia_equipment }
+			relative_position_id = SWI_expanded_militia_equipment
 			#ai_will_do = {
 			#	factor = 100
 			#}
@@ -223,8 +833,8 @@ focus_tree = {
 			x = 1
 			y = 1
 			cost = 5
-			prerequisite = { focus = SWI_emergency_procedures focus = SWI_prepared_at_any_time }
-			relative_position_id = SWI_emergency_procedures
+			prerequisite = { focus = SWI_militia_focus }
+			relative_position_id = SWI_militia_focus
 			#ai_will_do = {
 			#	factor = 100
 			#}
@@ -236,10 +846,10 @@ focus_tree = {
 		focus = {
 			id = SWI_henri_guisan_plan
 			icon = GFX_goal_national_mobilization
-			x = -1
+			x = 3
 			y = 3
 			cost = 5
-			prerequisite = { focus = SWI_militia_focus focus = SWI_standing_army }
+			prerequisite = { focus = SWI_militia_focus }
 			relative_position_id = SWI_militia_focus
 			mutually_exclusive = { focus = SWI_jakob_labhardt_plan focus = SWI_mario_martinoni_plan }
 			#ai_will_do = {
@@ -253,7 +863,7 @@ focus_tree = {
 		focus = {
 			id = SWI_flexible_conscription_policy
 			icon = GFX_goal_ideology_paternal_autocrat #unique icon needed
-			x = -1
+			x = 0
 			y = 1
 			cost = 5
 			prerequisite = { focus = SWI_henri_guisan_plan }
@@ -269,11 +879,11 @@ focus_tree = {
 		focus = {
 			id = SWI_guerilla_fighting
 			icon = GFX_focus_prc_infiltration #unique icon needed
-			x = 1
+			x = 0
 			y = 1
 			cost = 5
-			prerequisite = { focus = SWI_henri_guisan_plan }
-			relative_position_id = SWI_henri_guisan_plan
+			prerequisite = { focus = SWI_flexible_conscription_policy }
+			relative_position_id = SWI_flexible_conscription_policy
 			#ai_will_do = {
 			#	factor = 100
 			#}
@@ -285,11 +895,10 @@ focus_tree = {
 		focus = {
 			id = SWI_resistance_policy
 			icon = GFX_goal_generic_demand_territory #unique icon needed
-			x = -1
+			x = 0
 			y = 1
 			cost = 5
 			prerequisite = { focus = SWI_guerilla_fighting }
-			prerequisite = { focus = SWI_flexible_conscription_policy }
 			relative_position_id = SWI_guerilla_fighting
 			#ai_will_do = {
 			#	factor = 100
@@ -305,7 +914,7 @@ focus_tree = {
 			x = -5
 			y = 3
 			cost = 5
-			prerequisite = { focus = SWI_militia_focus focus = SWI_standing_army }
+			prerequisite = { focus = SWI_standing_army }
 			relative_position_id = SWI_militia_focus
 			mutually_exclusive = { focus = SWI_henri_guisan_plan focus = SWI_mario_martinoni_plan }
 			#ai_will_do = {
@@ -367,7 +976,7 @@ focus_tree = {
 		focus = {
 			id = SWI_mario_martinoni_plan
 			icon = GFX_goal_planning_bonus
-			x = 3
+			x = -1
 			y = 3
 			cost = 5
 			prerequisite = { focus = SWI_militia_focus focus = SWI_standing_army }

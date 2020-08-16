@@ -288,9 +288,30 @@ head_of_intel = {
 			cancel_if_invalid = yes
 		}
 }
+##################################################################################################################################
 country = {
 
 		ENG_the_rearmament_crisis = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+                        picture = generic_disjointed_gov
+
+			modifier = {
+				stability_factor = -0.20
+				political_power_cost = 0.6
+			}
+		}
+
+		ENG_legacy_of_the_great_war = {
 
 			allowed = {
 				always = no
