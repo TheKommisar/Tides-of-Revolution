@@ -90,29 +90,5 @@ spriteTypes = {
 		name = "GFX_militarize_fgci"
 		texturefile = "gfx/interface/goals/SRI/SRI_militarize_fgci.tga"
 	}
-
-    SpriteType = { 
-		name = "GFX_BEL_christian_democracy"
-		texturefile = "gfx/interface/goals/BEL/BEL_christian_democracy.tga"
-	}
-
-    SpriteType = { 
-		name = "GFX_BEL_king_albert_restores_order"
-		texturefile = "gfx/interface/goals/BEL/BEL_king_albert_restores_order.tga"
-	}
-
-    SpriteType = { 
-		name = "GFX_BEL_our_alsace_lorraine"
-		texturefile = "gfx/interface/goals/BEL/BEL_our_alsace_lorraine.tga"
-	}
-
-    SpriteType = { 
-		name = "GFX_BEL_dutch_claims"
-		texturefile = "gfx/interface/goals/BEL/BEL_dutch_claims.tga"
-	}
-
-    SpriteType = { 
-		name = "GFX_BEL_flag"
-		texturefile = "gfx/interface/goals/BEL/BEL_flag.tga"
-	}
-
+   
+}
