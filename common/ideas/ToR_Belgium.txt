@@ -36,7 +36,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_victors_of_ww1
+			picture = great_war_horrors
 
 			
 			modifier = {
@@ -44,6 +44,31 @@ ideas = {
 				recruitable_population_factor = -0.2
 				ai_focus_defense_factor = 0.25
 
+			}
+		}
+	}
+
+    ################################
+	
+	country = {
+		BEL_walking_the_middle_road = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_war_horrors
+
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.03
 			}
 		}
 	}

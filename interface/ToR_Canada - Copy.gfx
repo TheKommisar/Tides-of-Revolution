@@ -3,4 +3,9 @@ spriteTypes = {
 		name = "GFX_idea_political_polarization"
 		texturefile = "gfx/interface/ideas/BEL/political_polarization.tga"
 	}
+
+	spriteType = {
+		name = "GFX_idea_great_war_horrors"
+		texturefile = "gfx/interface/ideas/BEL/great_war_horrors.tga"
+	}
 }

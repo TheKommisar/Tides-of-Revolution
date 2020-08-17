@@ -116,3 +116,68 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/BEL/BEL_flag.tga"
 	}
 
+    SpriteType = { 
+		name = "GFX_belgium_1936_elections"
+		texturefile = "gfx/interface/goals/BEL/belgium_1936_elections.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_walk_the_middle_road"
+		texturefile = "gfx/interface/goals/BEL/BEL_walk_the_middle_road.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_combat_extremism"
+		texturefile = "gfx/interface/goals/BEL/BEL_combat_extremism.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_democratic_socialism"
+		texturefile = "gfx/interface/goals/BEL/BEL_democratic_socialism.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_feed_the_poor"
+		texturefile = "gfx/interface/goals/BEL/BEL_feed_the_poor.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_strengthen_catholic_identity"
+		texturefile = "gfx/interface/goals/BEL/BEL_strengthen_catholic_identity.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_cooperate_with_the_liberals"
+		texturefile = "gfx/interface/goals/BEL/BEL_cooperate_with_the_liberals.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_abandon_monarchist_principles"
+		texturefile = "gfx/interface/goals/BEL/BEL_abandon_monarchist_principles.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_royalist_fervour"
+		texturefile = "gfx/interface/goals/BEL/BEL_royalist_fervour.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_anti_socialist_crackdown"
+		texturefile = "gfx/interface/goals/BEL/BEL_anti_socialist_crackdown.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_liberal_trade_union"
+		texturefile = "gfx/interface/goals/BEL/BEL_liberal_trade_union.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_remember_school_war"
+		texturefile = "gfx/interface/goals/BEL/BEL_remember_school_war.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_stable_democracy"
+		texturefile = "gfx/interface/goals/BEL/BEL_stable_democracy.tga"
+	}
+
