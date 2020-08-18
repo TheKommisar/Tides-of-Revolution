@@ -16,6 +16,7 @@ set_politics = {
 }
 set_popularities = {
 	vanguardist = 1
+        orthodox_marxist = 0
 	revolutionary_socialist = 3
         social_democrat = 14
         social_liberal = 5

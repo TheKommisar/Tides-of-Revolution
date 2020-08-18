@@ -15,8 +15,6 @@ SAF_revolutionary_socialist_party:0 "ANC"
 SAF_revolutionary_socialist_party_long:0 "African National Congress"
 SAF_vanguardist_party:0 "SACP"
 SAF_vanguardist_party_long:0 "South African Communist Party"
-
-
 #Country Names
 SAF_paternal_autocrat:0 "Union of South Africa"
 SAF_paternal_autocrat_DEF:0 "the Union of South Africa"
@@ -28,7 +26,6 @@ SAF_social_conservative_DEF:1 "Union of South Africa"
 SAF_paternal_autocrat_ADJ:0 "South African"
 SAF_authoritarian_democrat_ADJ:0 "South African"
 SAF_social_conservative_ADJ:0 "South African"
-
 
 
 #Ministers
