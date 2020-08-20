@@ -677,3 +677,7 @@ MAD = {
 	color = rgb { 119  80  51 }
 	color_ui = rgb { 119  80  51 }
 }
+GEA = {
+	color = rgb { 156 140 140 }
+	color_ui = rgb { 156 140 140 }
+}
