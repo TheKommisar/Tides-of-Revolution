@@ -10,7 +10,7 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = social_democrat
 	last_election = "1932.10.28"
 	election_frequency = 48
 	elections_allowed = no
@@ -20,20 +20,20 @@ set_popularities = {
     vanguardist = 0
     orthodox_marxist = 0
     revolutionary_socialist = 0
-    social_democrat = 0
+    social_democrat = 60
     social_liberal = 0
     classic_liberal = 0
     social_conservative = 0
-    authoritarian_democrat = 100
+    authoritarian_democrat = 40
     paternal_autocrat = 0
     national_populist = 0
 }
 create_country_leader = {
 	
-	name = "Regency Council"
+	name = "Jean Ralaimongo"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		#
 	}

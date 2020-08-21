@@ -132,24 +132,6 @@ add_ideas = {
         GER_Otto_Lossow_sec
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-        set_autonomy = {
-		target = GEA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.3
-	}
-	else = {
-		puppet = GEA
-
-	}
-}
-
 create_country_leader = {
 	name = "Wilhelm III"
 	desc = "POLITICS_WILHELM_III_DESC"
