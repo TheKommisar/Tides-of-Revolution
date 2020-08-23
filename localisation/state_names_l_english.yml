@@ -795,7 +795,7 @@
  STATE_794:0 "Eastern Aragón"
  STATE_795:0 "Santarém"
  STATE_796:0 "North Angola"
- STATE_797:0 "Vawkavysk"
+ STATE_797:0 "Sint-Maarten"
  STATE_798:0 "Klintsy"
  STATE_799:0 "South Jutland"
  STATE_800:0 "Sudschleswig"
@@ -805,3 +805,4 @@
  STATE_804:0 "East Thrace"
  STATE_805:0 "Liege"
  STATE_806:0 "Eupen"
+ STATE_807:0 "Western Tanganyika"

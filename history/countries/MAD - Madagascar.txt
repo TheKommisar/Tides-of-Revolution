@@ -19,19 +19,19 @@ set_politics = {
 set_popularities = {
     vanguardist = 0
     orthodox_marxist = 0
-    revolutionary_socialist = 0
-    social_democrat = 60
+    revolutionary_socialist = 10
+    social_democrat = 52
     social_liberal = 0
     classic_liberal = 0
-    social_conservative = 0
-    authoritarian_democrat = 40
-    paternal_autocrat = 0
+    social_conservative = 25
+    authoritarian_democrat = 8
+    paternal_autocrat = 5
     national_populist = 0
 }
 create_country_leader = {
 	
 	name = "Jean Ralaimongo"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+	picture = "Jean_Ralaimongo.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {

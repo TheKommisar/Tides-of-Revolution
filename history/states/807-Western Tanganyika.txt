@@ -1,0 +1,20 @@
+state={
+	id=807
+	name="STATE_807"
+        manpower = 703000
+	provinces={
+		2176 2206 2281 2308 4171 5180 5224 8144 10932 10988 11017 12911 
+	}
+
+	history = {
+	    owner = BEA
+	    add_claim_by = GER
+	    add_core_of = BEA
+	    buildings = {
+	        infrastructure = 5
+	    }
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+}
