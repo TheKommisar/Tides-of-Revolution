@@ -14,11 +14,11 @@ focus_tree = {
 
 	focus = {
 		id = BEL_1936_elections
-		icon = GFX_goal_DOM_Call_Special_Election
+		icon = GFX_belgium_1936_elections
 		available = {
 		    has_country_flag = always_false
 		}
-		x = 7
+		x = 10
 		y = 0
 		cost = 1
 		ai_will_do = {
@@ -38,7 +38,7 @@ focus_tree = {
 		available = {
 		    has_country_flag = always_false
 		}
-		x = -3
+		x = -5
 		y = 1
 		relative_position_id = BEL_1936_elections
 		cost = 1
@@ -70,7 +70,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_reach_out_to_france
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_exile_the_monarchy }
 		available = {
 		}
@@ -88,7 +88,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_centralize_the_government
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_communist_triumph }
 		available = {
 		}
@@ -106,7 +106,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_arrest_revolutions_enemies
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_centralize_the_government }
 		available = {
 		}
@@ -122,12 +122,9 @@ focus_tree = {
 		}
 	}
 
-
-
-
 	focus = {
 		id = BEL_a_state_for_the_people
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_reach_out_to_france }
 		prerequisite = { focus = BEL_arrest_revolutions_enemies }
 		available = {
@@ -154,7 +151,7 @@ focus_tree = {
 		    has_country_flag = BEL_labour_victory_flag
 		}
 		bypass = { has_country_flag = BEL_labour_victory_flag }
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = BEL_1936_elections
 		cost = 1
@@ -168,31 +165,31 @@ focus_tree = {
 
 	focus = {
 		id = BEL_walk_the_middle_road
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_BEL_walk_the_middle_road
 		prerequisite = { focus = BEL_labour_victory }
 		available = {
-		    has_country_flag = always_false
 		}
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = BEL_labour_victory
-		cost = 1
+		cost = 5
 		ai_will_do = {
 			factor = 5
 		}
 		
 		completion_reward = {
+            add_ideas = BEL_walking_the_middle_road
 		}
 	}
 
 	focus = {
 		id = BEL_feed_the_poor
-		icon = GFX_goal_generic_national_unity
+		icon = GFX_BEL_feed_the_poor
 		prerequisite = { focus = BEL_walk_the_middle_road }
 		available = {
 		    has_country_flag = always_false
 		}
-		x = -1
+		x = 0
 		y = 2
 		relative_position_id = BEL_labour_victory
 		cost = 1
@@ -206,15 +203,87 @@ focus_tree = {
 
 	focus = {
 		id = BEL_democratic_socialism
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_BEL_democratic_socialism
 		prerequisite = { focus = BEL_feed_the_poor }
-		prerequisite = { focus = BEL_celebrate_democracy }
 		available = {
-		    has_country_flag = always_false
 		}
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = BEL_feed_the_poor
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Liberal path
+
+	focus = {
+		id = BEL_liberal_victory
+		icon = GFX_goal_ideology_market_liberal
+		prerequisite = { focus = BEL_1936_elections }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = BEL_1936_elections
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_liberal_trade_union
+		icon = GFX_BEL_liberal_trade_union
+		prerequisite = { focus = BEL_liberal_victory }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = BEL_liberal_victory
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_memories_of_the_school_war
+		icon = GFX_BEL_remember_school_war
+		prerequisite = { focus = BEL_liberal_trade_union }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = BEL_liberal_victory
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_a_stable_democracy
+		icon = GFX_BEL_stable_democracy
+		prerequisite = { focus = BEL_memories_of_the_school_war }
+		available = {
+		}
+		x = 0
+		y = 3
+		relative_position_id = BEL_liberal_victory
 		cost = 1
 		ai_will_do = {
 			factor = 5
@@ -234,7 +303,7 @@ focus_tree = {
 		    has_country_flag = BEL_catholic_victory_flag
 		}
 		bypass = { has_country_flag = BEL_catholic_victory_flag }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = BEL_1936_elections
 		cost = 1
@@ -248,11 +317,10 @@ focus_tree = {
 
 	focus = {
 		id = BEL_strengthen_catholic_identity
-		icon = GFX_BEL_Improve_Catholic_Relations
+		icon = GFX_BEL_strengthen_catholic_identity
 		prerequisite = { focus = BEL_catholics_retain_power }
-		available = {
-		}
-		x = 1
+		available = { }
+		x = 0
 		y = 1
 		relative_position_id = BEL_catholics_retain_power
 		cost = 5
@@ -266,11 +334,11 @@ focus_tree = {
 
 	focus = {
 		id = BEL_cooperate_with_the_liberals
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_BEL_cooperate_with_the_liberals
 		prerequisite = { focus = BEL_strengthen_catholic_identity }
 		available = {
 		}
-		x = 1
+		x = 0
 		y = 2
 		relative_position_id = BEL_catholics_retain_power
 		cost = 5
@@ -291,10 +359,9 @@ focus_tree = {
 		id = BEL_christian_democracy
 		icon = GFX_BEL_christian_democracy
 		prerequisite = { focus = BEL_cooperate_with_the_liberals }
-		prerequisite = { focus = BEL_celebrate_democracy }
 		available = {
 		}
-		x = -1
+		x = 0
 		y = 1
 		relative_position_id = BEL_cooperate_with_the_liberals
 		cost = 5
@@ -308,11 +375,11 @@ focus_tree = {
 
 	focus = {
 		id = BEL_combat_extremism
-		icon = GFX_focus_generic_anti_fascist_diplomacy
-		prerequisite = { focus = BEL_labour_victory focus = BEL_catholics_retain_power }
+		icon = GFX_BEL_combat_extremism
+		prerequisite = { focus = BEL_labour_victory focus = BEL_catholics_retain_power focus = BEL_liberal_victory }
 		available = {
 		}
-		x = 1
+		x = -2
 		y = 1
 		relative_position_id = BEL_labour_victory
 		cost = 3
@@ -321,18 +388,28 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+		    add_popularity = {
+		        ideology = national_populist
+		        popularity = -0.05
+		    }
+		    add_popularity = {
+		        ideology = revolutionary_socialist
+		        popularity = -0.05
+		    }
+		    add_stability = 0.02
+
 		}
 	}
 
 	focus = {
 		id = BEL_celebrate_democracy
 		icon = GFX_BEL_support_democracy
-		prerequisite = { focus = BEL_combat_extremism }
+		prerequisite = { focus = BEL_liberal_victory focus = BEL_catholics_retain_power }
 		available = {
 		}
-		x = 0
+		x = 2
 		y = 1
-		relative_position_id = BEL_combat_extremism
+		relative_position_id = BEL_liberal_victory
 		cost = 3
 		ai_will_do = {
 			factor = 5
@@ -345,12 +422,12 @@ focus_tree = {
 	focus = {
 		id = BEL_stability_at_last
 		icon = GFX_BEL_flag
-		prerequisite = { focus = BEL_christian_democracy focus = BEL_democratic_socialism focus = BEL_a_new_belgium focus = BEL_king_and_law focus = BEL_a_state_for_the_people }
+		prerequisite = { focus = BEL_christian_democracy focus = BEL_democratic_socialism focus = BEL_a_new_belgium focus = BEL_king_and_law focus = BEL_a_state_for_the_people focus = BEL_a_stable_democracy }
 		available = {
 		}
 		x = 0
-		y = 3
-		relative_position_id = BEL_combat_extremism
+		y = 1
+		relative_position_id = BEL_christian_democracy
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -370,7 +447,7 @@ focus_tree = {
 		    has_country_flag = BEL_far_right_victory_flag
 		}
 		bypass = { has_country_flag = BEL_far_right_victory_flag }
-		x = 3
+		x = 5
 		y = 1
 		relative_position_id = BEL_1936_elections
 		cost = 1
@@ -384,7 +461,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_crack_down_on_communism
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_BEL_anti_socialist_crackdown
 		prerequisite = { focus = BEL_far_right_coalition focus = BEL_degrelle_seizes_power }
 		available = {
 		}
@@ -403,7 +480,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_promote_belgian_unitarism
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_crack_down_on_communism }
 		available = {
 		}
@@ -444,11 +521,11 @@ focus_tree = {
 
 	focus = {
 		id = BEL_anti_communist_coup
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		available = {
 		    has_country_flag = always_false
 		}
-		x = 15
+		x = 20
 		y = 0
 		cost = 15
 		ai_will_do = {
@@ -482,7 +559,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_cooperate_with_the_military
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_king_albert_restores_order }
 		available = {
 		}
@@ -538,7 +615,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_royalist_fervour
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_BEL_royalist_fervour
 		prerequisite = { focus = BEL_king_albert_restores_order focus = BEL_degrelle_seizes_power focus = BEL_far_right_coalition }
 		mutually_exclusive = { focus = BEL_abandon_monarchist_principles }
 		available = {
@@ -557,7 +634,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_kings_research
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_royalist_fervour }
 		available = {
 		}
@@ -577,7 +654,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_degrelle_seizes_power
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_anti_communist_coup }
 		mutually_exclusive = { focus = BEL_king_albert_restores_order }
 		available = {
@@ -596,7 +673,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_abandon_monarchist_principles
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_BEL_abandon_monarchist_principles
 		prerequisite = { focus = BEL_degrelle_seizes_power }
 		mutually_exclusive = { focus = BEL_royalist_fervour }
 		available = {
@@ -615,7 +692,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_all_power_to_degrelle
-		icon = GFX_focus_AUS_that_which_remains
+		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_abandon_monarchist_principles }
 		mutually_exclusive = { focus = BEL_royalist_fervour }
 		available = {
@@ -648,6 +725,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+		    remove_ideas = { BEL_political_polarization }
 		}
 	}
 

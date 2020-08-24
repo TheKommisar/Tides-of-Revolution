@@ -65,7 +65,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			available = { has_dlc = "Waking the Tiger" }
 			ideas = {
 				sour_loser
@@ -79,7 +79,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
 				sour_loser
@@ -106,7 +106,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservative
 			ideas = {
 				state_shintoism
 				JAP_zaibatsus
@@ -119,7 +119,7 @@ bookmarks = {
 		}
 		"RUS"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = national_populist
 			ideas = {
 				#trotskyite_plot
 				#home_of_revolution
@@ -149,6 +149,20 @@ bookmarks = {
 				AST_1937_elections
 				AST_anzac_spirit
 				AST_recovered_economy
+			}
+		}
+
+                "BEL"={
+			minor = yes
+			history = "BEL_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+				BEL_political_polarization
+			}
+			focuses = {
+				#AST_1937_elections
+				#AST_anzac_spirit
+				#AST_recovered_economy
 			}
 		}
 		
