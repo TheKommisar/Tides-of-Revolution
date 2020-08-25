@@ -121,8 +121,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	general_staff
-        sour_loser
+
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -130,6 +129,10 @@ add_ideas = {
         GER_Konstantin_Neurath_frm
         GER_Alfred_Hugenberg_eco
         GER_Otto_Lossow_sec
+	GER_republican_menace
+	GER_constitutional_crisis
+	GER_nation_and_kaiser
+	GER_iron_and_blood
 }
 
 create_country_leader = {

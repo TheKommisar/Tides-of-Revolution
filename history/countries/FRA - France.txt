@@ -106,7 +106,6 @@ set_popularities = {
 create_faction = pri
 add_to_faction = FRA
 add_to_faction = BUL
-add_to_faction = ARG
 
 add_ideas = {
 	FRA_protected_by_the_maginot_line 
