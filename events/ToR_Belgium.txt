@@ -46,19 +46,3 @@ country_event = {
         }
 
     }
-
-    option = {  #Nazis
-        name = belgium.1.d
-        complete_national_focus = BEL_1936_elections
-        complete_national_focus = BEL_communist_triumph
-        add_popularity = {
-            ideology = national_populist
-            popularity = 0.2
-        }
-        set_politics = {
-            ruling_party = national_populist
-            elections_allowed = no
-        }
-
-    }
-}
