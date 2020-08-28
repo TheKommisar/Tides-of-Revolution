@@ -2,6 +2,27 @@
 
 #Parties
 
+URG_vanguardist_party:0 "Vanguardia"
+URG_vanguardist_party_long:0 "Partido Colectivista Vanguardia"
+URG_orthodox_marxist_party:0 "Colectivistas"
+URG_orthodox_marxist_party_long:0 "Partido Colectivista"
+URG_revolutionary_socialist_party:0 "Socialistas"
+URG_revolutionary_socialist_party_long:0 "Partido Socialista"
+URG_social_democrat_party:0 "Batllistas"
+URG_social_democrat_party_long:0 "Partido Colorado Batllista"
+URG_social_liberal_party:0 "Colorados"
+URG_social_liberal_party_long:0 "Partido Colorado"
+URG_classic_liberal_party:0 "Nacionalistas"
+URG_classic_liberal_party_long:0 "Partido Nacional"
+URG_social_conservative_party:0 "Blancos"
+URG_social_conservative_party_long:0 "Partido Nacional Blanco"
+URG_authoritarian_democrat_party:0 "Herreristas"
+URG_authoritarian_democrat_party_long:0 "Partido Nacional Herrerista"
+URG_paternal_autocrat_party:0 "Ind. Nacionalistas"
+URG_paternal_autocrat_party_long:0 "Partido Nacional Independiente"
+URG_national_populist_party:0 "Frente Unida Uruguaya"
+URG_national_populist_party_long:0 "Frente Unida Uruguaya"
+
 #Country Names
 URG_national_populist:0 "Uruguay"
 URG_national_populist_DEF:0 "Uruguay"

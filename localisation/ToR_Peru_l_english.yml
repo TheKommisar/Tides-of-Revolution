@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+
+PRU_vanguardist_party:0 "APRA"
+PRU_vanguardist_party_long:0 "Alianza Popular Revolucionaria Americana"
+PRU_orthodox_marxist_party:0 "PCP"
+PRU_orthodox_marxist_party_long:0 "Partido Comunista Peruano"
+PRU_revolutionary_socialist_party:0 "PSdP"
+PRU_revolutionary_socialist_party_long:0 "Partido Socialista del Perú"
+PRU_social_democrat_party:0 "PSD"
+PRU_social_democrat_party_long:0 "Partido Socialdemócrata"
+PRU_social_liberal_party:0 "AR"
+PRU_social_liberal_party_long:0 "Acción Republicana"
+PRU_classic_liberal_party:0 "PD"
+PRU_classic_liberal_party_long:0 "Partido Demócrata"
+PRU_social_conservative_party:0 "PC"
+PRU_social_conservative_party_long:0 "Partido Civil"
+PRU_authoritarian_democrat_party:0 "PDR"
+PRU_authoritarian_democrat_party_long:0 "Partido Democrático Reformista"
+PRU_paternal_autocrat_party:0 "Línea dura del Ejército"
+PRU_paternal_autocrat_party_long:0 "Línea dura del Ejército"
+PRU_national_populist_party:0 "UR"
+PRU_national_populist_party_long:0 "Unión Revolucionaria"
+
+#Country Names
+
+
+PRU_national_populist:0 "State of Peru"
+PRU_national_populist_DEF:0 "the State of Peru"
+PRU_paternal_autocrat:0 "State of Peru"
+PRU_paternal_autocrat_DEF:0 "the State of Peru"
+PRU_authoritarian_democrat:0 "State of Peru"
+PRU_authoritarian_democrat_DEF:0 "the State of Peru"
+PRU_social_conservative:0 "Republic of Peru"
+PRU_social_conservative_DEF:0 "the Republic of Peru"
+PRU_classic_liberal:0 "Republic of Peru"
+PRU_classic_liberal_DEF:0 "the Republic of Peru"
+PRU_social_liberal:0 "Republic of Peru"
+PRU_social_liberal_DEF:0 "the Republic of Peru"
+PRU_social_democrat:0 "Republic of Peru"
+PRU_social_democrat_DEF:0 "the Republic of Peru"
+PRU_revolutionary_socialist:0 "Socialist Republic of Peru"
+PRU_revolutionary_socialist_DEF:0 "the Socialist Republic of Peru"
+PRU_orthodox_marxist:0 "Socialist Republic of Peru"
+PRU_orthodox_marxist_DEF:0 "the Socialist Republic of Peru"
+PRU_vanguardist:0 "Socialist Republic of Peru"
+PRU_vanguardist_DEF:0 "the Socialist Republic of Peru"
+
+PRU_national_populist_ADJ:0 "Peruvian" 
+PRU_paternal_autocrat_ADJ:0 "Peruvian"
+PRU_authoritarian_democrat_ADJ:0 "Peruvian"
+PRU_social_conservative_ADJ:0 "Peruvian"
+PRU_social_liberal_ADJ:0 "Peruvian"
+PRU_classic_liberal_ADJ:0 "Peruvian"
+PRU_social_democrat_ADJ:0 "Peruvian"
+PRU_revolutionary_socialist_ADJ:0 "Peruvian"
+PRU_orthodox_marxist_ADJ:0 "Peruvian"
+PRU_vanguardist_ADJ:0 "Peruvian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

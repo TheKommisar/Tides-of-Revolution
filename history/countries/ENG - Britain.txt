@@ -162,7 +162,7 @@ if = {
 	}
         set_autonomy = {
 		target = EGY
-		autonomous_state = autonomy_protectorate
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.9
 	}
         set_autonomy = {
@@ -185,10 +185,16 @@ if = {
 		autonomous_state = autonomy_colony
 		freedom_level = 0.3
 	}
+        
         set_autonomy = {
 		target = NFL
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
+	}
+        set_autonomy = {
+		target = OMA
+		autonomous_state = autonomy_colony
+		freedom_level = 0.6
 	}
 	else = {
 		puppet = RAJ
@@ -199,6 +205,8 @@ if = {
                 puppet = SUD
                 puppet = BEA
                 puppet = RHO
+                puppet = OMA
+                puppet = NFL
 	}
 }
 

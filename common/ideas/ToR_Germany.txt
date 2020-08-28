@@ -1,4 +1,50 @@
 ideas = {
+        country = {
+	GER_republican_menace = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+		stability_factor = -0.1
+		political_power_gain = -0.15
+		industrial_capacity_factory = -0.10
+		industrial_capacity_dockyard = -0.10
+		drift_defence_factor = -0.2
+			}
+		}
+	GER_constitutional_crisis = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+		stability_factor = -0.1
+		political_power_gain = -0.25
+			}
+		}
+	GER_blood_and_iron = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+		industrial_capacity_factory = 0.05
+		production_speed_arms_factory_factor = 0.05
+		production_speed_buildings_factor = 0.05
+		war_support_factor = 0.1
+			}
+		}
+	}
 head_of_government = {
         GER_Ernst_Junger_hog = {
 				
