@@ -11,9 +11,8 @@ ideas = {
 		modifier = {
 		stability_factor = -0.1
 		political_power_gain = -0.15
-		industrial_capacity_factory = -0.10
-		industrial_capacity_dockyard = -0.10
-		drift_defence_factor = -0.2
+		industrial_capacity_factory = -0.05
+		industrial_capacity_dockyard = -0.05
 			}
 		}
 	GER_constitutional_crisis = {
@@ -25,8 +24,8 @@ ideas = {
 		}
 		removal_cost = -1
 		modifier = {
-		stability_factor = -0.1
-		political_power_gain = -0.25
+		stability_factor = -0.05
+		political_power_gain = -0.05
 			}
 		}
 	GER_blood_and_iron = {
