@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+
+PAR_vanguardist_party:0 "PRF(R)"
+PAR_vanguardist_party_long:0 "Partido Revolucionario Febrerista (Revolutionaries)"
+PAR_orthodox_marxist_party:0 "PCP"
+PAR_orthodox_marxist_party_long:0 "Partido Comunista Paraguayo"
+PAR_revolutionary_socialist_party:0 "PCPA"
+PAR_revolutionary_socialist_party_long:0 "Partido Comunista Paraguayo Anarquista"
+PAR_social_democrat_party:0 "PRF(M)"
+PAR_social_democrat_party_long:0 "Partido Revolucionario Febrerista (Moderates)"
+PAR_social_liberal_party:0 "PA"
+PAR_social_liberal_party_long:0 "Partido Azul"
+PAR_classic_liberal_party:0 "PA"
+PAR_classic_liberal_party_long:0 "Partido Azul"
+PAR_social_conservative_party:0 "PC"
+PAR_social_conservative_party_long:0 "Partido Colorado"
+PAR_authoritarian_democrat_party:0 "Estigarribistas"
+PAR_authoritarian_democrat_party_long:0 "Partido Azul"
+PAR_paternal_autocrat_party:0 "Stroessneristas"
+PAR_paternal_autocrat_party_long:0 "Partido Colorado"
+PAR_national_populist_party:0 "LDI"
+PAR_national_populist_party_long:0 "Liga de Defensa Independente"
+
+#Country Names
+
+
+PAR_national_populist:0 "Paraguay"
+PAR_national_populist_DEF:0 "Paraguay"
+PAR_paternal_autocrat:0 "Paraguay"
+PAR_paternal_autocrat_DEF:0 "Paraguay"
+PAR_authoritarian_democrat:0 "Paraguay"
+PAR_authoritarian_democrat_DEF:0 "Paraguay"
+PAR_social_conservative:0 "Paraguay"
+PAR_social_conservative_DEF:0 "Paraguay"
+PAR_classic_liberal:0 "Paraguay"
+PAR_classic_liberal_DEF:0 "Paraguay"
+PAR_social_liberal:0 "Paraguay"
+PAR_social_liberal_DEF:0 "Paraguay"
+PAR_social_democrat:0 "Paraguay"
+PAR_social_democrat_DEF:0 "Paraguay"
+PAR_revolutionary_socialist:0 "Paraguay"
+PAR_revolutionary_socialist_DEF:0 "Paraguay"
+PAR_orthodox_marxist:0 "Paraguay"
+PAR_orthodox_marxist_DEF:0 "Paraguay"
+PAR_vanguardist:0 "Paraguay"
+PAR_vanguardist_DEF:0 "Paraguay"
+
+PAR_national_populist_ADJ:0 "Paraguayan" 
+PAR_paternal_autocrat_ADJ:0 "Paraguayan"
+PAR_authoritarian_democrat_ADJ:0 "Paraguayan"
+PAR_social_conservative_ADJ:0 "Paraguayan"
+PAR_social_liberal_ADJ:0 "Paraguayan"
+PAR_classic_liberal_ADJ:0 "Paraguayan"
+PAR_social_democrat_ADJ:0 "Paraguayan"
+PAR_revolutionary_socialist_ADJ:0 "Paraguayan"
+PAR_orthodox_marxist_ADJ:0 "Paraguayan"
+PAR_vanguardist_ADJ:0 "Paraguayan"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

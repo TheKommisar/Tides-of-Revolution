@@ -1,23 +1,18 @@
 spriteTypes = {
-	
-	spriteType = {
-		name = "GFX_idea_GER_republican_threat"
+
+     spriteType = {
+		name = "GFX_idea_GER_republican_menace"
 		texturefile = "gfx/interface/ideas/GER/idea_GER_republican_menace.tga"
 	}
-	
+
 	spriteType = {
 		name = "GFX_idea_GER_constitutional_crisis"
-		texturefile = "gfx/interface/ideas/GER/idea_GER_constitutional_crisis.tga"
+		texturefile = "gfx/interface/ideas/GER/idea_GER_constitutional_crisis.dds"
 	}	
-	
+
 	spriteType = {
-		name = "GFX_idea_GER_nation_and_kaiser"
-		texturefile = "gfx/interface/ideas/GER/idea_GER_nation_and_kaiser.tga"
-	}	
-	
-	spriteType = {
-		name = "GFX_idea_GER_iron_and_blood"
-		texturefile = "gfx/interface/ideas/GER/idea_GER_iron_and_blood.tga"
+		name = "GFX_idea_GER_blood_and_iron"
+		texturefile = "gfx/interface/ideas/GER/idea_GER_blood_and_iron.dds"
 	}
 #Ministers
 

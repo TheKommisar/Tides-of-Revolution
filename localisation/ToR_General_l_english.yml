@@ -69,8 +69,8 @@ POLITICS_OSWALD_MOSLEY_DESC:0 "Oswald Mosley saw the defeat of the British Empir
 POLITICS_PAUL_REYNAUD_DESC:0 "Paul Reynaud made his first major appearance in French politics in 1919, Reynaud was elected as part of the Conservative 'Blue Horizon' Bloc. Quickly developing a reputation for being a Savvy politician, Reynaud soon clarified his allegiance as a member of the Fédération Républicaine. Quickly climbing ranks within the party due to his Militant nature in foreign policy, Reynaud rose to the position of the Vice-President of the FR. In 1925, Auguste Isaac resigned his position as President of the Fédération Républicaine and sought to appoint a Militant successor in order to strengthen the platform of the party. Reynaud was a natural candidate due to his popularity within the party and firm stance on foreign affiars. Under Reynaud's leadership, the Fédération Républicaine managed gathering the most votes and seats in both the 1928 & 1932 Elections. An extremely pragmatic man, Reynaud follows one doctrine in foreign policy; France has no Friends, only Interests."
 
 ### Laws ###
-#undisturbed_isolation:0 "Splendid Isolation"
-#undisturbed_isolation_desc:0 "With its victory in Great War, Britain once again retreated into isolation, content to manage its Empire and avoid further entanglements on the European continent. With the onset of political developments in British India and Colonial Africa the attention of the British Empire is focused squarely on internal affairs."
+undisturbed_isolation:0 "Splendid Isolation"
+undisturbed_isolation_desc:0 "With its victory in Great War, Britain once again retreated into isolation, content to manage its Empire and avoid further entanglements on the European continent. With the onset of political developments in British India and Colonial Africa the attention of the British Empire is focused squarely on internal affairs."
 
 isolation:0 "Isolation"
 isolation_desc:0 "Prioritizing internal affairs and managing our own nation is a preferable alternative to foreign intervention.\n"
@@ -149,3 +149,14 @@ scraping_the_barrel_desc:0 "Every man, every women and every child will contribu
 
 unlocked_later:0 "Your path remains closed until an opportunity presents itself."
 ENG_annex:0 "§RThis will result in your annexation!§"
+
+###### Political ######
+vanguardist_drift:0 "Daily Vanguardist support"
+orthodox_marxist_drift:0 "Daily Orthodox Marxist support"
+revolutionary_socialist_drift:0 "Daily Revolutionary Socialist support"
+social_democrat_drift:0 "Daily Social Democrat support"
+social_liberal_drift:0 "Daily Social Liberal support"
+social_conservative_drift:0 "Daily Social Conservative support"
+authoritarian_democrat_drift:0 "Daily Authoritarian Democrat support"
+paternal_autocrat_drift:0 "Daily Paternal Autocrat support"
+national_populist_drift:0 "Daily National Populist support"

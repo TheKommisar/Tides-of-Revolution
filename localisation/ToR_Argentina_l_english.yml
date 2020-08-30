@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+
+ARG_vanguardist_party:0 "PCA"
+ARG_vanguardist_party_long:0 "Partido Comunista de la Argentina"
+ARG_orthodox_marxist_party:0 "PSI"
+ARG_orthodox_marxist_party_long:0 "Partido Socialista Internacional"
+ARG_revolutionary_socialist_party:0 "PS"
+ARG_revolutionary_socialist_party_long:0 "Partido Socialista"
+ARG_social_democrat_party:0 "PDP"
+ARG_social_democrat_party_long:0 "Partido Demócrata Progresista"
+ARG_social_liberal_party:0 "UCR"
+ARG_social_liberal_party_long:0 "Union Cívica Radical"
+ARG_classic_liberal_party:0 "UCRA"
+ARG_classic_liberal_party_long:0 "Union Cívica Radical Antipersonalista"
+ARG_social_conservative_party:0 "PDN"
+ARG_social_conservative_party_long:0 "Partido Demócrata Nacional"
+ARG_authoritarian_democrat_party:0 "Junta Militar"
+ARG_authoritarian_democrat_party_long:0 "Junta Militar"
+ARG_paternal_autocrat_party:0 "Justicialistas"
+ARG_paternal_autocrat_party_long:0 "Partido Justicialista"
+ARG_national_populist_party:0 "LPA"
+ARG_national_populist_party_long:0 "Liga Patriótica Argentina"
+
+#Country Names
+
+
+ARG_national_populist:0 "State of Argentina"
+ARG_national_populist_DEF:0 "the State of Argentina"
+ARG_paternal_autocrat:0 "Argentina"
+ARG_paternal_autocrat_DEF:0 "Argentina"
+ARG_authoritarian_democrat:1 "Argentina"
+ARG_authoritarian_democrat_DEF:1 "Argentina"
+ARG_social_conservative:0 "Argentina"
+ARG_social_conservative_DEF:0 "Argentina"
+ARG_classic_liberal:0 "Argentina"
+ARG_classic_liberal_DEF:0 "Argentina"
+ARG_social_liberal:0 "Argentina"
+ARG_social_liberal_DEF:0 "Argentina"
+ARG_social_democrat:0 "Argentina"
+ARG_social_democrat_DEF:0 "Argentina"
+ARG_revolutionary_socialist:0 "Commune of Argentina"
+ARG_revolutionary_socialist_DEF:0 "the Commune of Argentina"
+ARG_orthodox_marxist:0 "Commune of Argentina"
+ARG_orthodox_marxist_DEF:0 "the Commune of Argentina"
+ARG_vanguardist:0 "Commune of Argentina"
+ARG_vanguardist_DEF:0 "the Commune of Argentina"
+
+ARG_national_populist_ADJ:0 "Argentine" 
+ARG_paternal_autocrat_ADJ:0 "Argentine" 
+ARG_authoritarian_democrat_ADJ:0 "Argentine" 
+ARG_social_conservative_ADJ:0 "Argentine" 
+ARG_social_liberal_ADJ:0 "Argentine" 
+ARG_classic_liberal_ADJ:0 "Argentine" 
+ARG_social_democrat_ADJ:0 "Argentine" 
+ARG_revolutionary_socialist_ADJ:0 "Argentine" 
+ARG_orthodox_marxist_ADJ:0 "Argentine" 
+ARG_vanguardist_ADJ:0 "Argentine" 
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

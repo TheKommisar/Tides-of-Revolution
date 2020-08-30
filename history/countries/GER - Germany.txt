@@ -128,10 +128,9 @@ add_ideas = {
         GER_Konstantin_Neurath_frm
         GER_Alfred_Hugenberg_eco
         GER_Otto_Lossow_sec
-	GER_republican_menace
-	GER_constitutional_crisis
-	GER_nation_and_kaiser
-	GER_iron_and_blood
+        GER_republican_menace
+        GER_constitutional_crisis
+        GER_blood_and_iron
 }
 
 create_country_leader = {
