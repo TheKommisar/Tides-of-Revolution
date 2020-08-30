@@ -1,4 +1,4 @@
-
+ 
 state={
 	id=43
 	name="STATE_43" # Northern Hungary
@@ -21,8 +21,7 @@ state={
 		victory_points = {
 			9660 20 
 		}
-		add_core_of = HUN
-                add_core_of = AUS
+        add_core_of = AUS
 	}
 
 	provinces={
