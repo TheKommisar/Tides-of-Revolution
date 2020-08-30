@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+
+COL_vanguardist_party:0 "PCC(V)"
+COL_vanguardist_party_long:0 "Partido Colectivista Colombiano (Vanguardists)"
+COL_orthodox_marxist_party:0 "PCC(M)"
+COL_orthodox_marxist_party_long:0 "Partido Colectivista Colombiano (Moderates)"
+COL_revolutionary_socialist_party:0 "PSC"
+COL_revolutionary_socialist_party_long:0 "Partido Socialista Colombiano"
+COL_social_democrat_party:0 "UNCR"
+COL_social_democrat_party_long:0 "Unión Nacional Colombiana Revolucionaria"
+COL_social_liberal_party:0 "PLC(L)"
+COL_social_liberal_party_long:0 "Partido Liberal Colombiano (Left)"
+COL_classic_liberal_party:0 "PLC(C)"
+COL_classic_liberal_party_long:0 "Partido Liberal Colombiano (Centre)"
+COL_social_conservative_party:0 "PCC(M)"
+COL_social_conservative_party_long:0 "Partido Conservador Colombiano (Moderates)"
+COL_authoritarian_democrat_party:0 "PCC(R)"
+COL_authoritarian_democrat_party_long:0 "Partido Conservador Colombiano (Radicals)"
+COL_paternal_autocrat_party:0 "Junta de Oficiales"
+COL_paternal_autocrat_party_long:0 "Junta de Oficiales"
+COL_national_populist_party:0 "Los Leopardos"
+COL_national_populist_party_long:0 "Los Leopardos"
+
+#Country Names
+
+
+COL_national_populist:0 "State of Colombia"
+COL_national_populist_DEF:0 "the State of Colombia"
+COL_paternal_autocrat:0 "Republic of Colombia"
+COL_paternal_autocrat_DEF:0 "the Republic of Colombia"
+COL_authoritarian_democrat:0 "Republic of Colombia"
+COL_authoritarian_democrat_DEF:0 "the Republic of Colombia"
+COL_social_conservative:0 "Republic of Colombia"
+COL_social_conservative_DEF:0 "the Republic of Colombia"
+COL_classic_liberal:0 "Republic of Colombia"
+COL_classic_liberal_DEF:0 "the Republic of Colombia"
+COL_social_liberal:0 "Republic of Colombia"
+COL_social_liberal_DEF:0 "the Republic of Colombia"
+COL_social_democrat:0 "Republic of Colombia"
+COL_social_democrat_DEF:0 "the Republic of Colombia"
+COL_revolutionary_socialist:0 "Commune of Colombia"
+COL_revolutionary_socialist_DEF:0 "the Commune of Colombia"
+COL_orthodox_marxist:0 "Commune of Colombia"
+COL_orthodox_marxist_DEF:0 "the Commune of Colombia"
+COL_vanguardist:0 "Commune of Colombia"
+COL_vanguardist_DEF:0 "the Commune of Colombia"
+
+COL_national_populist_ADJ:0 "Colombian" 
+COL_paternal_autocrat_ADJ:0 "Colombian" 
+COL_authoritarian_democrat_ADJ:0 "Colombian" 
+COL_social_conservative_ADJ:0 "Colombian" 
+COL_social_liberal_ADJ:0 "Colombian" 
+COL_classic_liberal_ADJ:0 "Colombian" 
+COL_social_democrat_ADJ:0 "Colombian" 
+COL_revolutionary_socialist_ADJ:0 "Colombian" 
+COL_orthodox_marxist_ADJ:0 "Colombian" 
+COL_vanguardist_ADJ:0 "Colombian" 
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

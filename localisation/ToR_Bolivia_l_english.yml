@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+
+BOL_vanguardist_party:0 "PORB"
+BOL_vanguardist_party_long:0 "Partido Obrero Revolucionario de Bolivia"
+BOL_orthodox_marxist_party:0 "PCB"
+BOL_orthodox_marxist_party_long:0 "Partido Comunista de Bolivia"
+BOL_revolutionary_socialist_party:0 "PSU"
+BOL_revolutionary_socialist_party_long:0 "Partido Socialista Unificado"
+BOL_social_democrat_party:0 "PRS"
+BOL_social_democrat_party_long:0 "Partido Republicano Socialista"
+BOL_social_liberal_party:0 "PRG"
+BOL_social_liberal_party_long:0 "Partido Republicano Genuino"
+BOL_classic_liberal_party:0 "PL"
+BOL_classic_liberal_party_long:0 "Partido Liberal"
+BOL_social_conservative_party:0 "PC"
+BOL_social_conservative_party_long:0 "Partido Conservador"
+BOL_authoritarian_democrat_party:0 "MNR"
+BOL_authoritarian_democrat_party_long:0 "Movimiento Nacionalista Revolucionario"
+BOL_paternal_autocrat_party:0 "Junta de Salvacion Nacional"
+BOL_paternal_autocrat_party_long:0 "Junta de Salvacion Nacional"
+BOL_national_populist_party:0 "FSB"
+BOL_national_populist_party_long:0 "Falange Socialista Boliviana"
+
+#Country Names
+
+
+BOL_national_populist:0 "Bolivia"
+BOL_national_populist_DEF:0 "Bolivia"
+BOL_paternal_autocrat:0 "Bolivia"
+BOL_paternal_autocrat_DEF:0 "Bolivia"
+BOL_authoritarian_democrat:0 "Bolivia"
+BOL_authoritarian_democrat_DEF:0 "Bolivia"
+BOL_social_conservative:0 "Bolivia"
+BOL_social_conservative_DEF:0 "Bolivia"
+BOL_classic_liberal:0 "Bolivia"
+BOL_classic_liberal_DEF:0 "Bolivia"
+BOL_social_liberal:0 "Bolivia"
+BOL_social_liberal_DEF:0 "Bolivia"
+BOL_social_democrat:0 "Bolivia"
+BOL_social_democrat_DEF:0 "Bolivia"
+BOL_revolutionary_socialist:0 "Socialist Republic of Bolivia"
+BOL_revolutionary_socialist_DEF:0 "the Socialist Republic of Bolivia"
+BOL_orthodox_marxist:0 "Workers' Republic of Bolivia"
+BOL_orthodox_marxist_DEF:0 "the Workers' Republic of Bolivia"
+BOL_vanguardist:0 "People's Republic of Bolivia"
+BOL_vanguardist_DEF:0 "the People's Republic of Bolivia"
+
+BOL_national_populist_ADJ:0 "Bolivian" 
+BOL_paternal_autocrat_ADJ:0 "Bolivian"
+BOL_authoritarian_democrat_ADJ:0 "Bolivian"
+BOL_social_conservative_ADJ:0 "Bolivian"
+BOL_social_liberal_ADJ:0 "Bolivian"
+BOL_classic_liberal_ADJ:0 "Bolivian"
+BOL_social_democrat_ADJ:0 "Bolivian"
+BOL_revolutionary_socialist_ADJ:0 "Bolivian"
+BOL_orthodox_marxist_ADJ:0 "Bolivian"
+BOL_vanguardist_ADJ:0 "Bolivian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

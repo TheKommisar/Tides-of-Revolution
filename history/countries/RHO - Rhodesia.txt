@@ -19,7 +19,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,14 +27,14 @@ set_politics = {
 set_popularities = {
 	vanguardist = 0
         orthodox_marxist = 0
-	revolutionary_socialist = 0
-        social_democrat = 0
-        social_liberal = 0
-        classic_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 0
-        paternal_autocrat = 100
-        national_populist = 0
+	revolutionary_socialist = 8
+        social_democrat = 5
+        social_liberal = 25
+        classic_liberal = 10
+        social_conservative = 32
+        authoritarian_democrat = 12
+        paternal_autocrat = 0
+        national_populist = 8
 }
 create_country_leader = {
 	name = "Arthur Harris"
@@ -42,6 +42,16 @@ create_country_leader = {
 	picture = "Portrait_Rhodesia_Arthur_Harris.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Arthur Harris"
+	desc = "POLITICS_ARTHUR_HARRIS_DESC"
+	picture = "Portrait_Rhodesia_Arthur_Harris.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

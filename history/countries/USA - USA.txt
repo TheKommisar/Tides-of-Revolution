@@ -183,7 +183,7 @@ create_country_leader = {
 create_field_marshal = {# Douglas MacArthur
 	name = "Douglas MacArthur"
 	desc = "USA_DOUGLAS_MACARTHUR_ARMY_DESC"
-	portrait_path = "gfx/leaders/USA/Portrait_USA_gen_douglas_macarthur.tga"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_Douglas_MacArthur_general.tga"
 	traits = {
 		offensive_doctrine
 		brilliant_strategist

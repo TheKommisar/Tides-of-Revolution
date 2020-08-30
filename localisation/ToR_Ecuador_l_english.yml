@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+
+ECU_vanguardist_party:0 "VSE"
+ECU_vanguardist_party_long:0 "Vanguardia Socialista Ecuatoriana"
+ECU_orthodox_marxist_party:0 "PCE"
+ECU_orthodox_marxist_party_long:0 "Partido Colectivista Ecuatoriano"
+ECU_revolutionary_socialist_party:0 "PSE"
+ECU_revolutionary_socialist_party_long:0 "Partido Socialista Ecuatoriano"
+ECU_social_democrat_party:0 "PLRE(S)"
+ECU_social_democrat_party_long:0 "Partido Liberal Radical Ecuatoriano (Socialists)"
+ECU_social_liberal_party:0 "PLRE(R)"
+ECU_social_liberal_party_long:0 "Partido Liberal Radical Ecuatoriano (Radicals)"
+ECU_classic_liberal_party:0 "PLRE(L)"
+ECU_classic_liberal_party_long:0 "Partido Liberal Radical Ecuatoriano (Liberals)"
+ECU_social_conservative_party:0 "PC"
+ECU_social_conservative_party_long:0 "Partido Conservador"
+ECU_authoritarian_democrat_party:0 "PCV"
+ECU_authoritarian_democrat_party_long:0 "Partido Conservador Velasquista"
+ECU_paternal_autocrat_party:0 "CON"
+ECU_paternal_autocrat_party_long:0 "Compactación Obrera Nacional"
+ECU_national_populist_party:0 "UPN"
+ECU_national_populist_party_long:0 "Unión Patriótica Nacional"
+
+#Country Names
+
+
+ECU_national_populist:0 "Ecuador"
+ECU_national_populist_DEF:0 "Ecuador"
+ECU_paternal_autocrat:0 "Ecuador"
+ECU_paternal_autocrat_DEF:0 "Ecuador"
+ECU_authoritarian_democrat:0 "Ecuador"
+ECU_authoritarian_democrat_DEF:0 "Ecuador"
+ECU_social_conservative:0 "Ecuador"
+ECU_social_conservative_DEF:0 "Ecuador"
+ECU_classic_liberal:0 "Ecuador"
+ECU_classic_liberal_DEF:0 "Ecuador"
+ECU_social_liberal:0 "Ecuador"
+ECU_social_liberal_DEF:0 "Ecuador"
+ECU_social_democrat:0 "Ecuador"
+ECU_social_democrat_DEF:0 "Ecuador"
+ECU_revolutionary_socialist:0 "Ecuador"
+ECU_revolutionary_socialist_DEF:0 "Ecuador"
+ECU_orthodox_marxist:0 "Ecuador"
+ECU_orthodox_marxist_DEF:0 "Ecuador"
+ECU_vanguardist:0 "Ecuador"
+ECU_vanguardist_DEF:0 "Ecuador"
+
+ECU_national_populist_ADJ:0 "Ecuadorian" 
+ECU_paternal_autocrat_ADJ:0 "Ecuadorian" 
+ECU_authoritarian_democrat_ADJ:0 "Ecuadorian" 
+ECU_social_conservative_ADJ:0 "Ecuadorian" 
+ECU_social_liberal_ADJ:0 "Ecuadorian" 
+ECU_classic_liberal_ADJ:0 "Ecuadorian" 
+ECU_social_democrat_ADJ:0 "Ecuadorian" 
+ECU_revolutionary_socialist_ADJ:0 "Ecuadorian" 
+ECU_orthodox_marxist_ADJ:0 "Ecuadorian" 
+ECU_vanguardist_ADJ:0 "Ecuadorian" 
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

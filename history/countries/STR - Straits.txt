@@ -69,6 +69,6 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
-		#
+military_mind
 	}
 }

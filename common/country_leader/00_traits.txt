@@ -6,3 +6,13 @@ leader_traits = {
 
 		random = no
 	}
+	military_mind = {
+		war_support_factor = 0.05
+		army_attack_factor = 0.05
+		army_morale_factor = 0.10
+		army_org_factor = 0.05
+		training_time_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		high_command_cost_factor = -0.25
+		random = no
+	}

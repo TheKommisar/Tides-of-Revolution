@@ -3,13 +3,39 @@
 #Parties
 
 #Country Names
+
+
+POR_national_populist:0 "Kingdom of Portugal"
+POR_national_populist_DEF:0 "the Kingdom of Portugal"
 POR_paternal_autocrat:0 "Kingdom of Portugal"
 POR_paternal_autocrat_DEF:0 "the Kingdom of Portugal"
-POR_authoritarian_democrat:1 "Kingdom of Portugal"
-POR_authoritarian_democrat_DEF:1 "the Kingdom of Portugal"
- 
+POR_authoritarian_democrat:0 "Kingdom of Portugal"
+POR_authoritarian_democrat_DEF:0 "the Kingdom of Portugal"
+POR_social_conservative:0 "Portuguese Republic"
+POR_social_conservative_DEF:0 "the Portuguese Republic"
+POR_classic_liberal:0 "Portuguese Republic"
+POR_classic_liberal_DEF:0 "the Portuguese Republic"
+POR_social_liberal:0 "Portuguese Republic"
+POR_social_liberal_DEF:0 "the Portuguese Republic"
+POR_social_democrat:0 "Portuguese Republic"
+POR_social_democrat_DEF:0 "the Portuguese Republic"
+POR_revolutionary_socialist:0 "Portuguese Republic"
+POR_revolutionary_socialist_DEF:0 "the Portuguese Republic"
+POR_orthodox_marxist:0 "Portuguese Republic"
+POR_orthodox_marxist_DEF:0 "the Portuguese Republic"
+POR_vanguardist:0 "Portuguese Republic"
+POR_vanguardist_DEF:0 "the Portuguese Republic"
+
+POR_national_populist_ADJ:0 "Portuguese" 
 POR_paternal_autocrat_ADJ:0 "Portuguese"
 POR_authoritarian_democrat_ADJ:0 "Portuguese"
+POR_social_conservative_ADJ:0 "Portuguese"
+POR_social_liberal_ADJ:0 "Portuguese"
+POR_classic_liberal_ADJ:0 "Portuguese"
+POR_social_democrat_ADJ:0 "Portuguese"
+POR_revolutionary_socialist_ADJ:0 "Portuguese"
+POR_orthodox_marxist_ADJ:0 "Portuguese"
+POR_vanguardist_ADJ:0 "Portuguese"
 
 
 
