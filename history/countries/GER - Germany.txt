@@ -130,7 +130,8 @@ add_ideas = {
         GER_Otto_Lossow_sec
         GER_republican_menace
         GER_constitutional_crisis
-        GER_blood_and_iron
+        GER_iron_and_blood
+	GER_nation_and_kaiser
 }
 
 create_country_leader = {
