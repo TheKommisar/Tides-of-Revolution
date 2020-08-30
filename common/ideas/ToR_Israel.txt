@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+
+	ISR_jewish_nation = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = ISR_jew_state
+		removal_cost = -1
+		modifier = {
+		political_power_gain = 0.4
+		army_core_defence_factor = 0.25
+		army_core_attack_factor = 0.25
+		army_morale_factor = 0.2
+			}
+		}

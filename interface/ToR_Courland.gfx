@@ -9,4 +9,8 @@ spriteTypes = {
 		name = "GFX_idea_COU_german_russian_conflict"
 		texturefile = "gfx/interface/ideas/COU/german_russian_conflict.tga"
 	}
+      spriteType = {
+		name = "GFX_idea_COU_west_russian_volunteer_army"
+		texturefile = "gfx/interface/ideas/COU/west_russian_volunteer_army.tga"
+	}
 }

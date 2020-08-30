@@ -94,19 +94,19 @@ if = {
 
 
 set_popularities = {
-	authoritarian_democrat = 41
-	paternal_autocrat = 2
-	vanguardist = 17
+	authoritarian_democrat = 6
+	paternal_autocrat = 41
+	vanguardist = 8
 	revolutionary_socialist = 2
-	social_democrat = 11
-	national_populist = 14
-	social_conservative = 2
-	social_liberal = 8
+	social_democrat = 13
+	national_populist = 6
+	social_conservative = 7
+	social_liberal = 14
 	classic_liberal = 3
 }
 
 set_politics = {
-    ruling_party = authoritarian_democrat
+    ruling_party = paternal_autocrat
     elections_allowed = no
     last_election = "1936.1.1"
     election_frequency = 48
@@ -117,7 +117,7 @@ create_country_leader = {
 	desc = "SKOROPADSKYI_POLITICS_DESC"
 	picture = "Portrait_UKR_Pavlo_Skoropadsky.tga"
 	expire = "1953.3.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		
 	}
