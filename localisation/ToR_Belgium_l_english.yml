@@ -7,8 +7,8 @@ BEL_vanguardist_party:0 "Arbeiders/Ouvriers"
 BEL_vanguardist_party_long:0 "Belgische Werkliedenpertij/Parti Ouvrier Belge"
 BEL_orthodox_marxist_party:0 "Collectivistes"
 BEL_orthodox_marxist_party_long:0 "Kollektivistische Partij van België/Parti Collectiviste de Belgique"
-BEL_revolutionary_socialist_socialist_party:0 "Collectivistes"
-BEL_revolutionary_socialist_party_long:0 "Kollektivistische Partij van België/Parti Collectiviste de Belgique"
+BEL_revolutionary_socialist_party:0 "Arbeiders/Ouvriers"
+BEL_revolutionary_socialist_party_long:0 "Belgische Werkliedenpertij/Parti Ouvrier Belge"
 BEL_social_democrat_party:0 "Arbeiders/Ouvriers"
 BEL_social_democrat_party_long:0 "Belgische Werkliedenpertij/Parti Ouvrier Belge"
 BEL_social_liberal_party:0 "Progressistes"
@@ -123,9 +123,6 @@ BEL_celebrate_democracy_desc:0 ""
 BEL_stability_at_last:0 "Stability, at last"
 BEL_stability_at_last_desc:0 ""
 
-BEL_far_right_coalition:0 "The Nationalists - Rex/Verdinaso Victory"
-BEL_far_right_coalition_desc:0 ""
-
 BEL_crack_down_on_communism:0 "Crack Down on Communism"
 BEL_crack_down_on_communism_desc:0 ""
 
@@ -135,10 +132,10 @@ BEL_promote_belgian_unitarism_desc:0 ""
 BEL_a_new_belgium:0 "A New Belgium"
 BEL_a_new_belgium_desc:0 ""
 
-BEL_anti_communist_coup:0 "Anti-Communist Coup"
+BEL_anti_communist_coup:0 "King Leopold's Coup"
 BEL_anti_communist_coup_desc:0 ""
 
-BEL_king_albert_restores_order:0 "King Albert Restores Order"
+BEL_king_albert_restores_order:0 "Form the National Royalist Movement"
 BEL_king_albert_restores_order_desc:0 ""
 
 BEL_cooperate_with_the_military:0 "Military Support"
@@ -156,7 +153,7 @@ BEL_royalist_fervour_desc:0 ""
 BEL_kings_research:0 "A Royal University"
 BEL_kings_research_desc:0 ""
 
-BEL_degrelle_seizes_power:0 "Fascists Seize Power"
+BEL_degrelle_seizes_power:0 "A Stronger Hand is Needed"
 BEL_degrelle_seizes_power_desc:0 ""
 
 BEL_abandon_monarchist_principles:0 "Abandon Monarchist Principles"

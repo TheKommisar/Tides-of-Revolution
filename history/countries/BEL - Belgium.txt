@@ -47,11 +47,22 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
+	name = "Julien Lahaut"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "wip"
+	expire = "1999.1.1"
+	ideology = orthodox_marxist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Hendrik de Man"
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "Portrait_Belgium_Hendrik_De_Man.tga"
 	expire = "1999.1.1"
-	ideology = vanguardist_subtype
+	ideology = revolutionary_socialist_subtype
 	traits = {
 		#
 	}

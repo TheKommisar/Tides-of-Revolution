@@ -34,9 +34,8 @@ focus_tree = {
 	focus = {
 		id = BEL_communist_triumph
 		icon = GFX_goal_ideology_syndicalist
-		prerequisite = { focus = BEL_1936_elections }
 		available = {
-		    has_country_flag = always_false
+		    has_country_flag = BEL_a_socialist_revolution
 		}
 		x = -5
 		y = 1
@@ -74,7 +73,7 @@ focus_tree = {
 		prerequisite = { focus = BEL_exile_the_monarchy }
 		available = {
 		}
-		x = -3
+		x = -4
 		y = 2
 		relative_position_id = BEL_communist_triumph
 		cost = 5
@@ -87,14 +86,34 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BEL_centralize_the_government
+		id = BEL_dealing_with_the_reactionaries
 		icon = GFX_goal_WIP
-		prerequisite = { focus = BEL_communist_triumph }
+		prerequisite = { focus = BEL_exile_the_monarchy }
 		available = {
 		}
-		x = -1
+		x = -2
+		y = 2
+		relative_position_id = BEL_communist_triumph
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+    #Begin the congress
+
+	focus = {
+		id = BEL_future_of_the_republic
+		icon = GFX_goal_WIP
+		prerequisite = { focus = BEL_exile_the_monarchy }
+		available = {
+		}
+		x = 3
 		y = 1
-		relative_position_id = BEL_communist_triumph
+		relative_position_id = BEL_exile_the_monarchy
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -104,32 +123,16 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = BEL_arrest_revolutions_enemies
-		icon = GFX_goal_WIP
-		prerequisite = { focus = BEL_centralize_the_government }
-		available = {
-		}
-		x = -1
-		y = 2
-		relative_position_id = BEL_communist_triumph
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
+
 
 	focus = {
 		id = BEL_a_state_for_the_people
 		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_reach_out_to_france }
-		prerequisite = { focus = BEL_arrest_revolutions_enemies }
+		prerequisite = { focus = BEL_dealing_with_the_reactionaries }
 		available = {
 		}
-		x = -2
+		x = -3
 		y = 3
 		relative_position_id = BEL_communist_triumph
 		cost = 5
@@ -422,7 +425,7 @@ focus_tree = {
 	focus = {
 		id = BEL_stability_at_last
 		icon = GFX_BEL_flag
-		prerequisite = { focus = BEL_christian_democracy focus = BEL_democratic_socialism focus = BEL_a_new_belgium focus = BEL_king_and_law focus = BEL_a_state_for_the_people focus = BEL_a_stable_democracy }
+		prerequisite = { focus = BEL_christian_democracy focus = BEL_democratic_socialism focus = BEL_a_stable_democracy }
 		available = {
 		}
 		x = 0
@@ -440,34 +443,33 @@ focus_tree = {
 	#Nazis
 
 	focus = {
-		id = BEL_far_right_coalition
-		icon = GFX_goal_ideology_national_populist
-		prerequisite = { focus = BEL_1936_elections }
-		available = {
-		    has_country_flag = BEL_far_right_victory_flag
-		}
-		bypass = { has_country_flag = BEL_far_right_victory_flag }
-		x = 5
-		y = 1
-		relative_position_id = BEL_1936_elections
-		cost = 1
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
 		id = BEL_crack_down_on_communism
 		icon = GFX_BEL_anti_socialist_crackdown
 		prerequisite = { focus = BEL_far_right_coalition focus = BEL_degrelle_seizes_power }
 		available = {
 		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_degrelle_seizes_power
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = BEL_agreement_with_vnv
+		icon = GFX_BEL_anti_socialist_crackdown
+		prerequisite = { focus = BEL_degrelle_seizes_power }
+		available = {
+		}
 		x = 1
 		y = 1
-		relative_position_id = BEL_far_right_coalition
+		relative_position_id = BEL_degrelle_seizes_power
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -482,11 +484,12 @@ focus_tree = {
 		id = BEL_promote_belgian_unitarism
 		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_crack_down_on_communism }
+		prerequisite = { focus = BEL_agreement_with_vnv }
 		available = {
 		}
-		x = 1
+		x = 0
 		y = 2
-		relative_position_id = BEL_far_right_coalition
+		relative_position_id = BEL_degrelle_seizes_power
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -502,12 +505,11 @@ focus_tree = {
 		id = BEL_a_new_belgium
 		icon = GFX_goal_ideology_national_populist
 		prerequisite = { focus = BEL_promote_belgian_unitarism }
-		prerequisite = { focus = BEL_all_power_to_degrelle focus = BEL_kings_research }
 		available = {
 		}
-		x = 2
+		x = 0
 		y = 3
-		relative_position_id = BEL_far_right_coalition
+		relative_position_id = BEL_degrelle_seizes_power
 		cost = 15
 		ai_will_do = {
 			factor = 5
@@ -545,7 +547,7 @@ focus_tree = {
 		mutually_exclusive = { focus = BEL_degrelle_seizes_power }
 		available = {
 		}
-		x = 1
+		x = 3
 		y = 1
 		relative_position_id = BEL_anti_communist_coup
 		cost = 5
@@ -558,7 +560,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BEL_cooperate_with_the_military
+		id = BEL_build_legitimacy
 		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_king_albert_restores_order }
 		available = {
@@ -576,13 +578,32 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BEL_censor_the_press
-		icon = GFX_goal_generic_seize_press
-		prerequisite = { focus = BEL_cooperate_with_the_military }
+		id = BEL_embracing_our_catholic_roots
+		icon = GFX_goal_WIP
+		prerequisite = { focus = BEL_build_legitimacy }
+		prerequisite = { focus = BEL_censor_the_press }
 		available = {
 		}
-		x = 2
-		y = 3
+		x = 0
+		y = 2
+		relative_position_id = BEL_king_albert_restores_order
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_censor_the_press
+		icon = GFX_goal_generic_seize_press
+		prerequisite = { focus = BEL_king_albert_restores_order }
+		available = {
+		}
+		x = 4
+		y = 2
 		relative_position_id = BEL_anti_communist_coup
 		cost = 5
 		ai_will_do = {
@@ -596,13 +617,30 @@ focus_tree = {
 	focus = {
 		id = BEL_king_and_law
 		icon = GFX_focus_generic_monarchy_1
-		prerequisite = { focus = BEL_censor_the_press }
-		prerequisite = { focus = BEL_kings_research }
+		prerequisite = { focus = BEL_embracing_our_catholic_roots }
 		available = {
 		}
-		x = 1
+		x = 3
 		y = 4
 		relative_position_id = BEL_anti_communist_coup
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_the_king_speaks
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = BEL_degrelle_seizes_power focus = BEL_king_albert_restores_order }
+		available = {
+		}
+		x = -3
+		y = 1
+		relative_position_id = BEL_king_albert_restores_order
 		cost = 5
 		ai_will_do = {
 			factor = 5
@@ -616,12 +654,11 @@ focus_tree = {
 	focus = {
 		id = BEL_royalist_fervour
 		icon = GFX_BEL_royalist_fervour
-		prerequisite = { focus = BEL_king_albert_restores_order focus = BEL_degrelle_seizes_power focus = BEL_far_right_coalition }
-		mutually_exclusive = { focus = BEL_abandon_monarchist_principles }
+		prerequisite = { focus = BEL_the_king_speaks }
 		available = {
 		}
-		x = -1
-		y = 1
+		x = -2
+		y = 2
 		relative_position_id = BEL_king_albert_restores_order
 		cost = 5
 		ai_will_do = {
@@ -638,8 +675,8 @@ focus_tree = {
 		prerequisite = { focus = BEL_royalist_fervour }
 		available = {
 		}
-		x = -1
-		y = 2
+		x = -3
+		y = 3
 		relative_position_id = BEL_king_albert_restores_order
 		cost = 5
 		ai_will_do = {
@@ -650,8 +687,6 @@ focus_tree = {
 		}
 	}
 
-	#fascist-exclusive focus
-
 	focus = {
 		id = BEL_degrelle_seizes_power
 		icon = GFX_goal_WIP
@@ -659,7 +694,7 @@ focus_tree = {
 		mutually_exclusive = { focus = BEL_king_albert_restores_order }
 		available = {
 		}
-		x = -1
+		x = -3
 		y = 1
 		relative_position_id = BEL_anti_communist_coup
 		cost = 5
@@ -672,34 +707,15 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BEL_abandon_monarchist_principles
-		icon = GFX_BEL_abandon_monarchist_principles
-		prerequisite = { focus = BEL_degrelle_seizes_power }
-		mutually_exclusive = { focus = BEL_royalist_fervour }
-		available = {
-		}
-		x = -1
-		y = 1
-		relative_position_id = BEL_degrelle_seizes_power
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = BEL_all_power_to_degrelle
+		id = BEL_never_again
 		icon = GFX_goal_WIP
-		prerequisite = { focus = BEL_abandon_monarchist_principles }
-		mutually_exclusive = { focus = BEL_royalist_fervour }
+		prerequisite = { focus = BEL_king_and_law focus = BEL_a_new_belgium }
+		mutually_exclusive = { focus = BEL_king_albert_restores_order }
 		available = {
 		}
-		x = 0
+		x = -3
 		y = 1
-		relative_position_id = BEL_abandon_monarchist_principles
+		relative_position_id = BEL_king_and_law
 		cost = 5
 		ai_will_do = {
 			factor = 5
