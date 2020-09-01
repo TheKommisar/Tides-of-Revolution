@@ -97,11 +97,6 @@ spriteTypes = {
 	}
 
     SpriteType = { 
-		name = "GFX_BEL_king_albert_restores_order"
-		texturefile = "gfx/interface/goals/BEL/BEL_king_albert_restores_order.tga"
-	}
-
-    SpriteType = { 
 		name = "GFX_BEL_our_alsace_lorraine"
 		texturefile = "gfx/interface/goals/BEL/BEL_our_alsace_lorraine.tga"
 	}
@@ -179,5 +174,25 @@ spriteTypes = {
     SpriteType = { 
 		name = "GFX_BEL_stable_democracy"
 		texturefile = "gfx/interface/goals/BEL/BEL_stable_democracy.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_agreement_with_vnv"
+		texturefile = "gfx/interface/goals/BEL/BEL_agreement_with_vnv.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_rex"
+		texturefile = "gfx/interface/goals/BEL/BEL_rex.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_mnr"
+		texturefile = "gfx/interface/goals/BEL/BEL_mnr.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_prince_leopold"
+		texturefile = "gfx/interface/goals/BEL/BEL_prince_leopold.tga"
 	}
 

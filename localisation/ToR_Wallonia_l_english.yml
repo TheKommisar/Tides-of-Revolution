@@ -1,0 +1,63 @@
+﻿l_english: 
+
+#Parties
+
+#Country Names
+WLN_national_populist:0 "Kingdom of Wallonia"
+WLN_national_populist_DEF:0 "the Kingdom of Wallonia"
+WLN_totalitarian_socialist:0 "Kingdom of Wallonia"
+WLN_totalitarian_socialist_DEF:0 "the Kingdom of Wallonia"
+WLN_paternal_autocrat:0 "Kingdom of Wallonia"
+WLN_paternal_autocrat_DEF:0 "the Kingdom of Wallonia"
+WLN_social_conservative:0 "Kingdom of Wallonia"
+WLN_social_conservative_DEF:0 "the Kingdom of Wallonia"
+WLN_authoritarian_democrat:0 "Kingdom of Wallonia"
+WLN_authoritarian_democrat_DEF:0 "the Kingdom of Wallonia"
+WLN_orthodox_marxist:0 "Kingdom of Wallonia"
+WLN_orthodox_marxist_DEF:0 "the Kingdom of Wallonia"
+WLN_revolutionary_socialist:0 "Kingdom of Wallonia"
+WLN_revolutionary_socialist_DEF:0 "the Kingdom of Wallonia"
+WLN_social_democrat:0 "Kingdom of Wallonia"
+WLN_social_democrat_DEF:0 "the Kingdom of Wallonia"
+WLN_social_liberal:0 "Kingdom of Wallonia"
+WLN_social_liberal_DEF:0 "the Kingdom of Wallonia"
+WLN_classic_liberal:0 "Kingdom of Wallonia"
+WLN_classic_liberal_DEF:0 "the Kingdom of Wallonia"
+WLN_vanguardist:0 "Kingdom of Wallonia"
+WLN_vanguardist_DEF:0 "the Kingdom of Wallonia"
+ 
+WLN_national_populist_ADJ:0 "Walloon"
+WLN_totalitarian_socialist_ADJ:0 "Walloon"
+WLN_social_conservative_ADJ:0 "Walloon"
+WLN_paternal_autocrat_ADJ:0 "Walloon"
+WLN_orthodox_marxist_ADJ:0 "Walloon"
+WLN_authoritarian_democrat_ADJ:0 "Walloon"
+WLN_revolutionary_socialist_ADJ:0 "Walloon"
+WLN_social_democrat_ADJ:0 "Walloon"
+WLN_social_liberal_ADJ:0 "Walloon"
+WLN_classic_liberal_ADJ:0 "Walloon"
+WLN_vanguardist_ADJ:0 "Walloon"
+
+#Ideas
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+
+WLN_socialist_revolt_orthodox_marxist:0 "Belgian Socialist Revolt"
+WLN_socialist_revolt_orthodox_marxist_DEF:0 "the Belgian Socialist Revolt"
+
+ 

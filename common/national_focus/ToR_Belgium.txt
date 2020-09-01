@@ -440,7 +440,198 @@ focus_tree = {
 		}
 	}
 
-	#Nazis
+	#King Leopold's Coup
+
+	focus = {
+		id = BEL_anti_communist_coup
+		icon = GFX_BEL_prince_leopold
+		available = {
+		    has_country_flag = BEL_anti_communist_coup_flag
+		}
+		x = 20
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		    country_event = belgiumright.3
+		}
+	}
+
+	#MNR - King's Government
+
+	focus = {
+		id = BEL_form_mnr
+		icon = GFX_BEL_mnr
+		prerequisite = { focus = BEL_anti_communist_coup }
+		mutually_exclusive = { focus = BEL_degrelle_seizes_power }
+		available = {
+		    has_country_flag = BEL_king_created_mnr_flag
+		}
+		bypass = { has_country_flag = BEL_king_created_mnr_flag }
+		x = 3
+		y = 1
+		relative_position_id = BEL_anti_communist_coup
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_royalist_fervour
+		icon = GFX_BEL_royalist_fervour
+		prerequisite = { focus = BEL_form_mnr }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = BEL_form_mnr
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_build_legitimacy
+		icon = GFX_goal_WIP
+		prerequisite = { focus = BEL_form_mnr }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = BEL_form_mnr
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_embracing_our_catholic_roots
+		icon = GFX_goal_WIP
+		prerequisite = { focus = BEL_build_legitimacy }
+		prerequisite = { focus = BEL_royalist_fervour }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = BEL_form_mnr
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_king_and_law
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = BEL_embracing_our_catholic_roots }
+		available = {
+		}
+		x = 0
+		y = 3
+		relative_position_id = BEL_form_mnr
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_the_king_speaks
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = BEL_degrelle_seizes_power focus = BEL_form_mnr }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = BEL_anti_communist_coup
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_censor_the_press
+		icon = GFX_goal_generic_seize_press
+		prerequisite = { focus = BEL_the_king_speaks }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = BEL_the_king_speaks
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_youth_organizations
+		icon = GFX_goal_WIP
+		prerequisite = { focus = BEL_censor_the_press }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = BEL_the_king_speaks
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	#Rex Government
+
+	focus = {
+		id = BEL_degrelle_seizes_power
+		icon = GFX_BEL_rex
+		prerequisite = { focus = BEL_anti_communist_coup }
+		mutually_exclusive = { focus = BEL_form_mnr }
+		available = {
+		    has_country_flag = BEL_king_chose_rex_flag
+		}
+		bypass = { has_country_flag = BEL_king_chose_rex_flag }
+		x = -3
+		y = 1
+		relative_position_id = BEL_anti_communist_coup
+		cost = 1
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
 
 	focus = {
 		id = BEL_crack_down_on_communism
@@ -463,7 +654,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_agreement_with_vnv
-		icon = GFX_BEL_anti_socialist_crackdown
+		icon = GFX_BEL_agreement_with_vnv
 		prerequisite = { focus = BEL_degrelle_seizes_power }
 		available = {
 		}
@@ -519,198 +710,12 @@ focus_tree = {
 		}
 	}
 
-	#anti-communist coup
-
-	focus = {
-		id = BEL_anti_communist_coup
-		icon = GFX_goal_WIP
-		available = {
-		    has_country_flag = always_false
-		}
-		x = 20
-		y = 0
-		cost = 15
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	#monarchists
-
-	focus = {
-		id = BEL_king_albert_restores_order
-		icon = GFX_BEL_king_albert_restores_order
-		prerequisite = { focus = BEL_anti_communist_coup }
-		mutually_exclusive = { focus = BEL_degrelle_seizes_power }
-		available = {
-		}
-		x = 3
-		y = 1
-		relative_position_id = BEL_anti_communist_coup
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = BEL_build_legitimacy
-		icon = GFX_goal_WIP
-		prerequisite = { focus = BEL_king_albert_restores_order }
-		available = {
-		}
-		x = 2
-		y = 2
-		relative_position_id = BEL_anti_communist_coup
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = BEL_embracing_our_catholic_roots
-		icon = GFX_goal_WIP
-		prerequisite = { focus = BEL_build_legitimacy }
-		prerequisite = { focus = BEL_censor_the_press }
-		available = {
-		}
-		x = 0
-		y = 2
-		relative_position_id = BEL_king_albert_restores_order
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = BEL_censor_the_press
-		icon = GFX_goal_generic_seize_press
-		prerequisite = { focus = BEL_king_albert_restores_order }
-		available = {
-		}
-		x = 4
-		y = 2
-		relative_position_id = BEL_anti_communist_coup
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = BEL_king_and_law
-		icon = GFX_focus_generic_monarchy_1
-		prerequisite = { focus = BEL_embracing_our_catholic_roots }
-		available = {
-		}
-		x = 3
-		y = 4
-		relative_position_id = BEL_anti_communist_coup
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = BEL_the_king_speaks
-		icon = GFX_focus_generic_monarchy_1
-		prerequisite = { focus = BEL_degrelle_seizes_power focus = BEL_king_albert_restores_order }
-		available = {
-		}
-		x = -3
-		y = 1
-		relative_position_id = BEL_king_albert_restores_order
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-
-	focus = {
-		id = BEL_royalist_fervour
-		icon = GFX_BEL_royalist_fervour
-		prerequisite = { focus = BEL_the_king_speaks }
-		available = {
-		}
-		x = -2
-		y = 2
-		relative_position_id = BEL_king_albert_restores_order
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = BEL_kings_research
-		icon = GFX_goal_WIP
-		prerequisite = { focus = BEL_royalist_fervour }
-		available = {
-		}
-		x = -3
-		y = 3
-		relative_position_id = BEL_king_albert_restores_order
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = BEL_degrelle_seizes_power
-		icon = GFX_goal_WIP
-		prerequisite = { focus = BEL_anti_communist_coup }
-		mutually_exclusive = { focus = BEL_king_albert_restores_order }
-		available = {
-		}
-		x = -3
-		y = 1
-		relative_position_id = BEL_anti_communist_coup
-		cost = 5
-		ai_will_do = {
-			factor = 5
-		}
-		
-		completion_reward = {
-		}
-	}
-
 	focus = {
 		id = BEL_never_again
 		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_king_and_law focus = BEL_a_new_belgium }
-		mutually_exclusive = { focus = BEL_king_albert_restores_order }
+		prerequisite = { focus = BEL_youth_organizations }
+		mutually_exclusive = { focus = BEL_form_mnr }
 		available = {
 		}
 		x = -3

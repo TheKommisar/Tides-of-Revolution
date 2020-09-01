@@ -223,13 +223,13 @@ HOL_benelux_unified = {
 }
 
 RHO_british = { 
-        color = rgb { 170 25 25 }
-        color_ui = rgb { 200 35 35 }
+	color = rgb { 140 30 35 }
+	color_ui = rgb { 160 15 15 }
 }
 
 SUD_UK = { 
-        color = rgb { 170 25 25 }
-        color_ui = rgb { 200 35 35 }
+	color = rgb { 140 30 35 }
+	color_ui = rgb { 160 15 15 }
 }
 
 ITA_LBA = { 
@@ -260,4 +260,9 @@ DNV_defense_command = {
 RMT_defense_command = {
         color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }
+}
+
+WLN_socialist_revolt = {
+    color = rgb { 175 0 0 }
+	color_ui = rgb { 175 0 0 }
 }

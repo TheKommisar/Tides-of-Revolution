@@ -24,29 +24,30 @@ BEL_paternal_autocrat_party_long:0 "Verbond van Dietsche Nationaal Solidaristen"
 BEL_national_populist_party:0 "Rex"
 BEL_national_populist_party_long:0 "Parti Rexiste"
 
+BEL_paternal_autocrat_party_emergency_government:0 "Emergency Government"
+BEL_paternal_autocrat_party_emergency_government_long:0 "Emergency Government"
+
 #Country Names
 BEL_national_populist:0 "Kingdom of Belgium"
 BEL_national_populist_DEF:0 "the Kingdom of Belgium"
-BEL_totalitarian_socialist:0 "Belgian Syndicate"
-BEL_totalitarian_socialist_DEF:0 "the Belgian Syndicate"
 BEL_paternal_autocrat:0 "Kingdom of Belgium"
 BEL_paternal_autocrat_DEF:0 "the Kingdom of Belgium"
 BEL_social_conservative:0 "Kingdom of Belgium"
 BEL_social_conservative_DEF:0 "the Kingdom of Belgium"
 BEL_authoritarian_democrat:0 "Kingdom of Belgium"
 BEL_authoritarian_democrat_DEF:0 "the Kingdom of Belgium"
-BEL_orthodox_marxist:0 "Belgian Syndicate"
-BEL_orthodox_marxist_DEF:0 "the Belgian Syndicate"
-BEL_revolutionary_socialist:0 "Belgian Syndicate"
-BEL_revolutionary_socialist_DEF:0 "the Belgian Syndicate"
+BEL_orthodox_marxist:0 "Belgian Republic"
+BEL_orthodox_marxist_DEF:0 "the Belgian Republic"
+BEL_revolutionary_socialist:0 "Belgian Republic"
+BEL_revolutionary_socialist_DEF:0 "the Belgian Republic"
 BEL_social_democrat:0 "Kingdom of Belgium"
 BEL_social_democrat_DEF:0 "the Kingdom of Belgium"
 BEL_social_liberal:0 "Kingdom of Belgium"
 BEL_social_liberal_DEF:0 "the Kingdom of Belgium"
 BEL_classic_liberal:0 "Kingdom of Belgium"
 BEL_classic_liberal_DEF:0 "the Kingdom of Belgium"
-BEL_vanguardist:0 "Belgian People's Republic"
-BEL_vanguardist_DEF:0 "the Belgian People's Republic"
+BEL_vanguardist:0 "Belgian Republic"
+BEL_vanguardist_DEF:0 "the Belgian Republic"
  
 BEL_national_populist_ADJ:0 "Belgian"
 BEL_totalitarian_socialist_ADJ:0 "Belgian"
@@ -135,8 +136,8 @@ BEL_a_new_belgium_desc:0 ""
 BEL_anti_communist_coup:0 "King Leopold's Coup"
 BEL_anti_communist_coup_desc:0 ""
 
-BEL_king_albert_restores_order:0 "Form the National Royalist Movement"
-BEL_king_albert_restores_order_desc:0 ""
+BEL_form_mnr:0 "Form the National Royalist Movement"
+BEL_form_mnr_desc:0 ""
 
 BEL_cooperate_with_the_military:0 "Military Support"
 BEL_cooperate_with_the_military_desc:0 ""
@@ -150,8 +151,8 @@ BEL_king_and_law_desc:0 ""
 BEL_royalist_fervour:0 "Royalist Fervour"
 BEL_royalist_fervour_desc:0 ""
 
-BEL_kings_research:0 "A Royal University"
-BEL_kings_research_desc:0 ""
+BEL_youth_organizations:0 "Create Youth Organizations"
+BEL_youth_organizations_desc:0 ""
 
 BEL_degrelle_seizes_power:0 "A Stronger Hand is Needed"
 BEL_degrelle_seizes_power_desc:0 ""
@@ -200,6 +201,12 @@ BEL_memories_of_the_school_war:0 "Remember the School War"
 
 BEL_a_stable_democracy:0 "A Stable Democracy"
 
+BEL_the_king_speaks:0 "Reassure the People"
+
+BEL_agreement_with_vnv:0 "Agreement with the Flemish National Union"
+
+BEL_never_again:0 "For a Safe and Secure Society"
+
 #should be reintegrated
 
 #Events
@@ -208,7 +215,40 @@ belgium.1.t:0 "The Elections of 1936"
 belgium.1.desc:0 "After several turbulent years under the leadership of Prime Minister van Zeeland, the time for another election has once again come to Belgium. Though many expect the moderates of the Labour Party or Catholics to emerge victorious once again, there is no denying that there is an air of change within Belgian society as well as unrest boiling under the surface as a result of the economic downturn that developed with the stagnation of the British economy. As the results come in, it becomes obvious that..."
 belgium.1.a:0 "...The Catholics are once again triumphant"
 belgium.1.b:0 "...The Labour Party is victorious"
-belgium.1.c:0 "...The Communists have pulled off a surprise victory"
+belgium.1.c:0 "...The Liberals have pulled off a surprise victory"
+
+belgiumright.1.t:0 "A Reactionary Plot?"
+belgiumright.1.d:0 "Though the Revolution may have been successful and a socialist government sits in Brussels, there are many left who oppose the new regime and wish for an immediate return of the monarchy. Parties such as Rex continue to operate underground, while factions in the military remain loyal to the monarchy. The former Crown Prince Leopold continues to voice his opposition to our rule from abroad, further increasing unrest among more conservative parts of the Belgian population. If the new regime is to survive, we should try to stamp out these sentiments as quickly as possible."
+belgiumright.1.a:0 "Concerning."
+
+belgiumright.2.t:0 "Counterrevolution!"
+belgiumright.2.d:0 "The government has failed to consolidate its power. Anti-Socialist rioters have gathered in Brussels, joined by factions of the far-right Rexist Party and Flemish National Union. The government has ordered the army in to disperse the riots, but the question is whether or not they will follow their orders..."
+belgiumright.2.a:0 "The Military sides with the rioters, the government is overthrown"
+belgiumright.2.b:0 "The Military sides with the government, the revolution is crushed"
+
+belgiumright.3.t:0 "Belgium's Future"
+belgiumright.3.d:0 "With the Socialist government having been ousted and Leopold sitting on the throne, the country is under the control of a shaky agreement between the far-right factions and the more traditionalist royalist faction. As the country reels from the effects of the revolution and subsequent counterrevolution, the question of how Belgium will be governed remains. The king could make concessions to the Rexists and their allies, effectively making Léon Degrelle Prime Minister and turning Belgium into a National Populist state, or he could take advantage of his support from both factions and form a new government under more direct control of the monarchy."
+belgiumright.3.a:0 "The King decides to form a new National Royalist Movement under his leadership"
+belgiumright.3.b:0 "The counterrevolution would not have been possible without Degrelle, he has the King's faith"
+
+belgiumleft.1.t:0 "Strikes!"
+belgiumleft.1.d:0 "With the economic problems of the recent years remaining unresolved, frustration among the working class is at an all-time high. Today strikes begin at major industrial cities throughout the country, including Brussels. Demanding change, factory members are refusing to work. This comes as a blow to the new government established following the recent elections, who already have much to deal with."
+belgiumleft.1.a:0 "It will blow over"
+
+belgiumleft.2.t:0 "Strikes Continue"
+belgiumleft.2.d:0 "The strikes taking place throughout major Belgian cities continue, with more and more workers joining the protests. With Belgian industry being crippled by the protests, it is unlikely that we will be able to turn a blind eye to these developments for much longer. Some in our government propose breaking up the strikes, while others wish to negotiate with the strikers. What should we do?"
+belgiumleft.2.a:0 "This is unacceptable, it is time for the strikes to end."
+belgiumleft.2.b:0 "Negotiate with the strikers"
+
+belgiumleft.3.t:0 "Strikes escalate"
+belgiumleft.3.d:0 "Our attempts to break up the strikes have proven unsuccessful, with violence breaking out between the police and the strikers As the strikes escalate into full-blown anti-government riots, it is becoming clear that the situation is beginning to spiral out of control."
+belgiumleft.3.b:0 "Damn it, send in the army!"
+
+belgiumleft.4.t:0 "Revolution"
+belgiumleft.4.d:0 "As the violence escalates, workers have taken up arms against the government. It is unlikely that we will be able to peacefully take control of the situation, and the socialists will have to be put down by force of arms."
+belgiumleft.4.a:0 "We will do what must be done"
+belgiumleft.4.b:0 "Long live the Revolution! (Play as the Socialists)"
+
 #should be reintegrated
 
 #Ideas
