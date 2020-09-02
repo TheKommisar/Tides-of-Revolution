@@ -71,4 +71,52 @@ ideas = {
 			}
 		}
 	}
+
+	country = {
+		BEL_disorganized_response = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_bad_thing
+
+
+			modifier = {
+			    army_attack_factor = -0.5
+			    army_defence_factor = -0.5
+			    army_org_factor = -0.5
+		    }
+	    }
+	}
+
+	country = {
+		BEL_for_the_revolution = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_bad_thing
+
+
+			modifier = {
+			    army_org_factor = 0.1
+			    supply_consumption = -0.2
+			    out_of_supply_factor = -0.2
+			}
+		}
+	}
 }
