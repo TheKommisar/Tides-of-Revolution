@@ -82,6 +82,10 @@ spriteTypes = {
 		name = "GFX_bavaria"
 		texturefile = "gfx/interface/goals/bavaria.dds"
 	}
+     spriteType = {
+		name = "GFX_imperial_eagle_rises"
+		texturefile = "gfx/interface/goals/GER/GER_the_imperial_eagle_rises.tga"
+	}
         SpriteType = { 
 		name = "GFX_fight_monarchism"
 		texturefile = "gfx/interface/goals/fight_monarchism.tga"
