@@ -2104,6 +2104,7 @@ spriteTypes = {
 		name = "GFX_report_event_burma_government_house"
 		texturefile = "gfx/event_pictures/burma_government_house.dds"
 	}
-	
-
+      spriteType = {
+		name = "GFX_news_event_cou_baltic_war"
+		texturefile = "gfx/event_pictures/News_events/baltic_war.tga"
 }

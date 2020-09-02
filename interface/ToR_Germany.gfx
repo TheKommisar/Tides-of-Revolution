@@ -18,6 +18,8 @@ spriteTypes = {
 		name = "GFX_idea_GER_nation_and_kaiser"
 		texturefile = "gfx/interface/ideas/GER/idea_GER_nation_and_kaiser.tga"
 	}
+
+
 #Ministers
 
 	spriteType = {
