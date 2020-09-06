@@ -17,7 +17,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.20
 				political_power_gain = -0.20
-				recruitable_population_factor = -0.05
+				conscription_factor = -0.05
 			}
 		}
 		PER_Democratic_Opposition = {
@@ -37,6 +37,8 @@ ideas = {
 				drift_defense_factor = -0.30
 				war_support_factor = -0.2
 				paternal_autocrat_drift = -0.1
+				economy_cost_factor = 0.2
+				political_advisor_cost_factor = 0.2
 				#+20% Laws Cost
 			}
 		}
@@ -54,7 +56,9 @@ ideas = {
 
 			
 			modifier = {
-				
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				training_time_factor = 0.05
 				army_core_defence_factor = 0.05
 				army_core_attack_factor = 0.05
 			}
