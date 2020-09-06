@@ -114,6 +114,25 @@ add_ideas = {
         ENG_Winston_Churchill_sec
 }
 	
+###putting this here again so the game reads it
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	vanguardist = 1
+        orthodox_marxist = 0
+	revolutionary_socialist = 7
+        social_democrat = 7
+        social_liberal = 10
+        classic_liberal = 3
+        social_conservative = 39
+        authoritarian_democrat = 15
+        paternal_autocrat = 7
+        national_populist = 6
+}
 
 set_convoys = 800
 

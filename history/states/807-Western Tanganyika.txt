@@ -7,9 +7,7 @@ state={
 	}
 
 	history = {
-	    owner = BEA
-	    add_claim_by = GER
-	    add_core_of = BEA
+	    owner = GER
 	    buildings = {
 	        infrastructure = 5
 	    }

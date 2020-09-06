@@ -11,24 +11,22 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = classic_liberal 
+	ruling_party = paternal_autocrat
 	last_election = "1934.5.16"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	classic_liberal = 65
-        paternal_autocrat = 30
+	classic_liberal = 30
+        paternal_autocrat = 65
         vanguardist = 5
 }
 
 create_country_leader = {
-	name = "Rafael Estrella Ureña"
+	name = "Rafael Trujillo"
 	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
-	picture = "Portrait_Rafael_Estrella_Urena.tga"
+	picture = "Portrait_Dominican_Rafael_Trujillo.tga"
 	expire = "1965.1.1"
-	ideology = classic_liberal_subtype
-	traits = {
-		#
-	}
+	ideology = paternal_autocrat_subtype
+	traits = {}
 }
