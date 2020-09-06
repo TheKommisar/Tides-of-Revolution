@@ -1,5 +1,5 @@
 division_template = {
-	name = "Infantry Division"			# 1st - 5th divisions = fully equipped, others = reserve divisions
+	name = "Infantry Division"			# 
 	division_names_group = ENG_INF_01
 
 	regiments = {
@@ -242,13 +242,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-	division= {	# 
-
-		name = "Constaninople Garrison"		
-		location = 9833
-		division_template = "Colonial Garrison"
-		start_experience_factor = 0.3
-	}
 
 	division= {	# "Canal Brigade"
 			name = "Canal Brigade"
@@ -299,12 +292,6 @@ units = {
 		start_experience_factor = 0.3
 	}
 
-	division= {	# 
-			name = "Senegambia Garrison"
-		location = 4948
-		division_template = "Colonial Garrison"
-		start_experience_factor = 0.3
-	}
 
 	division= {	# 
 		name = "Ceylon Garrison"

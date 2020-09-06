@@ -60,9 +60,6 @@ ENG_orthodox_marxist_party_long:0 "Communist Party of Great Britain - Leninist f
  ENG_classic_liberal_ADJ:0 "British"
  ENG_vanguardist_ADJ:0 "British"
 
-
-
-
 #Ministers
 #should be reintegrated
 ENG_Herbert_Samuel_hog:0 "Herbert Samuel"
@@ -82,7 +79,7 @@ ENG_George_Lambert_int:0 "George Lambert"
 
 #Ideas
 ENG_the_rearmament_crisis:0 "The Rearnament Crisis"
-ENG_the_rearmament_crisis_desc:0 "The landslide victory for the Liberals saw some of the largest defence cuts in British History and the army reduced to a tiny size.\n\nDuring the late 1920s and early 1930s few cared about national defence, trusting the Liberals diplomatic plans to work against a future war. The coup in Germany in 1934 however would wake a nation to the reality of things, war once again seemed likley.\n\nHowever the Liberals attempts to begin the long path of rearnament have found themselves stalled in the House of Commons by Militarist Tory and Pacifistic Labour MP's. In late 1935 this culminated in several defections from the Liberals and the collapse of there government with elections scheduled for late February. With Militarist paramilitaries brawling on the streets with peace marchers and rumours of a military plot in the works something must be done to solve the crisis at hand!"
+ENG_the_rearmament_crisis_desc:0 "The landslide victory for the Liberals saw some of the largest defence cuts in British History and the army reduced to a tiny size. During the late 1920s and early 1930s few cared about national defence, trusting the Liberals diplomatic plans to work against a future war. Germanys increasingly militarist position however would wake a nation to the reality of things, war once again seemed likley.\n\nHowever the Liberals attempts to begin the long path of rearnament have found themselves stalled in the House of Commons by Militarist Tory and Pacifistic Labour MP's. In late 1935 this culminated in several defections from the Liberals and the collapse of there government with elections scheduled for late February. With Militarist paramilitaries brawling on the streets with peace marchers and rumours of a military plot in the works something must be done to solve the crisis at hand!"
 
 ENG_legacy_of_the_great_war:0 "Legacy of the Great War"
 ENG_legacy_of_the_great_war_desc:0 "The Great War scarred the British People greatly, a generation had been lost and for so little in return, only made worse by the 1920s economic slump and the Tories policy of peacetime conscription. Though the nation has recovered to some degree the war has deeply scared the British national psyche and it will take much to get them to be willing to fight once more...if ever."
@@ -99,32 +96,178 @@ ENG_the_grand_fleet_desc:0 "Though prehaps not as dominant as it once was the Ro
 ENG_paramilitary_violence:0 "Paramilitary violence"
 ENG_paramilitary_violence_desc:0 "First appearing as private defence forces promoted by the Tories following the fall of France to Communism paramilitary groups have spread rapidly across the country soon becoming active political forces in the country much to the chagrin of the political establishment.\n\nCurrently the paramilitaries are split between two main factions, the left leaning Intenational League supported by the Communist Party of Great Britain and the Imperial Leagues supported by sections of the Military. There are also several minor groups including the Social Credit sponsored Greenshirts.\n\nAs the paramilitaries continue to grow in power calls are becoming louder and louder for something to be done about these groups which menance the British people!"
 
+ENG_prewar_standards_1:0 "Restoration of prewar standards"
+ENG_prewar_standards_1_desc:0 "Our limited manpower pool requires us to make the best of it and to have at our disposal the most capable army possible. By returning to old prewar standards we can hope to achieve this."
+
+ENG_prewar_standards_2:0 "Restoration of prewar standards"
+ENG_prewar_standards_2_desc:0 "Our limited manpower pool requires us to make the best of it and to have at our disposal the most capable army possible. By returning to old prewar standards we can hope to achieve this."
+
+ENG_prewar_standards_3:0 "Restoration of prewar standards"
+ENG_prewar_standards_3_desc:0 "Our limited manpower pool requires us to make the best of it and to have at our disposal the most capable army possible. By returning to old prewar standards we can hope to achieve this."
+
+ENG_prewar_standards_4:0 "Restoration of prewar standards"
+ENG_prewar_standards_4_desc:0 "Our limited manpower pool requires us to make the best of it and to have at our disposal the most capable army possible. By returning to old prewar standards we can hope to achieve this."
+
+ENG_The_two_forces_1:0 "The two forces"
+ENG_The_two_forces_1_desc:0 "With the passing of the Liberals rearnament bill the army is now effectively split into two forces, the professional army and the reserve force. This has created chaos in our armed forces over how this duel system is to work and the chain of command. Something that may take a while to resolve."
+
+ENG_The_two_forces_2:0 "The two forces"
+ENG_The_two_forces_2_desc:0 "Thanks to our efforts the two different forces of the British army are now working well together and we no longer have to fear chaos within our ranks once war breaks out."
+
+ENG_second_BEF_1:0 "The Second BEF"
+ENG_second_BEF_1_desc:0 ""
+
+ENG_second_BEF_2:0 "The Second BEF"
+ENG_second_BEF_2_desc:0 ""
+
+ENG_second_BEF_3:0 "The Second BEF"
+ENG_second_BEF_3_desc:0 ""
+
+ENG_second_BEF_4:0 "The Second BEF"
+ENG_second_BEF_4_desc:0 ""
+
+ENG_second_BEF_5:0 "The Second BEF"
+ENG_second_BEF_5_desc:0 ""
+
+ENG_second_BEF_6:0 "The Second BEF"
+ENG_second_BEF_6_desc:0 ""
+
+ENG_second_BEF_7:0 "The Second BEF"
+ENG_second_BEF_7_desc:0 ""
+
+ENG_mass_mechanization:0 "Mass mechanization effort"
+ENG_mass_mechanization_desc:0 "To build a modern army that can properly utilise mobile warfare we must provide our army with trucks and armoured fighting vehicles on a massive scale. Though we cannot do such intensive production forever it can be done for long enough to properly outfit our army with what it needs"
+
+ENG_loosen_standards:0 "Loosened standards"
+ENG_loosen_standards_desc:0 "With war dragging on we have no other choice but to loosen our standards and bring men previously exempt into the army."
+
+ENG_fortification_effort:0 "Fortification effort"
+ENG_fortification_effort_desc:0 "Our reserve force will be useless without a proper set of defensive works across the nation to man. We must ensure this is the case."
+#Descriptions
+POLITICS_GEORGE_V_DESC:0 "WIP \n\nWIP George v (his full name being George Frederick Ernest Albert) was not supposed to be King as the second son of Edward Viii and was originally destined to serve in the navy until the death of his brother Albert Victor in 1892. Following his death he became Duke of York and after the death of his Grandmother Queen Victoria he became Prince of Wales. For the man destined to be King and Emperor he lived a quiet life in the rather unimpressive York Cottage, a marked contrast to his extravagant father Edward Vii.\n\nAfter the death of his father he would ascend to the throne and has throughout his reign faced crises after crises. From the People's budget and the Home Rule Crises to the Great War and the ensuing economic and social decline afterwards he has had much to face as Monarch and has for the most part been able to shoulder its burdens, often acting as a voice of moderation for many governments. The stress of his reign though has taken a serious toll on his health and by 1936 death is not far away for him.\n\nThough by no means an intellectual or particularly interesting (his only two real pastimes being hunting and stamp collecting) he is a beloved figure amongst the British people and is seen as a dedicated and upstanding monarch, relatable to his people. This is especially when compared to his controversial son the Prince of Wales, a man who George has said "After I am dead, the boy will ruin himself in twelve months", whether that comes to pass is yet to be known."
+
+
+#cosmetic tags
 
 
 
-
-#Focuses
-#should be reintegrated
-
-#Events
+ #Events
 #should be reintegrated
 uk.1.t:0 "The King is dead, God Save the King!"
 uk.1.d:0 " The King is dead. In an event many have feared, King George V has passed away, although to the relief of many, quite peacefully. Currently at this hour is established the fact of the time of his death, 12:15AM, with members of his family, his doctors and close friends beside him. Though we not yet know the circumstances of this tragedy, it is for sure that his severe health problems and depression played a major role in His Majesty’s passing.\n\nHis Majesty reigned for two-and-a-half decades, overseeing the empire through the fruitless Great War and working day and night to avert the total collapse of the empire, which caused his severe depression and stress problems leading to his death. To make matters worse, during His Majesty’s reign, the Great Economic Crash of 1929 and ensuing economic depression nearly crippled the economy and led to its unstable state which it is in now.\n\nThe procedures for succession will be enacted effective immediately, whilst the populace still mourns. George V’s eldest son, Edward, Prince of Wales, shall inherit the crown and assume the title of Edward VIII, yet many believe his unorthodox way of life and independence of thought disqualifies him from bearing such an honourable title. The government under Sir Herbert Samuel are preparing to make sure he will accept direction from the future Prime Minister and the Cabinet."
 uk.1.a:0 "God Save The King."
 
 uk.2.t:0 "Britannia's Situation"
-uk.2.d:0 "Though victorious in the Great War the British Empire suffered terribly from it. Its strength and standing were severely damaged from the conflict and the nation fell heavily in debt to America and other foreign powers. The Liberal coalition fell apart in early 1919 and the Conservatives took control after a snap election. Soon after due to a scandal regarding many high ranking Labour party leaders after a purported (and fabricated) plot was uncovered to overthrow the government. This caused it to greatly decrease in popularity, and many of its MP’s would join the Liberals.\n\nBut even as peace was signed all that Britain had fought for would begin to crumble as France fell to the red tide and Britain would be forced to withdraw from much of the Middle East after a humiliating defeat to Arab tribesmen. Though a rebellion in Ireland in 1918 would be crushed, home rule would be granted in 1924 and the dominions would be given full autonomy in their own affairs. The Empire teeters on the edge as India is embroiled in near constant unrest and anti-imperialist movements across the Empire grow in strength. (WIP)"
+uk.2.d:0 "Though victorious in the Great War the British Empire suffered terribly from it. Its strength and standing were severely damaged from the conflict and the nation fell heavily in debt to America and other foreign powers. And even as the peace was signed all Britain had fought for began to fall apart as France fell into civil war and an arab revolt forced a humiliating withdrawal from much of the Middle East. The Liberal coalition fell apart in early 1919 and the Conservatives took control after a snap election. Soon after due to a scandal regarding many high ranking Labour party leaders after a purported (and fabricated) plot was uncovered to overthrow the government. This caused it to greatly decrease in popularity and many of its MP’s would join the Liberals who would return to power in a landslide victory in 1924. They would pass numerous radical measures to try and revive the economy, ended many unpopular Conservative measures and drastically cut military spending. Those cuts in spending however would come back to haunt them as Britain was caught woefully off guard by the German coup and soon became embroiled in a political crisis over how to rearm the nation, something many hope this year's elections will finally solve.\n\nHowever just before the Liberals fell from power they would oversee the 1918 Imperial Conference which would drastically change the balance of power in the Empire. India was granted Dominion status and the other Dominions granted effective independence from Britain, the notable exception to this decentralisation of power was Ireland which after a bloody rebellion in 1918 over conscription was only given limited dominion status much to the anger of its people. Though these changes have appeased many people in the Empire it has also made it disunited and there is increasing uncertainty of whether the Empire will in difficult times stick together.\n\nDespite many problems though the British Empire still stands as the largest in world history, with the largest fleet in the world and the potential to return to its past splendour...if all goes well.(WIP)"
 uk.2.a:0 "Rule Britannia! Britannia rules the waves!"
 
 uk.3.t:0 "Elections of 1936"
 uk.3.d:0 "The elections are finally here. Which party will win? (WIP text)"
 uk.3.a:0 "Labour! No more war!"
-uk.3.b:0 "The Tories! Down with France!"
+uk.3.b:0 "The Tories! Defend the Empire!"
 uk.3.c:0 "Liberal! Four more years!"
 
-#Descriptions
-POLITICS_GEORGE_V_DESC:0 "WIP \n\nWIP George v (his full name being George Frederick Ernest Albert) was not supposed to be King as the second son of Edward Viii and was originally destined to serve in the navy until the death of his brother Albert Victor in 1892. Following his death he became Duke of York and after the death of his Grandmother Queen Victoria he became Prince of Wales. For the man destined to be King and Emperor he lived a quiet life in the rather unimpressive York Cottage, a marked contrast to his extravagant father Edward Vii.\n\nAfter the death of his father he would ascend to the throne and has throughout his reign faced crises after crises. From the People's budget and the Home Rule Crises to the Great War and the ensuing economic and social decline afterwards he has had much to face as Monarch and has for the most part been able to shoulder its burdens, often acting as a voice of moderation for many governments. The stress of his reign though has taken a serious toll on his health and by 1936 death is not far away for him.\n\nThough by no means an intellectual or particularly interesting (his only two real pastimes being hunting and stamp collecting) he is a beloved figure amongst the British people and is seen as a dedicated and upstanding monarch, relatable to his people. This is especially when compared to his controversial son the Prince of Wales, a man who George has said "After I am dead, the boy will ruin himself in twelve months", whether that comes to pass is yet to be known."
+###Decisions###
 
 
-#cosmetic tags
- 
+###custom focus effect
+ENG_The_two_forces_effect:0 "§YDecision§! to build up §Ythe Home Guard§! will become available.\n"
+ENG_Use_Great_War_veterans_effect:0 "This will reduce the requirements for building up the §YHome Guard§!.\n"
+ENG_Use_army_standards_effect:0 "§YDecisions§! will be available to train and in war deploy §Yfive standard Infantry Divisions§!.\n"
+ENG_Encourage_experimental_designs_effect:0 "§YDecisions§! will be available to train and in war deploy §Ytwo experimental mechanised divisions§!.\n"
+ENG_New_defensive_fortifications_effect:0 "§YDecisions§! to §Yfortify the Home Isles§! will become available.\n"
+ENG_The_needs_of_war_effect:0 "The §YLiberals§! will now be able to §YIncrease conscription laws§!.\n"
+ENG_Bring_back_Hobart_effect:0 "§YPercy Hobart§! will now be available as a §Ymilitary advisor and general§!.\n"
+#Focuses
+#should be reintegrated 
+####Army####
+ENG_Fix_the_greatest_failings:0 "Fix the greatest failings"
+ENG_Fix_the_greatest_failings_desc:0 "For too long we have let the British army fall into disrepair and irrelevance. Now with war looming on our doorstep we have to do something to fix the failings of our army."
+
+ENG_The_second_BEF:0 "The second BEF"
+ENG_The_second_BEF_desc:0 "There is no doubt that the next war will be fought in Europe with the same scale of forces as the last one. With the passing of the conscription act we can now get to the task of mobilising such an army. This will however mean a decline in our armies quality until we can properly equip it and standardise a doctrine."
+
+ENG_Legacy_of_plan_1919:0 "Legacy of plan 1919"
+ENG_Legacy_of_plan_1919_desc:0 "Though the next war may require the same mass mobilisation of the last one it will not be fought in the trenches by infantry but rather in open country with armoured forces. This future was clear even during the last war with Fullers plan 1919 proving instrumental to our eventual victory, it is time we fully headed its lessons and built a modern mechanised army."
+
+ENG_Mechanise_the_Infantry:0 "Mechanise the infantry"
+ENG_Mechanise_the_Infantry_desc:0 "A modern army along the lines of mobile warfare must be a mechanised one. To achieve this we must undertake a great effort to mechanise the British army in as short a time as possible."
+
+ENG_Tanks_for_the_cavalry:0 "Tanks for the cavalry"
+ENG_Tanks_for_the_cavalry_desc:0 "Currently we have a truly pitiful number of tanks in our army, far fewer than what will be needed to undertake mass armoured warfare. We must change this immediately if we are to embrace the future of warfare."
+
+ENG_Bring_back_Hobart:0 "Bring back Hobart"
+ENG_Bring_back_Hobart_desc:0 "Percy Hobart is undoubtedly one of the leading proponents of armoured warfare in the UK something which lead to his early retirement due to hostility from more conservative officers. However it is clear we need him more than ever and we should push for his re-enlistment into the army."
+
+ENG_Legacy_of_trench_warfare:0 "Legacy of trench warfare"
+ENG_Legacy_of_trench_warfare_desc:0 "Though some may disagree the next war will undoubtedly be fought much like the previous one with trench warfare a near certainty. We must therefore learn the lessons of the previous war in order for our army to excel in the next one."
+
+ENG_Expand_the_Royal_Artillery:0 "Expand the Royal Artillery"
+ENG_Legacy_of_trench_warfare_desc:0 "Though a critical asset in any war the Great War required artillery on a scale and with a level of tactics never before seen. We must ensure we are ready too meet these requirements and ensure we have a capable artillery force."
+
+ENG_Grand_Battleplans:0 "Grand Batteplans"
+ENG_Grand_Battleplans_desc:0 "If the last war proved anything it was of the importance of careful planning and preparation for offensives. It is key therefore that our battleplans are meticulously detailed and thought through to avoid a potential disaster."
+
+ENG_Revive_the_Landships:0 "Revive the Landships"
+ENG_Revive_the_Landships_desc:0 "Tanks where key in the last war but not in the way some think. There purpose should be to smash through the enemies defensive lines as they where originally intended to do so. Our army however lacks such a tank and we must design one as soon as possible."
+
+ENG_New_training_programes:0 "New training programes"
+ENG_New_training_programes_desc:0 "With our army having chosen its doctrine and equipment we can now train our troops in the manners required quickly and effectively."
+
+ENG_The_two_forces:0 "The two forces"
+ENG_The_two_forces_desc:0 "With the Part time service act now being passed we can push on with our plan to build a strong and capable reserve force for the British army that can defend the Home Isles whilst also improving the regular army to a standard that will eclipse any other army."
+
+ENG_Use_Great_War_veterans:0 "Use Great War Veterans"
+ENG_Use_Great_War_veterans_desc:0 "Though most are far too old to be called back into active service many veteran soldiers and officers of the Great War can be used to train and maintain reserve forces in their local area, reducing potential costs and providing reservists will experienced veterans to rely on for knowledge."
+
+ENG_Use_army_standards:0 "Use Army standards"
+ENG_Use_army_standards_desc:0 "Though they may be reservists we should not see that as an excuse to reduce the standard ad quality of the reserve force. It should be trained and equiped along the same lines as the regular army and as such we can ensure we have a capable defence force that can work well with the regular army."
+
+ENG_Encourage_experimental_designs:0 "Encourage experimental designs"
+ENG_Encourage_experimental_designs_desc:0 "A large reserve force gives us a unique opportunity to promote new tactics and equipment that may not be even considered by officers and men in the regular army. Though some of these ideas may be terrible it could allow us to keep a cutting edge over our enemies. It will also give the reserve force the freedom to create unique military units that could prove undoubtedly useful in wartime."
+
+ENG_New_defensive_fortifications:0 "New defensive fortifications"
+ENG_New_defensive_fortifications_desc:0 "With threats all around us and the risk of invasion high we must turn the Home Isles into a fortress that cannot be taken by any enemy force that may land upon our shores. And with our reserve force we will have a capable force to man such new defences."
+
+ENG_Joint_exercises:0 "Joint exercises"
+ENG_Joint_exercises_desc:0 "The reserve force may certainly be capable now but it will mean little if it cannot effectively work together with the regular army. We must therefore undertake a series of joint exercises around the country to ensure these forces will work together well."
+
+ENG_Restore_pre_war_standards:0 "Restore prewar standards"
+ENG_Restore_pre_war_standards_desc:0 "The British regulars of 1914 where undoubtedly one of it not the best soldiers in the world and there actions in the early months of the war and in colonial wars before then proved that. With any conscripted force being limited to a reserve force we should therefore aspire towards the standards and quality of those soldiers so that the British army upon the outbreak of the next war can vanquish foes far larger in size!"
+
+ENG_Legacy_of_Colonial_Warfare:0 "Legacy of colonial warfare"
+ENG_Legacy_of_Colonial_Warfare_desc:0 "The British army has fought on every continent and every enviroment across the world during its many colonial wars learning many lessons and skills from them. With the next war likley to be raged across the world and in many different conditions we should be sure to teach our troops these lessons so that they may triumph in any enviroment."
+
+ENG_Mobile_assault_forces:0 "Mobile assault forces"
+ENG_Mobile_assault_forces_desc:0 "Though prehaps not as powerful as others may imply it is clear that mechanised and armoured warfare will play a key role in the next war and we should not be caught off guard as a result."
+
+ENG_Mass_electronics:0 "Mass electronics"
+ENG_Mass_electronics_desc:0 "Radios, field telephones and other electronics proved highly useful in the Great War to organise and communicate across vast frontlines. We should be sure to expand there uses and allow for our forces to rapidly and easily communicate with each other."
+
+ENG_Special_Forces:0 "Special Forces"
+ENG_Special_Forces_desc:0 "Unlike many other nations in the Great War we lacked specialised assault forces to break through enemy lines and other special forces such as the marines have been left in a barebones state since the end of the war. With our limited manpower pool these special forces should be properly utilised in order to defeat any enemy in any situation."
+
+ENG_Modernise_small_arms:0 "Modernise small arms"
+ENG_Modernise_small_arms_desc:0 "Our army has used the same rifle from before the Great War, the same light machine gun used in the Great War and we lack any submachine guns. These failings must be fixed as soon as possible and our infantry given the most up to date smallarms available."
+
+ENG_The_Bedford_QL:0 "The Bedford QL"
+ENG_The_Bedford_QL_desc:0 "Be it for transporting troops or hauling supplies we will need a standardised truck in wartime and failing to ensure that could have dire consequences."
+
+ENG_Anti_tank_warfare:0 "Anti tank warfare"
+ENG_Anti_tank_warfare_desc:0 "Currently our army lacks any dedicated anti tank weaponry, leaving us deeply vulnerable to enemy armour attacks. It is time this was adressed and a proper anti tank gun designed for our army."
+
+ENG_Support_our_troops:0 "Support our troops"
+ENG_Support_our_troops_desc:0 "Our men will need more than just weaponry to beat the enemy and our army will need proper logistical support in order to excel in battle they will need support elements to back them up!"
+
+ENG_New_Doctrines:0 "New doctrines"
+ENG_New_Doctrines_desc:0 "Our military reforms have shown us the importance of constant evaluation and testing of new theories of war. We can put this knowledge to good use now and ensure our army is the most capable around."
+
+ENG_The_needs_of_war:0 "The needs of war"
+ENG_The_needs_of_war_desc:0 "A second great war has started and its undoubtedly going to require amounts of men and material never before seen in human history. We have to ensure we can meet these requirements."
+
+ENG_Break_out_the_chaches:0 "Break out the stockpiles"
+ENG_Break_out_the_chaches_desc:0 "Despite vast budget cuts much of our military equipment from the Great War has been stored across the country in various stockpiles and private collections. It is time we make use of these however old the weaponry in them may be."
+
+ENG_wartime_advancements:0 "Wartime advancements"
+ENG_wartime_advancements_desc:0 "With war comes innovation and improvement on our militaries doctrines, equipment and tactics for both us and the enemy. We must make sure to understand and implement these improvements lest we fall behind again."
+

@@ -9,6 +9,7 @@ state={
 		owner = RHO
 		buildings = {
 			infrastructure = 3
+			air_base = 2
 
 		}
 		victory_points = {

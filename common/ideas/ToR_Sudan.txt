@@ -1,0 +1,27 @@
+ideas = {
+        country = {
+
+	SUD_anglo_egyptian_disputes = {
+
+picture = SUD_anglo_egyptian_disputes
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+		stability_factor = -0.25
+			}
+		}
+
+
+
+
+
+
+
+
+	}
+}
