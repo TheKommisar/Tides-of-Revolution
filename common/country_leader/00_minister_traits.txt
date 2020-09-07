@@ -24,7 +24,14 @@ leader_traits = {
 
 		random = no
 	}
+	
+	hog_weltkrieg_hero = {
+		political_power_gain = 0.05
+		war_support_factor = 0.025
 
+
+		random = no
+	}
 #####################
 # Foreign Minister
 #####################

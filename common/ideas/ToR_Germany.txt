@@ -64,28 +64,46 @@ ideas = {
 		war_support_factor = 0.1
 			}
 		}
+	GER_unworthy_sacrafice = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = GER_the_unworthy_sacrafice
+		removal_cost = -1
+		modifier = {
+		war_support_factor = -0.2
+		army_morale_factor = -0.1
+		recruitable_population_factor = -0.4
+			}
+		}
 head_of_government = {
-        GER_Ernst_Junger_hog = {
+        GER_Erich_Ludendorff_hog = {
 				
 			allowed = { original_tag = GER }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					NOT = { has_country_flag = Ernst_Junger_dead }
-					has_country_flag = can_replace_hog
+					NOT = { has_country_flag = Erich_Ludendorff_dead }
+					#has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				NOT = { has_country_flag = Ernst_Junger_dead }
+				NOT = { has_country_flag = Erich_Ludendorff_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Ernst_Junger_hog"
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Erich_Ludendorff_hog"
 			}
 			traits = {
-				#
+				hog_weltkrieg_hero
+                                head_of_government
+				paternal_autocrat
 			}
 			cancel_if_invalid = yes
 		}
+	}
 }
 foreign_minister = {
          GER_Konstantin_Neurath_frm = {
