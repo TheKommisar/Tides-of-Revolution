@@ -471,7 +471,7 @@ focus_tree = {
 		    has_country_flag = BEL_king_created_mnr_flag
 		}
 		bypass = { has_country_flag = BEL_king_created_mnr_flag }
-		x = 3
+		x = -3
 		y = 1
 		relative_position_id = BEL_anti_communist_coup
 		cost = 1
@@ -580,7 +580,25 @@ focus_tree = {
 		prerequisite = { focus = BEL_the_king_speaks }
 		available = {
 		}
-		x = 0
+		x = -1
+		y = 1
+		relative_position_id = BEL_the_king_speaks
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = BEL_punish_the_traitors
+		icon = GFX_BEL_punish_the_traitors
+		prerequisite = { focus = BEL_the_king_speaks }
+		available = {
+		}
+		x = 1
 		y = 1
 		relative_position_id = BEL_the_king_speaks
 		cost = 5
@@ -596,6 +614,7 @@ focus_tree = {
 		id = BEL_youth_organizations
 		icon = GFX_goal_WIP
 		prerequisite = { focus = BEL_censor_the_press }
+		prerequisite = { focus = BEL_punish_the_traitors }
 		available = {
 		}
 		x = 0
@@ -621,7 +640,7 @@ focus_tree = {
 		    has_country_flag = BEL_king_chose_rex_flag
 		}
 		bypass = { has_country_flag = BEL_king_chose_rex_flag }
-		x = -3
+		x = 3
 		y = 1
 		relative_position_id = BEL_anti_communist_coup
 		cost = 1
@@ -673,7 +692,7 @@ focus_tree = {
 
 	focus = {
 		id = BEL_promote_belgian_unitarism
-		icon = GFX_goal_WIP
+		icon = GFX_BEL_flag
 		prerequisite = { focus = BEL_crack_down_on_communism }
 		prerequisite = { focus = BEL_agreement_with_vnv }
 		available = {
@@ -718,7 +737,7 @@ focus_tree = {
 		mutually_exclusive = { focus = BEL_form_mnr }
 		available = {
 		}
-		x = -3
+		x = 3
 		y = 1
 		relative_position_id = BEL_king_and_law
 		cost = 5

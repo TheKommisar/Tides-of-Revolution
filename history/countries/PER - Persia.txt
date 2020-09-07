@@ -14,7 +14,7 @@ set_technology = {
 
 set_convoys = 10
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -22,20 +22,21 @@ set_politics = {
 set_popularities = {
 	vanguardist = 0
         orthodox_marxist = 0
-	revolutionary_socialist = 10
-        social_democrat = 42
-        social_liberal = 2
+	revolutionary_socialist = 5
+        social_democrat = 14
+        social_liberal = 7
         classic_liberal = 6
         social_conservative = 8
-        authoritarian_democrat = 26
-        paternal_autocrat = 4
+        authoritarian_democrat = 16
+        paternal_autocrat = 42
         national_populist = 2
 }
 
 add_ideas = {
-	#PER_political_chaos
+	PER_Shora_Eghtedar_Mostabid
+	PER_Democratic_Opposition
+	PER_Military_State
 	limited_conscription
-	#PER_oil_fields
 }
 
 create_country_leader = {
@@ -50,9 +51,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hassan Mirza Qajar"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "Portrait_Persia_Hassan_Mirza_Qajar.tga"
+	name = "Ahmed Amir-Ahmadi"
+	desc = ""
+	picture = "Portrait_Persia_Ahmad_Amir_Ahmadi.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

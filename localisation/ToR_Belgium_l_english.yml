@@ -133,7 +133,7 @@ BEL_promote_belgian_unitarism_desc:0 ""
 BEL_a_new_belgium:0 "A New Belgium"
 BEL_a_new_belgium_desc:0 ""
 
-BEL_anti_communist_coup:0 "King Leopold's Coup"
+BEL_anti_communist_coup:0 "The Royalist Coup"
 BEL_anti_communist_coup_desc:0 ""
 
 BEL_form_mnr:0 "Form the National Royalist Movement"
@@ -142,7 +142,7 @@ BEL_form_mnr_desc:0 ""
 BEL_cooperate_with_the_military:0 "Military Support"
 BEL_cooperate_with_the_military_desc:0 ""
 
-BEL_censor_the_press:0 "A Censored Press"
+BEL_censor_the_press:0 "Censor the Press"
 BEL_censor_the_press_desc:0 ""
 
 BEL_king_and_law:0 "The King and the Law"
@@ -207,6 +207,8 @@ BEL_agreement_with_vnv:0 "Agreement with the Flemish National Union"
 
 BEL_never_again:0 "For a Safe and Secure Society"
 
+BEL_punish_the_traitors:0 "Punish the Traitors"
+
 #should be reintegrated
 
 #Events
@@ -248,6 +250,10 @@ belgiumleft.4.t:0 "Revolution"
 belgiumleft.4.d:0 "As the violence escalates, workers have taken up arms against the government. It is unlikely that we will be able to peacefully take control of the situation, and the socialists will have to be put down by force of arms."
 belgiumleft.4.a:0 "We will do what must be done"
 belgiumleft.4.b:0 "Long live the Revolution! (Play as the Socialists)"
+
+belgiumleft.5.t:0 "The Revolution Succeeds"
+belgiumleft.5.d:0 "The Revolution has been successful, and the Reactionaries under King Albert have been destroyed. Leaders of the Commune have gathered in Brussels, declaring the end of the old Kingdom and the establishment of a new socialist Belgian Republic, inspired by the French model. It is a glorious day for the Belgian worker!"
+belgiumleft.5.a:0 "Comrades, onwards!"
 
 #should be reintegrated
 

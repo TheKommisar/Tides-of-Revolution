@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+MAD_national_populist_party:0 "LFM"
+MAD_national_populist_party_long:0 "Ligy Fiarovana ny Malagasy"
+MAD_vanguardist_party:0 "AKFM"
+MAD_vanguardist_party_long:0 "Antoko'ny Kongresi'ny Fahaleovantenan'i Madagasikara"
+MAD_social_conservative_party:0 "Menalamba"
+MAD_social_conservative_party_long:0 "Ligin’I Menalamba"
+MAD_paternal_autocrat_party:0 "DOAG"
+MAD_paternal_autocrat_party_long:0 "Deutsch-Ostafrikanische Gesellschaft"
+MAD_authoritarian_democrat_party:0 "British High Commissioner"
+MAD_authoritarian_democrat_party_long:0 "British High Commissioner"
+MAD_social_democrat_party:0 "ADSM"
+MAD_social_democrat_party_long:0 "Antoko Demokratika Sosialy Madagasikara"
+MAD_social_liberal_party:0 "HDM"
+MAD_social_liberal_party_long:0 "Hetsika Demokratika Malagasy"
+MAD_classic_liberal_party:0 "HDM"
+MAD_classic_liberal_party_long:0 "Hetsika Demokratika Malagasy"
+MAD_totalitarian_socialist_party:0 "AKFM"
+MAD_totalitarian_socialist_party_long:0 "Antoko'ny Kongresi'ny Fahaleovantenan'i Madagasikara
+MAD_revolutionary_socialist_party:0 "AKFM"
+MAD_revolutionary_socialist_party_long:0 "Antoko'ny Kongresi'ny Fahaleovantenan'i Madagasikara"
+MAD_orthodox_marxist_party:0 "AKFM"
+MAD_orthodox_marxist_party_long:0 "Antoko'ny Kongresi'ny Fahaleovantenan'i Madagasikara"
+
+#Country Names
+MAD_national_populist:0 "Madagascar"
+MAD_national_populist_DEF:0 "The Republic of Madagascar"
+MAD_totalitarian_socialist:0 "Malagasy Commune"
+MAD_totalitarian_socialist_DEF:0 "The Malagasy Commune"
+MAD_paternal_autocrat:0 "Madagaskar"
+MAD_paternal_autocrat_DEF:0 "Deutsches Madagaskar"
+MAD_social_conservative:0 "Madagascar"
+MAD_social_conservative_DEF:0 "The Republic of Madagascar"
+MAD_authoritarian_democrat:1 "Protectorate of Madagascar"
+MAD_authoritarian_democrat_DEF:1 "The Protectorate of Madagascar"
+MAD_orthodox_marxist:0 "Malagasy Commune"
+MAD_orthodox_marxist_DEF:0 "The Malagasy Commune"
+MAD_revolutionary_socialist:0 "Malagasy Commune"
+MAD_revolutionary_socialist_DEF:0 "The Malagasy Commune"
+MAD_social_democrat:0 "Madagascar"
+MAD_social_democrat_DEF:0 "The Republic of Madagascar"
+MAD_social_liberal:0 "Madagascar"
+MAD_social_liberal_DEF:0 "The Republic of Madagascar"
+MAD_classic_liberal:0 "Madagascar"
+MAD_classic_liberal_DEF:0 "The Republic of Madagascar"
+MAD_vanguardist:0 "Malagasy Commune"
+MAD_vanguardist_DEF:0 "the Malagasy Commune"
+ 
+MAD_national_populist_ADJ:0 "Malagasy"
+MAD_totalitarian_socialist_ADJ:0 "Malagasy"
+MAD_social_conservative_ADJ:0 "Malagasy"
+MAD_paternal_autocrat_ADJ:0 "Madagassisch"
+MAD_orthodox_marxist_ADJ:0 "Malagasy"
+MAD_authoritarian_democrat_ADJ:0 "Malagasy"
+MAD_revolutionary_socialist_ADJ:0 "Malagasy"
+MAD_social_democrat_ADJ:0 "Malagasy"
+MAD_social_liberal_ADJ:0 "Malagasy"
+MAD_classic_liberal_ADJ:0 "Malagasy"
+MAD_vanguardist_ADJ:0 "Malagasy"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

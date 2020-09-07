@@ -7,9 +7,8 @@ state={
 	}
 
 	history = {
-	    owner = BEA
-	    add_claim_by = GER
-	    add_core_of = BEA
+	    owner = GER
+		set_demilitarized_zone = yes
 	    buildings = {
 	        infrastructure = 5
 	    }

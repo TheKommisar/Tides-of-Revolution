@@ -51,7 +51,7 @@ if = {
 
 set_convoys = 120
 set_politics = {	
-	ruling_party = revolutionary_socialist
+	ruling_party = orthodox_marxist
 	last_election = "1933.1.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,15 +60,37 @@ set_politics = {
 
 set_popularities = {
     vanguardist = 16
-    orthodox_marxist = 13
-    revolutionary_socialist = 38
+    orthodox_marxist = 38
+    revolutionary_socialist = 13
     social_democrat = 6
-    social_liberal = 14
-    classic_liberal = 3
+    social_liberal = 4
+    classic_liberal = 0
     social_conservative = 5
-    authoritarian_democrat = 0
-    paternal_autocrat = 5
+    authoritarian_democrat = 10
+    paternal_autocrat = 8
     national_populist = 0
+}
+
+create_country_leader = {
+	name = "Rodolfo Ghioldi"
+	desc = "POLITICS_MARCELO_ALVEAR_DESC"
+	picture = "Rodolfo_Ghioldi.tga"
+	expire = "1999.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José Grunfeld"
+	desc = "POLITICS_MARCELO_ALVEAR_DESC"
+	picture = "Jose_Grunfeld.tga"
+	expire = "1999.1.1"
+	ideology = orthodox_marxist_subtype
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {

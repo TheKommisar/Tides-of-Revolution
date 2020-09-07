@@ -232,6 +232,8 @@ country_event = { #Revolution!
 
     option = { #Fuck
         name = belgiumleft.4.a
+        ai_chance = { factor = 100 }
+        hidden_effect = {
         WLN = {
             transfer_state = 805
             add_state_core = 805
@@ -242,20 +244,38 @@ country_event = { #Revolution!
             set_province_controller = 6598
             set_province_controller = 11519
             set_province_controller = 9536
+            load_oob = "belgian_socialist_revolt"
+            create_country_leader = {
+                name = "Revolutionary Provisional Government"
+                desc = "POLITICS_RUDIGER_VON_DER_GOLTZ_DESC"
+                picture = "gfx/leaders/BEL/revolutionary_provisional_government.tga"
+                ideology = orthodox_marxist_subtype
+                traits = {
+                    #
+                }
+            }
+        }
         }
         BEL = {
             declare_war_on = {
                 target = WLN
                 type = annex_everything
             }
-            set_province_controller = 6537
-            set_province_controller = 9444
+            add_timed_idea = {
+                idea = BEL_disorganized_response
+                days = 30
+            }
+            hidden_effect = {
+                set_province_controller = 6537
+                set_province_controller = 9444
+            }
         }
         set_global_flag = BEL_had_civil_war
     }
 
     option = { #Play as the socialists
         name = belgiumleft.4.b
+        hidden_effect = {
         WLN = {
             transfer_state = 805
             add_state_core = 805
@@ -263,11 +283,33 @@ country_event = { #Revolution!
             add_state_core = 6
             set_cosmetic_tag = WLN_socialist_revolt
             set_capital = 805
+            set_province_controller = 6598
+            set_province_controller = 11519
+            set_province_controller = 9536
+            load_oob = "belgian_socialist_revolt"
+            create_country_leader = {
+                name = "Revolutionary Provisional Government"
+                desc = "POLITICS_RUDIGER_VON_DER_GOLTZ_DESC"
+                picture = "gfx/leaders/BEL/revolutionary_provisional_government.tga"
+                ideology = orthodox_marxist_subtype
+                traits = {
+                    #
+                }
+            }
+        }
         }
         BEL = {
             declare_war_on = {
                 target = WLN
                 type = annex_everything
+            }
+            add_timed_idea = {
+                idea = BEL_disorganized_response
+                days = 30
+            }
+            hidden_effect = {
+                set_province_controller = 6537
+                set_province_controller = 9444
             }
         }
         set_global_flag = BEL_had_civil_war
@@ -279,6 +321,7 @@ country_event = { #Socialists win the civil war
     id = belgiumleft.5
     title = belgiumleft.5.t
     desc = belgiumleft.5.d
+    picture = GFX_report_event_generic_communist_congress
 
     trigger = {
         tag = WLN
@@ -291,6 +334,7 @@ country_event = { #Socialists win the civil war
 
     option = { #Cool
         name = belgiumleft.5.a
+        trigger = { is_ai = no }
         BEL = { annex_country = { target = WLN transfer_troops = yes } }
         BEL = {
             set_popularities = {
@@ -303,7 +347,43 @@ country_event = { #Socialists win the civil war
                 ruling_party = orthodox_marxist
                 elections_allowed = no
             }
+            create_country_leader = {
+                name = "Revolutionary Provisional Government"
+                desc = "POLITICS_RUDIGER_VON_DER_GOLTZ_DESC"
+                picture = "gfx/leaders/BEL/revolutionary_provisional_government.tga"
+                ideology = orthodox_marxist_subtype
+                traits = {
+                    #
+                }
+            }
         }
         BEL = { change_tag_from = ROOT }
+    }
+
+    option = { #Cool
+        name = belgiumleft.5.b
+        trigger = { is_ai = yes }
+        BEL = { annex_country = { target = WLN transfer_troops = yes } }
+        BEL = {
+            set_popularities = {
+                orthodox_marxist = 44
+                revolutionary_socialist = 26
+                vanguardist = 16
+                social_democrat = 14
+            }
+            set_politics = {
+                ruling_party = orthodox_marxist
+                elections_allowed = no
+            }
+            create_country_leader = {
+                name = "Revolutionary Provisional Government"
+                desc = "POLITICS_RUDIGER_VON_DER_GOLTZ_DESC"
+                picture = "gfx/leaders/BEL/revolutionary_provisional_government.tga"
+                ideology = orthodox_marxist_subtype
+                traits = {
+                    #
+                }
+            }
+        }
     }
 }

@@ -5,8 +5,9 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = BEA
+		owner = GER
 		add_core_of = BRD
+		set_demilitarized_zone = yes
 		victory_points = {
 			2220 1
 		}

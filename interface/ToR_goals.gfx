@@ -200,3 +200,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/BEL/BEL_prince_leopold.tga"
 	}
 
+    SpriteType = { 
+		name = "GFX_BEL_punish_the_traitors"
+		texturefile = "gfx/interface/goals/BEL/BEL_punish_the_traitors.tga"
+	}
+

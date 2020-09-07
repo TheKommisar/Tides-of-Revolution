@@ -60,7 +60,6 @@ if = {
 	}
 }
 
-
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1936.1.1"
@@ -70,14 +69,14 @@ set_politics = {
 set_popularities = {
 	vanguardist = 1
         orthodox_marxist = 0
-	revolutionary_socialist = 7
-        social_democrat = 7
-        social_liberal = 10
+	revolutionary_socialist = 2
+        social_democrat = 11
+        social_liberal = 14
         classic_liberal = 3
-        social_conservative = 39
-        authoritarian_democrat = 15
-        paternal_autocrat = 7
-        national_populist = 6
+        social_conservative = 43
+        authoritarian_democrat = 5
+        paternal_autocrat = 12
+        national_populist = 9
 }
 
 create_country_leader = {

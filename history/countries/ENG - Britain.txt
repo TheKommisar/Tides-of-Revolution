@@ -113,7 +113,7 @@ add_ideas = {
         ENG_Isaac_Foot_eco
         ENG_Winston_Churchill_sec
 }
-	
+
 
 set_convoys = 800
 
@@ -251,6 +251,7 @@ add_to_faction = BWA
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAL
+add_to_faction = MAD
 
 give_guarantee = BEL
 give_guarantee = POR
