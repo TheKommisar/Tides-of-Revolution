@@ -1,10 +1,5 @@
 ###########################
-# Middle East Generic Focus Tree
-###########################
-#Coded by CrusaderKing, and Silverscorpion with AirHunter's help.
-#Fraaz cleaned up Crusader's tree
-#Note from AirHunter: Not enough cleaning up, still needs more cleaning up, organizing code and adding effects. CRUSADER.
-#Disabled this tree too for now due to having no effects. Remove the commented out modifier if you want it to work again.
+# test tree, dont touch
 ###########################
 
 focus_tree = {
@@ -14,15 +9,13 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 2
-			tag = TUR #temporary tag for testing, add more ME tags here
+			tag = TUR #temporary tag for testing
 		}
 	}
 	
 	continuous_focus_position = { x = -400 y = 1800 }
 	
 	default = no
-	
-	#Here start's Crusader's tree
 	
 	focus = {
 		id = generic_me_dealing_with_the_economy
