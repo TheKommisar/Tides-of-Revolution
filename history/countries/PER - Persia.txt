@@ -14,7 +14,7 @@ set_technology = {
 
 set_convoys = 10
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -23,12 +23,12 @@ set_popularities = {
 	vanguardist = 0
         orthodox_marxist = 0
 	revolutionary_socialist = 10
-        social_democrat = 26
+        social_democrat = 42
         social_liberal = 2
         classic_liberal = 6
         social_conservative = 8
-        authoritarian_democrat = 4
-        paternal_autocrat = 42
+        authoritarian_democrat = 26
+        paternal_autocrat = 4
         national_populist = 2
 }
 
@@ -50,9 +50,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Reza Shah Pahlavi"
+	name = "Hassan Mirza Qajar"
 	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "Portrait_Reza_Khan_bad.tga"
+	picture = "Portrait_Persia_Hassan_Mirza_Qajar.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -117,92 +117,13 @@ create_country_leader = {
 }
 
 
-create_field_marshal = {
-	name = "Haj Ali Razmara"
-	portrait_path = "gfx/leaders/PER/Portrait_Haj_Ali_Razmara.tga"
-	traits = { organisational_leader }
-	skill = 3
-	attack_skill = 2
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Amanullah Jahanbani"
-	portrait_path = "gfx/leaders/PER/Portrait_NOR_Otto_Ruge.tga"
-	traits = { cavalry_officer }
-	skill = 3
-	attack_skill = 3
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Ahmad Amir-Ahmadi"
-	portrait_path = "gfx/leaders/PER/Portrait_Ahmad_Amir_Ahmadi.tga"
-	traits = { old_guard }
-	skill = 4
-	attack_skill = 3
-    defense_skill = 4
-    planning_skill = 3
-    logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Karim Buzarjomehri"
-	portrait_path = "gfx/leaders/PER/Portrait_PER_Karim_Buzarjomehri.tga"
-	traits = {  }
-	skill = 3
-	attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 3
-}
-
 create_corps_commander = {
 	name = "Hasan Arfa"
-	portrait_path = "gfx/leaders/PER/Portrait_Hasan_Arfa.tga"
-	traits = {  }
-	skill = 3
-	attack_skill = 2
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 3
-	#id = 2098
-}
-
-create_corps_commander = {
-	name = "Fazlollah Zahedi"
-	portrait_path = "gfx/leaders/PER/Portrait_Fazlollah_Zahedi.tga"
-	traits = { politically_connected }
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = {  desert_fox }
 	skill = 3
 	attack_skill = 3
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Bahram Aryana"
-	portrait_path = "gfx/leaders/PER/Portrait_PER_Bahram Aryana.tga"
-	traits = { politically_connected }
-	skill = 2
-	attack_skill = 3
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Mohammad Reza"
-	portrait_path = "gfx/leaders/PER/Portrait_Mohammad_Reza_Khan.tga"
-	traits = {  }
-	skill = 2
-	attack_skill = 1
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-	#id = 2099
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
