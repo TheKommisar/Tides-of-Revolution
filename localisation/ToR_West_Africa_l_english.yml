@@ -1,26 +1,7 @@
 ﻿l_english: 
 
 #Parties
-BWA_vanguardist_party:0 "ANC"
-BWA_vanguardist_party_long:0 "African National Congress"
-BWA_orthodox_marxist_party:0 "ANC"
-BWA_orthodox_marxist_party_long:0 "African National Congress"
-BWA_revolutionary_socialist_party:0 "ANC"
-BWA_revolutionary_socialist_party_long:0 "African National Congress"
-BWA_social_democrat_party:0 "WAYL"
-BWA_social_democrat_party_long:0 "West African Youth League"
-BWA_social_liberal_party:0 "ANC (liberal)"
-BWA_social_liberal_party_long:0 "African National Congress (liberal)"
-BWA_classic_liberal_party:0 "NCBWA"
-BWA_classic_liberal_party_long:0 "National Congress of British West Africa"
-BWA_social_conservative_party:0 "NCBWA"
-BWA_social_conservative_party_long:0 "National Congress of British West Africa" 
-BWA_authoritarian_democrat_party:0 "Reform League"
-BWA_authoritarian_democrat_party_long:0 "Reform League"
-BWA_paternal_autocrat_party:0 "Colonial Administration"
-BWA_paternal_autocrat_party_long:0 "Colonial Administration"
-BWA_national_populist_party:0 "Empire Loyalists"
-BWA_national_populist_party_long:0 "League of Empire Loyalists (British West Africa branch)"
+
 #Country Names
 BWA_paternal_autocrat:0 "British West Africa"
 BWA_paternal_autocrat_DEF:0 "the British West Africa"
@@ -37,15 +18,6 @@ BWA_authoritarian_democrat_ADJ:0 "West African"
 #should be reintegrated
 
 
-#Ideas
-BWA_colonial_government:0 "Colonial Government"
-BWA_colonial_government_desc:0 ""
-
-BWA_The_winds_of_change:0 "The winds of change"
-BWA_The_winds_of_change_desc:0 "The breakup of the French colonial empire in the early 1920s lead to the emergence of new independent African nations who for so long had been colonial subjects. Though small and far weaker than other nations in the world these new states have ignited national consciousness across the continent and began a mass political movement to end colonialism in Africa.\n\nThe wind of change is blowing through this continent. Whether we like it or not, this growth of national consciousness is a political fact and cannot be ignored forever."
-
-BWA_chaotic_border:0 "Chaotic border"
-BWA_chaotic_border_desc:0 "British West Africa has only a small frontier force tasked with defending vast and unclear borders with uncooperative African states. There failure to properly guard this border has lead to border raids by anti colonialist militas and emmigration to these independent African states. The problem is only minor at the moment but it could get far worse."
  
 #Focuses
 #should be reintegrated

@@ -8,7 +8,6 @@ state={
 
 	history = {
 	    owner = GER
-		set_demilitarized_zone = yes
 	    buildings = {
 	        infrastructure = 5
 	    }

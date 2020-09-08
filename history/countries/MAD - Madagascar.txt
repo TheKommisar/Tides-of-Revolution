@@ -1,6 +1,6 @@
 ﻿capital = 543
 
-oob = "MAD_1936"
+#oob = ""
 
 # Starting tech
 set_technology = {
@@ -28,13 +28,6 @@ set_popularities = {
     paternal_autocrat = 5
     national_populist = 0
 }
-
-add_ideas = {
-	free_trade
-	disarmed_nation
-}
-
-
 create_country_leader = {
 	
 	name = "Jean Ralaimongo"

@@ -1,0 +1,1377 @@
+###########################
+# Middle East Generic Focus Tree
+###########################
+#Coded by CrusaderKing, and Silverscorpion with AirHunter's help.
+#Fraaz cleaned up Crusader's tree
+#Note from AirHunter: Not enough cleaning up, still needs more cleaning up, organizing code and adding effects. CRUSADER.
+#Disabled this tree too for now due to having no effects. Remove the commented out modifier if you want it to work again.
+###########################
+
+focus_tree = {
+	id = generic_me_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 2
+			tag = TUR #temporary tag for testing, add more ME tags here
+		}
+	}
+	
+	continuous_focus_position = { x = -400 y = 1800 }
+	
+	default = no
+	
+	#Here start's Crusader's tree
+	
+	focus = {
+		id = generic_me_dealing_with_the_economy
+		icon = GFX_goal_generic_production2
+		x = 1
+		y = 7
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = generic_me_new_agrarian_policies
+		icon = GFX_focus_AUS_agriculture
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+
+		prerequisite = { focus = generic_me_dealing_with_the_economy }
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_me_ensure_tax_efficiency
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_dealing_with_the_economy }
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_invest_in_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		relative_position_id = generic_me_new_agrarian_policies
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_new_agrarian_policies }
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_literacy_programs
+		icon = GFX_goal_KTG_Bookstack
+		relative_position_id = generic_me_ensure_tax_efficiency
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_ensure_tax_efficiency }
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_reformed_legal_code
+		icon = GFX_goal_HOL_sustain_neutrality
+		relative_position_id = generic_me_literacy_programs
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_literacy_programs }
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_attract_western_investment
+		icon = GFX_goal_generic_intelligence_exchange
+		relative_position_id = generic_me_invest_in_industry
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_invest_in_industry }
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_finalise_reforms
+		icon = GFX_goal_continuous_political
+		relative_position_id = generic_me_attract_western_investment
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_attract_western_investment }
+		prerequisite = { focus = generic_me_reformed_legal_code }
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_military_investments
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = -5
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_dealing_with_the_economy }
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_clear_the_land
+		icon = GFX_goal_generic_construct_infrastructure
+		relative_position_id = generic_me_military_investments
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_military_investments }
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_continue_military_expansion
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = generic_me_clear_the_land
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_clear_the_land}
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_take_to_the_seas
+		icon = GFX_goal_generic_coastal_navy
+		relative_position_id = generic_me_military_investments
+		x = -1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_military_investments }
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_me_continue_dock_expansions
+		icon = GFX_goal_generic_construct_naval_dockyard
+		relative_position_id = generic_me_take_to_the_seas
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_take_to_the_seas }
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_supporting_our_army
+		icon = GFX_goal_generic_construction
+		relative_position_id = generic_me_continue_military_expansion
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { 
+		focus = generic_me_continue_dock_expansions
+		focus = generic_me_continue_military_expansion
+		}
+	
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = generic_me_stick_with_what_we_know
+		icon = GFX_goal_agrarian_reform
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = 4
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		
+		mutually_exclusive = { 
+			focus = generic_me_the_road_to_modernity
+		}
+		
+		prerequisite = { focus = generic_me_dealing_with_the_economy }
+		
+		mutually_exclusive = { 
+			focus = generic_me_the_road_to_modernity
+		}
+		
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_the_road_to_modernity
+		icon = GFX_goal_generic_forceful_treaty
+		relative_position_id = generic_me_dealing_with_the_economy
+		x = 6
+		y = 1
+		cost = 10
+		prerequisite = { focus = generic_me_dealing_with_the_economy }
+				
+		ai_will_do = {
+			factor = 10
+		}
+		
+		mutually_exclusive = { 
+			focus = generic_me_stick_with_what_we_know
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_promote_traditional_systems
+		icon = GFX_goal_generic_defence
+		relative_position_id = generic_me_stick_with_what_we_know
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { 
+			focus = generic_me_stick_with_what_we_know
+		}
+	
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_me_prospect_for_oil
+		icon = GFX_goal_generic_oil_refinery
+		relative_position_id = generic_me_the_road_to_modernity
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { 
+			focus = generic_me_the_road_to_modernity
+		}
+	
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_me_agrarian_primacy
+		icon = GFX_goal_agriculture
+		relative_position_id = generic_me_promote_traditional_systems
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { 
+			focus = generic_me_promote_traditional_systems
+		}
+	
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+
+
+	focus = {
+		id = generic_me_electrification_projects
+		icon = GFX_goal_generic_consumer_goods
+		relative_position_id = generic_me_prospect_for_oil
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { 
+		focus = generic_me_prospect_for_oil
+		}
+	
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_clear_economic_model
+		icon = GFX_focus_generic_self_management
+		relative_position_id = generic_me_agrarian_primacy
+		x = 1
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { 
+			focus = generic_me_agrarian_primacy
+			focus = generic_me_electrification_projects
+		}
+	
+	
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = generic_me_economic_prosperity
+		icon = GFX_focus_generic_industry_3
+		relative_position_id = generic_me_finalise_reforms
+		x = 0
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		prerequisite = { focus = generic_me_clear_economic_model }
+		prerequisite = { focus = generic_me_finalise_reforms }
+		prerequisite = { focus = generic_me_supporting_our_army }
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	#### Generic ME Political Branch 
+	
+		focus = {
+		id = generic_me_politics_of__the_modern_world
+		icon = GFX_goal_government_icon
+		x = 28
+		y = 7
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	#### Liberal Path 
+			focus = {
+		id = generic_me_proclaim_the_republic 
+		icon = GFX_goal_liberty
+		x = 15
+		y = 8
+		cost = 10
+		prerequisite = { focus = generic_me_politics_of__the_modern_world }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_gurantee_freedom_of_press
+		icon = GFX_goal_big_news
+		x = 11
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_proclaim_the_republic }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_western_buisness_incentives
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 10
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_gurantee_freedom_of_press }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_ensure_minority_representation
+		icon = GFX_goal_generic_neutrality_focus
+		x = 10
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_western_buisness_incentives }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_enact_widespread_reforms
+		icon = GFX_goal_constitutional_guarantees
+		x = 15
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_proclaim_the_republic }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+						focus = {
+		id = generic_seperate_church_and_state
+		icon = GFX_focus_generic_treaty
+		x = 13
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_enact_widespread_reforms }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_crush_corruption
+		icon = GFX_goal_generic_political_pressure
+		x = 17
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_enact_widespread_reforms }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_western_governmental_model
+		icon = GFX_focus_generic_self_management
+		x = 15
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_seperate_church_and_state }
+		prerequisite = { focus = generic_crush_corruption }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_a_beacon_in_the_desert
+		icon = GFX_goal_support_democracy
+		x = 15
+		y = 12
+		cost = 10
+		prerequisite = { focus = generic_western_governmental_model }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}	
+	
+				focus = {
+		id = generic_mandate_human_rights
+		icon = GFX_goal_new_treaty
+		x = 18
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_proclaim_the_republic }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}	
+	
+					focus = {
+		id = generic_mass_literacy_programs
+		icon = GFX_goal_KTG_Bookstack
+		x = 20
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_mandate_human_rights focus = generic_me_integrate_village_councils}
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+						focus = {
+		id = generic_open_modern_universities
+		icon = GFX_goal_great_science
+		x = 20
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_mass_literacy_programs }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	##### Status Quo Path 
+	
+				focus = {
+		id = generic_me_a_moral_nation
+		icon = GFX_goal_ideology_authoritarian_democrat
+		x = 28
+		y = 8
+		cost = 10
+		prerequisite = { focus = generic_me_politics_of__the_modern_world }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_me_integrate_village_councils
+		icon = GFX_focus_generic_military_academy
+		x = 22
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_a_moral_nation }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_me_promote_islamic_values
+		icon = GFX_goal_promote_islam
+		x = 26
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_a_moral_nation }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+						focus = {
+		id = generic_me_strengthen_the_centre
+		icon = GFX_goal_generic_demand_territory
+		x = 24
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_me_promote_islamic_values  focus = generic_me_integrate_village_councils }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+							focus = {
+		id = generic_me_centralized_bureaucracy
+		icon = GFX_goal_new_treaty
+		x = 26
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_me_strengthen_the_centre }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+						focus = {
+		id = generic_me_raise_police_budget 
+		icon = GFX_goal_gold_up
+		x = 30
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_a_moral_nation }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+							focus = {
+		id = generic_me_islamic_courts
+		icon = GFX_goal_Islamic_Government
+		x = 34
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_a_moral_nation }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+								focus = {
+		id = generic_me_encourage_patriotism
+		icon = GFX_goal_army_guy_2
+		x = 32
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_me_islamic_courts focus = generic_me_raise_police_budget }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_me_demonise_left-wing_ideals
+		icon = GFX_goal_HOL_crackdown_radsoc
+		x = 30
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_me_encourage_patriotism }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_me_maintain_status_quo
+		icon = GFX_goal_HOL_sustain_neutrality
+		x = 28
+		y = 12
+		cost = 10
+		prerequisite = { focus = generic_me_centralized_bureaucracy }
+		prerequisite = { focus = generic_me_demonise_left-wing_ideals }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_me_sponsor_military_education
+		icon = GFX_focus_generic_little_entente
+		x = 36
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_me_islamic_courts focus = generic_me_secret_police }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_me_militarized_society
+		icon = GFX_goal_demand_sudetenland
+		x = 36
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_me_sponsor_military_education }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+		##### Absolutist Path 
+	
+				focus = {
+		id = generic_me_absolutism
+		icon = GFX_goal_ideology_paternal_autocrat
+		x = 42
+		y = 8
+		cost = 10
+		prerequisite = { focus = generic_me_politics_of__the_modern_world }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_me_secret_police
+		icon = GFX_goal_generic_moon_spy
+		x = 38
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_absolutism }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+						focus = {
+		id = generic_me_historical_revisionism
+		icon = GFX_goal_KTG_Bookstack
+		x = 42
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_absolutism }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+							focus = {
+		id = generic_me_remove_disloyal_officers
+		icon = GFX_goal_purge_opposition
+		x = 40
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_me_historical_revisionism }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_me_merge_church_and_state
+		icon = GFX_goal_generic_political_pressure
+		x = 40
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_me_remove_disloyal_officers }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_me_censor_press
+		icon = GFX_goal_HOL_amend_wapenwet  #### Change this icon once you get the new one
+		x = 44
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_me_historical_revisionism }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_me_primacy_of_the_leader
+		icon = GFX_focus_generic_military_mission  
+		x = 44
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_me_censor_press }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+						focus = {
+		id = generic_me_the_iron_fist
+		icon = GFX_goal_authoritarian  
+		x = 42
+		y = 12
+		cost = 10
+		prerequisite = { focus = generic_me_primacy_of_the_leader }
+		prerequisite = { focus = generic_me_merge_church_and_state }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+							focus = {
+		id = generic_me_revanchist_propoganda
+		icon = GFX_goal_generic_propaganda
+		x = 46
+		y = 9
+		cost = 10
+		prerequisite = { focus = generic_me_absolutism }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = generic_me_arrest_political_oppostition
+		icon = GFX_goal_generic_political_pressure
+		x = 48
+		y = 10
+		cost = 10
+		prerequisite = { focus = generic_me_revanchist_propoganda }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+			focus = {
+		id = generic_me_pan_political_parties
+		icon = GFX_goal_authority
+		x = 48
+		y = 11
+		cost = 10
+		prerequisite = { focus = generic_me_arrest_political_oppostition }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	### Foreign Policy Isolation/Arabia 
+	
+			focus = {
+		id = generic_me_The_Dream_of_Pan_Arabia
+		icon = GFX_Arabian_Peninsula
+		x = 32
+		y = 14
+		cost = 10
+		
+		prerequisite = { focus = generic_a_beacon_in_the_desert focus = generic_me_maintain_status_quo focus = generic_me_the_iron_fist }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		mutually_exclusive = { 
+			focus = generic_me_preserve_what_we_have
+		}
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_me_look_to_the_peninsula
+		icon = GFX_goal_WIP
+		x = 30
+		y = 15
+		cost = 10
+		
+		prerequisite = { focus = generic_me_The_Dream_of_Pan_Arabia }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_me_look_to_the_levant
+		icon = GFX_goal_WIP
+		x = 32
+		y = 15
+		cost = 10
+		
+		prerequisite = { focus = generic_me_The_Dream_of_Pan_Arabia }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+						focus = {
+		id = generic_me_look_to_mesopotamia
+		icon = GFX_goal_WIP
+		x = 34
+		y = 15
+		cost = 10
+		
+		prerequisite = { focus = generic_me_The_Dream_of_Pan_Arabia }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+							focus = {
+		id = generic_me_unity_at_last...
+		icon = GFX_goal_generic_national_unity
+		x = 32
+		y = 16
+		cost = 10
+		
+		prerequisite = { focus = generic_me_look_to_the_peninsula focus = generic_me_look_to_mesopotamia focus = generic_me_look_to_the_levant }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+				focus = {
+		id = generic_me_preserve_what_we_have
+		icon = GFX_goal_nested_fortifications
+		x = 24
+		y = 14
+		cost = 10
+		
+		prerequisite = { focus = generic_a_beacon_in_the_desert focus = generic_me_maintain_status_quo focus = generic_me_the_iron_fist }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		mutually_exclusive = { 
+			focus = generic_me_The_Dream_of_Pan_Arabia
+		}
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+					focus = {
+		id = generic_me_fort_construction
+		icon = GFX_goal_fortify_the_westwall
+		x = 22
+		y = 15
+		cost = 10
+		
+		prerequisite = { focus = generic_me_preserve_what_we_have }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+						focus = {
+		id = generic_me_isolated_politics
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 24
+		y = 15
+		cost = 10
+		
+		prerequisite = { focus = generic_me_preserve_what_we_have }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+							focus = {
+		id = generic_me_new_national_identity
+		icon = GFX_goal_generic_national_unity
+		x = 26
+		y = 15
+		cost = 10
+		
+		prerequisite = { focus = generic_me_preserve_what_we_have }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+	
+								focus = {
+		id = generic_me_continue_national_fortification
+		icon = GFX_goal_generic_defence
+		x = 24
+		y = 16
+		cost = 10
+		
+		prerequisite = { focus = generic_me_fort_construction focus = generic_me_new_national_identity focus = generic_me_isolated_politics }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		available = {
+		}
+
+		completion_reward = {
+		}
+	}
+}

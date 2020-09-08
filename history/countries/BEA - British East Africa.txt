@@ -1,18 +1,9 @@
 ﻿capital = 547
 
-oob = "BEA_1936"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
-
-add_ideas = {
-BWA_colonial_government
-BWA_The_winds_of_change
-BEA_Cape_to_Cairo_railway
-}
-
 
 set_convoys = 20
 
@@ -23,15 +14,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	vanguardist = 5
-        orthodox_marxist = 5
-	revolutionary_socialist = 2
-        social_democrat = 3
+	vanguardist = 0
+        orthodox_marxist = 0
+	revolutionary_socialist = 0
+        social_democrat = 0
         social_liberal = 0
         classic_liberal = 0
         social_conservative = 4
-        authoritarian_democrat = 10
-        paternal_autocrat = 65
+        authoritarian_democrat = 0
+        paternal_autocrat = 90
         national_populist = 6
 }
 create_country_leader = {

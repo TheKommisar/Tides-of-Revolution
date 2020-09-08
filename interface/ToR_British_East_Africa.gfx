@@ -1,8 +1,0 @@
-spriteTypes = {
-
-
-	spriteType = {
-		name = "GFX_idea_BEA_cape_to_cairo"
-		texturefile = "gfx/interface/ideas/BEA/cape_to_cairo.tga"
-	}	
-}
