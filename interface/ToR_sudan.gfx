@@ -1,0 +1,8 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_SUD_anglo_egyptian_disputes"
+		texturefile = "gfx/interface/ideas/SUD/Anglo-Egyptian_disputes.tga"
+	}	
+}

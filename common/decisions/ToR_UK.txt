@@ -1,0 +1,29 @@
+war_measures = {
+	
+	Raise_Home_Guard = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			has_completed_focus = ENG_The_Home_Guard
+		}
+
+		visible = {		
+			has_completed_focus = ENG_The_Home_Guard
+		}
+
+		fire_only_once = yes
+
+		cost = 10
+
+		complete_effect = {
+			custom_effect_tooltip = ENG_Home_Guard
+			hidden_effect = {
+				load_oob = ENG_Home_Guard
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

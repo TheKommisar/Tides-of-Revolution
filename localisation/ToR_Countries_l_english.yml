@@ -137,22 +137,6 @@
  RHO_classic_liberal_ADJ:0 "Rhodesian"
  RHO_vanguardist_ADJ:0 "Rhodesian"
   
- SUD_paternal_autocrat:0 "Anglo-Egyptian Sudan"
- SUD_paternal_autocrat_DEF:0 "the British Sudan"
- SUD_authoritarian_democrat:1 "Anglo-Egyptian Sudan"
- SUD_authoritarian_democrat_DEF:1 "the British Sudan"
-
- SUD_paternal_autocrat_ADJ:0 "Sudanese"
- SUD_authoritarian_democrat_ADJ:0 "Sudanese"
-
- BWA_paternal_autocrat:0 "British West Africa"
- BWA_paternal_autocrat_DEF:0 "the British West Africa"
- BWA_authoritarian_democrat:1 "British West Africa"
- BWA_authoritarian_democrat_DEF:1 "the British West Africa"
- 
- BWA_paternal_autocrat_ADJ:0 "West African"
- BWA_authoritarian_democrat_ADJ:0 "West African"
-
  PUB_defense_command:0 "Pueblo Defense District"
  DNV_defense_command:0 "Denver Military Government"
  RMT_defense_command:0 "Rocky Mountains Defense District"
