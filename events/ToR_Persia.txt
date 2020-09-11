@@ -1,0 +1,46 @@
+###########################
+# Persian Events
+###########################
+
+add_namespace = persia
+
+country_event = { # Death of Ahmed Shah
+	id = persia.1
+	title = persia.1.t	
+	desc = persia.1.d
+	picture = GFX_report_event_europe_funeral
+
+	fire_only_once = yes
+
+ trigger = {
+ original_tag = PER
+ date = 21.2.1936
+ }
+
+	option = {
+		name = "Farewell, Our precious doll."
+ add_political_power = -50
+ add_stability = -0.05
+ hidden_effect = { country_event = persia.2 days = 5 }
+	}
+}
+
+country_event = { # Protests among the nation!
+	id = persia.2
+	title = persia.2.t	
+	desc = persia.2.d
+	picture = GFX_report_event_europe_funeral
+
+	fire_only_once = yes
+
+ trigger = {
+ original_tag = PER
+ date = 21.2.1936
+ }
+
+	option = {
+		name = "Could it be another 1921?"
+ add_political_power = -50
+ set_country_flag = PER_Democratic_Protests #Unlocks political tree
+	}
+}
