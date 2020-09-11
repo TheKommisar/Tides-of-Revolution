@@ -22,8 +22,8 @@ set_popularities = {
         social_liberal = 0
         classic_liberal = 0
         social_conservative = 0
-        authoritarian_democrat = 0
-        paternal_autocrat = 100
+        authoritarian_democrat = 100
+        paternal_autocrat = 0
         national_populist = 0
 }
 
@@ -71,6 +71,16 @@ create_country_leader = {
 	name = "Sultan Pasha al-Atrash"
 	desc = "POLITICS_SULTAN_ATRASH_DESC"
 	picture = "Portrait_SYR_Atrash.tga"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mohammed Ali Al-Abid"
+	desc = ""
+	picture = ""
 	ideology = paternal_autocrat_subtype
 	traits = {
 		#

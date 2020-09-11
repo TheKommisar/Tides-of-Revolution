@@ -13,8 +13,19 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 2
-			tag = TUR #temporary tag for testing, add more ME tags here
+			add = 10
+			OR = {
+			tag = TUR
+			tag = HEJ
+			tag = NEJ
+			tag = SHM
+			tag = OMA
+			tag = IRQ
+			tag = SYR #Damascus
+			#tag = ALP Aleppo
+			#tag = IKH Ikhwan
+			tag = ISR #Placeholder
+			}
 		}
 	}
 	
