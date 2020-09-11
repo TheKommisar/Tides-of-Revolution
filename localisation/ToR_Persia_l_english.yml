@@ -1,26 +1,26 @@
 ﻿l_english: 
 
 #Parties
-PER_national_populist_party:0 "Kabud"
-PER_national_populist_party_long:0 "Hezb-e Kabud"
-PER_vanguardist_party:0 "Tude-ye"
-PER_vanguardist_party_long:0 "Hezb-e Tude-ye Iran"
+PER_national_populist_party:0 "Esteghlal"
+PER_national_populist_party_long:0 "Hezb-e Esteghlal"
+PER_vanguardist_party:0 "Kommyunist"
+PER_vanguardist_party_long:0 "Hezb-e Kommyunist-e Iran"
 PER_social_conservative_party:0 "HDI"
 PER_social_conservative_party_long:0 "Hezb-e Demowkrat-e Iran (Conservatives)"
-PER_paternal_autocrat_party:0 "Armed Forces"
-PER_paternal_autocrat_party_long:0 "Iranian Armed Forces"
+PER_paternal_autocrat_party:0 "Shora-ye Eghtidar"
+PER_paternal_autocrat_party_long:0 "Shora-ye Eghtidar"
 PER_authoritarian_democrat_party:0 "HDI"
 PER_authoritarian_democrat_party_long:0 "Hezb-e Demowkrat-e Iran (Authoritarian)"
 PER_social_democrat_party:0 "Jangali"
-PER_social_democrat_party_long:0 "Hezb-e Jangal"
+PER_social_democrat_party_long:0 "Nezhat-e Jangal"
 PER_social_liberal_party:0 "Edalat"
 PER_social_liberal_party_long:0 "Hezb-e Edalat"
 PER_classic_liberal_party:0 "Tajadod"
-PER_classic_liberal_party_long:0 "Hezb-e Tajado"
-PER_revolutionary_socialist_party:0 "Hamrahan"
-PER_revolutionary_socialist_party_long:0 "Hezb-e Hamrahan"
-PER_orthodox_marxist_party:0 "Tude-ye"
-PER_orthodox_marxist_party_long:0 "Hezb-e Tude-ye Iran"
+PER_classic_liberal_party_long:0 "Hezb-e Tajadod"
+PER_revolutionary_socialist_party:0 "HDEI"
+PER_revolutionary_socialist_party_long:0 "Hezb-e Demokratek-e Enghlab-ye Iran"
+PER_orthodox_marxist_party:0 "HDEI"
+PER_orthodox_marxist_party_long:0 "Hezb-e Demokratek-e Enghlab-ye Iran"
 
 #Country Names
 PER_national_populist:0 "State of Persia"
@@ -57,6 +57,10 @@ PER_classic_liberal_ADJ:0 "Persian"
 PER_vanguardist_ADJ:0 "Persian"
 
 
+#Ideas
+PER_Shora_Eghtedar_Mostabid:0 "Shora-ye Eghtedar-e Mostabed"
+PER_Democratic_Opposition:0 "Democratic Opposition"
+PER_Military_State:0 "Efficient Military State"
 
 
 #Ministers

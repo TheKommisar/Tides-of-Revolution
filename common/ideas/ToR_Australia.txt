@@ -47,7 +47,7 @@ AST_economic_depression = {
 			removal_cost = -1
 		
 			modifier = {
-				consumer_goods_factor = 0.30
+				consumer_goods_factor = 0.15
 				industrial_capacity_factory = -0.05
 				industrial_capacity_dockyard = -0.05
                                 stability_factor = -0.05

@@ -16,7 +16,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = social_conservative
 	last_election = "1932.10.28"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,9 +27,9 @@ set_popularities = {
     orthodox_marxist = 0
     revolutionary_socialist = 2
     social_democrat = 16
-    social_liberal = 48
+    social_liberal = 20
     classic_liberal = 12
-    social_conservative = 20
+    social_conservative = 48
     authoritarian_democrat = 2
     paternal_autocrat = 0
     national_populist = 0
@@ -60,20 +60,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Froylán Turcios"
 	desc = "TURCIOS_DESC"
-	picture = "gfx/leaders/HON/Froylan_Turcios.tga"
+	picture = "gfx/leaders/HON/Froylan_Turcios.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Froylán Turcios"
-	desc = "TURCIOS_DESC"
-	picture = "gfx/leaders/HON/Froylan_Turcios.tga"
-	expire = "1965.1.1"
-	ideology = orthodox_marxist_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
