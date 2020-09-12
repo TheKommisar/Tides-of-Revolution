@@ -18,7 +18,7 @@ country_event = { # Death of Ahmed Shah
  }
 
 	option = {
-		name = "Farewell, Our precious doll."
+		name = "Who shall be our puppet now?"
  add_political_power = -50
  add_stability = -0.05
  hidden_effect = { country_event = persia.2 days = 5 }
