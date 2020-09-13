@@ -30,25 +30,7 @@ units = {
 	}
 
 	division = {			
-		name = "Sierra Leone Regiment"		
-		location = 2038
-		division_template = "Royal West African Frontier Force"
-		start_experience_factor = 0.2
-
-
-	}
-
-	division = {			
-		name = "Senegambia Regiment"		
-		location = 4989
-		division_template = "Royal West African Frontier Force"
-		start_experience_factor = 0.2
-
-
-	}
-
-	division = {			
-		name = "Togo Regiment"		
+		name = "Togoland Regiment"		
 		location = 1951
 		division_template = "Royal West African Frontier Force"
 		start_experience_factor = 0.2
@@ -57,7 +39,7 @@ units = {
 	}
 
 	division = {			
-		name = "Senegambia Regiment"		
+		name = "Dahomey Regiment"		
 		location = 10919
 		division_template = "Royal West African Frontier Force"
 		start_experience_factor = 0.2

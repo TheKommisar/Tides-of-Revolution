@@ -268,9 +268,24 @@ add_ideas = ENG_second_BEF_1
 
 
 		completion_reward = {	
-			custom_effect_tooltip = ENG_Bring_back_Hobart_effect			
+			custom_effect_tooltip = ENG_Bring_back_Hobart_effect	
+                        hidden_effect = { 
+                              create_corps_commander = {
+			           name = "Percy Hobart"
+			           picture = "Portrait_England_Percy_Hobart.tga"
+			           traits = {
+		                              armor_officer
+		                              panzer_leader
+	                           }
+	                           skill = 3
+	                           attack_skill = 4
+	                           defense_skill = 2
+	                           planning_skill = 2
+	                           logistics_skill = 2
+			      }	
 			}
 		}
+	}
 
 	focus = {
 		id = ENG_Legacy_of_trench_warfare

@@ -51,9 +51,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ahmad Amir-Ahmadi"
+	name = "Reza Khan"
 	desc = ""
-	picture = "Portrait_Ahmad_Amir_Ahmadi.tga"
+	picture = "Portrait_Reza_Khan_bad.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
