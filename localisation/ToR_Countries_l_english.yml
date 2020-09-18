@@ -163,7 +163,6 @@
  EQA_vanguardist_DEF:0 "Equatorial Africa"
  
  EQA_national_populist_ADJ:0 "Equatorial African"
- EQA_totalitarian_socialist_ADJ:0 "Equatorial African"
  EQA_social_conservative_ADJ:0 "Equatorial African"
  EQA_paternal_autocrat_ADJ:0 "Equatorial African"
  EQA_orthodox_marxist_ADJ:0 "Equatorial African"
@@ -173,6 +172,8 @@
  EQA_social_liberal_ADJ:0 "Equatorial African"
  EQA_classic_liberal_ADJ:0 "Equatorial African"
  EQA_vanguardist_ADJ:0 "Equatorial African"
+
+ #Americas
 
  HAI_national_populist:0 "Haiti"
  HAI_national_populist_DEF:0 "Haiti"
@@ -196,7 +197,6 @@
  HAI_vanguardist_DEF:0 "Haiti"
 
  HAI_national_populist_ADJ:0 "Haitian"
- HAI_totalitarian_socialist_ADJ:0 "Haitian"
  HAI_social_conservative_ADJ:0 "Haitian"
  HAI_paternal_autocrat_ADJ:0 "Haitian"
  HAI_orthodox_marxist_ADJ:0 "Haitian"
@@ -207,7 +207,7 @@
  HAI_classic_liberal_ADJ:0 "Haitian"
  HAI_vanguardist_ADJ:0 "Haitian"
 
- #Country Names
+
  HON_national_populist:0 "Honduras"
  HON_national_populist_DEF:0 "Honduras"
  HON_paternal_autocrat:0 "Honduras"
@@ -230,7 +230,6 @@
  HON_vanguardist_DEF:0 "Honduras"
 
  HON_national_populist_ADJ:0 "Honduran"
- HON_totalitarian_socialist_ADJ:0 "Honduran"
  HON_social_conservative_ADJ:0 "Honduran"
  HON_paternal_autocrat_ADJ:0 "Honduran"
  HON_orthodox_marxist_ADJ:0 "Honduran"
@@ -264,7 +263,6 @@
  ELS_vanguardist_DEF:0 "El Salvador"
 
  ELS_national_populist_ADJ:0 "Salvadoran"
- ELS_totalitarian_socialist_ADJ:0 "Salvadoran"
  ELS_social_conservative_ADJ:0 "Salvadoran"
  ELS_paternal_autocrat_ADJ:0 "Salvadoran"
  ELS_orthodox_marxist_ADJ:0 "Salvadoran"
@@ -274,6 +272,7 @@
  ELS_social_liberal_ADJ:0 "Salvadoran"
  ELS_classic_liberal_ADJ:0 "Salvadoran"
  ELS_vanguardist_ADJ:0 "Salvadoran"
+
 
  COS_national_populist:0 "Costa Rica"
  COS_national_populist_DEF:0 "Costa Rica"
@@ -297,7 +296,6 @@
  COS_vanguardist_DEF:0 "Costa Rica"
 
  COS_national_populist_ADJ:0 "Costa Rican"
- COS_totalitarian_socialist_ADJ:0 "Costa Rican"
  COS_social_conservative_ADJ:0 "Costa Rican"
  COS_paternal_autocrat_ADJ:0 "Costa Rican"
  COS_orthodox_marxist_ADJ:0 "Costa Rican"
@@ -307,6 +305,7 @@
  COS_social_liberal_ADJ:0 "Costa Rican"
  COS_classic_liberal_ADJ:0 "Costa Rican"
  COS_vanguardist_ADJ:0 "Costa Rican"
+
 
  GUA_national_populist:0 "Guatemala"
  GUA_national_populist_DEF:0 "Guatemala"
@@ -330,7 +329,6 @@
  GUA_vanguardist_DEF:0 "Guatemala"
 
  GUA_national_populist_ADJ:0 "Guatemalan"
- GUA_totalitarian_socialist_ADJ:0 "Guatemalan"
  GUA_social_conservative_ADJ:0 "Guatemalan"
  GUA_paternal_autocrat_ADJ:0 "Guatemalan"
  GUA_orthodox_marxist_ADJ:0 "Guatemalan"
@@ -340,6 +338,7 @@
  GUA_social_liberal_ADJ:0 "Guatemalan"
  GUA_classic_liberal_ADJ:0 "Guatemalan"
  GUA_vanguardist_ADJ:0 "Guatemalan"
+
 
  PAN_national_populist:0 "Panama"
  PAN_national_populist_DEF:0 "Panama"
@@ -363,7 +362,6 @@
  PAN_vanguardist_DEF:0 "Panama"
 
  PAN_national_populist_ADJ:0 "Panamanian"
- PAN_totalitarian_socialist_ADJ:0 "Panamanian"
  PAN_social_conservative_ADJ:0 "Panamanian"
  PAN_paternal_autocrat_ADJ:0 "Panamanian"
  PAN_orthodox_marxist_ADJ:0 "Panamanian"
@@ -373,6 +371,7 @@
  PAN_social_liberal_ADJ:0 "Panamanian"
  PAN_classic_liberal_ADJ:0 "Panamanian"
  PAN_vanguardist_ADJ:0 "Panamanian"
+
 
  NIC_national_populist:0 "Nicaragua"
  NIC_national_populist_DEF:0 "Nicaragua"
@@ -396,7 +395,6 @@
  NIC_vanguardist_DEF:0 "Nicaragua"
 
  NIC_national_populist_ADJ:0 "Nicaragua"
- NIC_totalitarian_socialist_ADJ:0 "Nicaragua"
  NIC_social_conservative_ADJ:0 "Nicaragua"
  NIC_paternal_autocrat_ADJ:0 "Nicaragua"
  NIC_orthodox_marxist_ADJ:0 "Nicaragua"
@@ -406,6 +404,7 @@
  NIC_social_liberal_ADJ:0 "Nicaragua"
  NIC_classic_liberal_ADJ:0 "Nicaragua"
  NIC_vanguardist_ADJ:0 "Nicaragua"
+
 
  CUB_national_populist:0 "Cuba"
  CUB_national_populist_DEF:0 "Cuba"
@@ -429,7 +428,6 @@
  CUB_vanguardist_DEF:0 "Cuba"
 
  CUB_national_populist_ADJ:0 "Cuban"
- CUB_totalitarian_socialist_ADJ:0 "Cuban"
  CUB_social_conservative_ADJ:0 "Cuban"
  CUB_paternal_autocrat_ADJ:0 "Cuban"
  CUB_orthodox_marxist_ADJ:0 "Cuban"
@@ -439,6 +437,7 @@
  CUB_social_liberal_ADJ:0 "Cuban"
  CUB_classic_liberal_ADJ:0 "Cuban"
  CUB_vanguardist_ADJ:0 "Cuban"
+
 
  DOM_national_populist:0 "Dominican Republic"
  DOM_national_populist_DEF:0 "Dominican Republic"
@@ -462,7 +461,6 @@
  DOM_vanguardist_DEF:0 "Dominican Republic"
 
  DOM_national_populist_ADJ:0 "Dominican"
- DOM_totalitarian_socialist_ADJ:0 "Dominican"
  DOM_social_conservative_ADJ:0 "Dominican"
  DOM_paternal_autocrat_ADJ:0 "Dominican"
  DOM_orthodox_marxist_ADJ:0 "Dominican"
@@ -473,6 +471,7 @@
  DOM_classic_liberal_ADJ:0 "Dominican"
  DOM_vanguardist_ADJ:0 "Dominican"
 
+ #Africa
  LIB_national_populist:0 "Liberia"
  LIB_national_populist_DEF:0 "Liberia"
  LIB_paternal_autocrat:0 "Liberia"
@@ -495,7 +494,6 @@
  LIB_vanguardist_DEF:0 "Liberia"
 
  LIB_national_populist_ADJ:0 "Liberian"
- LIB_totalitarian_socialist_ADJ:0 "Liberian"
  LIB_social_conservative_ADJ:0 "Liberian"
  LIB_paternal_autocrat_ADJ:0 "Liberian"
  LIB_orthodox_marxist_ADJ:0 "Liberian"
@@ -506,6 +504,205 @@
  LIB_classic_liberal_ADJ:0 "Liberian"
  LIB_vanguardist_ADJ:0 "Liberian"
 
+ 
+ VOL_national_populist:0 "Upper Volta"
+ VOL_national_populist_DEF:0 "Upper Volta"
+ VOL_paternal_autocrat:0 "Upper Volta"
+ VOL_paternal_autocrat_DEF:0 "Upper Volta"
+ VOL_social_conservative:0 "Upper Volta"
+ VOL_social_conservative_DEF:0 "Upper Volta"
+ VOL_authoritarian_democrat:1 "Upper Volta"
+ VOL_authoritarian_democrat_DEF:1 "Upper Volta"
+ VOL_orthodox_marxist:0 "Upper Volta"
+ VOL_orthodox_marxist_DEF:0 "Upper Volta"
+ VOL_revolutionary_socialist:0 "Upper Volta"
+ VOL_revolutionary_socialist_DEF:0 "Upper Volta"
+ VOL_social_democrat:0 "Upper Volta"
+ VOL_social_democrat_DEF:0 "Upper Volta"
+ VOL_social_liberal:0 "Upper Volta"
+ VOL_social_liberal_DEF:0 "Upper Volta"
+ VOL_classic_liberal:0 "Upper Volta"
+ VOL_classic_liberal_DEF:0 "Upper Volta"
+ VOL_vanguardist:0 "Upper Volta"
+ VOL_vanguardist_DEF:0 "Upper Volta"
+ 
+ VOL_national_populist_ADJ:0 "Voltaic"
+ VOL_social_conservative_ADJ:0 "Voltaic"
+ VOL_paternal_autocrat_ADJ:0 "Voltaic"
+ VOL_orthodox_marxist_ADJ:0 "Voltaic"
+ VOL_authoritarian_democrat_ADJ:0 "Voltaic"
+ VOL_revolutionary_socialist_ADJ:0 "Voltaic"
+ VOL_social_democrat_ADJ:0 "Voltaic"
+ VOL_social_liberal_ADJ:0 "Voltaic"
+ VOL_classic_liberal_ADJ:0 "Voltaic"
+ VOL_vanguardist_ADJ:0 "Voltaic"
+
+
+ IVO_national_populist:0 "Ivory Coast"
+ IVO_national_populist_DEF:0 "Ivory Coast"
+ IVO_paternal_autocrat:0 "Ivory Coast"
+ IVO_paternal_autocrat_DEF:0 "Ivory Coast"
+ IVO_social_conservative:0 "Ivory Coast"
+ IVO_social_conservative_DEF:0 "Ivory Coast"
+ IVO_authoritarian_democrat:1 "Ivory Coast"
+ IVO_authoritarian_democrat_DEF:1 "Ivory Coast"
+ IVO_orthodox_marxist:0 "Red Coast"
+ IVO_orthodox_marxist_DEF:0 "Red Coast"
+ IVO_revolutionary_socialist:0 "Red Coast"
+ IVO_revolutionary_socialist_DEF:0 "Red Coast"
+ IVO_social_democrat:0 "Ivory Coast"
+ IVO_social_democrat_DEF:0 "Upper Volta"
+ IVO_social_liberal:0 "Ivory Coast"
+ IVO_social_liberal_DEF:0 "Ivory Coast"
+ IVO_classic_liberal:0 "Ivory Coast"
+ IVO_classic_liberal_DEF:0 "Ivory Coast"
+ IVO_vanguardist:0 "Red Coast"
+ IVO_vanguardist_DEF:0 "Red Coast"
+ 
+ IVO_national_populist_ADJ:0 "Ivorian"
+ IVO_social_conservative_ADJ:0 "Ivorian"
+ IVO_paternal_autocrat_ADJ:0 "Ivorian"
+ IVO_orthodox_marxist_ADJ:0 "Ivorian"
+ IVO_authoritarian_democrat_ADJ:0 "Ivorian"
+ IVO_revolutionary_socialist_ADJ:0 "Ivorian"
+ IVO_social_democrat_ADJ:0 "Ivorian"
+ IVO_social_liberal_ADJ:0 "Ivorian"
+ IVO_classic_liberal_ADJ:0 "Ivorian"
+ IVO_vanguardist_ADJ:0 "Ivorian"
+
+ 
+ MLI_national_populist:0 "Mali"
+ MLI_national_populist_DEF:0 "Mali"
+ MLI_paternal_autocrat:0 "Mali"
+ MLI_paternal_autocrat_DEF:0 "Mali"
+ MLI_social_conservative:0 "Mali"
+ MLI_social_conservative_DEF:0 "Mali"
+ MLI_authoritarian_democrat:1 "Mali"
+ MLI_authoritarian_democrat_DEF:1 "Mali"
+ MLI_orthodox_marxist:0 "Mali"
+ MLI_orthodox_marxist_DEF:0 "Mali"
+ MLI_revolutionary_socialist:0 "Mali"
+ MLI_revolutionary_socialist_DEF:0 "Mali"
+ MLI_social_democrat:0 "Mali"
+ MLI_social_democrat_DEF:0 "Mali"
+ MLI_social_liberal:0 "Mali"
+ MLI_social_liberal_DEF:0 "Mali"
+ MLI_classic_liberal:0 "Mali"
+ MLI_classic_liberal_DEF:0 "Mali"
+ MLI_vanguardist:0 "Mali"
+ MLI_vanguardist_DEF:0 "Mali"
+ 
+ MLI_national_populist_ADJ:0 "Malian"
+ MLI_social_conservative_ADJ:0 "Malian"
+ MLI_paternal_autocrat_ADJ:0 "Malian"
+ MLI_orthodox_marxist_ADJ:0 "Malian"
+ MLI_authoritarian_democrat_ADJ:0 "Malian"
+ MLI_revolutionary_socialist_ADJ:0 "Malian"
+ MLI_social_democrat_ADJ:0 "Malian"
+ MLI_social_liberal_ADJ:0 "Malian"
+ MLI_classic_liberal_ADJ:0 "Malian"
+ MLI_vanguardist_ADJ:0 "Malian"
+
+
+ MLI_national_populist:0 "Mali"
+ MLI_national_populist_DEF:0 "Mali"
+ MLI_paternal_autocrat:0 "Mali"
+ MLI_paternal_autocrat_DEF:0 "Mali"
+ MLI_social_conservative:0 "Mali"
+ MLI_social_conservative_DEF:0 "Mali"
+ MLI_authoritarian_democrat:1 "Mali"
+ MLI_authoritarian_democrat_DEF:1 "Mali"
+ MLI_orthodox_marxist:0 "Mali"
+ MLI_orthodox_marxist_DEF:0 "Mali"
+ MLI_revolutionary_socialist:0 "Mali"
+ MLI_revolutionary_socialist_DEF:0 "Mali"
+ MLI_social_democrat:0 "Mali"
+ MLI_social_democrat_DEF:0 "Mali"
+ MLI_social_liberal:0 "Mali"
+ MLI_social_liberal_DEF:0 "Mali"
+ MLI_classic_liberal:0 "Mali"
+ MLI_classic_liberal_DEF:0 "Mali"
+ MLI_vanguardist:0 "Mali"
+ MLI_vanguardist_DEF:0 "Mali"
+ 
+ MLI_national_populist_ADJ:0 "Malian"
+ MLI_social_conservative_ADJ:0 "Malian"
+ MLI_paternal_autocrat_ADJ:0 "Malian"
+ MLI_orthodox_marxist_ADJ:0 "Malian"
+ MLI_authoritarian_democrat_ADJ:0 "Malian"
+ MLI_revolutionary_socialist_ADJ:0 "Malian"
+ MLI_social_democrat_ADJ:0 "Malian"
+ MLI_social_liberal_ADJ:0 "Malian"
+ MLI_classic_liberal_ADJ:0 "Malian"
+ MLI_vanguardist_ADJ:0 "Malian"
+
+
+ GNA_national_populist:0 "Guinea"
+ GNA_national_populist_DEF:0 "Guinea"
+ GNA_paternal_autocrat:0 "Guinea"
+ GNA_paternal_autocrat_DEF:0 "Guinea"
+ GNA_social_conservative:0 "Guinea"
+ GNA_social_conservative_DEF:0 "Guinea"
+ GNA_authoritarian_democrat:1 "Guinea"
+ GNA_authoritarian_democrat_DEF:1 "Guinea"
+ GNA_orthodox_marxist:0 "Guinea"
+ GNA_orthodox_marxist_DEF:0 "Guinea"
+ GNA_revolutionary_socialist:0 "Guinea"
+ GNA_revolutionary_socialist_DEF:0 "Guinea"
+ GNA_social_democrat:0 "Guinea"
+ GNA_social_democrat_DEF:0 "Guinea"
+ GNA_social_liberal:0 "Guinea"
+ GNA_social_liberal_DEF:0 "Guinea"
+ GNA_classic_liberal:0 "Guinea"
+ GNA_classic_liberal_DEF:0 "Guinea"
+ GNA_vanguardist:0 "Guinea"
+ GNA_vanguardist_DEF:0 "Guinea"
+ 
+ GNA_national_populist_ADJ:0 "Guinean"
+ GNA_social_conservative_ADJ:0 "Guinean"
+ GNA_paternal_autocrat_ADJ:0 "Guinean"
+ GNA_orthodox_marxist_ADJ:0 "Guinean"
+ GNA_authoritarian_democrat_ADJ:0 "Guinean"
+ GNA_revolutionary_socialist_ADJ:0 "Guinean"
+ GNA_social_democrat_ADJ:0 "Guinean"
+ GNA_social_liberal_ADJ:0 "Guinean"
+ GNA_classic_liberal_ADJ:0 "Guinean"
+ GNA_vanguardist_ADJ:0 "Guinean"
+
+
+ NGR_national_populist:0 "Tuareg State"
+ NGR_national_populist_DEF:0 "Tuareg State"
+ NGR_paternal_autocrat:0 "Tuareg State"
+ NGR_paternal_autocrat_DEF:0 "Tuareg State"
+ NGR_social_conservative:0 "Tuareg State"
+ NGR_social_conservative_DEF:0 "Tuareg State"
+ NGR_authoritarian_democrat:1 "Tuareg State"
+ NGR_authoritarian_democrat_DEF:1 "Tuareg State"
+ NGR_orthodox_marxist:0 "Tuareg State"
+ NGR_orthodox_marxist_DEF:0 "Tuareg State"
+ NGR_revolutionary_socialist:0 "Tuareg State"
+ NGR_revolutionary_socialist_DEF:0 "Tuareg State"
+ NGR_social_democrat:0 "Tuareg State"
+ NGR_social_democrat_DEF:0 "Tuareg State"
+ NGR_social_liberal:0 "Tuareg State"
+ NGR_social_liberal_DEF:0 "Tuareg State"
+ NGR_classic_liberal:0 "Tuareg State"
+ NGR_classic_liberal_DEF:0 "Tuareg State"
+ NGR_vanguardist:0 "Tuareg State"
+ NGR_vanguardist_DEF:0 "Tuareg State"
+ 
+ NGR_national_populist_ADJ:0 "Nigerien"
+ NGR_social_conservative_ADJ:0 "Nigerien"
+ NGR_paternal_autocrat_ADJ:0 "Nigerien"
+ NGR_orthodox_marxist_ADJ:0 "Nigerien"
+ NGR_authoritarian_democrat_ADJ:0 "Nigerien"
+ NGR_revolutionary_socialist_ADJ:0 "Nigerien"
+ NGR_social_democrat_ADJ:0 "Nigerien"
+ NGR_social_liberal_ADJ:0 "Nigerien"
+ NGR_classic_liberal_ADJ:0 "Nigerien"
+ NGR_vanguardist_ADJ:0 "Nigerien"
+
+ #Asia
  AFG_national_populist:0 "Kingdom of Afghanistan"
  AFG_national_populist_DEF:0 "the Kingdom of Afghanistan"
  AFG_paternal_autocrat:0 "Kingdom of Afghanistan"
@@ -538,6 +735,7 @@
  AFG_social_liberal_ADJ:0 "Afghani"
  AFG_classic_liberal_ADJ:0 "Afghani"
  AFG_vanguardist_ADJ:0 "Afghani"
+
 
  OMA_national_populist:0 "Oman"
  OMA_national_populist_DEF:0 "the Sultanate of Oman"
