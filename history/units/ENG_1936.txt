@@ -293,14 +293,6 @@ units = {
 	}
 
 
-	division= {	# 
-		name = "Ceylon Garrison"
-		location = 10201
-		division_template = "Colonial Garrison"
-		start_experience_factor = 0.3
-	}
-
-
 }
 
 

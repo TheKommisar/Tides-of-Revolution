@@ -191,22 +191,11 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}
-        set_autonomy = {
-		target = OMA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.6
-	}
 	else = {
-		puppet = RAJ
-                puppet = IRE
                 puppet = BWA
-                puppet = EGY
-                puppet = ISR
                 puppet = SUD
                 puppet = BEA
                 puppet = RHO
-                puppet = OMA
-                puppet = NFL
 	}
 }
 
@@ -252,7 +241,6 @@ give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAD
 
-give_guarantee = BEL
 give_guarantee = POR
 give_guarantee = GRE
 

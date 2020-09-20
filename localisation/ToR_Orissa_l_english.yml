@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+
+ ORI_vanguardist_party:0 "Workers and Peasants Council"
+ ORI_vanguardist_party_long:0 "Council of Workers and Peasants"
+ ORI_orthodox_marxist_party:0 "AITUC"
+ ORI_orthodox_marxist_party_long:0 "All India Trade Union Council"
+ ORI_revolutionary_socialist_party:0 "Agrarians"
+ ORI_revolutionary_socialist_party_long:0 "Agrarians"
+ ORI_social_democrat_party:0 "Modernisers"
+ ORI_social_democrat_party_long:0 "Modernisers"
+ ORI_social_liberal_party:0 "Modernisers"
+ ORI_social_liberal_party_long:0 "Modernisers"
+ ORI_classic_liberal_party:0 "Modernisers"
+ ORI_classic_liberal_party_long:0 "Modernisers"
+ ORI_social_conservative_party:0 "Modernisers"
+ ORI_social_conservative_party_long:0 "Modernisers"
+ ORI_authoritarian_democrat_party:0 "ABHM"
+ ORI_authoritarian_democrat_party_long:0 "Akhil Bharat Hindu Mahasabha"
+ ORI_paternal_autocrat_party:0 "ABHM"
+ ORI_paternal_autocrat_party_long:0 "Akhil Bharat Hindu Mahasabha"
+ ORI_national_populist_party:0 "ABHM(RSS)"
+ ORI_national_populist_party_long:0 "Akhil Bharat Hindu Mahasabha"
+
+
+
+#Country Names
+ ORI_national_populist:0 "Hindu National State"
+ ORI_national_populist_DEF:0 "Hindu National State"
+ ORI_paternal_autocrat:0 "Hindu National State"
+ ORI_paternal_autocrat_DEF:0 "Hindu National State"
+ ORI_social_conservative:0 "Hindu National State"
+ ORI_social_conservative_DEF:0 "Hindu National State"
+ ORI_authoritarian_democrat:0 "Hindu National State"
+ ORI_authoritarian_democrat_DEF:0 "Hindu National State"
+ ORI_orthodox_marxist:0 "Hindu National State"
+ ORI_orthodox_marxist_DEF:0 "Hindu National State"
+ ORI_revolutionary_socialist:0 "Hindu National State"
+ ORI_revolutionary_socialist_DEF:0 "Hindu National State"
+ ORI_social_democrat:0 "Hindu National State"
+ ORI_social_democrat_DEF:0 "Hindu National State"
+ ORI_social_liberal:0 "Hindu National State"
+ ORI_social_liberal_DEF:0 "Hindu National State"
+ ORI_classic_liberal:0 "Hindu National State"
+ ORI_classic_liberal_DEF:0 "Hindu National State"
+ ORI_vanguardist:0 "Hindu National State"
+ ORI_vanguardist_DEF:0 "Hindu National State"
+
+ ORI_national_populist_ADJ:0 "Orissan"
+ ORI_totalitarian_socialist_ADJ:0 "Orissan"
+ ORI_social_conservative_ADJ:0 "Orissan"
+ ORI_paternal_autocrat_ADJ:0 "Orissan"
+ ORI_orthodox_marxist_ADJ:0 "Orissan"
+ ORI_authoritarian_democrat_ADJ:0 "Orissan"
+ ORI_revolutionary_socialist_ADJ:0 "Orissan"
+ ORI_social_democrat_ADJ:0 "Orissan"
+ ORI_social_liberal_ADJ:0 "Orissan"
+ ORI_classic_liberal_ADJ:0 "Orissan"
+ ORI_vanguardist_ADJ:0 "Orissan"
+
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

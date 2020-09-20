@@ -679,3 +679,35 @@ HNN = {
         color = rgb { 160 70 10 }
         color_ui = rgb { 160 70 10 }
 }
+PRF = {
+        color = rgb { 79 85 105 }
+        color_ui = rgb { 79 85 105 }
+}
+KSM = {
+        color = rgb { 96 149 196 }
+	color_ui = rgb { 96 149 196 }
+}
+BAL = {
+        color = rgb { 186 227 197 }
+	color_ui = rgb { 186 227 197 }
+}
+CEY = {
+        color = rgb { 106 35 43 }
+	color_ui = rgb { 106 35 43 }
+}
+IND = {
+        color = rgb { 255 103 48 }
+        color_ui = rgb { 255 103 48 }
+}
+INC = {
+	color = rgb { 215 24 14 }
+	color_ui = rgb { 215 24 14 }
+}
+PNJ = {
+	color = rgb { 153 84 49 }
+	color_ui = rgb { 153  84  49 }
+}
+ORI = {
+	color = rgb { 133 76 109 }
+	color_ui = rgb { 133 76 109 }
+}

@@ -7,13 +7,29 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_cosmetic_tag = BRM_UK
-
 set_convoys = 5
 
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1936.1.1" 
+	election_frequency = 48 # number is of months
+	elections_allowed = no
+}
+set_popularities = {
+	vanguardist = 0
+        orthodox_marxist = 0
+	revolutionary_socialist = 14
+        social_democrat = 0
+        social_liberal = 0
+        classic_liberal = 12
+        social_conservative = 6
+        authoritarian_democrat = 60
+        paternal_autocrat = 8
+        national_populist = 0
+}
+
 create_country_leader = {
-	
-	name = "Archibald Cochrane"
+	name = "Ba Maw"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -21,3 +37,4 @@ create_country_leader = {
 		#
 	}
 }
+
