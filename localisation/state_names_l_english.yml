@@ -539,7 +539,7 @@
  STATE_538:0 "Central Congo"
  STATE_539:0 "Gabon"
  STATE_540:0 "Angola"
- STATE_541:0 "South West Africa"
+ STATE_541:0 "Windecke"
  STATE_542:0 "Bechuanaland"
  STATE_543:0 "Madagascar"
  STATE_544:0 "Mozambique"
@@ -806,3 +806,4 @@
  STATE_805:0 "Bastogne"
  STATE_806:0 "Eupen"
  STATE_807:0 "Western Tanganyika"
+ STATE_808:0 "Waterberg"

@@ -19,6 +19,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GER/idea_GER_nation_and_kaiser.tga"
 	}
 
+     spriteType = {
+		name = "GFX_idea_GER_unworthy_sacrafice"
+		texturefile = "gfx/interface/ideas/GER/idea_GER_unworthy_sacrafice.tga"
+	}
+
 
 #Ministers
 

@@ -1,0 +1,51 @@
+﻿l_english: 
+
+#Parties
+NMB_vanguardist_party:0 "ANC"
+NMB_vanguardist_party_long:0 "African National Congress"
+NMB_orthodox_marxist_party:0 "ANC"
+NMB_orthodox_marxist_party_long:0 "African National Congress"
+NMB_revolutionary_socialist_party:0 "ANC"
+NMB_revolutionary_socialist_party_long:0 "African National Congress"
+NMB_social_democrat_party:0 "ANC"
+NMB_social_democrat_party_long:0 "African National Congress"
+NMB_social_liberal_party:0 "ANC (liberal)"
+NMB_social_liberal_party_long:0 "African National Congress (liberal)"
+NMB_classic_liberal_party:0 "Unabhängigkeitspartei"
+NMB_classic_liberal_party_long:0 "Unabhängigkeitspartei"
+NMB_social_conservative_party:0 "BKAu"
+NMB_social_conservative_party_long:0 "Bewegung der kaiserlichen Autonomieunion" 
+NMB_authoritarian_democrat_party:0 ""
+NMB_authoritarian_democrat_party_long:0 ""
+NMB_paternal_autocrat_party:0 "Kolonialverwaltung"
+NMB_paternal_autocrat_party_long:0 "Kolonialverwaltung"
+NMB_national_populist_party:0 "Neue Staatsbewegung"
+NMB_national_populist_party_long:0 "Neue Staatsbewegung)"
+#Country Names
+NMB_paternal_autocrat:0 "Deutsches Südwestafrika"
+NMB_paternal_autocrat_DEF:0 "the Südwestafrikaner"
+NMB_authoritarian_democrat:1 "Deutsches Südwestafrika"
+NMB_authoritarian_democrat_DEF:1 "the Südwestafrikaner"
+ 
+NMB_paternal_autocrat_ADJ:0 "Südwestafrikaner"
+NMB_authoritarian_democrat_ADJ:0 "Südwestafrikaner"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+#Ideas
+
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

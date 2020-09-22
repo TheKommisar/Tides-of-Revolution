@@ -573,7 +573,7 @@
  VICTORY_POINTS_4333:0 "Akmolinsk"
  VICTORY_POINTS_11752:0 "Zhangbei"
  VICTORY_POINTS_7418:0 "Xi'an"
- VICTORY_POINTS_4879:0 "Windhoek"
+ VICTORY_POINTS_4879:0 "Windecke"
  VICTORY_POINTS_10412:0 "Richmond"
  VICTORY_POINTS_12715:0 "Mérida"
  VICTORY_POINTS_4904:0 "Campeche"
@@ -913,5 +913,9 @@
  VICTORY_POINTS_3488:0 "Eupen"
  VICTORY_POINTS_9418:0 "Arlon"
  VICTORY_POINTS_11407:0 "Bastogne"
+<<<<<<< Updated upstream
  VICTORY_POINTS_10475:0 "Bundaberg"
  VICTORY_POINTS_4520:0 "Cairns"
+=======
+ VICTORY_POINTS_10957:0 "Waterberg"
+>>>>>>> Stashed changes

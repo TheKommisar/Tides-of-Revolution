@@ -92,7 +92,29 @@ set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
-
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+        set_autonomy = {
+		target = TZN
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+        set_autonomy = {
+		target = NMB
+		autonomous_state = autonomy_colony
+		freedom_level = 0.2
+	}
+	else = {
+		puppet = RAJ
+                puppet = TZN
+                puppet = NMB
+	}
+}
 #Trade
 create_import = {
 		resource = tungsten
@@ -119,7 +141,44 @@ set_popularities = {
         paternal_autocrat = 40
         national_populist = 8
 }
-
+TZN = {
+        set_politics = {
+        ruling_party = paternal_autocrat
+        elections_allowed = no
+        last_election = "1936.1.1"
+        election_frequency = 48
+        }
+        set_popularities = {
+	paternal_autocrat = 45
+	authoritarian_democrat = 13
+	vanguardist = 5
+	revolutionary_socialist = 2
+	social_democrat = 16
+	national_populist = 3
+	social_conservative = 5
+	social_liberal = 3
+	classic_liberal = 8
+        }     
+}
+NMB = {
+        set_politics = {
+        ruling_party = paternal_autocrat
+        elections_allowed = no
+        last_election = "1936.1.1"
+        election_frequency = 48
+        }
+        set_popularities = {
+	paternal_autocrat = 46
+	authoritarian_democrat = 23
+	vanguardist = 0
+	revolutionary_socialist = 6
+	social_democrat = 11
+	national_populist = 0
+	social_conservative = 7
+	social_liberal = 3
+	classic_liberal = 4
+        }     
+}
 add_ideas = {
 	limited_exports
 	limited_conscription
@@ -132,6 +191,7 @@ add_ideas = {
         GER_constitutional_crisis
         GER_iron_and_blood
 	GER_nation_and_kaiser
+	GER_unworthy_sacrafice
 }
 
 create_country_leader = {
