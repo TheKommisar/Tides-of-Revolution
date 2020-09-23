@@ -27,7 +27,7 @@ LUX = {
 BEL = { color 	 = rgb { 167 150 82 }
 		color_ui = rgb { 251 222 10 }
 }
-HOL = {	color = rgb { 153 84 52 }
+HOL = {	color = rgb { 171 123 12 }
 		color_ui = rgb { 255 179 96 }
 }
 CZE = {	color = rgb { 54 167 156 }
@@ -70,8 +70,8 @@ YUG = {
 	color_ui = rgb { 94 95 164 }
 }
 SWI = {
-	color = rgb { 207 24 24 }
-	color_ui = rgb { 245 29 29 }
+	color = rgb { 207 24 24 }  
+	color_ui = rgb { 245 29 29 } 
 }
 TUR = {
 	color = rgb { 169 17 1 }
@@ -230,7 +230,7 @@ SAU = {
 	color_ui = rgb { 17 118 10 }
 }
 SIA = {
-	color = rgb { 171 190 152 }
+	color = rgb { 135 150 119 }
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {
@@ -664,8 +664,8 @@ NGR = {
     color_ui = rgb { 0 19 18 }
 }
 MLI = {
-	color = rgb { 150 175 159 }
-	color_ui = rgb { 150 175 159 }
+	color = rgb { 105 105 35 }
+	color_ui = rgb { 105 105 35 }
 }
 MRT = {
     color = rgb { 92 81 135 }
