@@ -679,7 +679,6 @@ HNN = {
         color = rgb { 160 70 10 }
         color_ui = rgb { 160 70 10 }
 }
-<<<<<<< Updated upstream
 PRF = {
         color = rgb { 79 85 105 }
         color_ui = rgb { 79 85 105 }
@@ -711,7 +710,7 @@ PNJ = {
 ORI = {
 	color = rgb { 133 76 109 }
 	color_ui = rgb { 133 76 109 }
-=======
+}
 TZN = {
 	color = rgb { 87 121 121 }
 	color_ui = rgb { 80 90 100 }
@@ -719,5 +718,4 @@ TZN = {
 NMB = {
 	color = rgb { 87 121 121 }
 	color_ui = rgb { 80 90 100 }
->>>>>>> Stashed changes
 }
