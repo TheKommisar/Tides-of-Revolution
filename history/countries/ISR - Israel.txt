@@ -27,7 +27,9 @@ set_popularities = {
         paternal_autocrat = 5
         national_populist = 5
 }
-
+add_ideas = {
+ISR_jewish_nation
+}
 
 create_country_leader = {
 	name = "Chaim Weizmann"

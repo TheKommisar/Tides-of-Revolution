@@ -18,13 +18,13 @@ set_popularities = {
 	vanguardist = 1
         orthodox_marxist = 0
 	revolutionary_socialist = 3
-        social_democrat = 14
-        social_liberal = 5
+        social_democrat = 26
+        social_liberal = 10
         classic_liberal = 2
-        social_conservative = 11
-        authoritarian_democrat = 18
-        paternal_autocrat = 38
-        national_populist = 8
+        social_conservative = 7
+        authoritarian_democrat = 13
+        paternal_autocrat = 21
+        national_populist = 17
 }
 
 set_convoys = 5

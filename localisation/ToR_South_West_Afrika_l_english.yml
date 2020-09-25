@@ -15,8 +15,8 @@ NMB_classic_liberal_party:0 "Unabhängigkeitspartei"
 NMB_classic_liberal_party_long:0 "Unabhängigkeitspartei"
 NMB_social_conservative_party:0 "BKAu"
 NMB_social_conservative_party_long:0 "Bewegung der kaiserlichen Autonomieunion" 
-NMB_authoritarian_democrat_party:0 ""
-NMB_authoritarian_democrat_party_long:0 ""
+NMB_authoritarian_democrat_party:0 "RDS"
+NMB_authoritarian_democrat_party_long:0 "Regierungsausschuss der Deutschen Siedler"
 NMB_paternal_autocrat_party:0 "Kolonialverwaltung"
 NMB_paternal_autocrat_party_long:0 "Kolonialverwaltung"
 NMB_national_populist_party:0 "Neue Staatsbewegung"
@@ -38,7 +38,12 @@ NMB_authoritarian_democrat_ADJ:0 "Südwestafrikaner"
 
 
 #Ideas
-
+NMB_colony:0 "Colonial Administration"
+NMB_colony_desc:0 "Our administration is a colonial territory of the German Fatherland, as such we are extremely limited on men from both the native population and from Germany proper who are willing to serve under our banner, as well as the extreme instability that comes with the ruling of the local populace and their refusal to collaberate."
+NMB_germanization:0 "Germanization"
+NMB_germanization_desc:0 "South West Africa has been an imperial German colony since 1884, and in the period of 50 years that have passed since it was first founded many ethnic Germans have immigrated to the colony, seeking to escape poverty or any measure of crisis at home. Following the great war and the German economic decline, combined with the turbulant social situation in the fatherland, many saw South West Africa as a land free of the strife of home and fled, increasing the number of the German minority to nearly 100 thousand men by 1936. This increase in numbers has been greatly beneficial to the colony, as many skilled labourers along with the general increase in loyal subjects has greatly boosted the colonies prosperity."  
+NMB_schutztruppe:0 "The Schutztruppe"
+NMB_schutztruppe_desc:0 "The Schutztruppe, or Protection Force, is the African Colonial Army of the German Empire. The force of both native Africans and European settlers and volunteers has become known for it's professional ethos, garnering a reputation as a highly skilled force from it's numerous colonial exploits. The Schutztruppe are the pride of the German colonies, providing both a practical ared force that has been under constant improvement following the great war and a large morale boost to the populace they protect."
 #Focuses
 #should be reintegrated
 

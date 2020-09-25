@@ -61,7 +61,9 @@ EST_classic_liberal_ADJ:0 "Estonian"
 EST_vanguardist_ADJ:0 "Estonian"
 
 
-
+#Ideas
+EST_freedom:0 "Eesti Vabadus"
+EST_freedom_desc:0 "Eesti Vabadus, or Estonian Freedom, is the culmination of the long standing desire of the Estonian people for a nation-state of their own, one that speaks Estonian, bears the Estonian colors and name, and acts in Estonian interest, all while allowing the freedom of the Estonian people to elect an Estonian government. This 'Estonian Freedom' ideal prides itself in being a Democratic state with full civil liberties even if it is surrounded by a sea of Authoritarianism, minority rule and ultranationalist despotism. Estonia is Free, and the Estonian People will Always Fight to Keep it Free!" 
 
 #Ministers
 #should be reintegrated

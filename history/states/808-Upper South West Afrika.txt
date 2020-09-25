@@ -12,7 +12,10 @@ state={
 			infrastructure = 2
 		}
 		victory_points = {
-		10957 1
+		10957 1 
+		}
+		victory_points = {
+		12519 1
 		}
 		add_core_of = NMB
 	}

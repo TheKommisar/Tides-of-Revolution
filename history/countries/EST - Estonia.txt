@@ -53,7 +53,9 @@ set_popularities = {
         paternal_autocrat = 3
         national_populist = 4
 }
-
+add_ideas = {
+EST_freedom
+}
 create_country_leader = {
 	name = "Karl Säre"
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"

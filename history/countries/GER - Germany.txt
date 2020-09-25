@@ -131,15 +131,15 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 0
-        orthodox_marxist = 13
-	revolutionary_socialist = 6
-        social_democrat = 3
-        social_liberal = 0
+        orthodox_marxist = 4
+	revolutionary_socialist = 3
+        social_democrat = 19
+        social_liberal = 11
         classic_liberal = 6
         social_conservative = 10
-        authoritarian_democrat = 14
-        paternal_autocrat = 40
-        national_populist = 8
+        authoritarian_democrat = 11
+        paternal_autocrat = 31
+        national_populist = 5
 }
 TZN = {
         set_politics = {
@@ -149,16 +149,20 @@ TZN = {
         election_frequency = 48
         }
         set_popularities = {
-	paternal_autocrat = 45
-	authoritarian_democrat = 13
+	paternal_autocrat = 37
+	authoritarian_democrat = 15
 	vanguardist = 5
-	revolutionary_socialist = 2
+	revolutionary_socialist = 6
 	social_democrat = 16
 	national_populist = 3
-	social_conservative = 5
+	social_conservative = 7
 	social_liberal = 3
 	classic_liberal = 8
-        }     
+        }  
+		add_ideas = {
+	NMB_colony
+	NMB_schutztruppe	
+		}		
 }
 NMB = {
         set_politics = {
@@ -168,16 +172,33 @@ NMB = {
         election_frequency = 48
         }
         set_popularities = {
-	paternal_autocrat = 46
+	paternal_autocrat = 41
 	authoritarian_democrat = 23
 	vanguardist = 0
 	revolutionary_socialist = 6
 	social_democrat = 11
 	national_populist = 0
-	social_conservative = 7
+	social_conservative = 12
 	social_liberal = 3
 	classic_liberal = 4
-        }     
+        }
+		add_ideas = {
+	extensive_conscription
+	NMB_colony
+	NMB_germanization
+	NMB_schutztruppe
+	NMB_afrikaner_exiles	
+		}
+create_country_leader = {
+	name = "Ludwig von Estorff"
+	desc = "POLITICS_LUDWIG_VON_ESTROFF_DESC"
+	picture = ".tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}		
 }
 add_ideas = {
 	limited_exports
