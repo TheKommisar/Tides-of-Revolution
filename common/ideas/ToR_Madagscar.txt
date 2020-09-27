@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+
+	MAD_Compromised_Freedom = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = MAD_compromised_freedom
+		removal_cost = -1
+		modifier = {
+		political_power_gain = -0.4
+		stability_factor = -0.20
+			}
+			targeted_modifier = {
+				tag = ENG
+				trade_cost_for_target_factor = -0.2
+				extra_trade_to_target_factor = 0.2
+			}
+		}
+
+	MAD_Backwards_Military = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = MAD_backwards_military
+		removal_cost = -1
+		modifier = {
+				research_speed_factor = -0.15
+				army_org_factor = -0.50
+				army_morale_factor = -0.4
+				army_defence_factor = -0.4
+				army_attack_factor = -0.4
+			}
+		}

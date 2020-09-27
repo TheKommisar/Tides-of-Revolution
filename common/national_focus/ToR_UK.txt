@@ -35,9 +35,630 @@ focus_tree = {
 
 
 
+	############################
+	####### NAVY SECTION #######
+	############################
+
+	focus = {
+		id = ENG_restoring_the_royal_navy
+		icon = GFX_GBR_royal_navy
+		x = 40
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 50
+
+			swap_ideas = {
+				remove_idea = ENG_low_naval_investments	
+				add_idea = ENG_low_naval_investments_2
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_expand_the_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = ENG_restoring_the_royal_navy }
+		x = 41
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+			random_owned_state = {
+
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_owned_state = {
+
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
 
 
+	focus = {
+		id = ENG_revive_the_admiralty
+		icon = GFX_goal_navy_hat_ships
+		prerequisite = { focus = ENG_restoring_the_royal_navy }
+		x = 39
+		y = 1
 
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 25
+add_ideas = ENG_admiralty_1	
+
+		}
+	}
+
+
+	focus = {
+		id = ENG_A_new_naval_plan
+		icon = GFX_goal_BEL_Battleship_Investements
+		prerequisite = { focus = ENG_revive_the_admiralty }
+		prerequisite = { focus = ENG_expand_the_dockyards }
+		x = 40
+		y = 2
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+####################maintain the edge#######
+
+	focus = {
+		id = ENG_The_maintain_the_edge
+		icon = GFX_focus_ger_accept_british_naval_dominance
+		prerequisite = { focus = ENG_A_new_naval_plan }
+		mutually_exclusive = { focus = ENG_In_defence_of_the_empire }
+		x = 38
+		y = 3
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ENG_The_maintain_the_edge
+				bonus = 1
+				uses = 3
+				category = cat_fleet_in_being
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_Battleship_investments
+		icon = GFX_focus_generic_navy_battleship2
+		prerequisite = { focus = ENG_The_maintain_the_edge }
+		x = 38
+		y = 4
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ENG_Battleship_investments
+				bonus = 0.5
+				uses = 2
+				category = bb_tech
+				category = bc_tech
+				category = shbb_tech
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_strangling_the_enemy
+		icon = GFX_focus_generic_destroyer
+		prerequisite = { focus = ENG_Battleship_investments }
+		x = 37
+		y = 5
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ENG_anti_non_contact_committee
+				bonus = 1.0
+				uses = 1
+				category = naval_minelaying
+			}
+			add_tech_bonus = {
+				name = ENG_anti_non_contact_committee
+				bonus = 1.0
+				uses = 1
+				category = naval_minesweeping
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_lessons_of_Jutland
+		icon = GFX_goal_AST_upgrade_reserves
+		prerequisite = { focus = ENG_Battleship_investments }
+		x = 39
+		y = 5
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+add_ideas = ENG_lessons_of_Jutland
+		}
+	}
+
+
+############Defend the Empire#######
+
+
+	focus = {
+		id = ENG_In_defence_of_the_empire
+		icon = GFX_focus_eng_global_defense
+		prerequisite = { focus = ENG_A_new_naval_plan }
+		mutually_exclusive = { focus = ENG_The_maintain_the_edge }
+		x = 42
+		y = 3
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ENG_In_defence_of_the_empire
+				bonus = 1
+				uses = 3
+				category = cat_trade_interdiction
+				category = cat_base_strike
+			}
+		}
+
+	}
+	
+
+	focus = {
+		id = ENG_The_crusier_debate
+		icon = GFX_goal_USA_liberty_ships
+		prerequisite = { focus = ENG_In_defence_of_the_empire }
+		x = 42
+		y = 4
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    country_event = uk.4
+		}
+	}
+
+	focus = {
+		id = ENG_The_Ark_Royal_Class
+		icon = GFX_goal_generic_navy_carrier
+		prerequisite = { focus = ENG_The_crusier_debate }
+		x = 41
+		y = 5
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ENG_The_Ark_Royal_Class
+				bonus = 0.5
+				uses = 1
+				category = cv_tech
+				category = naval_air
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_Imperial_naval_bases
+		icon = GFX_goal_generic_shipyard
+		prerequisite = { focus = ENG_The_crusier_debate }
+		x = 43
+		y = 5
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+#######
+
+	focus = {
+		id = ENG_Keep_the_money_flowing
+		icon = GFX_goal_bag_of_money
+		prerequisite = { focus = ENG_In_defence_of_the_empire focus = ENG_The_maintain_the_edge }
+		x = 40
+		y = 4
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ENG_low_naval_investments_2
+				add_idea = ENG_low_naval_investments_3
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_Expand_the_repair_yards
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = ENG_Imperial_naval_bases focus = ENG_lessons_of_Jutland  }
+		prerequisite = { focus = ENG_The_Ark_Royal_Class focus = ENG_strangling_the_enemy }
+		x = 40
+		y = 6
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+add_ideas = ENG_expand_the_repair_yards
+		}
+	}
+
+	focus = {
+		id = ENG_The_silent_service
+		icon = GFX_goal_generic_navy_anti_submarine
+		prerequisite = { focus = ENG_Expand_the_repair_yards }
+		x = 39
+		y = 7
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ENG_The_silent_service
+				bonus = 0.5
+				uses = 2
+				category = ss_tech
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_cutting_edge_strategy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = ENG_Expand_the_repair_yards }
+		x = 41
+		y = 7
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ENG_cutting_edge_strategy
+				bonus = 0.5
+				uses = 4
+				category = naval_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_Rule_Britannia
+		icon = GFX_GBR_exile_fleets
+		prerequisite = { focus = ENG_cutting_edge_strategy }
+		prerequisite = { focus = ENG_The_silent_service }
+		x = 40
+		y = 8
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ENG_admiralty_1
+				add_idea = ENG_admiralty_2
+			}
+		}
+	}
 
 
 	############################
@@ -114,7 +735,7 @@ focus_tree = {
 
 		completion_reward = {		
 add_ideas = ENG_second_BEF_1	
-			army_experience = 10
+			army_experience = 20
 			}
 		}
 	
@@ -471,7 +1092,7 @@ add_ideas = ENG_second_BEF_1
 		
 
 		completion_reward = {	
-
+			army_experience = 50
 			if = {
 				limit = {
 					has_idea = ENG_second_BEF_3
@@ -525,6 +1146,7 @@ add_ideas = ENG_second_BEF_1
 		
 
 		completion_reward = {
+			army_experience = 20
 			custom_effect_tooltip = ENG_The_two_forces_effect
 add_ideas = ENG_The_two_forces_1
 			}
@@ -654,10 +1276,13 @@ add_ideas = ENG_The_two_forces_1
 		
 
 		completion_reward = {
-			custom_effect_tooltip = ENG_New_defensive_fortifications_effect			
-			add_ideas = ENG_fortification_effort		
-			}
+			custom_effect_tooltip = ENG_New_defensive_fortifications_effect	
+			add_timed_idea = {
+				idea = ENG_fortification_effort		
+				days = 500
+			}		
 		}
+	}
 
 	focus = {
 		id = ENG_Joint_exercises
@@ -720,7 +1345,8 @@ add_ideas = ENG_The_two_forces_1
 		available_if_capitulated = yes
 		
 
-		completion_reward = {	
+		completion_reward = {
+			army_experience = 20
 add_ideas = ENG_prewar_standards_1		
 			}
 		}

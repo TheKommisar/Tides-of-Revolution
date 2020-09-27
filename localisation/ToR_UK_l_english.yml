@@ -90,8 +90,8 @@ ENG_sluggish_economy_desc:0 "Britain in the early 1920s was plunged into economi
 ENG_Decentralised_Empire:0 "Decentralised Empire"
 ENG_Decentralised_Empire_desc:0 "The 1918 Imperial Conference led to the largest series of changes to Imperial governance in recent memory as the dominions were given full self governance, India was granted home rule and the colonies were given increased local control over there affairs (though still with appointed govenors). This has led to a period of surprising stability throughout the Empire and for London the costs of maintaining it are far less. There are issues however as the Empire now lacks a clear centre of authority or clear goals in mind, furthermore several colonial govenors have entrenched themselves in there colonies and openly defying orders from London, but these issues will surely pass right?"
 
-ENG_the_grand_fleet:0 "The Grand Fleet"
-ENG_the_grand_fleet_desc:0 "Though prehaps not as dominant as it once was the Royal Navy still stands as the largest and most formidable fleet on the planet boasting a vast number of capital ships. Though costly to the treasury its benefits to defence of both the British Isles and the Empire are seen by manny to greatly outway it. Furthermore the experiance from maintaining such a massive fleet has given Britain an advantage in shipbuilding and naval warfare."
+ENG_low_naval_investments:0 "Low naval investments"
+ENG_low_naval_investments_desc:0 "In an attempt to save money the Liberal government has since 1924 kept naval building and funding to a minimum with no capital ships having been built since then. This policy does save the treasury a great deal of money it has lead to our fleet becoming heavily run down and increasingly outdated in the face of renewed threats. Work has begun to change this but it will take time."
 
 ENG_paramilitary_violence:0 "Paramilitary violence"
 ENG_paramilitary_violence_desc:0 "First appearing as private defence forces promoted by the Tories following the fall of France to Communism paramilitary groups have spread rapidly across the country soon becoming active political forces in the country much to the chagrin of the political establishment.\n\nCurrently the paramilitaries are split between two main factions, the left leaning Intenational League supported by the Communist Party of Great Britain and the Imperial Leagues supported by sections of the Military. There are also several minor groups including the Social Credit sponsored Greenshirts.\n\nAs the paramilitaries continue to grow in power calls are becoming louder and louder for something to be done about these groups which menance the British people!"
@@ -143,6 +143,24 @@ ENG_loosen_standards_desc:0 "With war dragging on we have no other choice but to
 
 ENG_fortification_effort:0 "Fortification effort"
 ENG_fortification_effort_desc:0 "Our reserve force will be useless without a proper set of defensive works across the nation to man. We must ensure this is the case."
+
+ENG_low_naval_investments_2:0 "Moderate naval investments"
+ENG_low_naval_investments_2_desc:0 "After years of penny pinching the government is once again investing in the Royal Navy, providing for more rapid construction of ships."
+
+ENG_low_naval_investments_3:0 "High naval investments"
+ENG_low_naval_investments_3_desc:0 "Like during the dreadnought race money is being poured into the Royal Navy for the construction of ships at an almost alarming rate but allowing for vast numbers of new ships to be built."
+
+ENG_lessons_of_Jutland:0 "Lessons of Jutland"
+ENG_lessons_of_Jutland_desc:0 "The Battle of Jutland demonstrated many failings of the Royal Navy and hard lessons that needed to be learned. These lessons must be learnt and improved upon so that even if it may delay construction and deployment of new capital ships, they may be the best in the world!"
+
+ENG_expand_the_repair_yards:0 "Expanded repair yards"
+ENG_expand_the_repair_yards_desc:0 "By expanding our repair facilities we are now able to far more easily repair and keep up to date our ships, giving us a great advantage over the enemy."
+
+ENG_admiralty_1:0 "The Admiralty"
+ENG_admiralty_1_desc:0 "Providing the Royal Navy with a capable command system and a centre of innovation the admiralty is key to Britain maintaining the edge against its foes on the seas."
+
+ENG_admiralty_2:0 "The Admiralty"
+ENG_admiralty_2_desc:0 "Providing the Royal Navy with a capable command system and a centre of innovation the admiralty is key to Britain maintaining the edge against its foes on the seas."
 #Descriptions
 POLITICS_GEORGE_V_DESC:0 "WIP \n\nWIP George v (his full name being George Frederick Ernest Albert) was not supposed to be King as the second son of Edward Viii and was originally destined to serve in the navy until the death of his brother Albert Victor in 1892. Following his death he became Duke of York and after the death of his Grandmother Queen Victoria he became Prince of Wales. For the man destined to be King and Emperor he lived a quiet life in the rather unimpressive York Cottage, a marked contrast to his extravagant father Edward Vii.\n\nAfter the death of his father he would ascend to the throne and has throughout his reign faced crises after crises. From the People's budget and the Home Rule Crises to the Great War and the ensuing economic and social decline afterwards he has had much to face as Monarch and has for the most part been able to shoulder its burdens, often acting as a voice of moderation for many governments. The stress of his reign though has taken a serious toll on his health and by 1936 death is not far away for him.\n\nThough by no means an intellectual or particularly interesting (his only two real pastimes being hunting and stamp collecting) he is a beloved figure amongst the British people and is seen as a dedicated and upstanding monarch, relatable to his people. This is especially when compared to his controversial son the Prince of Wales, a man who George has said "After I am dead, the boy will ruin himself in twelve months", whether that comes to pass is yet to be known."
 
@@ -271,3 +289,53 @@ ENG_Break_out_the_chaches_desc:0 "Despite vast budget cuts much of our military 
 ENG_wartime_advancements:0 "Wartime Advancements"
 ENG_wartime_advancements_desc:0 "With war comes innovation and improvement on our militaries doctrines, equipment and tactics for both us and the enemy. We must make sure to understand and implement these improvements lest we fall behind again."
 
+ENG_restoring_the_royal_navy:0 "Restoring the Royal Navy"
+ENG_restoring_the_royal_navy_desc:0 "The increasingly dangerous situation across the world means we can no longer can we put naval rearnament off like we did in the early 1930s. We will no longer attempt to cut costs as much as possible and in launch a great investment into the Royal Navy"
+
+ENG_expand_the_dockyards:0 "Expand the Dockyards"
+ENG_expand_the_dockyards_desc:0 "Though economic downturns and budget cuts have left our navy in a poor state our dockyards are still some of the best in the world. We need only invest a little to ensure our continued dominance in shipbuilding and to eclipse any threat by our foes."
+
+ENG_revive_the_admiralty:0 "Revive the Admiralty"
+ENG_revive_the_admiralty_desc:0 "Once a centre of innovation and from where great victories were won the Admiralty must be returned to its former glory and given the support needed to do so."
+
+ENG_A_new_naval_plan:0 "A new naval plan"
+ENG_A_new_naval_plan_desc:0 "The time has gone to decide what doctrine the Royal Navy should take, a matter of great debate amongst the Admiralty and naval officers but essential to ensuring our fleet is the best it can be."
+
+ENG_The_maintain_the_edge:0 "Maintain the edge"
+ENG_The_maintain_the_edge_desc:0 "The greatest threat of the last war, that of the German high seas fleet, will be the greatest threat in this war aswell. Not to also consider the threat the French fleet poses. To counter them we must do what we did before, focus on containing these fleets and if needed, destroy them."
+
+ENG_Battleship_investments:0 "Battleship investments"
+ENG_Battleship_investments_desc:0 "The Royal Navy has not built a new line of battleships since the Saint class of the early 1920s leaving most of them terribly out of date. Fortunately our naval designers have created several modern designs we need only make minor changes to before we can restart our battleship production."
+
+ENG_strangling_the_enemy:0 "Strangling the enemy"
+ENG_strangling_the_enemy_desc:0 "One of the Royal Navys greatest achievements in the Great War was the blockade of Germany, starving her of resources to the point of near famine. If we can do this once more, even if it means a blockade of the French, we will gain a massive advantage as time goes on."
+
+ENG_lessons_of_Jutland:0 "Lessons of Jutland"
+ENG_lessons_of_Jutland_desc:0 "Though a victory in some regards Jutland is a stain on the record of the Royal Navy with many preventable mistakes leading to terrible losses. If we wish to avoid a repeat of Jutland it is best to learn its lessons, even if at the cost of a more complex production and training process"
+
+ENG_In_defence_of_the_empire:0 "In defence of the Empire"
+ENG_In_defence_of_the_empire_desc:0 "Where the last war was one against the German fleet in the North Sea the next war may not be that. With fighting likley to occur across the world we must build a fleet that can stand the strains and difficulties of fighting across the world."
+
+ENG_The_crusier_debate:0 "The Cruiser Debate"
+ENG_The_crusier_debate_desc:0 "It is clear that to defend the Empire we will need some kind of crusier...but what kind? This has sparked endless debate amongst each sides various proponents, a decision has to be made!"
+
+ENG_The_Ark_Royal_Class:0 "The Ark Royal Class"
+ENG_The_Ark_Royal_Class_desc:0 "Our carrier fleet is by now getting hopelessly outdated in the face of the new ships the Germans, Americans and Japanese are producing, the time has come to build a new class of carriers to rule the waves with."
+
+ENG_Imperial_naval_bases:0 "Imperial naval bases"
+ENG_Imperial_naval_bases_desc:0 "A worldwide navy needs worldwide bases, currently outside of a few we lack such bases with many needing expansion to meet the new demands from our fleet. A programme of building will be undertaken to remedy this."
+
+ENG_Keep_the_money_flowing:0 "Keep the money flowing"
+ENG_Keep_the_money_flowing_desc:0 "Our previous level of investment in the fleet is clearly not enough, we must pour more funding into naval construction to outstrip any other nations attempts to outsize our fleet!"
+
+ENG_Expand_the_repair_yards:0 "Expand the repair yards"
+ENG_Expand_the_repair_yards_desc:0 "The next war is likley to see our fleets put under great strain from repeated battles and long times at sea. Rapid repair and refitting of our ships is essential to keeping them not only at sea as much as possible but also to keep them up to date."
+
+ENG_The_silent_service:0 "The silent service"
+ENG_The_silent_service_desc:0 "Though we did not use them to a great extent during the Great War the Germans have shown the value in a large modern submarine fleet to strangle shipping, something we should take note of to use against them!"
+
+ENG_cutting_edge_strategy:0 "Cutting edge strategy"
+ENG_cutting_edge_strategy_desc:0 "Prehaps our greatest failing in the Great War was not staying up to date with tactics and doctrine leading the Royal Navy to miss several opportunities to win glorious victories. Never again should we let this happen, the Royal Navy must develop doctrine and tactics for the next war with which to smash our enemies completely!"
+
+ENG_Rule_Britannia:0 "Rule Britannia!"
+ENG_Rule_Britannia_desc:0 "Our fleet thanks to our efforts remains the greastest and grandest in the world, a source of pride for our people and of fear amongst our foes! Rule Britannia!"

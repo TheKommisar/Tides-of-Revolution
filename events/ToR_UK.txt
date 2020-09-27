@@ -30,7 +30,7 @@ country_event = {
         create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = social_liberal_subtype
         	traits = {
@@ -40,7 +40,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = social_democrat_subtype
         	traits = {
@@ -50,7 +50,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = classic_liberal_subtype
         	traits = {
@@ -60,7 +60,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = social_conservative_subtype
         	traits = {
@@ -70,7 +70,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = authoritarian_democrat_subtype
         	traits = {
@@ -80,7 +80,7 @@ country_event = {
 		create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = paternal_autocrat_subtype
         	traits = {
@@ -166,4 +166,66 @@ country_event = {
 			}
 		}
 	}
+}
+
+
+####navy####
+
+country_event = { #The Crusier Debate
+    id = uk.4
+    title = uk.4.t
+    desc = uk.4.d
+
+    is_triggered_only = yes
+
+    option = { #Pocket Battleships
+        ai_chance = { factor = 60 }
+        name = uk.4.a
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+ 			hidden_effect = { set_technology = { panzerschiffe = 1 } }
+
+    }
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+			add_tech_bonus = {
+				name = ENG_crusier_debate
+				bonus = 1.0
+				uses = 1
+				category = cl_tech
+			}
+			add_tech_bonus = {
+				name = uk_battleship_focus
+				bonus = 1.0
+				uses = 1
+				category = bb_tech
+			}
+    }
+}
+
+    option = { #Regular Crusiers
+        name = uk.4.b
+        ai_chance = { factor = 20 }
+			add_tech_bonus = {
+				name = ENG_crusier_debate
+				bonus = 1.0
+				uses = 2
+				category = cl_tech
+			}
+    }
+
+    option = { #Regular Crusiers
+        name = uk.4.c
+        ai_chance = { factor = 20 }
+			add_tech_bonus = {
+				name = uk_battleship_focus
+				bonus = 1.0
+				uses = 2
+				category = bb_tech
+			}
+    }
 }

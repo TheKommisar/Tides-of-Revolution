@@ -47,5 +47,23 @@ units = {
 
 	}
 
+	division = {			
+		name = "Senagambia Regiment"		
+		location = 13213
+		division_template = "Royal West African Frontier Force"
+		start_experience_factor = 0.2
+
+
+	}
+
+	division = {			
+		name = "Sierra Leone Regiment"		
+		location = 2038
+		division_template = "Royal West African Frontier Force"
+		start_experience_factor = 0.2
+
+
+	}
+
 }
 

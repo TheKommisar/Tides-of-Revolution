@@ -1,4 +1,4 @@
-﻿capital = 341 # Montenegro
+﻿capital = 341 
 
 oob = ""
 
@@ -43,7 +43,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -63,11 +63,11 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "J.F.C. Fuller"
-	desc = "POLITICS_JFCFULLER_DESC"
-	picture = "Portrait_JFC_Fuller.tga"
+	name = "Constantinople Authority"
+	desc = "POLITICS_CONSTANTINOPLE_AUTHORITY_DESC"
+	picture = "Portrait_STR_Constantinople_Authority.tga"
 	expire = "1999.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 military_mind
 	}

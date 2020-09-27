@@ -1,0 +1,13 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_MAD_compromised_freedom"
+		texturefile = "gfx/interface/ideas/MAD/compromised_freedom.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MAD_backwards_military"
+		texturefile = "gfx/interface/ideas/MAD/backwards_military.tga"
+	}
+}

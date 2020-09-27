@@ -1,17 +1,17 @@
 state={
-	id=274
-	name="STATE_274"
+	id=701
+	name="STATE_701"
 
 	history={
 		owner = BWA
 		add_core_of = BWA
 		victory_points = {
-			10862 1 
+			4989 1 
 		}
 		buildings = {
 			infrastructure = 3
-			10862 = {
-				naval_base = 2
+			4989 = {
+				naval_base = 1
 
 			}
 
@@ -20,9 +20,9 @@ state={
 	}
 
 	provinces={
-		8039 8096 10862 12742 12785 12787 13136 
+		4989 13213 
 	}
-	manpower=3163600
+	manpower=199520
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=enclave
 }
