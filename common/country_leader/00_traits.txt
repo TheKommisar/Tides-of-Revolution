@@ -16,3 +16,11 @@ leader_traits = {
 		high_command_cost_factor = -0.25
 		random = no
 	}
+	NMB_ox_of_south_west_africa = {
+	attrition = -0.05
+	supply_consumption_factor = -0.1
+	heat_attrition_factor = -0.2
+	resistance_growth = -0.1
+	training_time_factor = 0.1
+		random = no
+	}

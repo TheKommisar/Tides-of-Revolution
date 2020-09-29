@@ -15,6 +15,13 @@ SAF_revolutionary_socialist_party:0 "ANC"
 SAF_revolutionary_socialist_party_long:0 "African National Congress"
 SAF_vanguardist_party:0 "SACP"
 SAF_vanguardist_party_long:0 "South African Communist Party"
+SAF_orthodox_marxist_party:0 "SACP"
+SAF_orthodox_marxist_party_long:0 "South African Communist Party"
+SAF_social_liberal_party:0 "Unionist Party"
+SAF_social_liberal_party_long:0 "Unionist Party"
+SAF_classic_liberal_party:0 "Dominion Party"
+SAF_classic_liberal_party_long:0 "Dominion Party"
+
 #Country Names
 SAF_paternal_autocrat:0 "Union of South Africa"
 SAF_paternal_autocrat_DEF:0 "the Union of South Africa"
@@ -26,8 +33,17 @@ SAF_social_conservative_DEF:1 "Union of South Africa"
 SAF_paternal_autocrat_ADJ:0 "South African"
 SAF_authoritarian_democrat_ADJ:0 "South African"
 SAF_social_conservative_ADJ:0 "South African"
-
-
+#Ideas
+SAF_minority_rule:0 "White Minority Rule"
+SAF_minority_rule_desc:0 "South Africa is administered by a White Minority, it's harsh segregation and bias racial policies destroy any and all loyalty the native African population has towards us. The Army is White Only, the higher public and private offices are reserved for whites, only whites can vote and the government does it's best to maintain a minor form of segregation. All these factors have culminated in an extremely stable and often ineffective rule over the majority of the population."
+SAF_depression:0 "Economic Depression"
+SAF_depression_desc:0 "Depite the best efforts of the South Africa Party government to gain economic independence from Britain, during the 20's the close bonds between South Africa and the UK's economies caused the collapsing British economy to drag South Africa's down with it. Ever since the late 20's South Africa has been having to steadily recover from the economic shock of Britain's economic failures, the effects still libegering into the 30's with decisive government action needed to float the economy back to normalcy." 
+SAF_boer_threat:0 "The Boer Threat"
+SAF_boer_threat_desc:0 "The radical Afrikaner minority, or in broader terms the National Party as a whole, is regarded by pur government as the greatest threat to South African democracy and all British values. The National Party has remained a fervently reactionary, mainly Afrikaner based, political party as far as 1914. The party maintains the goal of implementing an extremely cruel and oppressive racial system of segregation known as Apartheid across South Africa, along with wishing to formally abandon Britain and seek closer ties with the German Empire."
+SAF_ANC:0 "The ANC"
+SAF_ANC_desc:0 "The ANC, African National Congress, initially founded as a rather conservative native rights group exploded with radical Socialist Membership due to the French Socialist Governments campaign of increasing Socialist activism across Africa. The party, though prevelent across all of Sub-Saharan Africa in various forms, is by far most promenent in it's Birthplace of South Africa. The party maintains an ardent manifesto of Majority Rule across Africa, the expulsion of all European powers from the African continent and the creation of an African Socialist Workers paradise. This group has been nothing but a thorn in our side for two long and will need to be removed with extreme prejudice if we are to establish a more perfect union."
+SAF_professional_army:0 "Professional Army"
+SAF_professional_army_desc:0 "South Africa maintains perhaps the most elite and well trained fighting formation in the Commonwealth outside of Britain herself. Jan Smuts during the Great War saw the necessary needed reforms to the Armed forces, which he began in 1919 during the East Africa campaign, in which he attempted to establish elite soldiers to strike at the Askari Guerilla supply lines through raiding tactics. Smuts expanded upon this postwar, and during the 20's he put signifigant effort into reforming the South African Army into an elite and well trained fighting force capable of making up for it's smaller numbers with skill advantage. This army policy has carried into the present and South Africa still maintains rigorous training, discipline and constant reform and adaptation to modern tactics."
 #Ministers
 #should be reintegrated
 
@@ -38,8 +54,31 @@ SAF_social_conservative_ADJ:0 "South African"
 
 #Events
 #should be reintegrated
-
+southwestafricaincident.1.t:0 "Defectors Cross the Border"
+southwestafricaincident.1.d:1 "During the night a large number of Afrikaner men bearing South African Uniforms and weapons raided several weapons depots across the border region with German South West Africa and then proceeded to cross it and enter the German colony. This defection is not the first or the suspected last of the Afrikaner defections from our military to the German colony, but it is certainly one of the more damaging, with nearly 300 Men gone and hundreds of weapons with them. However with the upcoming election some fear this serious blow to our governments prestige could harm South Africa in the long term, some of the more war happy members of the South Africa Party have suggested an attempted cross border raid into the demilitarized zone in German South West Africa to capture the defectors. The very idea of such a raid is dangerous, though the DMZ along the border technically prevents the Schutztruppe from entering the area in which we would be crossing into, blatantly crossing the border is a volition of international law and could lead to the Germans attempting to expel us from the Colony."
+southwestafricaincident.1.a:0 "It's too Risky"
+southwestafricaincident.1.b:0 "Greenlight the Operation"
+southwestafricaincident.3.t:0 "Defectors Defeated in South West Africa"
+southwestafricaincident.3.d:0 "Despite their best efforts to escape the wrath of our army, the Afrikaner defectors who recently crossed the border into South West Africa were tracked down and attacked outside the city of Keetmanshoop, resulting in the defectors being surrounded and surrendering after a brief firefight. The highly sucessful operation has irked no response from the South West African government, leading the strike team sent in after the defectors to return back to South Africa with the Afrikaner defectors in tow. Overall the operation is a major success and has garnered us much praise and support among our people, even the National Party has not directly spoken out against the governments raid itself, merely the cause of the initial defection itself, easily drowned out by the scores of patriotic South Africans whipping up a frenzy."
+southwestafricaincident.3.a:0 "A Great Triumph!"
+southwestafricaincident.5.t:0 "The Germans Demand Our Withdrawl"
+southwestafricaincident.5.d:0 "Despite our assumption the South West Africans would do nothing to combat our attempted raid the Germans have issued an official statement to our government demanding our withdrawl from theur territory, and threatening to expel our forces themselves if we do not comply. This reaction has prompted many of the proponents of the raid to falter in their conviction, and are now unsure on how to react, though the majority are in favor of continuing the raid. Despite the risks of facing the Germans head on, many assume the Germans are merely bluffing and urge us to press on." 
+southwestafricaincident.5.a:0 "Call Their Bluff"
+southwestafricaincident.5.b:0 "Cease the Pursuit"
+southwestafricaincident.7.t:0 "German Troops Enter the DMZ"
+southwestafricaincident.7.d:0 "Word has reached our administration that South West Africa has deployed troops into the Demilitarized zone in an effort to oppose our incursion and expel us from their territory. This news has alarmed every member of our current government, we are on the presipice of direct military conflict with South West Africa. Though it is unlikely a full on War Would begin we are at the final stage now, if we continue to press on with out endeavor there is no turning back, the Germans and South Africa will come to blows. Many, especially members of the National Party, say it's not worth the price of fighting the Germans just to catch a few renegade defectors, but should we withdraw it will be taken as a major action of cowardice and failure by our people."
+southwestafricaincident.7.a:0 "The Germans Asked For it"
+southwestafricaincident.7.b:0 "Withdraw our Forces, the Boers aren't Worth the Blood"
+southwestafricaincident.8.t:0 "Victory Against South West Africa!"
+southwestafricaincident.8.d:0 "Great news from the Front. After a hard fought clash with the German Schutztruppe in South West Africa, our South Affrican Forces have come out on top! The climactic battle was followed by a string of victories against the defectors, the Schutztruppe retreating and abandoning them after their defeat, the Defectors were captured and our forces are returning home. This monumental victory has garnered us much praise from our population and is seen as a heroic stand against the Germans by the South African people. Already we are reaping the rewards of being the progenators of the raid and it seems we have made the right decision."
+southwestafricaincident.8.a:0 "Victory For South Africa!"
+southwestafricaincident.9.t:0 "Defeat Against South West Africa"
+southwestafricaincident.9.d:0 "Despite our best efforts our armed forces have been repulsed in South West Africa by the German Schutztruppe. The humiliating failure of our forces to break through the German forces and to capture the defectors has led to mass discontent within and outside of our own party. We are being hammered by the pro British War Hawks in the South Africa Party for the butchering of the operation, the Pro German Afrikaners of the National Party for friving soldiers to defection and launching the raid in the first place, and down to the Citizens, Soldiers and Officers of our nation. This failure of ours has already cost us large numbers of supporters and members, a costly mistake this was."
+southwestafricaincident.9.a:0 "We have Failed...."
+southwestafricaincident.13.t:0 "The Germans Back Down"
+southwestafricaincident.13.d:0 "Pleasing news came from South West Africa today as the administration has not engaged or harassed our forces in their attempt to capture the defectors. With the Germans silent our boys easily tracked down and attacked the fleeing deserters near Keetmanshoop. The Afrikaner rebels were surrounded and outgunned, the fighting was bitter with the Boers having time to entrench themselves due to the German threats delaying our response, but after a hard fight the defectors eventually surrendered and the South African forces have taken the prisoners back across the Border. The victory has greatly boosted the governments prestige and the South West African governments lack of response has created a feeling of power and pride in many in the country."
+southwestafricaincident.13.a:0 "We Have Showed Those Germans We Are Not to be Trifled With!"
 #Descriptions
-
+POLITICS_JAN_SMUTS_DESC:0 "Jan Christian Smuts was born on the 24th of May, 1870, in the small town of Bovenplaats as a Cape Colony Afrikaner. Jan Smuts life can be summed up as one big War, Smuts played an extremely active role in the Second Boer War, being the eyes and Ears of president Kruger in Praetoria and leading Afrikaner Kommandos with a fierce determination against the British. Surprisingly the man who once attempted to drive the British from his native home switched opinions rapidly following 1902, as a member of the Het Volk party Smuts would play a key role in the creation of the New British allied and controlled Union of South Africa and the forming of the Pro-British South Africa Party. Smuts would continue serving the British Commonwealth faithfully onward, fighting in German South West Africa at first and then in the East Africa Campaign, managing to strike severe blows to Paul von Lettow Vorebecks guerilla campaign by begging the systematic destruction of their food supplies and starving them of Ammo, Medical Supplies or anything that could be used to fight the British. Smuts, having served well in the war and displayed South African power across Africa, would be elected the 2nd Prime Minister of South Africa. Smuts however would see his popularity tank due to circumstances outside his control.Britain refused to grant German Colonial South West Africa to the Union of South Africa in 1920 in order to strengthen it's position in the Peace with Germany. After this Smuts faced successive economic crisis back to back, Britain and the greater Commonwealth economy collapsing. Smuts very well should have lost the 1924 Election, but instead Smuts, using a combined tactic of further promises and banking on his sucessful damage control with the economic Collapse, along with the National Parties Pro-German stance turning the War Hawk Anti-Germans away and their vehement opposition to the Labor party, Smuts squezked by, barely, and retained his Prime Ministership, winning every election following by a small majority as he continued to make gradual improvements to the situation and banking on the National Parties constant infighting. However as 1936 dawns, even with the infighing of the National Party it seems unlikely that Smuts may lose his office soon, as his party may lose control of the Nation."
 #cosmetic tags
  

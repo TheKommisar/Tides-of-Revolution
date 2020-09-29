@@ -69,20 +69,26 @@ set_politics = {
 set_popularities = {
 	vanguardist = 1
         orthodox_marxist = 0
-	revolutionary_socialist = 2
-        social_democrat = 11
-        social_liberal = 14
-        classic_liberal = 3
-        social_conservative = 43
-        authoritarian_democrat = 5
-        paternal_autocrat = 12
-        national_populist = 9
+	revolutionary_socialist = 8
+        social_democrat = 12
+        social_liberal = 9
+        classic_liberal = 11
+        social_conservative = 31
+        authoritarian_democrat = 21
+        paternal_autocrat = 4
+        national_populist = 3
 }
-
+add_ideas = {
+SAF_minority_rule
+SAF_depression
+SAF_boer_threat
+SAF_ANC
+SAF_professional_army
+}
 create_country_leader = {
-	name = "Lord Hyde"
+	name = "Jan Smuts"
 	desc = ""
-	picture = "Portrait_Lord_Hyde.tga"
+	picture = "Portrait_SAF_Jan_Smuts.tga"
 	expire = "1953.3.1"
 	ideology = social_conservative_subtype
 	traits = {

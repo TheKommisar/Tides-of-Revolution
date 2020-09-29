@@ -1,0 +1,60 @@
+﻿
+division_template = {
+	name = "Schutztruppe-Division"		# Infantry Division
+	division_names_group = NMB_INF_01
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+units = {
+        
+	division = { # ""
+		name = "Windhuk Schutzkraftbefehl"
+		location = 7770
+		division_template = "Schutztruppe-Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = { # ""
+		name = "Keetmanshoop Schutzkraftbefehl"
+		location = 10978
+		division_template = "Schutztruppe-Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+
+	}
+	division = { # ""
+		name = "Waterberg Schutzkraftbefehl"
+		location = 10957
+		division_template = "Schutztruppe-Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+
+	}
+		division = { # ""
+		name = "Grosserbrunnen Schutzkraftbefehl"
+		location = 12519
+		division_template = "Schutztruppe-Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "GER" } }
+		start_experience_factor = 1.3
+		start_equipment_factor = 1.0
+
+	}
+}

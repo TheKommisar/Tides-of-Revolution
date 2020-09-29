@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+
+	ROM_the_new_order = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = #
+		removal_cost = -1
+		modifier = {
+		political_power_gain = 0.15
+		army_core_defence_factor = 0.025
+		army_core_attack_factor = 0.025
+		army_morale_factor = 0.02
+		stability_factor = 0.10
+		political_advisor_cost_factor = -0.25
+		economy_cost_factor = -0.25
+		drift_defense_factor = 0.5
+		conscription = 0.02
+			}
+		}
+			ROM_greater_romania = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = #
+		removal_cost = -1
+		modifier = {
+		political_power_gain = 0.10
+		war_support_factor = 0.10
+		justify_war_goal_time = -0.25
+			}
+						targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.075
+				defense_bonus_against = 0.075
+			}
+		}

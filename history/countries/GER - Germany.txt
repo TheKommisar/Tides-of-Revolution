@@ -181,24 +181,7 @@ NMB = {
 	social_conservative = 12
 	social_liberal = 3
 	classic_liberal = 4
-        }
-		add_ideas = {
-	extensive_conscription
-	NMB_colony
-	NMB_germanization
-	NMB_schutztruppe
-	NMB_afrikaner_exiles	
-		}
-create_country_leader = {
-	name = "Ludwig von Estorff"
-	desc = "POLITICS_LUDWIG_VON_ESTROFF_DESC"
-	picture = ".tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}		
+        }		
 }
 add_ideas = {
 	limited_exports
