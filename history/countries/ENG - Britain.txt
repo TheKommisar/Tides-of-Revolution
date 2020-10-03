@@ -5,9 +5,9 @@ if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	set_naval_oob = "ENG_1936_Naval"
+	set_naval_oob = "ENG_1936_naval"
 	else = {
-		set_naval_oob = "ENG_1936_Naval_Legacy"
+		set_naval_oob = "ENG_1936_naval_legacy"
 	}
 }
 
@@ -672,7 +672,6 @@ create_navy_leader = {
 	coordination_skill = 2
 }
 
-
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Variants ###
@@ -761,7 +760,7 @@ if = {
 		}
 	}
 
-	create_equipment_variant = {
+        create_equipment_variant = {
 		name = "Invincible Class"
 		type = battle_cruiser_1
 		parent_version = 0

@@ -84,7 +84,7 @@ set_popularities = {
         national_populist = 5
 }
 create_country_leader = {
-	name = "Bảo Đại"  # aka Cuong De
+	name = "Bao Đai I"  # aka Cuong De
 	desc = "POLITICS_CUONG_DE_DESC"
 	picture = "Portrait_Vietnam_Cuong_De.tga"
 	expire = "1965.1.1"

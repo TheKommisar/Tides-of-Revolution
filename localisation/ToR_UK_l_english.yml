@@ -90,7 +90,7 @@ ENG_sluggish_economy_desc:0 "Britain in the early 1920s was plunged into economi
 ENG_Decentralised_Empire:0 "Decentralised Empire"
 ENG_Decentralised_Empire_desc:0 "The 1918 Imperial Conference led to the largest series of changes to Imperial governance in recent memory as the dominions were given full self governance, India was granted home rule and the colonies were given increased local control over there affairs (though still with appointed govenors). This has led to a period of surprising stability throughout the Empire and for London the costs of maintaining it are far less. There are issues however as the Empire now lacks a clear centre of authority or clear goals in mind, furthermore several colonial govenors have entrenched themselves in there colonies and openly defying orders from London, but these issues will surely pass right?"
 
-ENG_low_naval_investments:0 "Low naval investments"
+ENG_low_naval_investments:0 "Low Naval Investments"
 ENG_low_naval_investments_desc:0 "In an attempt to save money the Liberal government has since 1924 kept naval building and funding to a minimum with no capital ships having been built since then. This policy does save the treasury a great deal of money it has lead to our fleet becoming heavily run down and increasingly outdated in the face of renewed threats. Work has begun to change this but it will take time."
 
 ENG_paramilitary_violence:0 "Paramilitary violence"
@@ -161,6 +161,8 @@ ENG_admiralty_1_desc:0 "Providing the Royal Navy with a capable command system a
 
 ENG_admiralty_2:0 "The Admiralty"
 ENG_admiralty_2_desc:0 "Providing the Royal Navy with a capable command system and a centre of innovation the admiralty is key to Britain maintaining the edge against its foes on the seas."
+#Descriptions
+
 #Descriptions
 POLITICS_GEORGE_V_DESC:0 "WIP \n\nWIP George v (his full name being George Frederick Ernest Albert) was not supposed to be King as the second son of Edward Viii and was originally destined to serve in the navy until the death of his brother Albert Victor in 1892. Following his death he became Duke of York and after the death of his Grandmother Queen Victoria he became Prince of Wales. For the man destined to be King and Emperor he lived a quiet life in the rather unimpressive York Cottage, a marked contrast to his extravagant father Edward Vii.\n\nAfter the death of his father he would ascend to the throne and has throughout his reign faced crises after crises. From the People's budget and the Home Rule Crises to the Great War and the ensuing economic and social decline afterwards he has had much to face as Monarch and has for the most part been able to shoulder its burdens, often acting as a voice of moderation for many governments. The stress of his reign though has taken a serious toll on his health and by 1936 death is not far away for him.\n\nThough by no means an intellectual or particularly interesting (his only two real pastimes being hunting and stamp collecting) he is a beloved figure amongst the British people and is seen as a dedicated and upstanding monarch, relatable to his people. This is especially when compared to his controversial son the Prince of Wales, a man who George has said "After I am dead, the boy will ruin himself in twelve months", whether that comes to pass is yet to be known."
 
@@ -338,4 +340,4 @@ ENG_cutting_edge_strategy:0 "Cutting edge strategy"
 ENG_cutting_edge_strategy_desc:0 "Prehaps our greatest failing in the Great War was not staying up to date with tactics and doctrine leading the Royal Navy to miss several opportunities to win glorious victories. Never again should we let this happen, the Royal Navy must develop doctrine and tactics for the next war with which to smash our enemies completely!"
 
 ENG_Rule_Britannia:0 "Rule Britannia!"
-ENG_Rule_Britannia_desc:0 "Our fleet thanks to our efforts remains the greastest and grandest in the world, a source of pride for our people and of fear amongst our foes! Rule Britannia!"
+ENG_Rule_Britannia_desc:0 "Our fleet thanks to our efforts remains the greastest and grandest in the world, a source of pride for our people and of fear amongst our foes! Rule Britannia!" 

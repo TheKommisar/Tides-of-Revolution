@@ -24,3 +24,4 @@ leader_traits = {
 	training_time_factor = 0.1
 		random = no
 	}
+}

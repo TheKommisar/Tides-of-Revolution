@@ -13,6 +13,9 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
         ITA_national_unity_government
+        ITA_great_depression
+        ITA_memories_of_the_war
+        ITA_broken_nation
 }
 
 550 = {

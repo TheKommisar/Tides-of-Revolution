@@ -1,6 +1,6 @@
 ﻿capital = 315
 
-oob = "CUB_1936"
+oob = "blank"
 
 # Starting tech
 set_technology = {
@@ -28,7 +28,7 @@ set_convoys = 20
 	classic_liberal = 8
         }     
 create_country_leader = {
-	name = ""
+	name = "Paul von Lettow-Vorbeck" #placeholder
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
 	picture = "ANCAP_BARNET.tga"
 	expire = "1965.1.1"

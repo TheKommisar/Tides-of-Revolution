@@ -20,8 +20,7 @@ SAF_orthodox_marxist_party_long:0 "South African Communist Party"
 SAF_social_liberal_party:0 "Unionist Party"
 SAF_social_liberal_party_long:0 "Unionist Party"
 SAF_classic_liberal_party:0 "Dominion Party"
-SAF_classic_liberal_party_long:0 "Dominion Party"
-
+SAF_classic_liberal_party_long:0 "Dominion Party
 #Country Names
 SAF_paternal_autocrat:0 "Union of South Africa"
 SAF_paternal_autocrat_DEF:0 "the Union of South Africa"
@@ -33,6 +32,7 @@ SAF_social_conservative_DEF:1 "Union of South Africa"
 SAF_paternal_autocrat_ADJ:0 "South African"
 SAF_authoritarian_democrat_ADJ:0 "South African"
 SAF_social_conservative_ADJ:0 "South African"
+
 #Ideas
 SAF_minority_rule:0 "White Minority Rule"
 SAF_minority_rule_desc:0 "South Africa is administered by a White Minority, it's harsh segregation and bias racial policies destroy any and all loyalty the native African population has towards us. The Army is White Only, the higher public and private offices are reserved for whites, only whites can vote and the government does it's best to maintain a minor form of segregation. All these factors have culminated in an extremely stable and often ineffective rule over the majority of the population."
@@ -44,6 +44,7 @@ SAF_ANC:0 "The ANC"
 SAF_ANC_desc:0 "The ANC, African National Congress, initially founded as a rather conservative native rights group exploded with radical Socialist Membership due to the French Socialist Governments campaign of increasing Socialist activism across Africa. The party, though prevelent across all of Sub-Saharan Africa in various forms, is by far most promenent in it's Birthplace of South Africa. The party maintains an ardent manifesto of Majority Rule across Africa, the expulsion of all European powers from the African continent and the creation of an African Socialist Workers paradise. This group has been nothing but a thorn in our side for two long and will need to be removed with extreme prejudice if we are to establish a more perfect union."
 SAF_professional_army:0 "Professional Army"
 SAF_professional_army_desc:0 "South Africa maintains perhaps the most elite and well trained fighting formation in the Commonwealth outside of Britain herself. Jan Smuts during the Great War saw the necessary needed reforms to the Armed forces, which he began in 1919 during the East Africa campaign, in which he attempted to establish elite soldiers to strike at the Askari Guerilla supply lines through raiding tactics. Smuts expanded upon this postwar, and during the 20's he put signifigant effort into reforming the South African Army into an elite and well trained fighting force capable of making up for it's smaller numbers with skill advantage. This army policy has carried into the present and South Africa still maintains rigorous training, discipline and constant reform and adaptation to modern tactics."
+
 #Ministers
 #should be reintegrated
 
@@ -78,7 +79,13 @@ southwestafricaincident.9.a:0 "We have Failed...."
 southwestafricaincident.13.t:0 "The Germans Back Down"
 southwestafricaincident.13.d:0 "Pleasing news came from South West Africa today as the administration has not engaged or harassed our forces in their attempt to capture the defectors. With the Germans silent our boys easily tracked down and attacked the fleeing deserters near Keetmanshoop. The Afrikaner rebels were surrounded and outgunned, the fighting was bitter with the Boers having time to entrench themselves due to the German threats delaying our response, but after a hard fight the defectors eventually surrendered and the South African forces have taken the prisoners back across the Border. The victory has greatly boosted the governments prestige and the South West African governments lack of response has created a feeling of power and pride in many in the country."
 southwestafricaincident.13.a:0 "We Have Showed Those Germans We Are Not to be Trifled With!"
+
 #Descriptions
 POLITICS_JAN_SMUTS_DESC:0 "Jan Christian Smuts was born on the 24th of May, 1870, in the small town of Bovenplaats as a Cape Colony Afrikaner. Jan Smuts life can be summed up as one big War, Smuts played an extremely active role in the Second Boer War, being the eyes and Ears of president Kruger in Praetoria and leading Afrikaner Kommandos with a fierce determination against the British. Surprisingly the man who once attempted to drive the British from his native home switched opinions rapidly following 1902, as a member of the Het Volk party Smuts would play a key role in the creation of the New British allied and controlled Union of South Africa and the forming of the Pro-British South Africa Party. Smuts would continue serving the British Commonwealth faithfully onward, fighting in German South West Africa at first and then in the East Africa Campaign, managing to strike severe blows to Paul von Lettow Vorebecks guerilla campaign by begging the systematic destruction of their food supplies and starving them of Ammo, Medical Supplies or anything that could be used to fight the British. Smuts, having served well in the war and displayed South African power across Africa, would be elected the 2nd Prime Minister of South Africa. Smuts however would see his popularity tank due to circumstances outside his control.Britain refused to grant German Colonial South West Africa to the Union of South Africa in 1920 in order to strengthen it's position in the Peace with Germany. After this Smuts faced successive economic crisis back to back, Britain and the greater Commonwealth economy collapsing. Smuts very well should have lost the 1924 Election, but instead Smuts, using a combined tactic of further promises and banking on his sucessful damage control with the economic Collapse, along with the National Parties Pro-German stance turning the War Hawk Anti-Germans away and their vehement opposition to the Labor party, Smuts squezked by, barely, and retained his Prime Ministership, winning every election following by a small majority as he continued to make gradual improvements to the situation and banking on the National Parties constant infighting. However as 1936 dawns, even with the infighing of the National Party it seems unlikely that Smuts may lose his office soon, as his party may lose control of the Nation."
+
+#cosmetic tags
+
+
+
 #cosmetic tags
  

@@ -111,7 +111,19 @@ create_import = {
 set_convoys = 400
 
 create_faction = prosperity_sphere
+add_to_faction = FER
+add_to_faction = VIN
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+		not = { has_dlc = "Waking the Tiger" }
+	}
+        set_autonomy = {
+		target = FER
+		autonomous_state = autonomy_puppet
+	}
+}
 
 set_politics = {
 	ruling_party = social_conservative

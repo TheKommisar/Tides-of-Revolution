@@ -1,0 +1,242 @@
+focus_tree = {
+	id = italian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+
+	#Foreign branch
+ 
+        focus = {
+		id = ITA_looking_outwards
+		icon = GFX_goal_support_democracy
+		x = 10
+                y = 0
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_allies_in_london
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = ITA_looking_outwards }
+                mutually_exclusive = { focus = ITA_italy_on_her_own }
+		x = -1
+		y = 1
+                relative_position_id = ITA_looking_outwards
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_italy_on_her_own
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = ITA_looking_outwards }
+                mutually_exclusive = { focus = ITA_allies_in_london }
+		x = 1
+		y = 1
+                relative_position_id = ITA_looking_outwards
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_tunisian_question
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = ITA_italy_on_her_own focus = ITA_allies_in_london }
+		x = -2
+		y = 1
+                relative_position_id = ITA_allies_in_london
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_a_meeting_in_tripoli
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = ITA_tunisian_question }
+		x = 0
+		y = 1
+                relative_position_id = ITA_tunisian_question
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_assembly_in_addis_ababa
+		icon = GFX_focus_generic_diplomatic_treaty
+		prerequisite = { focus = ITA_a_meeting_in_tripoli }
+		x = 0
+		y = 1
+                relative_position_id = ITA_a_meeting_in_tripoli
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_developing_lycia
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = ITA_italy_on_her_own focus = ITA_allies_in_london }
+		x = 4
+		y = 1
+                relative_position_id = ITA_allies_in_london 
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_investing_more_in_the_straits
+		icon = GFX_goal_foreign_diplomacy
+		prerequisite = { focus = ITA_developing_lycia }
+		x = 0
+		y = 1
+                relative_position_id = ITA_developing_lycia
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_cairo_deal
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = ITA_investing_more_in_the_straits}
+		x = 0
+		y = 1
+                relative_position_id = ITA_investing_more_in_the_straits
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_agreement_with_greece
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = ITA_italy_on_her_own focus = ITA_allies_in_london }
+		x = 0
+		y = 1
+                relative_position_id = ITA_allies_in_london 
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_albanian_referendum
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = { focus = ITA_agreement_with_greece }
+		x = 0
+		y = 1
+                relative_position_id = ITA_agreement_with_greece 
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_detente_with_the_austrians
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = ITA_italy_on_her_own focus = ITA_allies_in_london }
+		x = 2
+		y = 1
+                relative_position_id = ITA_allies_in_london 
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_support_french_exiles
+		icon = GFX_focus_chi_reach_out_to_france
+		prerequisite = { focus = ITA_detente_with_the_austrians }
+		x = 0
+		y = 1
+                relative_position_id = ITA_detente_with_the_austrians
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_persian_oil_deal
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = ITA_support_french_exiles focus = ITA_albanian_referendum }
+		x = 1
+		y = 1
+                relative_position_id = ITA_albanian_referendum 
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = ITA_a_return_to_the_world_stage
+		icon = GFX_focus_generic_italy_first
+		prerequisite = { focus = ITA_persian_oil_deal } 
+                prerequisite = { focus = ITA_assembly_in_addis_ababa }
+                prerequisite = { focus = ITA_cairo_deal } 
+		x = 0
+		y = 1
+                relative_position_id = ITA_persian_oil_deal
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+}

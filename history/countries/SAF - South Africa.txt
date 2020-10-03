@@ -85,10 +85,11 @@ SAF_boer_threat
 SAF_ANC
 SAF_professional_army
 }
+
 create_country_leader = {
-	name = "Jan Smuts"
+	name = "Lord Hyde"
 	desc = ""
-	picture = "Portrait_SAF_Jan_Smuts.tga"
+	picture = "Portrait_Lord_Hyde.tga"
 	expire = "1953.3.1"
 	ideology = social_conservative_subtype
 	traits = {

@@ -31,7 +31,7 @@ picture = NMB_sudwestafrika
 		stability_factor = 0.1
 		political_power_gain = 0.05
 		conscription_factor = 0.20
-		monthly_population = 0.2
+                monthly_population = 0.2
 			}
 		}
 	NMB_schutztruppe = {
@@ -62,14 +62,13 @@ picture = NMB_afrikaner_exiles
 		}
 		removal_cost = -1
 		modifier = {
-		war_support_factor = 0.1
-			}
+war_support_factor = 0.1
+            }
 			targeted_modifier = {
 				tag = SAF
 				attack_bonus_against = 0.05
 				defense_bonus_against = 0.05
-				}
-			
+			}
 		}
 
 

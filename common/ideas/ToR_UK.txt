@@ -917,7 +917,6 @@ recon_factor = 0.1
 			}	
 
 		}
-
 #######Navy ideas#######
 
 		ENG_low_naval_investments_2 = {
@@ -1009,7 +1008,7 @@ recon_factor = 0.1
 		ENG_expand_the_repair_yards = {
 
 			picture = generic_coastal_defense_ships
-			
+
 			allowed = {
 				always = no
 			}
@@ -1017,9 +1016,9 @@ recon_factor = 0.1
 			allowed_civil_war = {
 				NOT = { has_government = communism }
 			}
-			
+
 			removal_cost = -1
-						
+
 			modifier = {
 				refit_ic_cost = -0.1
 				refit_speed = 0.1
@@ -1027,7 +1026,7 @@ recon_factor = 0.1
 			}
 		}
 
-	
+
 
 		ENG_admiralty_1 = {
 			allowed = {

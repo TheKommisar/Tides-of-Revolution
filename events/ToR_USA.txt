@@ -15,8 +15,8 @@ country_event = { # introduction
       is_triggered_only = yes
 
      
-	option = { # offer refused
-		name = usa.1.b
+	option = { 
+		name = usa.1.a
 	}
 }
 
@@ -79,7 +79,7 @@ country_event = { # cancel elections?
 		}
 		set_country_flag = USA_election_cancelled
 		add_popularity = {
-            ideology = authoritarian_democrat
+            ideology = paternal_autocrat
             popularity = 0.3                
         }
 		create_country_leader = {
@@ -87,14 +87,18 @@ country_event = { # cancel elections?
 	        desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
 	        picture = "Portrait_USA_Douglas_Macarthur.tga"
 	        expire = "1965.1.1"
-	        ideology = authoritarian_democrat_subtype
+	        ideology = paternal_autocrat_subtype
 	        traits = { #
 		    }
 		}
 		set_politics = {
-	        ruling_party = authoritarian_democrat
+	        ruling_party = paternal_autocrat
         }
-		set_party_name = { ideology = authoritarian_democrat name = USA_authoritarian_democrat_party_macarthur name_long = USA_authoritarian_democrat_party_macarthur_long }
+                set_party_name = { 
+                ideology = paternal_autocrat
+                long_name = USA_paternal_autocrat_party_macarthur_long 
+                name = USA_paternal_autocrat_party_macarthur 
+                }
 	}
 }
 
@@ -136,9 +140,9 @@ country_event = { # 1936 Democratic Primary
 		}
 	}
 	option = { # nominate that racist guy I cant name right now
-		name = usa.6.b
+		name = usa.6.c
 		hidden_effect = {
-			set_country_flag = USA_blease_chosen_democrats
+			set_country_flag = USA_talmadge_chosen_democrats
 		}
 	}
 }
@@ -170,24 +174,40 @@ country_event = { #1936 elections
 
     #Make multiple events for different outcomes of the primaries, for now it will be handled by just this one
 
-    option = { #Republicans win
+    option = { #socialists win
         name = usa.8.a
+        set_politics = {
+		        ruling_party = revolutionary_socialist
+		    }
+		    add_popularity = {
+		        ideology = revolutionary_socialist
+		        popularity = 0.3
+		    }
+    }
+
+    option = { #Republicans win
+        name = usa.8.b
+        set_politics = {
+		        ruling_party = social_liberal
+		    }
+		    add_popularity = {
+		        ideology = social_liberal
+		        popularity = 0.3
+		    }
     }
 
     option = { #Democrats win
-        name = usa.8.b
+        name = usa.8.c
         if = {
             limit = {
                 has_country_flag = USA_al_smith_chosen_democrats
             }
-		    create_country_leader = {
-	            name = "Al Smith"
-	            desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-	            picture = "Portrait_USA_Al_Smith.tga"
-	            expire = "1965.1.1"
-	            ideology = authoritarian_democrat_subtype
-	            traits = { #
-		        }
+		   set_politics = {
+		        ruling_party = market_liberal
+		    }
+		    add_popularity = {
+		        ideology = market_liberal
+		        popularity = 0.3
 		    }
 		}
 
@@ -195,46 +215,39 @@ country_event = { #1936 elections
             limit = {
                 has_country_flag = USA_champ_clark_chosen_democrats
             }
-		    create_country_leader = {
-	            name = "Bennett Champ Clark"
-	            desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-	            picture = "Portrait_USA_Al_Smith.tga"
-	            expire = "1965.1.1"
-	            ideology = authoritarian_democrat_subtype
-	            traits = { #
-		        }
-		    }
 		    set_politics = {
 		        ruling_party = social_conservative
 		    }
 		    add_popularity = {
 		        ideology = social_conservative
-		        popularity = 0.2
+		        popularity = 0.3
 		    }
 		}
 
         if = {
             limit = {
-                has_country_flag = USA_blease_chosen_democrats
+                has_country_flag = USA_talmadge_chosen_democrats
             }
-		    create_country_leader = {
-	            name = "Coleman Livingston Blease"
-	            desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-	            picture = "Portrait_USA_Al_Smith.tga"
-	            expire = "1965.1.1"
-	            ideology = authoritarian_democrat_subtype
-	            traits = { #
-		        }
-		    }
 		    set_politics = {
 		        ruling_party = authoritarian_democrat
 		    }
 		    add_popularity = {
 		        ideology = authoritarian_democrat 
-		        popularity = 0.2
+		        popularity = 0.3
 		    }
 		}
 	}
+        
+    option = { #American Purity win
+        name = usa.8.d
+        set_politics = {
+		        ruling_party = paternal_autocrat
+		    }
+		    add_popularity = {
+		        ideology = paternal_autocrat
+		        popularity = 0.3
+		    }
+    }
 }
 
 

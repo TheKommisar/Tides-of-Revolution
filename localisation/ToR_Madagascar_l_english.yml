@@ -56,11 +56,14 @@ MAD_classic_liberal_ADJ:0 "Malagasy"
 MAD_vanguardist_ADJ:0 "Malagasy"
 
 ####ideas####
-  MAD_Compromised_Freedom:0 "Compromised Freedom"
-  MAD_Compromised_Freedom_desc:0 "Though the people of Madagascar overthrew the French colonial government and established a democratic republic the nation is a de-facto British Protectorate with London having the final say on the nations foreign policy and evn its internal politics. Too add to this British and French exiles dominate the economy of the island and have little care for the natives. For many Malagasy it is nothing short of continued colonial rule and has pushed many of them towards more radical options to achieve genuine freedom."
+ MAD_Compromised_Freedom:0 "Compromised Freedom"
+ MAD_Compromised_Freedom_desc:0 "Though the people of Madagascar overthrew the French colonial government and established a democratic republic the nation is a de-facto British Protectorate with London having the final say on the nations foreign policy and evn its internal politics. Too add to this British and French exiles dominate the economy of the island and have little care for the natives. For many Malagasy it is nothing short of continued colonial rule and has pushed many of them towards more radical options to achieve genuine freedom."
 
-  MAD_Backwards_Military:0 "Backwards Military"
-  MAD_Backwards_Military_desc:0 "Madagascars armed forces are in a dire state primarily due to British unwilingess to tolerate anything beyond a token defence force. If Madagascar is to assert itself on the world stage this situation cannot be continued!"
+
+ MAD_Backwards_Military:0 "Backwards Military"
+ MAD_Backwards_Military_desc:0 "Madagascars armed forces are in a dire state primarily due to British unwilingess to tolerate anything beyond a token defence force. If Madagascar is to assert itself on the world stage this situation cannot be continued!"
+
+
 
 #Ministers
 #should be reintegrated

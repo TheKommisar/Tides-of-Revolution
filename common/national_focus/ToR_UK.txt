@@ -32,9 +32,6 @@ focus_tree = {
 
 
 
-
-
-
 	############################
 	####### NAVY SECTION #######
 	############################
@@ -661,6 +658,11 @@ add_ideas = ENG_expand_the_repair_yards
 	}
 
 
+
+
+
+
+
 	############################
 	####### ARMY SECTION #######
 	############################
@@ -735,7 +737,7 @@ add_ideas = ENG_expand_the_repair_yards
 
 		completion_reward = {		
 add_ideas = ENG_second_BEF_1	
-			army_experience = 20
+			army_experience = 10
 			}
 		}
 	
@@ -1092,7 +1094,7 @@ add_ideas = ENG_second_BEF_1
 		
 
 		completion_reward = {	
-			army_experience = 50
+
 			if = {
 				limit = {
 					has_idea = ENG_second_BEF_3
@@ -1146,7 +1148,6 @@ add_ideas = ENG_second_BEF_1
 		
 
 		completion_reward = {
-			army_experience = 20
 			custom_effect_tooltip = ENG_The_two_forces_effect
 add_ideas = ENG_The_two_forces_1
 			}
@@ -1276,13 +1277,10 @@ add_ideas = ENG_The_two_forces_1
 		
 
 		completion_reward = {
-			custom_effect_tooltip = ENG_New_defensive_fortifications_effect	
-			add_timed_idea = {
-				idea = ENG_fortification_effort		
-				days = 500
-			}		
+			custom_effect_tooltip = ENG_New_defensive_fortifications_effect			
+			add_ideas = ENG_fortification_effort		
+			}
 		}
-	}
 
 	focus = {
 		id = ENG_Joint_exercises
@@ -1345,8 +1343,7 @@ add_ideas = ENG_The_two_forces_1
 		available_if_capitulated = yes
 		
 
-		completion_reward = {
-			army_experience = 20
+		completion_reward = {	
 add_ideas = ENG_prewar_standards_1		
 			}
 		}

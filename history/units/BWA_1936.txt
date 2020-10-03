@@ -47,7 +47,7 @@ units = {
 
 	}
 
-	division = {			
+        division = {			
 		name = "Senagambia Regiment"		
 		location = 13213
 		division_template = "Royal West African Frontier Force"

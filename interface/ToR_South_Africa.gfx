@@ -1,0 +1,25 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_SAF_minority_rule"
+		texturefile = "gfx/interface/ideas/SAF/idea_SAF_minority_rule.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SAF_depression"
+		texturefile = "gfx/interface/ideas/SAF/idea_SAF_depression.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SAF_boer_threat"
+		texturefile = "gfx/interface/ideas/SAF/idea_SAF_boer_threat.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SAF_ANC"
+		texturefile = "gfx/interface/ideas/SAF/idea_SAF_ANC.tga"
+	}
+			spriteType = {
+		name = "GFX_idea_SAF_professional_army"
+		texturefile = "gfx/interface/ideas/SAF/idea_SAF_professional_army.tga"
+	}
+} 

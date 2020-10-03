@@ -1032,7 +1032,7 @@ focus = {
 		}
 	}
 focus = {
-		id = AST_enforce_conscription
+		id = AST_restrict_the_press
 		icon = GFX_goal_ideology_paternal_autocrat
 		prerequisite = { focus = AST_royalist_takeover }
 		x = 3
@@ -1078,10 +1078,10 @@ focus = {
 focus = {
 		id = AST_ensure_military_loyalty
 		icon = GFX_goal_ideology_paternal_autocrat
-		prerequisite = { focus = AST_enforce_conscription }
+		prerequisite = { focus = AST_restrict_the_press }
 		x = 0
 		y = 1
-		relative_position_id = AST_enforce_conscription
+		relative_position_id = AST_restrict_the_press
 
 		cost = 5
 

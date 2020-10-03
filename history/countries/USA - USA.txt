@@ -149,9 +149,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Charles Lindbergh"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Huey_Long.tga"
+	name = "Eugene Talmadge" #Charles Lindbergh
+	desc = "POLITICS_TALMADGE_DESC"
+	picture = "Portrait_USA_Eugene_Talmadge.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -159,9 +159,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "George Marshall"
+	name = "Charles Lindbergh"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_General_George_Marshall.tga"
+	picture = "Portrait_USA_Charles_Lindbergh.tga"
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -190,7 +190,7 @@ create_field_marshal = {# Douglas MacArthur
 		career_officer
 		media_personality
 		politically_connected
-	}
+	}  # add id
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
@@ -228,6 +228,22 @@ create_field_marshal = {# George Marshall
 	planning_skill = 3
 	logistics_skill = 2
 }
+
+create_corps_commander = {# Mason Mathews Patrick
+	name = "Mason Mathews Patrick"
+	desc = "USA_MASON_PATRICK_ARMY_DESC"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_mason_patrick.tga"
+	traits = {
+		trait_cautious
+                old_guard
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
 
 create_corps_commander = {# Clarence Huebner
 	name = "Clarence Huebner"

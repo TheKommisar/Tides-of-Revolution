@@ -90,13 +90,85 @@ create_country_leader = {
 }
 
 create_corps_commander = {
+	name = "Erhard Raus"
+	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Erhard_Raus.tga"
+	traits = {
+		panzer_leader
+		trickster
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Lothar Rendulic"
+	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Lothar_Rendulic.tga"
+	traits = {
+		panzer_leader
+		commando
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
 	name = "Karl Eglseer"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { trait_mountaineer trickster }
+	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Karl_Eglseer.tga"
+	traits = {
+		trait_mountaineer
+		trickster
+	}
 	skill = 3
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Julius Ringel"
+	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Julius_Ringel.tga"
+	traits = {
+		trait_mountaineer
+		commando
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Franz Böhme"
+	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Franz_Bohme.tga"
+	traits = {
+		hill_fighter
+		winter_specialist
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Friedrich Materna"
+	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Friedrich_Materna.tga"
+	traits = {
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 2
 }
 

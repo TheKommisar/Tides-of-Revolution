@@ -68,7 +68,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sultan Pasha al-Atrash"
+	name = "Mohammed Ali Bey al-Abed"
 	desc = "POLITICS_SULTAN_ATRASH_DESC"
 	picture = "Portrait_SYR_Atrash.tga"
 	ideology = paternal_autocrat_subtype
@@ -76,17 +76,6 @@ create_country_leader = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Mohammed Ali Al-Abid"
-	desc = ""
-	picture = ""
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
 
 create_country_leader = {
 	name = "Antoun Saadeh"

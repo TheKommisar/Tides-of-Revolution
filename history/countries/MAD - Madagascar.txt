@@ -32,8 +32,8 @@ set_popularities = {
 add_ideas = {
 	free_trade
 	disarmed_nation
-MAD_Compromised_Freedom
-MAD_Backwards_Military
+        MAD_Compromised_Freedom
+        MAD_Backwards_Military
 }
 
 

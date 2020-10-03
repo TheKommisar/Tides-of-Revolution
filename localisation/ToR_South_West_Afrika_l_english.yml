@@ -46,11 +46,13 @@ NMB_schutztruppe:0 "The Schutztruppe"
 NMB_schutztruppe_desc:0 "The Schutztruppe, or Protection Force, is the African Colonial Army of the German Empire. The force of both native Africans and European settlers and volunteers has become known for it's professional ethos, garnering a reputation as a highly skilled force from it's numerous colonial exploits. The Schutztruppe are the pride of the German colonies, providing both a practical ared force that has been under constant improvement following the great war and a large morale boost to the populace they protect."
 NMB_afrikaner_exiles:0 "Afrikaner Exiles"
 NMB_afrikaner_exiles_desc:0 "During the Great War, many Afrikaners, or Boers, would flee the neighbouring Union of South Africa and defect to German South West Africa, hoping to incite the German colony to attack the British, many following even after the War was over. While their efforts failed numerous exiles have stayed in South West Africa, long having been charged with treason by the South African government, the most notable of these exiles is Manie Maritz, who continue to pressure the Afrikaner Exile community and the German populace into a war with South Africa and Britain."
+
 #Focuses
 #should be reintegrated
 
 #Events
 #should be reintegrated
+
 southwestafricaincident.2.t:0 "Boer Defectors Cross the Border"
 southwestafricaincident.2.d:0 "We have recieved reports of and confirmed that numerous Afrikaner men, bearing South African weapons and uniforms, have crossed our borders. Despite initially thinking this was an invasion force the answer is now more clear, the men are defectors from the Union of South Africa seeking asylum, bringing weapons with them as a form of tribute. These forms of defection by Afrikaners are not uncommon, they have happened quite frequently ever since the end of the great war. These men come bearing the ideological support for local rule in the colony, not dissimilar to the chief Afrikaner exile leader Salomon Gerhardus Maritz, along with wishing to enlist in the Schutztruppe and turning over their cache of weapons to the authorities."    
 southwestafricaincident.2.a:0 "Willkommen, Kameraden!"  
@@ -71,7 +73,16 @@ southwestafricaincident.11.a:0 "A Stain on Our Administration"
 southwestafricaincident.12.t:0 "The South Africans Withdraw"
 southwestafricaincident.12.d:0 "The South Africans have cowardly withdrawn from our land, seeing our superior strength of arms they have trembeled and given into our demands. This superior show of control over our borders has led to a rise in support for Home Rule in SOuth West Africa, as Afrikaners and German Namibians alike pour out to show a sense of pride in their homeland. As well as our triumph over South Africa we have also safely transported the Afrikaner defectors, incredibly pleased by the willingness of the Government to defend them, and their weapons to the North of the country, where they have been enlisted in the Schutztruppe."
 southwestafricaincident.12.a:0 "Watch the Cowards Flee!"
+
 #Descriptions
+
 POLITICS_LUDWIG_VON_ESTORFF_DESC:0 "Ludwig von Estorff, born 25th of December 1859 in the city of Hannover, has often been called the Ox of South West Africa, ever struggling on for his country. The 77 Year Old Man has had quite a career. He has fought numerous campaigns in Africa in his period of service, from being stationed in East Africa in 1900, to fighting the Herero uprising in 1911 and becoming commander of the South West African Schutztruppe, to fighting the British and South Africans in open battle during the Great War in 1914. During the Great War and following the collapse of the Schutztruppe as a frontline fighting force in South West Africa, being cut off from home, Ludwig von Estorff would conduct a minor guerilla campaign in Namibia despite initial doubts about the potential of such a campaign from von Estorff himself. Despite all these grievances the old Prussian man had found South West Africa to his liking, and following the end of the war he would continue to stay in the colony as Commander despite his old Age. It was this dedication both to Germany and his extensive experience in South West Africa that led to him being promoted to Colonial Governor of South West Africa by the Kaiser in 1928. As governor he has maintained a rather stern and status quo approach, but is generally hands off when it comes to the German Namibian settler population, resulting in South West Africa experiencing a population boom of white settlers escaping the social, class and economic issues of the German Fatherland. By the year 1936 Ludwig von Estorff is an old man, weary and his health starting to fail him, it is obvious to everyone in the colony he will soon be retiring, and even more obvious is the importance of his succesor." 
+
+#cosmetic tags
+
+
+
+#Descriptions
+
 #cosmetic tags
  

@@ -1,0 +1,261 @@
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+
+        #Civil war branch
+ 
+        focus = {
+		id = USA_fighting_for_america
+		icon = GFX_goal_support_democracy
+		x = 10
+                y = 0
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_arm_the_people
+		icon = GFX_wip
+                prerequisite = { focus = USA_fighting_for_america }
+		x = -3
+                y = 1
+                relative_position_id = USA_fighting_for_america
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_guns_from_the_armoury
+		icon = GFX_wip
+                prerequisite = { focus = USA_arm_the_people }
+		x = -2
+                y = 1
+                relative_position_id = USA_arm_the_people
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_guns_from_the_cabinet
+		icon = GFX_wip
+                prerequisite = { focus = USA_arm_the_people }
+		x = 0
+                y = 1
+                relative_position_id = USA_arm_the_people
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_gun_manufacturing_techniques
+		icon = GFX_wip
+                prerequisite = { focus = USA_arm_the_people }
+		x = 2
+                y = 1
+                relative_position_id = USA_arm_the_people
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_firearm_training_for_children
+		icon = GFX_wip
+                prerequisite = { focus = USA_guns_from_the_armoury }
+                prerequisite = { focus = USA_guns_from_the_cabinet }
+		x = 1
+                y = 1
+                relative_position_id = USA_guns_from_the_armoury 
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_teach_the_old_to_shoot
+		icon = GFX_wip
+                prerequisite = { focus = USA_gun_manufacturing_techniques }
+                prerequisite = { focus = USA_guns_from_the_cabinet }
+		x = 1
+                y = 1
+                relative_position_id = USA_guns_from_the_cabinet 
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_a_rifle_behind_every_blade_of_grass
+		icon = GFX_wip
+                prerequisite = { focus = USA_firearm_training_for_children }
+                prerequisite = { focus = USA_teach_the_old_to_shoot }
+		x = 1
+                y = 1
+                relative_position_id = USA_firearm_training_for_children
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_conscript_the_masses
+		icon = GFX_wip
+                prerequisite = { focus = USA_fighting_for_america }
+		x = 3
+                y = 1
+                relative_position_id = USA_fighting_for_america
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_every_truck_boat_horse
+		icon = GFX_wip
+                prerequisite = { focus = USA_conscript_the_masses }
+		x = -2
+                y = 1
+                relative_position_id = USA_conscript_the_masses
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_companies_for_war_effort
+		icon = GFX_wip
+                prerequisite = { focus = USA_conscript_the_masses }
+		x = 0
+                y = 1
+                relative_position_id = USA_conscript_the_masses
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_repurpose_old_landmarks
+		icon = GFX_wip
+                prerequisite = { focus = USA_conscript_the_masses }
+		x = 2
+                y = 1
+                relative_position_id = USA_conscript_the_masses
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_every_scrap_for_the_war
+		icon = GFX_wip
+                prerequisite = { focus = USA_every_truck_boat_horse }
+                prerequisite = { focus = USA_companies_for_war_effort }
+		x = 1
+                y = 1
+                relative_position_id = USA_every_truck_boat_horse 
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_women_too
+		icon = GFX_wip
+                prerequisite = { focus = USA_repurpose_old_landmarks }
+                prerequisite = { focus = USA_companies_for_war_effort }
+		x = -1
+                y = 1
+                relative_position_id = USA_repurpose_old_landmarks
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_raise_the_militias
+		icon = GFX_wip
+                prerequisite = { focus = USA_every_scrap_for_the_war }
+                prerequisite = { focus = USA_women_too }
+		x = 1
+                y = 1
+                relative_position_id = USA_every_scrap_for_the_war 
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+        focus = {
+		id = USA_america_marches_onwards
+		icon = GFX_wip
+                prerequisite = { focus = USA_raise_the_militias }
+                prerequisite = { focus = USA_a_rifle_behind_every_blade_of_grass }
+		x = 3
+                y = 1
+                relative_position_id = USA_a_rifle_behind_every_blade_of_grass 
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+}
