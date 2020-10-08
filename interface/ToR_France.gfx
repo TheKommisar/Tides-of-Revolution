@@ -11,4 +11,8 @@ spriteType = {
 		name = "GFX_idea_weak_army"
 		texturefile = "gfx/interface/ideas/FRA/idea_FRA_divided_staff.tga"
 	}
+spriteType = {
+		name = "GFX_idea_franco_algerian_confederalism"
+		texturefile = "gfx/interface/ideas/FRA/franco_algerian_confederalism.tga"
+	}
 }

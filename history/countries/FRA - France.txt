@@ -92,15 +92,15 @@ set_politics = {
 
 set_popularities = {
 	vanguardist = 23
-        orthodox_marxist = 18
+    orthodox_marxist = 18
 	revolutionary_socialist = 42
-        social_democrat = 15
-        social_liberal = 2
-        classic_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 0
-        paternal_autocrat = 0
-        national_populist = 0
+    social_democrat = 15
+    social_liberal = 2
+    classic_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    national_populist = 0
 }
 
 create_faction = pri
@@ -108,9 +108,9 @@ add_to_faction = FRA
 add_to_faction = ARG
 
 add_ideas = {
-	FRA_protected_by_the_maginot_line 
-        legacy_of_the_commune
-        weak_army
+    legacy_of_the_commune
+    weak_army
+    franco_algerian_confederalism
 	limited_conscription
 }
 
