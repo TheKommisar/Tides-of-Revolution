@@ -21,7 +21,10 @@ set_technology = {
 	early_submarine = 1
 	early_destroyer = 1
 }
-
+add_ideas = {
+ROM_new_order
+ROM_greater_romania
+}
 set_politics = {
 	ruling_party = national_populist
 	last_election = "1933.12.20" 
@@ -32,13 +35,13 @@ set_popularities = {
 	vanguardist = 0
         orthodox_marxist = 0
 	revolutionary_socialist = 2
-        social_democrat = 13
-        social_liberal = 11
-        classic_liberal = 8
-        social_conservative = 10
-        authoritarian_democrat = 10
-        paternal_autocrat = 2
-        national_populist = 44
+        social_democrat = 7
+        social_liberal = 9
+        classic_liberal = 11
+        social_conservative = 13
+        authoritarian_democrat = 6
+        paternal_autocrat = 18
+        national_populist = 34
 }
 
 create_country_leader = {
@@ -97,7 +100,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nicolae al României"
+	name = "Carol II"
 	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
 	picture = "Portrait_Romania_Nicolae.tga"
 	expire = "1999.1.1"

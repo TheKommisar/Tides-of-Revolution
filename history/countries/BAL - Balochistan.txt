@@ -23,31 +23,40 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1933.10.25"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 vanguardist = 0
-orthodox_marxist = 10
-revolutionary_socialist = 15
-social_democrat = 0
+orthodox_marxist = 2
+revolutionary_socialist = 3
+social_democrat = 1
 social_liberal = 0
-classic_liberal = 5
-social_conservative = 45
-authoritarian_democrat = 10
-paternal_autocrat = 15
+classic_liberal = 7
+social_conservative = 12
+authoritarian_democrat = 48
+paternal_autocrat = 27
 national_populist = 0
 
 }
 
 create_country_leader = {
-	name = "Choudhry Rahmat Ali"
-	desc = "POLITICS_RAHMAT_ALI_DESC"
-	picture = "Portrait_DIN_Choudhry_Ali.tga" 
+	name = "Gul Khan Nasir"
+	desc = "POLITICS_GUL_KHAN_NASIR_DESC"
+	picture = "Portrait_BAL_Gul_Khan_Nasir.tga" 
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Ahmad of Kalat"
+	desc = "POLITICS_GUL_KHAN_NASIR_DESC"
+	picture = "Portrait_BAL_Mir_Sir_Ahmad_Yar_Khan_Ahmedzai.tga" 
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
 	traits = {
 	}
 }

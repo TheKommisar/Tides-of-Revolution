@@ -135,13 +135,13 @@ set_popularities = {
     vanguardist = 1
     orthodox_marxist = 2
     revolutionary_socialist = 2
-    social_democrat = 13
-    social_liberal = 5
+    social_democrat = 5
+    social_liberal = 7
     classic_liberal = 25
-    social_conservative = 28
-    authoritarian_democrat = 5
-    paternal_autocrat = 9
-    national_populist = 10
+    social_conservative = 37
+    authoritarian_democrat = 7
+    paternal_autocrat = 10
+    national_populist = 3
 }
 
 create_country_leader = {

@@ -1,0 +1,78 @@
+﻿l_english: 
+
+#Parties
+
+CHI_vanguardist_party:0 "ZGD"
+CHI_vanguardist_party_long:0 "Zhōngguó Gòngchǎndǎng"
+CHI_orthodox_marxist_party:0 "ZGD"
+CHI_orthodox_marxist_party_long:0 "Zhōngguó Gòngchǎndǎng"
+CHI_revolutionary_socialist_party:0 "ZGD"
+CHI_revolutionary_socialist_party_long:0 "Zhōngguó Gòngchǎndǎng"
+CHI_social_democrat_party:0 "KMT"
+CHI_social_democrat_party_long:0 "Kuomintang"
+CHI_social_liberal_party:0 "JD"
+CHI_social_liberal_party_long:0 "Jìnbù Dǎng"
+CHI_classic_liberal_party:0 "JD"
+CHI_classic_liberal_party_long:0 "Jìnbù Dǎng"
+CHI_social_conservative_party:0 "KMT"
+CHI_social_conservative_party_long:0 "Kuomintang"
+CHI_authoritarian_democrat_party:0 "KMT"
+CHI_authoritarian_democrat_party_long:0 "Kuomintang"
+CHI_paternal_autocrat_party:0 "KMT"
+CHI_paternal_autocrat_party_long:0 "Kuomintang"
+CHI_national_populist_party:0 "SRSXYX"
+CHI_national_populist_party_long:0 "Shíjiàn Rénmín Sān Xiàng Yuánzé Xuéhuì"
+
+#Country Names
+
+
+CHI_national_populist:0 "Republic of China"
+CHI_national_populist_DEF:0 "the Republic of China"
+CHI_paternal_autocrat:0 "Republic of China"
+CHI_paternal_autocrat_DEF:0 "the Republic of China"
+CHI_authoritarian_democrat:0 "Republic of China"
+CHI_authoritarian_democrat_DEF:0 "the Republic of China"
+CHI_social_conservative:0 "Republic of China"
+CHI_social_conservative_DEF:0 "the Republic of China"
+CHI_classic_liberal:0 "Republic of China"
+CHI_classic_liberal_DEF:0 "the Republic of China"
+CHI_social_liberal:0 "Republic of China"
+CHI_social_liberal_DEF:0 "the Republic of China"
+CHI_social_democrat:0 "Republic of China"
+CHI_social_democrat_DEF:0 "the Republic of China"
+CHI_revolutionary_socialist:0 "Republic of China"
+CHI_revolutionary_socialist_DEF:0 "the Republic of China"
+CHI_orthodox_marxist:0 "Republic of China"
+CHI_orthodox_marxist_DEF:0 "the Republic of China"
+CHI_vanguardist:0 "Republic of China"
+CHI_vanguardist_DEF:0 "the Republic of China"
+
+CHI_national_populist_ADJ:0 "Chinese" 
+CHI_paternal_autocrat_ADJ:0 "Chinese"
+CHI_authoritarian_democrat_ADJ:0 "Chinese"
+CHI_social_conservative_ADJ:0 "Chinese"
+CHI_social_liberal_ADJ:0 "Chinese"
+CHI_classic_liberal_ADJ:0 "Chinese"
+CHI_social_democrat_ADJ:0 "Chinese"
+CHI_revolutionary_socialist_ADJ:0 "Chinese"
+CHI_orthodox_marxist_ADJ:0 "Chinese"
+CHI_vanguardist_ADJ:0 "Chinese"
+
+
+#ideas
+CHI_shared_economy:0 "Ancient Economy"
+CHI_shared_economy_desc:0 "China has a woefully poor economy, this has been a factor of life in Chinese society apparent to just about everyone since the Europeans and Japanese put on full display their economic prowess. Urbanization, much less any meaningful industrial base, is extraordinarily hard to come by, farming methods are outdated and agriculture has remained unreformed and modern technological advances are nearly completely absent."
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

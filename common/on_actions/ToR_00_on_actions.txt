@@ -14,5 +14,15 @@ on_actions = {
                 }
             }
 		}
-	}
+			effect = {
+			#
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				ROM = {
+					give_resource_rights = { receiver = GER state = 46 }
+				}
+			}
+                }
 }

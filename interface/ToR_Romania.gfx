@@ -1,0 +1,14 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_ROM_new_order"
+		texturefile = "gfx/interface/ideas/ROM/idea_ROM_new_order.tag"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_greater_romania"
+		texturefile = "gfx/interface/ideas/ROM/idea_ROM_greater_romania.tga"
+	}
+}
