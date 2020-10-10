@@ -110,7 +110,7 @@ add_to_faction = ARG
 add_ideas = {
     legacy_of_the_commune
     weak_army
-    franco_algerian_confederalism
+	franco_algerian_confederalism
 	limited_conscription
 }
 

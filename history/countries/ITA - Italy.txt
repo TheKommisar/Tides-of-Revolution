@@ -3,19 +3,17 @@ capital = 2
 oob = "ITA_1936"
 
 country_event = { id = italy.1 days = 1 } #Intro Event
-country_event = { id = italy.6 days = 20 random = 240 } # dismissal of pm
+#country_event = { id = italy.6 days = 25 random = 240 } # motion of no confidence
 
 set_research_slots = 4
-set_stability = 0.05
-set_war_support = 0.3
+set_stability = 0.25
+set_war_support = 0.4
 add_ideas = {
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-        ITA_national_unity_government
         ITA_great_depression
         ITA_memories_of_the_war
-        ITA_broken_nation
+        ITA_new_constitution
+        ITA_political_radicalisation
+        ITA_socialist_hegemony
 }
 
 550 = {
@@ -131,7 +129,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
-
+              
 	}
 }
 
@@ -142,7 +140,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
-
+              
 	}
 }
 
@@ -153,7 +151,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = classic_liberal_subtype
 	traits = {
-
+              
 	}
 }
 
@@ -164,7 +162,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
-
+              
 	}
 }
 
@@ -269,7 +267,6 @@ create_field_marshal = {
 
 create_corps_commander = { # fashy
 	name = "Giovanni Giurati"
-	id = 311
 	picture = "Portrait_Italy_Giovanni_Giurati.dds"
 	traits = { }
 	skill = 1
@@ -284,7 +281,6 @@ create_corps_commander = {
 	picture = "Portrait_Italy_Giovanni_Messe.dds"
 	traits = {  armor_officer war_hero }
 	skill = 4
-	rank = 1
 	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 2
@@ -308,17 +304,6 @@ create_corps_commander = {
 	traits = { career_officer trait_cautious }
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = { # fashy
-	name = "Italo Balbo"
-	picture = "Portrait_ITA_Italo_Balbo.tga"
-	traits = { career_officer politically_connected }
-	skill = 1
-	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1

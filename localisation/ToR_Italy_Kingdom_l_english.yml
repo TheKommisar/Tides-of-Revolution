@@ -61,14 +61,18 @@ ITA_vanguardist_ADJ:0 "Italian"
 #Ministers
 #should be reintegrated
 
-ITA_national_unity_government:0 "National Unity Government"
-ITA_national_unity_government_desc:0 "The National Unity government, known to the people as the tri-party coalition, was created in 1923 in order to prevent the takeover of radicalism in the country. Consisting of the Partito Popolare Italiano, Partito Liberale Italiano and the Partito Socialista Unitario, it has won every election since its founding, to the surprise of many."
-ITA_great_depression:0 "Great Depression"
+#Ideas
+
+ITA_great_depression:0 "Economic Depression"
 ITA_memories_of_the_war:0 "Memories of the War"
 ITA_memories_of_the_war_desc:0 "In the Great War, one million Italians, both military and civilians, lost their lives in the conflict, with thousands more dying of the diseases which gripped the country in the war's aftermath. In addition to this, Italy received only meagre territorial concessions at the war's end, which led to many Italians questioning whether the sacrifices made in the war was worth it at all. In the years following the devastating conflict, the general mood for another war sunk to an all time low, and the number of men enlisting in the army is falling lower and lower. The generals and admirals, too, have expressed their reluctance in fighting another conflict."
-ITA_broken_nation:0 "Broken Nation"
-ITA_broken_nation_desc:0 "Italy is a weak, divided and destroyed nation. Her soul is crushed, and each step she takes, guilt and self-pity follow in her wake."
- 
+ITA_political_radicalisation:0 "Political Radicalisation"
+ITA_political_radicalisation_desc:0 "Following the Great Depression, the relatively stable Italian political theatre soon began to bear witness to the rise of fringe radical parties and radical ideologies. Although the socialist government which controls Italy is still popular with most of the people, more and more are being dragged away from moderate politics, disillusioned by the government's inability to resolve the economic crisis."
+ITA_new_constitution:0 "New Constitution"
+ITA_new_constitution_desc:0 "The implementation of a new constitution for the Kingdom of Italy was one of the first acts done by the socialist government when they rose to power. The constitution, which mimiced the British political model, is very popular among the Italian people, and serves as a source of stability for the country."
+ITA_socialist_hegemony:0 "Socialist Hegemony"
+ITA_socialist_hegemony_desc:0 "Ever since the Elections of 1923, the Italian political theatre has been dominated by the same socialist political parties. Although this has given us the ability to pass laws and reforms with relative ease, our citizens are yearning for change."
+
 #Focuses
 #should be reintegrated
 ITA_looking_outwards:0 "Looking Outwards"
@@ -106,34 +110,40 @@ ITA_a_return_to_the_world_stage_desc:0 "No longer shall Italy be a second-class 
 #should be reintegrated
 
 italy.1.t:0 "The Italian Situation"
-italy.1.d:0 "The Kingdom of Italy joined the Great War on the side of the Entente on May 23, 1915. Almost immediately, fighting began along Italy’s border with Austria, with the Italian army hoping to quickly bring the Austrians to their knees with a surprise offensive. Unsurprisingly, this failed, and soon the Alpine Front as it was known degraded into trench warfare, which would continue for the next 5 years. In 1920, with the European revolutions in full swing, the Treaty of Versailles was signed between the Entente and Central Powers restoring mainly the status quo. Italy, which had only been able to gain a slice of Turkey, Tunisia and an even smaller slice of Austria, entered a period of crisis known as the Red Biennium, where many expected the country to fall to civil war. This period would only end in 1925 with the formation of the tri-party coalition, consisting of the Partito Popolare Italiano, Partito Liberale Italiano and Partito Socialista Unitario. The 3 party coalition was formed to prevent a radical takeover and has won every election since then.\n\n But all is far from stable in the kingdom, with the revolution in France and exit from the Great War with nearly nothing gained having polarized Italian politics to the point where many fear a civil war would break out at any day. The Great Depression in 1928 ripped through the Italian economy, the shockwaves of which have still not been resolved.\nIn 1934, a corruption scandal involving King Victor Emmanuel III, the tri-party coalition and the army forced the king to abdicate and elections to be held in order to save face. Between 1934 and 1936, there have been 5 elections; the most recent were held in September 1935, and resulted in the re-election of former Prime Minister Francesco Saverio Nitti. Nitti had rode into power on promises to reform the political and social system and root out corruption, though many are questioning Nitti’s effectiveness as he has not yet been able to carry them out."
+italy.1.d:0 "The Kingdom of Italy joined the Great War on the side of the Entente on May 23, 1915. Almost immediately, fighting began along Italy’s border with Austria, with the Italian army hoping to quickly bring the Austrians to their knees with a surprise offensive. Unsurprisingly, this failed, and soon the Alpine Front as it was known degraded into trench warfare, which would continue for the next 5 years. In 1920, with the European revolutions in full swing, the Treaty of Versailles was signed between the Entente and Central Powers restoring mainly the status quo. Italy, which had only been able to gain a slice of Turkey, Tunisia and an even smaller slice of Austria, entered a period of crisis known as the Red Biennium in 1921, where many expected the country to fall to civil war. This period would only end in 1923 with snap elections following Victor Emmanuel’s abdication, resulting in a victory for the Italian Socialist Party (PSI). Reforms were made, the king’s power was limited, and the country calmed down.\n\nBut all is far from stable in the kingdom, with the revolution in France and an economic crisis having polarized Italian politics to the point where many fear once more civil war would break out at any day. The current government’s inability to resolve Italy’s dire economic straits have caused a skyrocket in the popularity of radical parties, all of whom utilise the government’s weakness to bolster support for their own parties. Elections held in 1935 resulted in a narrow victory for the ruling PSU, which led to allegations of rigging and corruption on either side. The country’s opposition parties, long opposed to the socialists in Rome, are preparing to make a move. Italy’s future becomes more grim by the day."
 italy.1.a:0 "Viva Italia!"
 
 
+italy.2.t:0 "The Revolution Begins"
+italy.2.d:0 "I am rewriting this event, this is placeholder text"
+italy.2.a:0 "It seems the one thing socialists do not stop on is destroying our country."
+italy.2.b:0 "My allegiance was to freedom, to liberty and democracy!"
 
-italy.2.t:0 "Northern Revolution"
-italy.2.d:0 "A revolution has begun. Years of division and political tensions have finally culminated, as today several regions of northern Italy, under the leadership of noted communist and philosopher Antonio Gramsci have declared a revolution against the Italian government. Gramsci, who had been residing in exile in France, made the declaration over national radio in Turin, and urged workers to take up arms against the government. Within hours of the declaration, workers across the north rallied in major cities, occupying major government buildings and military installations. The Venice garrison, which itself saw combat, has fortunately managed to prevent the city’s capture by rebel forces, yet as of late there has been no communication from the garrisons in Bologna or Milan.\n\nGiven how quickly the revolutionaries have managed to occupy much of the country in so little time, many believe the revolution may be the work of the socialist government of France, located directly to the east. This rumour is extremely plausible, as the mountain ranges and forests of the north are optimal locations for weapons and munitions smuggling. But for now there is nothing we can do, as we are at war once more."
-italy.2.a:0 "Death to the Communists!"
-italy.2.b:0 "Death to the Monarchists!"
+italy.6.t:0 "Motion of No Confidence brought to the Chamber of Deputies"
+italy.6.d:0 "In the Chamber of Deputies today a motion of no-confidence was brought forward aiming to expel the ruling Unitary Socialist Party and subsequently end 13 years of socialist domination. The motion, brought forward by the classical liberal Partito Liberale Italiano and conservative Partito Popolare Italiano, requires majority approval throughout the chamber before it can be put in action. Yet, both the PRI and PPI do not have the power needed for a majority vote, and so therefore the fate of the government depends on the decisions of the less-popular radical parties in Parliament. Although they despise the current government as much as the opposition, perhaps voting for the motion might only change the ruling government from one set of moderates to another."   
+italy.6.a:0 "The motion passes, the PSU is removed from office"
+italy.6.b:0 "The motion fails, the PSU remains in government"
 
-italy.6.t:0 "Francesco Saverio Nitti dismissed by No Confidence vote"
-italy.6.d:0 "Although having been reelected in late September of last year, the Nitti administration, riding into office on promises of political and social reform, have failed to deliver the promises of their campaign, as well as having been accused of corruption. Nitti, who had served as Prime Minister intermittently since 1919 was dismissed in a near-unanimous vote of No Confidence. On the same day, fresh elections were announced by the Senate with King Umberto II's approval to be held in exactly a month, in order to decide on a new cabinet to lead the country. Nitti's role as Prime Minister will be filled by Minister of the Interior Ivanoe Bonomi for the time being."   
-italy.6.a:0 "How many elections will we have this year?"
+italy.7.t:0 "Hung Parliament"
+italy.7.d:0 "It seems that the successful motion of no confidence has only served to divide the government even more. As it turns out, the Popular Front government does not have the popularity needed in order to pass any laws, which effectively means that any bill presented to Parliament can be easily rejected by the Socialist majority. This has left the government in a chaotic state, and as a result the Popular Front coalition, which no one expected to last more than a month anyway, dissolved, with the liberals and conservatives throwing insults at each other for having caused the crisis, yet surprisingly none of which are directed at the CPI and ANI."
+italy.7.a:0 "Italy is on a tightrope"
 
-italy.7.t:0 "Disagreements over the army policy"
-italy.7.d:0 "With only half a month left until election day, debates over the coalition's policies have begun to spark divisive exchange between the members of the tri-party coalition. One such policy is the army policy, originally written by conservative members of Nitti's cabinet. The policy, which calls for light rearmament against the French and Austrians has been heavily opposed by the Socialist Party, which makes up a majority of the coalition. They argue that detente with the two countries would serve to help maintain peace in the region, and prevent a war with Austria or France."
-italy.7.a:0 "We should side with the PPI's army policy"
-italy.7.b:0 "We should side with the PSU's army policy"
+italy.8.t:0 "The army march on Rome"
+italy.8.d:0 "As the chaos in parliament continued with no end in sight, the king and the armed forces made their move. This morning, after having met with key leaders of the armed forces and the head of the Italian Monarchist Party, King Umberto II marched on Rome, with his forces and militia-men of the PMI capturing several key locations around the city by mid-day, including the Italian Parliament Building. From the balcony of the parliament building, Umberto delivered a speech, reassuring worried citizens below that the suspension of democracy would only be temporary as the government would attempt to bring about a solution to the current political crisis, and that stability will soon be restored to Italy.\n\nMany political observers look at these recent developments with concern, as with the current Italian political situation, this sudden and somewhat controversial move could be the final blow to Italian stability, and end the fragile peace on the peninsula."
+italy.8.a:0 "So this is how democracy dies."
 
-italy.8.t:0 "The Coalition breaks"
-italy.8.d:0 "Months of infighting amongst the PLI-PPI-PSU coalition have caused it to dissolve, leaving large gaps for radical parties to occupy. The split, caused by the coalition's inability to resolve the controversial army policy has left citizens and foreigners alike to speculate Italy's future. As former moderate politicians join ranks with radical parties such as the PCI and the ANI, millions of Italians now fear for the country's stability. Conspiracies of a 'futurist' party heading to dominate the polls or an pro-monarchist army coup have taken hold among the populace and gripped fear into those who buy into them. Yet as a democracy, it is too late to call off the elections now as it would only serve to make things worse."
-italy.8.a:0 "Only a few more days until election, damnit!"
+italy.9.t:0 "Writ of Election Issued"
+italy.9.d:0 "Following the failed motion, the government entered a frenzy, scrambling to consolidate their power and keep the Socialist Party united. It has been a week since the motion died in the Chamber of Deputies, and in that time, the government has somewhat calmed, and with a clear head laid out a plan for the consolidation and legitimation of power. With this writ issued, the opposition parties have scrambled to begin campaigning, and for the PSU a deal with the Radical Party has already been struck for an electoral coalition, due to the severe loss in popularity caused by the political crisis. Parliament has also been dismissed until when the elections end and the results are announced, where they will be invited back into parliament and a new session opened by the king."
+italy.9.a:0 "May the best party win!"
 
-italy.9.t:0 "PPI leaves the national unity coalition"
-italy.9.d:0 "this is the secret path for avoiding the civ war"
-italy.9.a:0 "We didn't like them anyway."
+italy.10.t:0 "Italian Elections of 1936"
+italy.10.d:0 "We had an election last year, didn't we?"
+italy.10.a:0 "The PSU coalition is victorious"
+italy.10.b:0 "The Christian democratic PPI wins"
+italy.10.c:0 "The liberal PLI comes out on top"
 
 #Descriptions
+
 
 #cosmetic tags
  

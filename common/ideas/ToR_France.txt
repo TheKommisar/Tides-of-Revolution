@@ -13,11 +13,11 @@ country = {
 			removal_cost = -1
 		
 			modifier = {
-				drift_defence_factor = 0.5
+				stability_factor = 0.05
+                                political_power_gain = 0.1
+                                war_support_factor = 0.1
 			}
-				rule = {
-					can_create_factions = yes
-				}
+				
 		}
         weak_army = {
 				
@@ -32,33 +32,31 @@ country = {
 			removal_cost = -1
 		
 			research_bonus = {
-				land_doctrine = -0.25
-				naval_doctrine = -0.25
-				air_doctrine = -0.25
+				land_doctrine = -0.15
+				naval_doctrine = -0.15
+				air_doctrine = -0.15
 			}
 			modifier = {
-				army_org_factor = -0.35
-				training_time_factor = 0.35
-				war_support_factor = -0.1
+				army_org_factor = -0.20
+				training_time_factor = 0.20
 			}
 		}
-
         franco_algerian_confederalism = {
-				
+
 			allowed = {
 				original_tag = FRA
 			}
-	
+
 			allowed_civil_war = {
 				always = yes
 			}
-	
+
 			removal_cost = -1
-		
+
 			modifier = {
 				stability_factor = 0.05
 				political_power_gain = -0.15
 			}
 		}
-    }
+}
 }

@@ -182,8 +182,8 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = rgb { 245 198 215 }
-	color_ui = rgb { 245 198 215 }
+	color = rgb { 207 140 140 } #paler version is 247 200 210
+	color_ui = rgb { 231 200 200 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -722,4 +722,8 @@ NMB = {
 MOR = {
 	color = rgb { 163 91 91 }
 	color_ui = rgb { 163 91 91 }
+}
+WLN = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
 }

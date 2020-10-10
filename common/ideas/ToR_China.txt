@@ -1,15 +1,15 @@
 ideas = {
      country = {
 	    CHI_reforming_economy = {
-		
+
 		    removal_cost = -1
-            
+
             picture = generic_agrarian_society
-            
+
 			allowed = {
 				original_tag = CHI
 		    }
-			
+
 			modifier = {
 			    research_speed_factor = -0.10
 				production_factory_max_efficiency_factor = -0.10
@@ -17,17 +17,17 @@ ideas = {
 				conscription_factor = -0.25
 			}
 		}
-	
+
 	    CHI_white_sun_over_china = {
-		
+
 		    removal_cost = -1
-            
+
             picture = CHI_white_sun_over_china
-            
+
 			allowed = {
 				original_tag = CHI
 		    }
-			
+
 			modifier = {
 		army_core_defence_factor = 0.05
 		army_core_attack_factor = 0.05
@@ -39,15 +39,15 @@ ideas = {
 			}
 		}
 			    CHI_failing_republic = {
-		
+
 		    removal_cost = -1
-            
+
             picture = CHI_failing_republic
-            
+
 			allowed = {
 				original_tag = CHI
 		    }
-			
+
 			modifier = {
 		stability_factor = -0.20
 				political_power_gain = -0.25
@@ -56,15 +56,15 @@ ideas = {
 			}
 		}
 			CHI_sino_german_economy = {
-		
+
 		    removal_cost = -1
-            
+
             picture = CHI_sino_german_economy
-            
+
 			allowed = {
 				original_tag = CHI
 		    }
-			
+
 			modifier = {
 				stability_factor = -0.05
 				paternal_autocrat_drift = -0.01
@@ -76,15 +76,15 @@ ideas = {
 			}
 		}
 			    CHI_von_falkenhausens_doctrine = {
-		
+
 		    removal_cost = -1
-            
+
             picture = CHI_von_falkenhausens_doctrine
-            
+
 			allowed = {
 				original_tag = CHI
 		    }
-			
+
 			modifier = {
 				production_speed_bunker_factor = 0.25
 				production_speed_coastal_bunker_factor = 0.25
@@ -98,15 +98,15 @@ ideas = {
 			}
 		}
 			    CHI_warring_political_factions = {
-		
+
 		    removal_cost = -1
-            
+
             picture = CHI_warring_political_factions
-            
+
 			allowed = {
 				original_tag = CHI
 		    }
-			
+
 			modifier = {
 		mobilization_speed = -0.2
 				army_morale_factor = -0.1

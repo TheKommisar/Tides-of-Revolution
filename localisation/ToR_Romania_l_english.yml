@@ -60,10 +60,10 @@ ROM_social_liberal_ADJ:0 "Romanian"
 ROM_classic_liberal_ADJ:0 "Romanian"
 ROM_vanguardist_ADJ:0 "Romanian"
 
-
 #Ideas
 ROM_new_order:0 "The New Order"
-ROM_new_order_desc:0 "
+ROM_new_order_desc:0 "placeholder"
+
 
 #Ministers
 #should be reintegrated

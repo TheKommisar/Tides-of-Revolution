@@ -8,7 +8,7 @@ ideas = {
 		allowed_civil_war = {
 			always = yes
 		}
-		picture = ROM_new_order
+                picture = ROM_new_order
 		removal_cost = -1
 		modifier = {
 		political_power_gain = 0.15
@@ -29,7 +29,7 @@ ideas = {
 		allowed_civil_war = {
 			always = yes
 		}
-		picture = ROM_greater_romania
+                picture = ROM_greater_romania
 		removal_cost = -1
 		modifier = {
 		political_power_gain = 0.10

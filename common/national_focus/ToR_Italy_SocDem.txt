@@ -1,0 +1,255 @@
+focus_tree = {
+	id = ITA_SocDem
+	country = {
+		factor = 0
+	}
+	continuous_focus_position = { x = 2300 y = 1100 }
+	shared_focus = ITA_fixing_our_economy
+	shared_focus = ITA_looking_outwards
+
+
+
+        #Social Democrat coalition branch
+
+        focus = {
+		id = ITA_socialist_coalition   
+		icon = GFX_wip
+		x = 1
+                y = 0
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_expand_welfare
+		icon = GFX_wip
+                prerequisite = { focus = ITA_socialist_coalition }
+		x = -3
+                y = 2
+                relative_position_id = ITA_socialist_coalition
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_public_healthcare
+		icon = GFX_wip
+                prerequisite = { focus = ITA_expand_welfare }
+		x = 0
+                y = 1
+                relative_position_id = ITA_expand_welfare
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_pensions_for_veterans_and_elderly
+		icon = GFX_wip
+                prerequisite = { focus = ITA_public_healthcare }
+		x = 0
+                y = 1
+                relative_position_id = ITA_public_healthcare 
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_adaptive_socialism
+		icon = GFX_wip
+                prerequisite = { focus = ITA_socialist_coalition }
+		x = 3
+                y = 2
+                relative_position_id = ITA_socialist_coalition
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_reconcile_with_psi
+		icon = GFX_wip
+                prerequisite = { focus = ITA_adaptive_socialism }
+		x = 0
+                y = 1
+                relative_position_id = ITA_adaptive_socialism
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_minimum_wage_act
+		icon = GFX_wip
+                prerequisite = { focus = ITA_reconcile_with_psi }
+		x = 0
+                y = 1
+                relative_position_id = ITA_reconcile_with_psi
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_compromising_our_way_forward
+		icon = GFX_wip
+                prerequisite = { focus = ITA_socialist_coalition }
+		x = 0
+                y = 1
+                relative_position_id = ITA_socialist_coalition
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_colonial_citizenry_act
+		icon = GFX_wip
+                prerequisite = { focus = ITA_compromising_our_way_forward }
+		x = -1
+                y = 1
+                relative_position_id = ITA_compromising_our_way_forward
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_enforce_army_neutrality
+		icon = GFX_wip
+                prerequisite = { focus = ITA_colonial_citizenry_act }
+		x = 0
+                y = 1
+                relative_position_id = ITA_colonial_citizenry_act
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_guarantee_religious_freedom
+		icon = GFX_wip
+                prerequisite = { focus = ITA_compromising_our_way_forward }
+		x = 1
+                y = 1
+                relative_position_id = ITA_compromising_our_way_forward
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_family_values
+		icon = GFX_wip
+                prerequisite = { focus = ITA_guarantee_religious_freedom }
+		x = 0
+                y = 1
+                relative_position_id = ITA_guarantee_religious_freedom
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_limit_the_militias
+		icon = GFX_wip
+                prerequisite = { focus = ITA_family_values }
+                prerequisite = { focus = ITA_enforce_army_neutrality }
+		x = -1
+                y = 1
+                relative_position_id = ITA_family_values
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+    
+        focus = {
+		id = ITA_fate_of_the_coalition
+		icon = GFX_wip
+                prerequisite = { focus = ITA_limit_the_militias }
+                prerequisite = { focus = ITA_pensions_for_veterans_and_elderly }
+                prerequisite = { focus = ITA_minimum_wage_act }
+		x = 0
+                y = 1
+                relative_position_id = ITA_limit_the_militias 
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_a_new_italy
+		icon = GFX_wip
+                prerequisite = { focus = ITA_fate_of_the_coalition }
+		x = 0
+                y = 1
+                relative_position_id = ITA_fate_of_the_coalition
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+}

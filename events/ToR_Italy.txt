@@ -15,9 +15,6 @@ country_event = {
     
     option = {
 		name = italy.1.a
-		ai_chance = {
-			factor = 100
-		}
     }
 }
 
@@ -226,6 +223,7 @@ country_event = {
     id = italy.6
     title = italy.6.t    
     desc = italy.6.d
+    picture = GFX_report_event_generic_conference
     
     fire_only_once = yes
   
@@ -234,10 +232,21 @@ country_event = {
     
     option = {
 		name = italy.6.a
-                country_event = { days = 15 id = italy.7 }
-		ai_chance = {
-			factor = 100
+                ai_chance = {
+			factor = 60
 		}
+                hidden_effect = {
+                country_event = { days = 15 id = italy.7 }
+                }
+    }
+    option = {
+		name = italy.6.b
+                ai_chance = {
+			factor = 40
+		}
+                hidden_effect = {
+                country_event = { days = 20 id = italy.9 }
+                }
     }
 }
 
@@ -256,20 +265,8 @@ country_event = {
     option = {
 		name = italy.7.a
                 hidden_effect = {
-                country_event = { days = 6 id = italy.8 }
+                country_event = { days = 27 id = italy.8 }
                 }
-		ai_chance = {
-			factor = 95
-		}
-    }
-    option = {
-		name = italy.7.b
-                hidden_effect = {
-                country_event = { days = 6 id = italy.9 }
-                }
-		ai_chance = {
-			factor = 5
-		}
     }
 }
 
@@ -287,13 +284,13 @@ country_event = {
     
     option = {
 		name = italy.8.a
-		ai_chance = {
-			factor = 100
-		}
+                hidden_effect = {
+                country_event = { days = 5 id = italy.2 }
+                }
     }
 }
 
-country_event = { #PPI leaves the coalition
+country_event = { #Writ of election issued
     id = italy.9
     title = italy.9.t    
     desc = italy.9.d
@@ -307,8 +304,40 @@ country_event = { #PPI leaves the coalition
     
     option = {
 		name = italy.9.a
-		ai_chance = {
-			factor = 95
+		hidden_effect = {
+                country_event = { days = 30 id = italy.10 }
+                }
+    }
+}
+
+country_event = { #election
+    id = italy.10
+    title = italy.10.t    
+    desc = italy.10.d
+
+    picture = GFX_report_event_generic_conference
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = italy.10.a #soc dem
+                ITA = {
+			load_focus_tree = ITA_SocDem
+		}
+    }
+    option = {
+		name = italy.10.b #soc con
+                ITA = {
+			load_focus_tree = ITA_SocCon
+		}
+    }
+    option = {
+		name = italy.10.c #cla lib
+                ITA = {
+			load_focus_tree = ITA_ClaLib
 		}
     }
 }

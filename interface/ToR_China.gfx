@@ -23,4 +23,4 @@ spriteTypes = {
 		name = "GFX_idea_CHI_warring_political_factions"
 		texturefile = "gfx/interface/ideas/CHI/idea_CHI_warring_political_factions.tga"
 	}
-}
+} 

@@ -30,7 +30,7 @@ set_popularities = {
 set_convoys = 5
 
 create_country_leader = {
-	name = "Vidi I"
+	name = "Vilhelm I"
 	desc = "POLITICS_WILLIAM_I_DESC"
 	picture = "Portrait_Albania_Wilhelm_Wied.tga"
 	expire = "1965.1.1"

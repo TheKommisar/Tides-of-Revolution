@@ -75,9 +75,7 @@ set_popularities = {
 
 }
 
-create_faction = Donaubund
-add_to_faction = AUS
-# add_to_faction = ALB # not yet
+give_guarantee = ALB
 
 create_country_leader = {
 	name = "Karl I"

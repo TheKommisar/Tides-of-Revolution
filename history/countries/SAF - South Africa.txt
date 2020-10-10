@@ -87,15 +87,9 @@ SAF_professional_army
 }
 
 create_country_leader = {
-<<<<<<< Updated upstream
 	name = "Lord Hyde"
 	desc = ""
 	picture = "Portrait_Lord_Hyde.tga"
-=======
-	name = "Jan Smuts"
-	desc = "POLITICS_JAN_SMUTS_DESC"
-	picture = "Portrait_SAF_Jan_Smuts.tga"
->>>>>>> Stashed changes
 	expire = "1953.3.1"
 	ideology = social_conservative_subtype
 	traits = {

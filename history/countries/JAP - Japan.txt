@@ -110,9 +110,30 @@ create_import = {
 
 set_convoys = 400
 
-create_faction = prosperity_sphere
-add_to_faction = FER
-add_to_faction = VIN
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = FER
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.1
+	}
+	set_autonomy = {
+		target = VIN
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.4
+	}
+	else = {
+                puppet = FER
+                puppet = VIN
+	}
+}
+
+give_guarantee = FER
 
 if = {
 	limit = {

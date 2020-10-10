@@ -23,7 +23,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = authoritarian_democrat 
 	last_election = "1933.10.25"
 	election_frequency = 48
 	elections_allowed = no
@@ -51,6 +51,7 @@ create_country_leader = {
 	traits = {
 	}
 }
+
 create_country_leader = {
 	name = "Ahmad of Kalat"
 	desc = "POLITICS_GUL_KHAN_NASIR_DESC"

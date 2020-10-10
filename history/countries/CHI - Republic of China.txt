@@ -45,7 +45,7 @@ set_popularities = {
 }
 
 set_stability = 0.5
-#add_ideas = CHI_shared_economy
+
 create_country_leader = {
 	name = "Chiang Kai-Shek"
 	desc = "POLITICS_CHIANG_KAI_SHEK_DESC"

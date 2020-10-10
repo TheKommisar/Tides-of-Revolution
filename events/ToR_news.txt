@@ -25,7 +25,7 @@ news_event = {
 	title = tornews.2.t
 	desc = tornews.2.d
 
-    picture = news_event_ast_army
+    picture = news_event_generic_funeral
     
 	major = yes
 

@@ -21,10 +21,12 @@ set_technology = {
 	early_submarine = 1
 	early_destroyer = 1
 }
+
 add_ideas = {
 ROM_new_order
 ROM_greater_romania
 }
+
 set_politics = {
 	ruling_party = national_populist
 	last_election = "1933.12.20" 
@@ -102,7 +104,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Carol II"
 	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
-	picture = "Portrait_Romania_Nicolae.tga"
+	picture = "Portrait_RRM_Carol_II.tga"
 	expire = "1999.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

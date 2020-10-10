@@ -1,0 +1,164 @@
+bookmarks = {
+	bookmark = {
+		name = "TIDES_OF_REVOLUTION_NAME"
+		desc = "TIDES_OF_REVOLUTION_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "ENG"
+		default = yes
+		
+                "USA"={
+			history = "USA_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_conservative
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				#USA_war_plan_black
+				#USA_limited_intervention
+				#USA_reestablish_the_gold_standard
+			}
+		}
+                "GER"={
+			history = "GER_TIDES_OF_REVOLUTION_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+			        GER_republican_menace
+                                GER_constitutional_crisis
+                                GER_iron_and_blood
+			}
+			focuses = {
+				#GER_anschluss
+				#GER_danzig_or_war
+				#GER_revive_the_kaiserreich
+			}
+		}
+                "RUS"={
+			history = "RUS_TIDES_OF_REVOLUTION_DESC"
+			ideology = national_populist
+			ideas = {
+				RUS_novaya_rossiya
+                                RUS_the_three_decades_of_humiliation
+                                RUS_treaty_of_brest_litovsk
+			}
+			focuses = {
+				#SOV_great_purge
+				#SOV_claims_on_baltic
+				#SOV_war_with_uk
+			}	
+		}
+		"FRA"={
+			history = "FRA_TIDES_OF_REVOLUTION_DESC"
+			ideology = revolutionary_socialist
+			ideas = {
+				FRA_protected_by_the_maginot_line
+                                legacy_of_the_commune
+                                weak_army
+			}
+			focuses = {
+				#FRA_initiate_government_reform
+				#FRA_support_status_quo
+				#FRA_revise_versailles
+			}
+		}
+                "AUS"={
+			history = "AUS_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_democrat
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+			}	
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}		
+		}
+		"ENG"={
+			history = "ENG_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_liberal
+			ideas = {
+                                ENG_the_rearmament_crisis
+                                ENG_paramilitary_violence
+                                ENG_sluggish_economy
+			}
+			focuses = {
+				#tizard_mission_focus
+				#ENG_war_with_germany
+				#ENG_war_with_italy
+			}
+		}
+		"JAP"={
+			history = "JAP_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_conservative
+			ideas = {
+				state_shintoism
+				JAP_zaibatsus
+			}	
+			focuses = {
+				#JAP_the_zero
+				#JAP_warrior_spirit
+				#JAP_strike_on_the_southern_resource_area
+			}			
+		}
+
+		"---"={
+			history = "OTHER_TIDES_OF_REVOLUTION_DESC"
+		}
+
+
+		# minors from DLC ####
+		"AST"={
+			minor = yes
+			history = "AST_TIDES_OF_REVOLUTION_DESC"
+			ideology = classic_liberal
+			ideas = {
+				legacy_of_the_anzacs
+                                AST_economic_depression
+			}
+			focuses = {
+				AST_1937_elections
+				AST_anzac_spirit
+				AST_recovered_economy
+			}
+		}
+
+                "BEL"={
+			minor = yes
+			history = "BEL_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_conservative
+			ideas = {
+				BEL_political_polarization
+                                BEL_great_war_horrors
+			}
+			focuses = {
+				#AST_1937_elections
+				#AST_anzac_spirit
+				#AST_recovered_economy
+			}
+		}
+
+                "ITA"={
+			minor = yes
+			history = "ITA_TIDES_OF_REVOLUTION_DESC"
+			ideology = social_democrat
+			ideas = {
+                                ITA_great_depression
+                                ITA_memories_of_the_war
+                                ITA_new_constitution
+			}
+			focuses = {
+				#AST_1937_elections
+				#AST_anzac_spirit
+				#AST_recovered_economy
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

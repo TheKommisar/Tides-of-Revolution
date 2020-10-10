@@ -1,22 +1,6 @@
 ideas = {
 country = {
-        ITA_national_unity_government = {
-			picture = generic_constitutional_guarantees
-			allowed = {
-				original_tag = ITA
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
-			removal_cost = -1
-		
-			modifier = {
-                                 stability_factor = 0.20
-                                 political_power_factor = 0.25	
-			}
-		}
+     
         ITA_great_depression = {
 			picture = usa_great_depression	
 			allowed = {
@@ -30,9 +14,8 @@ country = {
 			removal_cost = -1
 		
 			modifier = {
-                                 consumer_goods_factor = 0.2
-                                 production_factory_max_efficiency_factor = -0.3
-                                 industrial_capacity_factory = -0.3
+                                 consumer_goods_factor = 0.23
+                                 industrial_capacity_factory = -0.2
                                  production_speed_buildings_factor = -0.25	
 			}
 		}
@@ -51,11 +34,10 @@ country = {
 			modifier = {
                                  conscription_factor = -0.05
                                  war_support_factor = -0.2
-                                 training_time_factor = 0.2
-                                 military_leader_cost_factor = 0.50	
+                                 training_time_factor = 0.2	
 			}
 		}
-        ITA_broken_nation = {
+        ITA_political_radicalisation = {
 			picture = FRA_scw_intervention_republicans_focus
 			allowed = {
 				original_tag = ITA
@@ -68,9 +50,44 @@ country = {
 			removal_cost = -1
 		
 			modifier = {
-                                political_power_gain = -0.25
-                                stability_factor = -0.1
+                                stability_factor = -0.10
+                                political_power_factor = -0.30
+                                social_democrat_drift = -0.02
 			}
 		}
+        ITA_new_constitution = {
+			picture = generic_constitutional_guarantees
+			allowed = {
+				original_tag = ITA
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+                                stability_factor = 0.10
+                                political_power_factor = 0.20	
+                                drift_defence_factor = 0.1
+			}
+		}
+        ITA_socialist_hegemony = {
+			allowed = {
+				original_tag = ITA
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+                                stability_factor = -0.15
+                                political_power_gain = 0.5	
+			}
+		} 
 }
 }

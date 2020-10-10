@@ -54,9 +54,15 @@ CREATING_CHKSUM:0 "Executing the Tsar's Family"
 GENERATING_GRADIENT_BORDERS:0 "Bribing Government Officials"
 #"Generating Gradient Borders"
 
+### Name and Description ###
+BM_HISTORY_TITLE:0 "Brief History"
+
+TIDES_OF_REVOLUTION_NAME:0 "Tides of Revolution"
+
+FUHRERREICH_DESC:0 "The end of the Great War saw the empires of the old—the Ottomans, the Austrians, and the Germans—fall greatly in both power and influence while the United States, Britain, and France have risen. While the Great War was thought by many to usher in a new era of peace, it seems that the tensions of old have not yet faded away and, with them, could threaten the tenuous peace that remains..."
 
 ###OTHER COUNTRIES DESC###
-OTHER_WHISPERS_OF_ANTIQUITY_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the nationalists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its current situation, plummeting into the hells of war. And it will not wait for your decisions."
+OTHER_TIDES_OF_REVOLUTION_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the nationalists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its current situation, plummeting into the hells of war. And it will not wait for your decisions."
 
 #POLITICS_JFC_FULLER_DESC:0 "J.F.C. Fuller is the military dictator and leader of the former United Kingdom. With the death of the duumvirate of Haig and Kitchener, Fuller was the military's successful candidate to succeed to the position of dictator. However, he has brought with him his fascination for the occult and belief in Anglo-Saxon revival, which has caused some to regret their choice. Fuller is an erratic and cruel dictator, crushing dissent and seeking to aggressively expand his state in order to solidify control and restore England to her former glory."
 
@@ -123,30 +129,41 @@ all_adults_serve_desc:0 "The worse the man, the better the soldier.\n"
 scraping_the_barrel:0 "Scraping the Barrel"
 scraping_the_barrel_desc:0 "Every man, every women and every child will contribute to the War Effort, one way or another.\n"
 
+### Land Units ###
+garrison:0 "Garrison"
+militia:0 "Militia"
+
 ### Difficulty settings ###
-#custom_diff_strong_ger:0 "Strengthen Eintracht von Europa"
-#custom_diff_strong_sov:0 "Strengthen The Russian Empire"
-#custom_diff_strong_fra:0 "Strengthen France"
-#custom_diff_strong_ita:0 "Strengthen Patto di Sangue"
-#custom_diff_strong_eng:0 "Strengthen the UK"
-#custom_diff_strong_usa:0 "Strengthen America"
-#custom_diff_strong_mex:0 "Strengthen Mexico"
-#custom_diff_strong_jap:0 "Strengthen Japan"
+custom_diff_strong_ger:0 "Strengthen Mittelmächte"
+custom_diff_strong_sov:0 "Strengthen Solidarist Russia"
+custom_diff_strong_fra:0 "Strengthen France"
+custom_diff_strong_ita:0 "Strengthen Italy"
+custom_diff_strong_eng:0 "Strengthen the Commonwealth"
+custom_diff_strong_usa:0 "Strengthen America"
+custom_diff_strong_mex:0 "Strengthen Mexico"
+custom_diff_strong_jap:0 "Strengthen Japan"
 #custom_diff_strong_tur:0 "Strengthen Ottomans"
 
+### Factions ###
+pri:0 "Internationale"
+serbian_entente:0 "Serbian Entente"
+commonwealth:0 "Commonwealth of Nations"
+prosperity_sphere:0 "Co-Prosperity Sphere"
+mittelmachte:0 "Mittelmächte"
+freipakt:0 "Freipakt (Free Pact)"
+
 ### Interface ###
-#minister:1 "Ministers"
-#research_production:1 "Companies"
-#industrial_concern:1 "Industrial Company"
-#weapons_manufacturer:0 "Weapons Manufacturer"
-#tank_manufacturer:1 "Heavy Equipment Manufacturer"
-#air_naval_manufacturer:0 "Air and Naval Manufacturer"
-#POLITICS_NOELECTIONS:0 "Any elections by event."
-#can_replace_hog:0 "Can Replace Head Of Government"
-#ministers_cannot_be_replaced:0 "Ministers Cannot Be Replaced"
+minister:1 "Ministers"
+research_production:1 "Companies"
+industrial_concern:1 "Industrial Company"
+weapons_manufacturer:0 "Weapons Manufacturer"
+tank_manufacturer:1 "Heavy Equipment Manufacturer"
+air_naval_manufacturer:0 "Air and Naval Manufacturer"
+POLITICS_NOELECTIONS:0 "Any elections by event."
+can_replace_hog:0 "Can Replace Head Of Government"
+ministers_cannot_be_replaced:0 "Ministers Cannot Be Replaced"
 
 ##### Tooltips #####
-
 unlocked_later:0 "Your path remains closed until an opportunity presents itself."
 ENG_annex:0 "§RThis will result in your annexation!§"
 

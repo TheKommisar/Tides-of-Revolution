@@ -140,6 +140,13 @@ set_popularities = {
         paternal_autocrat = 31
         national_populist = 5
 }
+
+create_faction = mittelmachte
+add_to_faction = GER
+add_to_faction = TZN
+add_to_faction = NMB
+add_to_faction = COU
+
 TZN = {
         set_politics = {
         ruling_party = paternal_autocrat

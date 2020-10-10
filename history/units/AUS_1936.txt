@@ -126,13 +126,13 @@ division_template = {
 units = {
 
 ### Alpenjäger
-### Tyrol
+### Tyrol and Klagenfurt
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6631
+		location = 6680
 		division_template = "Alpenjägerdivision"
 		start_experience_factor = 0.3
 	}
@@ -141,7 +141,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 6631
+		location = 3673
 		division_template = "Alpenjägerdivision"
 		start_experience_factor = 0.3
 	}
@@ -227,13 +227,13 @@ units = {
 		division_template = "Infanteriedivision"
 		start_experience_factor = 0.2
 	}
-### Milan
+### Graz
 	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 3780
+		location = 9648
 		division_template = "Infanteriedivision"
 		start_experience_factor = 0.2
 	}

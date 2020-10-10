@@ -1,6 +1,6 @@
 ﻿capital = 331
 
-OOB = "NFL_1936"
+oob = "NFL"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_naval_oob = "NFL_1936_naval_mtg"
