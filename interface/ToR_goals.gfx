@@ -205,3 +205,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/BEL/BEL_punish_the_traitors.tga"
 	}
 
+    SpriteType = { 
+		name = "GFX_ITA_pci"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_pci.dds"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA_pli"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_pli.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA_pp"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_pp.dds"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA_psdi"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_psdi.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA"
+		texturefile = "gfx/interface/goals/ITA/ITA.dds"
+	}
+
+    SpriteType = { 
+		name = "GFX_Italian_Settlers"
+		texturefile = "gfx/interface/goals/ITA/Italian_Settlers.dds"
+	}
+
+}

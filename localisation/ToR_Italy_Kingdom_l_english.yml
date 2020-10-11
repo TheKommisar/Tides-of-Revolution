@@ -74,7 +74,23 @@ ITA_socialist_hegemony:0 "Socialist Hegemony"
 ITA_socialist_hegemony_desc:0 "Ever since the Elections of 1923, the Italian political theatre has been dominated by the same socialist political parties. Although this has given us the ability to pass laws and reforms with relative ease, our citizens are yearning for change."
 
 #Focuses
-#should be reintegrated
+#starter 
+ITA_review_the_past_year:0 "Review the Past Year"
+ITA_review_the_past_year_desc:0 "The previous year has been a turbulent one for the party and Italian politics as a whole. To avoid this we must prepare a special designated report outlining what went wrong and how we can prevent this from happening again."
+ITA_calm_the_party_ranks:0 "Calm the Party Ranks"
+ITA_calm_the_party_ranks_desc:0 ""
+ITA_run_the_popularity_polls:0 "Run the Popularity Polls"
+ITA_run_the_popularity_polls_desc:0 ""
+ITA_reapproach_the_psi:0 "Detente with the PSI"
+ITA_reapproach_the_psi_desc:0 ""
+ITA_good_favour_with_pri:0 "Good Favour with the PRI"
+ITA_good_favour_with_pri_desc:0 ""
+ITA_results_of_the_report:0 "Results of the Report"
+ITA_results_of_the_report_desc:0 "The final report which we requested has been released, let us take a look at it."
+ITA_a_return_to_parliament:0 "A Return To Parliament"
+ITA_a_return_to_parliament_desc:0 ""
+
+# democratic foreign policy
 ITA_looking_outwards:0 "Looking Outwards"
 ITA_looking_outwards_desc:0 "With the situation in Europe looking more grim by the hour, we must choose our foreign path carefully lest we want our sovereignty gone and independence lost."
 ITA_allies_in_london:0 "Allies in London"

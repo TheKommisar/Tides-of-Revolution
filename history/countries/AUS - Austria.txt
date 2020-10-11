@@ -87,6 +87,67 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Karl I"
+	desc = "POLITICS_KARL_I_DESC"
+	picture = "Portrait_AUS_Karl_I.tga"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl I"
+	desc = "POLITICS_KARL_I_DESC"
+	picture = "Portrait_AUS_Karl_I.tga"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl I"
+	desc = "POLITICS_KARL_I_DESC"
+	picture = "Portrait_AUS_Karl_I.tga"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl I"
+	desc = "POLITICS_KARL_I_DESC"
+	picture = "Portrait_AUS_Karl_I.tga"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl I"
+	desc = "POLITICS_KARL_I_DESC"
+	picture = "Portrait_AUS_Karl_I.tga"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Ludwig von Eimannsberger"
+	portrait_path = "gfx/leaders/AUS/Ludwig_von_Eimannsberger.tga"
+	traits = { panzer_leader }
+	skill = 4
+	attack_skill = 6
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 2
+}
+
 create_corps_commander = {
 	name = "Erhard Raus"
 	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Erhard_Raus.tga"
@@ -158,6 +219,28 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Theodor Körner"
+	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Theodor_Korner.tga"
+	traits = { winter_specialist fortress_buster }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ludwig Hülgerth"
+	portrait_path = "gfx/leaders/AUS/Ludwig_hulgerth.tga"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "Friedrich Materna"
 	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Friedrich_Materna.tga"
 	traits = {
@@ -170,11 +253,24 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Otto von Habsburg-Lothringen"
+	portrait_path = "gfx/leaders/AUS/Portrait_AUS_Otto_I.tga"
+	traits = {
+		politically_connected
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
 create_navy_leader = {
 	name = "Miklos Horthy"
 	picture = "Horthy.tga"
-	traits = { chief_engineer }
-	skill = 3
+	traits = { old_guard_navy battleship_adherent  }
+	skill = 3 
 	attack_skill = 2
 	defense_skill = 2
 	maneuvering_skill = 3
@@ -184,12 +280,38 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Georg von Trapp"
 	picture = "Portrait_AUS_Georg_von_Trapp.tga"
-	traits = { chief_engineer }
-	skill = 3
+	traits = { green_water_expert seawolf }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Gottfried von Banfield"
+	portrait_path = "gfx/leaders/AUS/Portrait_AUS_Gottfried_von_Banfield.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 2
 	attack_skill = 2
 	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 3
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Janko Vuković"
+	portrait_path = "gfx/leaders/AUS/Portrait_AUS_Janko_Vukovic.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 
 set_stability = 0.50

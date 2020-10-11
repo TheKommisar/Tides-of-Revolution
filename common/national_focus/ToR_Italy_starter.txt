@@ -17,7 +17,7 @@ focus_tree = {
 		x = 3
                 y = 0
                 available = {}
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
@@ -28,13 +28,13 @@ focus_tree = {
 
         focus = {
 		id = ITA_calm_the_party_ranks
-		icon = GFX_wip
+		icon = GFX_goal_ideology_social_democrat
                 prerequisite = { focus = ITA_review_the_past_year }
 		x = 0
                 y = 1
                 relative_position_id = ITA_review_the_past_year
                 available = {}
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -45,13 +45,13 @@ focus_tree = {
 
         focus = {
 		id = ITA_run_the_popularity_polls
-		icon = GFX_wip
+		icon = GFX_goal_new_treaty
                 prerequisite = { focus = ITA_calm_the_party_ranks }
 		x = 0
                 y = 1
                 relative_position_id = ITA_calm_the_party_ranks
                 available = {}
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -62,7 +62,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_reapproach_the_psi
-		icon = GFX_wip
+		icon = GFX_ITA_psdi
                 prerequisite = { focus = ITA_run_the_popularity_polls }
                 mutually_exclusive = { focus = ITA_good_favour_with_pri }
 		x = -1
@@ -80,7 +80,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_good_favour_with_pri
-		icon = GFX_wip
+		icon = GFX_ITA_pli
                 prerequisite = { focus = ITA_run_the_popularity_polls }
                 mutually_exclusive = { focus = ITA_reapproach_the_psi }
 		x = 1
@@ -98,13 +98,13 @@ focus_tree = {
 
         focus = {
 		id = ITA_results_of_the_report
-		icon = GFX_wip
+		icon = GFX_goal_constitutional_guarantees
                 prerequisite = { focus = ITA_good_favour_with_pri focus = ITA_reapproach_the_psi }
 		x = -1
                 y = 1
                 relative_position_id = ITA_good_favour_with_pri
                 available = {}
-		cost = 3
+		cost = 1
 		ai_will_do = {
 			factor = 1
 		}
@@ -121,12 +121,13 @@ focus_tree = {
                 y = 1
                 relative_position_id = ITA_results_of_the_report
                 available = {}
-		cost = 3
+		cost = 2
 		ai_will_do = {
 			factor = 1
 		}
 		
 		completion_reward = {
+                     country_event = italy.6
 		}
 	}
 

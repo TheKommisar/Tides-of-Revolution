@@ -106,7 +106,7 @@
 
         shared_focus = {
 		id = ITA_attract_to_our_colonies
-		icon = GFX_wip
+		icon = GFX_Italian_Settlers
                 prerequisite = { focus = ITA_public_works_projects }
 		x = 1
                 y = 1
