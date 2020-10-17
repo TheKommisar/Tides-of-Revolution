@@ -2,7 +2,7 @@
 
 #Parties
 SER_national_populist_party:0 "Zbor"
-SER_national_populist_party_long:0 "Zbor"
+SER_national_populist_party_long:0 "Združena borbena organizacija rada"
 SER_vanguardist_party:0 "SKS"
 SER_vanguardist_party_long:0 "Savez Komunista Srbije"
 SER_social_conservative_party:0 "NRS"
@@ -17,12 +17,10 @@ SER_social_liberal_party:0 "SDS"
 SER_social_liberal_party_long:0 "Samostalna Demokratska Stranka"
 SER_classic_liberal_party:0 "DSS"
 SER_classic_liberal_party_long:0 "Demokratska Stranka Srbije"
-SER_totalitarian_socialist_party:0 "SKS"
-SER_totalitarian_socialist_party_long:0 "Savez Komunista Srbije"
 SER_revolutionary_socialist_party:0 "Direktasi"
 SER_revolutionary_socialist_party_long:0 "Direktasi"
-SER_orthodox_marxist_party:0 ""
-SER_orthodox_marxist_party_long:0 ""
+SER_orthodox_marxist_party:0 "SKS"
+SER_orthodox_marxist_party_long:0 "Savez Komunista Srbije"
 
 #Country Names
 SER_national_populist:0 "Kingdom of Serbia"

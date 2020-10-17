@@ -42,5 +42,3 @@ ideas = {
 				defense_bonus_against = 0.075
 			}
 		}
-	}
-}

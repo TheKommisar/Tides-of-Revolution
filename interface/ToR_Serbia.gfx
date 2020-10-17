@@ -1,0 +1,16 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_SER_pan_nationalism"
+		texturefile = "gfx/interface/ideas/SER/idea_SER_pan_nationalism.tga"
+	}	
+		spriteType = {
+		name = "GFX_idea_SER_unpopular_monarchy"
+		texturefile = "gfx/interface/ideas/SER/idea_SER_unpopular_monarchy.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_SER_war_reparations"
+		texturefile = "gfx/interface/ideas/SER/idea_SER_war_reparations.tga"
+	}
+}

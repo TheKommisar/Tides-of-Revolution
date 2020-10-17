@@ -23,6 +23,10 @@ spriteTypes = {
 		name = "GFX_idea_GER_unworthy_sacrafice"
 		texturefile = "gfx/interface/ideas/GER/idea_GER_unworthy_sacrafice.tga"
 	}
+	     spriteType = {
+		name = "GFX_idea_GER_economic_stagnation"
+		texturefile = "gfx/interface/ideas/GER/idea_GER_economic_stagnation.tga"
+	}
 
 
 #Ministers

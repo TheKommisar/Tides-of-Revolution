@@ -7,7 +7,7 @@ set_research_slots = 3
 set_convoys = 300
 
 add_ideas = {
-	CHI_shared_economy
+	CHI_reforming_economy
 	CHI_white_sun_over_china
 	CHI_failing_republic
 	CHI_sino_german_economy
