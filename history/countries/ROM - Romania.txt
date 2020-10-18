@@ -25,6 +25,7 @@ set_technology = {
 add_ideas = {
 ROM_new_order
 ROM_greater_romania
+ROM_treaty_of_bucharest
 }
 
 set_politics = {

@@ -11,4 +11,8 @@ spriteType = {
 		name = "GFX_idea_ROM_greater_romania"
 		texturefile = "gfx/interface/ideas/ROM/idea_ROM_greater_romania.tga"
 	}
+		spriteType = {
+		name = "GFX_idea_ROM_treaty_of_bucharest"
+		texturefile = "gfx/interface/ideas/ROM/idea_ROM_treaty_of_bucharest.tga"
+	}
 } 
