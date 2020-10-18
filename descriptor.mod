@@ -1,6 +1,6 @@
 version="0.1"
 replace_path="events"
-replace_path = "history/states"
+replace_path="history/states"
 tags={
 	"Alternative History"
 	"Map"

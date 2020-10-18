@@ -201,9 +201,7 @@ add_ideas = {
         GER_constitutional_crisis
         GER_iron_and_blood
 	GER_nation_and_kaiser
-	GER_economic_stagnation
 	GER_unworthy_sacrafice
-
 }
 
 create_country_leader = {

@@ -72,6 +72,7 @@ ideas = {
 				industrial_capacity_factory = 0.075
 				industrial_capacity_dockyard = 0.075
 				production_speed_buildings_factor = 0.075
+				production_speed_buildings_factor = 0.075
 			}
 		}
 			    CHI_von_falkenhausens_doctrine = {

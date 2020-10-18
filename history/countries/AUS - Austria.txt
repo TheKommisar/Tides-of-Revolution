@@ -9,6 +9,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = AUS_unitedstates
+
 set_research_slots = 4
 
 set_technology = {
@@ -51,8 +53,6 @@ if = {
 		coastal_defense_ships = 1
 	}
 }
-
-set_cosmetic_tag = AUS_unitedstates
 
 set_politics = {
 	ruling_party = social_democrat

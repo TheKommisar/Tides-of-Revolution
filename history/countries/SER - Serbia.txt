@@ -6,8 +6,6 @@ set_research_slots = 3
 
 add_ideas = {
 	SER_nationalism
-	SER_unpopular_monarchy
-	SER_war_reparations
 }
 
 set_technology = {
@@ -56,16 +54,16 @@ set_popularities = {
         orthodox_marxist = 4
 	revolutionary_socialist = 6
         social_democrat = 0
-        social_liberal = 9
-        classic_liberal = 13
+        social_liberal = 16
+        classic_liberal = 15
         social_conservative = 10
-        authoritarian_democrat = 11
-        paternal_autocrat = 37
-        national_populist = 10
+        authoritarian_democrat = 37
+        paternal_autocrat = 12
+        national_populist = 0
 }
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = no
@@ -94,16 +92,7 @@ create_country_leader = {
 		#
 	}
 }
-create_country_leader = {
-	name = "Alexander II of Serbia"
-	desc = ""
-	picture = "Alexander_II.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
+
 create_country_leader = {
 	name = "Zivorad Jovanovic"
 	desc = ""
