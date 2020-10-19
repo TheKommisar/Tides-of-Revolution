@@ -42,10 +42,6 @@ ideas = {
 				defense_bonus_against = 0.075
 			}
 		}
-<<<<<<< Updated upstream
-	}
-}
-=======
 			ROM_treaty_of_bucharest = {
 		allowed = {
 			always = no
@@ -72,4 +68,5 @@ ideas = {
 				extra_trade_to_target_factor = 0.10
 			}
 		}
->>>>>>> Stashed changes
+	}
+}
