@@ -1,0 +1,21 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_NMB_colony"
+		texturefile = "gfx/interface/ideas/NMB/idea_NMB_colony.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NMB_sudwestafrika"
+		texturefile = "gfx/interface/ideas/NMB/idea_NMB_sudwestafrika.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NMB_schutztruppe"
+		texturefile = "gfx/interface/ideas/NMB/idea_NMB_schutztruppe.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NMB_afrikaner_exiles"
+		texturefile = "gfx/interface/ideas/NMB/idea_NMB_afrikaner_exiles.tga"
+	}
+
+}

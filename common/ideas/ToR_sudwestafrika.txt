@@ -1,0 +1,80 @@
+ideas = {
+        country = {
+
+	NMB_colony = {
+
+picture = NMB_colony
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+		stability_factor = -0.25
+		political_power_gain = -0.2
+		conscription_factor = -0.70
+			}
+		}
+			NMB_germanization = {
+
+picture = NMB_sudwestafrika
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+		stability_factor = 0.1
+		political_power_gain = 0.05
+		conscription_factor = 0.20
+                monthly_population = 0.2
+			}
+		}
+	NMB_schutztruppe = {
+
+picture = NMB_schutztruppe
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+army_attack_factor = 0.05
+army_defense_factor = 0.05
+army_morale_factor = 0.025
+war_support_factor = 0.05
+			}
+		}
+	NMB_afrikaner_exiles = {
+
+picture = NMB_afrikaner_exiles
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+war_support_factor = 0.1
+            }
+			targeted_modifier = {
+				tag = SAF
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+
+
+
+
+
+
+	}
+}

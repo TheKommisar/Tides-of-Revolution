@@ -1,0 +1,274 @@
+ideas = {
+	
+#############
+# Ministers #
+#############
+### Head of Government
+head_of_government = {
+		GEN_HOG_Van = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Van"}
+		allowed = {
+			NOT = {
+				OR = {				    
+                                        original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = vanguardist
+					has_government = orthodox_marxist
+					has_government = revolutionary_socialist
+				}
+				NOT = {has_country_flag = Dmitry_Kuznetsov_dead}
+				NOT = {has_country_flag = Dmitry_Kuznetsov_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government vanguardist}
+		cancel_if_invalid = no
+	}
+	
+		GEN_HOG_Ort = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Ort"}
+		allowed = {
+			NOT = {
+				OR = {
+				        original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = vanguardist
+					has_government = orthodox_marxist
+					has_government = revolutionary_socialist
+				}
+				NOT = {has_country_flag = Mathias_Hansen_dead}
+				NOT = {has_country_flag = Mathias_Hansen_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government orthodox_marxist}
+		cancel_if_invalid = no
+	}
+
+                GEN_HOG_Rev = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Rev"}
+		allowed = {
+			NOT = {
+				OR = {
+				        original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = vanguardist
+					has_government = orthodox_marxist
+					has_government = revolutionary_socialist
+                                        has_government = social_democrat
+				}
+				NOT = {has_country_flag = Tilmann_Seidel_dead}
+				NOT = {has_country_flag = Tilmann_Seidel_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government revolutionary_socialist}
+		cancel_if_invalid = no
+	}
+	
+		GEN_HOG_Sde = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sde"}
+		allowed = {
+			NOT = {
+				OR = {					
+				 	original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = revolutionary_socialist
+					has_government = social_democrat
+					has_government = social_liberal
+					has_government = classic_liberal
+				}
+				NOT = {has_country_flag = Louis_Martin_dead}
+				NOT = {has_country_flag = Louis_Martin_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government social_democrat }
+		cancel_if_invalid = no
+	}
+	
+		GEN_HOG_Sli = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sli"}
+		allowed = {
+			NOT = {
+				OR = {					
+				 	original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = revolutionary_socialist
+					has_government = social_democrat
+					has_government = social_liberal
+					has_government = classic_liberal
+					has_government = social_conservative
+				}
+				NOT = {has_country_flag = Hugo_Bernard_dead}
+				NOT = {has_country_flag = Hugo_Bernard_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government social_liberal }
+		cancel_if_invalid = no
+	}
+	
+		GEN_HOG_Cli = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Cli"}
+		allowed = {
+			NOT = {
+				OR = {					
+				 	original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = social_democrat
+					has_government = social_liberal
+					has_government = classic_liberal
+					has_government = social_conservative
+				}
+				NOT = {has_country_flag = Francesco_Esposito_dead}
+				NOT = {has_country_flag = Francesco_Esposito_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government classic_liberal }
+		cancel_if_invalid = no
+	}
+
+		GEN_HOG_Sco = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sco"}
+		allowed = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = classic_liberal
+					has_government = social_conservative
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+				}
+				NOT = {has_country_flag = James_Smith_dead}
+				NOT = {has_country_flag = James_Smith_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government social_conservative }
+		cancel_if_invalid = no
+	}
+	
+		GEN_HOG_Ade = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Ade"}
+		allowed = {
+			NOT = {
+				OR = {					
+				 	original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = social_conservative
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+					has_government = national_populist
+				}
+				NOT = {has_country_flag = Szymon_Kowalski_dead}
+				NOT = {has_country_flag = Szymon_Kowalski_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government authoritarian_democrat }
+		cancel_if_invalid = no
+	}
+	
+		GEN_HOG_Pau = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Pau"}
+		allowed = {
+			NOT = {
+				OR = {					
+				 	original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+					has_government = national_populist
+				}
+				NOT = {has_country_flag = Oscar_Jensen_dead}
+				NOT = {has_country_flag = Oscar_Jensen_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government paternal_autocrat }
+		cancel_if_invalid = no
+	}
+	
+		GEN_HOG_Npo = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Npo"}
+		allowed = {
+			NOT = {
+				OR = {					
+				 	original_tag = GER
+					original_tag = ENG
+				}
+			}
+		}
+		available = {
+			AND = {
+				OR = {
+					has_government = paternal_autocrat
+					has_government = national_populist
+				}
+				NOT = {has_country_flag = Paul_Muller_dead}
+				NOT = {has_country_flag = Paul_Muller_hog_fired}
+				NOT = {has_country_flag = ministers_cannot_be_replaced}
+			}
+		}
+		traits = {head_of_government national_populist }
+		cancel_if_invalid = no
+	}
+}
+}

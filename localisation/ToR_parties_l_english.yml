@@ -1,0 +1,50 @@
+﻿l_english:
+ vanguardist:0 "Vanguardist"
+ vanguardist_noun:0 "Vanguardism"
+ orthodox_marxist:0 "Orthodox Marxist"
+ orthodox_marxist_noun:0 "Orthodox Marxism"
+ revolutionary_socialist:0 "Revolutionary Socialist"
+ revolutionary_socialist_noun:0 "Revolutionary Socialism"
+ social_democrat:0 "Social Democrat"
+ social_democrat_noun:0 "Social Democracy"
+ social_liberal:0 "Social Liberal"
+ social_liberal_noun:0 "Social Liberalism"
+ classic_liberal:0 "Classical Liberal"
+ classic_liberal_noun:0 "Classical Liberalism"
+ social_conservative:0 "Social Conservative"
+ social_conservative_noun:0 "Social Conservatism"
+ authoritarian_democrat:0 "Authoritarian Dem."
+ authoritarian_democrat_noun:0 "Authoritarian Democracy"
+ paternal_autocrat:0 "Paternal Autocrat"
+ paternal_autocrat_noun:0 "Paternal Autocracy"
+ national_populist:0 "National Populist"
+ national_populist_noun:0 "National Populism"
+ totalitarian_socialist_desc:0 "Collectivist Government"
+ vanguardist_desc:0 "Collectivist Government"
+ orthodox_marxist_desc:0 "Collectivist Government"
+ revolutionary_socialist_desc:0 "Collectivist Government"
+ social_democrat_desc:0 "Democratic Government"
+ social_liberal_desc:0 "Democratic Government"
+ classic_liberal_desc:0 "Democratic Government"
+ social_conservative_desc:0 "Democratic Government"
+ authoritarian_democrat_desc:0 "Authoritarian Government"
+ paternal_autocrat_desc:0 "Authoritarian Government"
+ national_populist_desc:0 "Authoritarian Government"
+
+vanguardist_subtype_desc:0 "Vanguard Socialism, or Vanguardism, is a political idea that proposes the establishment of a strong, internationalistic authoritarian socialist state, with near-total control over society, lead by a political vanguard group, to direct the working classes towards the Marxist dream. Widely considered revisionist, nowadays, any socialist ideologies that propose structures such as a strong state, leadership, and military tend to be categorized under Vanguardism as an umbrella term too."
+
+revolutionary_socialist_subtype_desc:0 "Rather than a defined ideology, Revolutionary Socialism is an umbrella term for the different socialist ideologies that put an emphasis in a liberal social and political order, possibly including direct or indirect democracy, or absence of a central government to democratically rule altogether, while possessing certain degree of socialist economic policy that may vary depending on the ideology. Many different sub-ideologies fall under the banner of revolutionary socialism, even insignificant movements such as syndicalism. Similarly, some ideologies may propel a more militant movement, while some are more peaceful in nature. Prominent ideologies under this term may include Syndicalism and Anarchism, amongst others."
+
+social_democrat_subtype_desc:0 "Social Democracy is an ideology whose goal is to reform capitalism and humanize it by aligning it with the ethical ideals of social welfare while maintaining the capitalist mode of production, rather than creating an alternative socialist economic system. While usually promoting a plutocratic form of government and a heavily regulated market economy, some more radical streams exist."
+
+social_liberal_subtype_desc:0 "Social Liberalism is a variation on mainstream Market liberalism, with the main difference being is the inclusion of various civil freedoms as basic human rights. Professing progressive social and economic policies the social liberals aim to create a society where every individual is free to live his own life with full opportunities regardless of their status."
+
+classic_liberal_subtype_desc:0 "Classical Liberals see themselves as the mainstream liberal ideology. The main tenants of Classical Liberalism are an unregulated free market and a liberal democratic political system. Classical Liberals believe that the freer the market the freer the people, and they will staunchly defend the political and economic rights of the individual."
+
+social_conservative_subtype_desc:0 "Conservatism is a political ideology which can vary greatly depending on the political history of the region or nation. Nonetheless, it is normally centred on preserving traditional beliefs, attitudes and philosophy as well as the traditional power dynamic of society while using the democratic system. Opposed to both radical and moderate changes to the status quo, conservatives want to keep society in order and stable. Most conservative societies usually promote a regulated market economy and favour economic protectionism."
+
+authoritarian_democrat_subtype_desc:0 "Authoritarian Democracy is an ideology that combines a strong executive power with a representative parliament and a partial democratic political system. Authoritarian Democratic regimes often take a conservative stance on social issues, favour centralization and typically have Hawkish sentiments in-government; although isolationist branches of this ideology are not unheard of. The aim of these regimes is to maintain national stability and provide the people both a popular and responsible government."
+
+paternal_autocrat_subtype_desc:0 "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state controlled economy."
+
+national_populist_subtype_desc:0 "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."

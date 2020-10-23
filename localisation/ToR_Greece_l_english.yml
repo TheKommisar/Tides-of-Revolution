@@ -1,0 +1,94 @@
+﻿l_english: 
+
+#Parties
+GRE_national_populist_party:0 "EV"
+GRE_national_populist_party_long:0 "Énosis Vasilofrónon"
+GRE_vanguardist_party:0 "KKE"
+GRE_vanguardist_party_long:0 "Kommounistikó Kómma Elládas"
+GRE_social_conservative_party:0 "LK"
+GRE_social_conservative_party_long:0 "Laïkòn Kómma"
+GRE_paternal_autocrat_party:0 "KE"
+GRE_paternal_autocrat_party_long:0 "Kómma ton Eleftherofrónon"
+GRE_authoritarian_democrat_party:0 "KE"
+GRE_authoritarian_democrat_party_long:0 "Kómma ton Eleftherofrónon"
+GRE_social_democrat_party:0 "EME-AkP"
+GRE_social_democrat_party_long:0 "Eniaío Métopo Ergatón, Agrotón kai Prosfýgon"
+GRE_social_liberal_party:0 "EEK"
+GRE_social_liberal_party_long:0 "Ethnikón Enotikón Kómma"
+GRE_classic_liberal_party:0 "KF"
+GRE_classic_liberal_party_long:0 "Kómma Filelefthéron"
+GRE_totalitarian_socialist_party:0 "KKE"
+GRE_totalitarian_socialist_party_long:0 "Kommounistikó Kómma Elládas"
+GRE_revolutionary_socialist_party:0 "SKE"
+GRE_revolutionary_socialist_party_long:0 "Sosialistikó Kómma Elládas"
+GRE_orthodox_marxist_party:0 "KKE"
+GRE_orthodox_marxist_party_long:0 "Kommounistikó Kómma Elládas"
+
+#Country Names
+GRE_national_populist:0 "Hellenia"
+GRE_national_populist_DEF:0 "Hellenia"
+GRE_totalitarian_socialist:0 "Greek Workers' Union"
+GRE_totalitarian_socialist_DEF:0 "the Greek Workers' Union"
+GRE_paternal_autocrat:0 "Hellenic Republic"
+GRE_paternal_autocrat_DEF:0 "the Hellenic Republic"
+GRE_social_conservative:0 "Hellenic Republic"
+GRE_social_conservative_DEF:0 "the Hellenic Republic"
+GRE_authoritarian_democrat:1 "Hellenic Republic"
+GRE_authoritarian_democrat_DEF:1 "the Hellenic Republic"
+GRE_orthodox_marxist:0 "Greek Peoples' Republic"
+GRE_orthodox_marxist_DEF:0 "the Greek Peoples' Republic"
+GRE_revolutionary_socialist:0 "Greek Democratic Republic"
+GRE_revolutionary_socialist_DEF:0 "the Greek Democratic Republic"
+GRE_social_democrat:0 "Hellenic Republic"
+GRE_social_democrat_DEF:0 "the Hellenic Republic"
+GRE_social_liberal:0 "Hellenic Republic"
+GRE_social_liberal_DEF:0 "the Hellenic Republic"
+GRE_classic_liberal:0 "Hellenic Republic"
+GRE_classic_liberal_DEF:0 "the Hellenic Republic"
+GRE_vanguardist:0 "Greek Commune"
+GRE_vanguardist_DEF:0 "the Greek Commune"
+ 
+GRE_national_populist_ADJ:0 "Greek"
+GRE_totalitarian_socialist_ADJ:0 "Greek"
+GRE_social_conservative_ADJ:0 "Greek"
+GRE_paternal_autocrat_ADJ:0 "Greek"
+GRE_orthodox_marxist_ADJ:0 "Greek"
+GRE_authoritarian_democrat_ADJ:0 "Greek"
+GRE_revolutionary_socialist_ADJ:0 "Greek"
+GRE_social_democrat_ADJ:0 "Greek"
+GRE_social_liberal_ADJ:0 "Greek"
+GRE_classic_liberal_ADJ:0 "Greek"
+GRE_vanguardist_ADJ:0 "Greek"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+greece.1.t:0 "The Prime Minister's resignation"
+greece.1.d:0 "At the gathering of Parliament today, Prime Minister Eleftherios Venizelos announced, to the surprise of few, his resignation which would take place effectively immediately. It should come as no shock that his political reign is coming to an end, having led Greece intermittently since 1910. Although the main reason he stated is his failing health, some suggest the exact reason may be much deeper than at first glance. Eleftherios Venizelos is known to many as the father of the modern Greek nation, who kept Greece unified in this time of severe political polarisation and instability. Now with his retirement, many political candidates across the country are scurrying to take the helm of the ship and steer Greece in the direction they see fit."
+greece.1.a:0 "Let the race begin."
+greece.2.t:0 "The Elections of 1936"
+greece.2.dt:0 "The month of preparation is over, and today voters head to the polls to vote to determine who should lead Greece for the next few years. All sides have been working day and night to make sure their side comes out on top, in what may be the most important Greek election in history. The reigning major party in Greece, the Liberal Party, led by Themistoklis Sofoulis are confident to hold the office, yet the People’s Party, led by Panagis Tsaldaris, the main anti-liberal party in the country looks just as promising to secure a win. Contesting both of them are the leftist and rightist parties of the country, both of whom have united within their own groups to form two anti-moderate blocs."
+greece.2.a:0 "The Liberal Party wins!"
+greece.2.b:0 "The People's Party come out on top!"
+greece.2.c:0 "The Popular Front emerge victorious!"
+greece.2.d:0 "The National Bloc secure a victory!"
+
+
+#Descriptions
+
+#cosmetic tags
+
+GRE_political_divide:0 "Political Divide"
+GRE_political_turmoil:0 "Political Turmoil"
+ 

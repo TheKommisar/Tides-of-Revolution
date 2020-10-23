@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+ALB_national_populist_party:0 "PFS"
+ALB_national_populist_party_long:0 "Partia Fashiste e Shqipërisë"
+ALB_vanguardist_party:0 "PPSH"
+ALB_vanguardist_party_long:0 "Partia e Punës e Shqipërisë"
+ALB_social_conservative_party:0 "Progressives"
+ALB_social_conservative_party_long:0 "Partia Progresive"
+ALB_paternal_autocrat_party:0 "Wied-Neuwied"
+ALB_paternal_autocrat_party_long:0 "House of Wied-Neuwied"
+ALB_authoritarian_democrat_party:0 "Zogists"
+ALB_authoritarian_democrat_party_long:0 "Zogist faction"
+ALB_social_democrat_party:0 "PSD"
+ALB_social_democrat_party_long:0 "Socialdemokrate e Shqipërisë"
+ALB_social_liberal_party:0 "PP"
+ALB_social_liberal_party_long:0 "Partia Popullore"
+ALB_classic_liberal_party:0 "OL"
+ALB_classic_liberal_party_long:0 "Opozita Liberale"
+ALB_totalitarian_socialist_party:0 "PPSH"
+ALB_totalitarian_socialist_party_long:0 "Partia e Punës e Shqipërisë"
+ALB_revolutionary_socialist_party:0 "PSS"
+ALB_revolutionary_socialist_party_long:0 "Partia Socialiste e Shqipërisë"
+ALB_orthodox_marxist_party:0 "PPSH"
+ALB_orthodox_marxist_party_long:0 "Partia e Punës e Shqipërisë"
+
+#Country Names
+ALB_national_populist:0 "Principality of Albania"
+ALB_national_populist_DEF:0 "the Principality of Albania"
+ALB_paternal_autocrat:0 "Principality of Albania"
+ALB_paternal_autocrat_DEF:0 "the Principality of Albania"
+ALB_social_conservative:0 "Principality of Albania"
+ALB_social_conservative_DEF:0 "the Principality of Albania"
+ALB_authoritarian_democrat:1 "Principality of Albania"
+ALB_authoritarian_democrat_DEF:1 "the Principality of Albania"
+ALB_orthodox_marxist:0 "Albanian Republic"
+ALB_orthodox_marxist_DEF:0 "the Albanian Republic"
+ALB_revolutionary_socialist:0 "Albanian Republic"
+ALB_revolutionary_socialist_DEF:0 "the Albanian Republic"
+ALB_social_democrat:0 "Principality of Albania"
+ALB_social_democrat_DEF:0 "the Principality of Albania"
+ALB_social_liberal:0 "Principality of Albania"
+ALB_social_liberal_DEF:0 "the Principality of Albania"
+ALB_classic_liberal:0 "Principality of Albania"
+ALB_classic_liberal_DEF:0 "the Principality of Albania"
+ALB_vanguardist:0 "Albanian Commune"
+ALB_vanguardist_DEF:0 "the Albanian Commune"
+ 
+ALB_national_populist_ADJ:0 "Albanian"
+ALB_social_conservative_ADJ:0 "Albanian"
+ALB_paternal_autocrat_ADJ:0 "Albanian"
+ALB_orthodox_marxist_ADJ:0 "Albanian"
+ALB_authoritarian_democrat_ADJ:0 "Albanian"
+ALB_revolutionary_socialist_ADJ:0 "Albanian"
+ALB_social_democrat_ADJ:0 "Albanian"
+ALB_social_liberal_ADJ:0 "Albanian"
+ALB_classic_liberal_ADJ:0 "Albanian"
+ALB_vanguardist_ADJ:0 "Albanian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

@@ -1,0 +1,61 @@
+﻿capital = 772
+
+oob = "EQA_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+        mountaineers = 1
+}
+
+add_ideas = {
+       #
+}
+
+set_convoys = 5
+set_stability = 0.45
+set_war_support = 0.59
+
+set_politics = {	
+	ruling_party = authoritarian_democrat 
+	last_election = "1933.1.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    vanguardist = 0
+    orthodox_marxist = 0
+    revolutionary_socialist = 0
+    social_democrat = 0
+    social_liberal = 25
+    classic_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 50
+    paternal_autocrat = 25
+    national_populist = 0
+}
+
+create_country_leader = {
+	name = "Gabriel Louis Angoulvant"
+	desc = "POLITICS_ANGOULVANT_DESC"
+	picture = "Portrait_EQA_GL_Angoulvant.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gabriel Louis Angoulvant"
+	desc = "POLITICS_ANGOULVANT_DESC"
+	picture = "Portrait_EQA_GL_Angoulvant.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

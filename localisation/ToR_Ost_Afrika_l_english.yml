@@ -1,0 +1,51 @@
+﻿l_english: 
+
+#Parties
+TZN_vanguardist_party:0 "ANC"
+TZN_vanguardist_party_long:0 "African National Congress"
+TZN_orthodox_marxist_party:0 "ANC"
+TZN_orthodox_marxist_party_long:0 "African National Congress"
+TZN_revolutionary_socialist_party:0 "ANC"
+TZN_revolutionary_socialist_party_long:0 "African National Congress"
+TZN_social_democrat_party:0 "ANC"
+TZN_social_democrat_party_long:0 "African National Congress"
+TZN_social_liberal_party:0 "ANC (liberal)"
+TZN_social_liberal_party_long:0 "African National Congress (liberal)"
+TZN_classic_liberal_party:0 "CcM"
+TZN_classic_liberal_party_long:0 "Chama cha Muungano"
+TZN_social_conservative_party:0 "CcM"
+TZN_social_conservative_party_long:0 "Chama cha Muungano" 
+TZN_authoritarian_democrat_party:0 "OaSk"
+TZN_authoritarian_democrat_party_long:0 "Ostafrikanisches Siedlerkomitee"
+TZN_paternal_autocrat_party:0 "Colonial Administration"
+TZN_paternal_autocrat_party_long:0 "Colonial Administration"
+TZN_national_populist_party:0 "Neue Staatsbewegung"
+TZN_national_populist_party_long:0 "Neue Staatsbewegung"
+#Country Names
+TZN_paternal_autocrat:0 "Deutsch-Ostafrika"
+TZN_paternal_autocrat_DEF:0 "the Ostafrikanisch"
+TZN_authoritarian_democrat:1 "Deutsch-Ostafrika"
+TZN_authoritarian_democrat_DEF:1 "the Ostafrikanisch"
+ 
+TZN_paternal_autocrat_ADJ:0 "Ostafrikanisch"
+TZN_authoritarian_democrat_ADJ:0 "Ostafrikanisch"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+#Ideas
+
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

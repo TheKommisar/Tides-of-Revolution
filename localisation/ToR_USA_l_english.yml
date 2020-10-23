@@ -1,0 +1,147 @@
+﻿l_english: 
+
+#Parties FOR MOTHA FUCKIN MURICA
+USA_national_populist_party:0 "Silver Legion"
+USA_national_populist_party_long:0 "Silver Legion of America"
+USA_vanguardist_party:0 "Communist Party USA"
+USA_vanguardist_party_long:0 "Communist Party of the United States of America"
+USA_social_conservative_party:0 "Democratic Party"
+USA_social_conservative_party_long:0 "Democratic Party (Conservative Wing)"
+USA_paternal_autocrat_party:0 "American Purity Party"
+USA_paternal_autocrat_party_long:0 "American Purity Party"
+USA_paternal_autocrat_party_macarthur:0 "Democratic Preservation Council"
+USA_paternal_autocrat_party_macarthur_long:0 "Council for the Preservation and Protection of American Democracy"
+USA_authoritarian_democrat_party:0 "Democratic Party"
+USA_authoritarian_democrat_party_long:0 "Democratic Party (Hardline Conservative Wing)"
+USA_social_democrat_party:0 "Progressive Party"
+USA_social_democrat_party_long:0 "Progressive Party"
+USA_social_liberal_party:0 "Republican Party"
+USA_social_liberal_party_long:0 "Republican Party"
+USA_classic_liberal_party:0 "Democratic Party"
+USA_classic_liberal_party_long:0 "Democratic Party (Moderate Wing)"
+USA_revolutionary_socialist_party:0 "Socialist Party"
+USA_revolutionary_socialist_party_long:0 "Socialist Party of America"
+USA_orthodox_marxist_party:0 "Socialist Party"
+USA_orthodox_marxist_party_long:0 "Socialist Party of America
+
+#Country Names
+ USA_national_populist:0 "United States of America"
+ USA_national_populist_DEF:0 "the United States of America"
+ USA_paternal_autocrat:0 "United States of America"
+ USA_paternal_autocrat_DEF:0 "the United States of America"
+ USA_social_conservative:0 "United States of America"
+ USA_social_conservative_DEF:0 "the United States of America"
+ USA_authoritarian_democrat:1 "United States of America"
+ USA_authoritarian_democrat_DEF:1 "the United States of America"
+ USA_orthodox_marxist:0 "United States of America"
+ USA_orthodox_marxist_DEF:0 "the United States of America"
+ USA_revolutionary_socialist:0 "United States of America"
+ USA_revolutionary_socialist_DEF:0 "the United States of America"
+ USA_social_democrat:0 "United States of America"
+ USA_social_democrat_DEF:0 "the United States of America"
+ USA_social_liberal:0 "United States of America"
+ USA_social_liberal_DEF:0 "the United States of America"
+ USA_classic_liberal:0 "United States of America"
+ USA_classic_liberal_DEF:0 "the United States of America"
+ USA_vanguardist:0 "United States of America"
+ USA_vanguardist_DEF:0 "the United States of America"
+ 
+ USA_national_populist_ADJ:0 "American"
+ USA_social_conservative_ADJ:0 "American"
+ USA_paternal_autocrat_ADJ:0 "American"
+ USA_orthodox_marxist_ADJ:0 "American"
+ USA_authoritarian_democrat_ADJ:0 "American"
+ USA_revolutionary_socialist_ADJ:0 "American"
+ USA_social_democrat_ADJ:0 "American"
+ USA_social_liberal_ADJ:0 "American"
+ USA_classic_liberal_ADJ:0 "American"
+ USA_vanguardist_ADJ:0 "American"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+USA_fighting_for_america:0 "Fighting for America"
+USA_fighting_for_america_desc:0 "The Socialist rebels in Chicago and the Dixie traitors in Atlanta have declared rebellion against the Union! We must once more fight for our freedom and the ideals of liberty and justice we hold dear, for the Second American Civil War has begun!"
+USA_arm_the_people:0 "Arm The People"
+USA_arm_the_people_desc:0 "The people of our nation know that they too must do anything they can to help with our war efforts. Therefore every man, woman, and child must bear arms to repel those traitors encroaching upon our lands."
+USA_guns_from_the_armoury:0 "Guns From The Armoury"
+USA_guns_from_the_armoury_desc:0 "We must break open the barracks and arsenals so that all can fight. Our war has begun, and we will not let up any time soon."
+USA_guns_from_the_cabinet:0 "Guns From The Cabinet"
+USA_guns_from_the_cabinet_desc:0 "Every hunting rifle sitting at home, every revolver tucked away in the garage; even if they do not have ammunition they must be taken out and placed in the hands of our people!"
+USA_gun_manufacturing_techniques:0 "Gun Manufacturing Techniques"
+USA_gun_manufacturing_techniques_desc:0 "Even if you don't have a gun, you'll need to learn to make one. Across the country, boxes of spare parts, ammunition and instruction booklets are being sent to people's houses, in order to let them know their help is still needed."
+USA_firearm_training_for_children:0 "Firearm Training For Children"
+USA_firearm_training_for_children_desc:0 "What purpose is there to teach a child in these times? The only thing that a young boy or girl must be taught is to load, aim and fire a gun at the enemy!"
+USA_teach_the_old_to_shoot:0 "Teach The Old To Shoot"
+USA_teach_the_old_to_shoot_desc:0 "There are many old men in our country who have served in the army in previous wars and battles. If they still know the manual of arms, give them a gun and send them off to the front."
+USA_a_rifle_behind_every_blade_of_grass:0 "A Rifle Behind Every Blade of Grass"
+USA_a_rifle_behind_every_blade_of_grass_desc:0 "America is special in the way that we adore our firearms and our right to bear them. The Second Amendment has prepared us for a time like this."
+USA_conscript_the_masses:0 "Conscript The Masses"
+USA_conscript_the_masses_desc:0 "Every young, able-bodied man shall serve in the army, and serve America in our fight for freedom and liberty!"
+USA_every_truck_boat_horse:0 "Every Truck, Every Boat, Every Horse"
+USA_every_truck_boat_horse_desc:0 "For our men, and to ensure victory, we need every truck, every boat, and every horse the people have."
+USA_companies_for_war_effort:0 "Companies For The War Effort"
+USA_companies_for_war_effort_desc:0 "Companies such as Lockheed, Ford and General Electric shall shift themselves from civilian works and focus entirely on the war effort."
+USA_repurpose_old_landmarks:0 "Repurpose Old Landmarks"
+USA_repurpose_old_landmarks_desc:0 "Old military installations such as Fort Jay, Fort Mifflin and Fort McHenry must be converted for military use in order to defend the country."
+USA_every_scrap_for_the_war:0 "Every Scrap For The War"
+USA_every_scrap_for_the_war_desc:0 "Each and every person must hand in every single penny they have, and valuable materials such as copper, tin, aluminum and rubber for military use. Every single scrap must be used for the war effort."
+USA_women_too:0 "Women Too"
+USA_women_too_desc:0 "Women must not be sitting in factories doing 'manly' jobs - instead they should be given grenades, helmets and rifles to fight on the frontlines. The old, young and sick shall take their place in the factory."
+USA_raise_the_militias:0 "Raise The Militias"
+USA_raise_the_militias_desc:0 "Across the country, there are thousands of eager citizens who are willing to volunteer and fight for the honourable ideals of our country. We must enlist these loyal and willing citizens into the militias scattered across the country."
+USA_america_marches_onwards:0 "America Marches Onwards!"
+USA_america_marches_onwards_desc:0 "We'll Be Over\nWe're Coming Over\nAnd We Won't Come Back\n'Til It's Over Over There!"
+
+#Events
+#should be reintegrated
+
+usa.1.t:0 "The American Situation"
+usa.1.d:0 "The United States has fallen far in the past few decades. Following the election of Champ Clark - brought upon by the assassination of Teddy Roosevelt and heart attack of Woodrow Wilson - the United States pursued a doctrine of anti-British isolationism, keeping herself away from the conflicts of Europe yet doing everything to prevent a British victory in the war. What this entailed was the lobbying efforts of the US Government to end the British blockade on Germany, supplying of the Central Powers throughout the duration of the war, and production of anti-Entente propaganda in order to rile up the populace if a war with their former overlord came to be. These efforts worked to a certain degree, as the Great War ended in a stalemate, but effectively destroyed what poor relations the Americans had with the British beforehand. The next few years would prove to be America's golden years under the two-term presidency of William McAdoo and Vice-President Alexander Palmer, yet this would not last. In 1928, following a diplomatic crisis which started with the arrest and trial of Clarence Hatry, the Wall Street Stock Market crashed, in an event known as Damned Thursday. This in turn caused the Great Depression, a worldwide economic depression, which primarily affected the US and countries reliant on her for their trade. Incumbent President Herbert Hoover had promised a quick exit from the economic collapse, yet his lacklustre response to the crisis in fact worsened what was already bad, and forced Americans to seek alternatives to the two parties which had dominated American politics. In 1930, with no end in sight to the crisis, the US defaulted on much of her debt, causing a devastating collapse of the US dollar. Unemployment in the nation skyrocketed to around 40%, and the Great Depression became unbearable for much of the American population. However, Hoover would be assassinated whilst delivering his State of the Union Address in 1931, and Vice-President Charles Curtis took over the office. Curtis's presidency would be short as he would be elected out of office in the following election, replaced by Alfred Smith. Smith's promised laissez-faire economic reforms gave hope to the American people, yet this promise would merely remain empty as bill after bill would fall in the Senate, furthering political tensions in the nation. The year now is 1936, and another election is around the corner, predicted by many to be the most divisive in America's history. America herself even may not live to see the next few years."
+usa.1.a:0 "We uphold the values of liberty and justice high above us."
+
+usa.3.t:0 "Death of Lady Liberty"
+usa.3.d:0 "This morning New Yorkers woke up to see a smoldering mess in the place of the Statue of Liberty, for a bomb had taken her down the previous night. At around midnight, a large explosion was heard, which witnesses say was similar to that of cannon fire, and for a minute or so the New York skyline was lit up by the artificial fireball which ensued.\n\nThe explosion was left ignored until daytime due to the lack of visibility. In that time, residents of the city and surrounding boroughs were wide-awake from the commotion, believing the explosion to be gas or ammunition related; as day broke it soon turned out to be something much worse. It soon became apparent that the New York skyline was incomplete, filled with one structure less. As of now, the incident is under investigation, and Liberty Island has been closed off to the public. It is believed that the bomb was planted at the base of the statue, with additional explosives in the statue’s crown and torch.\n\nAlthough no suspects have been labelled, people have been quick to point fingers at underground communist and anarchist groups of the city - both of which have been known to cause trouble to authorities in the past. But as of now, one thing is certain - Lady Liberty is gone."
+usa.3.a:0 "Launch the investigation, we need to find those bastards!" 
+
+usa.4.t:0 "The Big Question"
+usa.4.d:0 "America has never before been this close to internal conflict ever since 1861. The divide among our citizens has become greater than we have ever seen in our history. Constant clashes between far-left and right militias take place in every corner of the country. This year's presidential election has become unrecognisable, with a multitude of radical parties contending alongside the Democrats and Republicans. In order to avoid a complete breakdown of our society, a considerable amount of cabinet members and senior military officers have proposed that the constitution be suspended and elections be cancelled in order to bring about stability to this nation once more."
+usa.4.a:0 "Are they crazy? Doing that will make everything worse!"
+usa.4.b:0 "Invite the military, we must save this country!"
+
+usa.6.t:0 "1936 Democratic National Convention"
+usa.6.d:0 "The Democratic National Convention has arrived, three candidates must be chosen. The first is current President and most likely nominee, Alfred Smith, although his poor handling of the Great Depression crisis have cast some doubts over whether or not he is suited to continue his presidency. The second candidate, more in line with the conservative sect of Democrats and the Southern democratic voters, Bennett Champ Clark, is another nominee for the Democratic ticket, and is popular among disillusioned Democratic voters against Al Smith's presidency. The final candidate, Eugene Talmadge, is the former Governor of Georgia and hardline a conservative Democrat. Although not as popular, his willingness to work with radical right-wing parties has convinced some that he may be the best choice in restoring order to the United States."
+usa.6.a:0 "Al Smith"
+usa.6.b:0 "Bennett Champ Clark"
+usa.6.c:0 "Eugene Talmadge"
+
+usa.7.t:0 "Boulder Dam completed"
+usa.7.d:0 "The Boulder Dam, located in the Black Canyon of the Colorado River has officially finished construction. Construction of the dam started in 1931, three years after the onset of the Great Depression and gave jobs to thousands of men, but cost the lives of hundreds of them as well. The opening ceremony of the dam was meant to include a dinner and a speech delivered by the President himself, but was unfortunately cut short due to supporters of the Socialist Party of America converging to protest the poor working conditions builders faced in construction of the dam."
+usa.7.a:0 "Why have socialists got to ruin everything?"
+
+usa.101.t:0 "Pershing requests to return to active service"
+usa.101.d:0 "Although having retired in 1924, General of the Armies John Joseph "Black Jack" Pershing has offered to come out of retirement and serve his nation in this time of war. Although having never served in the Great War, he is a veteran of the Spanish-American War and took part in the intervention in Russia, and is often seen as the man who - under his command - helped White forces win. In a letter to the president he requests to be returned to active military service in order to oversee the command of the armed forces in this war and unify America once again. Though skilled and highly experienced, many other commanders in the army are reluctant as to whether or not his ideas are still up-to-date, since military tactics and warfare have come a considerable length since the Russian Intervention."
+usa.101.a:0 "He must return to the military."
+usa.101.b:0 "We do not need him."
+
+#usa.102.t:0 "An offer from Siam"
+#usa.102.d:0 "The King Prajadhipok of Siam, or Rama VII, has approached the American ambassador to Siam offering us an elephant volunteer division for the war effort and a few other artifacts as a sign of goodwill and support for our faction in this time of crisis. Although support for our cause is welcome, the letter also stated that we would be fully responsible in taking care of these elephants for the duration of the war effort. One elephant itself incurs a great expense to care for, let alone a thousand of them, and we can’t possibly divert resources directed for the war effort for each one of them. As well as that, elephants are also slow moving and easy targets for the enemy to take down. Yet, the elephants in the division are white elephants, and should we decline their offer the Siamese government would view our declination as a severe insult as a white elephant in Siamese culture is the greatest gift one could offer."
+#usa.102.a:0 "We'll take anything we can get."
+#usa.102.b:0 "No, thank you."
+
+usa.1000.t:0 "The Fourth of July"
+usa.1000.d:0 "On Independence Day, the Fourth of July, celebrations took place today all across the country. Nearly everyone has set aside their political differences to celebrate the traditions of the United States with fireworks, parades, barbecues, beer, picnics and baseball games."
+usa.1000.a:0 "We shall celebrate the democratic ideals!"
+
+#Descriptions
+
+#cosmetic tags
+ 

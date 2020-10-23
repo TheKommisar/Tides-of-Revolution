@@ -1,0 +1,14 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_AST_emu_war"
+		texturefile = "gfx/interface/ideas/AST/emu_infestation.DDS"
+	}
+spriteType = {
+		name = "GFX_idea_legacy_of_the_anzacs"
+		texturefile = "gfx/interface/ideas/AST/ANZAC.tga"
+	}
+}

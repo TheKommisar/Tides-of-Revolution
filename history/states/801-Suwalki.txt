@@ -1,0 +1,19 @@
+state={
+	id=801
+	name="STATE_801"
+	manpower = 56000
+
+	state_category = town
+
+	history = {
+	    add_core_of = LIT
+	    owner = LIT
+	    buildings = {
+	        infrastructure = 6
+	    }
+	}
+
+	provinces={
+		400 3254 13206 
+	}
+}

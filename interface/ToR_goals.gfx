@@ -1,0 +1,238 @@
+spriteTypes = {	
+        SpriteType = { 
+		name = "GFX_focus_spa_matters_at_hand"
+		texturefile = "gfx/interface/goals/Spain.tga"
+	}
+
+        SpriteType = { 
+		name = "GFX_focus_spa_session_with_the_clergy"
+		texturefile = "gfx/interface/goals/spa_session_with_the_clergy.tga"
+	}
+
+        SpriteType = { 
+		name = "GFX_focus_spa_chaos_in_the_countryside"
+		texturefile = "gfx/interface/goals/chaos_in_the_countryside.dds"
+	}
+
+        SpriteType = { 
+		name = "GFX_focus_spa_address_the_cabinet"
+		texturefile = "gfx/interface/goals/address_the_cabinet.dds"
+	}
+        SpriteType = { 
+		name = "GFX_as_far_as_the_german_tongue_sounds"
+		texturefile = "gfx/interface/goals/as_far_as_the german_tongue_sounds.dds"
+	}
+        SpriteType = { 
+		name = "GFX_german_cows"
+		texturefile = "gfx/interface/goals/german_cows.dds"
+	}
+        SpriteType = { 
+		name = "GFX_german_iron"
+		texturefile = "gfx/interface/goals/german_iron.dds"
+	}
+        SpriteType = { 
+		name = "GFX_it_must_be_austria"
+		texturefile = "gfx/interface/goals/it_must_be_austria.dds"
+	}
+        SpriteType = { 
+		name = "GFX_pomerania"
+		texturefile = "gfx/interface/goals/pomerania.dds"
+	}
+        SpriteType = { 
+		name = "GFX_switzerland"
+		texturefile = "gfx/interface/goals/switzerland.dds"
+	}
+        SpriteType = { 
+		name = "GFX_tyrol"
+		texturefile = "gfx/interface/goals/tyrol.dds"
+	}
+        SpriteType = { 
+		name = "GFX_westphalia"
+		texturefile = "gfx/interface/goals/westphalia.dds"
+	}
+        SpriteType = { 
+		name = "GFX_rhine_blossom"
+		texturefile = "gfx/interface/goals/rhine_blossom.dds"
+	}
+        SpriteType = { 
+		name = "GFX_sand_dunes"
+		texturefile = "gfx/interface/goals/sand_dunes.dds"
+	}
+        SpriteType = { 
+		name = "GFX_danube"
+		texturefile = "gfx/interface/goals/danube.dds"
+	}
+        SpriteType = { 
+		name = "GFX_is_it_prussia"
+		texturefile = "gfx/interface/goals/is_it_prussia.dds"
+	} 
+        SpriteType = { 
+		name = "GFX_is_it_styria"
+		texturefile = "gfx/interface/goals/is_it_styria.dds"
+	}
+        SpriteType = { 
+		name = "GFX_is_it_swabia"
+		texturefile = "gfx/interface/goals/is_it_swabia.dds"
+	}
+        SpriteType = { 
+		name = "GFX_gull_belt"
+		texturefile = "gfx/interface/goals/gull_belt.dds"
+	}
+        SpriteType = { 
+		name = "GFX_bavaria"
+		texturefile = "gfx/interface/goals/bavaria.dds"
+	}
+     spriteType = {
+		name = "GFX_imperial_eagle_rises"
+		texturefile = "gfx/interface/goals/GER/GER_the_imperial_eagle_rises.tga"
+	}
+        SpriteType = { 
+		name = "GFX_fight_monarchism"
+		texturefile = "gfx/interface/goals/fight_monarchism.tga"
+	}
+                SpriteType = { 
+		name = "GFX_militarize_fgci"
+		texturefile = "gfx/interface/goals/SRI/SRI_militarize_fgci.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_christian_democracy"
+		texturefile = "gfx/interface/goals/BEL/BEL_christian_democracy.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_our_alsace_lorraine"
+		texturefile = "gfx/interface/goals/BEL/BEL_our_alsace_lorraine.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_dutch_claims"
+		texturefile = "gfx/interface/goals/BEL/BEL_dutch_claims.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_flag"
+		texturefile = "gfx/interface/goals/BEL/BEL_flag.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_belgium_1936_elections"
+		texturefile = "gfx/interface/goals/BEL/belgium_1936_elections.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_walk_the_middle_road"
+		texturefile = "gfx/interface/goals/BEL/BEL_walk_the_middle_road.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_combat_extremism"
+		texturefile = "gfx/interface/goals/BEL/BEL_combat_extremism.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_democratic_socialism"
+		texturefile = "gfx/interface/goals/BEL/BEL_democratic_socialism.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_feed_the_poor"
+		texturefile = "gfx/interface/goals/BEL/BEL_feed_the_poor.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_strengthen_catholic_identity"
+		texturefile = "gfx/interface/goals/BEL/BEL_strengthen_catholic_identity.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_cooperate_with_the_liberals"
+		texturefile = "gfx/interface/goals/BEL/BEL_cooperate_with_the_liberals.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_abandon_monarchist_principles"
+		texturefile = "gfx/interface/goals/BEL/BEL_abandon_monarchist_principles.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_royalist_fervour"
+		texturefile = "gfx/interface/goals/BEL/BEL_royalist_fervour.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_anti_socialist_crackdown"
+		texturefile = "gfx/interface/goals/BEL/BEL_anti_socialist_crackdown.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_liberal_trade_union"
+		texturefile = "gfx/interface/goals/BEL/BEL_liberal_trade_union.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_remember_school_war"
+		texturefile = "gfx/interface/goals/BEL/BEL_remember_school_war.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_stable_democracy"
+		texturefile = "gfx/interface/goals/BEL/BEL_stable_democracy.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_agreement_with_vnv"
+		texturefile = "gfx/interface/goals/BEL/BEL_agreement_with_vnv.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_rex"
+		texturefile = "gfx/interface/goals/BEL/BEL_rex.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_mnr"
+		texturefile = "gfx/interface/goals/BEL/BEL_mnr.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_prince_leopold"
+		texturefile = "gfx/interface/goals/BEL/BEL_prince_leopold.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_BEL_punish_the_traitors"
+		texturefile = "gfx/interface/goals/BEL/BEL_punish_the_traitors.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA_pci"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_pci.dds"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA_pli"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_pli.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA_pp"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_pp.dds"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA_psdi"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_psdi.tga"
+	}
+
+    SpriteType = { 
+		name = "GFX_ITA"
+		texturefile = "gfx/interface/goals/ITA/ITA.dds"
+	}
+
+    SpriteType = { 
+		name = "GFX_Italian_Settlers"
+		texturefile = "gfx/interface/goals/ITA/Italian_Settlers.dds"
+	}
+
+}

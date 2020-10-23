@@ -1,0 +1,442 @@
+﻿###########################
+# namibia vs south africa Events
+###########################
+
+add_namespace = southwestafricaincident
+
+country_event = {
+    id = southwestafricaincident.1
+    title = southwestafricaincident.1.t    
+    desc = southwestafricaincident.1.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.1.a
+		add_stability = -0.02
+		add_war_support = -0.02
+				add_popularity = {
+			ideology = social_conservative
+			popularity = -0.02
+		}
+            NMB = {    
+			country_event = { 
+			id = southwestafricaincident.2 
+			days = 5 
+				}
+			}
+		ai_chance = {
+			factor = 5
+		}
+    }
+	    option = {
+		name = southwestafricaincident.1.b
+            NMB = {    
+			country_event = { 
+			id = southwestafricaincident.4 
+			days = 10
+				}
+			}
+		ai_chance = {
+			factor = 95
+		}
+    }
+}
+country_event = {
+    id = southwestafricaincident.2
+    title = southwestafricaincident.2.t    
+    desc = southwestafricaincident.2.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.2.a
+        add_manpower = 250
+		                 add_equipment_to_stockpile = {
+                         type = infantry_equipment
+                         amount = 500
+                         producer = SAF
+                 }
+				 				add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.01
+		}
+		ai_chance = {
+			factor = 100
+		}
+    }
+}
+country_event = {
+    id = southwestafricaincident.3
+    title = southwestafricaincident.3.t    
+    desc = southwestafricaincident.3.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.3.a
+            add_political_power = 25
+			add_war_support = 0.03
+							add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+		ai_chance = {
+			factor = 100
+		}
+    }
+}
+country_event = {
+    id = southwestafricaincident.4
+    title = southwestafricaincident.4.t    
+    desc = southwestafricaincident.4.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.4.a
+            SAF = {    
+			country_event = { 
+			id = southwestafricaincident.5 
+			days = 10 
+				}
+			}
+		ai_chance = {
+			factor = 90
+		}
+    }
+	    option = {
+		name = southwestafricaincident.4.b
+            SAF = {    
+			country_event = { 
+			id = southwestafricaincident.13 
+			days = 10 
+				}
+			}
+		ai_chance = {
+			factor = 10
+		}
+    }
+}
+country_event = {
+    id = southwestafricaincident.5
+    title = southwestafricaincident.5.t    
+    desc = southwestafricaincident.5.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.5.a
+            NMB = {    
+			country_event = { 
+			id = southwestafricaincident.6 
+			days = 10 
+				}
+			}
+		ai_chance = {
+			factor = 90
+		}
+    }
+	    option = {
+		name = southwestafricaincident.5.b
+						add_stability = -0.03
+		add_war_support = -0.03
+				add_popularity = {
+			ideology = social_conservative
+			popularity = -0.03
+            NMB = {    
+			country_event = { 
+			id = southwestafricaincident.12
+			days = 10 
+				}
+			}
+		ai_chance = {
+			factor = 10
+			}
+		}
+	}
+}
+country_event = {
+    id = southwestafricaincident.6
+    title = southwestafricaincident.6.t    
+    desc = southwestafricaincident.6.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.6.a
+		541 = { set_demilitarized_zone = no }
+						add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.02
+		}
+            SAF = {    
+			country_event = { 
+			id = southwestafricaincident.7 
+			days = 20 
+				}
+			}
+		ai_chance = {
+			factor = 90
+		}
+    }
+	    option = {
+		name = southwestafricaincident.6.b
+            SAF = {    
+			country_event = { 
+			id = ssouthwestafricaincident.13
+			days = 10 
+				}
+			}
+		ai_chance = {
+			factor = 10
+		}
+    }
+}
+country_event = {
+    id = southwestafricaincident.7
+    title = southwestafricaincident.7.t    
+    desc = southwestafricaincident.7.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.7.a
+		start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 681 
+					num_provinces = 3
+					on_win = southwestafricaincident.8
+					on_lose = southwestafricaincident.9
+					on_cancel = southwestafricaincident.9
+				}
+				
+				defender = {
+					state = 541
+					num_provinces = 3
+					on_win = southwestafricaincident.10
+					on_lose = southwestafricaincident.11
+					on_cancel = southwestafricaincident.11
+				}
+		ai_chance = {
+			factor = 95
+		}
+    }
+	    option = {
+		name = southwestafricaincident.7.b
+				add_stability = -0.05
+		add_war_support = -0.05
+				add_popularity = {
+			ideology = social_conservative
+			popularity = -0.05
+		}
+            NMB = {    
+			country_event = { 
+			id = southwestafricaincident.12
+			days = 10 
+				}
+			}
+		ai_chance = {
+			factor = 5
+			}
+		}
+	}
+}
+country_event = {
+    id = southwestafricaincident.8
+    title = southwestafricaincident.8.t    
+    desc = southwestafricaincident.8.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.8.a
+            add_political_power = 75
+			add_war_support = 0.05
+							add_popularity = {
+			ideology = social_conservative
+			popularity = 0.06
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+country_event = {
+    id = southwestafricaincident.9
+    title = southwestafricaincident.9.t    
+    desc = southwestafricaincident.9.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.9.a
+            add_political_power = -50
+			add_war_support = -0.06
+							add_popularity = {
+			ideology = social_conservative
+			popularity = -0.08
+		}
+		ai_chance = {
+			factor = 100
+    }
+}
+}
+country_event = {
+    id = southwestafricaincident.10
+    title = southwestafricaincident.10.t    
+    desc = southwestafricaincident.10.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.10.a
+		add_manpower = 250
+		                 add_equipment_to_stockpile = {
+                         type = infantry_equipment
+                         amount = 500
+                         producer = SAF
+                 }
+            add_political_power = 65
+			add_war_support = 0.05
+			add_stability = 0.05
+							add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+		}
+		ai_chance = {
+			factor = 100
+    }
+}
+}
+country_event = {
+    id = southwestafricaincident.11
+    title = southwestafricaincident.11.t    
+    desc = southwestafricaincident.11.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.11.a
+            add_political_power = -75
+			add_war_support = -0.1
+			add_stability = -0.1
+							add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = -0.03
+		}
+		ai_chance = {
+			factor = 100
+    }
+}
+}
+country_event = {
+    id = southwestafricaincident.12
+    title = southwestafricaincident.12.t    
+    desc = southwestafricaincident.12.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.12.a
+        add_manpower = 250
+		                 add_equipment_to_stockpile = {
+                         type = infantry_equipment
+                         amount = 500
+                         producer = SAF
+                 }
+				 				add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.03
+		}
+		ai_chance = {
+			factor = 100
+		}
+    }
+}
+country_event = {
+    id = southwestafricaincident.13
+    title = southwestafricaincident.13.t    
+    desc = southwestafricaincident.13.d
+
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {
+		name = southwestafricaincident.13.a
+            add_political_power = 25
+			add_war_support = 0.05
+							add_popularity = {
+			ideology = social_conservative
+			popularity = 0.04
+		}
+		ai_chance = {
+			factor = 100
+		}
+    }
+}

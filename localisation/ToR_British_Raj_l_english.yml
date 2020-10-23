@@ -1,0 +1,79 @@
+﻿l_english: 
+
+#Parties
+RAJ_national_populist_party:0 "Hindu Grand-Assembly"
+RAJ_national_populist_party_long:0 "All-India Hindu Grand-Assembly"
+RAJ_vanguardist_party:0 "AIFB"
+RAJ_vanguardist_party_long:0 "All India Forward Bloc"
+RAJ_social_conservative_party:0 "Unionist Party"
+RAJ_social_conservative_party_long:0 "Unionist Party"
+RAJ_paternal_autocrat_party:0 "Colonial Service"
+RAJ_paternal_autocrat_party_long:0 "His Majesty's Colonial Service"
+RAJ_authoritarian_democrat_party:0 "Colonial Service"
+RAJ_authoritarian_democrat_party_long:0 "His Majesty's Colonial Service"
+RAJ_social_democrat_party:0 "INC"
+RAJ_social_democrat_party_long:0 "Indian National Congress"
+RAJ_social_liberal_party:0 "Swaraj Party"
+RAJ_social_liberal_party_long:0 "Swaraj Party"
+RAJ_classic_liberal_party:0 "ILP"
+RAJ_classic_liberal_party_long:0 "Indian Liberal Party"
+RAJ_revolutionary_socialist_party:0 "Congress Socialists"
+RAJ_revolutionary_socialist_party_long:0 "Congress Socialist Party"
+RAJ_orthodox_marxist_party:0 "CPI"
+RAJ_orthodox_marxist_party_long:0 "Communist Party of India"
+
+#Country Names
+RAJ_national_populist:0 "Free India"
+RAJ_national_populist_DEF:0 "Free India"
+RAJ_paternal_autocrat:0 "India"
+RAJ_paternal_autocrat_DEF:0 "India"
+RAJ_social_conservative:0 "Indian Republic"
+RAJ_social_conservative_DEF:0 "the Indian Republic"
+RAJ_authoritarian_democrat:1 "India"
+RAJ_authoritarian_democrat_DEF:1 "India"
+RAJ_orthodox_marxist:0 "Bharatiya Commune""
+RAJ_orthodox_marxist_DEF:0 "the Bharatiya Commune"
+RAJ_revolutionary_socialist:0 "Bharatiya Commune"
+RAJ_revolutionary_socialist_DEF:0 "the Bharatiya Commune"
+RAJ_social_democrat:0 "Indian Republic"
+RAJ_social_democrat_DEF:0 "the Indian Republic"
+RAJ_social_liberal:0 "Indian Republic"
+RAJ_social_liberal_DEF:0 "the Indian Republic"
+RAJ_classic_liberal:0 "Indian Republic"
+RAJ_classic_liberal_DEF:0 "the Indian Republic"
+RAJ_vanguardist:0 "Bharatiya Commune"
+RAJ_vanguardist_DEF:0 "the Bharatiya Commune"
+ 
+RAJ_national_populist_ADJ:0 "Indian"
+RAJ_social_conservative_ADJ:0 "Indian"
+RAJ_paternal_autocrat_ADJ:0 "Indian"
+RAJ_orthodox_marxist_ADJ:0 "Indian"
+RAJ_authoritarian_democrat_ADJ:0 "Indian"
+RAJ_revolutionary_socialist_ADJ:0 "Indian"
+RAJ_social_democrat_ADJ:0 "Indian"
+RAJ_social_liberal_ADJ:0 "Indian"
+RAJ_classic_liberal_ADJ:0 "Indian"
+RAJ_vanguardist_ADJ:0 "Indian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+RAJ_TE_LAWRENCE_ARMY_DESC:0 "§YBorn:§!\n16 August, 1888\nTremadog, Carnarvonshire, Wales\n\nThomas Edward Lawrence has lived a very eventful life, to say the least. A praised military genius and renowned archaeologist, Thomas was born out of wedlock at his family home in Wales, as the second of five sons. Educated at Oxford Boys High School and Jesus College, he worked as an archaeologist for the British Museum before the Great War began. During that war, Thomas signed up for service in the British Army, and was stationed in Egypt, before becoming involved in the Arab Revolt as a liaison to King Faisal’s forces. In the Middle East his skills as a military commander were shown; The Ottoman-controlled port of Aqaba fell in a raid, and Damascus fell to Lawrence’s men later in the war.\n\nLawrence joined the Foreign Office after the war, working with the British government and with King Faisal. He also began to write his memoirs of his time in Arabia, his first being published in 1926, titled Seven Pillars of Wisdom. Lawrence experiences both amazed and shocked the world, bringing to light a forgotten part of the war. Being able to so vividly recount his memories, from the Battle of Aqaba in 1917, to his meetings with Emir Faisal and the Capture of Damascus in 1918 earned him international fame and the nickname Lawrence of Arabia. Despite his daring endeavours he refused a Victoria Cross and a knighthood, instead travelling to India as an advisor for the British Indian Army."
+
+#cosmetic tags
+
+RAJ_UK_autonomy_dominion:0 "Dominion of India"
+ 

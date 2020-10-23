@@ -1,0 +1,39 @@
+﻿capital = 405
+
+OOB = "TRK_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	vanguardist = 0
+        orthodox_marxist = 0
+	revolutionary_socialist = 0
+        social_democrat = 2
+        social_liberal = 6
+        classic_liberal = 6
+        social_conservative = 12
+        authoritarian_democrat = 15
+        paternal_autocrat = 47
+        national_populist = 12
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Mohammed Alim Khan"
+	desc = "POLITICS_MOHAMMED_ALIM_DESC"
+	picture = "Portrait_TRK_Mohammed_Alim_Khan.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}

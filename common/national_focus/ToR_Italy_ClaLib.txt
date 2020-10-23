@@ -1,0 +1,222 @@
+focus_tree = {
+	id = ITA_ClaLib
+	country = {
+		factor = 0
+	}
+	continuous_focus_position = { x = 2300 y = 1100 }
+	shared_focus = ITA_fixing_our_economy
+	shared_focus = ITA_looking_outwards
+
+
+
+        #Conservative coalition branch
+
+        focus = {
+		id = ITA_liberal_victory
+		icon = GFX_wip
+		x = 2
+                y = 0
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_religious_freedom
+		icon = GFX_wip
+                prerequisite = { focus = ITA_liberal_victory }
+		x = -3
+                y = 1
+                relative_position_id = ITA_liberal_victory
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_institutional_secularisation
+		icon = GFX_wip
+                prerequisite = { focus = ITA_religious_freedom }
+		x = -2
+                y = 1
+                relative_position_id = ITA_religious_freedom
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+        focus = {
+		id = ITA_guarantee_church_rights
+		icon = GFX_wip
+                prerequisite = { focus = ITA_religious_freedom }
+		x = 0
+                y = 1
+                relative_position_id = ITA_religious_freedom
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_a_deal_with_sturzo
+		icon = GFX_wip
+                prerequisite = { focus = ITA_religious_freedom }
+		x = 2
+                y = 1
+                relative_position_id = ITA_religious_freedom
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_protect_religions_from_sects
+		icon = GFX_wip
+                prerequisite = { focus = ITA_institutional_secularisation }
+                prerequisite = { focus = ITA_guarantee_church_rights }
+                prerequisite = { focus = ITA_a_deal_with_sturzo }
+		x = 0
+                y = 1
+                relative_position_id = ITA_guarantee_church_rights
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_improve_quality_of_life
+		icon = GFX_wip
+                prerequisite = { focus = ITA_liberal_victory }
+		x = 3
+                y = 1
+                relative_position_id = ITA_liberal_victory 
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_expand_schools
+		icon = GFX_wip
+                prerequisite = { focus = ITA_improve_quality_of_life }
+		x = -2
+                y = 1
+                relative_position_id = ITA_improve_quality_of_life
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_fund_more_into_the_cnr
+		icon = GFX_wip
+                prerequisite = { focus = ITA_improve_quality_of_life }
+		x = 0
+                y = 1
+                relative_position_id = ITA_improve_quality_of_life
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_expand_welfare_benefits
+		icon = GFX_wip
+                prerequisite = { focus = ITA_improve_quality_of_life }
+		x = 2
+                y = 1
+                relative_position_id = ITA_improve_quality_of_life
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_rent_regulation
+		icon = GFX_wip
+                prerequisite = { focus = ITA_expand_schools }
+                prerequisite = { focus = ITA_fund_more_into_the_cnr }
+                prerequisite = { focus = ITA_expand_welfare_benefits }
+		x = 0
+                y = 1
+                relative_position_id = ITA_fund_more_into_the_cnr 
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_a_better_italy
+		icon = GFX_wip
+                prerequisite = { focus = ITA_rent_regulation }
+                prerequisite = { focus = ITA_protect_religions_from_sects }
+		x = 3
+                y = 1
+                relative_position_id = ITA_protect_religions_from_sects 
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+}

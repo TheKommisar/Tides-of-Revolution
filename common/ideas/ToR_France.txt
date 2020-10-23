@@ -1,0 +1,62 @@
+ideas = {
+country = {
+        legacy_of_the_commune = {
+				
+			allowed = {
+				original_tag = FRA
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			modifier = {
+				stability_factor = 0.05
+                                political_power_gain = 0.1
+                                war_support_factor = 0.1
+			}
+				
+		}
+        weak_army = {
+				
+			allowed = {
+				original_tag = FRA
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+		
+			research_bonus = {
+				land_doctrine = -0.15
+				naval_doctrine = -0.15
+				air_doctrine = -0.15
+			}
+			modifier = {
+				army_org_factor = -0.20
+				training_time_factor = 0.20
+			}
+		}
+        franco_algerian_confederalism = {
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.15
+			}
+		}
+}
+}

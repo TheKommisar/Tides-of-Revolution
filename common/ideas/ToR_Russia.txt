@@ -1,0 +1,78 @@
+ideas = {
+	country = {
+		RUS_novaya_rossiya = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture=RUS_novo_rossiya
+			removal_cost = -1
+			modifier = {
+			war_support_factor = 0.20
+			political_power_gain = 0.08
+			drift_defence_factor = 0.20
+			army_core_defence_factor = 0.06
+
+			}
+		}
+		RUS_the_three_decades_of_humiliation = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture=RUS_3_decades_of_humiliation
+			removal_cost = -1
+			modifier = {
+			stability_factor = -0.25
+			MONTHLY_POPULATION = -0.40
+			research_speed_factor = -0.10
+			army_morale_factor = -0.15
+			army_attack_factor = -0.20	
+
+			}
+		}
+		RUS_setbacks_of_the_rejuvenation_plan = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture=RUS_setbacks_of_the_rejuvenation_plan
+			removal_cost = -1
+			modifier = {
+			production_speed_arms_factory_factor = 0.1
+			production_speed_industrial_complex_factor = -0.15
+			consumer_goods_factor = 0.20
+
+			}
+		}
+		RUS_treaty_of_brest_litovsk = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture=RUS_treaty_of_brest_litovsk
+			removal_cost = -1
+			modifier = {
+			justify_war_goal_time = 1
+			consumer_goods_factor = 0.05
+			local_resources_factor = -0.10
+
+			}
+		}
+
+
+
+
+
+
+
+	}
+}

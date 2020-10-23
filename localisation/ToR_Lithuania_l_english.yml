@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+LIT_national_populist_party:0 "GKO"
+LIT_national_populist_party_long:0 "Geležinio Kryžiaus Ordinas"
+LIT_vanguardist_party:0 "LKP"
+LIT_vanguardist_party_long:0 "Lietuvos Komunistų Partija"
+LIT_social_conservative_party:0 "LKDP"
+LIT_social_conservative_party_long:0 "Lietuvos Krikščionių Demokratų Partija"
+LIT_paternal_autocrat_party:0 "Protekcionistai"
+LIT_paternal_autocrat_party_long:0 "Protekcionistai"
+LIT_authoritarian_democrat_party:0 "LVT"
+LIT_authoritarian_democrat_party_long:0 "Lietuvos Valstybės Taryba"
+LIT_social_democrat_party:0 "LSLDP"
+LIT_social_democrat_party_long:0 "Lietuvos Socialistų Liaudininkų Demokratų Partija"
+LIT_social_liberal_party:0 "Liberalai"
+LIT_social_liberal_party_long:0 "Liberalai"
+LIT_classic_liberal_party:0 "LDP"
+LIT_classic_liberal_party_long:0 "Lietuvių Demokratų Partija"
+LIT_totalitarian_socialist_party:0 ""
+LIT_totalitarian_socialist_party_long:0 ""
+LIT_revolutionary_socialist_party:0 ""
+LIT_revolutionary_socialist_party_long:0 ""
+LIT_orthodox_marxist_party:0 ""
+LIT_orthodox_marxist_party_long:0 ""
+
+#Country Names
+LIT_national_populist:0 "Kingdom of Lithuania"
+LIT_national_populist_DEF:0 "the Kingdom of Lithuania"
+LIT_totalitarian_socialist:0 "Lithuanian Workers' Union"
+LIT_totalitarian_socialist_DEF:0 "the Lithuanian Workers' Union"
+LIT_paternal_autocrat:0 "Kingdom of Lithuania"
+LIT_paternal_autocrat_DEF:0 "the Kingdom of Lithuania"
+LIT_social_conservative:0 "Lithuanian Republic"
+LIT_social_conservative_DEF:0 "the Lithuanian Republic"
+LIT_authoritarian_democrat:0 "Crown of Lithuania"
+LIT_authoritarian_democrat_DEF:0 "the Crown of Lithuania"
+LIT_orthodox_marxist:0 "Lithuanian Republic"
+LIT_orthodox_marxist_DEF:0 "the Lithuanian Republic"
+LIT_revolutionary_socialist:0 "Lithuanian Republic"
+LIT_revolutionary_socialist_DEF:0 "the Lithuanian Republic"
+LIT_social_democrat:0 "Lithuanian Republic"
+LIT_social_democrat_DEF:0 "the Lithuanian Republic"
+LIT_social_liberal:0 "Lithuanian Republic"
+LIT_social_liberal_DEF:0 "the Lithuanian Republic"
+LIT_classic_liberal:0 "Lithuanian Republic"
+LIT_classic_liberal_DEF:0 "the Lithuanian Republic"
+LIT_vanguardist:0 "Lithuanian Commune"
+LIT_vanguardist_DEF:0 "the Lithuanian Commune"
+ 
+LIT_national_populist_ADJ:0 "Lithuanian"
+LIT_totalitarian_socialist_ADJ:0 "Lithuanian"
+LIT_social_conservative_ADJ:0 "Lithuanian"
+LIT_paternal_autocrat_ADJ:0 "Lithuanian"
+LIT_orthodox_marxist_ADJ:0 "Lithuanian"
+LIT_authoritarian_democrat_ADJ:0 "Lithuanian"
+LIT_revolutionary_socialist_ADJ:0 "Lithuanian"
+LIT_social_democrat_ADJ:0 "Lithuanian"
+LIT_social_liberal_ADJ:0 "Lithuanian"
+LIT_classic_liberal_ADJ:0 "Lithuanian"
+LIT_vanguardist_ADJ:0 "Lithuanian"
+
+
+
+#Ideas
+LIT_lithuanian_turmoil:0 "Lithuanian Turmoil"
+LIT_lithuanian_turmoil_desc:0 "Turmoil in Lithuania seems to be a consatnt, whether it's the council at each others throats over who should be monarch, the two separate armies of Germany and Lithuania hounding each others for 'inneficiency of the decrepit' or 'imperialism of the most vile sort', or even simply the peasants on socio economic and class issues. Lithuania is all around a divided country and one where the future in extremely unclear, there is no strong leader or guiding hope in these dark times of division and hatred, simply a council who themselves feeds said squabbling and bickering to no end over the issues of daily political life or the future direction of the country. Lithuania is in a struggle with itself it seems, and it shall require someone capable to take the reins and sort it out for this divide to be healed. "
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+POLITICS_COUNCIL_DESC:0 "The Lithuanian State Council is the official governing body of Lithuania and serves as the legislature in broder terms of the constitution. The council was initially in imminent threat of being abolished should the Kaiser see fit following the German victory in the east, one issue was within the council that they refused to agree upon, the nominal German rule under a Personal union with the Kaiser within Prussia. This tremendous threat to the Councils existence due to their constant refusal to recognize themselves as in federation with Prussia might have seen it destroyed, fortunately for them after the end of the Weltkrieg and the Kaiser's abdication in favor of his son, the new military regime did not pursue much interest in integrating Lithuania into Prussia, which would only further taint the Protestant Prussia with Catholic influences. However they still demanded a monarch be put on the throne, despite the council's support for Duke Wilhelm of Urach to take the throne, the German's rejected him initially and insisted that a more Protestant friendly and more militarily competent choice from the German nobility be picked as king, however this would not be accomplished by Lithuania, who was under effective occupation by German troops. The Germans, not wanting to draw the ire of other eastern nations by forcing a monarch on the throne, continued to pressure the council to elect a German Monarch on their own, of course Germany would control the entire country via the Army in the mean time. Th Council still refused to elect a german monarch, the debate over who to choose as monarch still rages into the year of 1936, with Germany growing ready for another war it is almost certain the council will have to elect a monarch of some form soon if it is to create any semblance of control over the state it supposedly governs."
+#cosmetic tags
+ 

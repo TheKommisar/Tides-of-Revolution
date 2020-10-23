@@ -1,0 +1,102 @@
+﻿capital = 4
+
+oob = "COU_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	early_fighter = 1
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	vanguardist = 1
+        orthodox_marxist = 0
+	revolutionary_socialist = 4
+        social_democrat = 4
+        social_liberal = 10
+        classic_liberal = 17
+        social_conservative = 10
+        authoritarian_democrat = 21
+        paternal_autocrat = 24
+        national_populist = 9
+
+}
+add_ideas = { COU_Minority_Rule
+	COU_Russo_German_Conflict
+	COU_West_Russian_Volunteer_Army
+}
+create_country_leader = {
+	name = "Rudiger von der Goltz"
+	desc = "POLITICS_RUDIGER_VON_DER_GOLTZ_DESC"
+	picture = "Portrait_Baltic_Rudiger_von_der_Goltz.tga"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+create_field_marshal = {
+	name = "Pavel Avalov"
+	picture = "Portrait_Baltic_Pavel_Bermondt_Avalov.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+ 	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Rüdiger von der Goltz"
+	picture = "Portrait_Baltic_Rudiger_von_der_Goltz.tga"
+	traits = { }
+	skill = 4
+	attack_skill = 5
+ 	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 1
+}
+
+
+create_corps_commander = {
+	name = "Anatol von Lieven"
+	picture = "Portrait_Baltic_Anatol_von_Lieven.tga"
+	traits = {  }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 1
+    logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Josef Bischoff"
+	picture = "Portrait_Baltic_Joseph_Bischoff.tga"
+	traits = {  }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Gustav von Plewhe"
+	picture = "portrait_baltic_Karl_Gustav_von_Plehwe.tga"
+	traits = {  }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+set_stability = 0.50

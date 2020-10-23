@@ -1,0 +1,197 @@
+﻿capital = 6
+
+oob = "BEL_1936"
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.3 #we see what you are doing there Adolf
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	trench_warfare = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+add_ideas = {
+    BEL_political_polarization
+    BEL_great_war_horrors
+}
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1936.1.1" 
+	election_frequency = 48 # number is of months
+	elections_allowed = no
+}
+set_popularities = {
+	vanguardist = 16
+        orthodox_marxist = 5
+	revolutionary_socialist = 1
+        social_democrat = 19
+        social_liberal = 7
+        classic_liberal = 2
+        social_conservative = 41
+        authoritarian_democrat = 0
+        paternal_autocrat = 6
+        national_populist = 3
+}
+
+set_convoys = 80
+set_stability = 0.75
+
+create_country_leader = {
+	name = "Julien Lahaut"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "wip"
+	expire = "1999.1.1"
+	ideology = orthodox_marxist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hendrik de Man"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_Hendrik_De_Man.tga"
+	expire = "1999.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1999.1.1"
+	ideology = classic_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert I"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_King_Albert.tga"
+	expire = "1999.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "M.C.L. Keyaerts"
+	picture = "Portrait_M_C_L_Keyaerts.dds"
+	traits = { trait_mountaineer hill_fighter }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Victor Van Strydonck de Burkel"
+	picture = "Portrait_Belgium_Victor_van_Strydonck_de_Burkel.dds"
+	traits = { career_officer cavalry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2	
+}
+
+create_corps_commander = {
+	name = "Jean-Baptiste Piron"
+	picture = "Portrait_Belgium_Jean_Baptiste_Piron.dds"
+	traits = { career_officer infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3	
+}
+
+create_corps_commander = {
+	name = "Eddy Blondeel"
+	picture = "Portrait_Belgium_Eddy_Blondeel.dds"
+	traits = { media_personality trait_engineer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3	
+}
+
+create_navy_leader = {
+	name = "Georges Timmermans"
+	portrait_path = "gfx/leaders/BEL/Portrait_Belgium_Georges_Timmermans.dds"
+	traits = { seawolf }
+	skill = 4
+}

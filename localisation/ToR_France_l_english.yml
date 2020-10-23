@@ -1,0 +1,81 @@
+﻿l_english: 
+
+#Parties
+FRA_national_populist_party:0 "AF"
+FRA_national_populist_party_long:0 "Action Française"
+FRA_vanguardist_party:0 "PCF"
+FRA_vanguardist_party_long:0 "Parti communiste français"
+FRA_social_conservative_party:0 "FR"
+FRA_social_conservative_party_long:0 "Fédération républicaine"
+FRA_paternal_autocrat_party:0 "AF"
+FRA_paternal_autocrat_party_long:0 "Action Française"
+FRA_authoritarian_democrat_party:0 "Croix-de-Feu"
+FRA_authoritarian_democrat_party_long:0 "Croix-de-Feu"
+FRA_social_democrat_party:0 "PRS"
+FRA_social_democrat_party_long:0 "Parti républicain-socialiste"
+FRA_social_liberal_party:0 "PR"
+FRA_social_liberal_party_long:0 "Parti radical"
+FRA_classic_liberal_party:0 "ARD"
+FRA_classic_liberal_party_long:0 "Alliance républicaine démocratique"
+#FRA_totalitarian_socialist_party:0 "PCF-J"
+#FRA_totalitarian_socialist_party_long:0 "Parti communiste français - jacobins"
+FRA_revolutionary_socialist_party:0 "SFIO-R"
+FRA_revolutionary_socialist_party_long:0 "Section française de l'Internationale ouvrière - révolutionnaires"
+FRA_orthodox_marxist_party:0 "SFIO"
+FRA_orthodox_marxist_party_long:0 "Section française de l'Internationale ouvrière - modérés"
+
+#Country Names
+ FRA_national_populist:0 "French State"
+ FRA_national_populist_DEF:0 "the French State"
+ FRA_totalitarian_socialist:0 "Commune of France"
+ FRA_totalitarian_socialist_DEF:0 "the Commune of France"
+ FRA_paternal_autocrat:0 "French State"
+ FRA_paternal_autocrat_DEF:0 "the French State"
+ FRA_social_conservative:0 "French Republic"
+ FRA_social_conservative_DEF:0 "the French Republic"
+ FRA_authoritarian_democrat:0 "French National Republic"
+ FRA_authoritarian_democrat_DEF:0 "the French National Republic"
+ FRA_orthodox_marxist:0 "French Republic"
+ FRA_orthodox_marxist_DEF:0 "the French Republic"
+ FRA_revolutionary_socialist:0 "French Republic"
+ FRA_revolutionary_socialist_DEF:0 "the French Republic"
+ FRA_social_democrat:0 "French Republic"
+ FRA_social_democrat_DEF:0 "the French Republic"
+ FRA_social_liberal:0 "French Republic"
+ FRA_social_liberal_DEF:0 "the French Republic"
+ FRA_classic_liberal:0 "French Republic"
+ FRA_classic_liberal_DEF:0 "the French Republic"
+ FRA_vanguardist:0 "Commune of France"
+ FRA_vanguardist_DEF:0 "the Commune of France"
+ 
+ FRA_national_populist_ADJ:0 "French"
+ FRA_totalitarian_socialist_ADJ:0 "French"
+ FRA_social_conservative_ADJ:0 "French"
+ FRA_paternal_autocrat_ADJ:0 "French"
+ FRA_orthodox_marxist_ADJ:0 "French"
+ FRA_authoritarian_democrat_ADJ:0 "French"
+ FRA_revolutionary_socialist_ADJ:0 "French"
+ FRA_social_democrat_ADJ:0 "French"
+ FRA_social_liberal_ADJ:0 "French"
+ FRA_classic_liberal_ADJ:0 "French"
+ FRA_vanguardist_ADJ:0 "French"
+
+legacy_of_the_commune:0 "Forefront of the Revolution"
+legacy_of_the_commune_desc:0 "The French Republic is the sole major socialist superpower on earth, and and so therefore we alone carry the torch of the revolution. For the sake of society and civilisation as a whole, our goal of spreading the revolution to all corners of the globe must be achieved, and we shall not be defeated by the reactionary nations on our borders!" 
+weak_army:0 "Abolishment of the French Army"
+weak_army_desc:0 "The French Army was abolished in the aftermath of the revolution in order to prevent a counter-coup of the newly formed socialist government. This has meant that France's defence lies in the hands of the numerous socialist militia groups scattered across the country."
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

@@ -1,0 +1,1059 @@
+ideas = {
+head_of_government = {
+        ENG_Herbert_Samuel_hog = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Herbert_Samuel_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Herbert_Samuel_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Herbert_Samuel_hog"
+			}
+			traits = {
+				hog_pragmatic_statesman
+                                social_liberal
+                                head_of_government
+			}
+			cancel_if_invalid = yes
+		}
+        ENG_Clement_Attlee_hog = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Clement_Attlee_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Clement_Attlee_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Clement_Attlee_hog"
+			}
+			traits = {
+				hog_naive_optimist
+                                social_democrat
+                                head_of_government
+			}
+			cancel_if_invalid = yes
+		}
+          ENG_Henry_Page_Croft_hog = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Henry_Page_Croft_dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Henry_Page_Croft_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Henry_Page_Croft_hog"
+			}
+			traits = {
+				hog_naive_optimist
+                                social_conservative
+                                head_of_government
+			}
+			cancel_if_invalid = yes
+		}
+}
+foreign_minister = {
+         ENG_David_Lloyd_George_frm = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = David_Lloyd_George_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = David_Lloyd_George_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_David_Lloyd_George_frm"
+			}
+			traits = {
+				frm_skilled_negotiator
+			}
+			cancel_if_invalid = yes
+		}
+          ENG_Ernest_Bevin_frm = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Ernest_Bevin_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Ernest_Bevin_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Ernest_Bevin_frm"
+			}
+			traits = {
+				frm_skilled_negotiator
+			}
+			cancel_if_invalid = yes
+		}
+          ENG_Anthony_Eden_frm = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Anthony_Eden_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Anthony_Eden_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Anthony_Eden_frm"
+			}
+			traits = {
+				frm_skilled_negotiator
+			}
+			cancel_if_invalid = yes
+		}
+}
+economy_minister = {
+           ENG_Isaac_Foot_eco = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Isaac_Foot_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Isaac_Foot_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Isaac_Foot_eco"
+			}
+			traits = {
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+            ENG_Herbert_Morrison_eco = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Herbert_Morrison_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Herbert_Morrison_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Herbert_Morrison_eco"
+			}
+			traits = {
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+            ENG_Kingsley_Wood_eco = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Kingsley_Wood_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Kingsley_Wood_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Kingsley_Wood_eco"
+			}
+			traits = {
+				eco_laissez_faire_capitalist
+			}
+			cancel_if_invalid = yes
+		}
+}
+security_minister = {
+           ENG_Winston_Churchill_sec = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Winston_Churchill_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Winston_Churchill_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Winston_Churchill_sec"
+			}
+			traits = {
+				sec_british_bulldog
+			}
+			cancel_if_invalid = yes
+		}
+            ENG_James_Chuter_Ede_sec = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = James_Chuter_Ede_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = James_Chuter_Ede_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_James_Chuter_Ede_sec"
+			}
+			traits = {
+				
+			}
+			cancel_if_invalid = yes
+		}
+           ENG_Leo_Amery_sec = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = Leo_Amery_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = Leo_Amery_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_Leo_Amery_sec"
+			}
+			traits = {
+				
+			}
+			cancel_if_invalid = yes
+		}
+}
+head_of_intel = {
+           ENG_George_Lambert_int = {
+				
+			allowed = { original_tag = ENG }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = George_Lambert_dead }
+					#has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = George_Lambert_dead }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea ENG_George_Lambert_int"
+			}
+			traits = {
+				int_foreign_expert
+			}
+			cancel_if_invalid = yes
+		}
+}
+##################################################################################################################################
+country = {
+
+###########starting ideas########
+
+
+		ENG_the_rearmament_crisis = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+                        picture = generic_disjointed_gov
+
+			modifier = {
+				stability_factor = -0.20
+				political_power_cost = 0.6
+			}
+		}
+
+		ENG_legacy_of_the_great_war = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ENG_the_war_to_end_all_wars
+
+			modifier = {
+				conscription_factor = -0.4
+				war_support_factor = -0.2
+				production_speed_arms_factory_factor = -0.4
+				production_speed_dockyard_factor = -0.2
+				conversion_cost_civ_to_mil_factor= 0.4
+			}
+		}
+
+		ENG_sluggish_economy = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = great_depression
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+			}
+		}
+
+		stiff_upper_lip = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+
+		}
+
+		ENG_low_naval_investments = {
+			picture = generic_sea_focused_navy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05	
+
+			}
+
+			equipment_bonus = {
+
+				ship_hull_heavy = {
+					build_cost_ic = 0.05 instant = yes
+				}
+				ship_hull_carrier = {
+					build_cost_ic = 0.05 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = 0.05 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = 0.05 instant = yes
+				}
+
+				ship_hull_submarine = {
+					build_cost_ic = 0.05 instant = yes
+				}
+			}
+		}
+
+		ENG_Decentralised_Empire = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = 0.10
+				consumer_goods_factor = -0.05
+				conscription_factor = -0.05
+
+			}
+
+			picture = eng_guided_by_britain
+
+			removal_cost = -1	
+
+		}
+
+
+		ENG_paramilitary_violence = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				conscription_factor = -0.1
+				stability_factor = -0.15
+				army_core_defence_factor = -0.05
+				army_core_attack_factor = -0.05
+
+			}
+
+			picture = ast_volunteer_defence_corps
+
+			removal_cost = -1	
+
+		}
+
+
+#######Army ideas######
+
+
+		ENG_The_two_forces_1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+  				army_org_factor = -0.30
+  				planning_speed = -0.20
+  				training_time_factor = 0.1
+  				mobilization_speed = 0.10
+
+			}
+
+			picture = chi_army_corruption
+
+			removal_cost = -1	
+
+		}
+
+		ENG_The_two_forces_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+  				army_org_factor = -0.05
+  				planning_speed = 0.1
+  				training_time_factor = -0.15
+  				mobilization_speed = 0.20
+
+			}
+
+			picture = generic_volunteer_expedition_bonus
+
+			removal_cost = -1	
+
+		}
+
+		ENG_fortification_effort = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+
+			}
+
+			picture = generic_fortify_the_borders
+
+			removal_cost = -1	
+
+		}
+
+		ENG_prewar_standards_1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+army_infantry_attack_factor = 0.05
+army_infantry_defence_factor = 0.05
+		minimum_training_level = 0.1
+		training_time_army_factor = 0.10
+
+			}
+
+			picture = generic_army_war_college
+
+			removal_cost = -1	
+
+		}
+
+		ENG_prewar_standards_2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+army_infantry_attack_factor = 0.05
+army_infantry_defence_factor = 0.05
+acclimatization_hot_climate_gain_factor = 0.1
+		minimum_training_level = 0.1
+		training_time_army_factor = 0.10
+			}
+
+			picture = generic_army_war_college
+
+			removal_cost = -1	
+
+		}
+
+
+ 		ENG_prewar_standards_3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+army_infantry_attack_factor = 0.05
+army_infantry_defence_factor = 0.05
+acclimatization_hot_climate_gain_factor = 0.1
+recon_factor = 0.05
+		minimum_training_level = 0.1
+		training_time_army_factor = 0.10
+	}
+
+			picture = generic_army_war_college
+
+			removal_cost = -1	
+
+		
+	}
+
+ 		ENG_prewar_standards_4 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+army_infantry_attack_factor = 0.05
+army_infantry_defence_factor = 0.05
+acclimatization_hot_climate_gain_factor = 0.1
+recon_factor = 0.05
+special_forces_cap = 0.5
+army_morale_factor = 0.05
+		minimum_training_level = 0.1
+		training_time_army_factor = 0.20
+			}
+
+			picture = generic_army_war_college
+
+			removal_cost = -1	
+
+		}
+
+
+ 		ENG_second_BEF_1 = {
+
+			removal_cost = -1	
+
+ 			picture = generic_army_war_college
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_attack_factor = -0.4
+				army_defence_factor = -0.4
+				army_org_Factor = -0.3
+				mobilization_speed = 0.5
+				army_morale_factor = -0.10
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+
+
+
+		}
+	}
+
+
+ 		ENG_second_BEF_2 = {
+
+			picture = generic_army_war_college
+
+			removal_cost = -1	
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_attack_factor = -0.3
+				army_defence_factor = -0.3
+				army_org_Factor = -0.2
+				mobilization_speed = 0.35
+				army_morale_factor = -0.05
+				max_dig_in = 1.5
+army_infantry_defence_factor = 0.1
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+		}
+	}
+
+ 		ENG_second_BEF_3 = {
+
+			removal_cost = -1	
+
+			picture = generic_army_war_college	
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_org_Factor = -0.1
+				mobilization_speed = 0.2
+				army_morale_factor = -0.05
+				max_dig_in = 1.5
+army_infantry_defence_factor = 0.1
+planning_speed = 0.10
+max_planning = 0.10
+land_reinforce_rate = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+		}
+
+		}
+
+		ENG_second_BEF_4 = {
+
+			removal_cost = -1	
+
+			picture = generic_army_war_college
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_attack_factor = -0.3
+				army_defence_factor = -0.3
+				army_org_Factor = -0.2
+				mobilization_speed = 0.35
+				army_morale_factor = -0.05
+army_speed_factor = 0.1
+recon_factor = 0.1
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+		}
+	}
+
+		ENG_second_BEF_5 = {
+
+			removal_cost = -1	
+
+			picture = generic_army_war_college
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_org_Factor = -0.1
+				mobilization_speed = 0.2
+				army_morale_factor = -0.05
+army_speed_factor = 0.1
+recon_factor = 0.1
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				armor = {
+					build_cost_ic = -0.15
+					maximum_speed = 0.10
+					hard_attack = 0.10
+					armor_value = 0.10
+					instant = yes
+				}
+		}
+
+}
+
+
+		ENG_second_BEF_6 = {
+
+			removal_cost = -1	
+
+			picture = generic_army_war_college
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_org_Factor = 0.1
+				max_dig_in = 1.5
+army_infantry_defence_factor = 0.1
+planning_speed = 0.15
+max_planning = 0.15
+		experience_gain_factor = 0.05
+		minimum_training_level = -0.1
+		training_time_army_factor = -0.10
+			}
+		}
+
+		ENG_second_BEF_7 = {
+
+			removal_cost = -1	
+
+			picture = generic_army_war_college
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				army_org_Factor = 0.1
+		experience_gain_factor = 0.05
+		minimum_training_level = -0.1
+		training_time_army_factor = -0.10
+army_speed_factor = 0.1
+recon_factor = 0.1
+			}
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.15
+					maximum_speed = 0.10
+					hard_attack = 0.10
+					armor_value = 0.10
+					instant = yes
+				}
+		}
+
+
+		}
+
+
+		ENG_mass_mechanization = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+				mechanized_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			
+
+			picture = FRA_motorized_focus
+
+			removal_cost = -1	
+
+		}
+
+		ENG_loosen_standards = {
+
+			picture = chi_forced_conscription
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.2
+				war_support_factor = -0.05
+			}	
+
+		}
+#######Navy ideas#######
+
+		ENG_low_naval_investments_2 = {
+			picture = generic_sea_focused_navy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+
+			}
+			equipment_bonus = {
+
+				ship_hull_heavy = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				ship_hull_carrier = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = -0.05 instant = yes
+				}
+
+				ship_hull_submarine = {
+					build_cost_ic = -0.05 instant = yes
+				}
+			}
+		}
+
+		ENG_low_naval_investments_3 = {
+			picture = generic_sea_focused_navy
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05	
+			}
+			equipment_bonus = {
+
+				ship_hull_heavy = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_carrier = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_submarine = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+
+		ENG_lessons_of_Jutland = {
+			allowed = {
+				always = no
+			}
+			picture = generic_coastal_defense_ships
+			modifier = {
+				experience_gain_navy = 0.05
+			}
+		equipment_bonus = {
+			capital_ship = {
+				build_cost_ic = 0.05 armor_value = 0.1 hg_attack = 0.1 naval_speed = 0.1
+			}
+		}
+	}
+
+		ENG_expand_the_repair_yards = {
+
+			picture = generic_coastal_defense_ships
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				refit_ic_cost = -0.1
+				refit_speed = 0.1
+				repair_speed_factor = 0.1
+			}
+		}
+
+
+
+		ENG_admiralty_1 = {
+			allowed = {
+				always = no
+			}
+			picture = generic_coastal_defense_ships
+			modifier = {
+				experience_gain_navy = 0.05
+			}
+			research_bonus = {
+				naval_doctrine = 0.05
+			}
+		}
+
+		ENG_admiralty_2 = {
+			allowed = {
+				always = no
+			}
+			picture = generic_coastal_defense_ships
+			modifier = {
+				experience_gain_navy = 0.1
+			}
+			research_bonus = {
+				naval_doctrine = 0.1
+				naval_coordination = 0.1
+				spotting_chance = 0.1
+			}
+		}
+
+ }

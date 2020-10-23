@@ -1,0 +1,63 @@
+﻿###########################
+# turkey Events
+###########################
+
+add_namespace = courland
+
+country_event = { # Terrorists1
+	id = courland.1
+	title = courland.1.t	
+	desc = courland.1.d
+	picture = #
+
+	fire_only_once = yes
+
+ trigger = {
+ original_tag = COU
+ date = 25.4.1936
+ }
+
+	option = {
+		name = courland.1.a
+ add_political_power = -25
+ add_stability = -0.03
+	}
+}
+country_event = { # Terrorists3
+	id = courland.3
+	title = courland.3.t	
+	desc = courland.3.d
+	picture = #
+
+	fire_only_once = yes
+
+ trigger = {
+ original_tag = COU
+ date = 10.5.1936
+ }
+
+	option = {
+		name = courland.2.a
+ add_political_power = -30
+ add_stability = -0.05
+	}
+}
+ountry_event = { # Terrorists3
+	id = courland.3
+	title = courland.3.t	
+	desc = courland.3.d
+	picture = #
+
+	fire_only_once = yes
+
+ trigger = {
+ original_tag = COU
+ date = 28.6.1936
+ }
+
+	option = {
+		name = courland.3.a
+ add_political_power = -50
+ add_stability = -0.08
+	}
+}

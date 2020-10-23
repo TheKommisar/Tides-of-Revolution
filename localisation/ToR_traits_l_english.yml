@@ -1,0 +1,20 @@
+﻿l_english: 
+#Leader Traits
+lit_weak_council:0 "Weak Council"
+NMB_ox_of_south_west_africa:0 "The Ox of South West Africa"
+#head of government
+hog_pragmatic_statesman:0 "Pragmatic Statesman"
+hog_happy_amateur:0 "Happy Amateur"
+hog_naive_optimist:0 "Naive Optimist"
+hog_weltkrieg_hero:0 "Weltkrieg Hero"
+
+#type
+head_of_government:0 "Head of Government"
+foreign_minister:0 "Foreign Minister"
+economy_minister:0 "Economy Minister"
+security_minister:0 "Interior Minister"
+head_of_intel:0 "Intelligence Minister"
+
+former_republican:0 "Former Republican"
+former_republican_desc:0 "This commander has formerly served under the tricolour flag of the French Third Republic, and as such may have tendencies against the state."
+bearer_of_artillery:0 "Artillery Expert"

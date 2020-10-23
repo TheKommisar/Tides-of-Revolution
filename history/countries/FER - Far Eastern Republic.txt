@@ -1,0 +1,41 @@
+﻿capital = 408
+
+OOB = "FER_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	vanguardist = 1
+        orthodox_marxist = 0
+	revolutionary_socialist = 3
+        social_democrat = 26
+        social_liberal = 10
+        classic_liberal = 2
+        social_conservative = 7
+        authoritarian_democrat = 13
+        paternal_autocrat = 21
+        national_populist = 17
+}
+
+set_convoys = 5
+
+create_country_leader = {
+	name = "Grigory Semyonov"
+	desc = "POLITICS_GRIGORY_SEMYONOV_DESC"
+	picture = "Portrait_Far_Eastern_Republic_Grigory_Semyonov.dds"
+	expire = "1999.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

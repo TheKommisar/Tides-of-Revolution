@@ -1,0 +1,68 @@
+﻿###################
+###Generic Events##
+###################
+####MADE BY CIA####
+###################
+
+add_namespace = genfocus
+
+
+country_event = {
+	id = genfocus.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event genfocus.1"}
+	title = genfocus.1.t
+	desc = genfocus.1.d
+	picture = report_event_generic_conference
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Germany"
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 3500 producer = GER 
+		#create_if_missing = yes
+		}
+		GER = { country_event = genfocus.2 }
+		}
+	
+	option = {
+		name = "Britain"
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = ENG }
+		ENG = { country_event = genfocus.2 }
+		}
+	
+	option = {
+		name = "France"
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = FRA }
+		FRA = { country_event = genfocus.2 }
+		}
+
+	option = {
+		name = "Russia"
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 7500 producer = RUS }
+		RUS = { country_event = genfocus.2 }
+		}
+	}
+
+country_event = {
+	id = genfocus.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event genfocus.2"}
+	title = genfocus.2.t
+	desc = genfocus.2.d
+	picture = report_event_generic_conference
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "It was a pleasure doing business with you!"
+		#add_timed_idea = {
+		#		idea = generic_arms_payments
+		#		days = 60
+		#}
+	}
+}
+
+# add cores event later

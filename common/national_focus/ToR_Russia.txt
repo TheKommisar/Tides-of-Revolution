@@ -1,0 +1,3078 @@
+focus_tree = {
+	id = russian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	
+	default = no
+
+        continuous_focus_position = { x = 50 y = 1900 }
+
+	focus = {
+		id = RUS_march_on_mother_russia
+		icon = GFX_
+		prerequisite = { focus =  }
+		x = 10
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_russian_economic_miracle
+		icon = GFX_
+		prerequisite = { focus = RUS_march_on_mother_russia }
+		x = -8
+		y = 1
+                relative_position_id = RUS_march_on_mother_russia
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_ride_the_momentum
+		icon = GFX_
+		prerequisite = { focus = RUS_the_russian_economic_miracle }
+                relative_position_id = RUS_the_russian_economic_miracle
+		x = -4
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_overhaul_baydalakovgrad
+		icon = GFX_
+		prerequisite = { focus = RUS_ride_the_momentum }
+		x = -2
+		y = 1
+                relative_position_id = RUS_ride_the_momentum
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_baydalakovgrad_institute
+		icon = GFX_
+		prerequisite = { focus = RUS_overhaul_baydalakovgrad }
+		x = -1
+		y = 1 
+                relative_position_id = RUS_overhaul_baydalakovgrad
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+#	focus = {
+#		id = RUS_beacon_of_new_russia
+#		icon = GFX_
+#		prerequisite = { focus = RUS_overhaul_baydalakovgrad focus = RUS_the_baydalakovgrad_institute }
+#		x = -2
+#		y = 2
+#                relative_position_id = RUS_overhaul_baydalakovgrad
+#		cost = 6
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		available = {}
+#		bypass = {}
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = yes
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	focus = {
+		id = RUS_connect_the_empire
+		icon = GFX_
+		prerequisite = { focus = RUS_ride_the_momentum }
+		x = 2
+		y = 1
+                relative_position_id = RUS_ride_the_momentum
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_all_roads_lead_to_petrograd
+		icon = GFX_
+		prerequisite = { focus = RUS_connect_the_empire }
+		x = 1
+		y = 1
+                relative_position_id = RUS_connect_the_empire
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_end_import_dependency
+		icon = GFX_
+		prerequisite = { focus = RUS_ride_the_momentum }
+		x = 0
+		y = 1
+                relative_position_id = RUS_ride_the_momentum
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_building_a_new_bread_basket
+		icon = GFX_
+		prerequisite = { focus = RUS_end_import_dependency }
+		x = 0
+		y = 1
+                relative_position_id = RUS_end_import_dependency
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_melting_of_the_sickles
+		icon = GFX_
+		prerequisite = { focus = RUS_building_a_new_bread_basket }
+		x = -1
+		y = 1 
+                relative_position_id = RUS_building_a_new_bread_basket
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_agricultural_revolution
+		icon = GFX_
+		prerequisite = { focus = RUS_building_a_new_bread_basket }
+		x = 1
+		y = 1 
+                relative_position_id = RUS_building_a_new_bread_basket
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_address_the_famines
+		icon = GFX_
+		prerequisite = { focus = RUS_melting_of_the_sickles }
+                prerequisite = { focus = RUS_the_agricultural_revolution }
+                relative_position_id = RUS_the_agricultural_revolution
+		x = -1
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_a_troublesome_truth
+		icon = GFX_
+		prerequisite = { focus = RUS_address_the_famines }
+		x = -2
+		y = 1
+                relative_position_id = RUS_address_the_famines
+                mutually_exclusive = { focus = RUS_a_communist_lie } 
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_shift_the_blame
+		icon = GFX_
+		prerequisite = { focus = RUS_a_troublesome_truth }
+		x = 0
+		y = 1
+                relative_position_id = RUS_a_troublesome_truth
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_german_economic_aid
+		icon = GFX_
+		prerequisite = { focus = RUS_shift_the_blame }
+		x = -1
+		y = 1
+                relative_position_id = RUS_shift_the_blame
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_join_the_kaiser_wilhelm_society
+		icon = GFX_
+		prerequisite = { focus = RUS_german_economic_aid }
+		x = -1
+		y = 1
+                relative_position_id = RUS_german_economic_aid
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_emergency_economic_restructuring
+		icon = GFX_
+		prerequisite = { focus = RUS_shift_the_blame }
+		x = 1
+		y = 1
+                relative_position_id = RUS_shift_the_blame
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_second_rejuvenation_plan
+		icon = GFX_
+		prerequisite = { focus = RUS_emergency_economic_restructuring } 
+                prerequisite = { focus = RUS_german_economic_aid }
+		x = -1
+		y = 1
+                relative_position_id = RUS_emergency_economic_restructuring
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_invest_in_civilian_industries
+		icon = GFX_
+		prerequisite = { focus = RUS_the_second_rejuvenation_plan } 
+		x = -1
+		y = 1
+                relative_position_id = RUS_the_second_rejuvenation_plan
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_nationalize_rampant_arms_manufacturers
+		icon = GFX_
+		prerequisite = { focus = RUS_the_second_rejuvenation_plan } 
+		x = 1
+		y = 1
+                relative_position_id = RUS_the_second_rejuvenation_plan
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_a_communist_lie
+		icon = GFX_
+		prerequisite = { focus = RUS_address_the_famines }
+		x = 2
+		y = 1
+                relative_position_id = RUS_address_the_famines
+                mutually_exclusive = { focus = RUS_a_troublesome_truth }
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_second_purge
+		icon = GFX_
+		prerequisite = { focus = RUS_a_communist_lie }
+		x = 0
+		y = 1
+                relative_position_id = RUS_a_communist_lie
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_control_the_spread_of_information
+		icon = GFX_
+		prerequisite = { focus = RUS_the_second_purge }
+		x = 0
+		y = 1
+                relative_position_id = RUS_the_second_purge
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_continue_as_normal
+		icon = GFX_
+		prerequisite = { focus = RUS_control_the_spread_of_information }
+		x = 0
+		y = 1
+                relative_position_id = RUS_control_the_spread_of_information
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_ural_archipelago
+		icon = GFX_
+		prerequisite = { focus = RUS_continue_as_normal }
+		x = -1
+		y = 1
+                relative_position_id = RUS_continue_as_normal
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_celebrate_the_urban_man
+		icon = GFX_
+		prerequisite = { focus = RUS_continue_as_normal }
+		x = 1
+		y = 1
+                relative_position_id = RUS_continue_as_normal 
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_smash_the_boundaries
+		icon = GFX_
+		prerequisite = { focus = RUS_the_russian_economic_miracle }
+		x = 4
+		y = 1
+                relative_position_id = RUS_the_russian_economic_miracle
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+        focus = {
+		id = RUS_crush_the_profiteers
+		icon = GFX_
+		prerequisite = { focus = RUS_smash_the_boundaries }
+		x = -1
+		y = 1
+                relative_position_id = RUS_smash_the_boundaries
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+        focus = {
+		id = RUS_destroy_the_old
+		icon = GFX_
+		prerequisite = { focus = RUS_smash_the_boundaries }
+		x = 1
+		y = 1
+                relative_position_id = RUS_smash_the_boundaries
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+        focus = {
+		id = RUS_unite_the_classes
+		icon = GFX_
+		prerequisite = { focus = RUS_destroy_the_old focus = RUS_crush_the_profiteers }
+		x = -1
+		y = 1
+                relative_position_id = RUS_crush_the_profiteers
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+        focus = {
+		id = RUS_the_individuals_contribution
+		icon = GFX_
+		prerequisite = { focus = RUS_destroy_the_old focus = RUS_crush_the_profiteers }
+		x = 1
+		y = 1
+                relative_position_id = RUS_crush_the_profiteers
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+        focus = {
+		id = RUS_a_uniquely_russian_brotherhood
+		icon = GFX_
+		prerequisite = { focus = RUS_destroy_the_old focus = RUS_crush_the_profiteers }
+		x = 3
+		y = 1
+                relative_position_id = RUS_crush_the_profiteers
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+        focus = {
+		id = RUS_the_torch_of_solidarity
+		icon = GFX_
+		prerequisite = { focus = RUS_the_individuals_contribution  }
+                prerequisite = { focus = RUS_unite_the_classes }
+                prerequisite = { focus = RUS_a_uniquely_russian_brotherhood }
+		x = -2
+		y = 1
+                relative_position_id = RUS_a_uniquely_russian_brotherhood
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_rebuilding_the_russian_spirit
+		icon = GFX_
+		prerequisite = { focus = RUS_march_on_mother_russia }
+		x = 8
+		y = 1 
+                relative_position_id = RUS_march_on_mother_russia
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_strength_through_knowledge
+		icon = GFX_
+		prerequisite = { focus = RUS_rebuilding_the_russian_spirit }
+		x = -5
+		y = 1
+                relative_position_id = RUS_rebuilding_the_russian_spirit
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_form_the_sb
+		icon = GFX_
+		prerequisite = { focus = RUS_strength_through_knowledge }
+		x = -2
+		y = 1
+                relative_position_id = RUS_strength_through_knowledge
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_combat_communard_influence
+		icon = GFX_
+		prerequisite = { focus = RUS_form_the_sb }
+		x = -1
+		y = 1
+                relative_position_id = RUS_form_the_sb
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_hunt_the_bolshevik_exiles
+		icon = GFX_
+		prerequisite = { focus = RUS_combat_communard_influence }
+		x = 0
+		y = 1
+                relative_position_id = RUS_combat_communard_influence
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_keep_your_friends_close
+		icon = GFX_
+		prerequisite = { focus = RUS_form_the_sb }
+		x = 1
+		y = 1
+                relative_position_id = RUS_form_the_sb
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_but_your_enemies_closer
+		icon = GFX_
+		prerequisite = { focus = RUS_keep_your_friends_close }
+		x = 0
+		y = 1
+                relative_position_id = RUS_keep_your_friends_close
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_a_final_blow_to_the_red_beast
+		icon = GFX_
+		prerequisite = { focus = RUS_but_your_enemies_closer }
+                prerequisite = { focus = RUS_hunt_the_bolshevik_exiles }
+		x = 1
+		y = 1
+                relative_position_id = RUS_hunt_the_bolshevik_exiles
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_control_the_youth_control_the_nation
+		icon = GFX_
+		prerequisite = { focus = RUS_strength_through_knowledge }
+		x = 2
+		y = 1
+                relative_position_id = RUS_strength_through_knowledge
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_write_the_doctrine_of_solidaritism
+		icon = GFX_
+		prerequisite = { focus = RUS_control_the_youth_control_the_nation }
+		x = 0
+		y = 1  
+                relative_position_id = RUS_control_the_youth_control_the_nation
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_study_the_bolshevik_revolution
+		icon = GFX_
+		prerequisite = { focus = RUS_write_the_doctrine_of_solidaritism }
+		x = -1
+		y = 1
+                relative_position_id = RUS_write_the_doctrine_of_solidaritism
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_education_for_all_people
+		icon = GFX_
+		prerequisite = { focus = RUS_write_the_doctrine_of_solidaritism }
+		x = 1
+		y = 1
+                relative_position_id = RUS_write_the_doctrine_of_solidaritism
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_humiliate_the_fools
+		icon = GFX_
+		prerequisite = { focus = RUS_study_the_bolshevik_revolution }
+                prerequisite = { focus = RUS_education_for_all_people }
+		x = 1
+		y = 1
+                relative_position_id = RUS_study_the_bolshevik_revolution
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_reverse_the_brain_drain
+		icon = GFX_
+		prerequisite = { focus = RUS_humiliate_the_fools }
+                prerequisite = { focus = RUS_a_final_blow_to_the_red_beast }
+		x = -2
+		y = 1
+                relative_position_id = RUS_humiliate_the_fools
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_solidaritism_on_display
+		icon = GFX_
+		prerequisite = { focus = RUS_reverse_the_brain_drain }
+		x = -1
+		y = 1
+                relative_position_id = RUS_reverse_the_brain_drain
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_invite_foreign_experts
+		icon = GFX_
+		prerequisite = { focus = RUS_reverse_the_brain_drain }
+		x = 1
+		y = 1
+                relative_position_id = RUS_reverse_the_brain_drain
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_eastern_paradise
+		icon = GFX_
+		prerequisite = { focus = RUS_invite_foreign_experts }
+                prerequisite = { focus = RUS_solidaritism_on_display }
+		x = -1
+		y = 1
+                relative_position_id = RUS_invite_foreign_experts
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_remove_all_restrictions
+		icon = GFX_
+		prerequisite = { focus = RUS_rebuilding_the_russian_spirit }
+		x = 5
+		y = 1
+                relative_position_id = RUS_rebuilding_the_russian_spirit
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_renegotiate_brest
+		icon = GFX_
+		prerequisite = { focus = RUS_remove_all_restrictions }
+		x = -2
+		y = 1
+                relative_position_id = RUS_remove_all_restrictions
+                mutually_exclusive = { focus = RUS_tear_up_the_treaty }
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_tear_up_the_treaty
+		icon = GFX_
+		prerequisite = { focus = RUS_remove_all_restrictions }
+		x = 2
+		y = 1
+                relative_position_id = RUS_remove_all_restrictions
+                mutually_exclusive = { focus = RUS_renegotiate_brest }
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_will_of_the_people
+		icon = GFX_
+		prerequisite = { focus = RUS_remove_all_restrictions }
+                prerequisite = { focus = RUS_renegotiate_brest }
+                prerequisite = { focus = RUS_tear_up_the_treaty }
+		x = 0
+		y = 2
+                relative_position_id = RUS_remove_all_restrictions
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_start_the_war_machine
+		icon = GFX_
+		prerequisite = { focus = RUS_the_will_of_the_people }
+		x = 0
+		y = 1
+                relative_position_id = RUS_the_will_of_the_people
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_secure_the_bread_basket
+		icon = GFX_
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = -1
+		y = 1
+                relative_position_id = RUS_start_the_war_machine
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_liberate_the_southern_slavs
+		icon = GFX_
+		prerequisite = { focus = RUS_secure_the_bread_basket }
+		x = 0
+		y = 2
+                relative_position_id = RUS_secure_the_bread_basket
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_retake_the_north_west
+		icon = GFX_
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = 0
+		y = 2
+                relative_position_id = RUS_start_the_war_machine
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_march_to_the_oil
+		icon = GFX_
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = 1
+		y = 1
+                relative_position_id = RUS_start_the_war_machine
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_quest_for_ports
+		icon = GFX_
+		prerequisite = { focus = RUS_march_to_the_oil }
+		x = 0
+		y = 2
+                relative_position_id = RUS_march_to_the_oil
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_return_to_middle_asia
+		icon = GFX_
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = 3
+		y = 1
+                relative_position_id = RUS_start_the_war_machine
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_reclaim_the_far_east
+		icon = GFX_
+		prerequisite = { focus = RUS_start_the_war_machine }
+		x = 5
+		y = 1
+                relative_position_id = RUS_start_the_war_machine 
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_second_great_game
+		icon = GFX_
+		prerequisite = { focus = RUS_reclaim_the_far_east }
+		prerequisite = { focus = RUS_return_to_middle_asia }
+                relative_position_id = RUS_return_to_middle_asia
+		x = 1
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_white_army
+		icon = GFX_
+		prerequisite = { focus =  }
+		x = 40
+		y = 0
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_an_air_force_in_limbo
+		icon = GFX_
+		prerequisite = { focus = RUS_the_white_army }
+		x = 33
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_form_the_white_air_force
+		icon = GFX_
+		prerequisite = { focus = RUS_an_air_force_in_limbo }
+		x = 33
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_rychagovs_modernization_scheme
+		icon = GFX_
+		prerequisite = { focus = RUS_form_the_white_air_force }
+		mutually_exclusive = { focus = RUS_yanchenkos_flying_circus }
+		x = 32
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_import_foreign_aircraft
+		icon = GFX_
+		prerequisite = { focus = RUS_rychagovs_modernization_scheme }
+		x = 32
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_yanchenkos_flying_circus
+		icon = GFX_
+		prerequisite = { focus = RUS_form_the_white_air_force }
+		mutually_exclusive = { focus = RUS_rychagovs_modernization_scheme }
+		x = 34
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yesRUS_import_foreign_aircraft
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_open_new_aviation_schools
+		icon = GFX_
+		prerequisite = { focus = RUS_yanchenkos_flying_circus }
+		x = 34
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_dust_off_the_tsarist_factories
+		icon = GFX_
+		prerequisite = { focus = RUS_import_foreign_aircraft
+				focus = RUS_open_new_aviation_schools }
+		x = 33
+		y = 5
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_experimental_research_bureaus
+		icon = GFX_
+		prerequisite = { focus = RUS_dust_off_the_tsarist_factories }
+		x = 33
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_harness_the_atom
+		icon = GFX_
+		prerequisite = { focus = RUS_experimental_research_bureaus }
+		x = 33
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_grigorovichs_ground_pounders
+		icon = GFX_
+		prerequisite = { focus = RUS_dust_off_the_tsarist_factories }
+		x = 35
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_militarize_the_solidarist_guard
+		icon = GFX_
+		prerequisite = { focus = RUS_the_white_army }
+		x = 40
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_grey_army
+		icon = GFX_
+		prerequisite = { focus = RUS_militarize_the_solidarist_guard }
+                mutually_exclusive = { focus = RUS_the_solidarist_revolution } 
+		x = 37
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_send_in_the_guard
+		icon = GFX_
+		prerequisite = { focus = RUS_the_grey_army }
+		x = 37
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_red_solution
+		icon = GFX_
+		prerequisite = { focus = RUS_send_in_the_guard }
+		x = 38
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_brother_divisions
+		icon = GFX_
+		prerequisite = { focus = RUS_send_in_the_guard }
+		x = 36
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_margelovs_magnificent_men
+		icon = GFX_
+		prerequisite = { focus = RUS_the_grey_army
+				focus = RUS_the_solidarist_revolution }
+		x = 40
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_solidarist_revolution
+		icon = GFX_
+		prerequisite = { focus = RUS_militarize_the_solidarist_guard }
+		mutually_exclusive = { focus = RUS_the_grey_army }
+		x = 43
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_a_soldiers_rebirth
+		icon = GFX_
+		prerequisite = { focus = RUS_the_solidarist_revolution }
+		x = 43
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_solidarist_training_manuals
+		icon = GFX_
+		prerequisite = { focus = RUS_a_soldiers_rebirth }
+		x = 43
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_denikins_guard
+		icon = GFX_
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		mutually_exclusive = { focus = RUS_vlasovs_guard }
+		x = 40
+		y = 5
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_radicalize_the_army
+		icon = GFX_
+		prerequisite = { focus = RUS_denikins_guard }
+		x = 38
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_memories_of_the_civil_war
+		icon = GFX_
+		prerequisite = { focus = RUS_denikins_guard }
+		x = 40
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_a_professional_guard
+		icon = GFX_
+		prerequisite = { focus = RUS_memories_of_the_civil_war }
+		x = 40
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_bring_the_big_guns
+		icon = GFX_
+		prerequisite = { focus = RUS_a_professional_guard }
+		x = 39
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_solidarist_general_staff
+		icon = GFX_
+		prerequisite = { focus = RUS_a_professional_guard }
+		x = 41
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_loyalty_to_the_cause
+		icon = GFX_
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		x = 44
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_ukrainian_solidarist_guard
+		icon = GFX_
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		x = 42
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_special_detachments
+		icon = GFX_
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		x = 43
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_vlasovs_guard
+		icon = GFX_
+		prerequisite = { focus = RUS_solidarist_training_manuals }
+		mutually_exclusive = { focus = RUS_denkins_guard }
+		x = 46
+		y = 5
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_steel_and_brotherhood
+		icon = GFX_
+		prerequisite = { focus = RUS_vlasovs_guard }
+		x = 46
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_rally_our_brothers
+		icon = GFX_
+		prerequisite = { focus = RUS_steel_and_brotherhood }
+		x = 45
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_motorize_the_guard
+		icon = GFX_
+		prerequisite = { focus = RUS_steel_and_brotherhood }
+		x = 47
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_solidarity_for_all
+		icon = GFX_
+		prerequisite = { focus = RUS_rally_our_brothers }
+		prerequisite = { focus = RUS_motorize_the_guard }
+		x = 46
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_armoured_spears_of_solidaritism
+		icon = GFX_
+		prerequisite = { focus = RUS_motorize_the_guard }
+		x = 48
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_wrangel_submits
+		icon = GFX_
+		prerequisite = { focus = RUS_the_white_army }
+		x = 55
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_authorize_modernization_of_the_army
+		icon = GFX_
+		prerequisite = { focus = RUS_wrangel_submits }
+		x = 55
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_increase_rifle_production
+		icon = GFX_
+		prerequisite = { focus = RUS_authorize_modernization_of_the_army }
+		x = 54
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_brief_the_officers
+		icon = GFX_
+		prerequisite = { focus = RUS_authorize_modernization_of_the_army }
+		x = 56
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_novgorod_maneuvers
+		icon = GFX_
+		prerequisite = { focus = RUS_increase_rifle_production }
+		prerequisite = { focus = RUS_brief_the_officers }
+		x = 55
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_develop_opertika
+		icon = GFX_
+		prerequisite = { focus = RUS_novgorod_maneuvers }
+		mutually_exclusive = { focus = RUS_stick_to_the_manual }
+		x = 52
+		y = 5
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_drill_the_army_to_perfection
+		icon = GFX_
+		prerequisite = { focus = RUS_develop_opertika }
+		x = 52
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_combined_arms_doctrine
+		icon = GFX_
+		prerequisite = { focus = RUS_drill_the_army_to_perfection }
+		x = 52
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_a_russian_tank_program
+		icon = GFX_
+		prerequisite = { focus = RUS_combined_arms_doctrine }
+		x = 51
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_motorize_the_army
+		icon = GFX_
+		prerequisite = { focus = RUS_a_russian_tank_program }
+		x = 49
+		y = 9
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_nimble_spearheads
+		icon = GFX_
+		prerequisite = { focus = RUS_a_russian_tank_program }
+		x = 51
+		y = 9
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_introduce_modern_communications
+		icon = GFX_
+		prerequisite = { focus = RUS_combined_arms_doctrine }
+		x = 53
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_coordinate_the_artillery
+		icon = GFX_
+		prerequisite = { focus = RUS_introduce_modern_communications }
+		x = 53
+		y = 9
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_coordinate_the_air_force
+		icon = GFX_
+		prerequisite = { focus = RUS_introduce_modern_communications }
+		x = 55
+		y = 9
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_a_modern_fighting_force
+		icon = GFX_
+		prerequisite = { focus = RUS_motorize_the_army }
+		prerequisite = { focus = RUS_nimble_spearheads }
+		prerequisite = { focus = RUS_coordinate_the_artillery }
+		prerequisite = { focus = RUS_coordinate_the_air_force }
+		x = 52
+		y = 10
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_study_the_civil_war
+		icon = GFX_
+		prerequisite = { focus = RUS_stick_to_the_manual
+				 focus = RUS_develop_opertika }
+		x = 55
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_gornaya_soldiers
+		icon = GFX_
+		prerequisite = { focus = RUS_study_the_civil_war }
+		x = 54
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_legacy_of_the_ice_marches
+		icon = GFX_
+		prerequisite = { focus = RUS_study_the_civil_war }
+		x = 56
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_prepare_for_any_condition
+		icon = GFX_
+		prerequisite = { focus = RUS_gornaya_soldiers }
+		prerequisite = { focus = RUS_legacy_of_the_ice_marches }
+		x = 55
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_stick_to_the_manual
+		icon = GFX_
+		prerequisite = { focus = RUS_novgorod_maneuvers }
+		mutually_exclusive = { focus =  RUS_develop_opertika }
+		x = 58
+		y = 5
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_human_wave_tactics
+		icon = GFX_
+		prerequisite = { focus = RUS_stick_to_the_manual }
+		x = 58
+		y = 6
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_an_aristocratic_general_staff
+		icon = GFX_
+		prerequisite = { focus = RUS_human_wave_tactics }
+		x = 58
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_champion_the_cavalry
+		icon = GFX_
+		prerequisite = { focus = RUS_an_aristocratic_general_staff }
+		x = 59
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_creeping_barrages
+		icon = GFX_
+		prerequisite = { focus = RUS_an_aristocratic_general_staff }
+		x = 57
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_a_soldiers_duty
+		icon = GFX_
+		prerequisite = { focus = RUS_champion_the_cavalry }
+		prerequisite = { focus = RUS_creeping_barrages }
+		x = 58
+		y = 9
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_solidarist_charges
+		icon = GFX_
+		prerequisite = { focus = RUS_a_soldiers_duty }
+		x = 58
+		y = 10
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_reactivate_tsarist_forts
+		icon = GFX_
+		prerequisite = { focus = RUS_human_wave_tactics }
+		x = 60
+		y = 7
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_defense_in_depth
+		icon = GFX_
+		prerequisite = { focus = RUS_reactivate_tsarist_forts }
+		prerequisite = { focus = RUS_an_aristocratic_general_staff }
+		x = 62
+		y = 8
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_scorched_earth
+		icon = GFX_
+		prerequisite = { focus = RUS_defense_in_depth }
+		x = 61
+		y = 9
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_infantry_tanks
+		icon = GFX_
+		prerequisite = { focus = RUS_defense_in_depth }
+		x = 63
+		y = 9
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_the_white_fleet
+		icon = GFX_
+		prerequisite = { focus =  }
+		x = 68
+		y = 0
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_work_with_what_we_have
+		icon = GFX_
+		prerequisite = { focus = RUS_the_white_fleet }
+		x = 66
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_develop_kronstadt
+		icon = GFX_
+		prerequisite = { focus = RUS_work_with_what_we_have }
+		x = 66
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_invest_in_submarines
+		icon = GFX_
+		prerequisite = { focus = RUS_develop_kronstadt }
+		x = 64
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_improve_northern_bases
+		icon = GFX_
+		prerequisite = { focus = RUS_invest_in_submarines }
+		x = 63
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_baltic_raiders
+		icon = GFX_
+		prerequisite = { focus = RUS_invest_in_submarines }
+		x = 65
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_expand_the_surface_fleet
+		icon = GFX_
+		prerequisite = { focus = RUS_develop_kronstadt }
+		x = 68
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_cruiser_centralization
+		icon = GFX_
+		prerequisite = { focus = RUS_expand_the_surface_fleet }
+		x = 67
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_coastal_batteries
+		icon = GFX_
+		prerequisite = { focus = RUS_expand_the_surface_fleet }
+		x = 69
+		y = 4
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_return_to_the_black_sea
+		icon = GFX_
+		prerequisite = { focus = RUS_the_white_fleet }
+		x = 72
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_seize_ukrainian_ships
+		icon = GFX_
+		prerequisite = { focus = RUS_return_to_the_black_sea }
+		x = 70
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_overhaul_the_fleet
+		icon = GFX_
+		prerequisite = { focus = RUS_return_to_the_black_sea }
+		x = 72
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_floating_fortresses
+		icon = GFX_
+		prerequisite = { focus = RUS_overhaul_the_fleet }
+		x = 72
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_rebuild_naval_installations
+		icon = GFX_
+		prerequisite = { focus = RUS_return_to_the_black_sea }
+		prerequisite = { focus = RUS_return_to_the_pacific }
+		x = 74
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_return_to_the_pacific
+		icon = GFX_
+		prerequisite = { focus = RUS_the_white_fleet }
+		x = 76
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_deep_sea_fleets
+		icon = GFX_
+		prerequisite = { focus = RUS_return_to_the_pacific }
+		x = 76
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_avianosets
+		icon = GFX_
+		prerequisite = { focus = RUS_deep_sea_fleets }
+		x = 76
+		y = 3
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = RUS_seize_far_eastern_ships
+		icon = GFX_
+		prerequisite = { focus = RUS_return_to_the_pacific }
+		x = 78
+		y = 2
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

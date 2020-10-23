@@ -1,0 +1,39 @@
+﻿capital = 323
+
+oob = "NEP_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+add_ideas = {
+
+}
+
+set_stability = 0.44
+set_war_support = 0.50
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1931.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_conservative = 30
+    authoritarian_democrat = 40
+    paternal_autocrat = 30
+
+create_country_leader = {
+	name = "Tribhuvan of Nepal"
+	desc = "POLITICS_WHATEVER_HIS_NAME_IS_DESC" #bruh moment
+	picture = "Portrait_Nepal_Tribhuvana.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

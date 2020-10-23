@@ -1,0 +1,27 @@
+leader_traits = {
+
+	lit_weak_council = {
+		political_power_gain = -0.1
+                stability_factor = -0.05
+
+		random = no
+	}
+	military_mind = {
+		war_support_factor = 0.05
+		army_attack_factor = 0.05
+		army_morale_factor = 0.10
+		army_org_factor = 0.05
+		training_time_factor = -0.25
+		mobilization_laws_cost_factor = -0.25
+		high_command_cost_factor = -0.25
+		random = no
+	}
+	NMB_ox_of_south_west_africa = {
+	attrition = -0.05
+	supply_consumption_factor = -0.1
+	heat_attrition_factor = -0.2
+	resistance_growth = -0.1
+	training_time_factor = 0.1
+		random = no
+	}
+}

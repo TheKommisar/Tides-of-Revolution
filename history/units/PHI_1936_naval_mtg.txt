@@ -1,0 +1,13 @@
+units= {
+
+	fleet = {
+		name = "Fleet of the Philippines"			
+		naval_base = 10265 # Manila
+		task_force = {				
+			name = "First Command"			
+			location = 10265 # Manila
+			ship = { name = "Kalaayan" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Manila Class" } } }
+			ship = { name = "Matapang" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = PHI version_name = "Manila Class" } } }
+	        }
+        }
+} 

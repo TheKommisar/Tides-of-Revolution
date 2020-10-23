@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+
+ PRF_vanguardist_party:0 "Workers and Peasants Council"
+ PRF_vanguardist_party_long:0 "Council of Workers and Peasants"
+ PRF_orthodox_marxist_party:0 "AITUC"
+ PRF_orthodox_marxist_party_long:0 "All India Trade Union Council"
+ PRF_revolutionary_socialist_party:0 "Agrarians"
+ PRF_revolutionary_socialist_party_long:0 "Agrarians"
+ PRF_social_democrat_party:0 "Modernisers"
+ PRF_social_democrat_party_long:0 "Modernisers"
+ PRF_social_liberal_party:0 "Modernisers"
+ PRF_social_liberal_party_long:0 "Modernisers"
+ PRF_classic_liberal_party:0 "Modernisers"
+ PRF_classic_liberal_party_long:0 "Modernisers"
+ PRF_social_conservative_party:0 "Modernisers"
+ PRF_social_conservative_party_long:0 "Modernisers"
+ PRF_authoritarian_democrat_party:0 "Chamber of Princes"
+ PRF_authoritarian_democrat_party_long:0 "Chamber of Princes"
+ PRF_paternal_autocrat_party:0 "Chamber of Princes"
+ PRF_paternal_autocrat_party_long:0 "Chamber of Princes"
+ PRF_national_populist_party:0 "Ittehad-ul Muslimeen"
+ PRF_national_populist_party_long:0 "Ittehad-ul Muslimeen"
+
+
+
+#Country Names
+ PRF_national_populist:0 "Princely Confederation"
+ PRF_national_populist_DEF:0 "Princely Confederation"
+ PRF_paternal_autocrat:0 "Princely Confederation"
+ PRF_paternal_autocrat_DEF:0 "Princely Confederation"
+ PRF_social_conservative:0 "Princely Confederation"
+ PRF_social_conservative_DEF:0 "Princely Confederation"
+ PRF_authoritarian_democrat:0 "Princely Confederation"
+ PRF_authoritarian_democrat_DEF:0 "Princely Confederation"
+ PRF_orthodox_marxist:0 "Princely Confederation"
+ PRF_orthodox_marxist_DEF:0 "Princely Confederation"
+ PRF_revolutionary_socialist:0 "Princely Confederation"
+ PRF_revolutionary_socialist_DEF:0 "Princely Confederation"
+ PRF_social_democrat:0 "Princely Confederation"
+ PRF_social_democrat_DEF:0 "Princely Confederation"
+ PRF_social_liberal:0 "Princely Confederation"
+ PRF_social_liberal_DEF:0 "Princely Confederation"
+ PRF_classic_liberal:0 "Princely Confederation"
+ PRF_classic_liberal_DEF:0 "Princely Confederation"
+ PRF_vanguardist:0 "Princely Confederation"
+ PRF_vanguardist_DEF:0 "Princely Confederation"
+
+ PRF_national_populist_ADJ:0 "Princely Confederation"
+ PRF_totalitarian_socialist_ADJ:0 "Princely Confederation"
+ PRF_social_conservative_ADJ:0 "Princely Confederation"
+ PRF_paternal_autocrat_ADJ:0 "Princely Confederation"
+ PRF_orthodox_marxist_ADJ:0 "Princely Confederation"
+ PRF_authoritarian_democrat_ADJ:0 "Princely Confederation"
+ PRF_revolutionary_socialist_ADJ:0 "Princely Confederation"
+ PRF_social_democrat_ADJ:0 "Princely Confederation"
+ PRF_social_liberal_ADJ:0 "Princely Confederation"
+ PRF_classic_liberal_ADJ:0 "Princely Confederation"
+ PRF_vanguardist_ADJ:0 "Princely Confederation"
+
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

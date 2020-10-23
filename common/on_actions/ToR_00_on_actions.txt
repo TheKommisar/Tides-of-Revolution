@@ -1,0 +1,28 @@
+on_actions = {
+	on_startup = {
+		effect = { #flavour events and whatnot
+			AUS = { country_event = { days = 180 id = austriahungary.1000 } }
+            ENG = { country_event = { days = 314 id = uk.1000 } }
+            USA = { country_event = { days = 278 id = usa.4 } } #Macarthur cancel elections event, fires in early october
+
+			every_country = {
+                if = {
+                    limit = {
+                        is_ai = no
+                    }
+                    set_country_flag = show_welcome_event
+                }
+            }
+		}
+	              effect = {
+			#
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				ROM = {
+					give_resource_rights = { receiver = GER state = 46 }
+				}
+			}
+                }
+}
