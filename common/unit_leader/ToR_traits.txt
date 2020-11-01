@@ -1,0 +1,23 @@
+#Mod Traits#
+leader_traits = {
+
+	
+##################################
+# Germany
+##################################
+	former_republican = { 
+		type = all
+		trait_type = personality_trait
+                gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = FRA
+			}
+		}
+		modifier = {
+			#
+		}
+	}
+}

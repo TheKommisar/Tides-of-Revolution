@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+LAT_national_populist_party:0 ""
+LAT_national_populist_party_long:0 ""
+LAT_vanguardist_party:0 ""
+LAT_vanguardist_party_long:0 ""
+LAT_social_conservative_party:0 ""
+LAT_social_conservative_party_long:0 ""
+LAT_paternal_autocrat_party:0 "Ulmanis Clique"
+LAT_paternal_autocrat_party_long:0 "Ulmanis Clique"
+LAT_authoritarian_democrat_party:0 "Ulmanis Clique"
+LAT_authoritarian_democrat_party_long:0 "Ulmanis Clique"
+LAT_social_democrat_party:0 ""
+LAT_social_democrat_party_long:0 ""
+LAT_social_liberal_party:0 ""
+LAT_social_liberal_party_long:0 ""
+LAT_classic_liberal_party:0 ""
+LAT_classic_liberal_party_long:0 ""
+LAT_totalitarian_socialist_party:0 ""
+LAT_totalitarian_socialist_party_long:0 ""
+LAT_revolutionary_socialist_party:0 ""
+LAT_revolutionary_socialist_party_long:0 ""
+LAT_orthodox_marxist_party:0 ""
+LAT_orthodox_marxist_party_long:0 ""
+
+#Country Names
+LAT_national_populist:0 "Latvia"
+LAT_national_populist_DEF:0 "Latvia"
+LAT_totalitarian_socialist:0 "Latvia"
+LAT_totalitarian_socialist_DEF:0 "Latvia"
+LAT_paternal_autocrat:0 "Latvia"
+LAT_paternal_autocrat_DEF:0 "Latvia"
+LAT_social_conservative:0 "Latvia"
+LAT_social_conservative_DEF:0 "Latvia"
+LAT_authoritarian_democrat:1 "Latvia"
+LAT_authoritarian_democrat_DEF:1 "Latvia"
+LAT_orthodox_marxist:0 "Latvia"
+LAT_orthodox_marxist_DEF:0 "Latvia"
+LAT_revolutionary_socialist:0 "Latvia"
+LAT_revolutionary_socialist_DEF:0 "Latvia"
+LAT_social_democrat:0 "Latvia"
+LAT_social_democrat_DEF:0 "Latvia"
+LAT_social_liberal:0 "Latvia"
+LAT_social_liberal_DEF:0 "Latvia"
+LAT_classic_liberal:0 "Latvia"
+LAT_classic_liberal_DEF:0 "Latvia"
+LAT_vanguardist:0 "Latvia"
+LAT_vanguardist_DEF:0 "Latvia"
+ 
+LAT_national_populist_ADJ:0 "Latvian"
+LAT_totalitarian_socialist_ADJ:0 "Latvian"
+LAT_social_conservative_ADJ:0 "Latvian"
+LAT_paternal_autocrat_ADJ:0 "Latvian"
+LAT_orthodox_marxist_ADJ:0 "Latvian"
+LAT_authoritarian_democrat_ADJ:0 "Latvian"
+LAT_revolutionary_socialist_ADJ:0 "Latvian"
+LAT_social_democrat_ADJ:0 "Latvian"
+LAT_social_liberal_ADJ:0 "Latvian"
+LAT_classic_liberal_ADJ:0 "Latvian"
+LAT_vanguardist_ADJ:0 "Latvian"
+
+
+
+#Ideas
+LAT_national_liberation:0 "National Liberation Fervor"
+LAT_national_liberation_desc:0 "Latvia is quite effectively, torn in two, the Latvian people are divided by the German regime in Courland and by the government of Karl Ulmanis, despite this demoralizing failure for unification, the Nationalist Fervor in Latvia has perhaps never been stronger. Every day the desire of the officers and politicians to take the step forward and to crush the Germans grows, it seems the people are also with them in that desire. Needless to say that Ulmanis is not against them in this, the Army and People are ready and pressing for an advance to liberate the Latvians in the west, and they will soon get what they desire."
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

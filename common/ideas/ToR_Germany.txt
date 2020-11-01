@@ -1,27 +1,108 @@
 ideas = {
+	country = {
+	GER_republican_menace = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = GER_republican_threat
+		removal_cost = -1
+		modifier = {
+		stability_factor = -0.1
+		political_power_gain = -0.15
+		industrial_capacity_factory = -0.05
+		industrial_capacity_dockyard = -0.05
+			}
+		}
+	GER_constitutional_crisis = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = GER_constitutional_crisis
+		removal_cost = -1
+		modifier = {
+		stability_factor = -0.05
+		political_power_gain = -0.1
+			}
+		}
+	GER_nation_and_kaiser = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = GER_nation_and_kaiser
+		removal_cost = -1
+		modifier = {
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		political_power_gain = 0.1
+		army_morale_factor = 0.05
+			}
+		}
+	GER_iron_and_blood = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = GER_iron_and_blood
+		removal_cost = -1
+		modifier = {
+		industrial_capacity_factory = 0.05
+		production_speed_arms_factory_factor = 0.05
+		production_speed_buildings_factor = 0.05
+		war_support_factor = 0.1
+			}
+		}
+	GER_unworthy_sacrafice = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = GER_unworthy_sacrafice
+		removal_cost = -1
+		modifier = {
+		war_support_factor = -0.2
+		army_morale_factor = -0.05
+		recruitable_population_factor = -0.4
+		army_attack_factor = -0.05
+		justify_war_goal_time = 1
+			}
+		}
 head_of_government = {
-        GER_Ernst_Junger_hog = {
+        GER_Erich_Ludendorff_hog = {
 				
 			allowed = { original_tag = GER }
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					NOT = { has_country_flag = Ernst_Junger_dead }
-					has_country_flag = can_replace_hog
+					NOT = { has_country_flag = Erich_Ludendorff_dead }
+					#has_country_flag = can_replace_hog
 				}
 			}
 			visible = {
-				NOT = { has_country_flag = Ernst_Junger_dead }
+				NOT = { has_country_flag = Erich_Ludendorff_dead }
 			}
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Ernst_Junger_hog"
+				log = "[GetDateText]: [Root.GetName]: add idea GER_Erich_Ludendorff_hog"
 			}
 			traits = {
-				#
+			#
 			}
 			cancel_if_invalid = yes
 		}
-}
+	}
+
 foreign_minister = {
          GER_Konstantin_Neurath_frm = {
 				

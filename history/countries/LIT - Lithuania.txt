@@ -23,19 +23,20 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 0
-        orthodox_marxist = 0
+        orthodox_marxist = 1
 	revolutionary_socialist = 0
         social_democrat = 0
-        social_liberal = 0
-        classic_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 100
-        paternal_autocrat = 0
-        national_populist = 0
+        social_liberal = 2
+        classic_liberal = 5
+        social_conservative = 24
+        authoritarian_democrat = 39
+        paternal_autocrat = 17
+        national_populist = 12
 }
-
+add_ideas = {
+LIT_lithuanian_turmoil
+}
 create_country_leader = {
 	name = "Vincas Mickevičius-Kapsukas"
 	desc = "POLITICS_ANTANAS_SMETONA_DESC"
@@ -59,13 +60,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Karolis I"
-	desc = "POLITICS_KAROLIS_I_DESC"
-	picture = "Portrait_Lithuania_Karolis_I.tga"
+	name = "Council of Lithuania"
+	desc = "POLITICS_COUNCIL_DESC"
+	picture = "Lithuanian_Portrait_Council.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
-		#
+	lit_weak_council
 	}
 }
 
@@ -89,4 +90,15 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = {
+	name = "Stasys Raštikis"
+	picture = "Portrait_Lithuania_Stasys_Rastikis.dds"
+	traits = { commando }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
 }

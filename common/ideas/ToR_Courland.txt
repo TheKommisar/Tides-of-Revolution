@@ -1,0 +1,60 @@
+ideas = {
+
+	country = {
+		COU_Minority_Rule = {
+			picture = COU_german_minority_rule
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = -0.35
+				conscription_factor = -0.80
+				political_power_gain = -0.25
+			}
+		}
+		COU_Russo_German_Conflict = {
+			picture = COU_german_russian_conflict
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.1
+			}
+		}
+		COU_West_Russian_Volunteer_Army = {
+			picture = COU_west_russian_volunteer_army
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.1
+				war_support_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}

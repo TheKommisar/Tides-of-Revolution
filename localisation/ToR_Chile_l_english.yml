@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+
+CHL_vanguardist_party:0 "PCC"
+CHL_vanguardist_party_long:0 "Partido Comunista de Chile"
+CHL_orthodox_marxist_party:0 "PCC"
+CHL_orthodox_marxist_party_long:0 "Partido Comunista de Chile"
+CHL_revolutionary_socialist_party:0 "PSC"
+CHL_revolutionary_socialist_party_long:0 "Partido Socialista de Chile"
+CHL_social_democrat_party:0 "PSC"
+CHL_social_democrat_party_long:0 "Partido Socialista de Chile"
+CHL_social_liberal_party:0 "PR"
+CHL_social_liberal_party_long:0 "Partido Radical"
+CHL_classic_liberal_party:0 "PL"
+CHL_classic_liberal_party_long:0 "Partido Liberal"
+CHL_social_conservative_party:0 "PC"
+CHL_social_conservative_party_long:0 "Partido Conservador"
+CHL_authoritarian_democrat_party:0 "Junta de Gobierno"
+CHL_authoritarian_democrat_party_long:0 "Junta de Gobierno"
+CHL_paternal_autocrat_party:0 "Junta Nacional"
+CHL_paternal_autocrat_party_long:0 "Junta Nacional"
+CHL_national_populist_party:0 "VPN"
+CHL_national_populist_party_long:0 "Vanguardia Popular Nationalista"
+
+#Country Names
+
+
+CHL_national_populist:0 "Republic of Chile"
+CHL_national_populist_DEF:0 "the Republic of Chile"
+CHL_paternal_autocrat:0 "Republic of Chile"
+CHL_paternal_autocrat_DEF:0 "the Republic of Chile"
+CHL_authoritarian_democrat:0 "Republic of Chile"
+CHL_authoritarian_democrat_DEF:0 "the Republic of Chile"
+CHL_social_conservative:0 "Republic of Chile"
+CHL_social_conservative_DEF:0 "the Republic of Chile"
+CHL_classic_liberal:0 "Republic of Chile"
+CHL_classic_liberal_DEF:0 "the Republic of Chile"
+CHL_social_liberal:0 "Republic of Chile"
+CHL_social_liberal_DEF:0 "the Republic of Chile"
+CHL_social_democrat:0 "Republic of Chile"
+CHL_social_democrat_DEF:0 "the Republic of Chile"
+CHL_revolutionary_socialist:0 "Republic of Chile"
+CHL_revolutionary_socialist_DEF:0 "the Republic of Chile"
+CHL_orthodox_marxist:0 "Republic of Chile"
+CHL_orthodox_marxist_DEF:0 "the Republic of Chile"
+CHL_vanguardist:0 "Republic of Chile"
+CHL_vanguardist_DEF:0 "the Republic of Chile"
+
+CHL_national_populist_ADJ:0 "Chilean" 
+CHL_paternal_autocrat_ADJ:0 "Chilean"
+CHL_authoritarian_democrat_ADJ:0 "Chilean"
+CHL_social_conservative_ADJ:0 "Chilean"
+CHL_social_liberal_ADJ:0 "Chilean"
+CHL_classic_liberal_ADJ:0 "Chilean"
+CHL_social_democrat_ADJ:0 "Chilean"
+CHL_revolutionary_socialist_ADJ:0 "Chilean"
+CHL_orthodox_marxist_ADJ:0 "Chilean"
+CHL_vanguardist_ADJ:0 "Chilean"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

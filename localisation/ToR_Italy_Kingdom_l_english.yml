@@ -1,0 +1,165 @@
+﻿l_english: 
+
+#Parties
+ITA_vanguardist_party:0 "Massimalisti"
+ITA_vanguardist_party_long:0 "Partito Comunista d'Italia fazione Massimalista"
+ITA_orthodox_marxist_party:0 "Partito Comunista d'Italia"
+ITA_orthodox_marxist_party_long:0 "Partito Comunista d'Italia"
+ITA_revolutionary_socialist_party:0 "Partito Socialista Italiano"
+ITA_revolutionary_socialist_party_long:0 "Partito Socialista Italiano"
+ITA_social_democrat_party:0 "Partito Socialista Unitario"
+ITA_social_democrat_party_long:0 "Partito Socialista Unitario"
+ITA_social_liberal_party:0 "Partito Radicale Italiano"
+ITA_social_liberal_party_long:0 "Partito Radicale Italiano"
+ITA_classic_liberal_party:0 "Partito Liberale Italiano"
+ITA_classic_liberal_party_long:0 "Partito Liberale Italiano"
+ITA_social_conservative_party:0 "Partito Popolare Italiano"
+ITA_social_conservative_party_long:0 "Partito Popolare Italiano"
+ITA_authoritarian_democrat_party:0 "Partito Monarchicho Italiano"
+ITA_authoritarian_democrat_party_long:0 "Partito Monarchicho Italiano"
+ITA_paternal_autocrat_party:0 "Giunta Militare"
+ITA_paternal_autocrat_party_long:0 "Giunta Militare"
+ITA_national_populist_party:0 "Associazione Nazionalista Italiana"
+ITA_national_populist_party_long:0 "Associazione Nazionalista Italiana"
+
+#Country Names
+ITA_national_populist:0 "Kingdom of Italy"
+ITA_national_populist_DEF:0 "the Kingdom of Italy"
+ITA_paternal_autocrat:0 "Kingdom of Italy"
+ITA_paternal_autocrat_DEF:0 "the Kingdom of Italy"
+ITA_social_conservative:0 "Kingdom of Italy"
+ITA_social_conservative_DEF:0 "the Kingdom of Italy"
+ITA_authoritarian_democrat:0 "Kingdom of Italy"
+ITA_authoritarian_democrat_DEF:0 "the Kingdom of Italy"
+ITA_orthodox_marxist:0 "Italian Syndicate"
+ITA_orthodox_marxist_DEF:0 "the Italian Syndicate"
+ITA_revolutionary_socialist:0 "Italian Syndicate"
+ITA_revolutionary_socialist_DEF:0 "the Italian Syndicate"
+ITA_social_democrat:0 "Kingdom of Italy"
+ITA_social_democrat_DEF:0 "the Kingdom of Italy"
+ITA_social_liberal:0 "Kingdom of Italy"
+ITA_social_liberal_DEF:0 "the Kingdom of Italy"
+ITA_classic_liberal:0 "Kingdom of Italy"
+ITA_classic_liberal_DEF:0 "the Kingdom of Italy"
+ITA_vanguardist:0 "Italian People's Republic"
+ITA_vanguardist_DEF:0 "the Italian People's Republic"
+ 
+ITA_national_populist_ADJ:0 "Italian"
+ITA_social_conservative_ADJ:0 "Italian"
+ITA_paternal_autocrat_ADJ:0 "Italian"
+ITA_orthodox_marxist_ADJ:0 "Italian"
+ITA_authoritarian_democrat_ADJ:0 "Italian"
+ITA_revolutionary_socialist_ADJ:0 "Italian"
+ITA_social_democrat_ADJ:0 "Italian"
+ITA_social_liberal_ADJ:0 "Italian"
+ITA_classic_liberal_ADJ:0 "Italian"
+ITA_vanguardist_ADJ:0 "Italian"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+#Ideas
+
+ITA_great_depression:0 "Economic Depression"
+ITA_memories_of_the_war:0 "Memories of the War"
+ITA_memories_of_the_war_desc:0 "In the Great War, one million Italians, both military and civilians, lost their lives in the conflict, with thousands more dying of the diseases which gripped the country in the war's aftermath. In addition to this, Italy received only meagre territorial concessions at the war's end, which led to many Italians questioning whether the sacrifices made in the war was worth it at all. In the years following the devastating conflict, the general mood for another war sunk to an all time low, and the number of men enlisting in the army is falling lower and lower. The generals and admirals, too, have expressed their reluctance in fighting another conflict."
+ITA_political_radicalisation:0 "Political Radicalisation"
+ITA_political_radicalisation_desc:0 "Following the Great Depression, the relatively stable Italian political theatre soon began to bear witness to the rise of fringe radical parties and radical ideologies. Although the socialist government which controls Italy is still popular with most of the people, more and more are being dragged away from moderate politics, disillusioned by the government's inability to resolve the economic crisis."
+ITA_new_constitution:0 "New Constitution"
+ITA_new_constitution_desc:0 "The implementation of a new constitution for the Kingdom of Italy was one of the first acts done by the socialist government when they rose to power. The constitution, which mimiced the British political model, is very popular among the Italian people, and serves as a source of stability for the country."
+ITA_socialist_hegemony:0 "Socialist Hegemony"
+ITA_socialist_hegemony_desc:0 "Ever since the Elections of 1923, the Italian political theatre has been dominated by the same socialist political parties. Although this has given us the ability to pass laws and reforms with relative ease, our citizens are yearning for change."
+
+#Focuses
+#starter 
+ITA_review_the_past_year:0 "Review the Past Year"
+ITA_review_the_past_year_desc:0 "The previous year has been a turbulent one for the party and Italian politics as a whole. To avoid this we must prepare a special designated report outlining what went wrong and how we can prevent this from happening again."
+ITA_calm_the_party_ranks:0 "Calm the Party Ranks"
+ITA_calm_the_party_ranks_desc:0 ""
+ITA_run_the_popularity_polls:0 "Run the Popularity Polls"
+ITA_run_the_popularity_polls_desc:0 ""
+ITA_reapproach_the_psi:0 "Detente with the PSI"
+ITA_reapproach_the_psi_desc:0 ""
+ITA_good_favour_with_pri:0 "Good Favour with the PRI"
+ITA_good_favour_with_pri_desc:0 ""
+ITA_results_of_the_report:0 "Results of the Report"
+ITA_results_of_the_report_desc:0 "The final report which we requested has been released, let us take a look at it."
+ITA_a_return_to_parliament:0 "A Return To Parliament"
+ITA_a_return_to_parliament_desc:0 ""
+
+# democratic foreign policy
+ITA_looking_outwards:0 "Looking Outwards"
+ITA_looking_outwards_desc:0 "With the situation in Europe looking more grim by the hour, we must choose our foreign path carefully lest we want our sovereignty gone and independence lost."
+ITA_allies_in_london:0 "Allies in London"
+ITA_allies_in_london_desc:0 "Better the devil you know than the devil you don't."
+ITA_italy_on_her_own:0 "Italy On Her Own"
+ITA_italy_on_her_own_desc:0 "'We'd rather keep out of it, thanks.'"
+ITA_tunisian_question:0 "Tunisian Question"
+ITA_tunisian_question_desc:0 "Tunisia has been a strain on our economy for too long. It is time that we resolve this issue."
+ITA_a_meeting_in_tripoli:0 "A Meeting In Tripoli"
+ITA_a_meeting_in_tripoli_desc:0 "The Libyans under the leadership of Senussi have been fighting a guerilla conflict for independence ever since we took the region over in 1912. A conference between our two groups in Tripoli would help to resolve our issues."
+ITA_assembly_in_addis_ababa:0 "Assembly in Addis Ababa"
+ITA_assembly_in_addis_ababa_desc:0 "Although we have long craved the territory of Ethiopia for our colonial empire, it would be for the better if we went and settled this diplomatically."
+ITA_agreement_with_greece:0 "Agreement with Greece"
+ITA_agreement_with_greece_desc:0 "We have soured our relationship with the Greeks over the dispute of the Dodecanese Islands. Hopefully a lucrative trade deal can set this aside."
+ITA_albanian_referendum:0 "Albanian Referendum"
+ITA_albanian_referendum_desc:0 "One of the terms in the Treaty of London was that Albania would be a protectorate under our control. As the Great War did not end in our favour, we never saw this come to be, but now using our diplomatic power we could see through with this forgotten term."
+ITA_detente_with_the_austrians:0 "Detente With The Austrians"
+ITA_detente_with_the_austrians_desc:0 "Our former enemy, now a nation we must work with to prevent the takeover of radicalism in Europe; Austria."
+ITA_support_french_exiles:0 "Support French Exiles"
+ITA_support_french_exiles_desc:0 "A bit of gold, guns and wine for the French exiles in London would help their cause."
+ITA_persian_oil_deal:0 "Persian Oil Deal"
+ITA_persian_oil_deal_desc:0 "This black gold, as they so call it, is the lifeblood of modern civilisation. Securing a steady supply of oil from the Persian Gulf would not only help our people but our army and economy as well."
+ITA_developing_lycia:0 "Developing Lycia"
+ITA_developing_lycia_desc:0 "Our territory from the Treaty of Sevres has been lacking behind in terms of development. This must be reversed."
+ITA_investing_more_in_the_straits:0 "Investing More In The Straits Zone"
+ITA_investing_more_in_the_straits_desc:0 "The Straits Zone is an incredibly valuable place as it controls the Turkish Strait and consequently decides who can use the area for trade, and who can't. Funding more into the Straits Zone will give us a safe passage to trade through the region."
+ITA_cairo_deal:0 "Cairo Deal"
+ITA_cairo_deal_desc:0 "An economic deal between us and the Egyptians would grant us unlimited use of the Suez Canal."
+ITA_a_return_to_the_world_stage:0 "A Return To The World Stage"
+ITA_a_return_to_the_world_stage_desc:0 "No longer shall Italy be a second-class power, cast away in the shadows."
+
+#Events
+#should be reintegrated
+
+italy.1.t:0 "The Italian Situation"
+italy.1.d:0 "The Kingdom of Italy joined the Great War on the side of the Entente on May 23, 1915. Almost immediately, fighting began along Italy’s border with Austria, with the Italian army hoping to quickly bring the Austrians to their knees with a surprise offensive. Unsurprisingly, this failed, and soon the Alpine Front as it was known degraded into trench warfare, which would continue for the next 5 years. In 1920, with the European revolutions in full swing, the Treaty of Versailles was signed between the Entente and Central Powers restoring mainly the status quo. Italy, which had only been able to gain a slice of Turkey, Tunisia and an even smaller slice of Austria, entered a period of crisis known as the Red Biennium in 1921, where many expected the country to fall to civil war. This period would only end in 1923 with snap elections following Victor Emmanuel’s abdication, resulting in a victory for the Italian Socialist Party (PSI). Reforms were made, the king’s power was limited, and the country calmed down.\n\nBut all is far from stable in the kingdom, with the revolution in France and an economic crisis having polarized Italian politics to the point where many fear once more civil war would break out at any day. The current government’s inability to resolve Italy’s dire economic straits have caused a skyrocket in the popularity of radical parties, all of whom utilise the government’s weakness to bolster support for their own parties. Elections held in 1935 resulted in a narrow victory for the ruling PSU, which led to allegations of rigging and corruption on either side. The country’s opposition parties, long opposed to the socialists in Rome, are preparing to make a move. Italy’s future becomes more grim by the day."
+italy.1.a:0 "Viva Italia!"
+
+
+italy.2.t:0 "The Revolution Begins"
+italy.2.d:0 "I am rewriting this event, this is placeholder text"
+italy.2.a:0 "It seems the one thing socialists do not stop on is destroying our country."
+italy.2.b:0 "My allegiance was to freedom, to liberty and democracy!"
+
+italy.6.t:0 "Motion of No Confidence brought to the Chamber of Deputies"
+italy.6.d:0 "In the Chamber of Deputies today a motion of no-confidence was brought forward aiming to expel the ruling Unitary Socialist Party and subsequently end 13 years of socialist domination. The motion, brought forward by the classical liberal Partito Liberale Italiano and conservative Partito Popolare Italiano, requires majority approval throughout the chamber before it can be put in action. Yet, both the PRI and PPI do not have the power needed for a majority vote, and so therefore the fate of the government depends on the decisions of the less-popular radical parties in Parliament. Although they despise the current government as much as the opposition, perhaps voting for the motion might only change the ruling government from one set of moderates to another."   
+italy.6.a:0 "The motion passes, the PSU is removed from office"
+italy.6.b:0 "The motion fails, the PSU remains in government"
+
+italy.7.t:0 "Hung Parliament"
+italy.7.d:0 "It seems that the successful motion of no confidence has only served to divide the government even more. As it turns out, the Popular Front government does not have the popularity needed in order to pass any laws, which effectively means that any bill presented to Parliament can be easily rejected by the Socialist majority. This has left the government in a chaotic state, and as a result the Popular Front coalition, which no one expected to last more than a month anyway, dissolved, with the liberals and conservatives throwing insults at each other for having caused the crisis, yet surprisingly none of which are directed at the CPI and ANI."
+italy.7.a:0 "Italy is on a tightrope"
+
+italy.8.t:0 "The army march on Rome"
+italy.8.d:0 "As the chaos in parliament continued with no end in sight, the king and the armed forces made their move. This morning, after having met with key leaders of the armed forces and the head of the Italian Monarchist Party, King Umberto II marched on Rome, with his forces and militia-men of the PMI capturing several key locations around the city by mid-day, including the Italian Parliament Building. From the balcony of the parliament building, Umberto delivered a speech, reassuring worried citizens below that the suspension of democracy would only be temporary as the government would attempt to bring about a solution to the current political crisis, and that stability will soon be restored to Italy.\n\nMany political observers look at these recent developments with concern, as with the current Italian political situation, this sudden and somewhat controversial move could be the final blow to Italian stability, and end the fragile peace on the peninsula."
+italy.8.a:0 "So this is how democracy dies."
+
+italy.9.t:0 "Writ of Election Issued"
+italy.9.d:0 "Following the failed motion, the government entered a frenzy, scrambling to consolidate their power and keep the Socialist Party united. It has been a week since the motion died in the Chamber of Deputies, and in that time, the government has somewhat calmed, and with a clear head laid out a plan for the consolidation and legitimation of power. With this writ issued, the opposition parties have scrambled to begin campaigning, and for the PSU a deal with the Radical Party has already been struck for an electoral coalition, due to the severe loss in popularity caused by the political crisis. Parliament has also been dismissed until when the elections end and the results are announced, where they will be invited back into parliament and a new session opened by the king."
+italy.9.a:0 "May the best party win!"
+
+italy.10.t:0 "Italian Elections of 1936"
+italy.10.d:0 "We had an election last year, didn't we?"
+italy.10.a:0 "The PSU coalition is victorious"
+italy.10.b:0 "The Christian democratic PPI wins"
+italy.10.c:0 "The liberal PLI comes out on top"
+
+#Descriptions
+
+
+#cosmetic tags
+ 

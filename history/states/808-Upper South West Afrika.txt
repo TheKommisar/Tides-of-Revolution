@@ -1,0 +1,26 @@
+
+state={
+	id=808
+	name="STATE_808"
+	manpower = 1
+	
+	state_category = wasteland
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+		10957 1 
+		}
+		victory_points = {
+		12519 1
+		}
+		add_core_of = NMB
+	}
+
+	provinces={
+		7770 10957 10978 12921 8136 12519 13217 
+	}
+}

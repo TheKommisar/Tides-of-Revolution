@@ -2,7 +2,13 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "gott_erhalte_franz_den_kaiser.ogg"
+	file = "on_the_hills_of_manchuria.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "main_vanilla"
+	file = "hoi4mainthemeallies.ogg"
 	volume = 0.65
 }
 

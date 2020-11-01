@@ -1,0 +1,238 @@
+focus_tree = {
+	id = ITA_SocCon
+	country = {
+		factor = 0
+	}
+	continuous_focus_position = { x = 2300 y = 1100 }
+	shared_focus = ITA_fixing_our_economy
+	shared_focus = ITA_looking_outwards
+
+
+
+        #Conservative coalition branch
+
+        focus = {
+		id = ITA_conservative_victory
+		icon = GFX_wip
+		x = 2
+                y = 0
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_christian_democracy
+		icon = GFX_wip
+                prerequisite = { focus = ITA_conservative_victory }
+		x = -3
+                y = 1
+                relative_position_id = ITA_conservative_victory
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_conservative_family_values 
+		icon = GFX_wip
+                prerequisite = { focus = ITA_christian_democracy }
+		x = -1
+                y = 1
+                relative_position_id = ITA_christian_democracy
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+        focus = {
+		id = ITA_christian_trade_unions
+		icon = GFX_wip
+                prerequisite = { focus = ITA_christian_democracy }
+		x = 1
+                y = 1
+                relative_position_id = ITA_christian_democracy
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_teaching_freedom
+		icon = GFX_wip
+                prerequisite = { focus = ITA_christian_trade_unions }
+                prerequisite = { focus = ITA_conservative_family_values }
+		x = 1
+                y = 1
+                relative_position_id = ITA_conservative_family_values 
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_pass_reforms
+		icon = GFX_wip
+                prerequisite = { focus = ITA_conservative_victory }
+		x = 3
+                y = 1
+                relative_position_id = ITA_conservative_victory
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_womens_suffrage
+		icon = GFX_wip
+                prerequisite = { focus = ITA_pass_reforms }
+		x = -1
+                y = 1
+                relative_position_id = ITA_pass_reforms
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_progressive_tax_system
+		icon = GFX_wip
+                prerequisite = { focus = ITA_pass_reforms }
+		x = 1
+                y = 1
+                relative_position_id = ITA_pass_reforms
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_discourage_radical_ideals
+		icon = GFX_wip
+                prerequisite = { focus = ITA_womens_suffrage }
+                prerequisite = { focus = ITA_progressive_tax_system }
+		x = 1
+                y = 1
+                relative_position_id = ITA_womens_suffrage 
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_increase_welfare_spending
+		icon = GFX_wip
+                prerequisite = { focus = ITA_conservative_victory }
+		x = 0
+                y = 1
+                relative_position_id = ITA_conservative_victory
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_rights_of_man
+		icon = GFX_wip
+                prerequisite = { focus = ITA_increase_welfare_spending }
+		x = 0
+                y = 1
+                relative_position_id = ITA_increase_welfare_spending
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_loyalty_to_king
+		icon = GFX_wip
+                prerequisite = { focus = ITA_rights_of_man }
+		x = 0
+                y = 1
+                relative_position_id = ITA_rights_of_man
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        focus = {
+		id = ITA_christianity_and_progress
+		icon = GFX_wip
+                prerequisite = { focus = ITA_loyalty_to_king }
+                prerequisite = { focus = ITA_discourage_radical_ideals }
+                prerequisite = { focus = ITA_teaching_freedom }
+		x = 0
+                y = 1
+                relative_position_id = ITA_loyalty_to_king
+                available = {}
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+}

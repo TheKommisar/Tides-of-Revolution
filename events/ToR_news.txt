@@ -1,0 +1,84 @@
+add_namespace = tornews
+
+#EMU WAR
+news_event = { 
+	id = tornews.1
+	title = tornews.1.t
+	desc = tornews.1.d
+
+    picture = news_event_ast_army
+    major = yes
+    
+    is_triggered_only = yes
+	
+    fire_only_once = yes
+
+    option = {
+        name = tornews.1.a
+    }
+}
+
+### KGV DEAD
+
+news_event = { 
+	id = tornews.2
+	title = tornews.2.t
+	desc = tornews.2.d
+
+    picture = news_event_generic_funeral
+    
+	major = yes
+
+	trigger = {
+		date > 1936.1.20
+		NOT = { has_global_flag = gv_dead }
+		NOT = { tag = ENG }
+		ENG = { has_country_flag = kgv_dead }
+	}
+
+	show_major = {
+		NOT = { tag = ENG }
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	immediate = { set_global_flag = gv_dead }
+
+	option = {
+		name = "Rest in peace."
+	}
+}
+
+news_event = { 
+	id = tornews.3
+	title = tornews.3.t
+	desc = tornews.3.d
+
+    picture = news_event_ast_army
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = tornews.3.a
+	}
+}
+news_event = { 
+	id = tornews.4
+	title = tornews.4.t
+	desc = tornews.4.d
+
+    picture = news_event_cou_baltic_war
+    major = yes
+    
+    is_triggered_only = yes
+	
+    fire_only_once = yes
+
+    option = {
+        name = tornews.4.a
+    }
+}

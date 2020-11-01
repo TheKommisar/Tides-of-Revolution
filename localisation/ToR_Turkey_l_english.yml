@@ -1,0 +1,62 @@
+﻿l_english: 
+
+#Parties
+TUR_national_populist_party:0 "Turancılar"
+TUR_national_populist_party_long:0 "Turancılar"
+TUR_vanguardist_party:0 "TKP"
+TUR_vanguardist_party_long:0 "Türkiye Komünist Partisi"
+TUR_social_conservative_party:0 "TCF"
+TUR_social_conservative_party_long:0 "Terakkiperver Cumhuriyet Fırkası"
+TUR_paternal_autocrat_party:0 "CHP"
+TUR_paternal_autocrat_party_long:0 "Cumhuriyet Halk Partisi"
+TUR_authoritarian_democrat_party:0 "CHP"
+TUR_authoritarian_democrat_party_long:0 "Cumhuriyet Halk Partisi"
+TUR_social_democrat_party:0 "SCF"
+TUR_social_democrat_party_long:0 "Serbest Cumhuriyet Fırkası"
+TUR_social_liberal_party:0 "SCF"
+TUR_social_liberal_party_long:0 "Serbest Cumhuriyet Fırkası"
+TUR_classic_liberal_party:0 "SCF"
+TUR_classic_liberal_party_long:0 "Serbest Cumhuriyet Fırkası"
+TUR_revolutionary_socialist_party:0 "TKP"
+TUR_revolutionary_socialist_party_long:0 "Türkiye Komünist Partisi"
+TUR_orthodox_marxist_party:0 "TKP"
+TUR_orthodox_marxist_party_long:0 "Türkiye Komünist Partisi" 
+
+#Country Names
+ TUR_national_populist:0 "Republic of Turkey"
+ TUR_national_populist_DEF:0 "The Republic of Turkey"
+ TUR_totalitarian_socialist:0 "Republic of Turkey"
+ TUR_totalitarian_socialist_DEF:0 "The Republic of Turkey"
+ TUR_paternal_autocrat:0 "Republic of Turkey"
+ TUR_paternal_autocrat_DEF:0 "The Republic of Turkey"
+ TUR_social_conservative:0 "Republic of Turkey"
+ TUR_social_conservative_DEF:0 "The Republic of Turkey"
+ TUR_authoritarian_democrat:1 "Republic of Turkey"
+ TUR_authoritarian_democrat_DEF:1 "The Republic of Turkey"
+ TUR_orthodox_marxist:0 "Republic of Turkey"
+ TUR_orthodox_marxist_DEF:0 "The Republic of Turkey"
+ TUR_revolutionary_socialist:0 "Republic of Turkey"
+ TUR_revolutionary_socialist_DEF:0 "The Republic of Turkey"
+ TUR_social_democrat:0 "Republic of Turkey"
+ TUR_social_democrat_DEF:0 "The Republic of Turkey"
+ TUR_social_liberal:0 "Republic of Turkey"
+ TUR_social_liberal_DEF:0 "The Republic of Turkey"
+ TUR_classic_liberal:0 "Republic of Turkey"
+ TUR_classic_liberal_DEF:0 "The Republic of Turkey"
+ TUR_vanguardist:0 "Republic of Turkey"
+ TUR_vanguardist_DEF:0 "The Republic of Turkey"
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

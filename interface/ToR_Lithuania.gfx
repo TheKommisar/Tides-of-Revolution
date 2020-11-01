@@ -1,0 +1,8 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_LIT_turmoil"
+		texturefile = "gfx/interface/ideas/LIT/lithuanian_turmoil.tga"
+	}
+}

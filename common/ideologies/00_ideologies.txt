@@ -1,53 +1,12 @@
 ideologies = {
-	
-          totalitarian_socialist = { 
-		
-		types = {
-		
-			totalitarian_socialist_subtype = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-		
-		color = { 155 0 0 }
-		
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-		
-		ai_communist = yes # uses the commie AI behaviour
-		
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-			can_create_factions = no
-		}		
-		modifiers = {
-			#join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
-			ai_get_ally_desire_factor = -500
-			production_speed_buildings_factor = 0.05
-		}
-		
-		faction_modifiers = {
-			
-		}
-
-	}
 
 	vanguardist = { 
 		
 		types = {
 		
 			vanguardist_subtype = {
+			} 
+                        totalitarian_socialist = {
 			}
 		}
 		
@@ -64,7 +23,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 		
-		ai_communist = yes # uses the commie AI behaviour
+		ai_neutral = yes # uses the commie AI behaviour
 		
 		rules = {
 			can_force_government = no
@@ -98,7 +57,7 @@ ideologies = {
 			"FACTION_NAME_collectivist_5"
 			"FACTION_NAME_collectivist_6"
 		}
-		color = { 205 0 0 } #205 0 0 works good as an alternative, too similar to Vanguardist though.
+		color = { 205 0 0 } 
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -131,7 +90,7 @@ ideologies = {
 			"FACTION_NAME_collectivist_5"
 			"FACTION_NAME_collectivist_6"
 		}
-		color = { 225 0 0 } #205 0 0 works good as an alternative, too similar to Vanguardist though.
+		color = { 233 58 58 } 
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -153,7 +112,6 @@ ideologies = {
         social_democrat = {
 		types = {
 			social_democrat_subtype = {}
-                        democratic_socialism = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -292,7 +250,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes = yes # uses the democratic AI behaviour
 	}
 
 	authoritarian_democrat = { #aut dem
@@ -376,6 +334,9 @@ ideologies = {
 		
 			national_populist_subtype = {
 			}
+
+                        revolutionary_nationalist = {
+			}
 			
 		}
 		
@@ -401,4 +362,5 @@ ideologies = {
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.80
 		}
+                ai_neutral = yes
 }

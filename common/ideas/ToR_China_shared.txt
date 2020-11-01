@@ -1,0 +1,30 @@
+ideas = {
+     country = {
+	    CHI_shared_economy = {
+		
+		    removal_cost = -1
+            
+            picture = generic_agrarian_society
+            
+			allowed = {
+				original_tag = YUN
+				original_tag = XSM
+				original_tag = SHN
+				original_tag = SHX
+				original_tag = CHI
+				original_tag = KAS
+				original_tag = SIK
+				original_tag = GXC
+				original_tag = SCH
+                                original_tag = HNN
+		    }
+			
+			modifier = {
+			    research_speed_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor  = -0.15
+				conscription_factor = -0.5
+			}
+		}
+	}
+}

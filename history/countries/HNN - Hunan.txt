@@ -1,0 +1,63 @@
+﻿capital = 602
+
+oob = "HNN_1936"
+
+set_research_slots = 3 
+
+set_convoys = 175
+
+add_ideas = {
+	CHI_shared_economy
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+}
+
+set_politics = {
+	ruling_party = revolutionary_socialist
+	last_election = "1933.10.25"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	vanguardist = 0
+        orthodox_marxist = 5
+	revolutionary_socialist = 35
+        social_democrat = 15
+        social_liberal = 10
+        classic_liberal = 0
+        social_conservative = 0
+        authoritarian_democrat = 10
+        paternal_autocrat = 25
+        national_populist = 0
+}
+
+set_stability = 0.5
+#add_ideas = CHI_shared_economy
+create_country_leader = {
+	name = "Mao Zedong"
+	desc = "POLITICS_Cheng_Qian_DESC"
+	picture = "Portrait_CPC_Mao_Zedong.tga"
+	expire = "1965.1.1"
+	ideology = orthodox_marxist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Cheng Qian"
+	desc = "POLITICS_Cheng_Qian_DESC"
+	picture = "Portrait_XIA_Cheng_Qian.dds"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		#
+	}
+}

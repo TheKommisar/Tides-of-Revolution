@@ -1,0 +1,21 @@
+state={
+	id=809
+	name="STATE_809" # Egyptian Libya - Kufra
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1057 1140 1994 4191 10104 10754 10785 11951 1060 
+	}
+	manpower=24456
+	buildings_max_level_factor=1.000
+}

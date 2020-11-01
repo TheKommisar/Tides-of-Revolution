@@ -1,0 +1,39 @@
+﻿capital = 34
+
+oob = "WLL_1936"
+
+set_research_slots = 3 
+
+set_convoys = 17
+
+add_ideas = {
+#
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+
+}
+
+set_politics = {
+	ruling_party = orthodox_marxist
+	last_election = "1933.10.25"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	orthodox_marxist = 44
+	revolutionary_socialist = 26
+	vanguardist = 16
+	social_democrat = 14
+}
+
+set_stability = 0.5
+
+

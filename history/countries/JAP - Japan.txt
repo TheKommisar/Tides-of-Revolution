@@ -1,4 +1,4 @@
-﻿capital = 531
+﻿capital = 282
 
 oob = "JAP_1936"
 
@@ -112,56 +112,36 @@ set_convoys = 400
 
 if = {
 	limit = {
-		has_dlc = "Together for Victory"
-		not = { has_dlc = "Waking the Tiger" }
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-        set_autonomy = {
-		target = FER
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = { 
-		not = {
-			has_dlc = "Waking the Tiger"
+		OR = {
 			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
 		}
 	}
 	set_autonomy = {
-		target = MEN
+		target = FER
 		autonomous_state = autonomy_puppet
+		freedom_level = 0.1
 	}
 	set_autonomy = {
-		target = MAN
+		target = VIN
 		autonomous_state = autonomy_puppet
+		freedom_level = 0.4
+	}
+	else = {
+                puppet = FER
+                puppet = VIN
+	}
+}
+
+give_guarantee = FER
+
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+		not = { has_dlc = "Waking the Tiger" }
 	}
         set_autonomy = {
 		target = FER
-		autonomous_state = autonomy_puppet
-	}
-}
-if = {
-	limit = { 
-		has_dlc = "Waking the Tiger"
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-        set_autonomy = {
-		target = MAN
 		autonomous_state = autonomy_puppet
 	}
 }
@@ -173,7 +153,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_conservative = 100
+    vanguardist = 1
+    orthodox_marxist = 2
+    revolutionary_socialist = 2
+    social_democrat = 5
+    social_liberal = 7
+    classic_liberal = 26
+    social_conservative = 37
+    authoritarian_democrat = 7
+    paternal_autocrat = 10
+    national_populist = 3
 }
 
 create_country_leader = {

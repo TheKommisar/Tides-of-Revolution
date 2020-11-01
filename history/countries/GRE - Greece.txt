@@ -9,10 +9,13 @@ if = {
 	}
 }
 
+GRE = { country_event = { days = 40 id = greece.1 } }
+
 set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
+        GRE_political_divide
 }
 
 set_technology = {
@@ -56,17 +59,20 @@ if = {
 	}
 }
 
+
+STR = { give_military_access = GRE }
+give_guarantee = STR
+
 set_convoys = 10
 
 set_politics = {
 	ruling_party = classic_liberal
 	last_election = "1935.6.9"
 	election_frequency = 36
-	elections_allowed = yes # none after offset 1
+	elections_allowed = no # none after offset 1
 }
 set_popularities = {
-        totalitarian_socialist = 4
-	vanguardist = 10
+	vanguardist = 14
         orthodox_marxist = 8
 	revolutionary_socialist = 3
         social_democrat = 5

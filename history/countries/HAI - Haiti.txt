@@ -6,7 +6,6 @@ oob = "HAI_1936"
 set_technology = {
 	infantry_weapons = 1
 }
-set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 5
 
@@ -17,7 +16,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	authoritarian_democrat = 100
+	authoritarian_democrat = 47
+        paternal_autocrat = 13
+        social_liberal = 20
+        social_conservative = 10
+        social_democrat = 10 
 }
 
 create_country_leader = {
@@ -31,13 +34,4 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Jacques Roumain"
-	desc = "POLITICS_JACQUES_ROUMAIN_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
+

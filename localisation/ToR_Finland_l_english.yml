@@ -1,0 +1,75 @@
+﻿l_english: 
+
+#Parties
+FIN_national_populist_party:0 "Lapuanliike"
+FIN_national_populist_party_long:0 "Lapuanliike"
+FIN_vanguardist_party:0 "SKP"
+FIN_vanguardist_party_long:0 "Suomen Kommunistinen Puolue"
+FIN_social_conservative_party:0 "Kesk"
+FIN_social_conservative_party_long:0 "Maalaisliitto"
+FIN_paternal_autocrat_party:0 "Holhoojahallitus"
+FIN_paternal_autocrat_party_long:0 "Holhoojahallitus"
+FIN_authoritarian_democrat_party:0 "Kok"
+FIN_authoritarian_democrat_party_long:0 "Kansallinen Kokoomus"
+FIN_social_democrat_party:0 "SDP"
+FIN_social_democrat_party_long:0 "Suomen Sosialidemokraattinen Puolue"
+FIN_social_liberal_party:0 "KE"
+FIN_social_liberal_party_long:0 "Kansallinen Edistyspuolue"
+FIN_classic_liberal_party:0 "RKP"
+FIN_classic_liberal_party_long:0 "Suomen Ruotsalainen Kansanpuolue"
+FIN_revolutionary_socialist_party:0 "SDP"
+FIN_revolutionary_socialist_party_long:0 "Suomen Sosialidemokraattinen Puolue"
+FIN_orthodox_marxist_party:0 "SST"
+FIN_orthodox_marxist_party_long:0 "Suomen Sosialistinen Työväenpuolue"
+
+#Country Names
+FIN_national_populist:0 "Finland"
+FIN_national_populist_DEF:0 "Finland"
+FIN_paternal_autocrat:0 "Kingdom of Finland"
+FIN_paternal_autocrat_DEF:0 "the Kingdom of Finland"
+FIN_social_conservative:0 "Kingdom of Finland"
+FIN_social_conservative_DEF:0 "the Kingdom of Finland"
+FIN_authoritarian_democrat:1 "Kingdom of Finland"
+FIN_authoritarian_democrat_DEF:1 "the Kingdom of Finland"
+FIN_orthodox_marxist:0 "Finland"
+FIN_orthodox_marxist_DEF:0 "Finland"
+FIN_revolutionary_socialist:0 "Democratic Republic Finland"
+FIN_revolutionary_socialist_DEF:0 "the Democratic Republic of Finland"
+FIN_social_democrat:0 "Kingdom of Finland"
+FIN_social_democrat_DEF:0 "the Kingdom of Finland"
+FIN_social_liberal:0 "Kingdom of Finland"
+FIN_social_liberal_DEF:0 "the Kingdom of Finland"
+FIN_classic_liberal:0 "Kingdom of Finland"
+FIN_classic_liberal_DEF:0 "the Kingdom of Finland"
+FIN_vanguardist:0 "Finland"
+FIN_vanguardist_DEF:0 "Finland"
+ 
+FIN_national_populist_ADJ:0 "Finnish"
+FIN_social_conservative_ADJ:0 "Finnish"
+FIN_paternal_autocrat_ADJ:0 "Finnish"
+FIN_orthodox_marxist_ADJ:0 "Finnish"
+FIN_authoritarian_democrat_ADJ:0 "Finnish"
+FIN_revolutionary_socialist_ADJ:0 "Finnish"
+FIN_social_democrat_ADJ:0 "Finnish"
+FIN_social_liberal_ADJ:0 "Finnish"
+FIN_classic_liberal_ADJ:0 "Finnish"
+FIN_vanguardist_ADJ:0 "Finnish"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

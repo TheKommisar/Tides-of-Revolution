@@ -1,0 +1,10 @@
+spriteTypes = {
+#focuses
+#events
+#ministers
+#national spirits
+spriteType = {
+		name = "GFX_idea_ARM_armenian_genocide"
+		texturefile = "gfx/interface/ideas/generic_bad_thing.dds"
+	}
+}

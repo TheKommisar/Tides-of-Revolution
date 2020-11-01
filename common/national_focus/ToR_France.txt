@@ -1,0 +1,14 @@
+focus_tree = {
+	id = communard_french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+	default = no
+}

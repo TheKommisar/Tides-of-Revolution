@@ -1,0 +1,57 @@
+﻿capital = 317
+
+oob = "NIC_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+set_war_support = 0.1
+set_convoys = 10
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1" 
+	election_frequency = 48 
+	elections_allowed = no
+}
+set_popularities = {
+	vanguardist = 10
+        orthodox_marxist = 14
+	revolutionary_socialist = 28
+        social_democrat = 6
+        social_liberal = 12
+        classic_liberal = 0
+        social_conservative = 0
+        authoritarian_democrat = 0
+        paternal_autocrat = 30
+        national_populist = 0
+}
+
+create_country_leader = {
+	name = "Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+	picture = "Juan_Bautista_Sacasa.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Logan Feland"
+	desc = "POLITICS_ARTHUR_MACARTHUR_DESC"
+	picture = "gfx/leaders/USA/Portrait_USA_Arthur_MacArthur_III.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+
+

@@ -11,19 +11,53 @@
 		infantry = { x = 1 y = 2 }
 	}
 }
+division_template = {
+	name = "Freikorps-Division"		# Infantry Division
+	division_names_group = COU_INF_01
+	# Note: Divisions were nowhere near full strength until mobilized
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
 
 units = {
         ##############BALTISCHE LANDESWEHR####################
 	division = { # "1. Baltische Landeswehr Infanterie-Division"
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
+		name = "1. Baltische Landeswehr Infanterie-Division"
 		location = 265
 		division_template = "Infanterie-Division"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "COU" } }
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.2
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = { # "2. Baltische Landeswehr Infanterie-Division"
+		name = "2. Baltische Landeswehr Infanterie-Division"
+		location = 6222
+		division_template = "Infanterie-Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "COU" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = { # "Eiserne Brigade"
+		name = "Eiserne Brigade"
+		location = 9262
+		division_template = "Freikorps-Division"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "COU" } }
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
 
 	}
 }

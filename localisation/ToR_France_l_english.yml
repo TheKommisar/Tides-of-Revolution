@@ -3,8 +3,8 @@
 #Parties
 FRA_national_populist_party:0 "AF"
 FRA_national_populist_party_long:0 "Action Française"
-FRA_vanguardist_party:0 "PCF-M"
-FRA_vanguardist_party_long:0 "Parti communiste français - modérés"
+FRA_vanguardist_party:0 "PCF"
+FRA_vanguardist_party_long:0 "Parti communiste français"
 FRA_social_conservative_party:0 "FR"
 FRA_social_conservative_party_long:0 "Fédération républicaine"
 FRA_paternal_autocrat_party:0 "AF"
@@ -17,12 +17,12 @@ FRA_social_liberal_party:0 "PR"
 FRA_social_liberal_party_long:0 "Parti radical"
 FRA_classic_liberal_party:0 "ARD"
 FRA_classic_liberal_party_long:0 "Alliance républicaine démocratique"
-FRA_totalitarian_socialist_party:0 "PCF-J"
-FRA_totalitarian_socialist_party_long:0 "Parti communiste français - jacobins"
+#FRA_totalitarian_socialist_party:0 "PCF-J"
+#FRA_totalitarian_socialist_party_long:0 "Parti communiste français - jacobins"
 FRA_revolutionary_socialist_party:0 "SFIO-R"
 FRA_revolutionary_socialist_party_long:0 "Section française de l'Internationale ouvrière - révolutionnaires"
 FRA_orthodox_marxist_party:0 "SFIO"
-FRA_orthodox_marxist_party_long:0 "Section française de l'Internationale ouvrière"
+FRA_orthodox_marxist_party_long:0 "Section française de l'Internationale ouvrière - modérés"
 
 #Country Names
  FRA_national_populist:0 "French State"
@@ -60,9 +60,10 @@ FRA_orthodox_marxist_party_long:0 "Section française de l'Internationale ouvri�
  FRA_classic_liberal_ADJ:0 "French"
  FRA_vanguardist_ADJ:0 "French"
 
-
-legacy_of_the_commune:0 "Legacy of the Paris Commune"
-legacy_of_the_commune_desc:0 "The sacrifice made by the men and women of the Paris Commune shall never be forgotten. As we are all its children, let us strive now for a better France and bear the torch they carried into the future, for centuries to come."
+legacy_of_the_commune:0 "Forefront of the Revolution"
+legacy_of_the_commune_desc:0 "The French Republic is the sole major socialist superpower on earth, and and so therefore we alone carry the torch of the revolution. For the sake of society and civilisation as a whole, our goal of spreading the revolution to all corners of the globe must be achieved, and we shall not be defeated by the reactionary nations on our borders!" 
+weak_army:0 "Abolishment of the French Army"
+weak_army_desc:0 "The French Army was abolished in the aftermath of the revolution in order to prevent a counter-coup of the newly formed socialist government. This has meant that France's defence lies in the hands of the numerous socialist militia groups scattered across the country."
 
 #Ministers
 #should be reintegrated

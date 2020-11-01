@@ -1,0 +1,49 @@
+﻿capital = 543
+
+oob = "MAD_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1932.10.28"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    vanguardist = 0
+    orthodox_marxist = 0
+    revolutionary_socialist = 10
+    social_democrat = 52
+    social_liberal = 0
+    classic_liberal = 0
+    social_conservative = 25
+    authoritarian_democrat = 8
+    paternal_autocrat = 5
+    national_populist = 0
+}
+
+add_ideas = {
+	free_trade
+	disarmed_nation
+        MAD_Compromised_Freedom
+        MAD_Backwards_Military
+}
+
+
+create_country_leader = {
+	
+	name = "Jean Ralaimongo"
+	picture = "Jean_Ralaimongo.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}

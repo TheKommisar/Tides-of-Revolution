@@ -74,7 +74,21 @@ GRE_vanguardist_ADJ:0 "Greek"
 #Events
 #should be reintegrated
 
+greece.1.t:0 "The Prime Minister's resignation"
+greece.1.d:0 "At the gathering of Parliament today, Prime Minister Eleftherios Venizelos announced, to the surprise of few, his resignation which would take place effectively immediately. It should come as no shock that his political reign is coming to an end, having led Greece intermittently since 1910. Although the main reason he stated is his failing health, some suggest the exact reason may be much deeper than at first glance. Eleftherios Venizelos is known to many as the father of the modern Greek nation, who kept Greece unified in this time of severe political polarisation and instability. Now with his retirement, many political candidates across the country are scurrying to take the helm of the ship and steer Greece in the direction they see fit."
+greece.1.a:0 "Let the race begin."
+greece.2.t:0 "The Elections of 1936"
+greece.2.dt:0 "The month of preparation is over, and today voters head to the polls to vote to determine who should lead Greece for the next few years. All sides have been working day and night to make sure their side comes out on top, in what may be the most important Greek election in history. The reigning major party in Greece, the Liberal Party, led by Themistoklis Sofoulis are confident to hold the office, yet the People’s Party, led by Panagis Tsaldaris, the main anti-liberal party in the country looks just as promising to secure a win. Contesting both of them are the leftist and rightist parties of the country, both of whom have united within their own groups to form two anti-moderate blocs."
+greece.2.a:0 "The Liberal Party wins!"
+greece.2.b:0 "The People's Party come out on top!"
+greece.2.c:0 "The Popular Front emerge victorious!"
+greece.2.d:0 "The National Bloc secure a victory!"
+
+
 #Descriptions
 
 #cosmetic tags
+
+GRE_political_divide:0 "Political Divide"
+GRE_political_turmoil:0 "Political Turmoil"
  

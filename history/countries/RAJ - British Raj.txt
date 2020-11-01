@@ -43,7 +43,6 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-        totalitarian_socialist = 0
 	vanguardist = 0
         orthodox_marxist = 4
 	revolutionary_socialist = 7
@@ -54,17 +53,6 @@ set_popularities = {
         authoritarian_democrat = 4
         paternal_autocrat = 0
         national_populist = 2
-}
-
-create_country_leader = {
-	name = "Subhas Chandra Bose"
-	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "Portrait_India_Chandra_Bose.tga"
-	expire = "1999.1.1"
-	ideology = totalitarian_socialist_subtype
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
@@ -238,6 +226,17 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Herbert Fitzherbert"
+	gfx = "GFX_RAJ_herbert_fitzherbert"
+	traits = { old_guard_navy }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Louis Mountbatten"
 	gfx = "GFX_RAJ_herbert_fitzherbert"
 	traits = { old_guard_navy }
 	skill = 2

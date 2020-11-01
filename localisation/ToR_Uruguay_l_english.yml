@@ -1,0 +1,79 @@
+﻿l_english: 
+
+#Parties
+
+URG_vanguardist_party:0 "Vanguardia"
+URG_vanguardist_party_long:0 "Partido Colectivista Vanguardia"
+URG_orthodox_marxist_party:0 "Colectivistas"
+URG_orthodox_marxist_party_long:0 "Partido Colectivista"
+URG_revolutionary_socialist_party:0 "Socialistas"
+URG_revolutionary_socialist_party_long:0 "Partido Socialista"
+URG_social_democrat_party:0 "Batllistas"
+URG_social_democrat_party_long:0 "Partido Colorado Batllista"
+URG_social_liberal_party:0 "Colorados"
+URG_social_liberal_party_long:0 "Partido Colorado"
+URG_classic_liberal_party:0 "Nacionalistas"
+URG_classic_liberal_party_long:0 "Partido Nacional"
+URG_social_conservative_party:0 "Blancos"
+URG_social_conservative_party_long:0 "Partido Nacional Blanco"
+URG_authoritarian_democrat_party:0 "Herreristas"
+URG_authoritarian_democrat_party_long:0 "Partido Nacional Herrerista"
+URG_paternal_autocrat_party:0 "Ind. Nacionalistas"
+URG_paternal_autocrat_party_long:0 "Partido Nacional Independiente"
+URG_national_populist_party:0 "Frente Unida Uruguaya"
+URG_national_populist_party_long:0 "Frente Unida Uruguaya"
+
+#Country Names
+URG_national_populist:0 "Uruguay"
+URG_national_populist_DEF:0 "Uruguay"
+URG_totalitarian_socialist:0 "Uruguay"
+URG_totalitarian_socialist_DEF:0 "Uruguay"
+URG_paternal_autocrat:0 "Uruguay"
+URG_paternal_autocrat_DEF:0 "Uruguay"
+URG_social_conservative:0 "Uruguay"
+URG_social_conservative_DEF:0 "Uruguay"
+URG_authoritarian_democrat:1 "Uruguay"
+URG_authoritarian_democrat_DEF:1 "Uruguay"
+URG_orthodox_marxist:0 "Uruguay"
+URG_orthodox_marxist_DEF:0 "Uruguay"
+URG_revolutionary_socialist:0 "Uruguay"
+URG_revolutionary_socialist_DEF:0 "Uruguay"
+URG_social_democrat:0 "Uruguay"
+URG_social_democrat_DEF:0 "Uruguay"
+URG_social_liberal:0 "Uruguay"
+URG_social_liberal_DEF:0 "Uruguay"
+URG_classic_liberal:0 "Uruguay"
+URG_classic_liberal_DEF:0 "Uruguay"
+URG_vanguardist:0 "Uruguay"
+URG_vanguardist_DEF:0 "Uruguay"
+
+URG_national_populist_ADJ:0 "Uruguayan"
+URG_totalitarian_socialist_ADJ:0 "Uruguayan"
+URG_social_conservative_ADJ:0 "Uruguayan"
+URG_paternal_autocrat_ADJ:0 "Uruguayan"
+URG_orthodox_marxist_ADJ:0 "Uruguayan"
+URG_authoritarian_democrat_ADJ:0 "Uruguayan"
+URG_revolutionary_socialist_ADJ:0 "Uruguayan"
+URG_social_democrat_ADJ:0 "Uruguayan"
+URG_social_liberal_ADJ:0 "Uruguayan"
+URG_classic_liberal_ADJ:0 "Uruguayan"
+URG_vanguardist_ADJ:0 "Uruguayan"
+
+POLITICS_LUIS_HERRERA_DESC:0 "Following Gabriel Terra’s assassination by Republican sympathisers, Luis Alberto de Herrera took control of the country after an emergency convention of Terra’s cabinet. Now, with Republican tensions higher than the country has seen in its history, de Herrera must guide the country through these perilous times and keep secure the ideals of the late President."
+
+
+#Ministers
+#should be reintegrated
+
+
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+
+

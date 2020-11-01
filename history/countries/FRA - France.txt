@@ -91,26 +91,26 @@ set_politics = {
 }
 
 set_popularities = {
-        totalitarian_socialist = 10
-	vanguardist = 18
-        orthodox_marxist = 18
+	vanguardist = 23
+    orthodox_marxist = 18
 	revolutionary_socialist = 42
-        social_democrat = 10
-        social_liberal = 2
-        classic_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 0
-        paternal_autocrat = 0
-        national_populist = 0
+    social_democrat = 15
+    social_liberal = 2
+    classic_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 0
+    paternal_autocrat = 0
+    national_populist = 0
 }
 
 create_faction = pri
 add_to_faction = FRA
+add_to_faction = GEO
 
 add_ideas = {
-	FRA_protected_by_the_maginot_line 
-        legacy_of_the_commune
-        weak_army
+    legacy_of_the_commune
+    weak_army
+	franco_algerian_confederalism
 	limited_conscription
 }
 
@@ -130,7 +130,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGES_VALOIS_DESC"
 	picture = "Portrait_France_Georges_Valois.tga"
 	expire = "1965.1.1"
-	ideology = 	totalitarian_socialist_subtype
+	ideology = 	vanguardist_subtype
 	traits = {
 		
 	}
@@ -171,6 +171,7 @@ create_field_marshal = {
 		defensive_doctrine
 		old_guard
 		war_hero
+                former_republican
 	}
 	skill = 3
 	attack_skill = 2
@@ -178,6 +179,20 @@ create_field_marshal = {
 	planning_skill = 2
 	logistics_skill = 2
 	id = 205
+}
+
+create_field_marshal = {
+	name = "Georges Valois"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Georges_Valois.tga"
+	traits = {
+		defensive_doctrine
+                politically_connected
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -212,6 +227,22 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Jean de Lattre de Tassigny"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Jean_Tassigny.tga"
+	traits = {
+		infantry_officer
+		organizer
+		urban_assault_specialist
+                former_republican
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "Alphonse Georges"
 	portrait_path = "gfx/leaders/FRA/Portrait_France_Alphonse_Georges.tga"
 	traits = {
@@ -242,8 +273,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "May Picqueray"
-	portrait_path = "gfx/leaders/FRA/Portrait_France_May_Picqueray.tga"
+	name = "Felix Gouin"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Felix_Gouin.tga"
 	traits = {
 		politically_connected
 		trait_cautious
@@ -296,6 +327,7 @@ create_corps_commander = {
 		infantry_officer
 		commando
 		skirmisher
+                former_republican
 	}
 	skill = 3
 	attack_skill = 2
@@ -320,6 +352,21 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Joseph Darnand"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Marcel_Petiot.tga"
+	traits = {
+                politically_connected 
+                infantry_leader 
+                war_hero
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
 	name = "Marcel Bucard"
 	portrait_path = "gfx/leaders/FRA/Portrait_France_Marcel_Bucard.tga"
 	traits = {
@@ -334,19 +381,33 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Marcel Garchery"
-	portrait_path = "gfx/leaders/FRA/Portrait_France_Marcel_Garchery.tga"
+	name = "Sail Mohamed"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Sail_Mohamed.tga"
 	traits = {
-		old_guard
-		trait_cautious
-		infantry_leader
+		politically_connected
+		harsh_leader
 	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Marcel Petiot"
+	portrait_path = "gfx/leaders/FRA/Portrait_France_Marcel_Petiot.tga"
+	traits = {
+
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 1
 }
+
+
 
 #### Naval leaders
 

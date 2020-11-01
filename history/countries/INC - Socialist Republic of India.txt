@@ -1,0 +1,132 @@
+﻿capital = 431
+
+oob = "INC"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	CAS1 = 1
+	fuel_silos = 1
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 50
+set_stability = 0.5
+set_war_support = 0.4
+
+set_politics = {
+	ruling_party = orthodox_marxist
+	last_election = "1933.10.25"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+vanguardist = 10
+orthodox_marxist = 60
+revolutionary_socialist = 15
+social_democrat = 5
+social_liberal = 0
+classic_liberal = 0
+social_conservative = 0
+authoritarian_democrat = 10
+paternal_autocrat = 0
+national_populist = 0
+
+}
+
+create_country_leader = {
+	name = "Shripad Amrit Dange"
+	desc = "POLITICS_SHRIPAD_AMRIT_DESC"
+	picture = "Shripad_Amrit_Dange.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "M.N. Roy"
+	desc = "POLITICS_MN_ROY_DESC"
+	picture = "Portrait_INC_M_N_Roy.tga"
+	expire = "1965.1.1"
+	ideology = orthodox_marxist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = "POLITICS_SWAMI_SATYABHAKTA_DESC"
+	picture = ".tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abhani Mukherji"
+	desc = "POLITICS_ABHANI_MUKHERJI_DESC"
+	picture = "Abani_Mukherji.tga"
+	expire = "1965.1.1"
+	ideology = vanguardist_subtype
+	traits = {
+		
+	}
+}
+
+
+create_field_marshal = {
+	name = "Subhash Chandra Bose"
+	picture = "Chandra_Bose.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Prem Sahgal"
+	picture = "Prem_Sahgal.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Lakshmi Sahgal"
+	picture = "Lakshmi_Sahgal.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Baghat Singh"
+	picture = "Baghat_Singh.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

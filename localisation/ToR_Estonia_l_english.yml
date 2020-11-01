@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+EST_national_populist_party:0 ""
+EST_national_populist_party_long:0 ""
+EST_vanguardist_party:0 ""
+EST_vanguardist_party_long:0 ""
+EST_social_conservative_party:0 ""
+EST_social_conservative_party_long:0 ""
+EST_paternal_autocrat_party:0 ""
+EST_paternal_autocrat_party_long:0 ""
+EST_authoritarian_democrat_party:0 ""
+EST_authoritarian_democrat_party_long:0 ""
+EST_social_democrat_party:0 ""
+EST_social_democrat_party_long:0 ""
+EST_social_liberal_party:0 ""
+EST_social_liberal_party_long:0 ""
+EST_classic_liberal_party:0 "RK"
+EST_classic_liberal_party_long:0 "Rahvuslik Keskerakond"
+EST_totalitarian_socialist_party:0 ""
+EST_totalitarian_socialist_party_long:0 ""
+EST_revolutionary_socialist_party:0 ""
+EST_revolutionary_socialist_party_long:0 ""
+EST_orthodox_marxist_party:0 ""
+EST_orthodox_marxist_party_long:0 ""
+
+#Country Names
+EST_national_populist:0 "Estonia"
+EST_national_populist_DEF:0 "Estonia"
+EST_totalitarian_socialist:0 "Estonia"
+EST_totalitarian_socialist_DEF:0 "Estonia"
+EST_paternal_autocrat:0 "Estonia"
+EST_paternal_autocrat_DEF:0 "Estonia"
+EST_social_conservative:0 "Estonia"
+EST_social_conservative_DEF:0 "Estonia"
+EST_authoritarian_democrat:1 "Estonia"
+EST_authoritarian_democrat_DEF:1 "Estonia"
+EST_orthodox_marxist:0 "Estonia"
+EST_orthodox_marxist_DEF:0 "Estonia"
+EST_revolutionary_socialist:0 "Estonia"
+EST_revolutionary_socialist_DEF:0 "Estonia"
+EST_social_democrat:0 "Estonia"
+EST_social_democrat_DEF:0 "Estonia"
+EST_social_liberal:0 "Estonia"
+EST_social_liberal_DEF:0 "Estonia"
+EST_classic_liberal:0 "Estonia"
+EST_classic_liberal_DEF:0 "Estonia"
+EST_vanguardist:0 "Estonia"
+EST_vanguardist_DEF:0 "Estonia"
+ 
+EST_national_populist_ADJ:0 "Estonian"
+EST_totalitarian_socialist_ADJ:0 "Estonian"
+EST_social_conservative_ADJ:0 "Estonian"
+EST_paternal_autocrat_ADJ:0 "Estonian"
+EST_orthodox_marxist_ADJ:0 "Estonian"
+EST_authoritarian_democrat_ADJ:0 "Estonian"
+EST_revolutionary_socialist_ADJ:0 "Estonian"
+EST_social_democrat_ADJ:0 "Estonian"
+EST_social_liberal_ADJ:0 "Estonian"
+EST_classic_liberal_ADJ:0 "Estonian"
+EST_vanguardist_ADJ:0 "Estonian"
+
+
+#Ideas
+EST_freedom:0 "Eesti Vabadus"
+EST_freedom_desc:0 "Eesti Vabadus, or Estonian Freedom, is the culmination of the long standing desire of the Estonian people for a nation-state of their own, one that speaks Estonian, bears the Estonian colors and name, and acts in Estonian interest, all while allowing the freedom of the Estonian people to elect an Estonian government. This 'Estonian Freedom' ideal prides itself in being a Democratic state with full civil liberties even if it is surrounded by a sea of Authoritarianism, minority rule and ultranationalist despotism. Estonia is Free, and the Estonian People will Always Fight to Keep it Free!" 
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

@@ -6,29 +6,27 @@ GER_national_populist_party_long:0 "Deutsche Arbeiterpartei"
 GER_vanguardist_party:0 "KPD"
 GER_vanguardist_party_long:0 "Kommunistische Partei Deutschlands"
 GER_social_conservative_party:0 "Zentrum"
-GER_social_conservative_party_long:0 "Deutsche Zentrumspartei"
-GER_paternal_autocrat_party:0 "DVP"
-GER_paternal_autocrat_party_long:0 "Deutsche Vaterlandspartei"
-GER_authoritarian_democrat_party:0 "KBD"
-GER_authoritarian_democrat_party_long:0 "Kaisertreue Bund von Deutschlands"
+GER_social_conservative_party_long:0 "Deutsche Zentrumspartei \n§gThe German Centre Party was founded in 1870. They were mainly a Catholic party which opposed Bismarck’s Kulturkampf policies and because of this they grew to become one of the largest parties in the Empire, often being vital in forming governments. After the Great War they became the second largest party in the Reichstag. After the Putsch they were sidelined by the DNVP, but still retains one of the largest and most consistent bases in the Empire.§!"
+GER_paternal_autocrat_party:0 "KVO"
+GER_paternal_autocrat_party_long:0 "Kaiserliche Verteidigungsorganisation \n§gThe Imperial Defense Organization, which is not a party in the traditional terms, is a mix of supposedly non-partisan military officials and 'Kaisertreu' politicians and oligarchs, and members of the Right Wing DVLP. The organization was founded in the 1920's after the sucsessful Kaiser backed coup against the FVP and SPD coalition which dominated the Reichstag under the guise that a joint Liberal and Communist conspiracy to destroy the monarchy and Germany itself was underway and that it was acting to defend the constitution, in turn leading to the complete destruction of Liberal influence in the Reichstag. Since then the constitution which it has supposedly been defending has remained suspended, with the only elections, hurried and rigged re-elections following the coup, resulting in an impossible landslide for the DVLP, a staunch ally of the supposedly unbiased organization, assuring complete dominance in the Reichstag, with opposition being impossible. The Organization, which is founded upon putting Germany, it's monarchy and status as a major reactionary force in the world in the forefront of every decision, is now fixed on reastablishing Germany as a Great power by any means available to it, with God, Nation and Kaiser coming before all else to every man woman and child in the new Germany being their primary objective, the crushing of Liberalism, Democracy and all of the things that accompany it is just one step on the road for the Organization to their belief in the restoration of German glory, and it seems with the Kaiser's full support in tow they very possibely might achieve it§"
+GER_authoritarian_democrat_party:0 "DKP"
+GER_authoritarian_democrat_party_long:0 "Deutschkonservative Partei \n§gThe German Conservative Party was founded in 1876 and largely represented wealthy landowners, aristocrats and later industrialists. The party enjoyed large support under Bismarck, but started a decline thereafter. Their base largely moved to the DNVP and the party is now merely a more local party representing Prussians in the Empire.§!"
 GER_social_democrat_party:0 "SPD"
-GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands"
+GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands \n§gThe Social Democratic Party of Germany is the oldest party in the Reichstag, founded in 1863. They espoused socialism through reform and were highly popular among workers. In 1917 the radical socialists in the party were expelled and formed their own organization, the USPD. With increased support from moderates the party managed to win the general election following the war. After being forced from power during the Kapp-Lüttwitz Putsch the party was criminalized under the reinstated Anti-Socialist Laws. The government accused the party of fraternizing with revolutionaries from Russia and France. However their ban was rescinded in 1931 and the party has since then enjoyed moderate support among the German populace.§!"
 GER_social_liberal_party:0 "FVP"
-GER_social_liberal_party_long:0 " Fortschrittliche Volkspartei"
+GER_social_liberal_party_long:0 "Fortschrittliche Volkspartei"
 GER_classic_liberal_party:0 "NLP"
-GER_classic_liberal_party_long:0 "Nationalliberale Partei"
-GER_totalitarian_socialist_party:0 "KPD"
-GER_totalitarian_socialist_party_long:0 "Kommunistische Partei Deutschlands"
+GER_classic_liberal_party_long:0 "Nationalliberale Partei \n§gThe National Liberal Party was formed in 1867 in support of then Chancellor Bismarck’s foreign policy. Their support of German unification, the Kulturkampf and the Anti-Socialist Laws made them chief allies of Bismarck during his time as Chancellor. The party highly supported the interests of Protestants, nationalists and the burghers and industrialists. After Bismarck abandoned free trade they broke from each other, ending the National Liberal dominance of the Reichstag. During the Great War the party were staunch supporters of the war effort and of territorial expansion, including support for the Pan-German League which would eventually become the German Empire Party. After their defeat the party lost much of its credibility. Leaders like Gustav Stresemann left to join the Progressives while many of their right-wing members joined the DNVP. Since then the party has been struggling with only minor support from big business and industrialists.§!"
+GER_totalitarian_socialist_party:0 "Alte-SPD"
+GER_totalitarian_socialist_party_long:0 "Alte Sozialdemokratische Partei Deutschlands"
 GER_revolutionary_socialist_party:0 "KAPD"
 GER_revolutionary_socialist_party_long:0 "Kommunistische Arbeiter-Partei Deutschlands"
-GER_orthodox_marxist_party:0 "Spartakusbund"
-GER_orthodox_marxist_party_long:0 "Spartakusbund"
+GER_orthodox_marxist_party:0 "SAPD"
+GER_orthodox_marxist_party_long:0 "Sozialistische Arbeiterpartei Deutschlands"
 
 #Country Names
- GER_national_populist:0 "German Reich"
- GER_national_populist_DEF:0 "the German Reich"
- GER_totalitarian_socialist:0 "German Socialist Republic"
- GER_totalitarian_socialist_DEF:0 "the German Socialist Republic"
+ GER_national_populist:0 "German Empire"
+ GER_national_populist_DEF:0 "the German Empire"
  GER_paternal_autocrat:0 "German Empire"
  GER_paternal_autocrat_DEF:0 "the German Empire"
  GER_social_conservative:0 "German Empire"
@@ -61,15 +59,61 @@ GER_orthodox_marxist_party_long:0 "Spartakusbund"
  GER_vanguardist_ADJ:0 "German"
 
 
-
+#Ideas
+GER_republican_menace:0 "Republican Menace"
+GER_republican_menace_desc:0 "Germany is plagued by a republican threat that we ourselves have born as enemies to the Kaiser. Despite the claims that the 1926 government spearheaded by the SPD and FVP were republican and socialist radicals who wanted to tear Germany apart, there was little evidence to support said claim, however it seems we have created our enemy in trying to destroy them. The SPD and FVP would almost immediately after their removal from power begin fomenting anti-imperial attitude and calling for the overthrow of the new dictatorship, such calls rallied the SPD and FVP monarchist supporters from the very kaiser they once venerated and they began to flock to the Reichsbanner, the banner of a new republic. Ever since then the underground Republicans, as they are now known, has been strengthened by radical republicans formerly absent and the monarchy is ever weaker as a large majority of the support base of the parties followed them into republican fervor. The sheer amount of strikes and political violence such activities have whipped up has created a constant divide in society between monarchists and republicans, grinded production to a halt with refusal to work in their support bases, and presentedthreat to the monarchy and to Germany itself, if the Republicans are not crushed under heel, whipped and battered into exhaustion and eventually destroyed the Kaiser may not enjoy his throne until the end of the decade."
+GER_iron_and_blood:0 "Iron and Blood"
+GER_iron_and_blood_desc:0 "When Otto von Bismarck laid the foundations for the German Empire decades ago, his plan of Iron and Blood, the plan of industrialization and military buildup, is what became his sword and shield. It found such intense sucess, transforming Prussia iin several decades from the small but vigilant military power on the fringe of central Europe, to the main central European superpower. With the old Prussian state, now our German Kaiserreich, suffering from decadent weakness in the light of the great war the Kaiser and his inner circle have decided it best to emulate this sucess by following in the great Reichskanzler's steps. New factories are erected, the young men are encouraged to sign up for draft, the state presses benefits for loyal and steadfast workers and soldiers. German society shall be transformed back to it's age of glory, now and forever, the questions of the day, as they have always been, shall be decided by Eisen und Blut."
+GER_constitutional_crisis:0 "Constitutional Crisis"
+GER_constitutional_crisis_desc:0 "Germany's constitution has remained in limbo for a decade now. Officially the 1926 government's ousting was to defend the Imperial constitution, however this is far from the reality of the coup. While nominally in effect constantly since the coup took place, the new regime has acted outside of the constitution or overidden it hundreds times, while the old democracy was certainly flawed, the new one is non-existent. Elections have been constantly 'Delayed' due to the ongoing threat of the supposed 'Reds'. The reality is that while we remain the valiant defenders of our glorious constitution on paper, our main goal is to dismantle it. This has created issues as moving in either direction, to restore or detsroy the constitutions power, will encounter opposition from within and from without."
+GER_nation_and_kaiser:0 "Nation and Kaiser"
+GER_unworthy_sacrafice:0 "The Unworthy Sacrafice"
+GER_unworthy_sacrafice_desc:0 "To every German man, woman and child, whether they be a Bavarian peasent, a Saar coal miner or a Brandenburg factory worker, all shutter at the utterence of one word the same way; War. War is the spectre over Europe, the haunting that has turned every nations populace to fear. While Germany has remained a strong nationalist state in politics, it's people could not say the same, they are weary, pacifistic and exhausted. Millions of men drew their last breaths in the Great War and for what? The German men, dying in the millions to artillery, barbed wire, machine gun rounds and poison gas, fell on the blood soaked fields of France and Belgium just to have Germany concede to a peace that humiliated the country and made all of the suffering pointless. The German common men and women suffered as well, the English blockade driving the German populace into starvation and with the outbreak of Spanish Flu becoming uncontrolled due to the governments refusal to even acknowledge it's existence for months on end, the populace died in the hundreds of thousands, if not millions. Germany was wounded, it's still wounded and still in pain, it will take much effort to heal the scars and gashes left by the weltkrieg, and the Germans, despite not suffering as much on the front as the French or English in terms of War Phobia, need to get their people ready for the next coming conflict."
 
 #Ministers
 #should be reintegrated
-
+GER_Erich_Ludendorff_hog:0 "Erich Ludendorff"
+GER_Alfred_Hugenberg_eco:0 "Alfred Hugenburg"
+GER_Konstantin_Neurath:0 "Konstantin von Neurath"
 
  
 #Focuses
 #should be reintegrated
+
+GER_was_ist_des_deutschen_vaterland:0 "Was Ist Des Deutschen Vaterland?"
+
+GER_is_it_prussia:0 "Is it Prussia?"
+
+GER_is_it_swabia:0 "Is it Swabia?"
+
+GER_is_it_styria:0 "Is it Styria?"
+
+GER_is_it_where_rhine_blossom:0 "Is it where the vines blossom on the Rhine?"
+
+GER_is_it_where_the_gull_belt:0 "Is it where the gull moves on the Belt?"
+
+GER_is_it_where_marsi_cattle_roam:0 "Is it where the cattle of the Marsi roam?"
+
+GER_is_it_bavaria:0 "Is it Bavaria?"
+
+GER_is_it_where_mark_mold_iron:0 "Is it where the citizens of the Mark mold iron?"
+
+GER_is_it_where_the_danube_rushes_along:0 "Is it where the Danube rushes along?"
+
+GER_is_it_pomerania:0 "Is it Pomerania?"
+
+GER_is_it_westphalia:0 "Is it Westphalia?"
+
+GER_is_it_the_land_of_the_swiss:0 "Is it the land of the Swiss?"
+
+GER_is_it_tyrol:0 "Is it Tyrol?"
+
+GER_is_it_where_the_sand_of_dunes_blows:0 "Is it where the sand of dunes blows?"
+
+GER_it_must_be_austria:0 "Certainly it must be Austria!"
+
+GER_as_far_the_german_tongue_sounds:0 "As far as the German tongue sounds!"
+
 
 #Events
 #should be reintegrated

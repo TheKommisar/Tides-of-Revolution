@@ -1,0 +1,82 @@
+﻿l_english: 
+
+#Parties
+ISR_national_populist_party:0 "HaHazit HaAmamit"
+ISR_national_populist_party_long:0 "HaHazit HaAmamit Shel Yehuda"
+ISR_vanguardist_party:0 "PKP"
+ISR_vanguardist_party_long:0 "Palestinishe Komunistishe Partei"
+ISR_social_conservative_party:0 "Hapoel HaMizrachi"
+ISR_social_conservative_party_long:0 "Hapoel HaMizrachi"
+ISR_paternal_autocrat_party:0 "Agudat Yisrael"
+ISR_paternal_autocrat_party_long:0 "Agudat Yisrael"
+ISR_authoritarian_democrat_party:0 "Hapoel HaMizrachi"
+ISR_authoritarian_democrat_party_long:0 "Hapoel HaMizrachi"
+ISR_social_democrat_party:0 "HaPoel HaTzair"
+ISR_social_democrat_party_long:0 "HaPoel HaTzair (MAPAI)"
+ISR_social_liberal_party:0 "HaTzionim HaKlaliym"
+ISR_social_liberal_party_long:0 "HaTzionim HaKlaliym (General Zionists)"
+ISR_classic_liberal_party:0 "HaTzionim HaKlaliym"
+ISR_classic_liberal_party_long:0 "HaTzionim HaKlaliym (General Zionists)"
+#ISR_totalitarian_socialist_party:0 "PKP"
+#ISR_totalitarian_socialist_party_long:0 ""
+ISR_revolutionary_socialist_party:0 "Ahdut HaAvoda"
+ISR_revolutionary_socialist_party_long:0 "Ahdut HaAvoda (MAPAI)"
+ISR_orthodox_marxist_party:0 "HaShomer HaTzair"
+ISR_orthodox_marxist_party_long:0 "HaShomer HaTzair"
+
+#Country Names
+ISR_national_populist:0 "Republic of Jerusalem"
+ISR_national_populist_DEF:0 "the Republic of Jerusalem"
+ISR_totalitarian_socialist:0 "Republic of Jerusalem"
+ISR_totalitarian_socialist_DEF:0 "the Republic of Jerusalem"
+ISR_paternal_autocrat:0 "Republic of Jerusalem"
+ISR_paternal_autocrat_DEF:0 "the Republic of Jerusalem"
+ISR_social_conservative:0 "Republic of Jerusalem"
+ISR_social_conservative_DEF:0 "the Republic of Jerusalem"
+ISR_authoritarian_democrat:0 "Republic of Jerusalem"
+ISR_authoritarian_democrat_DEF:0 "the Republic of Jerusalem"
+ISR_orthodox_marxist:0 "Republic of Jerusalem"
+ISR_orthodox_marxist_DEF:0 "the Republic of Jerusalem"
+ISR_revolutionary_socialist:0 "Republic of Jerusalem"
+ISR_revolutionary_socialist_DEF:0 "the Republic of Jerusalem"
+ISR_social_democrat:0 "Republic of Jerusalem"
+ISR_social_democrat_DEF:0 "the Republic of Jerusalem"
+ISR_social_liberal:0 "Republic of Jerusalem"
+ISR_social_liberal_DEF:0 "the Republic of Jerusalem"
+ISR_classic_liberal:0 "Republic of Jerusalem"
+ISR_classic_liberal_DEF:0 "the Republic of Jerusalem"
+ISR_vanguardist:0 "Republic of Jerusalem"
+ISR_vanguardist_DEF:0 "the Republic of Jerusalem"
+ 
+ISR_national_populist_ADJ:0 "Jewish"
+ISR_totalitarian_socialist_ADJ:0 "Jewish"
+ISR_social_conservative_ADJ:0 "Jewish"
+ISR_paternal_autocrat_ADJ:0 "Jewish"
+ISR_orthodox_marxist_ADJ:0 "Jewish"
+ISR_authoritarian_democrat_ADJ:0 "Jewish"
+ISR_revolutionary_socialist_ADJ:0 "Jewish"
+ISR_social_democrat_ADJ:0 "Jewish"
+ISR_social_liberal_ADJ:0 "Jewish"
+ISR_classic_liberal_ADJ:0 "Jewish"
+ISR_vanguardist_ADJ:0 "Jewish"
+
+#Ideas
+ISR_jewish_nation:0 "The Jewish Nation"
+ISR_jewish_nation_desc:0 "The Republic of Jerusalem"
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

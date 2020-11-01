@@ -1,0 +1,80 @@
+﻿l_english: 
+
+#Parties
+NOR_totalitarian_socialist_party:0 "Kollektivister"
+NOR_totalitarian_socialist_party_long:0 "Norges Kollektivistiske Parti"
+NOR_vanguardist_party:0 "Kollektivister"
+NOR_vanguardist_party_long:0 "Norges Kollektivistiske Parti"
+NOR_orthodox_marxist_party:0 "Arbeiderpartiet"
+NOR_orthodox_marxist_party_long:0 "Arbeiderpartiet"
+NOR_revolutionary_socialist_party:0 "Arbeiderpartiet"
+NOR_revolutionary_socialist_party_long:0 "Arbeiderpartiet"
+NOR_social_democrat_party:0 "Sosialdemokrater"
+NOR_social_democrat_party_long:0 "Norges Socialdemokratiske Arbeiderparti"
+NOR_social_liberal_party:0 "Venstre"
+NOR_social_liberal_party_long:0 "Venstre"
+NOR_classic_liberal_party:0 "Høyre"
+NOR_classic_liberal_party_long:0 "Høyre"
+NOR_social_conservative_party:0 "Bondepartiet"
+NOR_social_conservative_party_long:0 "Bondepartiet"
+NOR_authoritarian_democrat_party:0 "Fedrelandslaget"
+NOR_authoritarian_democrat_party_long:0 "Fedrelandslaget"
+NOR_paternal_autocrat_party:0 "Alt for Kongen"
+NOR_paternal_autocrat_party_long:0 "Alt for Kongen"
+NOR_national_populist_party:0 "Nasjonal Samling"
+NOR_national_populist_party_long:0 "Nasjonal Samling"
+
+#Country Names
+NOR_national_populist:0 "National State of Norway"
+NOR_national_populist_DEF:0 "the National State of Norway"
+NOR_totalitarian_socialist:0 "Commune of Norway"
+NOR_totalitarian_socialist_DEF:0 "the Commune of Norway"
+NOR_paternal_autocrat:0 "National State of Norway"
+NOR_paternal_autocrat_DEF:0 "the National State of Norway"
+NOR_social_conservative:0 "Republic of Norway"
+NOR_social_conservative_DEF:0 "the Republic of Norway"
+NOR_authoritarian_democrat:0 "Republic of Norway"
+NOR_authoritarian_democrat_DEF:0 "the Republic of Norway"
+NOR_orthodox_marxist:0 "Republic of Norway"
+NOR_orthodox_marxist_DEF:0 "the Republic of Norway"
+NOR_revolutionary_socialist:0 "Republic of Norway"
+NOR_revolutionary_socialist_DEF:0 "the Republic of Norway"
+NOR_social_democrat:0 "Republic of Norway"
+NOR_social_democrat_DEF:0 "the Republic of Norway"
+NOR_social_liberal:0 "Republic of Norway"
+NOR_social_liberal_DEF:0 "the Republic of Norway"
+NOR_classic_liberal:0 "Republic of Norway"
+NOR_classic_liberal_DEF:0 "the Republic of Norway"
+NOR_vanguardist:0 "Commune of Norway"
+NOR_vanguardist_DEF:0 "the Commune of Norway"
+ 
+NOR_national_populist_ADJ:0 "Norway"
+NOR_totalitarian_socialist_ADJ:0 "Norway"
+NOR_social_conservative_ADJ:0 "Norway"
+NOR_paternal_autocrat_ADJ:0 "Norway"
+NOR_orthodox_marxist_ADJ:0 "Norway"
+NOR_authoritarian_democrat_ADJ:0 "Norway"
+NOR_revolutionary_socialist_ADJ:0 "Norway"
+NOR_social_democrat_ADJ:0 "Norway"
+NOR_social_liberal_ADJ:0 "Norway"
+NOR_classic_liberal_ADJ:0 "Norway"
+NOR_vanguardist_ADJ:0 "Norway"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 

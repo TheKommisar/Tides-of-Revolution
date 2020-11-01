@@ -1,0 +1,201 @@
+﻿l_english: 
+
+#Parties
+
+#Country Names
+SWI_national_populist:0 "Switzerland"
+SWI_national_populist_DEF:0 "Switzerland"
+SWI_totalitarian_socialist:0 "Switzerland"
+SWI_totalitarian_socialist_DEF:0 "Switzerland"
+SWI_paternal_autocrat:0 "Switzerland"
+SWI_paternal_autocrat_DEF:0 "Switzerland"
+SWI_social_conservative:0 "Switzerland"
+SWI_social_conservative_DEF:0 "Switzerland"
+SWI_authoritarian_democrat:1 "Switzerland"
+SWI_authoritarian_democrat_DEF:1 "Switzerland"
+SWI_orthodox_marxist:0 "Switzerland"
+SWI_orthodox_marxist_DEF:0 "Switzerland"
+SWI_revolutionary_socialist:0 "Switzerland"
+SWI_revolutionary_socialist_DEF:0 "Switzerland"
+SWI_social_democrat:0 "Switzerland"
+SWI_social_democrat_DEF:0 "Switzerland"
+SWI_social_liberal:0 "Switzerland"
+SWI_social_liberal_DEF:0 "Switzerland"
+SWI_classic_liberal:0 "Switzerland"
+SWI_classic_liberal_DEF:0 "Switzerland"
+SWI_vanguardist:0 "Switzerland"
+SWI_vanguardist_DEF:0 "Switzerland"
+ 
+SWI_national_populist_ADJ:0 "Swiss"
+SWI_totalitarian_socialist_ADJ:0 "Swiss"
+SWI_social_conservative_ADJ:0 "Swiss"
+SWI_paternal_autocrat_ADJ:0 "Swiss"
+SWI_orthodox_marxist_ADJ:0 "Swiss"
+SWI_authoritarian_democrat_ADJ:0 "Swiss"
+SWI_revolutionary_socialist_ADJ:0 "Swiss"
+SWI_social_democrat_ADJ:0 "Swiss"
+SWI_social_liberal_ADJ:0 "Swiss"
+SWI_classic_liberal_ADJ:0 "Swiss"
+SWI_vanguardist_ADJ:0 "Swiss"
+
+SWI_vanguardist_party:0 "ESP"
+SWI_vanguardist_party_long:0 "Eidgenössische Sozialistische Partei"
+SWI_orthodox_marxist_party:0 "PCA"
+SWI_orthodox_marxist_party_long:0 "Bundes Syndikalische Partei der Schweiz"
+SWI_revolutionary_socialist_party:0 "FS"
+SWI_revolutionary_socialist_party_long:0 "Freie Sozialisten"
+SWI_social_democrat_party:0 "SPS"
+SWI_social_democrat_party_long:0 "Sozialdemokratische Partei der Schweiz"
+SWI_social_liberal_party:0 "NUu"
+SWI_social_liberal_party_long:0 "Nationale Unabhängigkeitsunion"
+SWI_classic_liberal_party:0 "LdU"
+SWI_classic_liberal_party_long:0 "Liberaldemokratische Union"
+SWI_social_conservative_party:0 "BCDA"
+SWI_social_conservative_party_long:0 "Bundes Christlich-Demokratische Allianz"
+SWI_authoritarian_democrat_party:0 "SDVp"
+SWI_authoritarian_democrat_party_long:0 "Schweizer Demokratisch Volkspartei"
+SWI_paternal_autocrat_party:0 "SNR"
+SWI_paternal_autocrat_party_long:0 "Schweizer National Republikaner"
+SWI_national_populist_party:0 "VL"
+SWI_national_populist_party_long:0 "Vaterländischer Liga"
+
+
+#### Ideas ####
+
+SWI_bank_act:0 "Swiss Banking Act"
+#SWI_bank_act_desc:0 "Signed on December 1st 1933, the Swiss Banking Act was created in an effort to secure the assets of account holders within Switzerland. The act was a reactionary measure against the French intervention in the Rhineland, which saw many foreign assets in the region shut down and their profits siezed. The Banking Act has made it a criminal offense for a bank to reveal the name of an account holder, and proved very effective when both the French and German governments pressed the Swiss to reveal the names of certain accounts which had ties to the industrial Rhine region."
+###
+SWI_armed_neutrality:0 "Armed Neutrality"
+SWI_armed_neutrality_desc:0 "Ever since the Treaty of Paris in 1815, Switzerland has had the policy of neutrality, which meant not partaking part in any military alliances unless they themselves are attacked and to not allow foreign armies movement through it's land. Despite this, Switzerland is highly militarized and almost every citizen is trained and ready to rise up and defend the nation, in order to make invading it a really unattractive option to most aggressors and maintain Swiss independence."
+###
+SWI_german_french_tensions:0 "Swiss German-French Tensions"
+SWI_german_french_tensions_desc:0 "The continued Swiss Germanization has caused a rift between our German-speaking population and French-speaking population: we must be careful on how to manage this issue."
+
+###
+SWI_army_upkeep:0 "Army Upkeep"
+SWI_army_upkeep_desc:0 "Our highly trained and huge military for a nation our size comes at a cost- during the Guerra Mondiale, keeping our army mobilized and paying all the soldiers caused huge economic problems, and we must be careful not to cause them again- either by limiting our army size, expanding our industry or passing reforms to guarantee economical stability. \nAt the moment, we have no army upkeep costs."
+
+#### Focuses #### #Revisit Descriptions.
+
+SWI_focus_armed_neutrality:0 "Continuation of Armed Neutrality"
+SWI_focus_armed_neutrality_desc:0 "Our nation firmly believes in the policy of Armed Neutrality: not getting involved in other country affairs and ensuring that our neutrality is respected with strong military and defence policies."
+###
+SWI_national_redoubt:0 "National Redoubt Plan"
+SWI_national_redoubt_desc:0 ""
+###
+SWI_people_mobilization:0 "Swiss Army"
+
+###
+SWI_army_modernization:0 "Army Modernization"
+SWI_army_modernization_desc:0 "With the world once again under a threat of a major war, we must make sure our army equipment is ready for use in modern times."
+###
+SWI_army_mobilization:0 "We Must Always Be Prepared"
+
+###
+SWI_war_games:0 "War Games"
+
+###
+SWI_standing_army:0 "A Standing Army"
+
+###
+SWI_henri_guisan_plan:0 "Henri Guisan's Plan"
+
+###
+SWI_flexible_conscription_policy:0 "Stronger Conscription Policy"
+
+###
+SWI_guerilla_fighting:0 "Guerilla Warfare"
+
+###
+SWI_resistance_policy:0 "Never Surrender!"
+
+###
+SWI_jakob_labhardt_plan:0 "Jakob Labhardt's Plan"
+
+###
+SWI_defensive_artillery:0 "Strong Artillery Defenses"
+
+###
+SWI_field_medics:0 "No Soldier left without Care"
+
+###
+SWI_special_forces:0 "Swiss Special Forces"
+
+###
+SWI_liaison_conference:0 "Liaison Conference"
+
+###
+SWI_extensive_drilling_programs:0 "Extensive Drilling Programs"
+
+###
+SWI_grand_counter_attack_plan:0 "The Grand Counter-Attack Plan"
+
+SWI_mario_martinoni_plan:0 "Mario Martinoni's Plan"
+
+###
+SWI_militia_focus:0 "Militia-Based Army"
+
+###
+SWI_emergency_procedures:0 "Mobilization Law Reforms"
+SWI_emergency_procedures_desc:0 "Our people must always be prepared to answer the call to arms if need be, and cutting the proccess should allow us to do it more easily."
+
+###
+SWI_prepared_at_any_time:0 "Quick Responses"
+
+###
+SWI_expanded_militia_equipment:0 "Militia Expansion"
+
+###
+SWI_accounting_for_cost:0 "Accounting for the Upkeep Costs"
+
+###
+SWI_mass_recruitment:0 "Mass Recruitment"
+
+###
+SWI_wartime_preparations:0 "Wartime Preparations"
+
+###
+SWI_focus_on_the_alps:0 "Focus on the Alps"
+
+###
+SWI_focus_on_the_outskirts:0 "Focus on the Outskirts"
+
+###
+SWI_initial_mountain_fortifications:0 "Initial Mountain Fortifications"
+
+###
+SWI_extended_mountain_fortifications:0 "Extended Mountain Fortifications"
+
+###
+SWI_initial_border_fortifications:0 "Initial Border Fortifications"
+
+###
+SWI_extended_border_fortifications:0 "Extended Border Fortifications"
+
+###
+SWI_flexible_defense:0 "Flexible Defense"
+
+###
+SWI_scorched_earth:0 "Scorched Earth: The Last Defense"
+
+###
+SWI_fortification_decision:0 "Protection against a Bigger Threat"
+
+###
+SWI_italian_line:0 "Italian Line"
+
+###
+SWI_german_line:0 "German Line"
+
+###
+SWI_french_line:0 "French Line"
+
+###
+SWI_economic_question:0 "The Economic Question"
+
+###
+SWI_railroads:0 "Expand our Railroad System"
+
+###
+SWI_expand_steel_works:0 "Expand Steel Works"
+

@@ -1,0 +1,39 @@
+﻿capital = 315
+
+oob = "blank"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_war_support = 0.1
+set_convoys = 20
+
+        set_politics = {
+        ruling_party = paternal_autocrat
+        elections_allowed = no
+        last_election = "1936.1.1"
+        election_frequency = 48
+        }
+        set_popularities = {
+	paternal_autocrat = 45
+	authoritarian_democrat = 13
+	vanguardist = 5
+	revolutionary_socialist = 2
+	social_democrat = 16
+	national_populist = 3
+	social_conservative = 5
+	social_liberal = 3
+	classic_liberal = 8
+        }     
+create_country_leader = {
+	name = "Paul von Lettow-Vorbeck" #placeholder
+	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+	picture = "ANCAP_BARNET.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

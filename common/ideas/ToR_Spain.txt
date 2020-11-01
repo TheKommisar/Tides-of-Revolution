@@ -1,9 +1,9 @@
 ideas = {
 country = {
-        SPA_crisis_in_the_government = {
-				picture = SPA_crisis_in_the_government
+        SPR_crisis_in_the_government = {
+				picture = SPR_crisis_in_the_government
 			allowed = {
-				original_tag = SPA
+				original_tag = SPR
 			}
 	
 			allowed_civil_war = {
@@ -17,11 +17,11 @@ country = {
                                 stability_factor = -0.05
 				}
 		}
-	 SPA_strong_military = {
+	 SPR_strong_military = {
 				
-			picture = SPA_strong_military
+			picture = SPR_strong_military
 			allowed = {
-				original_tag = SPA
+				original_tag = SPR
 			}
 	
 			allowed_civil_war = {
@@ -37,10 +37,10 @@ country = {
 				army_core_defence_factor = 0.1
 			}
 		}
-SPA_national_unrest = {
-				picture = SPA_national_unrest
+SPR_national_unrest = {
+				picture = SPR_national_unrest
 			allowed = {
-				original_tag = SPA
+				original_tag = SPR
 			}
 	
 			allowed_civil_war = {
@@ -56,10 +56,10 @@ SPA_national_unrest = {
 		}
 		
 		hidden_ideas = {
-		SPA_crisis_in_government_hidden = {
+		SPR_crisis_in_government_hidden = {
 		
 		allowed = {
-				original_tag = SPA
+				original_tag = SPR
 			}
 	
 			allowed_civil_war = {

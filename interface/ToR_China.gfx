@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_CHI_white_sun_over_china"
+		texturefile = "gfx/interface/ideas/CHI/idea_CHI_white_sun_over_china.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_failing_republic"
+		texturefile = "gfx/interface/ideas/CHI/idea_CHI_failing_republic.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_sino_german_economy"
+		texturefile = "gfx/interface/ideas/CHI/idea_CHI_sino_german_economy.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_von_falkenhausens_doctrine"
+		texturefile = "gfx/interface/ideas/CHI/idea_CHI_von_falkenhausens_doctrine.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_warring_political_factions"
+		texturefile = "gfx/interface/ideas/CHI/idea_CHI_warring_political_factions.tga"
+	}
+} 

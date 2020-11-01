@@ -9,46 +9,31 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-        totalitarian_socialist = 4
-	vanguardist = 6
-        orthodox_marxist = 5
-	revolutionary_socialist = 10
-        social_democrat = 30
-        social_liberal = 3
-        classic_liberal = 12
-        social_conservative = 10
-        authoritarian_democrat = 4
-        paternal_autocrat = 5
-        national_populist = 11
+	vanguardist = 0
+        orthodox_marxist = 0
+	revolutionary_socialist = 0
+        social_democrat = 2
+        social_liberal = 6
+        classic_liberal = 6
+        social_conservative = 12
+        authoritarian_democrat = 15
+        paternal_autocrat = 47
+        national_populist = 12
 }
 
 set_convoys = 5
 
 create_country_leader = {
-	name = "Yakov Popok"
-	desc = "POLITICS_YAKOV_POPOK_DESC"
-	picture = "Portrait_TRK_Yakov_Popok.tga"
-	expire = "1999.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Mohammed Alim Khan"
-	desc = "POLITICS_MOHAMMED_KHAN_DESC"
+	desc = "POLITICS_MOHAMMED_ALIM_DESC"
 	picture = "Portrait_TRK_Mohammed_Alim_Khan.tga"
-	expire = "1999.1.1"
-	ideology = authoritarian_democrat
-	traits = {
-		#
-	}
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
 }

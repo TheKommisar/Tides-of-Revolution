@@ -1,0 +1,53 @@
+ideas = {
+        country = {
+
+	BWA_The_winds_of_change = {
+
+picture = BWA_winds_of_change
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+		political_power_gain = -0.20
+			}
+		}
+
+	BWA_colonial_government = {
+
+picture = BWA_colonial_government
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+		stability_factor = -0.1
+		political_power_gain = -0.15
+		conscription_factor = -0.75
+			}
+		}
+
+	BWA_chaotic_border = {
+
+			picture = BWA_chaotic_border
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		removal_cost = -1
+		modifier = {
+monthly_population = -0.05
+		stability_factor = -0.25
+industry_repair_factor = -0.10
+			}
+		}
+	}
+}

@@ -1,9 +1,11 @@
-version="1.8.*"
+version="0.1"
 replace_path="events"
+replace_path="history/states"
 tags={
 	"Alternative History"
+	"Map"
 	"National Focuses"
-	"Ideologies"
 	"Gameplay"
 }
 name="Tides of Revolution"
+supported_version="1.10.*"

@@ -16,7 +16,7 @@ country_event = {
 	trigger = {
 		tag = ENG 
 		date > 1936.1.20
-		NOT = { has_country_flag = KGV_dead }
+		NOT = { has_country_flag = kgv_dead }
 	}
 	
 	mean_time_to_happen = {
@@ -25,18 +25,70 @@ country_event = {
 	
 	option = {
 		name = uk.1.a
+		hidden_effect = {
 		kill_country_leader = yes
-                create_country_leader = {
+        create_country_leader = {
         	name = "Edward VIII"
         	desc = "POLITICS_EDWARD_VIII_DESC"
-        	picture = "Edward_VIII.dds"
+        	picture = "Edward_VIII.tga"
         	expire = "1965.1.1"
         	ideology = social_liberal_subtype
         	traits = {
         		#
         	}
         }
-        set_country_flag = KGV_dead
+		create_country_leader = {
+        	name = "Edward VIII"
+        	desc = "POLITICS_EDWARD_VIII_DESC"
+        	picture = "Edward_VIII.tga"
+        	expire = "1965.1.1"
+        	ideology = social_democrat_subtype
+        	traits = {
+        		#
+        	}
+        }
+		create_country_leader = {
+        	name = "Edward VIII"
+        	desc = "POLITICS_EDWARD_VIII_DESC"
+        	picture = "Edward_VIII.tga"
+        	expire = "1965.1.1"
+        	ideology = classic_liberal_subtype
+        	traits = {
+        		#
+        	}
+        }
+		create_country_leader = {
+        	name = "Edward VIII"
+        	desc = "POLITICS_EDWARD_VIII_DESC"
+        	picture = "Edward_VIII.tga"
+        	expire = "1965.1.1"
+        	ideology = social_conservative_subtype
+        	traits = {
+        		#
+        	}
+        }
+		create_country_leader = {
+        	name = "Edward VIII"
+        	desc = "POLITICS_EDWARD_VIII_DESC"
+        	picture = "Edward_VIII.tga"
+        	expire = "1965.1.1"
+        	ideology = authoritarian_democrat_subtype
+        	traits = {
+        		#
+        	}
+        }
+		create_country_leader = {
+        	name = "Edward VIII"
+        	desc = "POLITICS_EDWARD_VIII_DESC"
+        	picture = "Edward_VIII.tga"
+        	expire = "1965.1.1"
+        	ideology = paternal_autocrat_subtype
+        	traits = {
+        		#
+        	}
+        }
+        set_country_flag = kgv_dead
+	}
 	}
 }
 
@@ -56,193 +108,103 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { 
 	id = uk.3
-	title = uk.3.t # Government of Burma Act 1935
+	title = uk.3.t
 	desc = uk.3.d
-	picture = gfx/event_pictures/burma_government_house.dds
-	
-	trigger = {
-		TAG = ENG
-		date > 1937.4.1
-		country_exists = RAJ
-		NOT = { has_global_flag = burma_act }
-		}
+	picture = GFX_report_event_royal_visit
 
-	mean_time_to_happen = {
-		days = 0
-	}
-	
-	immediate = {
-	set_global_flag = burma_act
-	}
-	
-	option = { #Keep playing ENG
+	is_triggered_only = yes
+
+    option = { #Labour
 		name = uk.3.a
-		custom_effect_tooltip = burma_spawn_tooltip
-		hidden_effect = {
-			if = {
-				limit = {
-					288 = {
-						OR = {
-							is_owned_by = RAJ
-							is_owned_by = ENG
-						}
-					}
-				}
-				BRM = { transfer_state = 288 }
-				RAJ = { remove_state_core = 288 }
-			}
-			if = {
-				limit = {
-					640 = {
-						OR = {
-							is_owned_by = RAJ
-							is_owned_by = ENG
-						}
-					}
-				}
-				BRM = { transfer_state = 640 }
-				RAJ = { remove_state_core = 640 }
-			}
-			set_autonomy = {
-				target = BRM
-				autonomous_state = sod_satellite_state
-				freedom_level = 0.35
-				}
-			}
-			#RAJ = { country_event = raj.1 }
-			BRM = { set_cosmetic_tag = BRM_UK }
-			BRM = { add_state_core = 288 }
-			BRM = { add_state_core = 640 }
-			#BRM = { load_oob = BRM_1937 }
-                        BRM = { 
-				288 = { 
-					add_building_construction = { 
-						type = arms_factory level = 1 instant_build = yes
-					}
-				}
-			}
-			BRM = { 
-				640 = { 
-					add_building_construction = { 
-						type = arms_factory level = 1 instant_build = yes
-					}
-				}
-			}
-			BRM = {	
-				add_equipment_to_stockpile = {
-					type = artillery_equipment_1
-					amount = 50
-					producer = "RAJ"
-				}
-			}
-			BRM = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment_1
-					amount = 300
-					producer = "RAJ"
-				}
-			}
-			BRM = { 
-				set_politics = { 
-					ruling_party = neutrality
-					last_election = "1936.11.26"
-					election_frequency = 48
-					elections_allowed = no
-				}
-				set_political_party = {
-					ideology = democratic popularity = 51
-					ideology = fascism popularity = 1
-					ideology = communism popularity = 1
-					ideology = neutrality popularity = 47
-				}
-			}
-		}
+		add_political_power = 10
+		add_ideas = { 
+            ENG_Oswald_Mosley_hog
+            }
+		set_politics = {
+	        ruling_party = social_democrat
+        }
+		add_popularity = {
+            ideology = social_democrat
+            popularity = 0.2
+        }
+	}
+	option = { #Conservative
+		name = uk.3.a
+		add_political_power = 10
+		add_ideas = { 
+            #
+            }
+		set_politics = {
+	        ruling_party = social_conservative
+        }
+		add_popularity = {
+            ideology = social_democrat
+            popularity = 0.2
+        }
+	}
+}
 
-	option = { #Swap to BRM 
-		name = uk.3.b
-		custom_effect_tooltip = burma_swap_tooltip
-		hidden_effect = {
-			BRM = { change_tag_from = ENG }
-			if = {
-				limit = {
-					288 = {
-						OR = {
-							is_owned_by = RAJ
-							is_owned_by = ENG
-						}
-					}
-				}
-				BRM = { transfer_state = 288 }
-				RAJ = { remove_state_core = 288 }
+####navy####
+
+country_event = { #The Crusier Debate
+    id = uk.4
+    title = uk.4.t
+    desc = uk.4.d
+
+    is_triggered_only = yes
+
+    option = { #Pocket Battleships
+        ai_chance = { factor = 60 }
+        name = uk.4.a
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+ 			hidden_effect = { set_technology = { panzerschiffe = 1 } }
+
+    }
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+			add_tech_bonus = {
+				name = ENG_crusier_debate
+				bonus = 1.0
+				uses = 1
+				category = cl_tech
 			}
-			if = {
-				limit = {
-					640 = {
-						OR = {
-							is_owned_by = RAJ
-							is_owned_by = ENG
-						}
-					}
-				}
-				BRM = { transfer_state = 640 }
-				RAJ = { remove_state_core = 640 }
+			add_tech_bonus = {
+				name = uk_battleship_focus
+				bonus = 1.0
+				uses = 1
+				category = bb_tech
 			}
-                        set_autonomy = {
-			        target = BRM
-				autonomous_state = sod_satellite_state
-				freedom_level = 0.35
-				}
+    }
+}
+
+    option = { #Regular Crusiers
+        name = uk.4.b
+        ai_chance = { factor = 20 }
+			add_tech_bonus = {
+				name = ENG_crusier_debate
+				bonus = 1.0
+				uses = 2
+				category = cl_tech
 			}
-			#RAJ = { country_event = raj.1 }
-			BRM  = { set_cosmetic_tag = BRM_UK }
-			BRM  = { add_state_core = 288 }
-			BRM = { add_state_core = 640 }
-			#BRM = { load_oob = BRM_1937 }
-			BRM = { 
-				288 = { 
-					add_building_construction = { 
-						type = arms_factory level = 1 instant_build = yes
-					}
-				}
+    }
+
+    option = { #Regular Crusiers
+        name = uk.4.c
+        ai_chance = { factor = 20 }
+			add_tech_bonus = {
+				name = uk_battleship_focus
+				bonus = 1.0
+				uses = 2
+				category = bb_tech
 			}
-			BRM = { 
-				640 = { 
-					add_building_construction = { 
-						type = arms_factory level = 1 instant_build = yes
-					}
-				}
-			}
-			BRM = {	
-				add_equipment_to_stockpile = {
-					type = artillery_equipment_1
-					amount = 50
-					producer = "RAJ"
-				}
-			}
-			BRM = {
-				add_equipment_to_stockpile = {
-					type = infantry_equipment_1
-					amount = 300
-					producer = "RAJ"
-				}
-			}
-			BRM = { 
-				set_politics = { 
-					ruling_party = neutrality
-					last_election = "1936.11.26"
-					election_frequency = 48
-					elections_allowed = no
-				}
-				set_political_party = {
-					ideology = democratic popularity = 51
-					ideology = fascism popularity = 1
-					ideology = communism popularity = 1
-					ideology = neutrality popularity = 47
-				}
-			}
-		}
+    }
 }
 
 country_event = { 

@@ -1,0 +1,67 @@
+﻿capital = 441
+
+oob = "KSM_1936"
+
+set_research_slots = 3
+
+set_convoys = 175
+
+add_ideas = {
+#RAJ_shared_economy
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1	
+	CAS1 = 1
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1933.10.25"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    vanguardist = 0
+    orthodox_marxist = 0
+    revolutionary_socialist = 0
+    social_democrat = 0
+    social_liberal = 20
+    classic_liberal = 0
+    social_conservative = 10
+    authoritarian_democrat = 20
+    paternal_autocrat = 40
+    national_populist = 10
+}
+
+set_stability = 0.5
+
+create_country_leader = {
+	name = "Mirza Basheer-Ud-Din Mahmood Ahmad"
+	desc = "POLITICS_MIRZA_AHMAD_DESC"
+	picture = "mirza_basheer-ud-din_mahmood_ahmad.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Hari Singh"
+	desc = "POLITICS_HARI_SINGH_DESC"
+	picture = "Hari_Singh.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}

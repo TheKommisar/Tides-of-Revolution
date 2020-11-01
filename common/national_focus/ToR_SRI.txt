@@ -1,0 +1,197 @@
+focus_tree = {
+	id = italian_socialists_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SRI
+		}
+	}
+
+
+	#Civil War path
+
+	focus = {
+		id = SRI_avanti_italiano
+		icon = GFX_SRI_irridentism
+		available = {
+		    has_war_with = ITA
+		}
+		x = 20
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_unite_the_workers
+		icon = GFX_goal_syndicalist_workers
+		prerequisite = { focus = SRI_avanti_italiano }
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = SRI_avanti_italiano
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_militarize_the_fgci
+		icon = GFX_militarize_fgci
+		prerequisite = { focus = SRI_unite_the_workers }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = SRI_unite_the_workers
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_strengthen_the_militias
+		icon = GFX_focus_chi_army_reform
+		prerequisite = { focus = SRI_unite_the_workers }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = SRI_unite_the_workers
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_fight_monarchism
+		icon = GFX_fight_monarchism
+		prerequisite = { focus = SRI_militarize_the_fgci }
+		prerequisite = { focus = SRI_strengthen_the_militias }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = SRI_unite_the_workers
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_look_abroad
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = SRI_avanti_italiano }
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = SRI_avanti_italiano
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_brigate_internazionali
+		icon = GFX_goal_SWI_international_aid
+		prerequisite = { focus = SRI_look_abroad }
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = SRI_look_abroad
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_ask_for_french_material_support
+		icon = GFX_focus_chi_reach_out_to_france
+		prerequisite = { focus = SRI_look_abroad }
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = SRI_look_abroad
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_together_against_capitalism
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_ask_for_french_material_support }
+		prerequisite = { focus = SRI_brigate_internazionali }
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = SRI_look_abroad
+		cost = 4
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SRI_the_revolution_triumphs
+		icon = GFX_SRI_united
+		prerequisite = { focus = SRI_together_against_capitalism }
+		prerequisite = { focus = SRI_fight_monarchism }
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = SRI_avanti_italiano
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+		}
+	}
+}

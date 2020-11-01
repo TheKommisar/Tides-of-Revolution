@@ -1,0 +1,77 @@
+﻿l_english: 
+
+#Parties
+
+VEN_vanguardist_party:0 "Colectivistas"
+VEN_vanguardist_party_long:0 "Partido Colectivista de Venezuela"
+VEN_orthodox_marxist_party:0 "Izquierda"
+VEN_orthodox_marxist_party_long:0 "Agrupación Revolucionaria de Izquierda"
+VEN_revolutionary_socialist_party:0 "Socialistas"
+VEN_revolutionary_socialist_party_long:0 "Partido Socialista de Venezuela"
+VEN_social_democrat_party:0 "Democrátas"
+VEN_social_democrat_party_long:0 "Acción Democrática"
+VEN_social_liberal_party:0 "Demócratas Republicanos"
+VEN_social_liberal_party_long:0 "Unión Republicana Democrática"
+VEN_classic_liberal_party:0 "Socialcristianos"
+VEN_classic_liberal_party_long:0 "Partido Socialcristiano"
+VEN_social_conservative_party:0 "COPEI"
+VEN_social_conservative_party_long:0 "Comité de Organización Política Electoral Independiente"
+VEN_authoritarian_democrat_party:0 "Jóvenes Oficiales"
+VEN_authoritarian_democrat_party_long:0 "Junta de Jóvenes Oficiales"
+VEN_paternal_autocrat_party:0 "Junta Nacional"
+VEN_paternal_autocrat_party_long:0 "Junta Nacional Venezuelana"
+VEN_national_populist_party:0 "Libertadores"
+VEN_national_populist_party_long:0 "Movimento Libertador Nacional"
+
+#Country Names
+
+
+VEN_national_populist:0 "Venezuela"
+VEN_national_populist_DEF:0 "Venezuela"
+VEN_paternal_autocrat:0 "Venezuela"
+VEN_paternal_autocrat_DEF:0 "Venezuela"
+VEN_authoritarian_democrat:1 "Venezuela"
+VEN_authoritarian_democrat_DEF:1 "Venezuela"
+VEN_social_conservative:0 "Venezuela"
+VEN_social_conservative_DEF:0 "Venezuela"
+VEN_classic_liberal:0 "Venezuela"
+VEN_classic_liberal_DEF:0 "Venezuela"
+VEN_social_liberal:0 "Venezuela"
+VEN_social_liberal_DEF:0 "Venezuela"
+VEN_social_democrat:0 "Venezuela"
+VEN_social_democrat_DEF:0 "Venezuela"
+VEN_revolutionary_socialist:0 "Venezuela"
+VEN_revolutionary_socialist_DEF:0 "Venezuela"
+VEN_orthodox_marxist:0 "Venezuela"
+VEN_orthodox_marxist_DEF:0 "Venezuela"
+VEN_vanguardist:0 "Venezuela"
+VEN_vanguardist_DEF:0 "Venezuela"
+
+VEN_national_populist_ADJ:0 "Venezuelan" 
+VEN_paternal_autocrat_ADJ:0 "Venezuelan" 
+VEN_authoritarian_democrat_ADJ:0 "Venezuelan" 
+VEN_social_conservative_ADJ:0 "Venezuelan" 
+VEN_social_liberal_ADJ:0 "Venezuelan" 
+VEN_classic_liberal_ADJ:0 "Venezuelan" 
+VEN_social_democrat_ADJ:0 "Venezuelan" 
+VEN_revolutionary_socialist_ADJ:0 "Venezuelan" 
+VEN_orthodox_marxist_ADJ:0 "Venezuelan" 
+VEN_vanguardist_ADJ:0 "Venezuelan" 
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

@@ -1,0 +1,13 @@
+spriteTypes = {
+
+
+	spriteType = {
+		name = "GFX_idea_RHO_the_settler_state"
+		texturefile = "gfx/interface/ideas/RHO/RHO_the_settler_state.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_RHO_Arthur_harris_pet_project"
+		texturefile = "gfx/interface/ideas/RHO/RHO_Arthur_harris_pet_project.tga"
+	}
+
+}
