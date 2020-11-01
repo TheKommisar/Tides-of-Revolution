@@ -177,3 +177,6 @@ social_conservative_drift:0 "Daily Social Conservative support"
 authoritarian_democrat_drift:0 "Daily Authoritarian Democrat support"
 paternal_autocrat_drift:0 "Daily Paternal Autocrat support"
 national_populist_drift:0 "Daily National Populist support"
+
+###### Misc. ##### 
+tidesofrevolution_TITLE:0 "Revolution Radio"
