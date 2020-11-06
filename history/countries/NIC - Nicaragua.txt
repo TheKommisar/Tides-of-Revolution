@@ -31,6 +31,13 @@ set_popularities = {
         national_populist = 0
 }
 
+USA = { 
+        set_autonomy = {
+        target = NIC
+	autonomous_state =  autonomy_puppet
+}
+}
+
 create_country_leader = {
 	name = "Juan Bautista Sacasa"
 	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"

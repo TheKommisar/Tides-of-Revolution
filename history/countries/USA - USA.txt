@@ -58,11 +58,7 @@ set_autonomy = {
 	target = HAI
 	autonomous_state =  autonomy_puppet
 }
-set_autonomy = {
-	target = NIC
-	autonomous_state =  autonomy_puppet
-}
-# Philippines is also puppet but that is defined in its own file
+# Philippines and Nicaragua are also puppets but they are defined in their own files
 
 
 set_convoys = 400
