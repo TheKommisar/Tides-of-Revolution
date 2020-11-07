@@ -288,7 +288,7 @@
  STATE_287:0 "Taklamakan"
  STATE_288:0 "Burma"
  STATE_289:0 "Siam"
- STATE_290:0 "Spanish Africa"
+ STATE_290:0 "Arif"
  STATE_291:0 "Baghdad"
  STATE_292:0 "Nejd"
  STATE_293:0 "Yemen"
@@ -810,3 +810,4 @@
  STATE_809:0 "Kufra"
  STATE_810:0 "Northern Epirus"
  STATE_811:0 "Dağlıq Qarabağ"
+ STATE_812:0 "Vlorë"

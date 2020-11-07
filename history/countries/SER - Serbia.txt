@@ -6,6 +6,8 @@ set_research_slots = 3
 
 add_ideas = {
 	SER_nationalism
+	SER_war_reparations
+	SER_unpopular_monarchy
 }
 
 set_technology = {
