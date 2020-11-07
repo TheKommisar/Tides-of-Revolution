@@ -58,7 +58,7 @@ set_autonomy = {
 	target = HAI
 	autonomous_state =  autonomy_puppet
 }
-# Philippines is also puppet but that is defined in its own file
+# Philippines and Nicaragua are also puppets but they are defined in their own files
 
 
 set_convoys = 400
@@ -543,6 +543,20 @@ create_corps_commander = {# George S. Patton Jr.
 }
 
 ######### ADMIRALS
+create_navy_leader = {# Arthur MacArthur III
+	name = "Arthur MacArthur III"
+	portrait_path = "gfx/leaders/USA/Portrait_USA_Arthur_MacArthur_III.tga"
+	traits = {
+		navy_career_officer
+		fleet_protector
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
 create_navy_leader = {# William Halsey Jr.
 	name = "William Halsey Jr."
 	desc = "USA_WILLIAM_HALSEY_JR_NAVY_DESC"

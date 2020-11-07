@@ -91,3 +91,14 @@ create_country_leader = {
 		#
 	}
 }
+
+create_corps_commander = {
+	name = "Stasys Raštikis"
+	picture = "Portrait_Lithuania_Stasys_Rastikis.dds"
+	traits = { commando }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}

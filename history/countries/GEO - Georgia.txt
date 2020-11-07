@@ -62,21 +62,21 @@ if = {
 
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = vanguardist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    vanguardist = 0
-    orthodox_marxist = 4
+    vanguardist = 33
+    orthodox_marxist = 16
     revolutionary_socialist = 22
-    social_democrat = 33
-    social_liberal = 11
+    social_democrat = 11
+    social_liberal = 0
     classic_liberal = 6
     social_conservative = 5
-    authoritarian_democrat = 16
+    authoritarian_democrat = 4
     paternal_autocrat = 3
     national_populist = 0
 }
@@ -97,6 +97,17 @@ create_country_leader = {
 	picture = "Portrait_GEO_Noe_Ramishvili.tga"
 	expire = "1955.3.1"
 	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Sergo Ordzhonikidze"
+	desc = ""
+	picture = "Portrait_GEO_Sergo_Ordzhonikidze.tga"
+	expire = "1955.3.1"
+	ideology = vanguardist_subtype
 	traits = {
 		
 	}

@@ -12,16 +12,16 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = authoritarian_democrat 
+	ruling_party = revolutionary_socialist
 	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	social_conservative = 10
-        revolutionary_socialist = 20
+        revolutionary_socialist = 60
         social_democrat = 10
-	authoritarian_democrat = 60
+	authoritarian_democrat = 20
 }
 
 create_country_leader = {
@@ -30,6 +30,17 @@ create_country_leader = {
 	picture = "Portrait_GUA_Jorge_Ubico_Casteneda.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Antonio Diaz Soto y Gama"
+	desc = "POLITICS_ANTONIO_DIAZ_GAMA_DESC"
+	picture = "Antonio_Diaz_Soto_y_Gama.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
 	traits = {
 		#
 	}

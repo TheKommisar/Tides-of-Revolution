@@ -31,6 +31,13 @@ set_popularities = {
         national_populist = 0
 }
 
+USA = { 
+        set_autonomy = {
+        target = NIC
+	autonomous_state =  autonomy_puppet
+}
+}
+
 create_country_leader = {
 	name = "Juan Bautista Sacasa"
 	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
@@ -43,7 +50,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Arthur Macarthur III"
+	name = "Logan Feland"
 	desc = "POLITICS_ARTHUR_MACARTHUR_DESC"
 	picture = "gfx/leaders/USA/Portrait_USA_Arthur_MacArthur_III.tga"
 	expire = "1965.1.1"
@@ -53,17 +60,5 @@ create_country_leader = {
 	}
 }
 
-create_navy_leader = {# Arthur MacArthur III
-	name = "Arthur MacArthur III"
-	portrait_path = "gfx/leaders/USA/Portrait_USA_Arthur_MacArthur_III.tga"
-	traits = {
-		navy_career_officer
-		fleet_protector
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	maneuvering_skill = 2
-	coordination_skill = 2
-}
+
 

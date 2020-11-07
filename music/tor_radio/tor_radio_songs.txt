@@ -1,0 +1,29 @@
+
+music_station = "tidesofrevolution"
+
+music = {
+	song = "dayofwrath"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "warszawianka"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+
+music = {
+	song = "masquerade"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

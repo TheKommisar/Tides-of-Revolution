@@ -23,7 +23,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
 		
-		ai_communist = yes # uses the commie AI behaviour
+		ai_neutral = yes # uses the commie AI behaviour
 		
 		rules = {
 			can_force_government = no
@@ -250,7 +250,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes = yes # uses the democratic AI behaviour
 	}
 
 	authoritarian_democrat = { #aut dem
@@ -362,4 +362,5 @@ ideologies = {
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.80
 		}
+                ai_neutral = yes
 }

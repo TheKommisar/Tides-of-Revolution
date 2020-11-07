@@ -66,9 +66,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Alvaro Obregon"
+	name = "Arnulfo R. Gómez"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
-	picture = "Portrait_Alvaro_Obregon.tga"
+	picture = "Portrait_Arnulfo_Gomez.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

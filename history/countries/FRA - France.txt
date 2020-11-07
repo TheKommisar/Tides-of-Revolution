@@ -105,7 +105,7 @@ set_popularities = {
 
 create_faction = pri
 add_to_faction = FRA
-add_to_faction = ARG
+add_to_faction = GEO
 
 add_ideas = {
     legacy_of_the_commune

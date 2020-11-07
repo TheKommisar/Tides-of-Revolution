@@ -137,7 +137,7 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Ludwig von Eimannsberger"
 	portrait_path = "gfx/leaders/AUS/Ludwig_von_Eimannsberger.tga"
 	traits = { panzer_leader }
