@@ -8,7 +8,16 @@ set_technology = {
 	early_fighter = 1
 }
 set_war_support = 0.1
+set_stability = 0.5
 set_convoys = 20
+
+add_ideas = {
+    CUB_extreme_inequality 
+    CUB_american_influence 
+    CUB_heavy_corruption 
+    free_trade
+    limited_conscription
+}
 
 set_politics = {
 	ruling_party = authoritarian_democrat

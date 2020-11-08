@@ -56,6 +56,11 @@ CUB_classic_liberal_ADJ:0 "Cuban"
 CUB_vanguardist_ADJ:0 "Cuban"
 
 
+#Ideas
+CUB_extreme_inequality:0 "Extreme Inequality" 
+CUB_american_influence:0 "American Influence"
+CUB_american_influence_desc:0 "As the liberators of our country from Spain, the Americans watch over our country with wary eyes, ready to send marines into Havana at a moment's notice. This arrangement has existed since the end of the Spanish-American War, and the Americans and foreign corporations have used this to exploit our country on multiple occassions. For many Cubans, this arrangement is just part of the bleak reality which many citizens have become accustomed to, although a determined few seek to change that."
+CUB_heavy_corruption:0 "Severe Corruption"
 
 
 #Ministers
