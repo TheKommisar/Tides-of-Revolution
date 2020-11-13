@@ -727,3 +727,7 @@ WLN = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+WAS = {	
+        color = rgb { 232 224 79 }
+	color_ui = rgb { 232 224 79 }
+}
