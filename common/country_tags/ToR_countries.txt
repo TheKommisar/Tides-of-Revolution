@@ -1,0 +1,10 @@
+#This is just a placeholder file for new countries
+#once we get all the continental based common folders done this will be merged with the base file 
+
+##Commonwealth
+NFL = "countries/Commonwealth.txt"
+WAS = "countries/Commonwealth.txt"
+CAN = "countries/Commonwealth.txt"
+AST = "countries/Commonwealth.txt"
+SAF = "countries/Commonwealth.txt"
+NZL = "countries/Commonwealth.txt"

@@ -1,7 +1,5 @@
 ﻿capital = 4
 
-set_cosmetic_tag = AUS_unitedstates
-
 oob = "AUS_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
