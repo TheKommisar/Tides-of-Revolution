@@ -62,6 +62,8 @@ CUB_american_influence:0 "American Influence"
 CUB_american_influence_desc:0 "As the liberators of our country from Spain, the Americans watch over our country with wary eyes, ready to send marines into Havana at a moment's notice. This arrangement has existed since the end of the Spanish-American War, and the Americans and foreign corporations have used this to exploit our country on multiple occassions. For many Cubans, this arrangement is just part of the bleak reality which many citizens have become accustomed to, although a determined few seek to change that."
 CUB_heavy_corruption:0 "Severe Corruption"
 
+cuba_martial_law_tt:0 "§RThis may prove to have dire consequences upon Cuba and Cuba's economy!§R"
+cuba_continue_as_normal:0 "§RThis action may anger the Americans down the line!§R"
 
 #Ministers
 #should be reintegrated
@@ -73,6 +75,13 @@ CUB_heavy_corruption:0 "Severe Corruption"
 
 #Events
 #should be reintegrated
+
+cuba.1.t:0 "Opposition parties begin to radicalise"
+cuba.1.d:0 "Text goes here"
+cuba.2.t:0 "Trade unions call for a general strike"
+cuba.2.d:0 "Text goes here"
+cuba.2.a:0 "This is enough, enact martial law!"
+cuba.2.b:0 "We may be in a dire situation, but martial law will make it worse."
 
 #Descriptions
 
