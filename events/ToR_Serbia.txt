@@ -3,205 +3,56 @@
 ###########################
 
 add_namespace = serbia
-
 country_event = {
-	id = serbia.2
-	title = serbia.2.t	# annexing Montenegro thing
-	desc = serbia.2.d	#
-	picture = GFX_report_event_canada_patriation
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = serbia.2.a # we accept
-                SER = { annex_country = {
-                         target = MNT
-                         transfer_troops = yes
-                       } }
-	}
-	
-	option = {
-		name = serbia.2.b # never
-                SER = { country_event = {
-                         id = serbia.3
-                }
+    id = serbia.1
+    title = serbia.1.t    
+    desc = serbia.1.d
+
+    picture = GFX_report_event_yugoslavia_partisans
+    
+    fire_only_once = yes
+
+    
+    option = {
+		name = serbia.1.a
+hidden_effect = { country_event = serbia.2 days = 60 }
 	}
 }
-}
-
 country_event = {
-	id = serbia.3
-	title = serbia.3.t	# annexing Montenegro thing
-	desc = serbia.3.d	#
-	picture = GFX_report_event_canada_patriation
-	
-	is_triggered_only = yes
-	
-	option = { #war moment
-		name = serbia.3.a # we accept
-                create_wargoal = {
-					type = annex_everything
-					target = MNT
-		}
-	}
-}
+    id = serbia.2
+    title = serbia.2.t    
+    desc = serbia.2.d
 
-country_event = {
-	id = serbia.4
-	title = serbia.4.t	# demands to Austria
-	desc = serbia.4.d	#
-	picture = GFX_report_event_canada_patriation
-	
-	is_triggered_only = yes
-	
-	option = { #ok
-		name = serbia.4.a 
-                SER = { country_event = {
-                         id = serbia.6
-                }
-	        }
-			ai_chance = {
-			factor = 5
-		}
-	}
-        option = { #lol no
-		name = serbia.4.b
-                SER = { country_event = {
-                         id = serbia.5
-                }
-	        }
-			ai_chance = {
-			factor = 95
-		        }
-	}
-}
+    picture = GFX_report_event_yugoslavia_partisans
+    
+    fire_only_once = yes
 
-country_event = {
-	id = serbia.5
-	title = serbia.5.t	# demands to Austria - rejected
-	desc = serbia.5.d	#
-	picture = GFX_report_event_canada_patriation
-	
-	is_triggered_only = yes
-	
-	option = { #
-		name = serbia.5.a 
-                create_wargoal = {
-					type = annex_everything
-					target = AUS
+    
+    option = {
+		name = serbia.2.a
+		add_stability = -0.02
+hidden_effect = { country_event = serbia.3 days = 20 }
+			}
+		ai_chance = {
+			factor = 100
 		}
-        ai_chance = {
-			factor = 99
-		}
-	}
-        option = { #lol no
-		name = serbia.5.a
-                add_stability = -0.2
-                add_war_support	= -0.2
-                add_political_power = -70
-                ai_chance = {
-			factor = 1
-		}
-	}
 }
-
 country_event = {
-	id = serbia.5
-	title = serbia.5.t	# demands to Austria - accepted
-	desc = serbia.5.d	#
-	picture = GFX_report_event_canada_patriation
-	
-	is_triggered_only = yes
-	
-	option = { #
-		name = serbia.5.a 
-                create_wargoal = {
-					type = annex_everything
-					target = AUS
-		}
-        ai_chance = {
-			factor = 99
-		}
-	}
-        option = { #lol no
-		name = serbia.5.a
-                add_stability = -0.2
-                add_war_support	= -0.2
-                add_political_power = -70
-                ai_chance = {
-			factor = 1
-		}
-	}
-}
+    id = serbia.3
+    title = serbia.3.t    
+    desc = serbia.3.d
 
-country_event = {
-	id = serbia.10
-	title = serbia.10.t	# Serbian entente thing
-	desc = serbia.10.d	#
-	picture = GFX_report_event_canada_patriation
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = serbia.10.a # we accept
-                SER = { add_to_faction = ROOT }
-	}
-	
-	option = {
-		name = serbia.10.b # dont join faction
-	}
-}
-
-country_event = {
-	id = serbia.11
-	title = serbia.11.t	# Serbian entente thing
-	desc = serbia.11.d	#
-	picture = GFX_report_event_canada_patriation
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = serbia.11.a # Hurrah! God Save the Tsar!
-                country_event = { id = serbia.12 days = 15 } 
-	}
-}
-
-country_event = {
-	id = serbia.12
-	title = serbia.12.t	# Serbian entente thing
-	desc = serbia.12.d	#
-	picture = GFX_report_event_canada_patriation
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = serbia.12.a # the Democratic faction
-        set_politics = {
-	        ruling_party = social_conservative
-        }
-		add_popularity = {
-            ideology = social_conservative
-            popularity = 0.2
-        }
-		add_popularity = {
-            ideology = social_liberal
-            popularity = 0.1
-        }
-		add_popularity = {
-            ideology = classic_liberal
-            popularity = 0.1
-        }
-		add_popularity = {
-            ideology = social_democrat
-            popularity = 0.05
-        }
-		hidden_effect = {
-		    country_event = { id = serbia.13 days = 90 }
-	}
-        option = {
-		name = serbia.12.b # the Junta stays
-                ai_chance = {
-			factor = 50
+    picture = GFX_report_event_yugoslavia_partisans
+    
+    fire_only_once = yes
+ 
+    option = {
+		name = serbia.3.a
+		add_stability = -0.03
+		add_political_power = -25
+hidden_effect = { country_event = serbia.4 days = 60 }
+			}
+		ai_chance = {
+			factor = 100
 		}
-	}
 }

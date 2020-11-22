@@ -13,8 +13,8 @@ SER_authoritarian_democrat_party:0 "House of Karadjordjevic"
 SER_authoritarian_democrat_party_long:0 "House of Karadjordjevic"
 SER_social_democrat_party:0 "SSDS"
 SER_social_democrat_party_long:0 "Srpska Socijaldemokratska Stranka"
-SER_social_liberal_party:0 "SDS"
-SER_social_liberal_party_long:0 "Samostalna Demokratska Stranka"
+SER_social_liberal_party:0 "SRS"
+SER_social_liberal_party_long:0 "Srpska Republikanska Stranka"
 SER_classic_liberal_party:0 "DSS"
 SER_classic_liberal_party_long:0 "Demokratska Stranka Srbije"
 SER_totalitarian_socialist_party:0 "SKS"
@@ -59,7 +59,14 @@ SER_social_democrat_ADJ:0 "Serbian"
 SER_social_liberal_ADJ:0 "Serbian"
 SER_classic_liberal_ADJ:0 "Serbian"
 SER_vanguardist_ADJ:0 "Serbian"
+<<<<<<< Updated upstream
 
+=======
+#Ideas
+SER_nationalism:0 "Radical Nationalism"
+SER_unpopular_monarchy:0 "Unpopular Monarchy"
+SER_war_reparations:0 "War Reparations"
+>>>>>>> Stashed changes
 #Ministers
 #should be reintegrated
 

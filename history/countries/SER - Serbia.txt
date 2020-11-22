@@ -53,17 +53,17 @@ set_popularities = {
 	vanguardist = 0
         orthodox_marxist = 4
 	revolutionary_socialist = 6
-        social_democrat = 0
-        social_liberal = 16
-        classic_liberal = 15
-        social_conservative = 10
-        authoritarian_democrat = 37
-        paternal_autocrat = 12
-        national_populist = 0
+        social_democrat = 1
+        social_liberal = 9
+        classic_liberal = 22
+        social_conservative = 39
+        authoritarian_democrat = 7
+        paternal_autocrat = 6
+        national_populist = 6
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = no
@@ -81,13 +81,42 @@ create_country_leader = {
 		#
 	}
 }
-
+create_country_leader = {
+	name = "Alexander II of Serbia"
+	desc = ""
+	picture = "Alexander_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
 create_country_leader = {
 	name = "Alexander II of Serbia"
 	desc = ""
 	picture = "Alexander_II.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Alexander II of Serbia"
+	desc = ""
+	picture = "Alexander_II.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Alexander II of Serbia"
+	desc = ""
+	picture = "Alexander_II.dds"
+	expire = "1965.1.1"
+	ideology = classic_liberal_subtype
 	traits = {
 		#
 	}
