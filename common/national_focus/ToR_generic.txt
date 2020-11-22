@@ -3,7 +3,7 @@
 ###########################
 #Personal note: holy shit this is so fucking unorganized
 #Personal note to the personal note: eat my as
-#Personal note the fuhrerreich devs: what the fuck is this
+#Personal note the fuhrerreich devs: what the fuck this shit above me scoob
 ###########################
 
 focus_tree = {

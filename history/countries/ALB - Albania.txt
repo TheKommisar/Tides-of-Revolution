@@ -40,6 +40,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Vilhelm I"
+	desc = "POLITICS_WILLIAM_I_DESC"
+	picture = "Portrait_Albania_Wilhelm_Wied.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
 create_field_marshal = {
 	name = "Ahmet Muhtar Zogolli"
 	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Ahmet_Zogolli.dds"
@@ -82,4 +93,17 @@ create_corps_commander = {
     defense_skill = 3
     planning_skill = 1
     logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ugo Cavallero"
+	portrait_path = "gfx/leaders/ALB/Ugo_Cavallero.dds"
+	traits = { ranger }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Alberto Pariani"
+	portrait_path = "gfx/leaders/ALB/Alberto_Pariani.dds"
+	skill = 2
 }

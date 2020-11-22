@@ -727,3 +727,7 @@ WLN = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+TUN = {
+	color = rgb { 180 104 54 }
+	color_ui = rgb { 180 104 54 }
+}

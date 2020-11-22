@@ -5,11 +5,11 @@
 
         shared_focus = {
 		id = ITA_fixing_our_economy 
-		icon = GFX_wip
-		x = 15
+		icon = GFX_goal_bankruptcy
+		x = 17
                 y = 0
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -20,14 +20,14 @@
 
         shared_focus = {
 		id = ITA_regulated_economy 
-		icon = GFX_wip
+		icon = GFX_goal_generic_seize_money
                 prerequisite = { focus = ITA_fixing_our_economy }
                 mutually_exclusive = { focus = ITA_free_market }
 		x = -4
                 y = 1
                 relative_position_id = ITA_fixing_our_economy 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -38,13 +38,13 @@
 
         shared_focus = {
 		id = ITA_watch_over_the_market
-		icon = GFX_wip
+		icon = GFX_goal_state_economy
                 prerequisite = { focus = ITA_regulated_economy }
 		x = 2
                 y = 1
                 relative_position_id = ITA_regulated_economy 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -55,13 +55,13 @@
 
         shared_focus = {
 		id = ITA_implement_protectionist_tariffs
-		icon = GFX_wip
+		icon = GFX_goal_generic_trade
                 prerequisite = { focus = ITA_watch_over_the_market }
 		x = 1
                 y = 1
                 relative_position_id = ITA_watch_over_the_market
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -72,13 +72,13 @@
 
         shared_focus = {
 		id = ITA_safeguard_the_people
-		icon = GFX_wip
+		icon = GFX_focus_generic_self_management
                 prerequisite = { focus = ITA_implement_protectionist_tariffs }
 		x = -1
                 y = 1
                 relative_position_id = ITA_implement_protectionist_tariffs
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -89,13 +89,13 @@
 
         shared_focus = {
 		id = ITA_public_works_projects
-		icon = GFX_wip
+		icon = GFX_goal_generic_construct_public_housing
                 prerequisite = { focus = ITA_regulated_economy }
 		x = 0
                 y = 1
                 relative_position_id = ITA_regulated_economy 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -112,7 +112,7 @@
                 y = 1
                 relative_position_id = ITA_public_works_projects
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -123,13 +123,13 @@
 
         shared_focus = {
 		id = ITA_industrialise_the_mezzogiorno
-		icon = GFX_wip
+		icon = GFX_focus_generic_industry_3
                 prerequisite = { focus = ITA_public_works_projects }
 		x = -1
                 y = 1
                 relative_position_id = ITA_public_works_projects 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -140,14 +140,14 @@
 
         shared_focus = {
 		id = ITA_public_services
-		icon = GFX_wip
+		icon = GFX_goal_generic_construct_infrastructure
                 prerequisite = { focus = ITA_attract_to_our_colonies }
                 prerequisite = { focus = ITA_industrialise_the_mezzogiorno }
 		x = 1
                 y = 1
                 relative_position_id = ITA_industrialise_the_mezzogiorno 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -158,13 +158,13 @@
 
         shared_focus = {
 		id = ITA_extend_government_intervention
-		icon = GFX_wip
+		icon = GFX_goal_bag_of_money
                 prerequisite = { focus = ITA_regulated_economy }
 		x = -2
                 y = 1
                 relative_position_id = ITA_regulated_economy 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -176,13 +176,13 @@
 
         shared_focus = {
 		id = ITA_devalue_the_lira
-		icon = GFX_wip
+		icon = GFX_focus_mex_privatisation
                 prerequisite = { focus = ITA_extend_government_intervention }
 		x = -1
                 y = 1
                 relative_position_id = ITA_extend_government_intervention
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -193,13 +193,13 @@
 
         shared_focus = {
 		id = ITA_credit_concessions
-		icon = GFX_wip
+		icon = GFX_focus_generic_concessions
                 prerequisite = { focus = ITA_devalue_the_lira }
 		x = 1
                 y = 1
                 relative_position_id = ITA_devalue_the_lira
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -210,7 +210,7 @@
 
         shared_focus = {
 		id = ITA_all_together
-		icon = GFX_wip
+		icon = GFX_goal_generic_national_unity
                 prerequisite = { focus = ITA_credit_concessions }
                 prerequisite = { focus = ITA_public_services }
                 prerequisite = { focus = ITA_safeguard_the_people }
@@ -218,7 +218,7 @@
                 y = 1
                 relative_position_id = ITA_public_services 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -229,14 +229,14 @@
 
         shared_focus = {
 		id = ITA_free_market
-		icon = GFX_wip
+		icon = GFX_goal_generic_positive_trade_relations
                 prerequisite = { focus = ITA_fixing_our_economy }
                 mutually_exclusive = { focus = ITA_regulated_economy }
 		x = 4
                 y = 1
                 relative_position_id = ITA_fixing_our_economy 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -247,13 +247,13 @@
 
         shared_focus = {
 		id = ITA_deals_with_big_corporations
-		icon = GFX_wip
+		icon = GFX_goal_bag_of_money
                 prerequisite = { focus = ITA_free_market }
 		x = 0
                 y = 1
                 relative_position_id = ITA_free_market
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -264,13 +264,13 @@
 
         shared_focus = {
 		id = ITA_increase_competitiveness
-		icon = GFX_wip
+		icon = GFX_goal_generic_positive_trade_relations
                 prerequisite = { focus = ITA_deals_with_big_corporations }
 		x = -1
                 y = 1
                 relative_position_id = ITA_deals_with_big_corporations
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -280,14 +280,14 @@
 	}
 
         shared_focus = {
-		id = ITA_confiscate_useless_land
-		icon = GFX_wip
+		id = ITA_confiscate_unused_land
+		icon = GFX_goal_generic_construct_civilian
                 prerequisite = { focus = ITA_deals_with_big_corporations }
 		x = 1
                 y = 1
                 relative_position_id = ITA_deals_with_big_corporations
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -298,14 +298,14 @@
 
         shared_focus = {
 		id = ITA_entrepreneurship
-		icon = GFX_wip
+		icon = GFX_goal_generic_scientific_exchange
                 prerequisite = { focus = ITA_increase_competitiveness }
-                prerequisite = { focus = ITA_confiscate_useless_land }
+                prerequisite = { focus = ITA_confiscate_unused_land }
 		x = 1
                 y = 1
                 relative_position_id = ITA_increase_competitiveness
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -316,13 +316,13 @@
 
         shared_focus = {
 		id = ITA_reform_taxation_policy
-		icon = GFX_wip
+		icon = GFX_goal_HOL_progressive_tax
                 prerequisite = { focus = ITA_free_market }
 		x = -2
                 y = 1
                 relative_position_id = ITA_free_market 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -333,13 +333,13 @@
 
         shared_focus = {
 		id = ITA_develop_urban_centres
-		icon = GFX_wip
+		icon = GFX_focus_generic_industry_2
                 prerequisite = { focus = ITA_reform_taxation_policy }
 		x = -1
                 y = 1
                 relative_position_id = ITA_reform_taxation_policy
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -350,13 +350,13 @@
 
         shared_focus = {
 		id = ITA_farming_subsidies
-		icon = GFX_wip
+		icon = GFX_focus_mex_privatisation
                 prerequisite = { focus = ITA_develop_urban_centres }
 		x = 1
                 y = 1
                 relative_position_id = ITA_develop_urban_centres
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -367,13 +367,13 @@
 
         shared_focus = {
 		id = ITA_focus_on_exports
-		icon = GFX_wip
+		icon = GFX_goal_generic_trade
                 prerequisite = { focus = ITA_free_market }
 		x = 2
                 y = 1
                 relative_position_id = ITA_free_market 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -384,13 +384,13 @@
 
         shared_focus = {
 		id = ITA_support_small_corporations
-		icon = GFX_wip
+		icon = GFX_goal_economic_control
                 prerequisite = { focus = ITA_focus_on_exports }
 		x = 1
                 y = 1
                 relative_position_id = ITA_focus_on_exports
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -401,13 +401,13 @@
 
         shared_focus = {
 		id = ITA_regulate_work_hours
-		icon = GFX_wip
+		icon = GFX_goal_tblra_union_agreement
                 prerequisite = { focus = ITA_support_small_corporations }
 		x = -1
                 y = 1
                 relative_position_id = ITA_support_small_corporations
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -418,7 +418,7 @@
 
         shared_focus = {
 		id = ITA_laissez_faire_economy
-		icon = GFX_wip
+		icon = GFX_goal_generic_positive_trade_relations_gold
                 prerequisite = { focus = ITA_farming_subsidies }
                 prerequisite = { focus = ITA_entrepreneurship }
                 prerequisite = { focus = ITA_regulate_work_hours }
@@ -426,7 +426,7 @@
                 y = 1
                 relative_position_id = ITA_entrepreneurship 
                 available = {}
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -442,7 +442,7 @@
 		icon = GFX_goal_support_democracy
 		x = 30
                 y = 0
-		cost = 3
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
@@ -496,6 +496,7 @@
 		}
 		
 		completion_reward = {
+                            country_event = italy.15
 		}
 	}
         shared_focus = {
@@ -529,7 +530,7 @@
 		}
 	}
         shared_focus = {
-		id = ITA_developing_lycia
+		id = ITA_developing_the_dodecanese
 		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = ITA_italy_on_her_own focus = ITA_allies_in_london }
 		x = 4
@@ -546,10 +547,10 @@
         shared_focus = {
 		id = ITA_investing_more_in_the_straits
 		icon = GFX_goal_foreign_diplomacy
-		prerequisite = { focus = ITA_developing_lycia }
+		prerequisite = { focus = ITA_developing_the_dodecanese }
 		x = 0
 		y = 1
-                relative_position_id = ITA_developing_lycia
+                relative_position_id = ITA_developing_the_dodecanese
 		cost = 1
 		ai_will_do = {
 			factor = 1
@@ -601,6 +602,7 @@
 		}
 		
 		completion_reward = {
+                      country_event = italy.16
 		}
 	}
         shared_focus = {

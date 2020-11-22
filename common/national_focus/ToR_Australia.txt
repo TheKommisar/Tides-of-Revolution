@@ -681,7 +681,7 @@ focus = {
 	}
 focus = {
 		id = AST_economic_growth_priority
-		icon = GFX_goal_ideology_social_liberal
+		icon = GFX_goal_gold_up
 		prerequisite = { focus = AST_labor_victory }
 		x = 1
 		y = 1
