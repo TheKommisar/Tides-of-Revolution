@@ -61,7 +61,7 @@ SER_classic_liberal_ADJ:0 "Serbian"
 SER_vanguardist_ADJ:0 "Serbian"
 #Ideas
 SER_nationalism:0 "Radical Nationalism"
-SER_unpopular_monarchy0 "Unpopular Monarchy"
+SER_unpopular_monarchy:0 "Unpopular Monarchy"
 SER_war_reparations:0 "War Reparations"
 #Ministers
 #should be reintegrated

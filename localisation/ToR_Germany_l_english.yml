@@ -69,7 +69,8 @@ GER_constitutional_crisis_desc:0 "Germany's constitution has remained in limbo f
 GER_nation_and_kaiser:0 "Nation and Kaiser"
 GER_unworthy_sacrafice:0 "The Unworthy Sacrafice"
 GER_unworthy_sacrafice_desc:0 "To every German man, woman and child, whether they be a Bavarian peasent, a Saar coal miner or a Brandenburg factory worker, all shutter at the utterence of one word the same way; War. War is the spectre over Europe, the haunting that has turned every nations populace to fear. While Germany has remained a strong nationalist state in politics, it's people could not say the same, they are weary, pacifistic and exhausted. Millions of men drew their last breaths in the Great War and for what? The German men, dying in the millions to artillery, barbed wire, machine gun rounds and poison gas, fell on the blood soaked fields of France and Belgium just to have Germany concede to a peace that humiliated the country and made all of the suffering pointless. The German common men and women suffered as well, the English blockade driving the German populace into starvation and with the outbreak of Spanish Flu becoming uncontrolled due to the governments refusal to even acknowledge it's existence for months on end, the populace died in the hundreds of thousands, if not millions. Germany was wounded, it's still wounded and still in pain, it will take much effort to heal the scars and gashes left by the weltkrieg, and the Germans, despite not suffering as much on the front as the French or English in terms of War Phobia, need to get their people ready for the next coming conflict."
-
+GER_stagnate_economy:0 "Stagnate Economy"
+GER_stagnate_economy_desc:0 "The German Empire has been in a state of consistent economic disparity with a large lack of growth for over a decade. Government efforts attempting to begin turning the many cogs that make up the economy again have met with little sucess due to constant strikes, sabatoge, buisiness failures and one failed recovery plan after another. While the economic situation has remained in a consistent slog, much of the population has seen standards of living drop or bottom out in a rapid slump due to the sudden paralyzation of the industrial sectors, it is due to these falling standards that the population has begun to emigrate to greener pastures, many choosing to emigrate to the German controlled Courland or the colony of South West Africa, many of the more liberal citizens settling in neighbouring Austria or the distant UK, and even several thousand going to the Socialist French Government on the Borders of the Reich."
 #Ministers
 #should be reintegrated
 GER_Erich_Ludendorff_hog:0 "Erich Ludendorff"
@@ -79,6 +80,7 @@ GER_Konstantin_Neurath:0 "Konstantin von Neurath"
  
 #Focuses
 #should be reintegrated
+GER_the_imperial_eagle_rises:0 "The Imperial Eagle Rises"
 
 GER_was_ist_des_deutschen_vaterland:0 "Was Ist Des Deutschen Vaterland?"
 

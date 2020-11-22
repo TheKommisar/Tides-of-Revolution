@@ -46,6 +46,23 @@ ideas = {
 		army_morale_factor = 0.05
 			}
 		}
+			GER_stagnate_economy = {
+		allowed = {
+			always = no
+		}
+		allowed_civil_war = {
+			always = yes
+		}
+		picture = GER_stagnate_economy
+		removal_cost = -1
+		modifier = {
+		stability_factor = -0.05
+		industrial_capacity_factory = -0.1
+		production_speed_buildings_factor = -0.1
+		monthly_population = -0.025
+
+			}
+		}
 	GER_iron_and_blood = {
 		allowed = {
 			always = no

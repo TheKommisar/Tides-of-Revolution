@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 20
 			tag = GER
 		}
 	}
@@ -32,8 +32,210 @@ focus_tree = {
 
 		completion_reward = {
 				country_event = {
-					id = KRBAT.35
-					days = 250
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+	 	focus = {
+		id = GER_the_kanzlers_speech
+		prerequisite = { focus = GER_the_imperial_eagle_rises }
+		x = 9
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+		 	focus = {
+		id = GER_direct_the_government
+		prerequisite = { focus = GER_the_imperial_eagle_rises }
+		x = 11
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+		 	focus = {
+		id = GER_buisiness_as_usual
+		prerequisite = { focus = GER_the_kanzlers_speech }
+		prerequisite = { focus = GER_direct_the_government }
+		x = 10
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+		 	focus = {
+		id = GER_continue_repressions
+		prerequisite = { focus = GER_buisiness_as_usual }
+		x = 8
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+		 	focus = {
+		id = GER_manage_the_budget
+		prerequisite = { focus = GER_buisiness_as_usual }
+		x = 12
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+		 	focus = {
+		id = GER_assure_the_people
+		prerequisite = { focus = GER_continue_repressions }
+		prerequisite = { focus = GER_manage_the_budget }
+		x = 10
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+		 	focus = {
+		id = GER_lock_down_the_ruhr
+		prerequisite = { focus = GER_continue_repressions }
+		x = 8
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+		 	focus = {
+		id = GER_token_relief
+		prerequisite = { focus = GER_manage_the_budget }
+		x = 12
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
+				}
+		}
+	}
+		 	focus = {
+		id = GER_tying_up_loose_ends
+		prerequisite = { focus = GER_assure_the_people }
+		prerequisite = { focus = GER_lock_down_the_ruhr }
+		prerequisite = { focus = GER_token_relief }
+		x = 10
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {}
+		bypass = {}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+				country_event = {
+					id = Germany.1
+					days = 10
 				}
 		}
 	}

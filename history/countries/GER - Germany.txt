@@ -199,6 +199,7 @@ add_ideas = {
         GER_Otto_Lossow_sec
         GER_republican_menace
         GER_constitutional_crisis
+		GER_stagnate_economy
         GER_iron_and_blood
 	GER_nation_and_kaiser
 	GER_unworthy_sacrafice

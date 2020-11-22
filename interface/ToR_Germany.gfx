@@ -9,7 +9,10 @@ spriteTypes = {
 		name = "GFX_idea_GER_constitutional_crisis"
 		texturefile = "gfx/interface/ideas/GER/idea_GER_constitutional_crisis.dds"
 	}	
-
+	spriteType = {
+		name = "GFX_idea_GER_stagnate_economy"
+		texturefile = "gfx/interface/ideas/GER/idea_GER_economic_stagnation.tga"
+	}
 	spriteType = {
 		name = "GFX_idea_GER_iron_and_blood"
 		texturefile = "gfx/interface/ideas/GER/idea_GER_iron_and_blood.tga"
