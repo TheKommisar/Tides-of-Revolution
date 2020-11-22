@@ -62,18 +62,18 @@ if = {
 
 
 set_politics = {
-	ruling_party = vanguardist
+	ruling_party = social_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    vanguardist = 33
-    orthodox_marxist = 16
+    vanguardist = 6
+    orthodox_marxist = 8
     revolutionary_socialist = 22
-    social_democrat = 11
-    social_liberal = 0
+    social_democrat = 41
+    social_liberal = 5
     classic_liberal = 6
     social_conservative = 5
     authoritarian_democrat = 4
