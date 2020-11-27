@@ -667,4 +667,185 @@
 		completion_reward = {
 		}
 	}
-}
+
+        #Army branch
+
+        shared_focus = {
+		id = ITA_regia_aeronautica
+		icon = GFX_goal_bankruptcy
+		x = 40
+                y = 0
+                available = {}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        shared_focus = {
+		id = ITA_expand_airfields
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_regia_aeronautica } 
+		x = -1
+		y = 1
+                relative_position_id = ITA_regia_aeronautica
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}      
+
+        shared_focus = {
+		id = ITA_contract_italian_corporations
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_regia_aeronautica } 
+		x = 1
+		y = 1
+                relative_position_id = ITA_regia_aeronautica
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_bomber_research
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_expand_airfields focus = ITA_contract_italian_corporations } 
+		x = 0
+		y = 1
+                relative_position_id = ITA_expand_airfields
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_strategic_bombers
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_bomber_research } 
+		x = 0
+		y = 1
+                relative_position_id = ITA_bomber_research
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+
+        shared_focus = {
+		id = ITA_fighter_research
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_expand_airfields focus = ITA_contract_italian_corporations } 
+		x = 0
+		y = 1
+                relative_position_id = ITA_contract_italian_corporations
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        shared_focus = {
+		id = ITA_cas_trials
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_fighter_research } 
+		x = 0
+		y = 1
+                relative_position_id = ITA_fighter_research
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        shared_focus = {
+		id = ITA_radar_experiments
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_strategic_bombers } 
+		x = -1
+		y = 1
+                relative_position_id = ITA_strategic_bombers
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        shared_focus = {
+		id = ITA_defend_the_skies
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_strategic_bombers } 
+                prerequisite = { focus = ITA_cas_trials }
+		x = 1
+		y = 1
+                relative_position_id = ITA_strategic_bombers
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        shared_focus = {
+		id = ITA_airborne_corps
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_strategic_bombers } 
+                prerequisite = { focus = ITA_cas_trials }
+		x = 1
+		y = 1
+                relative_position_id = ITA_cas_trials 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        shared_focus = {
+		id = ITA_operazione_arciere
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_radar_experiments } 
+                prerequisite = { focus = ITA_defend_the_skies }
+                prerequisite = { focus = ITA_airborne_corps }
+		x = 0
+		y = 1
+                relative_position_id = ITA_defend_the_skies 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}

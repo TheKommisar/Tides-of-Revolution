@@ -6,7 +6,7 @@ focus_tree = {
 	continuous_focus_position = { x = 2300 y = 1100 }
 	shared_focus = ITA_fixing_our_economy
 	shared_focus = ITA_looking_outwards
-
+        shared_focus = ITA_regia_aeronautica
 
 
         #Social Democrat coalition branch
