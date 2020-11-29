@@ -673,7 +673,7 @@
         shared_focus = {
 		id = ITA_regia_aeronautica
 		icon = GFX_goal_bankruptcy
-		x = 40
+		x = 70
                 y = 0
                 available = {}
 		cost = 5
@@ -849,3 +849,381 @@
 		completion_reward = {
 		}
 	}
+
+        # Land army branch
+
+        shared_focus = {
+		id = ITA_new_army_plan
+		icon = GFX_goal_bankruptcy
+		x = 45
+                y = 0
+                available = {}
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}
+
+        shared_focus = {
+		id = ITA_appoint_messe
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_new_army_plan} 
+                mutually_exclusive = { focus = ITA_extend_badoglios_tenure }
+		x = -6
+		y = 1
+                relative_position_id = ITA_new_army_plan
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}      
+
+        shared_focus = {
+		id = ITA_iron_horses
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_appoint_messe }
+		x = 1
+		y = 1
+                relative_position_id = ITA_appoint_messe
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}    
+
+        shared_focus = {
+		id = ITA_contract_ferrari
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_iron_horses }
+		x = 1
+		y = 1
+                relative_position_id = ITA_iron_horses
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}   
+
+        shared_focus = {
+		id = ITA_support_research
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_iron_horses }
+		x = -1
+		y = 1
+                relative_position_id = ITA_iron_horses
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}   
+
+        shared_focus = {
+		id = ITA_frontline_fortifications
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_support_research }
+                prerequisite = { focus = ITA_contract_ferrari }
+		x = 1
+		y = 1
+                relative_position_id = ITA_support_research
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}  
+
+        shared_focus = {
+		id = ITA_revive_the_arditi
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_appoint_messe }
+		x = -2
+		y = 1
+                relative_position_id = ITA_appoint_messe
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_special_infantry_advancements
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_revive_the_arditi }
+		x = 0
+		y = 1
+                relative_position_id = ITA_revive_the_arditi
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_warriors_in_mountains
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_special_infantry_advancements }
+		x = 0
+		y = 1
+                relative_position_id = ITA_special_infantry_advancements
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_ready_for_the_coming_war
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_warriors_in_mountains }
+                prerequisite = { focus = ITA_frontline_fortifications }
+		x = 2
+		y = 1
+                relative_position_id = ITA_warriors_in_mountains 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+
+
+        shared_focus = {
+		id = ITA_extend_badoglios_tenure
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_new_army_plan} 
+                mutually_exclusive = { focus = ITA_appoint_messe }
+		x = 6
+		y = 1
+                relative_position_id = ITA_new_army_plan
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_watching_the_alps
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_extend_badoglios_tenure }
+		x = -1
+		y = 1
+                relative_position_id = ITA_extend_badoglios_tenure
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}      
+
+        shared_focus = {
+		id = ITA_seeing_to_the_austrian_front
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_watching_the_alps }
+		x = -1
+		y = 1
+                relative_position_id = ITA_watching_the_alps
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}      
+
+        shared_focus = {
+		id = ITA_seeing_to_the_french_front
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_watching_the_alps }
+		x = 1
+		y = 1
+                relative_position_id = ITA_watching_the_alps
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	}      
+
+        shared_focus = {
+		id = ITA_fortify_the_cities
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_seeing_to_the_austrian_front }
+                prerequisite = { focus = ITA_seeing_to_the_french_front }
+		x = -1
+		y = 1
+                relative_position_id = ITA_seeing_to_the_french_front 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_fast_tanks
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_extend_badoglios_tenure }
+		x = 2
+		y = 1
+                relative_position_id = ITA_extend_badoglios_tenure
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_guns_from_the_huns
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_fast_tanks }
+		x = 0
+		y = 1
+                relative_position_id = ITA_fast_tanks
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_our_new_playthings
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_guns_from_the_huns }
+		x = 0
+		y = 1
+                relative_position_id = ITA_guns_from_the_huns
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_ready_and_waiting
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_fortify_the_cities }
+                prerequisite = { focus = ITA_our_new_playthings }
+		x = 1
+		y = 1
+                relative_position_id = ITA_fortify_the_cities 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_the_day_of_mourning
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_extend_badoglios_tenure focus = ITA_appoint_messe }
+		x = 6
+		y = 1
+                relative_position_id = ITA_appoint_messe 
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_commemorating_the_fallen
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_the_day_of_mourning }
+		x = -1
+		y = 1
+                relative_position_id = ITA_the_day_of_mourning
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_learning_from_our_mistakes
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_the_day_of_mourning }
+		x = 1
+		y = 1
+                relative_position_id = ITA_the_day_of_mourning
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 
+
+        shared_focus = {
+		id = ITA_remember_the_guerra_mondiale
+		icon = GFX_goal_bankruptcy
+                prerequisite = { focus = ITA_commemorating_the_fallen }
+                prerequisite = { focus = ITA_learning_from_our_mistakes }
+		x = 1
+		y = 1
+                relative_position_id = ITA_commemorating_the_fallen
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+		}
+	} 

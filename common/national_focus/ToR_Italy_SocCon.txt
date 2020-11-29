@@ -7,7 +7,7 @@ focus_tree = {
 	shared_focus = ITA_fixing_our_economy
 	shared_focus = ITA_looking_outwards
         shared_focus = ITA_regia_aeronautica
-
+        shared_focus = ITA_new_army_plan
 
         #Conservative coalition branch
 
