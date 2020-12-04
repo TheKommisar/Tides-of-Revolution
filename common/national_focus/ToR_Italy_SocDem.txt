@@ -8,6 +8,7 @@ focus_tree = {
 	shared_focus = ITA_looking_outwards
         shared_focus = ITA_regia_aeronautica
         shared_focus = ITA_new_army_plan
+        shared_focus = ITA_kickstart_navy_funding
 
         #Social Democrat coalition branch
 

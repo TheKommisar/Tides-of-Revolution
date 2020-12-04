@@ -156,6 +156,67 @@ ITA_support_small_corporations:0 "Support Small Corporations"
 ITA_regulate_work_hours:0 "Shorten the Work Week"
 ITA_laissez_faire_economy:0 "Laissez Faire Economy"
 
+#military branch
+#army
+
+ITA_new_army_plan:0 "New Army Plan"
+ITA_new_army_plan_desc:0 "Our army is strong, although not as strong as the armies of our neighbours, neighbours who seek to wipe our existence off the face of the earth. Upgrading the condition of our army will prove imperative for our nation's defence and survival."
+ITA_appoint_messe:0 "Appoint Messe"
+ITA_iron_horses:0 "Iron Horses"
+ITA_support_research:0 "Upgrades for Support Corps"
+ITA_contract_ferrari:0 "Contracts for Ferrari"
+ITA_contract_ferrari_desc:0 "Ferrari trucks, Ferrari tanks, Ferrari planes, even! The benefits of a partnership between the military and the Ferrari company will be endless, as well as beneficial for the state, the company, and workers across the country."
+ITA_frontline_fortifications:0 "Frontline Fortifications"
+ITA_revive_the_arditi:0 "Revive the Arditi"
+ITA_special_infantry_advancements:0 "Special Infantry Advancements"
+ITA_warriors_in_mountains:0 "Warriors in the Mountains"
+ITA_ready_for_the_coming_war:0 "Ready For the Coming War"
+ITA_extend_badoglios_tenure:0 "Extend Badoglio's Tenure"
+ITA_fast_tanks:0 "Fast Tanks"
+ITA_guns_from_the_huns:0 "Guns from the Huns"
+ITA_shiny_brass_bombarders:0 "Shiny Brass Bombarders"
+ITA_watching_the_alps:0 "Watching the Alps"
+ITA_seeing_to_the_austrian_front:0 "Seeing to the Austrian Front"
+ITA_seeing_to_the_french_front:0 "Seeing to the French Front"
+ITA_fortify_the_cities:0 "Fortify the Cities"
+ITA_ready_and_waiting:0 "Ready and Waiting"
+ITA_the_day_of_mourning:0 "The Day of Mourning"
+ITA_commemorating_the_fallen:0 "Commemorating the Fallen"
+ITA_learning_from_our_mistakes:0 "Learning from Our Mistakes"
+ITA_remember_the_guerra_mondiale:0 "Remember the Guerra Mondiale"
+
+#navy
+
+ITA_kickstart_navy_funding:0 "Kickstart Navy Funding"
+ITA_war_at_sea:0 "War At Sea"
+ITA_walking_on_water:0 "Walking On Water"
+ITA_undersea_fleet:0 "Undersea Fleet"
+ITA_study_the_uboat:0 "Study the U-Boat"
+ITA_study_the_uboat_desc:0 "There is no competitor more serious for the title of the 'most deadly ship' than the infamous U-boat. Perhaps it is favourable for us to base our new submarine operations on the tactics of the old German naval submarines for our own, so our enemies may tremble before us."
+ITA_starve_them_off:0 "Starve Them Off"
+ITA_oversea_fleet:0 "Oversea Fleet"
+ITA_floating_fortresses:0 "Floating Fortresses"
+ITA_protect_our_convoys:0 "Protect Our Convoys"
+ITA_our_new_domain:0 "Our New Domain"
+ITA_mare_nostrum_desc:0 "The sea; forever our old domain, and once again, forever Our New Domain."
+ITA_aerial_umbrella:0 "Aerial Umbrella"
+ITA_carrier_conversions:0 "Carrier Conversions"
+
+#air force
+
+ITA_regia_aeronautica:0 "Regia Aeronautica"
+ITA_expand_airfields:0 "Expand Airfields"
+ITA_contract_italian_corporations:0 "Contract Italian Corportions"
+ITA_bomber_research:0 "Bomber Research"
+ITA_fighter_research:0 "Fighter Research"
+ITA_strategic_bombers:0 "Strategic Bombers"
+ITA_cas_trials:0 "CAS Trials"
+ITA_radar_experiments:0 "RADAR Experiments"
+ITA_defend_the_skies:0 "Defend the Skies"
+ITA_airborne_corps:0 "Airborne Corps"
+ITA_operazione_arciere:0 "Operazione Arciere"
+ITA_operazione_arciere_desc:0 "The radical Operation Archer is a plan formulated by the Air Force High Command for a mass-production program of aircraft - both military and civilian - at low cost."
+
 #Events
 #should be reintegrated
 
