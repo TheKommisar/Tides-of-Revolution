@@ -27,3 +27,12 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "waltzno2"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

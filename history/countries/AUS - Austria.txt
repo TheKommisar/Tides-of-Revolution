@@ -146,6 +146,20 @@ create_field_marshal = {
     logistics_skill = 2
 }
 
+create_field_marshal = {
+	name = "Joseph August von Habsburg-Lothringen"
+	portrait_path = "gfx/leaders/AUS/AUS_joseph_august.tga"
+	traits = {
+		politically_connected
+                charismatic
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
 create_corps_commander = {
 	name = "Erhard Raus"
 	portrait_path = "gfx/leaders/AUS/Portrait_Austria_Erhard_Raus.tga"
@@ -249,19 +263,6 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Otto von Habsburg-Lothringen"
-	portrait_path = "gfx/leaders/AUS/Portrait_AUS_Otto_I.tga"
-	traits = {
-		politically_connected
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
 }
 
 create_navy_leader = {

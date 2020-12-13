@@ -56,7 +56,10 @@ MEX_classic_liberal_ADJ:0 "Mexican"
 MEX_vanguardist_ADJ:0 "Mexican"
 
 
-
+MEX_serrano_gomez_junta:0 "Junta Rule"
+MEX_serrano_gomez_junta_desc:0 "Serrano Gomez Junta"
+MEX_foreign_exploitation:0 "Foreign Exploitation"
+MEX_general_strike:0 "General Strike"
 
 #Ministers
 #should be reintegrated
@@ -68,6 +71,10 @@ MEX_vanguardist_ADJ:0 "Mexican"
 
 #Events
 #should be reintegrated
+
+mexico.1.t:0 "Mexico in the 20th Century"
+mexico.1.d:0 "Filler text"
+mexico.1.a:0 "Dark days await us."
 
 #Descriptions
 

@@ -17,8 +17,6 @@ AUS_social_liberal_party:0 "Nationalliberale"
 AUS_social_liberal_party_long:0 "Nationalliberale Partei Österreichs"
 AUS_classic_liberal_party:0 "Landbund"
 AUS_classic_liberal_party_long:0 "Landbund"
-AUS_totalitarian_socialist_party:0 "Austromarxisten"
-AUS_totalitarian_socialist_party_long:0 "Austromarxisten Partei Österreichs"
 AUS_revolutionary_socialist_party:0 "SDAPÖ-Sozialisten"
 AUS_revolutionary_socialist_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs - Sozialisten"
 AUS_orthodox_marxist_party:0 "Austromarxisten"
@@ -59,7 +57,7 @@ AUS_orthodox_marxist_party_long:0 "Austromarxisten Partei Österreichs"
  AUS_vanguardist_ADJ:0 "Danubian"
 
 
-
+AUS_blue_and_beautiful_danube:0 "The Blue and Beautiful Danube"
 
 #Ministers
 #should be reintegrated
