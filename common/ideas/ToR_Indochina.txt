@@ -1,0 +1,30 @@
+ideas = {
+    country = {
+        
+        ICH_unstable_state = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_disjointed_gov
+
+            modifier = {
+                political_power_gain = -0.25
+                stability_factor = -0.25
+                war_support_factor = 0.25
+            }
+        }
+
+        ICH_sick_man_of_asia = {
+            allowed = { original_tag = ICH }
+
+            picture = raj_risk_of_famine
+
+            modifier = {
+                consumer_goods_factor = 0.05
+                production_factory_max_efficiency_factor = -0.15
+                production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = 0.15
+            }
+        }
+    }
+}
