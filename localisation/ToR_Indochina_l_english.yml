@@ -1,14 +1,12 @@
 ﻿l_english:
  
- # Parties
- ICH_totalitarian_socialist_party:0 "Viet Minh"
- ICH_totalitarian_socialist_party_long:0 "League for the Independence of Vietnam"
- ICH_vanguardist_party:0 "Viet Minh"
- ICH_vanguardist_party_long:0 "League for the Independence of Vietnam"
- ICH_orthodox_marxist_party:0 "Viet Minh"
- ICH_orthodox_marxist_party_long:0 "League for the Independence of Vietnam"
- ICH_revolutionary_socialist_party:0 "Viet Minh"
- ICH_revolutionary_socialist_party_long:0 "League for the Independence of Vietnam"
+ ### Parties
+ ICH_vanguardist_party:0 "ICP"
+ ICH_vanguardist_party_long:0 "Indochinese Communist Party"
+ ICH_orthodox_marxist_party:0 "ICP"
+ ICH_orthodox_marxist_party_long:0 "Indochinese Communist Party"
+ ICH_revolutionary_socialist_party:0 "ICP"
+ ICH_revolutionary_socialist_party_long:0 "Indochinese Communist Party"
  ICH_social_democrat_party:0 "VNQDD"
  ICH_social_democrat_party_long:0 "Vietnamese Nationalist Party"
  ICH_social_liberal_party:0 "Reform Party"
@@ -24,7 +22,7 @@
  ICH_national_populist_party:0 "Cao Dai"
  ICH_national_populist_party_long:0 "The Great Faith for the Third Universal Redemption"
 
- # Country Names
+ ### Country Names
  ICH_totalitarian_socialist:0 "Indochinese Union"
  ICH_totalitarian_socialist_DEF:0 "The Indochinese Union"
  ICH_vanguardist:0 "Indochinese Union"
@@ -48,10 +46,36 @@
  ICH_national_populist:0 "Indochinese State"
  ICH_national_populists_desc:0 "The State of Indochina"
 
- # Ideas
+ ### Ideas
  ICH_unstable_state:0 "Unstable State"
  ICH_unstable_state_desc:0 "The Independence of Indochina has been achieved, however, the unity of the Indochinese people are now in shambles, many factions are now vying for power; and the government is now arguing amongst themselves."
  ICH_sick_man_of_asia:0 "Sick Man of Asia"
  ICH_sick_man_of_asia_desc:0 "The instability of our state has greatly affected our trade and have halted foreign investments."
  
-  
+ ### Focus
+ ICH_into_the_modern_age:0 "Into the Modern Age"
+ ICH_into_the_modern_age_desc:0 ""
+ ICH_infrastructure_projects:0 "Infrastructure Projects"
+ ICH_infrastructure_projects_desc:0 ""
+ ICH_electronic_innovations:0 "Electronic Innovations"
+ ICH_electronic_innovations_desc:0 ""
+ ICH_industrial_innovations:0 "Industrial Innovations"
+ ICH_industrial_innovations_desc:0 ""
+ ICH_university_of_hanoi:0 "University of Hanoi"
+ ICH_university_of_hanoi_desc:0 ""
+ ICH_an_atom_divisible:0 "An Atom Divisible"
+ ICH_an_atom_divisible_desc:0 ""
+ ICH_rocketry:0 "Rocketry"
+ ICH_rocketry_desc:0 ""
+ ICH_expand_current_industries:0 "Expand Current Industries"
+ ICH_expand_current_industries_desc:0 ""
+ ICH_construct_new_industries:0 "Construct New Industries"
+ ICH_construct_new_industries_desc:0 ""
+ ICH_expand_current_factories:0 "Expand Current Factories"
+ ICH_expand_current_factories_desc:0 ""
+ ICH_construct_new_factories:0 "Construct New Factories"
+ ICH_construct_new_factories_desc:0 ""
+ ICH_synthetic_resources_development:0 "Synthetic Resource Development"
+ ICH_synthetic_resources_development_desc:0 ""
+ ICH_new_excavation_methods:0 "New Excavation Methods"
+ ICH_new_excavation_methods_desc:0 ""

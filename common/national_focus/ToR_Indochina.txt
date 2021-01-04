@@ -1,0 +1,384 @@
+# Indochinese Focus Tree
+# created by: dax0102
+
+focus_tree = {
+    id = indochinese_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ICH
+		}
+	}
+
+    # Into the Modern Age
+    focus = {
+        id = ICH_into_the_modern_age
+        icon = GFX_focus_generic_the_giant_wakes
+        x = 4
+        y = 0
+        cost = 10
+        completion_reward = {
+            add_tech_bonus = {
+                technology = construction1
+                technology = construction2
+                technology = construction3
+                technology = construction4
+                technology = construction5
+                bonus = 1.0
+                uses = 2
+            }
+        }
+    }
+
+    # Infrastructure Projects
+    focus = {
+        id = ICH_infrastructure_projects
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_into_the_modern_age }
+        relative_position_id = ICH_into_the_modern_age
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+        }
+    }
+
+    # Electronic Innovations
+    focus = {
+        id = ICH_electronic_innovations
+        icon = GFX_goal_machine
+        x = 1
+        y = 1
+        cost = 5
+        mutually_exclusive = { focus = ICH_industrial_innovations }
+        prerequisite = { focus = ICH_infrastructure_projects }
+        relative_position_id = ICH_infrastructure_projects
+        completion_reward = {
+            add_tech_bonus = {
+                category = electronics
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Industrial Innovations
+    focus = {
+        id = ICH_industrial_innovations
+        icon = GFX_goal_generic_production
+        x = -1
+        y = 1
+        cost = 5
+        mutually_exclusive = { focus = ICH_electronic_innovations }
+        prerequisite = { focus = ICH_infrastructure_projects }
+        relative_position_id = ICH_infrastructure_projects
+        completion_reward = {
+            add_tech_bonus = {
+                category = industry
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # University of Hanoi
+    focus = {
+        id = ICH_university_of_hanoi
+        icon = GFX_focus_research
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = {
+            focus = ICH_industrial_innovations
+            focus = ICH_electronic_innovations
+        }
+        relative_position_id = ICH_infrastructure_projects
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+
+    # An Atom Divisible
+    focus = {
+        id = ICH_an_atom_divisible
+        icon = GFX_focus_wonderweapons
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_university_of_hanoi }
+        relative_position_id = ICH_university_of_hanoi
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = nuclear
+            }
+        }
+    }
+
+    # Rocketry
+    focus = {
+        id = ICH_rocketry
+        icon = GFX_focus_rocketry
+        x = 1
+        y = 1
+        cost = 10 
+        prerequisite = { focus = ICH_university_of_hanoi }
+        relative_position_id = ICH_university_of_hanoi
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = rocketry
+            }
+        }
+    }
+
+    # Expand Current Industries
+    focus = {
+        id = ICH_expand_current_industries
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -3
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_into_the_modern_age }
+        relative_position_id = ICH_into_the_modern_age
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Construct New Industries
+    focus = {
+        id = ICH_construct_new_industries
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_expand_current_industries }
+        prerequisite = { focus = ICH_infrastructure_projects }
+        relative_position_id = ICH_expand_current_industries
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Expand Current Factories
+    focus = {
+        id = ICH_expand_current_factories
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 3
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_into_the_modern_age }
+        relative_position_id = ICH_into_the_modern_age
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Construct New Factories
+    focus = {
+        id = ICH_construct_new_factories
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_expand_current_factories }
+        prerequisite = { focus = ICH_infrastructure_projects }
+        relative_position_id = ICH_expand_current_factories
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Synthetic Resource Development
+    focus = {
+        id = ICH_synthetic_resources_development
+        icon = GFX_goal_generic_oil_refinery
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { 
+            focus = ICH_construct_new_industries 
+            focus = ICH_industrial_innovations
+        }
+        relative_position_id = ICH_construct_new_industries
+        completion_reward = {
+            add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = synth_resources
+			}
+        }
+    }
+
+    # New Excavation Methods
+    focus = {
+        id = ICH_new_excavation_methods
+        icon = GFX_goal_generic_construction2
+        x = -1
+        y = 1
+        prerequisite = { 
+            focus = ICH_construct_new_factories
+            focus = ICH_electronic_innovations
+        }
+        relative_position_id = ICH_construct_new_factories
+        completion_reward = {
+            add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = excavation_tech
+			}
+        }
+    }
+
+}
