@@ -1,8 +1,8 @@
-# Indochinese Focus Tree
+# IndoICHnese Focus Tree
 # created by: dax0102
 
 focus_tree = {
-    id = indochinese_focus
+    id = indoICHnese_focus
 	
 	country = {
 		factor = 0
@@ -12,6 +12,12 @@ focus_tree = {
 			tag = ICH
 		}
 	}
+
+    #############################################
+    #                                           #
+    #                   INDUSTRY                #
+    #                                           #
+    #############################################
 
     # Into the Modern Age
     focus = {
@@ -70,7 +76,7 @@ focus_tree = {
     # Electronic Innovations
     focus = {
         id = ICH_electronic_innovations
-        icon = GFX_goal_machine
+        icon = GFX_goal_maICHne
         x = 1
         y = 1
         cost = 5
@@ -381,4 +387,588 @@ focus_tree = {
         }
     }
 
+    #############################################
+    #                                           #
+    #                AIR FORCE                  #
+    #                                           #
+    #############################################
+
+    # The Indochinese Air Force
+    focus = {
+        id = ICH_the_indochinese_air_force
+        icon = GFX_goal_generic_build_airforce
+        x = 11
+        y = 0
+        cost = 3
+        completion_reward = {
+            air_experience = 10
+        }
+    }
+
+    # Fighter Modernization
+    focus = {
+        id = ICH_fighter_modernization
+        icon = GFX_goal_generic_air_fighter
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_indochinese_air_force }
+        relative_position_id = ICH_the_indochinese_air_force
+        completion_reward = {
+            add_tech_bonus = {
+                category = light_fighter
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Bomber Modernization
+    focus = {
+        id = ICH_bomber_modernization
+        icon = GFX_goal_generic_air_bomber
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_indochinese_air_force }
+        relative_position_id = ICH_the_indochinese_air_force
+        completion_reward = {
+            add_tech_bonus = {
+                category = tactical_bomber
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # CAS Modernization
+    focus = {
+        id = ICH_cas_modernization
+        icon = GFX_goal_generic_CAS
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_indochinese_air_force }
+        relative_position_id = ICH_the_indochinese_air_force
+        completion_reward = {
+            add_tech_bonus = {
+                category = cas_bomber
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Air Doctrines
+    focus = {
+        id = ICH_air_doctrines
+        icon = GFX_goal_generic_air_doctrine
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = ICH_fighter_modernization
+            focus = ICH_bomber_modernization
+            focus = ICH_cas_modernization
+        }
+        relative_position_id = ICH_bomber_modernization
+        completion_reward = {
+            add_tech_bonus = {
+                category = air_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    #############################################
+    #                                           #
+    #                     NAVY                  #
+    #                                           #
+    #############################################
+
+    # The Indochinese Navy
+    focus = {
+        id = ICH_the_indochinese_navy
+        icon = GFX_goal_generic_build_navy
+        x = 0
+        y = 1
+        cost = 3
+        relative_position_id = ICH_air_doctrines
+        completion_reward = {
+            navy_experience = 10
+        }
+    }
+
+    # Construct the Saigon Dockyards
+    focus = {
+        id = ICH_construct_the_saigon_dockyards
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_new_industrial_techniques }
+        prerequisite = { focus = ICH_the_indochinese_navy }
+        relative_position_id = ICH_the_indochinese_navy
+        completion_reward = {
+            613 = {
+                if = {
+					limit = {
+                        is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+            }
+        }
+    }
+    
+    # Expand Shipbuilding Capabilities
+    focus = {
+        id = ICH_expand_shipbuilding_capabilities
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_construct_the_saigon_dockyards }
+        prerequisite = { focus = ICH_construct_new_factories }
+        relative_position_id = ICH_construct_the_saigon_dockyards
+        completion_reward = {
+            random_owned_controlled_state = {
+                if = {
+					limit = {
+                        is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+            }
+            random_owned_controlled_state = {
+                if = {
+					limit = {
+                        is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+            }
+        }
+    }
+
+    # Flexible Navy
+    focus = {
+        id = ICH_flexible_navy
+        icon = GFX_goal_generic_navy_carrier
+        x = 0
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_large_navy }
+        prerequisite = { focus = ICH_the_indochinese_navy }
+        relative_position_id = ICH_the_indochinese_navy
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 2.0
+                category = cl_tech
+                category = ca_tech
+                uses = 1
+            }
+            add_tech_bonus = {
+                bonus = 1.0
+                category = bb_tech
+                uses = 1
+            }
+        }
+    }
+
+    # Capital Ship Tactics
+    focus = {
+        id = ICH_capital_ship_tactics
+        icon = GFX_goal_generic_navy_battleship
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_flexible_navy }
+        relative_position_id = ICH_flexible_navy
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_fleet_in_being
+                category = cat_base_strike
+                bonus = 1.0
+                uses = 2
+            }
+        }
+    }
+
+    # Large Navy
+    focus = {
+        id = ICH_large_navy
+        icon = GFX_goal_generic_navy_submarine
+        x = 2
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_flexible_navy }
+        prerequisite = { focus = ICH_the_indochinese_navy }
+        relative_position_id = ICH_the_indochinese_navy
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 2.0
+                category = dd_tech
+                uses = 1
+            }
+            add_tech_bonus = {
+                bonus = 2.0
+                category = ss_tech
+                uses = 1
+            }
+        }
+    }
+
+    # Wolfpack Tactics
+    focus = {
+        id = ICH_wolfpack_tactics
+        icon = GFX_goal_generic_wolf_pack
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_large_navy }
+        relative_position_id = ICH_large_navy
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_trade_interdiction
+                bonus = 1.0
+                uses = 2
+            }
+        }
+    }
+
+    #############################################
+    #                                           #
+    #                    ARMY                   #
+    #                                           #
+    #############################################
+
+    # The Indochinese Army
+    focus = {
+        id = ICH_the_indochinese_army
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 19
+        y = 0
+        cost = 3
+        completion_reward = {
+            army_experience = 10
+        }
+    }
+    
+    # Speed Focus
+    focus = {
+        id = ICH_speed_focus
+        icon = GFX_goal_planning_bonus
+        x = -1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_planning_focus }
+        prerequisite = { focus = ICH_the_indochinese_army }
+        relative_position_id = ICH_the_indochinese_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_mobile_warfare
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Modern Logistics
+    focus = {
+        id = ICH_modern_logistics
+        icon = GFX_goal_RUS_Markov_plan
+        x = -3
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_speed_focus }
+        relative_position_id = ICH_speed_focus
+        completion_reward = {
+            add_tech_bonus = {
+                category = logistics_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Armor Research
+    focus = {
+        id = ICH_armor_research
+        icon = GFX_goal_generic_army_tanks
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_modern_logistics }
+        relative_position_id = ICH_modern_logistics
+        completion_reward = {
+            add_tech_bonus = {
+                category = armor
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Army Motorization
+    focus = {
+        id = ICH_army_motorization
+        icon = GFX_goal_generic_army_motorized
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_speed_focus }
+        relative_position_id = ICH_speed_focus
+        completion_reward = {
+            add_tech_bonus = {
+                category = motorized_equipment
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Signal Companies
+    focus = {
+        id = ICH_signal_companies
+        icon = GFX_goal_radio
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_army_motorization }
+        relative_position_id = ICH_army_motorization
+        completion_reward = {
+            add_tech_bonus = {
+                category = signal_company_tech
+                bonus = 1.0
+                uses = 1.0
+            }
+        }
+    }
+
+    # Tank Divisions
+    focus = {
+        id = ICH_tank_divisions
+        icon = GFX_goal_generic_army_tanks
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_signal_companies }
+        prerequisite = { focus = ICH_armor_research }
+        relative_position_id = ICH_signal_companies
+        completion_reward = {
+            add_tech_bonus = {
+                category = armor
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Mechanized Experiments
+    focus = {
+        id = ICH_mechanized_experiments
+        icon = GFX_goal_generic_army_artillery
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_tank_divisions }
+        relative_position_id = ICH_tank_divisions
+        completion_reward = {
+            add_tech_bonus = {
+                category = motorized_equipment
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Planning Focus
+    focus = {
+        id = ICH_planning_focus
+        icon = GFX_goal_national_mobilization
+        x = 1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_speed_focus }
+        prerequisite = { focus = ICH_the_indochinese_army }
+        relative_position_id = ICH_the_indochinese_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_grand_battle_plan
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # The General Staff
+    focus = {
+        id = ICH_the_general_staff
+        icon = GFX_focus_RAJ_lions_of_the_great_war
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_planning_focus }
+        relative_position_id = ICH_planning_focus
+        completion_reward = {
+            add_ideas = ICH_general_staff_idea
+        }
+    }
+
+    # Equipment Standardization
+    focus = {
+        id = ICH_equipment_standardization
+        icon = GFX_goal_generic_small_arms
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_general_staff }
+        relative_position_id = ICH_the_general_staff
+        completion_reward = {
+            add_tech_bonus = {
+                category = infantry_weapons
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Reconnaisance Improvements
+    focus = {
+        id = ICH_reconnaissance_improvements
+        icon = GFX_goal_generic_cavalry
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_equipment_standardization }
+        prerequisite = { focus = ICH_modern_doctrines }
+        relative_position_id = ICH_equipment_standardization
+        completion_reward = {
+            add_tech_bonus = {
+                category = recon_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Specialized Equipment Production
+    focus = {
+        id = ICH_specialized_equipment_production
+        icon = GFX_goal_national_arsenal
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_reconnaissance_improvements }
+        relative_position_id = ICH_reconnaissance_improvements
+        completion_reward = {
+            add_ideas = ICH_dedicated_weapons_factories
+        }
+    }
+
+    # Army Engineers
+    focus = {
+        id = ICH_army_engineers
+        icon = GFX_goal_army_guy_2
+        x = 3
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_planning_focus }
+        relative_position_id = ICH_planning_focus
+        completion_reward = {
+            add_tech_bonus = {
+                category = engineers_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Modern Doctrines
+    focus = {
+        id = ICH_modern_doctrines
+        icon = GFX_goal_generic_army_doctrines
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_army_engineers }
+        relative_position_id = ICH_army_engineers
+        completion_reward = {
+            add_tech_bonus = {
+                category = land_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Artillery Modernization
+    focus = {
+        id = ICH_artillery_modernization
+        icon = GFX_goal_generic_army_artillery2
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = {
+            focus = ICH_speed_focus
+            focus = ICH_planning_focus
+        }
+        relative_position_id = ICH_the_indochinese_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = artillery
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # A Reformed Army
+    focus = {
+        id = ICH_a_reformed_army
+        icon = GFX_goal_conscription
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_artillery_modernization }
+        relative_position_id = ICH_artillery_modernization
+        completion_reward = {
+            add_ideas = ICH_the_indochinese_army
+        }
+    }
 }
