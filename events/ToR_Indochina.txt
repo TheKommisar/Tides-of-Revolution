@@ -1,0 +1,222 @@
+# Indochinese Events
+# Created by: dax0102
+
+add_namespace = ich
+
+# Intro Event
+country_event = {
+    id = ich.0
+    title = ich.0.t
+    desc = ich.0.d
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = ich.0.a
+    }
+}
+
+# Elections
+country_event = {
+    id = ich.1
+    title = ich.1.t 
+    desc = ich.1.d
+
+	trigger = {
+		tag = ICH
+		date > 1936.8.12
+	}
+    	
+	mean_time_to_happen = {
+		days = 0
+	}
+
+    # SocDem
+    option = {
+        name = ich.1.a
+
+        add_popularity = {
+            ideology = social_democrat
+            popularity = 0.05
+        }
+
+        hidden_effect = {
+            set_country_flag = ICH_SOC_DEM_VICTORY_FLAG
+
+            country_event = { id = ich.2 days = 14 }
+        }
+    }
+
+    # SocLib
+    option = {
+        name = ich.1.b
+
+        set_politics = {
+            ruling_party = social_liberal
+            elections_allowed = yes
+        }
+
+        add_popularity = {
+            ideology = social_liberal
+            popularity = 0.05
+        }
+
+        hidden_effect = {
+            set_country_flag = ICH_SOC_LIB_VICTORY_FLAG
+        }
+    }
+
+    # Commie
+    option = {
+        name = ich.1.c
+
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.15
+        }
+
+        hidden_effect = {
+            set_country_flag = ICH_WORKERS_VICTORY_FLAG
+        }
+    }
+}
+
+# Allegations of Elections Fraud
+country_event = {
+    id = ich.2
+    title = ich.2.t
+    desc = ich.2.d
+
+    is_triggered_only = yes
+
+    # Let them whine
+    option = {
+        name = ich.2.a
+
+        add_political_power = -150
+        hidden_effect = {
+            country_event = { id = ich.3 days = 7 }
+        }
+    }
+}
+
+# Protests
+country_event = {
+    id = ich.3
+    title = ich.3.t
+    desc = ich.3.d
+
+    is_triggered_only = yes
+
+    # Send in the security forces
+    option = {
+        name = ich.3.a
+
+        hidden_effect = {
+            country_event = { id = ich.4 days = 21 }
+        }
+    }
+}
+
+# ICP Coup
+country_event = {
+    id = ich.4
+    title = ich.4
+    desc = ich.4
+
+    is_triggered_only = yes
+
+    # The Army crushed the coup
+    option = {
+        name = ich.4.a
+
+        hidden_effect = {
+            country_event = { id = ich.5 days = 2 }
+        }
+    }
+
+    # The Army joins the coup
+    option = {
+        name = ich.4.b
+
+        hidden_effect = {
+            country_event = { id = ich.6 days = 2 }
+        }
+    }
+}
+
+# The General's Decisions
+country_event = {
+    id = ich.5
+    title = ich.5.t
+    desc = ich.5.d
+
+    is_triggered_only = yes
+
+    # Restore Democracy
+    option = {
+        name = ich.5.a
+
+        add_popularity = {
+            ideology = social_democrat
+            popularity = 0.05
+        }
+
+        add_stability = 0.05
+    }
+
+    # Military Dictatorship
+    option = {
+        name = ich.5.b
+
+        set_politics = {
+            ruling_party = authoritarian_democrat
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = authoritarian_democrat
+            popularity = 0.15
+        }
+
+        hidden_effect = {
+            clr_country_flag = ICH_SOC_DEM_VICTORY_FLAG
+            set_country_flag = ICH_ARMY_COUP_FLAG
+        }
+    }
+}
+
+# ICP Triumphant
+country_event = {
+    id = ich.6
+    title = ich.6.t
+    desc = ich.6.d
+    
+    is_triggered_only = yes
+
+    option = {
+        name = ich.6.a
+
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.05
+        }
+
+        hidden_effect = {
+            clr_country_flag = ICH_SOC_DEM_VICTORY_FLAG
+            set_country_flag = ICH_WORKERS_VICTORY_FLAG
+        }
+    }
+}

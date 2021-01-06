@@ -1,3 +1,6 @@
+# Indochinese Ideas, Ministers and Companies
+# Created by: dax0102
+
 ideas = {
     country = {
         
@@ -9,7 +12,7 @@ ideas = {
             modifier = {
                 political_power_gain = -0.25
                 stability_factor = -0.25
-                war_support_factor = 0.25
+                war_support_factor = -0.25
             }
         }
 
@@ -242,7 +245,7 @@ ideas = {
             modifier = {
                 stability_factor = 0.05
                 war_support_factor = 0.05
-                surrender_limit = -0.05
+                surrender_limit = 0.05
             }
         }
 
@@ -275,7 +278,7 @@ ideas = {
 
             modifier = {
                 political_power_gain = 0.15
-                surrender_limit = -0.05
+                surrender_limit = 0.05
             }
         }
 
@@ -314,7 +317,7 @@ ideas = {
             }
         }
 
-        ICH_indochinese_militarism = {
+        ICH_indochinese_militarism_idea = {
             allowed = { original_tag = ICH }
 
             picture = generic_manpower_bonus

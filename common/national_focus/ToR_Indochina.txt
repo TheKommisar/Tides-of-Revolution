@@ -1345,6 +1345,7 @@ focus_tree = {
         }
         relative_position_id = ICH_revolutionary_guards
         completion_reward = {
+            remove_ideas = ICH_unstable_state
             add_timed_idea = {
                 idea = ICH_purge_the_reactionaries
                 days = 360
@@ -1479,17 +1480,17 @@ focus_tree = {
         }
     }
 
-    # Seek for Investments
+    # Free Education
     focus = {
-        id = ICH_seek_for_investments
-        icon = GFX_goal_generic_improve_relations
+        id = ICH_free_education
+        icon = GFX_focus_research
         x = 0
         y = 2
         cost = 10
         prerequisite = { focus = ICH_pass_the_labour_act }
         relative_position_id = ICH_pass_the_labour_act
         completion_reward = {
-            # events
+            add_research_slot = 1
         }
     }
 
@@ -1497,27 +1498,16 @@ focus_tree = {
     focus = {
         id = ICH_stand_for_democracy
         icon = GFX_goal_government_icon
-        x = -1
+        x = 0
         y = 1
         cost = 10
         prerequisite = { focus = ICH_economic_recovery_act }
+        prerequisite = { focus = ICH_free_education }
+        prerequisite = { focus = ICH_commitee_on_state_security }
         relative_position_id = ICH_economic_recovery_act
         completion_reward = {
+            remove_ideas = ICH_unstable_state
             add_ideas = ICH_democratic_defense
-        }
-    }
-
-    # Free Education
-    focus = {
-        id = ICH_free_education
-        icon = GFX_focus_research
-        x = 1
-        y = 1
-        cost = 10
-        prerequisite = { focus = ICH_economic_recovery_act }
-        relative_position_id = ICH_economic_recovery_act
-        completion_reward = {
-            add_research_slot = 1
         }
     }
         
@@ -1670,6 +1660,7 @@ focus_tree = {
         prerequisite = { focus = ICH_research_incentives }
         relative_position_id = ICH_kickstart_the_economy
         completion_reward = {
+            remove_ideas = ICH_unstable_state
             add_ideas = ICH_democratic_defense
         }
     }
@@ -1821,6 +1812,7 @@ focus_tree = {
         prerequisite = { focus = ICH_leave_the_business_to_the_businessmen }
         relative_position_id = ICH_indochinese_militarism
         completion_reward = {
+            remove_ideas = ICH_unstable_state
             add_stability = 0.15
             add_war_support = 0.15
         }

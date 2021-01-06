@@ -53,6 +53,7 @@
  ICH_VANGUARDIST_POLICY_FLAG:0 "We have opted to elect the Vanguardists."
  ICH_SOC_DEM_VICTORY_FLAG:0 "The VNQDD have secured their power after the election."
  ICH_SOC_LIB_VICTORY_FLAG:0 "The Reform Party have established their power after the election."
+ ICH_ARMY_COUP_FLAG:0 "The Army have established a Military Government."
 
  ### Ideas
  ICH_unstable_state:0 "Unstable State"
@@ -242,8 +243,6 @@
  ICH_commitee_on_state_security_desc:0 ""
  ICH_economic_recovery_act:0 "Economic Recovery Act"
  ICH_economic_recovery_act_desc:0 ""
- ICH_seek_for_investments:0 "Seek for Investments"
- ICH_seek_for_investments_desc:0 ""
  ICH_stand_for_democracy:0 "Stand for Democracy"
  ICH_stand_for_democracy_desc:0 ""
  ICH_free_education:0 "Free Education"
@@ -274,7 +273,7 @@
  ICH_the_army_in_power_desc:0 ""
  ICH_purge_the_red_menace:0 "Purge the Red Menace"
  ICH_purge_the_red_menace_desc:0 ""
- ICH_indochinese_militarism:0 "Indochines Militarism"
+ ICH_indochinese_militarism:0 "Indochinese Militarism"
  ICH_state_sponsored_education:0 "State Sponsored Education"
  ICH_state_sponsored_education_desc:0 ""
  ICH_corporate_alliance:0 "Corporate Alliances"
@@ -289,3 +288,32 @@
  ICH_secret_police_desc:0 ""
  ICH_centralized_power:0 "Centralized Power"
  ICH_centralized_power_desc:0 ""
+
+ ### Events
+ ich.1.t:0 "The 1936 Elections"
+ ich.1.d:0 "Today, the Indochinese people will elect their representative to the Parliament! The elections have been tightly fought, and the results are awaited with much anticipation. The fate of several parties and, of course, the Federation itself could be decided today.\n\nIf the Social Democrats manage to secure enough votes, they will hold another term and will guide our country into the coming years. Another possibility would be the election of the reformers, that advocates for much more reforms in the Federation.\n\nWho shall win?"
+ ich.1.a:0 "The Democrats still holds majority"
+ ich.1.b:0 "The Liberals won by a slim margin"
+ ich.1.c:0 "The Communists win a suprise majority"
+
+ ich.2.t:0 "ICP Allegations"
+ ich.2.d:0 "This morning, at a press conference in the capital city, members and officials of the Indochinese Communist Party, headed by Nguyen Ai Quoc, have accussed our government of conducting election fraud in the previous general election. This has been a suprise to us, as they have been hungry for power since our independence."
+ ich.2.a:0 "Let them whine"
+
+ ich.3.t:0 "Protests!"
+ ich.3.d:0 "As much to our suprise, protests have erupted in several metropolitan areas of our country. Many are calling for the resignation of the current administration whom have been accused of fraud by the ICP and its supporters. The situtation is certainly getting tense hour by hour as many within the industrial workforce are joining the protesters in the streets. Some officials recommends sending security forces to ensure order and that the country will not fall into chaos."
+ ich.3.a:0 "Send in the security forces."
+
+ ich.4.t:0 "Marxist Coup in Saigon"
+ ich.4.d:0 "The status of the protests are worsening day after day, and today, the protesters are now seizing control many government facilities and buildings throughout the city. Fortunately, we have been prepared and have mobilized the security forces."
+ ich.4.a:0 "The army have crushed the coup"
+ ich.4.b:0 "The army have joined the coup"
+
+ ich.5.t:0 "The Revolution is Defeated!"
+ ich.5.d:0 "Our forces defeated the rebellion of the marxists and have occupied key locations in the capital. However, whispers within the Army's High Command suggests that they are talks between the military that this may be the chance to seize power for themselves and establish a dictatorship of their own."
+ ich.5.a:0 "The Army restores the legitimate government to power"
+ ich.5.b:0 "The Army establishes a Military Government"
+
+ ich.6.t:0 "ICP Triumphant!"
+ ich.6.d:0 "With most of the security forces have joined our cause against the corrupt capitalist government, we have successfully taken control of the capital and with that, the entire Federation."
+ ich.6.a:0 "Break the Chains!"
