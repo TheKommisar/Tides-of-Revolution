@@ -23,7 +23,306 @@ ideas = {
                 production_factory_max_efficiency_factor = -0.15
                 production_speed_buildings_factor = -0.15
 				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+            }
+        }
+
+        ICH_the_indochinese_army = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_manpower_bonus
+
+            modifier = {
+                army_attack_factor = 0.05
+                army_defence_factor = 0.05
+            }
+        }
+
+        ICH_empowered_worker_unions = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_production_bonus  
+
+            modifier = {
+                production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = 0.15
 				industrial_capacity_dockyard = 0.15
+            }
+        }
+
+        ICH_farmer_unions = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_agrarian_reform
+
+            modifier = {
+                supply_consumption_factor = -0.15
+                consumer_goods_factor = -0.02
+            }
+        }
+
+        ICH_workers_cooperatives = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_production_bonus
+
+            modifier = {
+                production_factory_max_efficiency_factor = 0.05
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
+        ICH_nationalized_resource = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_exploit_mines
+
+            modifier = {
+                min_export = 0.05
+                consumer_goods_factor = -0.05
+            }
+        }
+
+        ICH_collective_farms_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_agrarian_society
+
+            modifier = {
+                supply_consumption_factor = -0.15
+                production_factory_max_efficiency_factor = 0.05
+            }
+        }
+
+        ICH_worker_incentives_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = ROM_king_carol_ii_hedonist
+
+            modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+                production_speed_buildings_factor = 0.1
+            }
+        }
+
+        ICH_state_farms_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_agrarian_society
+
+            modifier = {
+                political_power_gain = -0.05
+                consumer_goods_factor = -0.05
+                supply_consumption_factor = -0.15
+            }
+        }
+
+        ICH_state_unions = {
+            allowed = { original_tag = ICH }
+
+            picture = FRA_factory_strikes
+
+            modifier = {
+                stability_factor = -0.05
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
+        ICH_state_quotas_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_production_bonus
+
+            modifier = {
+                political_power_gain = -0.05
+                production_factory_max_efficiency_factor = 0.15
+            }
+        }
+
+        ICH_revolutionary_guards_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_communist_army
+
+            modifier = {
+                training_time_factor = -0.15
+                out_of_supply_factor = -0.15
+            }
+        }
+
+        ICH_dpc_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = saf_soviet_advisers
+
+            modifier = {
+                army_defence_factor = 0.15
+                army_org_factor = 0.025
+                dig_in_speed_factor = 0.15
+            }
+        }
+
+        ICH_fsb_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_spy_political
+
+            modifier = {
+                decryption = 1
+                encryption = 1
+            }
+        }
+
+        ICH_purge_the_reactionaries = {
+            allowed = { original_tag = ICH }
+
+            picture = officers_purged
+
+            modifier = {
+                weekly_stability = 0.25
+                weekly_war_support = 0.25
+                authoritarian_democrat_drift = -0.05
+                paternal_autocrat_drift = -0.05
+                national_populist_drift = -0.05
+            }
+        }
+
+        ICH_stable_currency = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_foreign_capital
+
+            modifier = {
+                consumer_goods_factor = -0.05
+            }
+        }
+
+        ICH_corporate_agreements = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_constitutional_guarantees
+
+            modifier = {
+                production_factory_max_efficiency_factor = 0.05
+            }
+        }
+
+        ICH_union_agreements = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_deal_with_the_devil2
+
+            modifier = {
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
+        ICH_commitee_on_state_security_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_secret_police
+
+            modifier = {
+                compliance_growth_on_our_occupied_states = -0.15
+                required_garrison_factor = -0.15
+                foreign_subversive_activites = -0.15
+                subversive_activites_upkeep = 0.15
+            }
+        }
+
+        ICH_democratic_defense = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_democratic_drift_bonus
+
+            modifier = {
+                stability_factor = 0.05
+                war_support_factor = 0.05
+                surrender_limit = -0.05
+            }
+        }
+
+        ICH_womens_rights = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_victors_of_ww1
+
+            modifier = {
+                conscription = 0.05
+                conscription_factor = 0.15
+            }
+        }
+
+        ICH_workers_rights = {
+            allowed = { original_tag = ICH }
+
+            picture = jap_the_unthinkable_option
+
+            modifier = {
+                industrial_capacity_factory = 0.025
+                industrial_capacity_dockyard = 0.025
+            }
+        }
+
+        ICH_liberal_state = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_victors_of_ww1
+
+            modifier = {
+                political_power_gain = 0.15
+                surrender_limit = -0.05
+            }
+        }
+
+        ICH_red_purge = {
+            allowed = { original_tag = ICH }
+
+            picture = officers_purged
+
+            modifier = {
+                vanguardist_drift = -0.25
+                orthodox_marxist_drift = -0.25
+                revolutionary_socialist_drift = -0.25
+            }
+        }
+
+        ICH_corporate_economy = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_goods_red_bonus
+
+            modifier = {
+                production_factory_max_efficiency_factor = 0.15
+                production_speed_buildings_factor = 0.15
+                global_building_slots_factor = 0.25
+            }
+        }
+
+        ICH_banned_unions = {
+            allowed = { original_tag = ICH }
+
+            picture = state_economy
+
+            modifier = {
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
+        ICH_indochinese_militarism = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_manpower_bonus
+
+            modifier = {
+                army_org_factor = 0.025
+                army_attack_factor = 0.025
+                army_defence_factor = 0.025
             }
         }
     }
