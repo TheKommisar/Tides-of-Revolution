@@ -1,5 +1,8 @@
 ﻿l_english:
  
+ ### Factions
+ ICH_asian_solidarity_union:0 "Asian Solidarity Union"
+
  ### Parties
  ICH_vanguardist_party:0 "ICP"
  ICH_vanguardist_party_long:0 "Indochinese Communist Party"
@@ -21,6 +24,13 @@
  ICH_paternal_autocrat_party_long:0 "Monarchist Restorationists"
  ICH_national_populist_party:0 "Cao Dai"
  ICH_national_populist_party_long:0 "The Great Faith for the Third Universal Redemption"
+
+ ICH_vanguardist_factions:0 "ICP - Radicals"
+ ICH_vanguardist_factions_long:0 "The Radical Wing of the Indochinese Communist Party"
+ ICH_orthodox_marxist_factions:0 "ICP - Mainstream"
+ ICH_orthodox_marxist_factions_long:0 "The Mainstream Wing of the Indochinese Communist Party"
+ ICH_revolutionary_socialist_factions:0 "ICP - Reformists"
+ ICH_revolutionary_socialist_factions_long:0 "The Reformist Wing of the Indochinese Communist Party"
 
  ### Country Names
  ICH_totalitarian_socialist:0 "Indochinese Union"
@@ -46,6 +56,7 @@
  ICH_national_populist:0 "Indochinese State"
  ICH_national_populists_desc:0 "The State of Indochina"
 
+
  ### Flags
  ICH_WORKERS_VICTORY_FLAG:0 "The Indochinese Communist Party has taken control of the country."
  ICH_SOCIALIST_POLICY_FLAG:0 "We have opted to elect the Socialists."
@@ -61,6 +72,7 @@
  ICH_sick_man_of_asia:0 "Sick Man of Asia"
  ICH_sick_man_of_asia_desc:0 "The instability of our state has greatly affected our trade and have halted foreign investments."
  ICH_the_indochinese_army:0 "The Indochinese Army"
+ ICH_dedicated_weapons_factories:0 "Dedicated Weapons Factories"
  ICH_empowered_worker_unions:0 "Empowered Worker's Unions"
  ICH_farmer_unions:0 "Farmer Unions"
  ICH_workers_cooperatives:0 "Worker's Cooperatives"
@@ -70,7 +82,6 @@
  ICH_state_farms_idea:0 "State Farms"
  ICH_state_unions:0 "State Unions"
  ICH_state_quotas_idea:0 "State Quotas"
- ICH_revolutionary_guards_idea:0 "Revolutionary Guards"
  ICH_dpc_idea:0 "Defensive Preparations Commitee"
  ICH_fsb_idea:0 "Federal Security Bureau"
  ICH_purge_the_reactionaries:0 "Purge the Reactionaries"
@@ -86,6 +97,7 @@
  ICH_corporate_economy:0 "Corporate Economy"
  ICH_banned_unions:0 "Banned Unions"
  ICH_indochinese_militarism_idea:0 "Indochinese Militarism"
+ ICH_marxist_influence:0 "Marxist Influence"
 
  ### Focus
  # Industry
@@ -218,14 +230,32 @@
  ICH_protect_the_revolution_desc:0 ""
  ICH_lead_the_revolution:0 "Lead the Revolution"
  ICH_lead_the_revolution_desc:0 ""
- ICH_revolutionary_guards:0 "Revolutionary Guards"
- ICH_revolutionary_guards_desc:0 ""
+ ICH_revolutionary_science:0 "Revolutionary Guards"
+ ICH_revolutionary_science_desc:0 ""
  ICH_defensive_preparations_commitee:0 "Defensive Preparations Commitee"
  ICH_defensive_preparations_commitee_desc:0 ""
  ICH_federal_security_bureau:0 "Federal Security Bureau"
  ICH_federal_security_bureau_desc:0 ""
  ICH_purge_reactionaries:0 "Purge Reactionaries"
  ICH_purge_reactionaries_desc:0 ""
+ ICH_join_the_internationale:0 "Join the Internationale"
+ ICH_join_the_internationale_desc:0 ""
+ ICH_on_our_own:0 "On our Own"
+ ICH_on_our_own_desc:0 ""
+ ICH_support_our_comrades_in_siam:0 "Support our Comrades in Siam"
+ ICH_support_our_comrades_in_siam_desc:0 ""
+ ICH_liberate_siam:0 "Liberate Siam"
+ ICH_liberate_siam_desc:0 ""
+ ICH_support_our_comrades_in_the_philippines:0 "Support our Comrades in the Philippines"
+ ICH_support_our_comrades_in_the_philippines_desc:0 ""
+ ICH_liberate_the_philippines:0 "Liberate the Philippines"
+ ICH_liberate_the_philippines_desc:0 ""
+ ICH_destablize_the_raj:0 "Destablize the Raj"
+ ICH_destablize_the_raj_desc:0 ""
+ ICH_destablize_the_east_indies:0 "Destablize the East Indies"
+ ICH_destablize_the_east_indies_desc:0 ""
+ ICH_bastion_of_socialism:0 "Bastion of Socialism"
+ ICH_bastion_of_socialism_desc:0 ""
  # SocDem
  ICH_the_status_quo_prevails:0 "The Status Quo Prevails"
  ICH_the_status_quo_prevails_desc:0 ""
@@ -317,3 +347,31 @@
  ich.6.t:0 "ICP Triumphant!"
  ich.6.d:0 "With most of the security forces have joined our cause against the corrupt capitalist government, we have successfully taken control of the capital and with that, the entire Federation."
  ich.6.a:0 "Break the Chains!"
+
+ ich.7.t:0 "The First Worker Congress"
+ ich.7.d:0 ""
+ ich.7.a:0 "Let the meeting commence."
+
+ ich.8.t:0 "The New Premier"
+ ich.8.d:0 ""
+ ich.8.a:0 "Nguyen Ai Quoc remains as the Premier"
+ ich.8.b:0 "Nguyen An Ninh is the new Premier"
+ ich.8.c:0 "Pham Van Dong is the new Premier"
+
+ ich.9.t:0 "Indochina in the Internationale"
+ ich.9.d:0 ""
+ ich.9.a:0 ""
+ ich.9.b:0 ""
+
+ ich.10.t:0 "France rejects entry to the Internationale"
+ ich.10.d:0 ""
+ ich.10.a:0 ""
+
+ ich.11.t:0 "Radical Left on the Rise!"
+ ich.11.t.uk:0 ""
+ ich.11.t.nt:0 ""
+ ich.11.d:0 ""
+ ich.11.d.uk:0 ""
+ ich.11.d.nt:0 ""
+ ich.11.a:0 ""
+ ich.11.b:0 ""

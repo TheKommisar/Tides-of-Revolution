@@ -30,6 +30,14 @@ ideas = {
             }
         }
 
+        ICH_dedicated_weapons_factories = {
+            allowed = { original_tag = ICH }
+
+            picture = HUN_secret_rearmament
+
+            
+        }
+
         ICH_the_indochinese_army = {
             allowed = { original_tag = ICH }
 
@@ -142,17 +150,6 @@ ideas = {
             modifier = {
                 political_power_gain = -0.05
                 production_factory_max_efficiency_factor = 0.15
-            }
-        }
-
-        ICH_revolutionary_guards_idea = {
-            allowed = { original_tag = ICH }
-
-            picture = generic_communist_army
-
-            modifier = {
-                training_time_factor = -0.15
-                out_of_supply_factor = -0.15
             }
         }
 
@@ -326,6 +323,18 @@ ideas = {
                 army_org_factor = 0.025
                 army_attack_factor = 0.025
                 army_defence_factor = 0.025
+            }
+        }
+
+        ICH_marxist_influence = {
+            picture = generic_communism_drift_bonus
+
+            modifier = {
+                weekly_stability = -0.01
+                weekly_war_support = -0.01
+                vanguardist_drift = 0.02
+                orthodox_marxist_drift = 0.02
+                revolutionary_socialist_drift = 0.02
             }
         }
     }

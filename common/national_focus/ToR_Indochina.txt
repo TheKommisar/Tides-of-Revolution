@@ -990,6 +990,11 @@ focus_tree = {
         cost = 10
         available = { has_country_flag = ICH_WORKERS_VICTORY_FLAG }
         prerequisite = { focus = ICH_workers_victory }
+        select_effect = {
+            country_event = {
+                id = ich.7 days = 0
+            }
+        }
     }
 
     # Socialist Economy
@@ -998,12 +1003,18 @@ focus_tree = {
         icon = GFX_goal_ideology_radical_socialist
         x = -4
         y = 1
-        cost = 10
+        cost = 1
         available = { has_country_flag = ICH_SOCIALIST_POLICY_FLAG }
         mutually_exclusive = { focus = ICH_marxist_economy }
         mutually_exclusive = { focus = ICH_vanguardist_economy }
         prerequisite = { focus = ICH_first_workers_congress }
         relative_position_id = ICH_first_workers_congress
+        completion_reward = {
+            add_popularity = {
+                ideology = revolutionary_socialist
+                popularity = 0.15
+            }
+        }
     }
 
     # Industrial Unionism
@@ -1084,12 +1095,18 @@ focus_tree = {
         icon = GFX_goal_ideology_syndicalist
         x = 0
         y = 1
-        cost = 10
+        cost = 1
         available = { has_country_flag = ICH_MARXIST_POLICY_FLAG }
         mutually_exclusive = { focus = ICH_vanguardist_economy }
         mutually_exclusive = { focus = ICH_socialist_economy }
         prerequisite = { focus = ICH_first_workers_congress }
         relative_position_id = ICH_first_workers_congress
+        completion_reward = {
+            add_popularity = {
+                ideology = orthodox_marxist
+                popularity = 0.15
+            }
+        }
     }
     
     # Resource Nationalization
@@ -1152,7 +1169,7 @@ focus_tree = {
     # Centralized Syndicalism
     focus = {
         id = ICH_centralized_syndicalism
-        icon = GFX_goal_state_economy
+        icon = GFX_goal_support_communism
         x = 0
         y = 3
         cost = 10
@@ -1170,12 +1187,18 @@ focus_tree = {
         icon = GFX_goal_ideology_totalist
         x = 4
         y = 1
-        cost = 10
+        cost = 0
         available = { has_country_flag = ICH_VANGUARDIST_POLICY_FLAG }
         mutually_exclusive = { focus = ICH_socialist_economy }
         mutually_exclusive = { focus = ICH_marxist_economy }
         prerequisite = { focus = ICH_first_workers_congress }
         relative_position_id = ICH_first_workers_congress
+        completion_reward = {
+            add_popularity = {
+                ideology = vanguardist
+                popularity = 0.15
+            }
+        }
     }
 
     # Price Controls
@@ -1286,10 +1309,10 @@ focus_tree = {
         }
     }
 
-    # Revolutionary Guards
+    # Revolutionary Science
     focus = {
-        id = ICH_revolutionary_guards
-        icon = GFX_goal_HOL_military_union
+        id = ICH_revolutionary_science
+        icon = GFX_focus_generic_socialist_science
         x = 0
         y = 2
         cost = 10
@@ -1299,7 +1322,7 @@ focus_tree = {
         }
         relative_position_id = ICH_centralized_syndicalism
         completion_reward = {
-            add_ideas = ICH_revolutionary_guards_idea
+            add_research_slot = 1
         }
     }
 
@@ -1338,12 +1361,12 @@ focus_tree = {
         x = 0
         y = 1
         cost = 10
-        prerequisite = { focus = ICH_revolutionary_guards }
+        prerequisite = { focus = ICH_revolutionary_science }
         prerequisite = {
             focus = ICH_federal_security_bureau
             focus = ICH_defensive_preparations_commitee
         }
-        relative_position_id = ICH_revolutionary_guards
+        relative_position_id = ICH_revolutionary_science
         completion_reward = {
             remove_ideas = ICH_unstable_state
             add_timed_idea = {
@@ -1351,6 +1374,196 @@ focus_tree = {
                 days = 360
             }
         }
+    }
+
+    # Join the Internationale
+    focus = {
+        id = ICH_join_the_internationale
+        icon = GFX_focus_chi_reach_out_to_france
+        x = -1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_on_our_own }
+        prerequisite = { focus = ICH_purge_reactionaries }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            FRA = {
+                country_event = { id = ich.9 days = 1 }
+            }
+        }
+    }
+
+    # On Our Own
+    focus = {
+        id = ICH_on_our_own
+        icon = GFX_focus_generic_join_comintern
+        x = 1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_on_our_own }
+        prerequisite = { focus = ICH_purge_reactionaries }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            set_rule = {
+                can_create_factions = yes
+            }
+            create_faction = ICH_asian_solidarity_union
+        }
+    }
+
+    # Support our Comrades in Siam
+    focus = {
+        id = ICH_support_our_comrades_in_siam
+        icon = GFX_goal_flag_siam
+        x = -3
+        y = 2
+        cost = 10
+        mutually_exclusive = { focus = ICH_liberate_siam }
+        prerequisite = { 
+            focus = ICH_join_the_internationale
+            focus = ICH_on_our_own
+        }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            SIA = {
+                add_timed_idea = {
+                    idea = ICH_marxist_influence
+                    days = 360
+                }
+                country_event = { id = ich.11 days = 1 }
+            }
+        }
+    }
+
+    # Liberate Siam
+    focus = {
+        id = ICH_liberate_siam
+        icon = GFX_goal_JAP_target_siam
+        x = -1
+        y = 2
+        cost = 10
+        mutually_exclusive = { focus = ICH_support_our_comrades_in_siam }
+        prerequisite = { 
+            focus = ICH_join_the_internationale
+            focus = ICH_on_our_own
+        }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = SIA
+            }
+        }
+    }
+
+    # Support our Comrades in the Philippines
+    focus = {
+        id = ICH_support_our_comrades_in_the_philippines
+        icon = GFX_goal_flag_phillipines
+        x = 3
+        y = 2
+        cost = 10
+        mutually_exclusive = { focus = ICH_liberate_the_philippines }
+        prerequisite = { 
+            focus = ICH_join_the_internationale
+            focus = ICH_on_our_own
+        }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            PHI = {
+                add_timed_idea = {
+                    idea = ICH_marxist_influence
+                    days = 360
+                }
+                country_event = { id = ich.11 days = 1 }
+            }
+        }
+    }
+
+    # Liberate the Philippines
+    focus = {
+        id = ICH_liberate_the_philippines
+        icon = GFX_goal_JAP_target_phillipines
+        x = 1
+        y = 2
+        cost = 10
+        mutually_exclusive = { focus = ICH_support_our_comrades_in_the_philippines }
+        prerequisite = { 
+            focus = ICH_join_the_internationale
+            focus = ICH_on_our_own
+        }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = PHI
+            }
+        }
+    }
+
+    # Destablize the Raj
+    focus = {
+        id = ICH_destablize_the_raj
+        icon = GFX_focus_RAJ_seek_help_from_soviet
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = ICH_liberate_siam
+            focus = ICH_support_our_comrades_in_siam
+        }
+        relative_position_id = ICH_liberate_siam
+        completion_reward = {
+            RAJ = {
+                add_timed_idea = {
+                    idea = ICH_marxist_influence
+                    days = 360
+                }
+                country_event = { id = ich.11 days = 1 }
+            }
+            ENG = {
+                country_event = { id = ich.11 days = 1 }
+            }
+        }
+    }
+
+    # Destablize the East Indies
+    focus = {
+        id = ICH_destablize_the_east_indies
+        icon = GFX_focus_jap_strike_south
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = ICH_liberate_the_philippines
+            focus = ICH_support_our_comrades_in_the_philippines
+        }
+        relative_position_id = ICH_liberate_the_philippines
+        completion_reward = {
+            INS = {
+                add_timed_idea = {
+                    idea = ICH_marxist_influence
+                    days = 360
+                }
+                country_event = { id = ich.11 days = 1 }
+            }
+            HOL = {
+                country_event = { id = ich.11 days = 1 }
+            }
+        }
+    }
+
+    # Bastion of Socialism
+    focus = {
+        id = ICH_bastion_of_socialism
+        icon = GFX_focus_HOL_deal_with_left
+        x = 0
+        y = 4
+        cost = 10
+        prerequisite = { focus = ICH_destablize_the_raj }
+        prerequisite = { focus = ICH_destablize_the_east_indies }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {}
     }
 
     #############################################
