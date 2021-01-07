@@ -1425,12 +1425,13 @@ focus_tree = {
         }
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
+            activate_targeted_decision = { target = SIA decision = ICH_send_arms }
             SIA = {
                 add_timed_idea = {
                     idea = ICH_marxist_influence
                     days = 360
                 }
-                country_event = { id = ich.11 days = 1 }
+                set_country_flag = ICH_COUP_ALLOWED
             }
         }
     }
@@ -1470,12 +1471,13 @@ focus_tree = {
         }
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
+            activate_targeted_decision = { target = PHI decision = ICH_send_arms }
             PHI = {
                 add_timed_idea = {
                     idea = ICH_marxist_influence
                     days = 360
                 }
-                country_event = { id = ich.11 days = 1 }
+                set_country_flag = ICH_COUP_ALLOWED
             }
         }
     }
@@ -1514,15 +1516,13 @@ focus_tree = {
         }
         relative_position_id = ICH_liberate_siam
         completion_reward = {
-            RAJ = {
+            activate_targeted_decision = { target = IND decision = ICH_send_arms }
+            IND = {
                 add_timed_idea = {
                     idea = ICH_marxist_influence
                     days = 360
                 }
-                country_event = { id = ich.11 days = 1 }
-            }
-            ENG = {
-                country_event = { id = ich.11 days = 1 }
+                set_country_flag = ICH_COUP_ALLOWED
             }
         }
     }
@@ -1540,15 +1540,13 @@ focus_tree = {
         }
         relative_position_id = ICH_liberate_the_philippines
         completion_reward = {
+            activate_targeted_decision = { target = INS decision = ICH_send_arms }
             INS = {
                 add_timed_idea = {
                     idea = ICH_marxist_influence
                     days = 360
                 }
-                country_event = { id = ich.11 days = 1 }
-            }
-            HOL = {
-                country_event = { id = ich.11 days = 1 }
+                set_country_flag = ICH_COUP_ALLOWED
             }
         }
     }

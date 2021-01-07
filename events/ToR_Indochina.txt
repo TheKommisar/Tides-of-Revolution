@@ -387,25 +387,56 @@ country_event = {
     }
 }
 
-# Indochinese Destablization Plot
+# Indochinese Sponsored Coup
 country_event = {
     id = ich.11
     title = ich.11.t
     desc = ich.11.d
-    picture = GFX_report_event_generic_sign_treaty2
+    picture = GFX_report_event_french_resistance_01
 
     is_triggered_only = yes
 
+    immediate = {
+        hidden_effect = {
+            clr_country_flag = ICH_ongoing_target
+        }
+    }
+
     option = {
         name = ich.11.a
-        add_political_power = -100
+        
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.25
+        }
     }
 
     option = {
         name = ich.11.b
-        create_wargoal = {
-            type = puppet
-            target = ICH
+        
+        INS = {
+            country_event = { id = ich.12 days = 1 }
         }
+    }
+}
+
+# Coup Failed
+country_event = {
+    id = ich.12
+    title = ich.12.t
+    desc = ich.12.d
+    picture = GFX_report_event_spain_civil_war_volunteers_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.12.a
+
+        add_political_power = -25
     }
 }

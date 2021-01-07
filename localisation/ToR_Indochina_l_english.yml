@@ -56,6 +56,13 @@
  ICH_national_populist:0 "Indochinese State"
  ICH_national_populists_desc:0 "The State of Indochina"
 
+ ### Decisions
+ # Categories
+ ICH_subversive_operations:0 "Subversive Operations"
+ ICH_subversive_operations_desc:0 ""
+ # Decisions
+ ICH_send_arms:0 "Send Arms to our [FROM.GetAdjective] comrades"
+ ICH_ignite_coup:0 "Ignite Coup in [FROM.GetName]"
 
  ### Flags
  ICH_WORKERS_VICTORY_FLAG:0 "The Indochinese Communist Party has taken control of the country."
@@ -65,6 +72,7 @@
  ICH_SOC_DEM_VICTORY_FLAG:0 "The VNQDD have secured their power after the election."
  ICH_SOC_LIB_VICTORY_FLAG:0 "The Reform Party have established their power after the election."
  ICH_ARMY_COUP_FLAG:0 "The Army have established a Military Government."
+ ICH_preparing_coup:0 "We are already preparing for a revolution."
 
  ### Ideas
  ICH_unstable_state:0 "Unstable State"
