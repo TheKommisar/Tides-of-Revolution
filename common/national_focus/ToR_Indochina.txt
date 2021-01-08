@@ -995,6 +995,7 @@ focus_tree = {
                 id = ich.7 days = 0
             }
         }
+        completion_reward = { custom_effect_tooltip = ICH_the_first_workers_congress_tt }
     }
 
     # Socialist Economy
@@ -1384,6 +1385,12 @@ focus_tree = {
         y = 1
         cost = 10
         mutually_exclusive = { focus = ICH_on_our_own }
+        available = {
+            FRA = {
+                is_faction_leader = yes
+            }
+            is_subject = no
+        }
         prerequisite = { focus = ICH_purge_reactionaries }
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
@@ -1401,6 +1408,10 @@ focus_tree = {
         y = 1
         cost = 10
         mutually_exclusive = { focus = ICH_on_our_own }
+        available = {
+            is_in_faction = no
+            is_subject = no
+        }
         prerequisite = { focus = ICH_purge_reactionaries }
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
@@ -1419,6 +1430,21 @@ focus_tree = {
         y = 2
         cost = 10
         mutually_exclusive = { focus = ICH_liberate_siam }
+        available = {
+            SIA = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            SIA = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            }
+        }
         prerequisite = { 
             focus = ICH_join_the_internationale
             focus = ICH_on_our_own
@@ -1444,6 +1470,21 @@ focus_tree = {
         y = 2
         cost = 10
         mutually_exclusive = { focus = ICH_support_our_comrades_in_siam }
+        available = {
+            SIA = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            SIA = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            }
+        }
         prerequisite = { 
             focus = ICH_join_the_internationale
             focus = ICH_on_our_own
@@ -1468,6 +1509,21 @@ focus_tree = {
         prerequisite = { 
             focus = ICH_join_the_internationale
             focus = ICH_on_our_own
+        }
+        available = {
+            PHI = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            PHI = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            } 
         }
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
@@ -1494,6 +1550,21 @@ focus_tree = {
             focus = ICH_join_the_internationale
             focus = ICH_on_our_own
         }
+        available = {
+            PHI = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            PHI = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            }
+        }
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
             create_wargoal = {
@@ -1514,10 +1585,25 @@ focus_tree = {
             focus = ICH_liberate_siam
             focus = ICH_support_our_comrades_in_siam
         }
+        available = {
+            RAJ = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            RAJ = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            }
+        }
         relative_position_id = ICH_liberate_siam
         completion_reward = {
             activate_targeted_decision = { target = IND decision = ICH_send_arms }
-            IND = {
+            RAJ = {
                 add_timed_idea = {
                     idea = ICH_marxist_influence
                     days = 360
@@ -1537,6 +1623,19 @@ focus_tree = {
         prerequisite = {
             focus = ICH_liberate_the_philippines
             focus = ICH_support_our_comrades_in_the_philippines
+        }
+        available = {
+            INS = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            INS = {
+                exists = no
+                is_subject_of = ICH
+                is_in_faction_with = ICH
+            }
         }
         relative_position_id = ICH_liberate_the_philippines
         completion_reward = {
@@ -1561,7 +1660,9 @@ focus_tree = {
         prerequisite = { focus = ICH_destablize_the_raj }
         prerequisite = { focus = ICH_destablize_the_east_indies }
         relative_position_id = ICH_purge_reactionaries
-        completion_reward = {}
+        completion_reward = {
+            add_ideas = ICH_bastion_of_socialism_idea
+        }
     }
 
     #############################################

@@ -72,7 +72,7 @@
  ICH_SOC_DEM_VICTORY_FLAG:0 "The VNQDD have secured their power after the election."
  ICH_SOC_LIB_VICTORY_FLAG:0 "The Reform Party have established their power after the election."
  ICH_ARMY_COUP_FLAG:0 "The Army have established a Military Government."
- ICH_preparing_coup:0 "We are already preparing for a revolution."
+ ICH_PREPARING_COUP_FLAG:0 "We are already preparing for a revolution."
 
  ### Ideas
  ICH_unstable_state:0 "Unstable State"
@@ -105,7 +105,11 @@
  ICH_corporate_economy:0 "Corporate Economy"
  ICH_banned_unions:0 "Banned Unions"
  ICH_indochinese_militarism_idea:0 "Indochinese Militarism"
- ICH_marxist_influence:0 "Marxist Influence"
+ ICH_subversive_operations:0 "Subversive Operations"
+ ICH_bastion_of_socialism:0 "Bastion of Socialism"
+
+ ### Effect Tooltips
+ ICH_the_first_workers_congress_tt:0 "§GThe Worker's Congress will now commence.§!"
 
  ### Focus
  # Industry
@@ -357,29 +361,20 @@
  ich.6.a:0 "Break the Chains!"
 
  ich.7.t:0 "The First Worker Congress"
- ich.7.d:0 ""
+ ich.7.d:0 "After weeks of preliminary meetings and preparation, today the first Workers Congress of Indochina has begun. The various factions of the congress have sent their delegates and their leaders to Saigon to argue for their position. We shall see what shall happen."
  ich.7.a:0 "Let the meeting commence."
 
  ich.8.t:0 "The New Premier"
- ich.8.d:0 ""
+ ich.8.d:0 "The Worker's Congress have finally resulted in many approved policies in governing the Union. However, one but important decision is still left unvoted, the new Premier. Many factions within the party are campaigning its candidate to ensure their power over the Union. We will see on who will be the New Premier."
  ich.8.a:0 "Nguyen Ai Quoc remains as the Premier"
  ich.8.b:0 "Nguyen An Ninh is the new Premier"
  ich.8.c:0 "Pham Van Dong is the new Premier"
 
  ich.9.t:0 "Indochina in the Internationale"
- ich.9.d:0 ""
- ich.9.a:0 ""
- ich.9.b:0 ""
+ ich.9.d:0 "Today the delegation between France and the Indochinese Union have held a meeting here in Paris discussing the entry of the Indochinese Union in the Internationale. They argued that France, has the responsibility to help the Indochinese Union protect its sovereignity and independence. While militarily, it is beneficial to have an ally in the Pacific, it can also have its own problems, as we have to send troops to the other side of the world. What should be our response?"
+ ich.9.a:0 "Allow their entry"
+ ich.9.b:0 "Decline their entry"
 
  ich.10.t:0 "France rejects entry to the Internationale"
- ich.10.d:0 ""
- ich.10.a:0 ""
-
- ich.11.t:0 "Radical Left on the Rise!"
- ich.11.t.uk:0 ""
- ich.11.t.nt:0 ""
- ich.11.d:0 ""
- ich.11.d.uk:0 ""
- ich.11.d.nt:0 ""
- ich.11.a:0 ""
- ich.11.b:0 ""
+ ich.10.d:0 "The French delegation and our delegation have not found agreed on the terms of our entry to the Internationale. They argued that they have other priorities to attend to and our entry to their faction is not one of them."
+ ich.10.a:0 "Damn imperialist bastards!"
