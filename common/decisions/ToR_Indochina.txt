@@ -51,7 +51,7 @@ ICH_subversive_operations = {
         
         complete_effect = {
             FROM = {
-                country_event = { id = ich.11 days = 1 }
+                country_event = { id = ich.14 days = 1 }
             }
         }
 

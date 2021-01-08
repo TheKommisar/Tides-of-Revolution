@@ -97,7 +97,6 @@ create_country_leader = {
 	ideology = revolutionary_socialist_subtype
 	traits = { }
 }
-
 create_country_leader = {
 	name = "Pham Van Dong"
 	desc = "POLITICS_PHAM_VAN_DONG_DESC"
@@ -106,7 +105,6 @@ create_country_leader = {
 	ideology = vanguardist_subtype
 	traits = { dictator }
 }
-
 create_country_leader = {
 	name = "Nguyen Ai Quoc"
 	desc = "POLITICS_NGUYEN_AI_QUOC"
@@ -115,7 +113,6 @@ create_country_leader = {
 	ideology = vanguardist_subtype
 	traits = { }
 }
-
 create_country_leader = {
 	name = "Nguyen Ai Quoc"
 	desc = "POLITICS_NGUYEN_AI_QUOC"
@@ -124,7 +121,6 @@ create_country_leader = {
 	ideology = orthodox_marxist_subtype
 	traits = { }
 }
-
 create_country_leader = {
 	name = "Nguyen Ai Quoc"
 	desc = "POLITICS_NGUYEN_AI_QUOC"
@@ -133,7 +129,6 @@ create_country_leader = {
 	ideology = revolutionary_socialist_subtype
 	traits = { }
 }
-
 create_country_leader = {
 	name = "Nguyen Tai Hoc"
 	desc = "POLITICS_NGUYEN_TAI_HOC_DESC"
@@ -142,7 +137,6 @@ create_country_leader = {
 	ideology = social_democrat_subtype
 	traits = { }
 }
-
 create_country_leader = {
 	name = "Cuong De"
 	desc = "POLITICS_CUONG_DE_DESC"
@@ -151,9 +145,16 @@ create_country_leader = {
 	ideology = social_liberal_subtype
 	traits = { }
 }
-
 create_country_leader = {
-	name = "Bao Dai"
+	name = "Duong Van Minh"
+	desc = "POLITICS_DUONG_VAN_MINH_DESC"
+	picture = ""
+	expire = "1986.3.24"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Bao Đai I"
 	desc = "POLITICS_BAO_DAI_DESC"
 	picture = "gfx/leaders/VIN/Portrait_Vietnam_Bao_Dai.tga"
 	expire = "1986.3.24"

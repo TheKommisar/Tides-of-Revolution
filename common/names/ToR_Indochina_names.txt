@@ -1,0 +1,55 @@
+# Indochinese Federation names
+# Merged Lao, Cambodian and Vietnamese names
+ICH = {
+	male = {
+		names = {
+            # Laos
+			Teyvada Phonesavanh Maik Havika Keoki Kye Kalani Kimo Kanoa Somphone Ikaika Liko Bane 
+			Kale Noi Malo Keola Aulii Moke Makan Phetdum Konala Keanu Keahi Saravan 
+            # Cambodia
+            Heang Thith Um Khun Khoun Chhet Kim Mok Khin Chhay San Yim Sang Mak Rous Aek 
+			Chin So Toch Prum Chen Khiev Uk Im Mao Say Khan Hong Prum Mul Mean Jan Em 
+			Uch Aok Sin Chan Chea Dara Makara Phirun Pich Samnang Sophea Sopheap Soth 
+			Sothy Vanna Veasna Vibol 
+            # Vietnam
+            "Hai Cong" "Thanh Qui" "Hy Huu" "Kien" "Hang Xuan" "Kha Manh" "Vien Qui" "Thang Duc"
+			"Phoung Qui" "Mai Qui" "Minh Dinh" "Co Xuan" "Quyen Manh" "Kieu Huu"
+			"Mac" "Quang" "Bien" "Dieu Trong" "Tieu" "Hoang" "Huynh Huu" "Lo" "Nguy Manh" "Tang Ngoc"
+			"Voung" "Nhan Duc" "Tu Xuan" "Tien Ngoc" "Bo Ngoc"
+		}
+	}
+	female = {
+		names = {
+            # Laos
+			Kieli Phetmany Kailea Halia Aloha Oke Leilanie Kalaina Ani Alani Noma Nani Laya 
+			Khampheng Alika Onaona 
+            # Cambodia
+            Kim Ty Chouen Khun Voeum Touch Phon Eav Neak Mon Tum Prum Sar Lorn Um Chey Hun 
+			Thith Phann Bopha Botum Chan Channary Chantrea Chea Chinda Dara Kolab Makara 
+			Kunthea Pich Samnang Sophea Sopheap Sothy Sovanna Tola Vanna Veasna 
+            # Vietnam
+            "Tuan Thi" "Trinh Thi Hong" "Dong" "Than" "Ba Thi" "Hang Ngoc" "Phang Thi"
+			"Thai" "Hoang" "Diep Thi" "Cam" "Trinh Thi" "Minh" "Bien Thi" "Phong Thi"
+			"Che" "Ton Thi" "Tieu" "Cong" "Voung Thi"
+		}
+	}
+	surnames = {
+        # Laos
+		Khouphongsy Phaophanit Sisoulith Phrasavath Thepsenavong Souvannaphouma Manwilaivong 
+		Kittiphan Phoutthasinh Saenbouthalath Savang Saenthavisouk Saysamongdy Keopraseuth 
+		Oudomphonh Kethavongsa Chereune Saysanasy Phakham Virasongs Vorachith Ketthavong 
+		Thammavong Bouphavanh Malaythong Syvongsa Pakdimounivong Thiamphasome 
+        # Cambodia
+        Chea Sann Boran Anchaly Mao Chann Rottana Sorya Sopath Sothea Sopheap Darany Chantou Samrin 
+		Visna Phirum Mittapheap Davuth Bona Sokha Nhean Vichear Arun Pich Poue Samang Phala Samnang 
+		Meaker Prek Misay Narith Rith Makara Toch Nary Sokhanya Chhorvon Chhaya Kaliyan Pheakkley 
+		Setha Kolthida Sros Sreypich Rotttana Rachany Phary Da Rathana Thyda Kannareth Soboen 
+        # Vietnam
+        "Lan" "Giang" "Huy" "De" "Trieu" "An" "Minh" "Diem" "Thu" "Chinh"
+		"Nhat" "Khan" "Tho" "Thang" "Quan" "Duc" "Huy" "Thao" "Vien" "Phuc"
+		"Gia" "Tu" "Hien" "Quoc" "Dien" "Ngyuen" "Bich" "Hanh" "Anh" "Truc"
+		"Lien" "Thuy" "Hyunh" "Linh" "My" "Chau" "Xuan" "Giang"
+		"Nu" "Thanh" "Phoung" "Van"
+	}
+	callsigns = {}
+}

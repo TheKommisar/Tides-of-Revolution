@@ -227,6 +227,7 @@ country_event = {
     
     is_triggered_only = yes
 
+    # Break the Chains!
     option = {
         name = ich.6.a
 
@@ -275,6 +276,7 @@ country_event = {
 
     is_triggered_only = yes
 
+    # Let the Meeting Commence
     option = {
         name = ich.7.a
 
@@ -293,6 +295,7 @@ country_event = {
 
     is_triggered_only = yes
 
+    # Ho Chi Minh remains Premier
     option = {
         name = ich.8.a
 
@@ -311,6 +314,7 @@ country_event = {
         }
     }
 
+    # Nguyen An Ninh is the new Premier
     option = {
         name = ich.8.b
 
@@ -329,6 +333,7 @@ country_event = {
         }
     }
 
+    # Pham Van Dong is the new Premier
     option = {
         name = ich.8.c
 
@@ -360,54 +365,175 @@ country_event = {
     option = {
         name = ich.9.a
         FRA = {
-            add_to_faction = PREV
+            add_to_faction = ICH
         }
     }
 
     option = {
         name = ich.9.b
-
-        PREV = { 
-            country_event = { id = ich.10 days = 1 } 
+        hidden_effect = {
+            ICH = {
+                country_event = { id = ich.13 days = 1 }
+            }
         }
     }
 }
 
-# France Rejects
+# Co-Prosperity Sphere
 country_event = {
     id = ich.10
     title = ich.10.t
     desc = ich.10.d
-    picture = GFX_report_event_generic_sign_treaty2
-
-    is_triggered_only = yes
+    picture = GFX_report_event_generic_read_write
 
     option = {
         name = ich.10.a
+        JAP = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.10.b
+        hidden_effect = {
+            ICH = {
+                country_event = { id = ich.13 days = 1 }
+            }
+        }
     }
 }
 
-# Indochinese Sponsored Coup
+# Commonwealth
 country_event = {
     id = ich.11
     title = ich.11.t
     desc = ich.11.d
-    picture = GFX_report_event_french_resistance_01
-
-    is_triggered_only = yes
+    picture = GFX_report_event_generic_read_write
 
     option = {
         name = ich.11.a
-
-        add_opinion_modifier = {
-            target = ICH
-            modifier = ICH_failed_coup
+        ENG = {
+            add_to_faction = ICH
         }
     }
 
     option = {
         name = ich.11.b
+        hidden_effect = {
+            ICH = {
+                country_event = { id = ich.13 days = 1 }
+            }
+        }
+    }
+}
 
+# German Faction
+country_event = {
+    id = ich.12
+    title = ich.12.t
+    desc = ich.12.d
+    picture = GFX_report_event_generic_read_write
+
+    option = {
+        name = ich.12.a
+
+        GER = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.12.b
+
+        ICH = {
+            country_event = { id = ich.13 days = 1}
+        }
+    }
+}
+
+# Country Rejects
+country_event = {
+    id = ich.13
+    title = ich.13.t
+    desc = ich.13.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.13.a
+    }
+}
+
+# Indochinese Sponsored Coup
+country_event = {
+    id = ich.14
+    title = ich.14.t
+    desc = ich.14.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.14.a
+
+        add_opinion_modifier = {
+            target = ICH
+            modifier = ICH_failed_coup
+        }
+        hidden_effect = {
+            ICH = {
+                country_event = { id = ich.15 days = 1 }
+            }
+        }
+    }
+
+    option = {
+        name = ich.14.b
+        ai_chance = {
+            factor = 50
+
+            # Increase if socialist support is high
+            modifier = {
+                factor = 2
+                OR = {
+                    vanguardist > 0.2
+                    orthodox_marxist > 0.2
+                    revolutionary_socialist > 0.2
+                    democratic_socialist > 0.2
+                }
+            }
+            # Increase if socialists are already in the government
+            modifier = {
+                factor = 10
+                OR = {
+                    has_government = vanguardist
+                    has_government = orthodox_marxist
+                    has_government = revolutionary_socialist
+                    has_government = democratic_socialist
+                }
+            }
+            # Decrease if reactionary support is high
+            modifier = {
+                factor = 0.2
+                OR = {
+                    authoritarian_democrat > 0.2
+                    national_romantic > 0.2
+                    paternal_autocrat > 0.2
+                    national_populist > 0.2
+                }
+            }
+            # Decrease if reactionaries are in the government
+            modifier = {
+                factor = 0.2
+                OR = {
+                    has_government = authoritarian_democrat
+                    has_government = national_populist
+                    has_government = paternal_autocrat
+                    has_government = national_populist
+                }
+            }
+        }
         set_politics = {
             ruling_party = orthodox_marxist
             elections_allowed = no
@@ -419,86 +545,17 @@ country_event = {
     }
 }
 
-# Co-Prosperity Sphere
-country_event = {
-    id = ich.12
-    title = ich.12.t
-    desc = ich.12.d
-    picture = GFX_report_event_generic_read_write
-
-    option = {
-        name = ich.12.a
-
-        JAP = {
-            add_to_faction = ICH
-        }
-    }
-
-    option = {
-        name = ich.12.b
-
-        ICH = {
-            country_event = { id = ich.16.t days = 1}
-        }
-    }
-}
-
-# Commonwealth
-country_event = {
-    id = ich.13
-    title = ich.13.t
-    desc = ich.13.d
-    picture = GFX_report_event_generic_read_write
-
-    option = {
-        name = ich.13.a
-
-        ENG = {
-            add_to_faction = ICH
-        }
-    }
-
-    option = {
-        name = ich.13.b
-
-        ICH = {
-            country_event = { id = ich.16.t days = 1}
-        }
-    }
-}
-
-# German Faction
-country_event = {
-    id = ich.14
-    title = ich.14.t
-    desc = ich.14.d
-    picture = GFX_report_event_generic_read_write
-
-    option = {
-        name = ich.14.a
-
-        GER = {
-            add_to_faction = ICH
-        }
-    }
-
-    option = {
-        name = ich.14.b
-
-        ICH = {
-            country_event = { id = ich.16.t days = 1}
-        }
-    }
-}
-
-# Faction Join Rejects
+# Uprising failed
 country_event = {
     id = ich.15
     title = ich.15.t
     desc = ich.15.d
-    picture = GFX_report_event_generic_sign_treaty2
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
 
     option = {
         name = ich.15.a
+        add_political_power = -10
     }
 }

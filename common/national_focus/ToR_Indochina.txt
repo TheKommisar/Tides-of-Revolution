@@ -1063,7 +1063,7 @@ focus_tree = {
     # Industrial Democracy
     focus = {
         id = ICH_industrial_democracy
-        icon = GFX_goal_anarcho_communism
+        icon = GFX_goal_workers_rights
         x = 0
         y = 1
         cost = 5
@@ -1170,7 +1170,7 @@ focus_tree = {
     # Centralized Syndicalism
     focus = {
         id = ICH_centralized_syndicalism
-        icon = GFX_goal_support_communism
+        icon = GFX_Socialist_Law
         x = 0
         y = 3
         cost = 10
@@ -1665,7 +1665,7 @@ focus_tree = {
     # Bastion of Socialism
     focus = {
         id = ICH_bastion_of_socialism
-        icon = GFX_focus_HOL_deal_with_left
+        icon = GFX_goal_NOR_syndicalist
         x = 0
         y = 4
         cost = 10
@@ -1821,7 +1821,7 @@ focus_tree = {
     # Stand for Democracy
     focus = {
         id = ICH_stand_for_democracy
-        icon = GFX_goal_government_icon
+        icon = GFX_goal_Centralised_Government
         x = 0
         y = 1
         cost = 10
@@ -1854,7 +1854,7 @@ focus_tree = {
     # Judiciary Reforms
     focus = {
         id = ICH_judiciary_reforms
-        icon = GFX_goal_DOM_End_Judicial_Corruption
+        icon = GFX_goal_DOM_The_Trial
         x = -2
         y = 1
         cost = 10
@@ -1886,7 +1886,7 @@ focus_tree = {
     # Women's Sufferage
     focus = {
         id = ICH_womens_sufferage
-        icon = GFX_ITA_female_soldiers
+        icon = GFX_goal_DOM_End_Judicial_Corruption
         x = 2
         y = 1
         cost = 10
@@ -2050,7 +2050,7 @@ focus_tree = {
     # Corporate Alliance
     focus = {
         id = ICH_corporate_alliance
-        icon = GFX_goal_factory_complex
+        icon = GFX_goal_tripartite_pact
         x = -1
         y = 1
         cost = 10
@@ -2178,7 +2178,7 @@ focus_tree = {
         relative_position_id = ICH_seeking_new_friends
         completion_reward = {
             JAP = {
-                country_event = { id = ich.12 days = 1 }
+                country_event = { id = ich.10 days = 1 }
             }
         }
     }
@@ -2186,7 +2186,7 @@ focus_tree = {
     # London
     focus = {
         id = ICH_london_focus
-        icon = GFX_goal_uk
+        icon = GFX_goal_united_kingdom
         x = 0
         y = 1
         cost = 2
@@ -2201,7 +2201,7 @@ focus_tree = {
         relative_position_id = ICH_seeking_new_friends
         completion_reward = {
             ENG = {
-                country_event = { id = ich.13 days = 1 }
+                country_event = { id = ich.11 days = 1 }
             }
         }
     }
@@ -2224,7 +2224,7 @@ focus_tree = {
         relative_position_id = ICH_seeking_new_friends
         completion_reward = {
             GER = {
-                country_event = { id = ich.14 days = 1 }
+                country_event = { id = ich.12 days = 1 }
             }
         }
     }
@@ -2389,7 +2389,7 @@ focus_tree = {
     # Western Expedition
     focus = {
         id = ICH_western_expedition
-        icon = GFX_goal_JAP_target_siam
+        icon = YUN_GFX_Goal_The_Siamese_Threat
         x = 0
         y = 1
         cost = 5
