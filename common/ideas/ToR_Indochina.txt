@@ -52,7 +52,7 @@ ideas = {
         ICH_empowered_worker_unions = {
             allowed = { original_tag = ICH }
 
-            picture = generic_production_bonus  
+            picture = generic_goods_red_bonus  
 
             modifier = {
                 production_factory_max_efficiency_factor = -0.05
@@ -345,6 +345,71 @@ ideas = {
 
             modifier = {
                 surrender_limit = 0.10
+            }
+        }
+
+        ICH_japanese_trade = {
+            allowed = { original_tag = ICH }
+
+            picture = can_wartime_prices_and_trade_board
+
+            modifier = {
+                consumer_goods_factor = -0.05
+            }
+        }
+
+        ICH_british_trade = {
+            allowed = { original_tag = ICH }
+
+            picture = can_wartime_prices_and_trade_board
+
+            modifier = {
+                consumer_goods_factor = -0.05
+                trade_opinion_factor = 0.25
+            }
+        }
+
+        ICH_german_trade = {
+            allowed = { original_tag = ICH }
+
+            picture = can_wartime_prices_and_trade_board
+
+            modifier = {
+                consumer_goods_factor = -0.05
+                trade_opinion_factor = 0.25
+            }
+        }
+
+        ICH_japanese_advisors = {
+            allowed = { original_tag = ICH }
+
+            picture = warrior_traditions_idea
+
+            modifier = {
+                army_morale_factor = 0.05
+            }
+        }
+
+        ICH_german_advisors_idea = {
+            allowed = { original_tag = ICH }
+
+            picture = german_advisors
+
+            modifier = {
+                army_org_factor = 0.05
+            }
+        }
+
+        ICH_naval_financing = {
+            allowed = { original_tag = ICH }
+
+            picture = generic_navy_bonus
+
+            equipment_bonus = {
+                naval_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
             }
         }
     }

@@ -1,4 +1,4 @@
-# IndoICHnese Focus Tree
+# Indochinese Focus Tree
 # created by: dax0102
 
 focus_tree = {
@@ -400,7 +400,7 @@ focus_tree = {
     focus = {
         id = ICH_the_indochinese_air_force
         icon = GFX_goal_generic_build_airforce
-        x = 11
+        x = 12
         y = 0
         cost = 3
         completion_reward = {
@@ -684,8 +684,8 @@ focus_tree = {
     focus = {
         id = ICH_the_indochinese_army
         icon = GFX_goal_generic_allies_build_infantry
-        x = 19
-        y = 0
+        x = 12
+        y = 6
         cost = 3
         completion_reward = {
             army_experience = 10
@@ -985,7 +985,7 @@ focus_tree = {
     focus = {
         id = ICH_first_workers_congress
         icon = GFX_goal_red_star_green_wreath
-        x = 30
+        x = 23
         y = 0
         cost = 10
         available = { has_country_flag = ICH_WORKERS_VICTORY_FLAG }
@@ -1188,7 +1188,7 @@ focus_tree = {
         icon = GFX_goal_ideology_totalist
         x = 4
         y = 1
-        cost = 0
+        cost = 1
         available = { has_country_flag = ICH_VANGUARDIST_POLICY_FLAG }
         mutually_exclusive = { focus = ICH_socialist_economy }
         mutually_exclusive = { focus = ICH_marxist_economy }
@@ -1451,13 +1451,16 @@ focus_tree = {
         }
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
-            activate_targeted_decision = { target = SIA decision = ICH_send_arms }
             SIA = {
                 add_timed_idea = {
-                    idea = ICH_marxist_influence
+                    idea = ICH_subversive_operations
                     days = 360
                 }
-                set_country_flag = ICH_COUP_ALLOWED
+                set_country_flag = ICH_COUP_ALLOWED_FLAG
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = ICH_prepare_coup
+                }
             }
         }
     }
@@ -1527,13 +1530,16 @@ focus_tree = {
         }
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
-            activate_targeted_decision = { target = PHI decision = ICH_send_arms }
             PHI = {
                 add_timed_idea = {
-                    idea = ICH_marxist_influence
+                    idea = ICH_subversive_operations
                     days = 360
                 }
-                set_country_flag = ICH_COUP_ALLOWED
+                set_country_flag = ICH_COUP_ALLOWED_FLAG
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = ICH_prepare_coup
+                }
             }
         }
     }
@@ -1602,13 +1608,16 @@ focus_tree = {
         }
         relative_position_id = ICH_liberate_siam
         completion_reward = {
-            activate_targeted_decision = { target = IND decision = ICH_send_arms }
             RAJ = {
                 add_timed_idea = {
-                    idea = ICH_marxist_influence
+                    idea = ICH_subversive_operations
                     days = 360
                 }
-                set_country_flag = ICH_COUP_ALLOWED
+                set_country_flag = ICH_COUP_ALLOWED_FLAG
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = ICH_prepare_coup
+                }
             }
         }
     }
@@ -1639,13 +1648,16 @@ focus_tree = {
         }
         relative_position_id = ICH_liberate_the_philippines
         completion_reward = {
-            activate_targeted_decision = { target = INS decision = ICH_send_arms }
             INS = {
                 add_timed_idea = {
-                    idea = ICH_marxist_influence
+                    idea = ICH_subversive_operations
                     days = 360
                 }
-                set_country_flag = ICH_COUP_ALLOWED
+                set_country_flag = ICH_COUP_ALLOWED_FLAG
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = ICH_prepare_coup
+                }
             }
         }
     }
@@ -1675,8 +1687,8 @@ focus_tree = {
     focus = {
         id = ICH_the_status_quo_prevails
         icon = GFX_goal_ideology_social_democrat
-        x = 11
-        y = 7
+        x = 32
+        y = 0
         cost = 0
         available = { has_country_flag = ICH_SOC_DEM_VICTORY_FLAG }
     }
@@ -1833,8 +1845,8 @@ focus_tree = {
     focus = {
         id = ICH_a_new_administration
         icon = GFX_goal_ideology_social_liberal
-        x = 17
-        y = 7
+        x = 38
+        y = 0
         cost = 0
         available = { has_country_flag = ICH_SOC_LIB_VICTORY_FLAG }
     }
@@ -1987,8 +1999,8 @@ focus_tree = {
     focus = {
         id = ICH_the_army_in_power
         icon = GFX_goal_ideology_authoritarian_democrat
-        x = 23
-        y = 7
+        x = 44
+        y = 0
         cost = 0
         available = { has_country_flag = ICH_ARMY_COUP_FLAG }
     }
@@ -2127,6 +2139,308 @@ focus_tree = {
             remove_ideas = ICH_unstable_state
             add_stability = 0.15
             add_war_support = 0.15
+        }
+    }
+
+    # Seeking New Friends
+    focus = {
+        id = ICH_seeking_new_friends
+        icon = GFX_goal_generic_national_unity
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = {
+            focus = ICH_stand_for_democracy
+            focus = ICH_a_liberal_indochina
+            focus = ICH_centralized_power
+        }
+        relative_position_id = ICH_a_liberal_indochina
+        completion_reward = {
+            add_political_power = 150
+        }
+    }
+
+    # Tokyo
+    focus = {
+        id = ICH_tokyo_focus
+        icon = GFX_goal_japan
+        x = -4
+        y = 1
+        cost = 2
+        available = {
+            JAP = {
+                is_faction_leader = yes
+            }
+            is_in_faction = no
+            is_subject = no
+        }
+        prerequisite = { focus = ICH_seeking_new_friends }
+        relative_position_id = ICH_seeking_new_friends
+        completion_reward = {
+            JAP = {
+                country_event = { id = ich.12 days = 1 }
+            }
+        }
+    }
+
+    # London
+    focus = {
+        id = ICH_london_focus
+        icon = GFX_goal_uk
+        x = 0
+        y = 1
+        cost = 2
+        available = {
+            ENG = {
+                is_faction_leader = yes
+            }
+            is_in_faction = no
+            is_subject = no
+        }
+        prerequisite = { focus = ICH_seeking_new_friends }
+        relative_position_id = ICH_seeking_new_friends
+        completion_reward = {
+            ENG = {
+                country_event = { id = ich.13 days = 1 }
+            }
+        }
+    }
+
+    # Berlin
+    focus = {
+        id = ICH_berlin_focus
+        icon = GFX_goal_germany
+        x = 4
+        y = 1
+        cost = 2
+        available = {
+            GER = {
+                is_faction_leader = yes
+            }
+            is_in_faction = no
+            is_subject = no
+        }
+        prerequisite = { focus = ICH_seeking_new_friends }
+        relative_position_id = ICH_seeking_new_friends
+        completion_reward = {
+            GER = {
+                country_event = { id = ich.14 days = 1 }
+            }
+        }
+    }
+
+    # Trade with Japan
+    focus = {
+        id = ICH_trade_with_japan
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        x = 0
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = JAP
+        }
+        prerequisite = { focus = ICH_tokyo_focus }
+        relative_position_id = ICH_tokyo_focus
+        completion_reward = {
+            add_ideas = ICH_japanese_trade
+        }
+    }
+
+    # Trade with Britain
+    focus = {
+        id = ICH_trade_with_britain
+        icon = GFX_focus_chi_british_cooperation
+        x = 0
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = ENG
+        }
+        prerequisite = { focus = ICH_london_focus }
+        relative_position_id = ICH_london_focus
+        completion_reward = {
+            add_ideas = ICH_british_trade
+        }
+    }
+
+    # Trade with Germany
+    focus = {
+        id = ICH_trade_with_germany
+        icon = GFX_focus_chi_mission_to_germany
+        x = 0
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = GER
+        }
+        prerequisite = { focus = ICH_berlin_focus }
+        relative_position_id = ICH_berlin_focus
+        completion_reward = {
+            add_ideas = ICH_german_trade
+        }
+    }
+
+    # Japanese Air Advisors
+    focus = {
+        id = ICH_air_advisors
+        icon = GFX_focus_jap_zero
+        x = -2
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = JAP
+        }
+        prerequisite = { focus = ICH_tokyo_focus }
+        relative_position_id = ICH_tokyo_focus
+        completion_reward = {
+            add_ideas = ICH_japanese_advisors
+        }
+    }
+
+    # Request Assistance on the Navy
+    focus = {
+        id = ICH_request_assistance_on_the_navy
+        icon = GFX_goal_generic_sea_focused_navy
+        x = -2
+        y = 1
+        cost = 5
+        available = {
+            OR = {
+                is_in_faction_with = JAP
+                is_in_faction_with = ENG
+            }
+        }
+        prerequisite = { 
+            focus = ICH_tokyo_focus
+            focus = ICH_london_focus
+        }
+        relative_position_id = ICH_london_focus
+        completion_reward = {
+            add_timed_idea = {
+                idea = ICH_naval_financing
+                days = 960
+            }
+        }
+    }
+
+    # Tank Modernization
+    focus = {
+        id = ICH_tank_modernization
+        icon = GFX_focus_generic_license_production
+        x = 2
+        y = 1
+        cost = 5
+        available = {
+            OR = {
+                is_in_faction_with = ENG
+                is_in_faction_with = GER
+            }
+        }
+        prerequisite = {
+            focus = ICH_london_focus
+            focus = ICH_berlin_focus
+        }
+        relative_position_id = ICH_london_focus
+        completion_reward = {
+            add_tech_bonus = {
+                technology = armor
+                bonus = 2.0
+                uses = 2
+            }
+        }
+    }
+
+    # German Advisors
+    focus = {
+        id = ICH_german_advisors
+        icon = GFX_focus_generic_military_mission
+        x = 2
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = GER
+        }
+        prerequisite = { focus = ICH_berlin_focus }
+        relative_position_id = ICH_berlin_focus
+        completion_reward = {
+            add_ideas = ICH_german_advisors_idea
+        }
+    }
+
+    # Southern Expedition
+    focus = {
+        id = ICH_southern_expedition
+        icon = GFX_focus_attack_britain
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_trade_with_japan }
+        prerequisite = { focus = ICH_air_advisors }
+        prerequisite = { focus = ICH_request_assistance_on_the_navy }
+        relative_position_id = ICH_trade_with_japan
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = MAL
+            }
+        }
+    }
+
+    # Western Expedition
+    focus = {
+        id = ICH_western_expedition
+        icon = GFX_goal_JAP_target_siam
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_trade_with_britain }
+        prerequisite = { focus = ICH_request_assistance_on_the_navy }
+        prerequisite = { focus = ICH_tank_modernization }
+        relative_position_id = ICH_trade_with_britain
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = SIA
+            }
+        }
+    }
+
+    # Northern Expedition
+    focus = {
+        id = ICH_northern_expedition
+        icon = GFX_focus_attack_china
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_trade_with_germany }
+        prerequisite = { focus = ICH_tank_modernization }
+        prerequisite = { focus = ICH_german_advisors }
+        relative_position_id = ICH_trade_with_germany
+        completion_reward = {
+            create_wargoal = {
+                 type = annex_everything
+                target = GXC
+            }
+        }
+    }
+    
+    # Indochina at the World Stage
+    focus = {
+        id = ICH_indochina_at_the_world_stage
+        icon = GFX_focus_generic_support_the_left_right
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = ICH_southern_expedition
+            focus = ICH_western_expedition
+            focus = ICH_northern_expedition
+        }
+        relative_position_id = ICH_western_expedition
+        completion_reward = {
+            add_stability = 0.15
+            add_war_support = 0.15
+            set_major = yes
         }
     }
 }

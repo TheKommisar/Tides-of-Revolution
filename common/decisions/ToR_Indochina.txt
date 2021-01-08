@@ -1,25 +1,27 @@
 ICH_subversive_operations = {
-    ICH_send_arms = {
+    ICH_prepare_coup = {
         target_trigger = {
             FROM = {
                 OR = {
-                    tag = PHI
                     tag = SIA
-                    tag = INS
+                    tag = PHI
                     tag = RAJ
+                    tag = INS
                 }
             }
         }
 
+        visible = {
+            FROM = { has_country_flag = ICH_COUP_ALLOWED_FLAG }
+        }
+
         cost = 50
-        days_remove = 120
+        days_remove = 60
         fire_only_once = yes
         
         complete_effect = {
             set_country_flag = INS_PREPARING_COUP_FLAG
-            FROM = {
-                set_country_flag = INS_ONGOING_TARGET
-            }
+            FROM = { set_country_flag = ICH_ONGOING_TARGET_FLAG }
         }
 
         remove_effect = {
@@ -31,12 +33,16 @@ ICH_subversive_operations = {
         target_trigger = {
             FROM = {
                 OR = {
-                    tag = PHI
                     tag = SIA
-                    tag = INS
+                    tag = PHI
                     tag = RAJ
+                    tag = INS
                 }
             }
+        }
+
+        visible = {
+            FROM = { has_country_flag = ICH_ONGOING_TARGET_FLAG }
         }
 
         cost = 150

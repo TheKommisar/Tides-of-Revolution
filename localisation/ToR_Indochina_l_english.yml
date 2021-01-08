@@ -61,8 +61,11 @@
  ICH_subversive_operations:0 "Subversive Operations"
  ICH_subversive_operations_desc:0 ""
  # Decisions
- ICH_send_arms:0 "Send Arms to our [FROM.GetAdjective] comrades"
- ICH_ignite_coup:0 "Ignite Coup in [FROM.GetName]"
+ ICH_prepare_coup:0 "Prepare Coup in §Y[FROM.GetNameDef]§!"
+ ICH_ignite_coup:0 "Ignite Coup in §Y[FROM.GetNameDef]§!"
+
+ ### Opinion Modifiers
+ ICH_failed_coup:0 "Orchestrated the coup"
 
  ### Flags
  ICH_WORKERS_VICTORY_FLAG:0 "The Indochinese Communist Party has taken control of the country."
@@ -106,7 +109,13 @@
  ICH_banned_unions:0 "Banned Unions"
  ICH_indochinese_militarism_idea:0 "Indochinese Militarism"
  ICH_subversive_operations:0 "Subversive Operations"
- ICH_bastion_of_socialism:0 "Bastion of Socialism"
+ ICH_bastion_of_socialism_idea:0 "Bastion of Socialism"
+ ICH_british_trade:0 "Trade with Britain"
+ ICH_japanese_trade:0 "Trade with Japan"
+ ICH_german_trade:0 "Trade with Germany"
+ ICH_japanese_advisors:0 "Japanese Advisors"
+ ICH_german_advisors_idea:0 "German Advisors"
+ ICH_naval_financing:0 "Naval Financing"
 
  ### Effect Tooltips
  ICH_the_first_workers_congress_tt:0 "§GThe Worker's Congress will now commence.§!"
@@ -242,7 +251,7 @@
  ICH_protect_the_revolution_desc:0 ""
  ICH_lead_the_revolution:0 "Lead the Revolution"
  ICH_lead_the_revolution_desc:0 ""
- ICH_revolutionary_science:0 "Revolutionary Guards"
+ ICH_revolutionary_science:0 "Revolutionary Science"
  ICH_revolutionary_science_desc:0 ""
  ICH_defensive_preparations_commitee:0 "Defensive Preparations Commitee"
  ICH_defensive_preparations_commitee_desc:0 ""
@@ -330,6 +339,37 @@
  ICH_secret_police_desc:0 ""
  ICH_centralized_power:0 "Centralized Power"
  ICH_centralized_power_desc:0 ""
+ # Foreign
+ ICH_seeking_new_friends:0 "Seeking New Friends"
+ ICH_seeking_new_friends_desc:0 ""
+ ICH_tokyo_focus:0 "Tokyo"
+ ICH_tokyo_focus_desc:0 ""
+ ICH_london_focus:0 "London"
+ ICH_london_focus_desc:0 ""
+ ICH_berlin_focus:0 "Berlin"
+ ICH_berlin_focus_desc:0 ""
+ ICH_air_advisors:0 "Air Advisors"
+ ICH_air_advisors_desc:0 ""
+ ICH_trade_with_japan:0 "Trade with Japan"
+ ICH_trade_with_japan_desc:0 ""
+ ICH_request_assistance_on_the_navy:0 "Request Assistance on the Navy"
+ ICH_request_assistance_on_the_navy_desc:0 ""
+ ICH_trade_with_britain:0 "Trade with Britain"
+ ICH_trade_with_britain_desc:0 ""
+ ICH_tank_modernization:0 "Tank Modernization"
+ ICH_tank_modernization_desc:0 ""
+ ICH_trade_with_germany:0 "Trade with Germany"
+ ICH_trade_with_germany_desc:0 ""
+ ICH_german_advisors:0 "German Advisors"
+ ICH_german_advisors_desc:0 ""
+ ICH_southern_expedition:0 "Southern Expedition"
+ ICH_southern_expedition_desc:0 ""
+ ICH_western_expedition:0 "Western Expedition"
+ ICH_western_expedition_desc:0 ""
+ ICH_northern_expedition:0 "Northern Expedition"
+ ICH_northern_expedition_desc:0 ""
+ ICH_indochina_at_the_world_stage:0 "Indochina at the World Stage"
+ ICH_indochina_at_the_world_stage_desc:0 ""
 
  ### Events
  ich.1.t:0 "The 1936 Elections"
@@ -378,3 +418,27 @@
  ich.10.t:0 "France rejects entry to the Internationale"
  ich.10.d:0 "The French delegation and our delegation have not found agreed on the terms of our entry to the Internationale. They argued that they have other priorities to attend to and our entry to their faction is not one of them."
  ich.10.a:0 "Damn imperialist bastards!"
+
+ ich.11.t:0 ""
+ ich.11.d:0 ""
+ ich.11.a:0 ""
+ ich.11.b:0 ""
+ 
+ ich.12.t:0 ""
+ ich.12.d:0 ""
+ ich.12.a:0 ""
+ ich.12.b:0 ""
+
+ ich.13.t:0 ""
+ ich.13.d:0 ""
+ ich.13.a:0 ""
+ ich.13.b:0 ""
+
+ ich.14.t:0 ""
+ ich.14.d:0 ""
+ ich.14.a:0 ""
+ ich.14.b:0 ""
+
+ ich.15.t:0 "[FROM.GetName] rejected our entry to their faction"
+ ich.15.d:0 ""
+ ich.15.a:0 ""

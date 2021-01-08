@@ -1,0 +1,1 @@
+ICH_failed_coup = { value = -50 }

@@ -386,3 +386,119 @@ country_event = {
         name = ich.10.a
     }
 }
+
+# Indochinese Sponsored Coup
+country_event = {
+    id = ich.11
+    title = ich.11.t
+    desc = ich.11.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.11.a
+
+        add_opinion_modifier = {
+            target = ICH
+            modifier = ICH_failed_coup
+        }
+    }
+
+    option = {
+        name = ich.11.b
+
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.25
+        }
+    }
+}
+
+# Co-Prosperity Sphere
+country_event = {
+    id = ich.12
+    title = ich.12.t
+    desc = ich.12.d
+    picture = GFX_report_event_generic_read_write
+
+    option = {
+        name = ich.12.a
+
+        JAP = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.12.b
+
+        ICH = {
+            country_event = { id = ich.16.t days = 1}
+        }
+    }
+}
+
+# Commonwealth
+country_event = {
+    id = ich.13
+    title = ich.13.t
+    desc = ich.13.d
+    picture = GFX_report_event_generic_read_write
+
+    option = {
+        name = ich.13.a
+
+        ENG = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.13.b
+
+        ICH = {
+            country_event = { id = ich.16.t days = 1}
+        }
+    }
+}
+
+# German Faction
+country_event = {
+    id = ich.14
+    title = ich.14.t
+    desc = ich.14.d
+    picture = GFX_report_event_generic_read_write
+
+    option = {
+        name = ich.14.a
+
+        GER = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.14.b
+
+        ICH = {
+            country_event = { id = ich.16.t days = 1}
+        }
+    }
+}
+
+# Faction Join Rejects
+country_event = {
+    id = ich.15
+    title = ich.15.t
+    desc = ich.15.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    option = {
+        name = ich.15.a
+    }
+}
