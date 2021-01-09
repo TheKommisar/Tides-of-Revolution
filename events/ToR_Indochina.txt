@@ -66,6 +66,23 @@ country_event = {
         }
 
         hidden_effect = {
+            swap_ideas = {
+                remove_idea = GEN_HOG_Sde
+                add_idea = GEN_HOG_Sli
+            }
+            swap_ideas = {
+                remove_idea = GEN_FOR_Sde
+                add_idea = GEN_FOR_Sli
+            }
+            swap_ideas = {
+                remove_idea = GEN_ECO_Sde
+                add_idea = GEN_ECO_Sli
+            }
+            swap_ideas = {
+                remove_idea = GEN_SEC_Sde
+                add_idea = GEN_SEC_Sli
+            }
+
             set_country_flag = ICH_SOC_LIB_VICTORY_FLAG
         }
     }
@@ -86,6 +103,22 @@ country_event = {
 
         hidden_effect = {
             set_country_flag = ICH_WORKERS_VICTORY_FLAG
+            swap_ideas = {
+                remove_idea = GEN_HOG_Sde
+                add_idea = GEN_HOG_Ort
+            }
+            swap_ideas = {
+                remove_idea = GEN_FOR_Sde
+                add_idea = GEN_FOR_Ort
+            }
+            swap_ideas = {
+                remove_idea = GEN_ECO_Sde
+                add_idea = GEN_ECO_Ort
+            }
+            swap_ideas = {
+                remove_idea = GEN_SEC_Sde
+                add_idea = GEN_SEC_Ort
+            }
 
             set_party_name = { 
                 ideology = revolutionary_socialist
@@ -214,6 +247,23 @@ country_event = {
         hidden_effect = {
             clr_country_flag = ICH_SOC_DEM_VICTORY_FLAG
             set_country_flag = ICH_ARMY_COUP_FLAG
+
+            swap_ideas = {
+                remove_idea = GEN_HOG_Sde
+                add_idea = GEN_HOG_Ade
+            }
+            swap_ideas = {
+                remove_idea = GEN_FOR_Sde
+                add_idea = GEN_FOR_Ade
+            }
+            swap_ideas = {
+                remove_idea = GEN_ECO_Sde
+                add_idea = GEN_ECO_Ade
+            }
+            swap_ideas = {
+                remove_idea = GEN_SEC_Sde
+                add_idea = GEN_SEC_Ade
+            }
         }
     }
 }
@@ -244,6 +294,23 @@ country_event = {
         hidden_effect = {
             clr_country_flag = ICH_SOC_DEM_VICTORY_FLAG
             set_country_flag = ICH_WORKERS_VICTORY_FLAG
+
+            swap_ideas = {
+                remove_idea = GEN_HOG_Sde
+                add_idea = GEN_HOG_Ort
+            }
+            swap_ideas = {
+                remove_idea = GEN_FOR_Sde
+                add_idea = GEN_FOR_Ort
+            }
+            swap_ideas = {
+                remove_idea = GEN_ECO_Sde
+                add_idea = GEN_ECO_Ort
+            }
+            swap_ideas = {
+                remove_idea = GEN_SEC_Sde
+                add_idea = GEN_SEC_Ort
+            }
 
             set_party_name = { 
                 ideology = revolutionary_socialist
@@ -330,6 +397,22 @@ country_event = {
 
         hidden_effect = {
             set_country_flag = ICH_SOCIALIST_POLICY_FLAG
+            swap_ideas = {
+                remove_idea = GEN_HOG_Ort
+                add_idea = GEN_HOG_Rev
+            }
+            swap_ideas = {
+                remove_idea = GEN_FOR_Ort
+                add_idea = GEN_FOR_Rev
+            }
+            swap_ideas = {
+                remove_idea = GEN_ECO_Ort
+                add_idea = GEN_ECO_Rev
+            }
+            swap_ideas = {
+                remove_idea = GEN_SEC_Ort
+                add_idea = GEN_SEC_Rev
+            }
         }
     }
 
@@ -349,6 +432,22 @@ country_event = {
 
         hidden_effect = {
             set_country_flag = ICH_VANGUARDIST_POLICY_FLAG
+            swap_ideas = {
+                remove_idea = GEN_HOG_Ort
+                add_idea = GEN_HOG_Van
+            }
+            swap_ideas = {
+                remove_idea = GEN_FOR_Ort
+                add_idea = GEN_FOR_Van
+            }
+            swap_ideas = {
+                remove_idea = GEN_ECO_Ort
+                add_idea = GEN_ECO_Van
+            }
+            swap_ideas = {
+                remove_idea = GEN_SEC_Ort
+                add_idea = GEN_SEC_Van
+            }
         }
     }
 }
@@ -557,5 +656,61 @@ country_event = {
     option = {
         name = ich.15.a
         add_political_power = -10
+    }
+}
+
+# British Malaya Capitulation
+country_event = {
+    id = ich.16
+    title = ich.16.t
+    desc = ich.16.d
+    picture = GFX_report_event_french_resistance_01
+
+    trigger = {
+        tag = ICH
+        ICH = { 
+            has_war_with = ENG
+            has_war_with = MAL
+        }
+        MAL = {
+            has_capitulated = yes
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = ich.16.a
+        ENG = {
+            country_event = { id = ich.17 days = 1 }
+        }
+    }
+}
+
+# ENG Proposal
+country_event = {
+    id = ich.17
+    title = ich.17.t
+    desc = ich.17.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    # Accept the offer
+    option = {
+        name = ich.17.a
+        every_country = {
+            limit = {
+                is_in_faction_with = ENG
+                has_war_with = ICH
+            }
+            whitepeace = ICH
+        }
+    }
+    # Reject
+    option = {
+        name = ich.17.b
+        add_war_support = -0.05
     }
 }

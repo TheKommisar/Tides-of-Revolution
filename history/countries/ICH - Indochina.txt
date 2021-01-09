@@ -87,6 +87,11 @@ set_popularities = {
 add_ideas = {
 	ICH_unstable_state
 	ICH_sick_man_of_asia
+
+	GEN_HOG_Sde
+	GEN_FOR_Sde
+	GEN_ECO_Sde
+	GEN_SEC_Sde
 }
 
 create_country_leader = {
@@ -148,7 +153,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Duong Van Minh"
 	desc = "POLITICS_DUONG_VAN_MINH_DESC"
-	picture = ""
+	picture = "gfx/leaders/JAP/Portrait_Japan_Generic_land_5.dds"
 	expire = "1986.3.24"
 	ideology = authoritarian_democrat_subtype
 	traits = { }
@@ -160,4 +165,96 @@ create_country_leader = {
 	expire = "1986.3.24"
 	ideology = paternal_autocrat_subtype
 	traits = { }
+}
+
+# Commanders
+create_field_marshal = {
+	name = "Sisavang Vong"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Norodom Sihanouk"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Souphanouvong"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Vo Nguyen Giap"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Van Tien Dung"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Nguyen Van Hinh"
+	portrait_path = "gfx/leaders/JAP/Portrait_Japan_Generic_land_2.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hoang Van Thai"
+	portrait_path = "gfx/leaders/JAP/Portrait_Japan_Generic_land_1.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Duong Van Duong"
+	portrait_path = "gfx/leaders/JAP/Portrait_Japan_Generic_land_3.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Duong Van Minh"
+	portrait_path = "gfx/leaders/JAP/Portrait_Japan_Generic_land_5.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }

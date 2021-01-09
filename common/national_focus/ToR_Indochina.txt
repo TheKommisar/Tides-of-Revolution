@@ -2142,12 +2142,18 @@ focus_tree = {
         }
     }
 
+    #############################################
+    #                                           #
+    #              FOREIGN POLICY               #
+    #                                           #
+    #############################################
+
     # Seeking New Friends
     focus = {
         id = ICH_seeking_new_friends
         icon = GFX_goal_generic_national_unity
         x = 0
-        y = 1
+        y = 2
         cost = 3
         prerequisite = {
             focus = ICH_stand_for_democracy
