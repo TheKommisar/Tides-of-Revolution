@@ -8,9 +8,8 @@ state={
 	history={
 		owner = ICH
 		add_core_of = ICH
-		add_core_of = VIN
 		victory_points = {
-			1464 1
+			1464 5
 		}
 		buildings = {
 			industrial_complex = 1

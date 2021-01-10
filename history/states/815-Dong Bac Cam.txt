@@ -1,0 +1,18 @@
+state={
+	id=815
+	name="STATE_815"
+	state_category=town
+	history={
+		owner=ICH
+		add_core_of=ICH
+		buildings={
+	        infrastructure = 3
+			arms_factory = 1
+	    }
+	}
+	provinces={
+		1620 4330 4596 7645 10204 12167 12260 12288 
+	}
+	manpower=24854
+	buildings_max_level_factor=1.000
+}
