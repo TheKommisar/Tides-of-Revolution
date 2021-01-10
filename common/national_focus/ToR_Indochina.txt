@@ -1452,10 +1452,6 @@ focus_tree = {
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
             SIA = {
-                add_timed_idea = {
-                    idea = ICH_subversive_operations
-                    days = 360
-                }
                 set_country_flag = ICH_COUP_ALLOWED_FLAG
                 activate_targeted_decision = {
                     target = THIS
@@ -1531,10 +1527,6 @@ focus_tree = {
         relative_position_id = ICH_purge_reactionaries
         completion_reward = {
             PHI = {
-                add_timed_idea = {
-                    idea = ICH_subversive_operations
-                    days = 360
-                }
                 set_country_flag = ICH_COUP_ALLOWED_FLAG
                 activate_targeted_decision = {
                     target = THIS
@@ -1609,10 +1601,6 @@ focus_tree = {
         relative_position_id = ICH_liberate_siam
         completion_reward = {
             RAJ = {
-                add_timed_idea = {
-                    idea = ICH_subversive_operations
-                    days = 360
-                }
                 set_country_flag = ICH_COUP_ALLOWED_FLAG
                 activate_targeted_decision = {
                     target = THIS
@@ -1649,10 +1637,6 @@ focus_tree = {
         relative_position_id = ICH_liberate_the_philippines
         completion_reward = {
             INS = {
-                add_timed_idea = {
-                    idea = ICH_subversive_operations
-                    days = 360
-                }
                 set_country_flag = ICH_COUP_ALLOWED_FLAG
                 activate_targeted_decision = {
                     target = THIS

@@ -10,22 +10,28 @@ ICH_subversive_operations = {
                 }
             }
         }
-
+        
         visible = {
             FROM = { has_country_flag = ICH_COUP_ALLOWED_FLAG }
         }
 
         cost = 50
-        days_remove = 60
+        days_remove = 180
         fire_only_once = yes
         
         complete_effect = {
+            FROM = {
+                add_ideas = ICH_subversive_operations
+            }
             set_country_flag = INS_PREPARING_COUP_FLAG
-            FROM = { set_country_flag = ICH_ONGOING_TARGET_FLAG }
         }
 
         remove_effect = {
             clr_country_flag = INS_PREPARING_COUP_FLAG
+            FROM = {
+                remove_ideas = ICH_subversive_operations
+                set_country_flag = ICH_ONGOING_TARGET_FLAG 
+            }
         }
     }
 
@@ -48,15 +54,12 @@ ICH_subversive_operations = {
         cost = 150
         days_remove = 120
         fire_only_once = yes
-        
-        complete_effect = {
-            FROM = {
-                country_event = { id = ich.14 days = 1 }
-            }
-        }
 
         remove_effect = {
             clr_country_flag = INS_ONGOING_TARGET
+            FROM = {
+                country_event = { id = ich.14 days = 1 }
+            }
         }
     }
 }

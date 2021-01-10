@@ -485,6 +485,8 @@ country_event = {
     desc = ich.10.d
     picture = GFX_report_event_generic_read_write
 
+    is_triggered_only = yes
+
     option = {
         name = ich.10.a
         JAP = {
@@ -509,6 +511,8 @@ country_event = {
     desc = ich.11.d
     picture = GFX_report_event_generic_read_write
 
+    is_triggered_only = yes
+
     option = {
         name = ich.11.a
         ENG = {
@@ -532,6 +536,8 @@ country_event = {
     title = ich.12.t
     desc = ich.12.d
     picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
 
     option = {
         name = ich.12.a
@@ -665,6 +671,8 @@ country_event = {
     title = ich.16.t
     desc = ich.16.d
     picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
 
     trigger = {
         tag = ICH

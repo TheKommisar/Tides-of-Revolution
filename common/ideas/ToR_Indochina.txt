@@ -90,8 +90,9 @@ ideas = {
             picture = generic_exploit_mines
 
             modifier = {
-                min_export = 0.05
+                min_export = -0.15
                 consumer_goods_factor = -0.05
+                local_resources = 0.15
             }
         }
 
