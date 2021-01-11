@@ -2,7 +2,7 @@
 # created by: dax0102
 
 focus_tree = {
-    id = indoICHnese_focus
+    id = indochinese_focus
 	
 	country = {
 		factor = 0
