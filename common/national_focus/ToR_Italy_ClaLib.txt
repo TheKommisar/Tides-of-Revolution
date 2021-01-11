@@ -14,7 +14,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_liberal_victory
-		icon = GFX_wip
+		icon = GFX_goal_ideology_social_liberal
 		x = 2
                 y = 0
                 available = {}
@@ -29,7 +29,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_religious_freedom
-		icon = GFX_wip
+		icon = GFX_BEL_Improve_Catholic_Relations
                 prerequisite = { focus = ITA_liberal_victory }
 		x = -3
                 y = 1
@@ -46,7 +46,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_institutional_secularisation
-		icon = GFX_wip
+		icon = GFX_focus_generic_the_giant_wakes
                 prerequisite = { focus = ITA_religious_freedom }
 		x = -2
                 y = 1
@@ -64,7 +64,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_guarantee_church_rights
-		icon = GFX_wip
+		icon = GFX_focus_generic_support_the_left_right
                 prerequisite = { focus = ITA_religious_freedom }
 		x = 0
                 y = 1
@@ -81,7 +81,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_a_deal_with_sturzo
-		icon = GFX_wip
+		icon = GFX_goal_generic_improve_relations
                 prerequisite = { focus = ITA_religious_freedom }
 		x = 2
                 y = 1
@@ -98,7 +98,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_protect_religions_from_sects
-		icon = GFX_wip
+		icon = GFX_goal_generic_defence
                 prerequisite = { focus = ITA_institutional_secularisation }
                 prerequisite = { focus = ITA_guarantee_church_rights }
                 prerequisite = { focus = ITA_a_deal_with_sturzo }
@@ -117,7 +117,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_improve_quality_of_life
-		icon = GFX_wip
+		icon = GFX_goal_generic_consumer_goods
                 prerequisite = { focus = ITA_liberal_victory }
 		x = 3
                 y = 1
@@ -134,7 +134,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_expand_schools
-		icon = GFX_wip
+		icon = GFX_focus_research
                 prerequisite = { focus = ITA_improve_quality_of_life }
 		x = -2
                 y = 1
@@ -151,7 +151,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_fund_more_into_the_cnr
-		icon = GFX_wip
+		icon = GFX_goal_gold_up
                 prerequisite = { focus = ITA_improve_quality_of_life }
 		x = 0
                 y = 1
@@ -168,7 +168,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_expand_welfare_benefits
-		icon = GFX_wip
+		icon = GFX_focus_generic_concessions
                 prerequisite = { focus = ITA_improve_quality_of_life }
 		x = 2
                 y = 1
@@ -185,7 +185,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_rent_regulation
-		icon = GFX_wip
+		icon = GFX_focus_generic_self_management
                 prerequisite = { focus = ITA_expand_schools }
                 prerequisite = { focus = ITA_fund_more_into_the_cnr }
                 prerequisite = { focus = ITA_expand_welfare_benefits }
@@ -204,7 +204,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_a_better_italy
-		icon = GFX_wip
+		icon = GFX_ITA_united
                 prerequisite = { focus = ITA_rent_regulation }
                 prerequisite = { focus = ITA_protect_religions_from_sects }
 		x = 3

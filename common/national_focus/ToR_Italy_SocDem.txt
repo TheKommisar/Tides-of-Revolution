@@ -14,7 +14,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_socialist_coalition   
-		icon = GFX_wip
+		icon = GFX_goal_ideology_social_democrat
 		x = 1
                 y = 0
                 available = {}
@@ -29,7 +29,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_expand_welfare
-		icon = GFX_wip
+		icon = GFX_goal_famine
                 prerequisite = { focus = ITA_socialist_coalition }
 		x = -3
                 y = 2
@@ -45,7 +45,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_public_healthcare
-		icon = GFX_wip
+		icon = GFX_focus_generic_concessions
                 prerequisite = { focus = ITA_expand_welfare }
 		x = 0
                 y = 1
@@ -61,7 +61,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_pensions_for_veterans_and_elderly
-		icon = GFX_wip
+		icon = GFX_focus_generic_military_mission
                 prerequisite = { focus = ITA_public_healthcare }
 		x = 0
                 y = 1
@@ -77,7 +77,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_adaptive_socialism
-		icon = GFX_wip
+		icon = GFX_goal_red_star_dove
                 prerequisite = { focus = ITA_socialist_coalition }
 		x = 3
                 y = 2
@@ -93,7 +93,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_reconcile_with_psi
-		icon = GFX_wip
+		icon = GFX_goal_syndicalist_congress
                 prerequisite = { focus = ITA_adaptive_socialism }
 		x = 0
                 y = 1
@@ -109,7 +109,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_minimum_wage_act
-		icon = GFX_wip
+		icon = GFX_goal_production
                 prerequisite = { focus = ITA_reconcile_with_psi }
 		x = 0
                 y = 1
@@ -125,7 +125,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_compromising_our_way_forward
-		icon = GFX_wip
+		icon = GFX_goal_tripartite_pact
                 prerequisite = { focus = ITA_socialist_coalition }
 		x = 0
                 y = 1
@@ -141,7 +141,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_colonial_citizenry_act
-		icon = GFX_wip
+		icon = GFX_goal_conspiracy
                 prerequisite = { focus = ITA_compromising_our_way_forward }
 		x = -1
                 y = 1
@@ -157,7 +157,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_enforce_army_neutrality
-		icon = GFX_wip
+		icon = GFX_goal_army_guy_2
                 prerequisite = { focus = ITA_colonial_citizenry_act }
 		x = 0
                 y = 1
@@ -173,7 +173,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_guarantee_religious_freedom
-		icon = GFX_wip
+		icon = GFX_BEL_Improve_Catholic_Relations
                 prerequisite = { focus = ITA_compromising_our_way_forward }
 		x = 1
                 y = 1
@@ -189,7 +189,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_family_values
-		icon = GFX_wip
+		icon = GFX_goal_generic_defence
                 prerequisite = { focus = ITA_guarantee_religious_freedom }
 		x = 0
                 y = 1
@@ -205,7 +205,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_limit_the_militias
-		icon = GFX_wip
+		icon = GFX_goal_generic_forceful_treaty
                 prerequisite = { focus = ITA_family_values }
                 prerequisite = { focus = ITA_enforce_army_neutrality }
 		x = -1
@@ -222,7 +222,7 @@ focus_tree = {
     
         focus = {
 		id = ITA_fate_of_the_coalition
-		icon = GFX_wip
+		icon = GFX_goal_generic_attack_allies
                 prerequisite = { focus = ITA_limit_the_militias }
                 prerequisite = { focus = ITA_pensions_for_veterans_and_elderly }
                 prerequisite = { focus = ITA_minimum_wage_act }
@@ -240,7 +240,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_a_new_italy
-		icon = GFX_wip
+		icon = GFX_ITA_united
                 prerequisite = { focus = ITA_fate_of_the_coalition }
 		x = 0
                 y = 1

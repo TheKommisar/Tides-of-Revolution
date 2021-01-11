@@ -672,7 +672,7 @@
 
         shared_focus = {
 		id = ITA_regia_aeronautica
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_build_airforce
 		x = 60
                 y = 0
                 available = {}
@@ -687,7 +687,7 @@
 
         shared_focus = {
 		id = ITA_expand_airfields
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_construction
                 prerequisite = { focus = ITA_regia_aeronautica } 
 		x = -1
 		y = 1
@@ -703,7 +703,7 @@
 
         shared_focus = {
 		id = ITA_contract_italian_corporations
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_improve_relations
                 prerequisite = { focus = ITA_regia_aeronautica } 
 		x = 1
 		y = 1
@@ -719,7 +719,7 @@
 
         shared_focus = {
 		id = ITA_bomber_research
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_air_bomber
                 prerequisite = { focus = ITA_expand_airfields focus = ITA_contract_italian_corporations } 
 		x = 0
 		y = 1
@@ -735,7 +735,7 @@
 
         shared_focus = {
 		id = ITA_strategic_bombers
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_occupy_start_war
                 prerequisite = { focus = ITA_bomber_research } 
 		x = 0
 		y = 1
@@ -752,7 +752,7 @@
 
         shared_focus = {
 		id = ITA_fighter_research
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_air_fighter
                 prerequisite = { focus = ITA_expand_airfields focus = ITA_contract_italian_corporations } 
 		x = 0
 		y = 1
@@ -768,7 +768,7 @@
 
         shared_focus = {
 		id = ITA_cas_trials
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_CAS
                 prerequisite = { focus = ITA_fighter_research } 
 		x = 0
 		y = 1
@@ -784,7 +784,7 @@
 
         shared_focus = {
 		id = ITA_radar_experiments
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_radar
                 prerequisite = { focus = ITA_strategic_bombers } 
 		x = -1
 		y = 1
@@ -800,7 +800,7 @@
 
         shared_focus = {
 		id = ITA_defend_the_skies
-		icon = GFX_goal_bankruptcy
+		icon = GFX_focus_generic_air_defense
                 prerequisite = { focus = ITA_strategic_bombers } 
                 prerequisite = { focus = ITA_cas_trials }
 		x = 1
@@ -817,7 +817,7 @@
 
         shared_focus = {
 		id = ITA_airborne_corps
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_air_fighter2
                 prerequisite = { focus = ITA_strategic_bombers } 
                 prerequisite = { focus = ITA_cas_trials }
 		x = 1
@@ -834,7 +834,7 @@
 
         shared_focus = {
 		id = ITA_operazione_arciere
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_air_doctrine
                 prerequisite = { focus = ITA_radar_experiments } 
                 prerequisite = { focus = ITA_defend_the_skies }
                 prerequisite = { focus = ITA_airborne_corps }
@@ -854,7 +854,7 @@
 
         shared_focus = {
 		id = ITA_new_army_plan
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_axis_build_infantry
 		x = 45
                 y = 0
                 available = {}
@@ -869,7 +869,7 @@
 
         shared_focus = {
 		id = ITA_appoint_messe
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_panzerwaffe
                 prerequisite = { focus = ITA_new_army_plan} 
                 mutually_exclusive = { focus = ITA_extend_badoglios_tenure }
 		x = -4
@@ -886,7 +886,7 @@
 
         shared_focus = {
 		id = ITA_iron_horses
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_army_tanks
                 prerequisite = { focus = ITA_appoint_messe }
 		x = 0
 		y = 1
@@ -902,7 +902,7 @@
 
         shared_focus = {
 		id = ITA_contract_ferrari
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_small_arms
                 prerequisite = { focus = ITA_iron_horses }
 		x = 1
 		y = 1
@@ -918,7 +918,7 @@
 
         shared_focus = {
 		id = ITA_support_research
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_scientific_exchange
                 prerequisite = { focus = ITA_iron_horses }
 		x = -1
 		y = 1
@@ -934,7 +934,7 @@
 
         shared_focus = {
 		id = ITA_frontline_fortifications
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_construct_military
                 prerequisite = { focus = ITA_support_research }
                 prerequisite = { focus = ITA_contract_ferrari }
 		x = 1
@@ -951,7 +951,7 @@
 
         shared_focus = {
 		id = ITA_revive_the_arditi
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_offensive_army
                 prerequisite = { focus = ITA_appoint_messe }
 		x = 3
 		y = 1
@@ -967,7 +967,7 @@
 
         shared_focus = {
 		id = ITA_special_infantry_advancements
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_army_guy
                 prerequisite = { focus = ITA_revive_the_arditi }
 		x = 0
 		y = 1
@@ -983,7 +983,7 @@
 
         shared_focus = {
 		id = ITA_warriors_in_mountains
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_more_territorial_claims
                 prerequisite = { focus = ITA_special_infantry_advancements }
 		x = 0
 		y = 1
@@ -999,7 +999,7 @@
 
         shared_focus = {
 		id = ITA_ready_for_the_coming_war
-		icon = GFX_goal_bankruptcy
+		icon = GFX_focus_generic_strike_at_democracy1
                 prerequisite = { focus = ITA_warriors_in_mountains }
                 prerequisite = { focus = ITA_frontline_fortifications }
 		x = 2
@@ -1018,7 +1018,7 @@
 
         shared_focus = {
 		id = ITA_extend_badoglios_tenure
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_military_sphere
                 prerequisite = { focus = ITA_new_army_plan} 
                 mutually_exclusive = { focus = ITA_appoint_messe }
 		x = 4
@@ -1035,7 +1035,7 @@
 
         shared_focus = {
 		id = ITA_watching_the_alps
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_position_armies
                 prerequisite = { focus = ITA_extend_badoglios_tenure }
 		x = 0
 		y = 1
@@ -1051,7 +1051,7 @@
 
         shared_focus = {
 		id = ITA_seeing_to_the_austrian_front
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_FRA_liberate_AH
                 prerequisite = { focus = ITA_watching_the_alps }
 		x = -1
 		y = 1
@@ -1067,7 +1067,7 @@
 
         shared_focus = {
 		id = ITA_seeing_to_the_french_front
-		icon = GFX_goal_bankruptcy
+		icon = GFX_focus_attack_france
                 prerequisite = { focus = ITA_watching_the_alps }
 		x = 1
 		y = 1
@@ -1083,7 +1083,7 @@
 
         shared_focus = {
 		id = ITA_fortify_the_cities
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_construction2
                 prerequisite = { focus = ITA_seeing_to_the_austrian_front }
                 prerequisite = { focus = ITA_seeing_to_the_french_front }
 		x = -1
@@ -1116,7 +1116,7 @@
 
         shared_focus = {
 		id = ITA_guns_from_the_huns
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_small_arms
                 prerequisite = { focus = ITA_fast_tanks }
 		x = 0
 		y = 1
@@ -1132,7 +1132,7 @@
 
         shared_focus = {
 		id = ITA_shiny_brass_bombarders
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_poland_goal
                 prerequisite = { focus = ITA_guns_from_the_huns }
 		x = 0
 		y = 1
@@ -1148,7 +1148,7 @@
 
         shared_focus = {
 		id = ITA_ready_and_waiting
-		icon = GFX_goal_bankruptcy
+		icon = GFX_focus_generic_italy_first
                 prerequisite = { focus = ITA_fortify_the_cities }
                 prerequisite = { focus = ITA_shiny_brass_bombarders }
 		x = 1
@@ -1165,7 +1165,7 @@
 
         shared_focus = {
 		id = ITA_the_day_of_mourning
-		icon = GFX_goal_bankruptcy
+		icon = GFX_focus_generic_anti_fascist_diplomacy
                 prerequisite = { focus = ITA_extend_badoglios_tenure focus = ITA_appoint_messe }
 		x = 4
 		y = 5
@@ -1181,7 +1181,7 @@
 
         shared_focus = {
 		id = ITA_commemorating_the_fallen
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_graveyard
                 prerequisite = { focus = ITA_the_day_of_mourning }
 		x = -1
 		y = 1
@@ -1197,7 +1197,7 @@
 
         shared_focus = {
 		id = ITA_learning_from_our_mistakes
-		icon = GFX_goal_bankruptcy
+		icon = GFX_focus_generic_self_management
                 prerequisite = { focus = ITA_the_day_of_mourning }
 		x = 1
 		y = 1
@@ -1213,7 +1213,7 @@
 
         shared_focus = {
 		id = ITA_remember_the_guerra_mondiale
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_Centralised_Government
                 prerequisite = { focus = ITA_commemorating_the_fallen }
                 prerequisite = { focus = ITA_learning_from_our_mistakes }
 		x = 1
@@ -1230,7 +1230,7 @@
 
         shared_focus = {
 		id = ITA_kickstart_navy_funding
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_build_navy
 		x = 54
 		y = 0
 		cost = 5
@@ -1244,7 +1244,7 @@
 
         shared_focus = {
 		id = ITA_war_at_sea
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_navy_battleship
                 prerequisite = { focus = ITA_kickstart_navy_funding }
                 prerequisite = { focus = ITA_new_army_plan }
 		x = -3
@@ -1261,7 +1261,7 @@
 
         shared_focus = {
 		id = ITA_walking_on_water
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_amphibious_assault
                 prerequisite = { focus = ITA_war_at_sea }
 		x = 0
 		y = 1
@@ -1277,7 +1277,7 @@
 
         shared_focus = {
 		id = ITA_aerial_umbrella
-		icon = GFX_goal_bankruptcy
+		icon = GFX_focus_generic_paratrooper
                 prerequisite = { focus = ITA_kickstart_navy_funding }
                 prerequisite = { focus = ITA_regia_aeronautica }
 		x = 3
@@ -1294,7 +1294,7 @@
 
         shared_focus = {
 		id = ITA_carrier_conversions
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_navy_carrier
                 prerequisite = { focus = ITA_aerial_umbrella }
 		x = 0
 		y = 1
@@ -1310,7 +1310,7 @@
 
         shared_focus = {
 		id = ITA_undersea_fleet
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_navy_submarine
                 prerequisite = { focus = ITA_kickstart_navy_funding }
 		x = -1
 		y = 1
@@ -1326,7 +1326,7 @@
 
         shared_focus = {
 		id = ITA_study_the_uboat
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_navy_doctrines_tactics
                 prerequisite = { focus = ITA_undersea_fleet }
 		x = 0
 		y = 1
@@ -1342,7 +1342,7 @@
 
         shared_focus = {
 		id = ITA_starve_them_off
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_navy_anti_submarine
                 prerequisite = { focus = ITA_study_the_uboat }
 		x = 0
 		y = 1
@@ -1358,7 +1358,7 @@
 
         shared_focus = {
 		id = ITA_oversea_fleet
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_navy_battleship
                 prerequisite = { focus = ITA_kickstart_navy_funding }
 		x = 1
 		y = 1
@@ -1374,7 +1374,7 @@
 
         shared_focus = {
 		id = ITA_floating_fortresses
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_construct_naval_dockyard
                 prerequisite = { focus = ITA_oversea_fleet }
 		x = 0
 		y = 1
@@ -1390,7 +1390,7 @@
 
         shared_focus = {
 		id = ITA_protect_our_convoys
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_navy_cruiser
                 prerequisite = { focus = ITA_floating_fortresses }
 		x = 0
 		y = 1
@@ -1406,7 +1406,7 @@
 
         shared_focus = {
 		id = ITA_our_new_domain
-		icon = GFX_goal_bankruptcy
+		icon = GFX_goal_generic_sea_focused_navy
                 prerequisite = { focus = ITA_protect_our_convoys focus = ITA_starve_them_off }
 		x = 1
 		y = 1
