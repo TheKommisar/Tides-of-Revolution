@@ -2370,8 +2370,9 @@ focus_tree = {
         relative_position_id = ICH_trade_with_japan
         completion_reward = {
             create_wargoal = {
-                type = annex_everything
-                target = MAL
+                type = take_state_focus
+                target = ENG
+                generator = { 333 336 }
             }
         }
     }

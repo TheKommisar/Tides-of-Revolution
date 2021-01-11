@@ -677,11 +677,9 @@ country_event = {
     trigger = {
         tag = ICH
         ICH = { 
+            controls_state = 333
+            controls_state = 336
             has_war_with = ENG
-            has_war_with = MAL
-        }
-        MAL = {
-            has_capitulated = yes
         }
     }
     mean_time_to_happen = {
