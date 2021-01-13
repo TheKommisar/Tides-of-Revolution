@@ -720,3 +720,41 @@ country_event = {
         add_war_support = -0.05
     }
 }
+
+# Invitation to the Faction
+country_event = {
+    id = ich.18
+    title = ich.18.t
+    desc = ich.18.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.18.a
+
+        ICH = {
+            add_to_faction = PREV
+        }
+    }
+    option = {
+        name = ich.18.b
+        ICH = {
+            country_event = { id = ich.19 days = 2 }
+        }
+    }
+}
+
+# From Rejects
+country_event = {
+    id = ich.19
+    title = ich.19.t
+    desc = ich.19.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.19.a
+    }
+}

@@ -1390,6 +1390,7 @@ focus_tree = {
                 is_faction_leader = yes
             }
             is_subject = no
+            has_socialist_government = yes
         }
         prerequisite = { focus = ICH_purge_reactionaries }
         relative_position_id = ICH_purge_reactionaries
@@ -1411,6 +1412,7 @@ focus_tree = {
         available = {
             is_in_faction = no
             is_subject = no
+            has_socialist_government = yes
         }
         prerequisite = { focus = ICH_purge_reactionaries }
         relative_position_id = ICH_purge_reactionaries
@@ -1418,7 +1420,7 @@ focus_tree = {
             set_rule = {
                 can_create_factions = yes
             }
-            create_faction = ICH_asian_solidarity_union
+            create_faction = asian_solidarity_union
         }
     }
 
@@ -2186,6 +2188,7 @@ focus_tree = {
             }
             is_in_faction = no
             is_subject = no
+            has_democratic_government = yes
         }
         prerequisite = { focus = ICH_seeking_new_friends }
         relative_position_id = ICH_seeking_new_friends

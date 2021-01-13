@@ -1,8 +1,5 @@
 ﻿l_english:
  
- ### Factions
- ICH_asian_solidarity_union:0 "Asian Solidarity Union"
-
  ### Parties
  ICH_vanguardist_party:0 "ICP"
  ICH_vanguardist_party_long:0 "Indochinese Communist Party"
@@ -75,12 +72,15 @@
  ICH_national_populists_ADJ:0 "Indochinese"
 
  ### Decisions
- # Categories
+ # Subversive Operations
  ICH_subversive_operations:0 "Subversive Operations"
  ICH_subversive_operations_desc:0 "We are currently alone in Asia as a socialist state. However, we can fund other local opposition sympathetic to the socialist cause, and bring the revolution to our fellow Asian brothers!"
- # Decisions
  ICH_prepare_coup:0 "Prepare Coup in §Y[FROM.GetNameDef]§!"
  ICH_ignite_coup:0 "Ignite Coup in §Y[FROM.GetNameDef]§!"
+ # The Asian Solidarity Union
+ ICH_the_asian_solidarity_union_decisions:0 "The Asian Solidarity Union"
+ ICH_the_asian_solidarity_union_decisions_desc:0 ""
+ ICH_invite_tag:0 "Invite §Y[From.GetNameDef]§!"
 
  ### Opinion Modifiers
  ICH_failed_coup:0 "Orchestrated the coup"
@@ -470,4 +470,13 @@
  ich.17.d:0 "With the fall of British Malaya to the [ICH.GetAdjective] forces our supply lines have been cut-off in Hongkong. The [ICH.GetAdjective] have proposed a whitepeace as not to exhaust the military and economy of both our nations. What shall be our response?"
  ich.17.a:0 "Accept the offer."
  ich.17.b:0 "We will march to Hanoi!"
+
+ ich.18.t:0 "The [ICH.GetName] invites us to their faction"
+ ich.18.d:0 "Today the delegation between [This.GetNameDef] and the [ICH.GetNameDef] have held a meeting here in [GER.Capital.GetName] discussing the entry of the [ICH.GetNameDef] in the Commonwealth. They argued that [GER.GetName], a strong powerhouse against other imperialist nations can help [ICH.GetNameDef] in defending its sovereignity and independence against rebellious elements that might endanger the country itself. While militarily, it is beneficial to have an neighboring ally, it can also have its own problems, as we have to send troops to them. What should be our response?"
+ ich.18.a:0 "We will accept"
+ ich.18.b:0 "We respectfully decline"
+
+ ich.19.t:0 "[From.GetName] Refuses"
+ ich.19.d:0 "The [From.GetAdjective] government has refused our request to join our alliance. They argued that they have other priorities to attend to and our entry to their faction is not one of them."
+ ich.19.a:0 "Such a poor decision."
  
