@@ -23,3 +23,10 @@ has_democratic_government = {
         }
     }
 }
+
+can_replace_minister = {
+    custom_trigger_tooltip = {
+        tooltip = ToR_can_replace_minister_tt
+        always = no
+    }
+}

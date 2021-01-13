@@ -11,4 +11,9 @@ ICH_the_asian_solidarity_union_decisions = {
     base = 25
 
     icon = GFX_decision_category_sov_great_patriotic_war
+
+    visible = {
+        has_completed_focus = ICH_on_our_own
+        is_faction_leader = yes
+    }
 }

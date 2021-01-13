@@ -1,0 +1,379 @@
+spriteTypes = {
+    ### Head of Government
+	spriteType = {
+		name = "GFX_idea_ICH_Pham_Hung_hog_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Pham_Hung.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Pham_Van_Dong_hog_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Pham_Van_Dong.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Van_Cu_hog_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Van_Cu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ton_Duc_Thang_hog_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ton_Duc_Thang.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Truong_Chinh_hog_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Truong_Chinh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Chu_Van_Tan_hog_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Chu_Van_Tan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_The_Truyen_hog_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_The_Truyen.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Souphanou_Vong_hog_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Souphanou_Vong.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Van_Giau_hog_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Giau.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Truong_Thi_Sau_hog_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Truong_Thi_Sau.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Dao_Duy_Anh_hog_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Dao_Duy_Anh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Hai_Than_hog_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Hai_Than.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Lon_Nol_hog_pau"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Lon_Nol.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Phuc_Buu_Dinh_hog_pau"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Phuc_Buu_Dinh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Le_Van_Hoach_hog_npo"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Le_Van_Hoach.tga"
+	}
+
+	### Person of Influence
+	# Foreign Minister
+	spriteType = {
+		name = "GFX_idea_ICH_Hoang_Van_Hoan_for_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Hoang_Van_Hoan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Duy_Trinh_for_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Duy_Trinh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Xuan_Thuy_for_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Xuan_Thuy.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Duong_Bach_Mai_for_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Duong_Bach_Mai.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Co_Thach_for_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Co_Thach.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Phan_Van_Hum_for_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Phan_Van_Hum.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ung_Van_Khiem_for_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ung_Van_Khiem.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tou_Samouth_for_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tou_Samouth.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Van_Giau_for_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Giau.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Tuong_Tam_for_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Tuong_Tam.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Sisowath_Monipong_for_sco"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Sisowath_Monipong.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ha_Thuc_Ky_for_ade"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ha_Thuc_Ky.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Boun_Oum_for_pau"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Boun_Oum.tga"
+	}
+
+	# Economy Minister
+	spriteType = {
+		name = "GFX_idea_ICH_Pham_Van_Dong_eco_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Pham_Van_Dong.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ngo_Van_eco_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ngo_Van.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Duy_Thai_eco_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Duy_Thai.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Van_Linh_eco_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Van_Linh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Phan_Van_Chanh_eco_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Phan_Van_Chanh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ta_Xuan_Thu_eco_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ta_Xuan_Thu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Dai_Nghia_eco_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Dai_Nghia.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Bui_Cong_Trung_eco_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Bui_Cong_Trung.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ngo_Tan_Nhon_eco_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ngo_Tan_Nhon.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Van_Tao_eco_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Van_Tao.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ta_Quang_Buu_eco_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ta_Quang_Buu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Truong_Thi_Sau_eco_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Truong_Thi_Sau.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Hai_Than_eco_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Hai_Than.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Thi_Nam_eco_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Thi_Nam.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Sisowath_Youtevong_eco_cli"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Sisowath_Youtevong.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Boun_Oum_eco_pau"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Boun_Oum.tga"
+	}
+
+	# Security Minister
+	spriteType = {
+		name = "GFX_idea_ICH_To_Huu_sec_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_To_Huu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Quoc_Hoan_sec_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Quoc_Hoan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Duong_Bach_Mai_sec_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Duong_Bach_Mai.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Le_Hong_Phong_sec_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Le_Hong_Phong.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Thi_Minh_Khai_sec_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Thi_Minh_Khai.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Phan_Van_Chanh_sec_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Phan_Van_Chanh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Van_Thach_sec_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Thach.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Cu_Huy_Can_sec_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Cu_Huy_Can.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Thi_Thap_sec_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Thi_Thap.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Trung_Nguyet_sec_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Trung_Nguyet.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Van_Nguyen_sec_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Van_Nguyen.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Phomvihanh_Kayson_sec_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Phomvihanh_Kayson.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ta_Dinh_De_sec_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ta_Dinh_De.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Huyhn_Thuc_Khang_sec_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Huyhn_Thuc_Khang.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nhuong_Tong_sec_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nhuong_Tong.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Sisowath_Monireth_sec_sco"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Sisowath_Monireth.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Ton_Hoan_sec_ade"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Ton_Hoan.tga"
+	}
+
+
+	### Chief of Staff
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Chi_Thanh_cos_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Chi_Thanh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Van_Tien_Dung_cos_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Van_Tien_Dung.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Hoang_Van_Tai_cos_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Hoang_Van_Tai.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Son_cos_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Son.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Vo_Nguyen_Giap_cos_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Vo_Nguyen_Giap.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Van_Tra_cos_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Tra.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Binh_cos_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Binh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Truong_Boi_Cong_cos_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Truong_Boi_Cong.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Lon_Nol_cos_pau"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Lon_Nol.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Van_Don_cos_pau"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Don.tga"
+	}
+
+	### Chief of Army
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Chi_Thanh_carm_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Chi_Thanh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Van_Tien_Dung_carm_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Van_Tien_Dung.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ngo_Van_carm_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ngo_Van.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Son_carm_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Son.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Vo_Nguyen_Giap_carm_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Vo_Nguyen_Giap.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Chu_Van_Tan_carm_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Chu_Van_Tan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Van_Tra_carm_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Tra.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Binh_carm_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Binh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Truong_Boi_Cong_carm_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Truong_Boi_Cong.tga"
+	}
+
+	### Chief of Navy
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Van_Giang_cnav_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Giang.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Ta_Xuan_Thu_cnav_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Ta_Xuan_Thu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Bat_Phat_cnav_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Bat_Phat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Le_Quang_My_cnav_ade"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Le_Quang_My.tga"
+	}
+
+	### Chief of Air Force
+	spriteType = {
+		name = "GFX_idea_ICH_Hoang_The_Thien_cair_van"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Hoang_The_Thien.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Le_Van_Tri_cair_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Le_Van_Tri.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Nguyen_Duc_Viet_cair_ort"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Duc_Viet.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Quy_Hai_cair_rev"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Quy_Hai.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Dang_Tinh_cair_sde"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Dang_Tinh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Tran_Van_Minh_cair_ade"
+		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Minh.tga"
+	}
+}

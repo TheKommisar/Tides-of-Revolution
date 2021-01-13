@@ -88,10 +88,10 @@ add_ideas = {
 	ICH_unstable_state
 	ICH_sick_man_of_asia
 
-	GEN_HOG_Sde
-	GEN_FOR_Sde
-	GEN_ECO_Sde
-	GEN_SEC_Sde
+	ICH_Dao_Duy_Anh_hog_sde
+	ICH_Nguyen_Tuong_Tam_for_sde
+	ICH_Nguyen_Hai_Than_eco_sde
+	ICH_Huyhn_Thuc_Khang_sec_sde
 }
 
 create_country_leader = {
