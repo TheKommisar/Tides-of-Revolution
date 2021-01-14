@@ -995,7 +995,7 @@ focus_tree = {
                 id = ich.7 days = 0
             }
         }
-        completion_reward = { custom_effect_tooltip = ICH_the_first_workers_congress_tt }
+        completion_reward = { custom_effect_tooltip = ICH_first_workers_congress_tt }
     }
 
     # Socialist Economy

@@ -107,7 +107,7 @@ ideas = {
             }
         }
 
-        ICH_worker_ICHentives_idea = {
+        ICH_worker_incentives_idea = {
             allowed = { original_tag = ICH }
 
             picture = ROM_king_carol_ii_hedonist

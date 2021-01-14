@@ -135,10 +135,7 @@
  ICH_japanese_advisors:0 "Japanese Advisors"
  ICH_german_advisors_idea:0 "German Advisors"
  ICH_naval_financing:0 "Naval Financing"
-
- ### Effect Tooltips
- ICH_the_first_workers_congress_tt:0 "§GThe Worker's Congress will now commence.§!"
-
+ 
  ### Ministers
  # Head of Government
  ICH_Pham_Hung_hog_van:0 "Pham Hung"
@@ -342,6 +339,7 @@
  # Commie
  ICH_first_workers_congress:0 "The First Worker's Congress"
  ICH_first_workers_congress_desc:0 ""
+ ICH_first_workers_congress_tt:0 "§GThe Worker's Congress will now commence.§!"
  ICH_socialist_economy:0 "Socialist Economy"
  ICH_socialist_economy_desc:0 ""
  ICH_industrial_unionism:0 "Industrial Unionism"
@@ -362,8 +360,8 @@
  ICH_collective_farms_desc:0 ""
  ICH_workers_self_management:0 "Worker's Self Management"
  ICH_workers_self_management_desc:0 ""
- ICH_worker_ICHentives:0 "Worker's ICHentives"
- ICH_worker_ICHentives_desc:0 ""
+ ICH_worker_incentives:0 "Worker's Incentives"
+ ICH_worker_incentives_desc:0 ""
  ICH_centralized_syndicalism:0 "Centralized Syndicalism"
  ICH_centralized_syndicalism_desc:0 ""
  ICH_vanguardist_economy:0 "Vanguardist Economy"
@@ -411,6 +409,7 @@
  # SocDem
  ICH_the_status_quo_prevails:0 "The Status Quo Prevails"
  ICH_the_status_quo_prevails_desc:0 ""
+ ICH_the_status_quo_prevails_tt:0 "§GThe VNQDD have remained in power.§!"
  ICH_ban_the_icp:0 "Ban the ICP"
  ICH_ban_the_icp_desc:0 ""
  ICH_banking_reforms:0 "Banking Reforms"
