@@ -45,7 +45,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Dao_Duy_Anh.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_ICH_Nguyen_Hai_Than_hog_sde"
+		name = "GFX_idea_ICH_Nguyen_Hai_Than_hog_sli"
 		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Nguyen_Hai_Than.tga"
 	}
 	spriteType = {
@@ -375,5 +375,55 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ICH_Tran_Van_Minh_cair_ade"
 		texturefile = "gfx/interface/ideas/ICH/ministers/ICH_Tran_Van_Minh.tga"
+	}
+
+	# Companies
+	spriteType = {
+		name = "GFX_idea_ICH_Cong_Ty_36"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_Cong_Ty_36.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Chim_Lac"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_Chim_Lac.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Dong_Bac"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_Dong_Bac.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Dong_Viet"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_Dong_Viet.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Factorie_Z113"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_Factorie_Z113.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Cong_Ty_Xe"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_Cong_Ty_Xe.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_General_Equipment"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_General_Equipment.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_NACC"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_NACC.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_NADF"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_NADF.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_TLD"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_TLD.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Bason"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_Bason.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_ICH_Songthu"
+		texturefile = "gfx/interface/ideas/ICH/companies/ICH_Songthu.tga"
 	}
 }

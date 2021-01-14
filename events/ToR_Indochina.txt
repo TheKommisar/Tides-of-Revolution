@@ -66,21 +66,28 @@ country_event = {
         }
 
         hidden_effect = {
+            # Head of Government
             swap_ideas = {
-                remove_idea = GEN_HOG_Sde
-                add_idea = GEN_HOG_Sli
+                remove_idea = ICH_Dao_Duy_Anh_hog_sde
+                add_idea = ICH_Nguyen_Hai_Than_hog_sli
             }
+
+            # Foreign Minister
             swap_ideas = {
-                remove_idea = GEN_FOR_Sde
-                add_idea = GEN_FOR_Sli
+                remove_idea = ICH_Nguyen_Tuong_Tam_for_sde
+                add_idea = ICH_Sisowath_Monipong_for_sco
             }
+
+            # Economy Minister
             swap_ideas = {
-                remove_idea = GEN_ECO_Sde
-                add_idea = GEN_ECO_Sli
+                remove_idea = ICH_Nguyen_Hai_Than_eco_sde
+                add_idea = ICH_Sisowath_Youtevong_eco_cli
             }
+
+            # Security Minister
             swap_ideas = {
-                remove_idea = GEN_SEC_Sde
-                add_idea = GEN_SEC_Sli
+                remove_idea = ICH_Huyhn_Thuc_Khang_sec_sde
+                add_idea = ICH_Sisowath_Monireth_sec_sco
             }
 
             set_country_flag = ICH_SOC_LIB_VICTORY_FLAG
@@ -103,21 +110,28 @@ country_event = {
 
         hidden_effect = {
             set_country_flag = ICH_WORKERS_VICTORY_FLAG
+            # Head of Government
             swap_ideas = {
-                remove_idea = GEN_HOG_Sde
-                add_idea = GEN_HOG_Ort
+                remove_idea = ICH_Dao_Duy_Anh_hog_sde
+                add_idea = ICH_Ton_Duc_Thang_hog_ort
             }
+
+            # Foreign Minister
             swap_ideas = {
-                remove_idea = GEN_FOR_Sde
-                add_idea = GEN_FOR_Ort
+                remove_idea = ICH_Nguyen_Tuong_Tam_for_sde
+                add_idea = ICH_Duong_Bach_Mai_for_ort
             }
+
+            # Economy Minister
             swap_ideas = {
-                remove_idea = GEN_ECO_Sde
-                add_idea = GEN_ECO_Ort
+                remove_idea = ICH_Nguyen_Hai_Than_eco_sde
+                add_idea = ICH_Nguyen_Van_Linh_eco_ort
             }
+
+            # Security Minister
             swap_ideas = {
-                remove_idea = GEN_SEC_Sde
-                add_idea = GEN_SEC_Ort
+                remove_idea = ICH_Huyhn_Thuc_Khang_sec_sde
+                add_idea = ICH_Le_Hong_Phong_sec_ort
             }
 
             set_party_name = { 
@@ -184,8 +198,8 @@ country_event = {
 # ICP Coup
 country_event = {
     id = ich.4
-    title = ich.4
-    desc = ich.4
+    title = ich.4.t
+    desc = ich.4.d
     picture = GFX_report_event_german_politician_speech
 
     is_triggered_only = yes
@@ -248,21 +262,28 @@ country_event = {
             clr_country_flag = ICH_SOC_DEM_VICTORY_FLAG
             set_country_flag = ICH_ARMY_COUP_FLAG
 
+            # Head of Government
             swap_ideas = {
-                remove_idea = GEN_HOG_Sde
-                add_idea = GEN_HOG_Ade
+                remove_idea = ICH_Dao_Duy_Anh_hog_sde
+                add_idea = ICH_Nguyen_Phuc_Buu_Dinh_hog_pau
             }
+
+            # Foreign Minister
             swap_ideas = {
-                remove_idea = GEN_FOR_Sde
-                add_idea = GEN_FOR_Ade
+                remove_idea = ICH_Nguyen_Tuong_Tam_for_sde
+                add_idea = ICH_Ha_Thuc_Ky_for_ade
             }
+
+            # Economy Minister
             swap_ideas = {
-                remove_idea = GEN_ECO_Sde
-                add_idea = GEN_ECO_Ade
+                remove_idea = ICH_Nguyen_Hai_Than_eco_sde
+                add_idea = ICH_Boun_Oum_eco_pau
             }
+
+            # Security Minister
             swap_ideas = {
-                remove_idea = GEN_SEC_Sde
-                add_idea = GEN_SEC_Ade
+                remove_idea = ICH_Huyhn_Thuc_Khang_sec_sde
+                add_idea = ICH_Nguyen_Ton_Hoan_sec_ad
             }
         }
     }
@@ -295,21 +316,28 @@ country_event = {
             clr_country_flag = ICH_SOC_DEM_VICTORY_FLAG
             set_country_flag = ICH_WORKERS_VICTORY_FLAG
 
+            # Head of Government
             swap_ideas = {
-                remove_idea = GEN_HOG_Sde
-                add_idea = GEN_HOG_Ort
+                remove_idea = ICH_Dao_Duy_Anh_hog_sde
+                add_idea = ICH_Ton_Duc_Thang_hog_ort
             }
+
+            # Foreign Minister
             swap_ideas = {
-                remove_idea = GEN_FOR_Sde
-                add_idea = GEN_FOR_Ort
+                remove_idea = ICH_Nguyen_Tuong_Tam_for_sde
+                add_idea = ICH_Duong_Bach_Mai_for_ort
             }
+
+            # Economy Minister
             swap_ideas = {
-                remove_idea = GEN_ECO_Sde
-                add_idea = GEN_ECO_Ort
+                remove_idea = ICH_Nguyen_Hai_Than_eco_sde
+                add_idea = ICH_Nguyen_Van_Linh_eco_ort
             }
+
+            # Security Minister
             swap_ideas = {
-                remove_idea = GEN_SEC_Sde
-                add_idea = GEN_SEC_Ort
+                remove_idea = ICH_Huyhn_Thuc_Khang_sec_sde
+                add_idea = ICH_Le_Hong_Phong_sec_ort
             }
 
             set_party_name = { 
@@ -397,21 +425,28 @@ country_event = {
 
         hidden_effect = {
             set_country_flag = ICH_SOCIALIST_POLICY_FLAG
+            # Head of Government
             swap_ideas = {
-                remove_idea = GEN_HOG_Ort
-                add_idea = GEN_HOG_Rev
+                remove_idea = ICH_Ton_Duc_Thang_hog_ort
+                add_idea = ICH_Truong_Thi_Sau_hog_rev
             }
+
+            # Foreign Minister
             swap_ideas = {
-                remove_idea = GEN_FOR_Ort
-                add_idea = GEN_FOR_Rev
+                remove_idea = ICH_Duong_Bach_Mai_for_ort
+                add_idea = ICH_Tran_Van_Giau_for_rev
             }
+
+            # Economy Minister
             swap_ideas = {
-                remove_idea = GEN_ECO_Ort
-                add_idea = GEN_ECO_Rev
+                remove_idea = ICH_Nguyen_Van_Linh_eco_ort
+                add_idea = ICH_Ngo_Tan_Nhon_eco_rev
             }
+
+            # Security Minister
             swap_ideas = {
-                remove_idea = GEN_SEC_Ort
-                add_idea = GEN_SEC_Rev
+                remove_idea = ICH_Le_Hong_Phong_sec_ort
+                add_idea = ICH_Ta_Dinh_De_sec_rev
             }
         }
     }
@@ -432,21 +467,28 @@ country_event = {
 
         hidden_effect = {
             set_country_flag = ICH_VANGUARDIST_POLICY_FLAG
+            # Head of Government
             swap_ideas = {
-                remove_idea = GEN_HOG_Ort
-                add_idea = GEN_HOG_Van
+                remove_idea = ICH_Ton_Duc_Thang_hog_ort
+                add_idea = ICH_Pham_Hung_hog_van
             }
+
+            # Foreign Minister
             swap_ideas = {
-                remove_idea = GEN_FOR_Ort
-                add_idea = GEN_FOR_Van
+                remove_idea = ICH_Duong_Bach_Mai_for_ort
+                add_idea = ICH_Xuan_Thuy_for_van
             }
+
+            # Economy Minister
             swap_ideas = {
-                remove_idea = GEN_ECO_Ort
-                add_idea = GEN_ECO_Van
+                remove_idea = ICH_Nguyen_Van_Linh_eco_ort
+                add_idea = ICH_Pham_Van_Dong_eco_van
             }
+
+            # Security Minister
             swap_ideas = {
-                remove_idea = GEN_SEC_Ort
-                add_idea = GEN_SEC_Van
+                remove_idea = ICH_Le_Hong_Phong_sec_ort
+                add_idea = ICH_Tran_Quoc_Hoan_sec_van
             }
         }
     }

@@ -373,7 +373,6 @@ UKR = {
 	color_ui = rgb { 22 95 186 }	
 }
 
-
 AZR = {
 	color = rgb { 40 170 137 }
 	color_ui = rgb { 40 170 137 }
@@ -730,4 +729,8 @@ WLN = {
 TUN = {
 	color = rgb { 180 104 54 }
 	color_ui = rgb { 180 104 54 }
+}
+ICH = {
+	color = rgb { 51 153 255 }
+	color_ui = rgb { 51 153 255 }
 }

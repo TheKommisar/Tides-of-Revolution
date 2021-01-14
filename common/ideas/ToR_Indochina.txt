@@ -544,7 +544,7 @@ ideas = {
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
-				social_democrat
+				social_liberal
 				hog_reformist_soldier
 			}
 		}
@@ -1364,6 +1364,118 @@ ideas = {
 				cair_air_superiority_doctrine
 			}
 			cancel_if_invalid = yes
+		}
+	}
+	
+	# Companies
+	# Industrial Concern
+	industrial_concern = {
+		ICH_NACC = {
+			allowed = { original_tag = ICH }
+			traits = { industrial_manufacturer }
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+	}
+
+	# Weapons Manufacturer
+	materiel_manufacturer = {
+		designer = yes
+		ICH_Cong_Ty_36 = {
+			allowed = { original_tag = ICH }
+			traits = { infantry_equipment_producer_mass_1 }
+			research_bonus = { infantry_weapons = 0.1 }
+		}
+		ICH_Dong_Bac = {
+			allowed = { original_tag = ICH }
+			traits = { infantry_equipment_producer_defense_0 }
+			research_bonus = { infantry_weapons = 0.1 }
+		}
+
+		ICH_General_Equipment = {
+			allowed = { original_tag = ICH }
+			traits = { artillery_producer_offense_1 }
+			research_bonus = {
+				artillery = 0.1
+			}
+		}
+
+		ICH_Factorie_Z113 = {
+			allowed = { original_tag = ICH }
+			traits = { artillery_producer_mass_1 }
+			research_bonus = {
+				artillery = 0.1
+			}
+		}
+
+		ICH_Cong_Ty_Xe = {
+			allowed = { original_tag = ICH }
+			traits = { motorised_equipment_producer_offense_1 }
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+		}
+	}
+
+	# Heavy Equipment Manufacturer
+	tank_manufacturer = {
+		designer = yes
+		ICH_TLD = {
+			allowed = { original_tag = ICH }
+			traits = { medium_tank_producer_mass_1 }
+			research_bonus = {
+				armor = 0.1
+			}
+		}
+	}
+
+	# Naval Manufacturer
+	naval_manufacturer = {
+		ICH_Bason = {
+			allowed = { original_tag = ICH }
+			traits = { small_ship_producer_mass_1 }
+			research_bonus = { naval_equipment = 0.05 }
+		}
+
+		ICH_Songthu = {
+			allowed = { original_tag = ICH }
+			traits = { small_ship_producer_defense_0 }
+			research_bonus = { naval_equipment = 0.05 }
+		}
+
+	}
+
+	# Air Manufacturer
+	aircraft_manufacturer = {
+		designer = yes
+
+		ICH_Chim_Lac = {
+			allowed = { original_tag = ICH }
+			traits = { fighter_producer_offense_1 }
+			research_bonus = {
+				air_equipment = 0.1
+			}
+		}
+
+		ICH_NADF = {
+			allowed = { original_tag = ICH }
+			traits = { fighter_producer_mass_1 }
+			research_bonus = {
+				air_equipment = 0.1
+			}
+		}
+
+		ICH_Dong_Viet = {
+			allowed = { original_tag = ICH }
+			traits = { nav_cas_producer_offense_1 }
+			research_bonus = {
+				air_equipment = 0.1
+			}
 		}
 	}
 }
