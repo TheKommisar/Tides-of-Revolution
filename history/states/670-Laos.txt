@@ -3,11 +3,12 @@ state={
 	name="STATE_670"
 	manpower = 1184000
 	
-	state_category = pastoral
+	state_category = town
 
 	history={
 		owner = ICH
 		add_core_of = ICH
+		add_core_of = LAO
 		victory_points = {
 			1464 5
 		}

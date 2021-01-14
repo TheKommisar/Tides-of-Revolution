@@ -5,6 +5,7 @@ state={
 	history={
 		owner=ICH
 		add_core_of=ICH
+		add_core_of=VIN
 	    buildings={
 	        infrastructure = 4
 			industrial_complex = 2

@@ -5,6 +5,7 @@ state={
 	history={
 		owner=ICH
 		add_core_of=ICH
+		add_core_of=CAM
 		buildings={
 	        infrastructure = 3
 			arms_factory = 1

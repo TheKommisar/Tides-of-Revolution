@@ -5,7 +5,7 @@ state={
 
 	history={
 		add_core_of = ICH
-		add_core_of = VIN
+		add_core_of = CAM
 		owner = ICH
 		victory_points = {
 			7376 1 
