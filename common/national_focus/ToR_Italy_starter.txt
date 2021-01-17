@@ -1,5 +1,5 @@
 focus_tree = {
-	id = ITA_starter
+	id = italian_starter_focus
 	country = {
 		factor = 0
 		modifier = {
@@ -7,165 +7,164 @@ focus_tree = {
 			tag = ITA
 		}
 	}
+
 	continuous_focus_position = { x = 300 y = 3000 }
+
 	shared_focus = ITA_fixing_our_economy
 	shared_focus = ITA_looking_outwards
-        shared_focus = ITA_regia_aeronautica
-        shared_focus = ITA_new_army_plan
-        shared_focus = ITA_kickstart_navy_funding
+    shared_focus = ITA_regia_aeronautica
+    shared_focus = ITA_new_army_plan
+    shared_focus = ITA_kickstart_navy_funding
 
-        focus = {
-		id = ITA_calm_the_chamber
-		icon = GFX_wip
+	# Failure of the Economic Relief Act
+	focus = {
+		id = ITA_failure_to_pass_the_economic_relief_bill
+		icon = GFX_goal_generic_consumer_goods
 		x = 3
-                y = 0
-                available = {}
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-		}
-	}
-
-        focus = {
-		id = ITA_reassure_the_party
-		icon = GFX_goal_ideology_social_democrat
-                prerequisite = { focus = ITA_calm_the_chamber }
-		x = 0
-                y = 1
-                relative_position_id = ITA_calm_the_chamber
-                available = {}
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-		}
-	}
-
-        focus = {
-		id = ITA_run_the_popularity_polls
-		icon = GFX_goal_new_treaty
-                prerequisite = { focus = ITA_reassure_the_party }
-		x = 0
-                y = 1
-                relative_position_id = ITA_reassure_the_party
-                available = {}
-		cost = 3
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-		}
-	}
-
-        focus = {
-		id = ITA_reapproach_the_psi
-		icon = GFX_ITA_psdi
-                prerequisite = { focus = ITA_run_the_popularity_polls }
-                mutually_exclusive = { focus = ITA_good_favour_with_pri }
-		x = -1
-                y = 1
-                relative_position_id = ITA_run_the_popularity_polls
-                available = {}
+		y = 0
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-		}
+		completion_reward = {}
 	}
 
-        focus = {
-		id = ITA_work_with_unions
-		icon = GFX_ITA_psdi
-                prerequisite = { focus = ITA_reapproach_the_psi }
+	# Calm the Chamber
+	focus = {
+		id = ITA_calm_the_chamber
+		icon = GFX_focus_generic_self_management
 		x = 0
-                y = 1
-                relative_position_id = ITA_reapproach_the_psi
-                available = {}
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		
+		y = 1
+		cost = 1
+		prerequisite = { focus = ITA_failure_to_pass_the_economic_relief_bill }
+		relative_position_id = ITA_failure_to_pass_the_economic_relief_bill
 		completion_reward = {
+			add_stability = 0.05
 		}
 	}
 
-        focus = {
-		id = ITA_good_favour_with_pri
-		icon = GFX_ITA_pli
-                prerequisite = { focus = ITA_run_the_popularity_polls }
-                mutually_exclusive = { focus = ITA_reapproach_the_psi }
+	# Break a Compromise
+	focus = {
+		id = ITA_break_a_compromise
+		icon = GFX_goal_generic_improve_relations
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = ITA_calm_the_chamber }
+		relative_position_id = ITA_calm_the_chamber
+		completion_reward = {
+			country_event = { id = ita.1 days = 1 }
+		}
+	}
+
+	# With the Liberals
+	focus = {
+		id = ITA_with_the_liberals
+		icon = GFX_goal_ideology_social_liberal
+		x = -2
+		y = 1
+		cost = 0
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		mutually_exclusive = { focus = ITA_with_the_socialists }
+		prerequisite = { focus = ITA_break_a_compromise }
+		relative_position_id = ITA_break_a_compromise
+	}
+
+	# With the Socialists
+	focus = {
+		id = ITA_with_the_socialists
+		icon = GFX_goal_ideology_radical_socialist
+		x = 2
+		y = 1
+		cost = 0
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		mutually_exclusive = { focus = ITA_with_the_liberals }
+		prerequisite = { focus = ITA_break_a_compromise }
+		relative_position_id = ITA_break_a_compromise
+	}
+
+	# Work with Farmers
+	focus = {
+		id = ITA_work_with_farmers
+		icon = GFX_focus_AUS_agriculture
 		x = 1
-                y = 1
-                relative_position_id = ITA_run_the_popularity_polls
-                available = {}
+		y = 1
 		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-		}
+		prerequisite = { focus = ITA_with_the_liberals }
+		relative_position_id = ITA_with_the_liberals
+		completion_reward = {}
 	}
 
-        focus = {
-		id = ITA_align_with_labourers
-		icon = GFX_ITA_pli
-                prerequisite = { focus = ITA_good_favour_with_pri }
-		x = 0
-                y = 1
-                relative_position_id = ITA_good_favour_with_pri
-                available = {}
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-		}
-	}
-
-        focus = {
-		id = ITA_results_of_the_report
-		icon = GFX_goal_constitutional_guarantees
-                prerequisite = { focus = ITA_align_with_labourers focus = ITA_work_with_unions }
+	# Work with Labourers
+	focus = {
+		id = ITA_work_with_labourers
+		icon = GFX_goal_production
 		x = -1
-                y = 1
-                relative_position_id = ITA_align_with_labourers
-                available = {}
-		cost = 4
-		ai_will_do = {
-			factor = 1
-		}
-		
-		completion_reward = {
-		}
+		y = 1 
+		cost = 5
+		prerequisite = { focus = ITA_with_the_socialists }
+		relative_position_id = ITA_with_the_socialists
+		completion_reward = {}
 	}
 
-        focus = {
-		id = ITA_a_return_to_parliament
-		icon = GFX_wip
-                prerequisite = { focus = ITA_results_of_the_report }
+	# Dismiss the Economic Minister
+	focus = {
+		id = ITA_dismiss_the_economic_minister
+		icon = GFX_goal_authoritarian
+		x = 1
+		y = 1
+		cost = 5 
+		prerequisite = {
+			focus = ITA_work_with_farmers
+			focus = ITA_work_with_labourers
+		}
+		relative_position_id = ITA_work_with_farmers
+		completion_reward = {}
+	}
+
+	# Break more Concessions
+	focus = {
+		id = ITA_break_more_concessions
+		icon = GFX_focus_generic_concessions
 		x = 0
-                y = 1
-                relative_position_id = ITA_results_of_the_report
-                available = {}
-		cost = 8
-		ai_will_do = {
-			factor = 1
-		}
-		
+		y = 1
+		cost = 5
+		prerequisite = { focus = ITA_dismiss_the_economic_minister }
+		relative_position_id = ITA_dismiss_the_economic_minister
+		completion_reward = {}
+	}
+
+	# A Second Attempt
+	focus = {
+		id = ITA_a_second_attempt
+		icon = GFX_goal_government_icon
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = ITA_break_more_concessions }
+		relative_position_id = ITA_break_more_concessions
 		completion_reward = {
-                     country_event = italy.6
+			custom_effect_tooltip = ITA_a_second_attempt_tt
+			hidden_effect = {
+				country_event = { id = ita.2 days = 30 }
+			}
 		}
 	}
 
+	# As Cool Heads Prevail
+	focus = {
+		id = ITA_as_cool_heads_prevail
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 1
+		cost = 5
+		prerequisite = { focus = ITA_a_second_attempt }
+		relative_position_id = ITA_a_second_attempt
+		completion_reward = {}
+	}
 }

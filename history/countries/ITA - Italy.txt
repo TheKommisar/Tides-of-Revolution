@@ -2,18 +2,18 @@ capital = 2
 
 oob = "ITA_1936"
 
-country_event = { id = italy.1 days = 1 } #Intro Event
-#country_event = { id = italy.6 days = 25 random = 240 } # motion of no confidence
+country_event = { id = ita.0 days = 0 } #Intro Event
 
 set_research_slots = 4
 set_stability = 0.25
 set_war_support = 0.4
+
 add_ideas = {
-        ITA_great_depression
-        ITA_memories_of_the_war
-        ITA_new_constitution
-        ITA_political_radicalisation
-        ITA_socialist_hegemony
+	ITA_great_depression
+	ITA_memories_of_the_war
+	ITA_new_constitution
+	ITA_political_radicalisation
+	ITA_socialist_hegemony
 }
 
 550 = {
@@ -110,71 +110,89 @@ set_politics = {
 }
 set_popularities = {
 	vanguardist = 2
-        orthodox_marxist = 4
+    orthodox_marxist = 4
 	revolutionary_socialist = 8
-        social_democrat = 36
-        social_liberal = 11
-        classic_liberal = 3
-        social_conservative = 19
-        authoritarian_democrat = 2
-        paternal_autocrat = 0
-        national_populist = 15
+    social_democrat = 36
+    social_liberal = 11
+    classic_liberal = 3
+    social_conservative = 19
+    authoritarian_democrat = 2
+    paternal_autocrat = 0
+    national_populist = 15
 }
 
 
 create_country_leader = {
 	name = "Umberto II" #this is so sad why was he changed
-	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+	desc = "POLITICS_UMBERTO_II_DESC"
 	picture = "Portrait_Italy_Umberto_II.dds"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-              
-	}
+	traits = { }
 }
-
 create_country_leader = {
 	name = "Umberto II"
-	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+	desc = "POLITICS_UMBERTO_II_DESC"
 	picture = "Portrait_Italy_Umberto_II.dds"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	traits = {
-              
-	}
+	traits = {}
 }
-
 create_country_leader = {
 	name = "Umberto II"
-	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+	desc = "POLITICS_UMBERTO_II_DESC"
 	picture = "Portrait_Italy_Umberto_II.dds"
 	expire = "1965.1.1"
 	ideology = classic_liberal_subtype
-	traits = {
-              
-	}
+	traits = {}
 }
-
 create_country_leader = {
 	name = "Umberto II"
-	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+	desc = "POLITICS_UMBERTO_II_DESC"
 	picture = "Portrait_Italy_Umberto_II.dds"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {
-              
-	}
+	traits = {}
 }
-
+create_country_leader = {
+	name = "Umberto II"
+	desc = "POLITICS_UMBERTO_II_DESC"
+	picture = "Portrait_Italy_Umberto_II.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Umberto II"
+	desc = "POLITICS_UMBERTO_II_DESC"
+	picture = "Portrait_Italy_Umberto_II.dds"
+	expire = "1965.1.1"
+	ideology = national_romantic_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Umberto II"
+	desc = "POLITICS_UMBERTO_II_DESC"
+	picture = "Portrait_Italy_Umberto_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Umberto II"
+	desc = "POLITICS_UMBERTO_II_DESC"
+	picture = "Portrait_Italy_Umberto_II.dds"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
 create_country_leader = {
 	name = "Palmiro Togliatti"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_ita_palmiro_togliatti"
+	desc = "POLITICS_PALMIRO_TOGLIATTI_DESC"
+	picture = "GFX_Portrait_ITA_Palmiro_Togliatti"
 	expire = "1965.1.1"
 	ideology = orthodox_marxist_subtype
-	traits = {
-		
-	}
+	traits = {}
 }
 
 create_field_marshal = { # fashy
@@ -322,7 +340,7 @@ create_field_marshal = { # fashy
 
 create_navy_leader = {
 	name = "Inigo Campioni"
-		picture = "Portrait_Italy_Inigo_Campioni.dds"
+	picture = "Portrait_Italy_Inigo_Campioni.dds"
 	traits = { battleship_adherent superior_tactician spotter }
 	skill = 3
 	attack_skill = 2
@@ -333,7 +351,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Alberto Da Zara"
-		picture = "Portrait_Italy_Alberto_Da_Zara.dds"
+	picture = "Portrait_Italy_Alberto_Da_Zara.dds"
 	traits = { gentlemanly superior_tactician }
 	skill = 3
 	attack_skill = 3
@@ -344,7 +362,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Giuseppe Fioravanzo"
-		picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
+	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
 	traits = { aviation_enthusiast blockade_runner }
 	skill = 3
 	attack_skill = 2
@@ -355,7 +373,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Carlo Bergamini"
-		picture = "Portrait_Italy_Carlo_Bergamini.dds"
+	picture = "Portrait_Italy_Carlo_Bergamini.dds"
 	traits = { battleship_adherent gunnery_expert ironside }
 	skill = 2
 	attack_skill = 3
@@ -366,7 +384,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Angelo Iachino"
-		picture = "Portrait_Italy_Angelo_Iachino.dds"
+	picture = "Portrait_Italy_Angelo_Iachino.dds"
 	traits = { bold navy_career_officer superior_tactician spotter }
 	skill = 2
 	attack_skill = 2

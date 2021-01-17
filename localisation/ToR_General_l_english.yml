@@ -171,11 +171,11 @@ unlocked_later:0 "Your path remains closed until an opportunity presents itself.
 ENG_annex:0 "§RThis will result in your annexation!§"
 
 #### Trigger Tooltips ####
-ToR_is_socialist:0 "Has a Vanguardist, Orthodox-Marxist, Revolutionary Socialist or a Democratic Socialist government."
-ToR_is_socialist_NOT:0 "Does §Rnot§! have a Vanguardist, Orthodox-Marxist, Revolutionary Socialist or a Democratic Socialist government."
+ToR_is_socialist:0 "Has a Vanguardist, Orthodox-Marxist, Revolutionary Socialist or a Marxist-aligned Democratic Socialist government."
+ToR_is_socialist_NOT:0 "Does §Rnot§! have a Vanguardist, Orthodox-Marxist, Revolutionary Socialist or a Marxist-aligned Democratic Socialist government."
 ToR_is_democratic:0 "Has a democratic government."
 ToR_is_democratic_NOT:0 "Does §Rnot§! have a democratic government."
-ToR_can_replace_minister_tt:0 "Can't manually change minister"
+ToR_can_replace_minister_tt:0 "Ministers can only be changed from events, focuses or decisions."
 
 ###### Political ######
 vanguardist_drift:0 "Daily Vanguardist support"
