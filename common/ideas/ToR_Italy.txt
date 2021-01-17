@@ -1,93 +1,122 @@
 ideas = {
-country = {
-     
-        ITA_great_depression = {
-			picture = usa_great_depression	
-			allowed = {
-				original_tag = ITA
-			}
+	country = {
+		ITA_great_depression = {
+			picture = usa_great_depression
+
 	
-			allowed_civil_war = {
-				always = yes
-			}
-	
-			removal_cost = -1
-		
 			modifier = {
-                                 consumer_goods_factor = 0.23
-                                 industrial_capacity_factory = -0.2
-                                 production_speed_buildings_factor = -0.25	
+				consumer_goods_factor = 0.23
+				industrial_capacity_factory = -0.2
+				production_speed_buildings_factor = -0.25	
 			}
 		}
-        ITA_memories_of_the_war = {
+		ITA_memories_of_the_war = {
 			picture = generic_victors_of_ww1
-			allowed = {
-				original_tag = ITA
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
 			removal_cost = -1
+
+			allowed = { original_tag = ITA }
+			allowed_civil_war = { always = yes }
 		
 			modifier = {
-                                 conscription_factor = -0.05
-                                 war_support_factor = -0.2
-                                 training_time_factor = 0.2	
+				conscription_factor = -0.05
+				war_support_factor = -0.2
+				training_time_factor = 0.2	
 			}
 		}
-        ITA_political_radicalisation = {
+		ITA_political_radicalisation = {
 			picture = FRA_scw_intervention_republicans_focus
-			allowed = {
-				original_tag = ITA
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
 			removal_cost = -1
-		
+
+			allowed = { original_tag = ITA }
+			allowed_civil_war = { always = yes }
+
 			modifier = {
-                                stability_factor = -0.10
-                                political_power_factor = -0.30
-                                social_democrat_drift = -0.02
+				stability_factor = -0.10
+				political_power_factor = -0.30
+				social_democrat_drift = -0.02
 			}
 		}
-        ITA_new_constitution = {
+		ITA_new_constitution = {
 			picture = generic_constitutional_guarantees
-			allowed = {
-				original_tag = ITA
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
 			removal_cost = -1
+
+			allowed = { original_tag = ITA }
+			allowed_civil_war = { always = yes }
 		
 			modifier = {
-                                stability_factor = 0.10
-                                political_power_factor = 0.20	
-                                drift_defence_factor = 0.1
+				stability_factor = 0.10
+				political_power_factor = 0.20	
+				drift_defence_factor = 0.1
 			}
 		}
-        ITA_socialist_hegemony = {
-			allowed = {
-				original_tag = ITA
-			}
-	
-			allowed_civil_war = {
-				always = yes
-			}
-	
+		ITA_socialist_hegemony = {
 			removal_cost = -1
+
+			allowed = { original_tag = ITA }
+			allowed_civil_war = { always = yes }
 		
 			modifier = {
-                                stability_factor = -0.15
-                                political_power_gain = 0.5	
+				stability_factor = -0.15
+				political_power_gain = 0.5	
 			}
 		} 
-}
+	}
+
+	# Head of Government
+	head_of_government = {
+		ITA_Palmiro_Togliatti_hog_van = {
+			allowed = { original_tag = ITA }
+			available = { can_replace_minister = no }
+			cancel_if_invalid = no
+			traits = {
+				head_of_government
+				vanguardist
+				hog_red_chairmen
+			}
+		}
+
+		ITA_Antonio_Gramsci_hog_ort = {
+			allowed = { original_tag = ITA }
+			available = { can_replace_minister = no }
+			cancel_if_invalid = no
+			traits = {
+				head_of_government
+				orthodox_marxist
+				hog_silent_workhorse
+			}
+		}
+
+		ITA_Pietro_Nenni_hog_rev = {
+			allowed = { original_tag = ITA }
+			available = { can_replace_minister = no }
+			cancel_if_invalid = no
+			traits = {
+				head_of_government
+				revolutionary_socialist
+				hog_silent_workhorse
+			}
+		}
+
+		ITA_Giacomo_Matteotti_hog_rev = {
+			allowed = { original_tag = ITA }
+			available = { can_replace_minister = no }
+			cancel_if_invalid = no
+			traits = {
+				head_of_government
+				democratic_socialist
+				hog_political_protege
+			}
+		}
+
+		ITA_Don_Luigi_Sturzo_hog_sde = {
+			allowed = { original_tag = ITA }
+			available = { can_replace_minister = no }
+			cancel_if_invalid = no
+			traits = {
+				head_of_government
+				social_democrat
+				hog_pragmatic_statesman
+			}
+		}
+	}
 }

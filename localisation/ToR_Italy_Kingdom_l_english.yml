@@ -312,43 +312,43 @@ ITA_christianity_and_progress_desc:0 ""
 
 # Events
 ita.1.t:0 "Compromise with Other Parties?"
-ita.1.d:0 ""
+ita.1.d:0 "The situation is currently dire as the government have failed to pass the Economic Relief Bill; which plans the economic recovery of Italy from the Great Depression. Many in the legislation have voted against it, and in order to pass it we need to cooperate with another party or faction. Which will it be?"
 ita.1.a:0 "The Liberals"
 ita.1.b:0 "The Socialists"
 
 ita.2.t:0 "Economic Relief Bill failed to Pass!"
-ita.2.d:0 ""
+ita.2.d:0 "The second attempt to pass the Economic Relief Bill has been a failure as well, many in the government are not suprised as it didn't pass the first time. However, it may be unsurprising to the government officials it really angeres the public as the government have failed to relief them in these difficult times. Many are calling for snap-elections and the resignation of current officials of the government. Who knows what awaits in these difficult times."
 ita.2.a:0 "Damn politicians!"
 
 ita.3.t:0 "Riots in the Cities!"
-ita.3.d:0 ""
+ita.3.d:0 "It seems that the failure to pass the Economic Relief Bill have been the final point. Many peasants, working class and some middle class in Italy are demostrating the failure of the government; and have calling the resignation of them. If this is not address correctly or urgently, these can make the situtation in Italy worse."
 ita.3.a:0 "Oh no."
 
 ita.4.t:0 "The Prime Minister resigns!"
-ita.4.d:0 ""
+ita.4.d:0 "The rioters have been partially successfull in their goal as the Prime Minister of Italy have announced his resignation today. He was met earlier by the King himself, whom accepted his resignation papers without any questions. As the current government have now fallen and vacant, many whispers are coming into the streets in what will now happen to the Kingdom."
 ita.4.a:0 "The Military takes over"
 ita.4.b:0 "The King have intervened"
 
 ita.5.t:0 "The Military Takes Power"
-ita.5.d:0 ""
-ita.5.a:0 ""
+ita.5.d:0 "With the resignation of the Prime Minister himself; it seems that the Military have stormed the capital, and have captured key government instilations. Many current seating-officials have been arrested and the military have now declared a Temporary Military Government which they say will fix the failures of the former administration."
+ita.5.a:0 "Per l'Italia!"
 
 ita.6.t:0 "The King's Intervention"
-ita.6.d:0 ""
-ita.6.a:0 ""
+ita.6.d:0 "With the resignation of the Prime Minister himself, the King have intervened and have taken control of the apparatus of the state; effectively becoming an absolute monarch. The King have addressed the Italian onto the radio that he will fix the failures of the former administration and will help the public recover from these catastrophe."
+ita.6.a:0 "Per il re!"
 
 ita.7.t:0 "The Socialists Revolts!"
-ita.7.d:0 ""
+ita.7.d:0 "The failures of the former government have accelerated the growth of radical elements that aims to destabilize Italy. Now with the former government fallen, these radical elements have started a rebellion against our current one."
 ita.7.a:0 "Stand by the Kingdom"
 ita.7.b:0 "Stand by the Republic"
 
 ita.8.t:0 "Supporting the Italian Socialists"
-ita.8.d:0 ""
+ita.8.d:0 "The Italians have long been in the shackles of capitalism and shows that in the recent events, that they are willing to liberate their own country from the oppresive reactionaries in their government. We should help the Italians as we have helped each other from the Great War."
 ita.8.a:0 "Send them weapons and volunteers"
 ita.8.b:0 "Its not worth our time"
 
 ita.9.t:0 "The [FRA.GetAdjective] have supported us!"
-ita.9.d:0 ""
+ita.9.d:0 "The [FRA.GetAdjective] Government have announced that they are going to support us with materials needed in defeating the oppresive reactionary government and liberating Italy from the oppresive capitalism."
 ita.9.a:0 "Vive la France!"
 
 ita.10.t:0 "Libya declares Neutrality!"
