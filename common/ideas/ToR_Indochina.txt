@@ -295,7 +295,7 @@ ideas = {
         ICH_corporate_economy = {
             allowed = { original_tag = ICH }
 
-            picture = generic_goods_red_bonus
+            picture = ast_classify_aliens
 
             modifier = {
                 production_factory_max_efficiency_factor = 0.15
@@ -404,7 +404,7 @@ ideas = {
         ICH_naval_financing = {
             allowed = { original_tag = ICH }
 
-            picture = generic_navy_bonus
+            picture = generic_coastal_defense_ships
 
             equipment_bonus = {
                 naval_equipment = {

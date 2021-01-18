@@ -1,4 +1,10 @@
 spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_goal_indochina_flag"
+		texturefile = "gfx/interface/goals/flag_indochina.tga"
+	}
+
         SpriteType = { 
 		name = "GFX_focus_spa_matters_at_hand"
 		texturefile = "gfx/interface/goals/Spain.tga"

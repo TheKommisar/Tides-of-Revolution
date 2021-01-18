@@ -12,6 +12,9 @@ focus_tree = {
 			tag = ICH
 		}
 	}
+    initial_show_position = {
+        focus = ICH_into_the_modern_age
+    }
 
     continuous_focus_position = { x = 0 y = 900 }
 
@@ -2420,7 +2423,7 @@ focus_tree = {
     # Indochina at the World Stage
     focus = {
         id = ICH_indochina_at_the_world_stage
-        icon = GFX_focus_generic_support_the_left_right
+        icon = GFX_goal_indochina_flag
         x = 0
         y = 1
         cost = 10
