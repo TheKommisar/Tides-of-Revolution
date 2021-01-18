@@ -150,11 +150,11 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
-        set_autonomy = {
-		target = IRE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.8
-	}
+        #set_autonomy = {
+	#	target = IRE
+	#	autonomous_state = autonomy_dominion
+	#	freedom_level = 0.8
+	#}
         set_autonomy = {
 		target = BWA
 		autonomous_state = autonomy_colony
@@ -236,7 +236,7 @@ add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
-add_to_faction = IRE
+#add_to_faction = IRE
 add_to_faction = BWA
 
 give_military_access = RAJ

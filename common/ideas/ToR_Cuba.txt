@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
                 CUB_american_influence = {
-                        picture = generic_intel_bonus
+                        picture = LIB_bailout_usa
 			
 			allowed = {
 				always = no

@@ -3,19 +3,16 @@ state={
 	name="STATE_670"
 	manpower = 1184000
 	
-	state_category = town
+	state_category = pastoral
 
 	history={
 		owner = ICH
 		add_core_of = ICH
-		add_core_of = LAO
 		victory_points = {
-			1464 5
+			1464 1
 		}
 		buildings = {
-			industrial_complex = 1
 			infrastructure = 2
-			arms_factory = 1
 		}
 
 	}

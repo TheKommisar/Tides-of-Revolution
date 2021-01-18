@@ -71,7 +71,7 @@ if = {
 	}
 }
 
-#Philippines and Nicaragua are also puppets
+#Philippines is also a puppet
 
 set_convoys = 400
 
@@ -107,27 +107,6 @@ set_popularities = {
         paternal_autocrat = 15
         national_populist = 10
 }
-
-NIC = {
-set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1936.1.1" 
-	election_frequency = 48 
-	elections_allowed = no
-}
-set_popularities = {
-	vanguardist = 10
-        orthodox_marxist = 14
-	revolutionary_socialist = 28
-        social_democrat = 6
-        social_liberal = 12
-        classic_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 0
-        paternal_autocrat = 30
-        national_populist = 0
-}
-} #placing it here to ensure it is read 
 
 #LEADERS
 

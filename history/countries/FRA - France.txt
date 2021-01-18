@@ -121,7 +121,7 @@ create_country_leader = {
 	desc = "POLITICS_JEAN_LONGUET_DESC"
 	picture = "Portrait_France_Jean_Longuet.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {
 		#
 	}

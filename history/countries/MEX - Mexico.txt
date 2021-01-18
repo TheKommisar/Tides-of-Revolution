@@ -46,6 +46,14 @@ set_convoys = 45
 set_stability = 0.2
 set_war_support = 0.1
 
+add_ideas = {
+    MEX_serrano_gomez_junta 
+    MEX_foreign_exploitation 
+    MEX_general_strike 
+    free_trade
+    limited_conscription
+}
+
 set_politics = {
 	ruling_party = paternal_autocrat
 	last_election = "1934.7.1"

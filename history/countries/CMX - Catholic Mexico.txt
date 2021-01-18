@@ -1,0 +1,75 @@
+﻿capital = 478
+
+oob = "MCT_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+set_convoys = 5
+
+#Mexican Civil War
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1929.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_war_support = 0.7
+
+
+set_popularities = {
+	vanguardist = 0
+    orthodox_marxist = 0
+	revolutionary_socialist = 0
+    democratic_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    classic_liberal = 0
+    social_conservative = 37
+    authoritarian_democrat = 63
+    national_romantic = 0
+    paternal_autocrat = 0
+    national_populist = 0
+}
+
+create_country_leader = {
+	name = "Enrique Gorostieta"
+	desc = "POLITICS_MAGON_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Juan Andreu Almazán"
+	desc = "POLITICS_MAGON_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_corps_commander = {
+	name = "Enrique Gorostieta"
+	picture = ""
+	traits = { politically_connected }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
