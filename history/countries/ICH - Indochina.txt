@@ -74,9 +74,9 @@ set_politics = {
 set_popularities = {
 	vanguardist = 0
     orthodox_marxist = 10
-	revolutionary_socialist = 8
+	revolutionary_socialist = 6
     social_democrat = 38
-    social_liberal = 16
+    social_liberal = 13
     classic_liberal = 11
     social_conservative = 15
     authoritarian_democrat = 2
@@ -87,13 +87,174 @@ set_popularities = {
 add_ideas = {
 	ICH_unstable_state
 	ICH_sick_man_of_asia
+
+	ICH_Dao_Duy_Anh_hog_sde
+	ICH_Nguyen_Tuong_Tam_for_sde
+	ICH_Nguyen_Hai_Than_eco_sde
+	ICH_Huyhn_Thuc_Khang_sec_sde
 }
 
 create_country_leader = {
-	name = "Phan Chu Trinh"
-	desc = "POLITICS_PHAN_CHU_TRINH_DESC"
-	picture = ""
-	expire = "1936.3.24"
+	name = "Nguyen An Ninh"
+	desc = "POLITICS_NGUYEN_AN_NINH"
+	picture = "gfx/leaders/VIN/Portrait_Vietnam_Nguyen_An_Ninh.tga"
+	expire = "1969.9.2"
+	ideology = revolutionary_socialist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Pham Van Dong"
+	desc = "POLITICS_PHAM_VAN_DONG_DESC"
+	picture = "gfx/leaders/VIN/Portrait_Vietnam_Pham_Van_Dong.tga"
+	expire = "1969.9.2"
+	ideology = vanguardist_subtype
+	traits = { dictator }
+}
+create_country_leader = {
+	name = "Nguyen Ai Quoc"
+	desc = "POLITICS_NGUYEN_AI_QUOC"
+	picture = "gfx/leaders/VIN/Portrait_Vietnam_Nguyen_Ai_Quoc.tga"
+	expire = "1969.9.2"
+	ideology = vanguardist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Nguyen Ai Quoc"
+	desc = "POLITICS_NGUYEN_AI_QUOC"
+	picture = "gfx/leaders/VIN/Portrait_Vietnam_Nguyen_Ai_Quoc.tga"
+	expire = "1969.9.2"
+	ideology = orthodox_marxist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Nguyen Ai Quoc"
+	desc = "POLITICS_NGUYEN_AI_QUOC"
+	picture = "gfx/leaders/VIN/Portrait_Vietnam_Nguyen_Ai_Quoc.tga"
+	expire = "1969.9.2"
+	ideology = revolutionary_socialist_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Nguyen Tai Hoc"
+	desc = "POLITICS_NGUYEN_TAI_HOC_DESC"
+	picture = "gfx/leaders/VIN/Portrait_Vietnam_Nguyen_Tai_Hoc.tga"
+	expire = "1986.3.24"
 	ideology = social_democrat_subtype
 	traits = { }
+}
+create_country_leader = {
+	name = "Cuong De"
+	desc = "POLITICS_CUONG_DE_DESC"
+	picture = "gfx/leaders/VIN/Portrait_Vietnam_Cuong_De.tga"
+	expire = "1986.3.24"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Duong Van Minh"
+	desc = "POLITICS_DUONG_VAN_MINH_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Generic_land_5.dds"
+	expire = "1986.3.24"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Bao Đai I"
+	desc = "POLITICS_BAO_DAI_DESC"
+	picture = "gfx/leaders/VIN/Portrait_Vietnam_Bao_Dai.tga"
+	expire = "1986.3.24"
+	ideology = paternal_autocrat_subtype
+	traits = { }
+}
+
+# Commanders
+create_field_marshal = {
+	name = "Sisavang Vong"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Norodom Sihanouk"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Souphanouvong"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Vo Nguyen Giap"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Van Tien Dung"
+	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Nguyen Van Hinh"
+	portrait_path = "gfx/leaders/JAP/Portrait_Japan_Generic_land_2.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hoang Van Thai"
+	portrait_path = "gfx/leaders/JAP/Portrait_Japan_Generic_land_1.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Duong Van Duong"
+	portrait_path = "gfx/leaders/JAP/Portrait_Japan_Generic_land_3.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Duong Van Minh"
+	portrait_path = "gfx/leaders/JAP/Portrait_Japan_Generic_land_5.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
