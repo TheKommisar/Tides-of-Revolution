@@ -13,6 +13,7 @@ head_of_government = {
                     original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -40,6 +41,7 @@ head_of_government = {
 				    original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -67,6 +69,7 @@ head_of_government = {
 				    original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -95,6 +98,7 @@ head_of_government = {
 				 	original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -123,6 +127,7 @@ head_of_government = {
 				 	original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -152,6 +157,7 @@ head_of_government = {
 				 	original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -180,6 +186,7 @@ head_of_government = {
 					original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -208,6 +215,7 @@ head_of_government = {
 				 	original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -236,6 +244,7 @@ head_of_government = {
 				 	original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}
@@ -263,6 +272,7 @@ head_of_government = {
 				 	original_tag = GER
 					original_tag = ENG
 					original_tag = ICH
+					original_tag = JAP
 				}
 			}
 		}

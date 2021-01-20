@@ -1,0 +1,893 @@
+# Japanese Ideas, Ministers and Companies
+# created by: dax0102
+
+ideas = {
+    country = {
+        JAP_army_navy_rivalry = {
+            allowed = { original_tag = JAP }
+            picture = tfv_can_conscription_crisis
+
+            research_bonus = {
+				land_doctrine = -0.30
+				naval_doctrine = -0.30
+			}
+
+            modifier = {
+                planning_factor = -0.30
+            }
+        }
+
+        JAP_reliance_on_exports = {
+            allowed = { original_tag = JAP }
+            picture = can_wartime_prices_and_trade_board
+
+            modifier = {
+                consumer_goods_factor = 0.15
+                local_resources_factor = 0.20
+            }
+        }
+
+        JAP_devotion_to_the_state = {
+            allowed = { original_tag = JAP }
+            picture = state_shintoism
+
+            modifier = {
+                stability_factor = 0.15
+                war_support_factor = 0.15
+            }
+        }
+    }
+
+    # Head of Government
+    head_of_government = {
+        JAP_Oyama_Ikuo_hog_ort = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                orthodox_marxist
+                hog_ambitious_union_boss
+            }
+        }
+
+        JAP_Suzuki_Mosaburo_hog_rev = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                revolutionary_socialist
+                hog_red_chairman
+            }
+        }
+
+        JAP_Abe_Iso_hog_sde = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                social_democrat
+                hog_naive_optimist
+            }
+        }
+
+        JAP_Katayama_Tetsu_hog_sde = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                social_democrat
+                hog_happy_amateur
+            }
+        }
+
+        JAP_Hamaguchi_Osachi_hog_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                classic_liberal
+                hog_flamboyant_tough_guy
+            }
+        }
+
+        JAP_Machida_Chuji_hog_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                classic_liberal
+                hog_naive_optimist
+            }
+        }
+
+        JAP_Ugaki_Kazushige_hog_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                classic_liberal
+                hog_old_general
+            }
+        }
+
+        JAP_Hatoyama_Ichiro_hog_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                social_conservative
+                hog_flamboyant_tough_guy
+            }
+        }
+
+        JAP_Inukai_Tsuyoshi_hog_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                social_conservative
+                hog_naive_optimist
+            }
+        }
+
+        JAP_Mitsuchi_Chuzo_hog_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                social_conservative
+                hog_silent_workhorse
+            }
+        }
+
+        JAP_Adachi_Kenzo_hog_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                authoritarian_democrat
+                hog_flamboyant_tough_guy
+            }
+        }
+        
+        JAP_Maeda_Yonezo_hog_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                authoritarian_democrat
+                hog_silent_workhorse
+            }
+        }
+        
+        JAP_Nagata_Tetsuzan_hog_pau = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                paternal_autocrat
+                hog_general
+            }
+        }
+        
+        JAP_Tojo_Hideki_hog_pau = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                paternal_autocrat
+                hog_old_general
+            }
+        }
+        
+        JAP_Araki_Sadao_hog_npo = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                national_populist
+                hog_flamboyant_tough_guy
+            }
+        }
+        
+        JAP_Konoe_Fumimaro_hog_npo = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_hog = no }
+            cancel_if_invalid = no
+            traits = {
+                head_of_government
+                national_populist
+                hog_corporate_suit
+            }
+        }    
+    }
+
+    # Foreign Minister
+    foreign_minister = {
+        JAP_Fukumoto_Kazuo_for_van = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                vanguardist
+                for_ideological_crusader
+            }
+        }
+
+        JAP_Yamamoto_Kenzo_for_ort = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                orthodox_marxist
+                for_the_cloak_n_dagger_schemer
+            }
+        }
+        
+        JAP_Katayama_Tetsu_for_sde = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                social_democrat
+                for_ideological_crusader
+            }
+        }
+        
+        JAP_Shidehara_Kijuro_for_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                classic_liberal
+                for_biased_intellectual
+            }
+        }
+        
+        JAP_Ashida_Hitoshi_for_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                social_conservative
+                for_ideological_crusader
+            }
+        }
+        
+        JAP_Yoshida_Shigeru_for_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                social_conservative
+                for_iron_fisted_brute
+            }
+        }
+        
+        JAP_Yoshizawa_Kenkichi_for_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                social_conservative
+                for_great_compromiser
+            }
+        }
+        
+        JAP_Arita_Hachiro_for_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                authoritarian_democrat
+                for_ideological_crusader
+            }
+        }
+        
+        JAP_Hirota_Koki_for_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                authoritarian_democrat
+                for_iron_fisted_brute
+            }
+        }
+        
+        JAP_Ogawa_Gotaro_for_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                authoritarian_democrat
+                for_iron_fisted_brute
+            }
+        }
+        
+        JAP_Honda_Kumataro_for_pau = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                paternal_autocrat
+                for_iron_fisted_brute
+            }
+        }
+        
+        JAP_Tatekawa_Yoshitsugu_for_pau = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                paternal_autocrat
+                for_general_staffer
+            }
+        }
+        
+        JAP_Okawa_Shumei_for_npo = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                foreign_minister
+                national_populist
+                for_ideological_crusader
+            }
+        }
+    }
+
+    # Economy Minister
+    economy_minister = {
+
+        JAP_Asanuma_Inejiro_eco_van = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                vanguardist
+                eco_planned_economy_proponent
+            }
+        }
+
+        JAP_Yamada_Moritaro_eco_ort = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                orthodox_marxist
+                eco_theoretical_scientist
+            }
+        }
+        
+        JAP_Eda_Saburo_eco_sde = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                social_democrat
+				eco_resource_industrialist
+            }
+        }
+        
+        JAP_Mizutani_Chozaburo_eco_sde = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                social_democrat
+				eco_resource_industrialist
+            }
+        }
+        
+        JAP_Inoue_Junnosuke_eco_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+            }
+        }
+        
+        JAP_Matsumura_Kenzo_eco_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                market_liberal
+				eco_bank_president
+            }
+        }
+        
+        JAP_Miki_Bukichi_eco_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                market_liberal
+				eco_resource_industrialist
+            }
+        }
+        
+        JAP_Ikeda_Shigeaki_eco_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                social_conservative
+				eco_laissez_faire_capitalist
+            }
+        }
+        
+        JAP_Matsuno_Tsuruhei_eco_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                social_conservative
+				eco_resource_industrialist
+            }
+        }
+        
+        JAP_Mitsuchi_Chuzo_eco_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                social_conservative
+				eco_theoretical_scientist
+            }
+        }
+        
+        JAP_Maeda_Yonezo_eco_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                authoritarian_democrat
+				eco_resource_industrialist
+            }
+        }
+        
+        JAP_Nakajima_Chikuhei_eco_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                authoritarian_democrat
+				eco_strategic_destruction_proponent
+            }
+        }
+        
+        JAP_Ogawa_Gotaro_eco_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                authoritarian_democrat
+				eco_laissez_faire_capitalist
+            }
+        }
+        
+        JAP_Godo_Takuo_eco_pau = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                paternal_autocrat
+				eco_steel_magnate
+            }
+        }
+        
+        JAP_Shoda_Kazue_eco_pau = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                paternal_autocrat
+				eco_laissez_faire_capitalist
+            }
+        }
+        
+        JAP_Suzuki_Teiichi_eco_npo = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                economy_minister
+                national_populist
+				eco_military_entrepreneur
+            }
+        }
+    }
+
+    # Security Minister
+    security_minister = {
+        JAP_Sakisaka_Itsuro_sec_rev = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                revolutionary_socialist
+                sec_prince_of_terror
+            }
+        }
+
+        JAP_Matsuoka_Komakichi_sec_sde = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                social_democrat
+                sec_compassionate_gentleman
+            }
+        }
+
+        JAP_Kawasaki_Katsu_sec_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                classic_liberal
+                sec_man_of_the_people
+            }
+        }
+
+        JAP_Kimura_Kozaemon_sec_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                classic_liberal
+                sec_man_of_the_people
+            }
+        }
+
+        JAP_Saito_Takao_sec_cli = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                classic_liberal
+                sec_crime_fighter
+            }
+        }
+
+        JAP_Hatoyama_Ichiro_sec_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                social_conservative
+				sec_prince_of_terror
+            }
+        }
+
+        JAP_Kawamura_Takeji_sec_sco = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                social_conservative
+				sec_compassionate_gentleman
+            }
+        }
+
+        JAP_Adachi_Kenzo_sec_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                authoritarian_democrat
+				sec_man_of_the_people
+            }
+        }
+
+        JAP_Akita_Kiyoshi_sec_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                authoritarian_democrat
+				sec_media_magnate
+            }
+        }
+
+        JAP_Mochizuki_Keisuke_sec_ade = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                authoritarian_democrat
+				sec_efficient_sociopath
+            }
+        }
+
+        JAP_Fujie_Keisuke_sec_pau = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                authoritarian_democrat
+				sec_prince_of_terror
+            }
+        }
+
+        JAP_Shiono_Suehiko_sec_pau = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                paternal_autocrat
+				sec_efficient_sociopath
+            }
+        }
+
+        JAP_Suetsugu_Nobumasa_sec_npo = {
+            allowed = { original_tag = JAP }
+            available = { can_replace_minister = no }
+            cancel_if_invalid = no
+            traits = {
+                security_minister
+                national_populist
+				sec_crime_fighter
+            }
+        }
+    }
+
+    # Chief of Staff
+    chief_of_staff = {
+        JAP_Umezu_Yoshijiro_cos = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_staff
+            }
+        }
+
+        JAP_Anami_Korechika_cos = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_staff
+            }
+        }
+
+        JAP_Kanin_Kotohito_cos = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_staff
+            }
+        }
+
+        JAP_Nagata_Tetsuzan_cos = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_staff
+            }
+        }
+
+        JAP_Sugiyama_Hajime_cos = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_staff
+            }
+        }
+
+        JAP_Masaki_Jinzaburo_cos = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_staff
+            }
+        }
+
+        JAP_Yamashita_Tomoyuki_cos = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_staff
+            }
+        }
+    }
+
+    # Chief of Army
+    chief_of_army = {
+        JAP_Umezu_Yoshijiro_carm = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_army
+            }
+        }
+
+        JAP_Kanin_Kotohito_carm = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_army
+            }
+        }
+
+        JAP_Nagata_Tetsuzan_carm = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_army
+            }
+        }
+
+        JAP_Sugiyama_Hajime_carm = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_army
+            }
+        }
+
+        JAP_Masaki_Jinzaburo_carm = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_army
+            }
+        }
+
+        JAP_Yamashita_Tomoyuki_carm = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_army
+            }
+        }
+    }
+
+    # Chief of Navy
+    chief_of_navy = {
+        JAP_Yamamoto_Isoroku_cnav = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_navy
+            }
+        }
+
+        JAP_Koga_Mineichi_cnav = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_navy
+            }
+        }
+
+        JAP_Ozawa_Jisaburo_cnav = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_navy
+            }
+        }
+
+        JAP_Nagano_Osami_cnav = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_navy
+            }
+        }
+
+        JAP_Oikawa_Koshiro_cnav = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_navy
+            }
+        }
+
+        JAP_Toyoda_Soemu_cnav = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_navy
+            }
+        }
+
+        JAP_Fushimi_Hiroyasu_cnav = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_navy
+            }
+        }
+
+        JAP_Shimada_Shigetaro_cnav = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_navy
+            }
+        }
+    }
+
+    # Chief of Air Force
+    chief_of_air_force = {
+        JAP_Teramoto_Kumaichi_cair = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_air_force
+            }
+        }
+
+        JAP_Sugawara_Michio_cair = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_air_force
+            }
+        }
+
+        JAP_Yamashita_Tomoyuki_cair = {
+            allowed = { original_tag = JAP }
+            cancel_if_invalid = no
+            traits = {
+                chief_of_air_force
+            }
+        }
+    }
+}

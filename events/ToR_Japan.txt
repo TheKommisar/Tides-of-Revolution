@@ -1,0 +1,4 @@
+# Japanese events
+# created by: dax0102
+
+add_namespace = japan

@@ -1,0 +1,793 @@
+# Japanese Focus Tree
+# created by: dax0102
+
+focus_tree = {
+    id = japanese_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            add = 10
+            tag = JAP
+        }
+    }
+
+    default = no
+    continuous_focus_position = { x = 2000 y = 1000 }
+
+    # State of the Economy
+    focus = {
+        id = JAP_state_of_the_economy
+        icon = GFX_goal_JAP_yen
+        x = 8
+        y = 0
+        cost = 5
+        completion_reward = {}
+    }
+
+    # Industry Expansion
+    focus = {
+        id = JAP_industry_expansion
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_state_of_the_economy }
+        relative_position_id = JAP_state_of_the_economy
+        completion_reward = {}
+    }
+
+    # Factory Expansion
+    focus = {
+        id = JAP_factory_expansion
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_state_of_the_economy }
+        relative_position_id = JAP_state_of_the_economy
+        completion_reward = {}
+    }
+
+    # Modern Excavation Methods
+    focus = {
+        id = JAP_modern_excavation_methods
+        icon = GFX_goal_generic_construction2
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_industry_expansion }
+        relative_position_id = JAP_industry_expansion
+        completion_reward = {}
+    }
+
+    # Infrastructure Expansion
+    focus = {
+        id = JAP_infrastructure_expansion
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = JAP_state_of_the_economy }
+        relative_position_id = JAP_state_of_the_economy
+        completion_reward = {}
+    }
+
+    # Synthetic Resources
+    focus = {
+        id = JAP_synthetic_resources
+        icon = GFX_goal_generic_oil_refinery
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_factory_expansion }
+        relative_position_id = JAP_factory_expansion
+        completion_reward = {}
+    }
+
+    # Modern Industrial Equipment
+    focus = {
+        id = JAP_modern_industrial_equipment
+        icon = GFX_goal_generic_production2
+        x = -1
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_industry_expansion }
+        relative_position_id = JAP_industry_expansion
+        completion_reward = {}
+    }
+
+    # Farming Subsidies
+    focus = {
+        id = JAP_farming_subsidies
+        icon = GFX_focus_AUS_agriculture
+        x = 1
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_industry_expansion }
+        prerequisite = { focus = JAP_infrastructure_expansion }
+        relative_position_id = JAP_industry_expansion
+        completion_reward = {}
+    }
+
+    # New Construction Methods
+    focus = {
+        id = JAP_new_construction_methods
+        icon = GFX_goal_generic_construction
+        x = -1
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_factory_expansion }
+        prerequisite = { focus = JAP_infrastructure_expansion }
+        relative_position_id = JAP_factory_expansion
+        completion_reward = {}
+    }
+
+    # Electronic Advancements
+    focus = {
+        id = JAP_electronic_advancements
+        icon = GFX_goal_machine
+        x = 1
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_factory_expansion }
+        relative_position_id = JAP_factory_expansion
+        completion_reward = {}
+    }
+
+    # Open New Universities
+    focus = {
+        id = JAP_open_new_universities
+        icon = GFX_focus_research
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = JAP_farming_subsidies }
+        prerequisite = { focus = JAP_modern_industrial_equipment }
+        relative_position_id = JAP_industry_expansion
+        completion_reward = {}
+    }
+
+    # Atomic Research
+    focus = {
+        id = JAP_atomic_research
+        icon = GFX_focus_wonderweapons
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = JAP_electronic_advancements }
+        prerequisite = { focus = JAP_new_construction_methods }
+        relative_position_id = JAP_factory_expansion
+        completion_reward = {}
+    }
+
+    # State of the Empire
+    focus = {
+        id = JAP_state_of_the_empire
+        icon = GFX_goal_Japanese_Glory
+        x = 0
+        y = 3
+        cost = 0
+        available = {
+            hidden_trigger = {
+                has_country_flag = JAP_
+            }
+        }
+        prerequisite = { focus = JAP_infrastructure_expansion }
+        relative_position_id = JAP_infrastructure_expansion
+    }
+
+    # Kodoha Dominance
+    focus = {
+        id = JAP_kodoha_dominance
+        icon = GFX_goal_ideology_paternal_autocrat
+        x = -2
+        y = 0
+        cost = 0
+        available = {
+            hidden_trigger = {
+                always = no
+            }
+        }
+        mutually_exclusive = { focus = JAP_toseiha_dominance }
+        prerequisite = { focus = JAP_state_of_the_empire }
+        relative_position_id = JAP_toseiha_dominance
+    }
+
+    # The Chinese Question
+    focus = {
+        id = JAP_the_chinese_question
+        icon = GFX_focus_generic_china1
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_kodoha_dominance }
+        relative_position_id = JAP_kodoha_dominance
+        completion_reward = {}
+    }
+
+    # Fortify the Chinese Bases
+    focus = {
+        id = JAP_fortify_the_chinese_bases
+        icon = GFX_goal_fortify_the_westwall
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = JAP_kodoha_dominance }
+        relative_position_id = JAP_kodoha_dominance 
+        completion_reward = {}
+    }
+
+    # Ichi-Go
+    focus = {
+        id = JAP_ichi_go_focus
+        icon = GFX_focus_generic_japanese_imperial_glory
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = JAP_the_chinese_question }
+        prerequisite = { focus = JAP_fortify_the_chinese_bases }
+        relative_position_id = JAP_the_chinese_question
+        completion_reward = {}
+    }
+
+    # Pacify the North
+    focus = {
+        id = JAP_pacify_the_north
+        icon = GFX_focus_generic_support_the_left_right
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_ichi_go_focus }
+        relative_position_id = JAP_ichi_go_focus
+        completion_reward = {}
+    }
+
+    # Pacify the South
+    focus = {
+        id = JAP_pacify_the_south
+        icon = GFX_focus_generic_support_the_left_right
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_ichi_go_focus }
+        relative_position_id = JAP_ichi_go_focus
+        completion_reward = {}
+    }
+
+    # Pacify the West
+    focus = {
+        id = JAP_pacify_the_west
+        icon = GFX_focus_generic_support_the_left_right
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_ichi_go_focus }
+        relative_position_id = JAP_ichi_go_focus
+        completion_reward = {}
+    }
+
+    # Tibetan Question
+    focus = {
+        id = JAP_tibetan_question
+        icon = YUN_GFX_Goal_Secure_Tibet
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_pacify_the_north }
+        prerequisite = { focus = JAP_pacify_the_south }
+        prerequisite = { focus = JAP_pacify_the_west }
+        relative_position_id = JAP_pacify_the_south
+        completion_reward = {}
+    }
+
+    # Start Fortifications
+    focus = {
+        id = JAP_start_fortifications
+        icon = GFX_goal_fortify_the_westwall
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = JAP_kodoha_dominance 
+            focus = JAP_toseiha_dominance
+        }
+        relative_position_id = JAP_toseiha_dominance
+    }
+
+    # Toseiha Dominance
+    focus = {
+        id = JAP_toseiha_dominance
+        icon = GFX_goal_ideology_authoritarian_democrat
+        x = -3
+        y = 1
+        cost = 0
+        available = {
+            hidden_trigger = {
+                always = no
+            }
+        }
+        mutually_exclusive = { focus = JAP_toseiha_dominance }
+        prerequisite = { focus = JAP_state_of_the_empire }
+        relative_position_id = JAP_state_of_the_empire
+    }
+
+    # Attack Indochina
+    focus = {
+        id = JAP_attack_indochina
+        icon = YUN_GFX_Goal_Conquer_IndoChina
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = JAP_toseiha_dominance }
+        relative_position_id = JAP_toseiha_dominance
+    }
+
+    # Found the Co-Prosperity Sphere
+    focus = {
+        id = JAP_found_the_co_prosperity_sphere
+        icon = GFX_goal_ANQ_panasian
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_toseiha_dominance }
+        relative_position_id = JAP_toseiha_dominance
+    }
+
+    # Invite Siam
+    focus = {
+        id = JAP_invite_siam
+        icon = GFX_goal_flag_siam
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
+        relative_position_id = JAP_found_the_co_prosperity_sphere
+        completion_reward = {}
+    }
+
+    # Pressure Manila
+    focus = {
+        id = JAP_pressure_manila
+        icon = GFX_goal_JAP_target_phillipines
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
+        relative_position_id = JAP_found_the_co_prosperity_sphere
+        completion_reward = {}
+    }
+
+    # Attack the British
+    focus = {
+        id = JAP_attack_the_british
+        icon = GFX_focus_attack_britain
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_pressure_manila }
+        relative_position_id = JAP_pressure_manila
+    }
+
+    # Attack the Dutch
+    focus = {
+        id = JAP_attack_the_dutch
+        icon = GFX_focus_hol_oranje_boven
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_pressure_manila }
+        relative_position_id = JAP_pressure_manila
+    }
+
+    # Democracy Survives
+    focus = {
+        id = JAP_democracy_survives
+        icon = GFX_goal_japanese_democracy
+        x = 3
+        y = 1
+        cost = 0
+        available = {
+            hidden_trigger = {
+                always = no
+            }
+        }
+        prerequisite = { focus = JAP_state_of_the_empire }
+        relative_position_id = JAP_state_of_the_empire
+    }
+
+    # Stabilize the Government
+    focus = {
+        id = JAP_stabilize_the_government
+        icon = GFX_goal_JAP_REF
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_democracy_survives }
+        relative_position_id = JAP_democracy_survives
+    }
+
+    # End the Rivalry
+    focus = {
+        id = JAP_end_the_rivalry
+        icon = GFX_goal_authoritarian
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_democracy_survives }
+        relative_position_id = JAP_democracy_survives
+    }
+
+    # Treaty with the Russians
+    focus = {
+        id = JAP_treaty_with_the_russians
+        icon = GFX_focus_russian_cooperation
+        x = 0
+        y = 4
+        cost = 10
+        prerequisite = { focus = JAP_democracy_survives }
+        relative_position_id = JAP_democracy_survives
+    }
+
+    # Fund Rebels in Malaya
+    focus = {
+        id = JAP_fund_rebels_in_malaya
+        icon = GFX_goal_generic_attack_allies
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_treaty_with_the_russians }
+        relative_position_id = JAP_treaty_with_the_russians
+    }
+
+    # Fund Rebels in the East Indies
+    focus = {
+        id = JAP_fund_rebels_in_the_east_indies
+        icon = GFX_goal_generic_attack_allies
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_treaty_with_the_russians }
+        relative_position_id = JAP_treaty_with_the_russians
+    }
+
+    #############################################
+    #                                           #
+    #                  MILITARY                 #
+    #                                           #
+    #############################################
+
+    # Investments from the Zaibatsu
+    focus = {
+        id = JAP_investments_from_the_zaibatsu
+        icon = GFX_focus_jap_zaibatsu
+        x = 14
+        y = 0
+        cost = 10
+        completion_reward = {}
+    }
+
+    # Spiritual Mobilization
+    focus = {
+        id = JAP_spiritual_mobilization_focus
+        icon = GFX_focus_jap_spiritual_mobilization
+        x = 2
+        y = 0
+        cost = 10
+        relative_position_id = JAP_investments_from_the_zaibatsu
+        completion_reward = {}
+    }
+
+    # Research Funding
+    focus = {
+        id = JAP_research_funding
+        icon = GFX_goal_generic_scientific_exchange
+        x = 2
+        y = 0
+        cost = 10
+        relative_position_id = JAP_spiritual_mobilization_focus
+        completion_reward = {}
+    }
+
+    # The Matters of the Military
+    focus = {
+        id = JAP_matters_of_the_military
+        icon = GFX_goal_JAP_WAY
+        x = 0
+        y = 1
+        cost = 10
+        available = {
+            hidden_trigger = {
+                always = no
+            }
+        }
+        prerequisite = { focus = JAP_spiritual_mobilization_focus }
+        prerequisite = { focus = JAP_investments_from_the_zaibatsu }
+        prerequisite = { focus = JAP_research_funding }
+        relative_position_id = JAP_spiritual_mobilization_focus
+        completion_reward = {}
+    }
+
+    # Air Force Expansion
+    focus = {
+        id = JAP_air_force_expansion
+        icon = GFX_goal_generic_build_airforce
+        x = 0
+        y = 1
+        cost = 3
+        prerequisite = { focus = JAP_matters_of_the_military }
+        relative_position_id = JAP_matters_of_the_military
+        completion_reward = {}
+    }
+
+    # Fighter Modernization
+    focus = {
+        id = JAP_fighter_modernization
+        icon = GFX_goal_generic_air_fighter
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_air_force_expansion }
+        relative_position_id = JAP_air_force_expansion
+    }
+
+    # Air Doctrines
+    focus = {
+        id = JAP_air_doctrines
+        icon = GFX_goal_generic_air_doctrine
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_air_force_expansion }
+        relative_position_id = JAP_air_force_expansion
+    }
+
+    # Heavy Fighter Modernization
+    focus = {
+        id = JAP_heavy_fighter_modernization
+        icon = GFX_goal_generic_CAS
+        x = 2
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_air_force_expansion }
+        relative_position_id = JAP_air_force_expansion
+        completion_reward = {}
+    }
+
+    # Bomber Modernization
+    focus = {
+        id = JAP_bomber_modernization
+        icon = GFX_goal_generic_air_bomber
+        x = -1
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_air_force_expansion }
+        relative_position_id = JAP_air_force_expansion
+    }
+
+    # Strategic Bomber Modernization
+    focus = {
+        id = JAP_strategic_bomber_modernization
+        icon = GFX_goal_generic_occupy_start_war
+        x = 1
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_air_force_expansion }
+        relative_position_id = JAP_air_force_expansion
+    }
+
+    # Jet Prototypes
+    focus = {
+        id = JAP_jet_prototype_focus
+        icon = GFX_focus_jap_zero
+        x = 0
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_bomber_modernization }
+        prerequisite = { focus = JAP_strategic_bomber_modernization }
+        prerequisite = { focus = JAP_fighter_modernization }
+        prerequisite = { focus = JAP_heavy_fighter_modernization }
+        relative_position_id = JAP_air_doctrines
+    }
+
+    # Address the Navy
+    focus = {
+        id = JAP_address_the_navy
+        icon = GFX_goal_generic_build_navy
+        x = 9
+        y = 1
+        cost = 3
+        prerequisite = { focus = JAP_matters_of_the_military }
+        relative_position_id = JAP_matters_of_the_military
+    }
+
+    # New Era of Naval Warfare
+    focus = {
+        id = JAP_new_era_of_naval_warfare
+        icon = GFX_goal_generic_navy_doctrines_tactics
+        x = -3
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_address_the_navy }
+        relative_position_id = JAP_address_the_navy
+    }
+
+    # Carrier Exercises
+    focus = {
+        id = JAP_carrier_improvements
+        icon = GFX_goal_generic_navy_carrier
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_new_era_of_naval_warfare }
+        relative_position_id = JAP_new_era_of_naval_warfare
+    }
+
+    # Destoyer Modernization
+    focus = {
+        id = JAP_destroyer_modernization
+        icon = GFX_goal_generic_navy_anti_submarine
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_carrier_improvements }
+        relative_position_id = JAP_carrier_improvements
+    }
+
+    # Submarine Modernization
+    focus = {
+        id = JAP_submarine_modernization
+        icon = GFX_goal_generic_navy_submarine
+        x = 0
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_carrier_improvements }
+        relative_position_id = JAP_carrier_improvements
+    }
+
+    # Cruiser Modernization
+    focus = {
+        id = JAP_cruiser_modernization
+        icon = GFX_goal_generic_navy_cruiser
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_carrier_improvements }
+        relative_position_id = JAP_carrier_improvements 
+    }
+
+    # Battleship Modernization
+    focus = {
+        id = JAP_battleship_improvements
+        icon = GFX_goal_generic_navy_battleship
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_new_era_of_naval_warfare }
+        relative_position_id = JAP_new_era_of_naval_warfare
+    }
+
+    # New Dockyards
+    focus = {
+        id = JAP_new_dockyards
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_address_the_navy }
+        relative_position_id = JAP_address_the_navy
+    }
+
+    # Transporation Methods
+    focus = {
+        id = JAP_transportation_equipment
+        icon = GFX_goal_generic_occupy_states_coastal
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_new_dockyards }
+        relative_position_id = JAP_new_dockyards
+    }
+
+    # Expand the Marines
+    focus = {
+        id = JAP_expand_the_marines
+        icon = GFX_goal_generic_amphibious_assault
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_transportation_equipment }
+        prerequisite = { focus = JAP_battleship_improvements }
+        relative_position_id = JAP_transportation_equipment
+    }
+
+    # Torpedoes
+    focus = {
+        id = JAP_torpedoes
+        icon = GFX_goal_generic_air_naval_bomber
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_new_dockyards }
+        relative_position_id = JAP_new_dockyards
+    }
+
+    # Reform the Army
+    focus = {
+        id = JAP_reform_the_army
+        icon = GFX_goal_generic_axis_build_infantry
+        x = 5
+        y = 0
+        cost = 3
+        prerequisite = { focus = JAP_matters_of_the_military }
+        relative_position_id = JAP_address_the_navy
+    }
+
+    # New Doctrines
+    focus = {
+        id = JAP_new_doctrines
+        icon = GFX_goal_generic_army_doctrines
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_reform_the_army }
+        relative_position_id = JAP_reform_the_army
+    }
+
+    # Special Forces
+    focus = {
+        id = JAP_special_forces
+        icon = GFX_goal_generic_special_forces
+        x = 0
+        y = 2
+        cost = 5
+        prerequisite = { focus = JAP_new_doctrines }
+        prerequisite = { focus = JAP_artillery_modernization }
+        relative_position_id = JAP_new_doctrines
+    }
+
+    # Armoured Divisions
+    focus = {
+        id = JAP_armoured_divisions
+        icon = GFX_goal_generic_army_tanks
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_special_forces }
+        relative_position_id = JAP_special_forces
+    }
+
+    # Bicycle Battalions
+    focus = {
+        id = JAP_bicycle_battalions_focus
+        icon = GFX_goal_generic_army_motorized
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_special_forces }
+        relative_position_id = JAP_special_forces
+    }
+
+    # Equipment Standardization
+    focus = {
+        id = JAP_equipment_standardization
+        icon = GFX_goal_generic_small_arms
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_reform_the_army }
+        relative_position_id = JAP_reform_the_army
+    }
+
+    # Artillery Modernization
+    focus = {
+        id = JAP_artillery_modernization
+        icon = GFX_goal_generic_army_artillery2
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_equipment_standardization }
+        relative_position_id = JAP_equipment_standardization
+    }
+}

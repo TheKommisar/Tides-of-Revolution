@@ -7,22 +7,6 @@ set_war_support = 0.8
 
 set_research_slots = 4
 set_fuel_ratio = 1.0
-add_ideas = {
-	state_shintoism
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-
-	JAP_zaibatsus
-	JAP_duplicate_research_efforts
-}
-
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	add_ideas = {
-		JAP_interservice_rivalry_balanced		
-	}
-}
 
 set_technology = {
 	infantry_weapons = 1
@@ -103,9 +87,9 @@ if = {
 }
 
 create_import = {
-		resource = oil
-		factories = 2
-		exporter = USA
+	resource = oil
+	factories = 2
+	exporter = USA
 }
 
 set_convoys = 400
@@ -122,14 +106,8 @@ if = {
 		autonomous_state = autonomy_puppet
 		freedom_level = 0.1
 	}
-	set_autonomy = {
-		target = VIN
-		autonomous_state = autonomy_puppet
-		freedom_level = 0.4
-	}
 	else = {
-                puppet = FER
-                puppet = VIN
+		puppet = FER
 	}
 }
 
@@ -146,6 +124,21 @@ if = {
 	}
 }
 
+add_ideas = {
+	JAP_army_navy_rivalry
+	JAP_reliance_on_exports
+	JAP_devotion_to_the_state
+
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+
+	JAP_Inukai_Tsuyoshi_hog_sco
+	JAP_Yoshida_Shigeru_for_sco
+	JAP_Ikeda_Shigeaki_eco_sco
+	JAP_Kawamura_Takeji_sec_sco
+}
+
 set_politics = {
 	ruling_party = social_conservative
 	last_election = "1936.1.1"
@@ -153,16 +146,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-    vanguardist = 1
-    orthodox_marxist = 2
-    revolutionary_socialist = 2
-    social_democrat = 5
-    social_liberal = 7
-    classic_liberal = 26
-    social_conservative = 37
-    authoritarian_democrat = 7
-    paternal_autocrat = 10
-    national_populist = 3
+    revolutionary_socialist = 4
+	democratic_socialist = 2
+    social_democrat = 4
+    social_liberal = 6
+    classic_liberal = 28
+    social_conservative = 30
+    authoritarian_democrat = 12
+    paternal_autocrat = 14
+    national_populist = 0
 }
 
 create_country_leader = {
@@ -171,10 +163,63 @@ create_country_leader = {
 	picture = "Portrait_Emperor_Hirohito.tga"
 	expire = "1989.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-	id = 700 #Hirohito
+	traits = {}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Emperor_Hirohito.tga"
+	expire = "1989.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Emperor_Hirohito.tga"
+	expire = "1989.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Emperor_Hirohito.tga"
+	expire = "1989.1.1"
+	ideology = classic_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Emperor_Hirohito.tga"
+	expire = "1989.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Emperor_Hirohito.tga"
+	expire = "1989.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Emperor_Hirohito.tga"
+	expire = "1989.1.1"
+	ideology = national_populist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Hirohito"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Emperor_Hirohito.tga"
+	expire = "1989.1.1"
+	ideology = national_romantic_subtype
+	traits = {}
 }
 
 create_country_leader = {
@@ -182,9 +227,8 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "GFX_Portrait_kyuichi_tokuda"
 	expire = "1989.1.1"
-	ideology = marxism
-	traits = {
-	}
+	ideology = vanguardist_subtype
+	traits = {}
 }
 
 create_corps_commander = {
