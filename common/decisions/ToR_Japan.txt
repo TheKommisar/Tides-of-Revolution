@@ -1,0 +1,34 @@
+JAP_intervention_in_china = {
+    JAP_threaten_warlord = {
+        icon = GFX_decision_jap_conquer_china
+        cost = 50
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = SHX
+                    tag = GXC
+                    tag = HNN
+                    tag = YUN
+                    tag = SHN
+                    tag = SCH
+                    tag = KAS
+                    tag = SIK
+                    tag = XSM
+                }
+            }
+        }
+
+        visible = {
+            FROM = { 
+                has_country_flag = JAP_PACIFICATION_AVAILABLE
+                exists = yes
+                is_subject = no
+            }
+        }
+
+        complete_effect = {
+            
+        }
+    }
+}

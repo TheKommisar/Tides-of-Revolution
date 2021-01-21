@@ -122,11 +122,11 @@ spriteTypes = {
 
 	# Economy Minister
     spriteType = {
-		name = "GFX_idea_JAP_Asanuma_Inejiro_eco_tot"
+		name = "GFX_idea_JAP_Asanuma_Inejiro_eco_van"
 		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Asanuma_Inejiro.tga"
 	}
 	spriteType = {
-		name = "GFX_idea_JAP_Yamada_Moritaro_eco_syn"
+		name = "GFX_idea_JAP_Yamada_Moritaro_eco_ort"
 		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yamada_Moritaro.tga"
 	}
 	spriteType = {

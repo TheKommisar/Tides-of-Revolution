@@ -13,7 +13,7 @@ ideas = {
 			}
 
             modifier = {
-                planning_factor = -0.30
+                planning_speed = -0.30
             }
         }
 
@@ -27,13 +27,45 @@ ideas = {
             }
         }
 
-        JAP_devotion_to_the_state = {
+        JAP_devotion_to_the_state1 = {
             allowed = { original_tag = JAP }
             picture = state_shintoism
 
             modifier = {
                 stability_factor = 0.15
                 war_support_factor = 0.15
+            }
+        }
+
+        JAP_devotion_to_the_state2 = {
+            allowed = { original_tag = JAP }
+            picture = state_shintoism
+
+            modifier = {
+                stability_factor = 0.15
+                war_support_factor = 0.15
+                conscription_factor = 0.15
+            }
+        }
+
+        JAP_zaibatsu_investments = {
+            allowed = { original_tag = JAP }
+            picture = jap_zaibatsu
+
+            modifier = {
+                consumer_goods_factor = 0.05
+                production_speed_buildings_factor = 0.15
+                production_factory_start_efficiency_factor = 0.05
+            }
+        }
+
+        JAP_research_funding_idea = {
+            allowed = { original_tag = JAP }
+            picture = jap_supremacy_of_technology
+
+            modifier = {
+                consumer_goods_factor = 0.05
+                research_speed_factor = 0.05
             }
         }
     }

@@ -23,7 +23,9 @@ focus_tree = {
         x = 8
         y = 0
         cost = 5
-        completion_reward = {}
+        completion_reward = {
+            add_political_power = 150
+        }
     }
 
     # Industry Expansion
@@ -35,7 +37,24 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_state_of_the_economy }
         relative_position_id = JAP_state_of_the_economy
-        completion_reward = {}
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
     }
 
     # Factory Expansion
@@ -47,7 +66,24 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_state_of_the_economy }
         relative_position_id = JAP_state_of_the_economy
-        completion_reward = {}
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
     }
 
     # Modern Excavation Methods
@@ -59,7 +95,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_industry_expansion }
         relative_position_id = JAP_industry_expansion
-        completion_reward = {}
+        completion_reward = {
+            add_tech_bonus = {
+                category = excavation_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Infrastructure Expansion
@@ -71,7 +113,15 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_state_of_the_economy }
         relative_position_id = JAP_state_of_the_economy
-        completion_reward = {}
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+        }
     }
 
     # Synthetic Resources
@@ -83,7 +133,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_factory_expansion }
         relative_position_id = JAP_factory_expansion
-        completion_reward = {}
+        completion_reward = {
+            add_tech_bonus = {
+                category = synth_resources
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Modern Industrial Equipment
@@ -95,7 +151,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_industry_expansion }
         relative_position_id = JAP_industry_expansion
-        completion_reward = {}
+        completion_reward = {
+            add_tech_bonus = {
+                category = industry
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Farming Subsidies
@@ -108,7 +170,9 @@ focus_tree = {
         prerequisite = { focus = JAP_industry_expansion }
         prerequisite = { focus = JAP_infrastructure_expansion }
         relative_position_id = JAP_industry_expansion
-        completion_reward = {}
+        completion_reward = {
+            remove_ideas = JAP_reliance_on_exports
+        }
     }
 
     # New Construction Methods
@@ -121,7 +185,17 @@ focus_tree = {
         prerequisite = { focus = JAP_factory_expansion }
         prerequisite = { focus = JAP_infrastructure_expansion }
         relative_position_id = JAP_factory_expansion
-        completion_reward = {}
+        completion_reward = {
+            add_tech_bonus = {
+                technology = construction1
+                technology = construction2
+                technology = construction3
+                technology = construction4
+                technology = construction5
+                bonus = 1.0
+                uses = 2
+            }
+        }
     }
 
     # Electronic Advancements
@@ -133,7 +207,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_factory_expansion }
         relative_position_id = JAP_factory_expansion
-        completion_reward = {}
+        completion_reward = {
+            add_tech_bonus = {
+                category = electronics
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Open New Universities
@@ -146,7 +226,9 @@ focus_tree = {
         prerequisite = { focus = JAP_farming_subsidies }
         prerequisite = { focus = JAP_modern_industrial_equipment }
         relative_position_id = JAP_industry_expansion
-        completion_reward = {}
+        completion_reward = {
+            add_research_slot = 1
+        }
     }
 
     # Atomic Research
@@ -159,7 +241,13 @@ focus_tree = {
         prerequisite = { focus = JAP_electronic_advancements }
         prerequisite = { focus = JAP_new_construction_methods }
         relative_position_id = JAP_factory_expansion
-        completion_reward = {}
+        completion_reward = {
+            add_tech_bonus = {
+                category = nuclear
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # State of the Empire
@@ -170,8 +258,9 @@ focus_tree = {
         y = 3
         cost = 0
         available = {
-            hidden_trigger = {
-                has_country_flag = JAP_
+            custom_trigger_tooltip = {
+                tooltip = unlocked_later
+                always = no
             }
         }
         prerequisite = { focus = JAP_infrastructure_expansion }
@@ -186,7 +275,8 @@ focus_tree = {
         y = 0
         cost = 0
         available = {
-            hidden_trigger = {
+            custom_trigger_tooltip = {
+                tooltip = unlocked_later
                 always = no
             }
         }
@@ -195,41 +285,143 @@ focus_tree = {
         relative_position_id = JAP_toseiha_dominance
     }
 
-    # The Chinese Question
+    # Ichi-Go
     focus = {
-        id = JAP_the_chinese_question
-        icon = GFX_focus_generic_china1
+        id = JAP_ichi_go_focus
+        icon = GFX_focus_generic_japanese_imperial_glory
         x = -1
         y = 1
         cost = 10
+        available = {
+            MAN = { exists = yes }
+        }
+        bypass = {
+            MAN = {
+                OR = {
+                    has_war_with = JAP
+                    is_subject_of = JAP
+                    is_in_faction_with = JAP
+                }
+            }
+        }
         prerequisite = { focus = JAP_kodoha_dominance }
         relative_position_id = JAP_kodoha_dominance
-        completion_reward = {}
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = CHI
+            }
+        }
     }
 
-    # Fortify the Chinese Bases
+    # Start Fortifications
     focus = {
-        id = JAP_fortify_the_chinese_bases
-        icon = GFX_goal_fortify_the_westwall
+        id = JAP_start_fortifications
+        icon = GFX_goal_generic_major_war
         x = 0
         y = 2
         cost = 10
         prerequisite = { focus = JAP_kodoha_dominance }
         relative_position_id = JAP_kodoha_dominance 
-        completion_reward = {}
+        completion_reward = {
+            # Qingdao
+            if = {
+                limit = { has_full_control_of_state = 743 }
+                743 = {
+                    add_building_construction = {
+                        type = bunker
+                        province = 10000
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = coastal_bunker
+                        province = 10000
+                        level = 5
+                        instant_build = yes
+                    }
+                }
+            }
+
+            # Dailan
+            if = {
+                limit = { has_full_control_of_state = 745 }
+                #1150 6851
+                745 = {
+                    add_building_construction = {
+                        type = bunker
+                        province = 1150
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = bunker
+                        province = 6851
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = coastal_bunker
+                        province = 1150
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = coastal_bunker
+                        province = 6851
+                        level = 5
+                        instant_build = yes
+                    }
+                }
+            }
+
+            # Guangzhouwan
+            if = {
+                limit = { has_full_control_of_state = 728 }
+                add_building_construction = {
+                    type = bunker
+                    province = 11981
+                    level = 5
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = coastal_bunker
+                    province = 11981
+                    level = 5
+                    instant_build = yes
+                }
+            }
+        }
     }
 
-    # Ichi-Go
+    # Attack the Republic
     focus = {
-        id = JAP_ichi_go_focus
-        icon = GFX_focus_generic_japanese_imperial_glory
+        id = JAP_attack_the_republic
+        icon = GFX_focus_attack_china
         x = 0
         y = 2
         cost = 10
-        prerequisite = { focus = JAP_the_chinese_question }
-        prerequisite = { focus = JAP_fortify_the_chinese_bases }
-        relative_position_id = JAP_the_chinese_question
-        completion_reward = {}
+        available = {
+            CHI = { exists = yes }
+        }
+        bypass = {
+            CHI = {
+                OR = {
+                    has_war_with = JAP
+                    is_in_faction_with = JAP
+                    is_subject_of = JAP
+                }
+            }
+        }
+        prerequisite = { focus = JAP_ichi_go_focus }
+        prerequisite = { focus = JAP_start_fortifications }
+        relative_position_id = JAP_ichi_go_focus
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = CHI
+            }
+        }
     }
 
     # Pacify the North
@@ -239,9 +431,25 @@ focus_tree = {
         x = -2
         y = 1
         cost = 10
-        prerequisite = { focus = JAP_ichi_go_focus }
-        relative_position_id = JAP_ichi_go_focus
-        completion_reward = {}
+        prerequisite = { focus = JAP_attack_the_republic }
+        relative_position_id = JAP_attack_the_republic
+        completion_reward = {
+            SHX = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+            
+            SHN = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+        }
     }
 
     # Pacify the South
@@ -251,9 +459,31 @@ focus_tree = {
         x = 0
         y = 1
         cost = 10
-        prerequisite = { focus = JAP_ichi_go_focus }
-        relative_position_id = JAP_ichi_go_focus
-        completion_reward = {}
+        prerequisite = { focus = JAP_attack_the_republic }
+        relative_position_id = JAP_attack_the_republic
+        completion_reward = {
+            GXC = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+            YUN = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+            HNN = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+        }
     }
 
     # Pacify the West
@@ -263,9 +493,38 @@ focus_tree = {
         x = 2
         y = 1
         cost = 10
-        prerequisite = { focus = JAP_ichi_go_focus }
-        relative_position_id = JAP_ichi_go_focus
-        completion_reward = {}
+        prerequisite = { focus = JAP_attack_the_republic }
+        relative_position_id = JAP_attack_the_republic
+        completion_reward = {
+            SCH = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+            XSM = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+            SIK = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+            KAS = {
+                set_country_flag = JAP_PACIFICATION_AVAILABLE
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = JAP_threaten_warlord
+                }
+            }
+        }
     }
 
     # Tibetan Question
@@ -279,13 +538,18 @@ focus_tree = {
         prerequisite = { focus = JAP_pacify_the_south }
         prerequisite = { focus = JAP_pacify_the_west }
         relative_position_id = JAP_pacify_the_south
-        completion_reward = {}
+        completion_reward = {
+            create_wargoal = {
+                target = TIB
+                type = annex_everything
+            }
+        }
     }
 
-    # Start Fortifications
+    # Interservice Coordination
     focus = {
-        id = JAP_start_fortifications
-        icon = GFX_goal_fortify_the_westwall
+        id = JAP_interservice_coordination
+        icon = GFX_focus_generic_diplomatic_treaty
         x = -1
         y = 1
         cost = 10
@@ -294,6 +558,9 @@ focus_tree = {
             focus = JAP_toseiha_dominance
         }
         relative_position_id = JAP_toseiha_dominance
+        completion_reward = {
+            remove_ideas = JAP_army_navy_rivalry
+        }
     }
 
     # Toseiha Dominance
@@ -304,7 +571,8 @@ focus_tree = {
         y = 1
         cost = 0
         available = {
-            hidden_trigger = {
+            custom_trigger_tooltip = {
+                tooltip = unlocked_later
                 always = no
             }
         }
@@ -320,8 +588,26 @@ focus_tree = {
         x = 0
         y = 3
         cost = 10
+        available = {
+            ICH = { exists = yes }
+        }
+        bypass = {
+            ICH = {
+                OR = {
+                    is_subject_of = JAP
+                    is_in_faction_with = JAP
+                    has_war_with = JAP
+                }
+            }
+        }
         prerequisite = { focus = JAP_toseiha_dominance }
         relative_position_id = JAP_toseiha_dominance
+        completion_reward = {
+            create_wargoal = {
+                target = ICH
+                type = annex_everything
+            }
+        }
     }
 
     # Found the Co-Prosperity Sphere
@@ -331,8 +617,19 @@ focus_tree = {
         x = 1
         y = 1
         cost = 10
+        available = {
+            is_in_faction = no
+            is_subject = no
+        }
+        bypass = { is_faction_leader = yes }
         prerequisite = { focus = JAP_toseiha_dominance }
         relative_position_id = JAP_toseiha_dominance
+        completion_reward = {
+            set_rule = {
+                can_create_factions = yes
+            }
+            create_faction = prosperity_sphere
+        }
     }
 
     # Invite Siam
@@ -342,6 +639,18 @@ focus_tree = {
         x = 0
         y = 1
         cost = 10
+        available = {
+            SIA = { exists = yes }
+        }
+        bypass = {
+            SIA = {
+                OR = {
+                    has_war_with = JAP
+                    is_in_faction_with = JAP
+                    is_subject_of = JAP
+                }
+            }
+        }
         prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
         relative_position_id = JAP_found_the_co_prosperity_sphere
         completion_reward = {}
@@ -354,6 +663,18 @@ focus_tree = {
         x = 2
         y = 1
         cost = 10
+        available = {
+            PHI = { exists = yes }
+        }
+        bypass = {
+            PHI = {
+                OR = {
+                    has_war_with = JAP
+                    is_subject_of = JAP
+                    is_in_faction_with = JAP
+                }
+            }
+        }
         prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
         relative_position_id = JAP_found_the_co_prosperity_sphere
         completion_reward = {}
@@ -389,7 +710,8 @@ focus_tree = {
         y = 1
         cost = 0
         available = {
-            hidden_trigger = {
+            custom_trigger_tooltip = {
+                tooltip = unlocked_later
                 always = no
             }
         }
@@ -406,6 +728,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_democracy_survives }
         relative_position_id = JAP_democracy_survives
+        completion_reward = {}
     }
 
     # End the Rivalry
@@ -417,6 +740,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_democracy_survives }
         relative_position_id = JAP_democracy_survives
+        completion_reward = {
+            remove_ideas = JAP_army_navy_rivalry
+        }
     }
 
     # Treaty with the Russians
@@ -428,6 +754,7 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_democracy_survives }
         relative_position_id = JAP_democracy_survives
+        completion_reward = {}
     }
 
     # Fund Rebels in Malaya
@@ -465,7 +792,9 @@ focus_tree = {
         x = 14
         y = 0
         cost = 10
-        completion_reward = {}
+        completion_reward = {
+            add_ideas = JAP_zaibatsu_investments
+        }
     }
 
     # Spiritual Mobilization
@@ -476,7 +805,12 @@ focus_tree = {
         y = 0
         cost = 10
         relative_position_id = JAP_investments_from_the_zaibatsu
-        completion_reward = {}
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = JAP_devotion_to_the_state1
+                add_idea = JAP_devotion_to_the_state2
+            }
+        }
     }
 
     # Research Funding
@@ -487,7 +821,9 @@ focus_tree = {
         y = 0
         cost = 10
         relative_position_id = JAP_spiritual_mobilization_focus
-        completion_reward = {}
+        completion_reward = {
+            add_ideas = JAP_research_funding_idea
+        }
     }
 
     # The Matters of the Military
@@ -496,17 +832,20 @@ focus_tree = {
         icon = GFX_goal_JAP_WAY
         x = 0
         y = 1
-        cost = 10
+        cost = 3
         available = {
-            hidden_trigger = {
-                always = no
+            custom_trigger_tooltip = {
+                tooltip = JAP_reviewed_the_budget
+                has_country_flag = JAP_IMPERIAL_BUDGET_REVIEWED
             }
         }
         prerequisite = { focus = JAP_spiritual_mobilization_focus }
         prerequisite = { focus = JAP_investments_from_the_zaibatsu }
         prerequisite = { focus = JAP_research_funding }
         relative_position_id = JAP_spiritual_mobilization_focus
-        completion_reward = {}
+        completion_reward = {
+            add_political_power = 100
+        }
     }
 
     # Air Force Expansion
@@ -518,7 +857,9 @@ focus_tree = {
         cost = 3
         prerequisite = { focus = JAP_matters_of_the_military }
         relative_position_id = JAP_matters_of_the_military
-        completion_reward = {}
+        completion_reward = {
+            air_experience = 20
+        }
     }
 
     # Fighter Modernization
@@ -530,6 +871,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_air_force_expansion }
         relative_position_id = JAP_air_force_expansion
+        completion_reward = {
+            add_tech_bonus = {
+                category = light_fighter
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Air Doctrines
@@ -541,29 +889,50 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_air_force_expansion }
         relative_position_id = JAP_air_force_expansion
+        completion_reward = {
+            add_tech_bonus = {
+                category = air_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Heavy Fighter Modernization
     focus = {
         id = JAP_heavy_fighter_modernization
         icon = GFX_goal_generic_CAS
-        x = 2
-        y = 1
+        x = -1
+        y = 2
         cost = 5
         prerequisite = { focus = JAP_air_force_expansion }
+        prerequisite = { focus = JAP_fighter_modernization }
         relative_position_id = JAP_air_force_expansion
-        completion_reward = {}
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_heavy_fighter
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Bomber Modernization
     focus = {
         id = JAP_bomber_modernization
         icon = GFX_goal_generic_air_bomber
-        x = -1
-        y = 2
+        x = 2
+        y = 1
         cost = 5
         prerequisite = { focus = JAP_air_force_expansion }
         relative_position_id = JAP_air_force_expansion
+        completion_reward = {
+            add_tech_bonus = {
+                category = tactical_bomber
+                bonus = 1.0
+                uses = 1
+            }  
+        }
     }
 
     # Strategic Bomber Modernization
@@ -574,7 +943,15 @@ focus_tree = {
         y = 2
         cost = 5
         prerequisite = { focus = JAP_air_force_expansion }
+        prerequisite = { focus = JAP_bomber_modernization }
         relative_position_id = JAP_air_force_expansion
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_strategic_bomber
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Jet Prototypes
@@ -584,11 +961,16 @@ focus_tree = {
         x = 0
         y = 2
         cost = 5
-        prerequisite = { focus = JAP_bomber_modernization }
         prerequisite = { focus = JAP_strategic_bomber_modernization }
-        prerequisite = { focus = JAP_fighter_modernization }
         prerequisite = { focus = JAP_heavy_fighter_modernization }
         relative_position_id = JAP_air_doctrines
+        completion_reward = {
+            add_tech_bonus = {
+                category = jet_technology
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Address the Navy
@@ -600,6 +982,9 @@ focus_tree = {
         cost = 3
         prerequisite = { focus = JAP_matters_of_the_military }
         relative_position_id = JAP_matters_of_the_military
+        completion_reward = {
+            navy_experience = 20
+        }
     }
 
     # New Era of Naval Warfare
@@ -611,6 +996,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_address_the_navy }
         relative_position_id = JAP_address_the_navy
+        completion_reward = {
+            add_tech_bonus = {
+                category = naval_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Carrier Exercises
@@ -622,6 +1014,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_new_era_of_naval_warfare }
         relative_position_id = JAP_new_era_of_naval_warfare
+        completion_reward = {
+            add_tech_bonus = {
+                category = cv_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Destoyer Modernization
@@ -633,6 +1032,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_carrier_improvements }
         relative_position_id = JAP_carrier_improvements
+        completion_reward = {
+            add_tech_bonus = {
+                category = dd_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Submarine Modernization
@@ -644,6 +1050,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_carrier_improvements }
         relative_position_id = JAP_carrier_improvements
+        completion_reward = {
+            add_tech_bonus = {
+                category = ss_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Cruiser Modernization
@@ -655,6 +1068,14 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_carrier_improvements }
         relative_position_id = JAP_carrier_improvements 
+        completion_reward = {
+            add_tech_bonus = {
+                category = cl_tech
+                category = ca_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Battleship Modernization
@@ -666,6 +1087,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_new_era_of_naval_warfare }
         relative_position_id = JAP_new_era_of_naval_warfare
+        completion_reward = {
+            add_tech_bonus = {
+                category = bb_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # New Dockyards
@@ -677,6 +1105,27 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_address_the_navy }
         relative_position_id = JAP_address_the_navy
+        completion_reward = {
+            random_owned_controlled_state = {
+                if = {
+					limit = {
+                        is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+            }
+        }
     }
 
     # Transporation Methods
@@ -688,6 +1137,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_new_dockyards }
         relative_position_id = JAP_new_dockyards
+        completion_reward = {
+            add_tech_bonus = {
+                category = tp_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Expand the Marines
@@ -700,17 +1156,35 @@ focus_tree = {
         prerequisite = { focus = JAP_transportation_equipment }
         prerequisite = { focus = JAP_battleship_improvements }
         relative_position_id = JAP_transportation_equipment
+        completion_reward = {
+            add_tech_bonus = {
+                category = marine_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Torpedoes
     focus = {
-        id = JAP_torpedoes
+        id = JAP_torpedo_cruisers
         icon = GFX_goal_generic_air_naval_bomber
         x = 2
         y = 1
         cost = 10
         prerequisite = { focus = JAP_new_dockyards }
         relative_position_id = JAP_new_dockyards
+        completion_reward = {
+            if = {
+				limit = {
+					not = { has_dlc = "Man the Guns" }
+				}
+				set_technology = { torpedo_cruiser = 1 }
+			}
+			else = {
+				set_technology = { torpedo_cruiser_mtg = 1 }
+			}
+        }
     }
 
     # Reform the Army
@@ -722,6 +1196,9 @@ focus_tree = {
         cost = 3
         prerequisite = { focus = JAP_matters_of_the_military }
         relative_position_id = JAP_address_the_navy
+        completion_reward = {
+            army_experience = 20
+        }
     }
 
     # New Doctrines
@@ -733,6 +1210,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_reform_the_army }
         relative_position_id = JAP_reform_the_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = land_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Special Forces
@@ -745,6 +1229,15 @@ focus_tree = {
         prerequisite = { focus = JAP_new_doctrines }
         prerequisite = { focus = JAP_artillery_modernization }
         relative_position_id = JAP_new_doctrines
+        completion_reward = {
+            add_tech_bonus = {
+                category = mountaineers_tech
+			    category = marine_tech
+			    category = para_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Armoured Divisions
@@ -756,6 +1249,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_special_forces }
         relative_position_id = JAP_special_forces
+        completion_reward = {
+            add_tech_bonus = {
+                category = armor
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Bicycle Battalions
@@ -767,6 +1267,9 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_special_forces }
         relative_position_id = JAP_special_forces
+        completion_reward = {
+            set_technology = { bicycle_infantry = 1 }  
+        }
     }
 
     # Equipment Standardization
@@ -778,6 +1281,13 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_reform_the_army }
         relative_position_id = JAP_reform_the_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = infantry_weapons
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Artillery Modernization
@@ -789,5 +1299,10 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = JAP_equipment_standardization }
         relative_position_id = JAP_equipment_standardization
+        completion_reward = {
+            category = artillery
+            bonus = 1.0
+            uses = 1
+        }
     }
 }

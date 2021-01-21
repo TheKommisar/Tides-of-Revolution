@@ -26,6 +26,8 @@ country_event = {
     desc = ich.1.d
     picture = GFX_report_event_election_vote
 
+    fire_only_once = yes
+
 	trigger = {
 		tag = ICH
 		date > 1936.8.12
