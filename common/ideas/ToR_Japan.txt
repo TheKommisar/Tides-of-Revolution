@@ -74,6 +74,8 @@ ideas = {
             picture = ast_abandon_the_westminster_system
             
             modifier = {
+                stability_weekly_factor = 0.25
+                war_support_weekly_factor = -0.05
                 paternal_autocrat_drift = -0.02
                 authoritarian_democrat_drift = -0.02
             }

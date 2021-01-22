@@ -368,7 +368,7 @@ jap.12.t:0 "Navy Officers Left in Protest!"
 jap.12.d:0 "In seems that the rivalry between the Army and the Navy is hotter than ever, as the current government have once again favoured the Imperial Army. The Navy's delegation have walked out in from meeting in protest as the other faction is being more prioritized rather than them."
 jap.12.a:0 "Why do they hate them so much?"
 
-jap.13.t:0 "Invitation from [JAP.Capital.GetName]"
+jap.13.t:0 "Invitation from Tokyo"
 jap.13.d:0 "We have received a telegram from the Foreign Ministry earlier today from the [JAP.GetAdjective] government. They have invited us in their sphere of influence and want us to cooperate and warmen diplomatic relations with them. Many within the ministry have been alerted as rejecting this invitation might lead to an invasion."
 jap.13.a:0 "Send our positive reply"
 jap.13.b:0 "We do not accept their invitation"
@@ -387,10 +387,10 @@ jap.16.d:0 "The [JAP.GetAdjective] Foreign Ministry have proposed a non-agressio
 jap.16.a:0 "Sign the treaty"
 jap.16.b:0 "We don't deal with the Japanese."
 
-jap.17.t:0 "[From.Capital.GetName] Signs the Pact"
-jap.17.d:0 "[From.GetNameDefCap] has wisely agreed to sign our non-aggression pact. This means that we are free to act without risk of Russian intervention."
+jap.17.t:0 "[From.GetNameDefCap] Signs the Pact"
+jap.17.d:0 "The [From.GetAdjective] Government has wisely agreed to sign our non-aggression pact. This means that we are free to act without risk of Russian intervention."
 jap.17.a:0 "Excellent"
 
-jap.18.t:0 "[From.Capital.GetName] Rejects the Pact"
-jap.18.d:0 "[From.GetNameDefCap] has refused to sign our non-aggression pact! This complicates matters, since we cannot deal decisively with the Chinese or the South East Asians without the risk of the Russians getting themselves involved."
+jap.18.t:0 "[From.GetNameDefCap] Rejects the Pact"
+jap.18.d:0 "The [From.GetAdjective] Government has refused to sign our non-aggression pact! This complicates matters, since we cannot deal decisively with the Chinese or the South East Asians without the risk of the Russians getting themselves involved."
 jap.18.a:0 "Curse them!"
