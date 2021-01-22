@@ -68,6 +68,16 @@ ideas = {
                 research_speed_factor = 0.05
             }
         }
+
+        JAP_government_stabilization = {
+            allowed = { original_tag = JAP }
+            picture = ast_abandon_the_westminster_system
+            
+            modifier = {
+                paternal_autocrat_drift = -0.02
+                authoritarian_democrat_drift = -0.02
+            }
+        }
     }
 
     # Head of Government

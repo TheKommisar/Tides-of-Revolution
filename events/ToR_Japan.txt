@@ -5,22 +5,22 @@ add_namespace = japan
 
 # Intro Event
 country_event = {
-    id = japan.0
-    title = japan.0.t
-    desc = japan.0.d
+    id = jap.0
+    title = jap.0.t
+    desc = jap.0.d
 
     is_triggered_only = yes
 
     option = {
-        name = japan.0.a
+        name = jap.0.a
     }
 }
 
 # Resignation of Prime Minister Inukai
 country_event = {
-    id = japan.1
-    title = japan.1.t
-    desc = japan.1.d
+    id = jap.1
+    title = jap.1.t
+    desc = jap.1.d
     picture = GFX_report_event_asian_politicians
 
     trigger = {
@@ -36,7 +36,7 @@ country_event = {
 
     # Enjoy your retirement, Prime Minister
     option = {
-        name = japan.1.a
+        name = jap.1.a
         swap_ideas = {
             remove_idea = JAP_Inukai_Tsuyoshi_hog_sco
             add_idea = JAP_Mitsuchi_Chuzo_hog_sco
@@ -46,9 +46,9 @@ country_event = {
 
 # Prepare to Review the Budget
 country_event = {
-    id = japan.2
-    title = japan.2.t
-    desc = japan.2.d
+    id = jap.2
+    title = jap.2.t
+    desc = jap.2.d
     picture = GFX_report_event_generic_read_write
 
     trigger = {
@@ -64,20 +64,20 @@ country_event = {
 
     # Fine
     option = {
-        name = japan.2.a
+        name = jap.2.a
         add_political_power = 50
 
         hidden_effect = {
-            country_event = { id = japan.3 days = 14 }
+            country_event = { id = jap.3 days = 14 }
         }
     }
 }
 
 # Start of the Review
 country_event = {
-    id = japan.3
-    title = japan.3.t
-    desc = japan.3.d
+    id = jap.3
+    title = jap.3.t
+    desc = jap.3.d
     picture = GFX_report_event_japanese_reply
 
     is_triggered_only = yes
@@ -88,17 +88,17 @@ country_event = {
 
     # Let's get this over with
     option = {
-        name = japan.3.a
+        name = jap.3.a
 
-        hidden_effect = { country_event = { id = japan.4 days = 7 } }
+        hidden_effect = { country_event = { id = jap.4 days = 7 } }
     }
 }
 
 # Budget Prioritization
 country_event = {
-    id = japan.4
-    title = japan.4.t
-    desc = japan.4.d
+    id = jap.4
+    title = jap.4.t
+    desc = jap.4.d
     picture = GFX_report_event_china_ledo_road
 
     immediate = {
@@ -110,7 +110,7 @@ country_event = {
 
     # Equal
     option = {
-        name = japan.4.a
+        name = jap.4.a
         
         add_political_power = 100
         set_country_flag = JAP_ELECTIONS_CONTINUES
@@ -118,68 +118,68 @@ country_event = {
 
     # Army
     option = {
-        name = japan.4.b
+        name = jap.4.b
         army_experience = 5
 
         add_to_variable = {
             var = jap_army_var
             value = 5
         }
-        hidden_effect = { country_event = { id = japan.5 days = 14 } }
+        hidden_effect = { country_event = { id = jap.5 days = 14 } }
     }
 
     # Navy
     option = {
-        name = japan.4.c
+        name = jap.4.c
         navy_experience = 5
 
         add_to_variable = {
             var = jap_navy_var
             value = 5
         }
-        hidden_effect = { country_event = { id = japan.5 days = 14 } }
+        hidden_effect = { country_event = { id = jap.5 days = 14 } }
     }
 }
 
 # Imported Resource Prioritization
 country_event = {
-    id = japan.5
-    title = japan.5.t
-    desc = japan.5.d
+    id = jap.5
+    title = jap.5.t
+    desc = jap.5.d
     picture = GFX_report_event_physics_lab_01
 
     is_triggered_only = yes
 
     # The Army
     option = {
-        name = japan.5.a
+        name = jap.5.a
 
         add_to_variable = {
             var = jap_army_var
             value = 2
         }
         hidden_effect = { 
-            country_event = { id = japan.6 days = 14 }
+            country_event = { id = jap.6 days = 14 }
             if = {
                 limit = { check_var = { jap_army_var > jap_navy_var } }
-                country_event = { id = japan.12 days = 3 }
+                country_event = { id = jap.12 days = 3 }
             }
         }
     }
 
     # The Navy
     option = {
-        name = japan.5.b
+        name = jap.5.b
 
         add_to_variable = {
             var = jap_navy_var
             value = 2
         }
         hidden_effect = {
-            country_event = { id = japan.6 days = 14 }
+            country_event = { id = jap.6 days = 14 }
             if = {
                 limit = { check_var = { jap_navy_var > jap_army_var }}
-                country_event = { id = japan.11 days = 3 }
+                country_event = { id = jap.11 days = 3 }
             }
         }
     }
@@ -187,16 +187,16 @@ country_event = {
 
 # Research Prioritization
 country_event = {
-    id = japan.6
-    title = japan.6.t
-    desc = japan.6.d
+    id = jap.6
+    title = jap.6.t
+    desc = jap.6.d
     picture = GFX_report_event_physics_lab_02
 
     is_triggered_only = yes
 
     # The Army
     option = {
-        name = japan.6.a
+        name = jap.6.a
 
         set_country_flag = JAP_BUDGET_REVIEW_OVER
         add_to_variable = {
@@ -207,7 +207,7 @@ country_event = {
 
     # The Navy
     option = {
-        name = japan.6.b
+        name = jap.6.b
 
         set_country_flag = JAP_BUDGET_REVIEW_OVER
         add_to_variable = {
@@ -219,9 +219,9 @@ country_event = {
 
 # The Army Coup
 country_event = {
-    id = japan.7
-    title = japan.7.t
-    desc = japan.7.d
+    id = jap.7
+    title = jap.7.t
+    desc = jap.7.d
     picture = GFX_report_event_czech_soldiers_01
 
     trigger = {
@@ -238,7 +238,7 @@ country_event = {
 
     # Banzai
     option = {
-        name = japan.7.a
+        name = jap.7.a
 
         set_politics = {
             ruling_party = authoritarian_democrat
@@ -260,16 +260,16 @@ country_event = {
                 JAP_Mochizuki_Keisuke_sec_ade
             }
 
-            country_event = { id = japan.10 days = 7 }
+            country_event = { id = jap.10 days = 7 }
         }
     }
 }
 
 # The Navy Coup
 country_event = {
-    id = japan.8
-    title = japan.8.t
-    desc = japan.8.d
+    id = jap.8
+    title = jap.8.t
+    desc = jap.8.d
     picture = GFX_report_event_czech_soldiers_01
 
     trigger = {
@@ -286,7 +286,7 @@ country_event = {
 
     # Banzai!
     option = {
-        name = japan.8.a
+        name = jap.8.a
 
         set_politics = {
             ruling_party = paternal_autocrat
@@ -308,16 +308,16 @@ country_event = {
                 JAP_Shiono_Suehiko_sec_pau
             }
 
-            country_event = { id = japan.10 days = 7 }
+            country_event = { id = jap.10 days = 7 }
         }
     }
 }
 
 # The Japanese Elections
 country_event = {
-    id = japan.9
-    title = japan.9.t
-    desc = japan.9.d
+    id = jap.9
+    title = jap.9.t
+    desc = jap.9.d
     picture = GFX_report_event_election_vote
 
     trigger = {
@@ -339,7 +339,7 @@ country_event = {
 
     # Seiyukai
     option = {
-        name = japan.9.a
+        name = jap.9.a
 
         set_politics = {
             ruling_party = social_conservative
@@ -352,13 +352,13 @@ country_event = {
                 popularity = 0.1
             }
 
-            country_event = { id = japan.10 days = 7 }
+            country_event = { id = jap.10 days = 7 }
         }
     }
 
     # Minseito
     option = {
-        name = japan.9.b
+        name = jap.9.b
 
         set_politics = {
             ruling_party = classic_liberal
@@ -379,13 +379,13 @@ country_event = {
                 JAP_Kawasaki_Katsu_sec_cli
             }
 
-            country_event = { id = japan.10 days = 7 }
+            country_event = { id = jap.10 days = 7 }
         }
     }
 
     # Minshuto
     option = {
-        name = japan.9.c
+        name = jap.9.c
 
         set_politics = {
             ruling_party = social_democrat
@@ -406,88 +406,90 @@ country_event = {
                 JAP_Matsuoka_Komakichi_sec_sde
             }
 
-            country_event = { id = japan.10 days = 7 }
+            country_event = { id = jap.10 days = 7 }
         }
     }
 }
 
 # New Era for Japan
 country_event = {
-    id = japan.10
-    title = japan.10.t
-    desc = japan.10.d
+    id = jap.10
+    title = jap.10.t
+    desc = jap.10.d
     picture = GFX_report_event_japanese_reply
 
     is_triggered_only = yes
 
     option = {
-        name = japan.10.a
+        name = jap.10.a
+
+        add_stability = 0.05
     }
 }
 
 # Army Officers Left in Protest!
 country_event = {
-    id = japan.11
-    title = japan.11.t
-    desc = japan.11.d
+    id = jap.11
+    title = jap.11.t
+    desc = jap.11.d
     picture = GFX_report_event_german_advisors_remain
 
     is_triggered_only = yes
 
     option = {
-        name = japan.11.a
+        name = jap.11.a
         army_experience = -5
     }
 }
 
 # Navy Officers Left in Protest!
 country_event = {
-    id = japan.12
-    title = japan.12.t
-    desc = japan.12.d
+    id = jap.12
+    title = jap.12.t
+    desc = jap.12.d
     picture = GFX_report_event_german_advisors_remain
 
     is_triggered_only = yes
 
     option = {
-        name = japan.12.a
+        name = jap.12.a
         navy_experience = -5
     }
 }
 
 # Invitation
 country_event = {
-    id = japan.13
-    title = japan.13.t
-    desc = japan.13.d
+    id = jap.13
+    title = jap.13.t
+    desc = jap.13.d
     picture = GFX_report_event_generic_read_write
 
     is_triggered_only = yes
 
     option = {
-        name = japan.13.a
+        name = jap.13.a
 
-        JAP = { country_event = japan.14 }
+        JAP = { country_event = jap.14 }
     }
 
     option = {
-        name = japan.13.b
+        name = jap.13.b
 
-        JAP = { country_event = japan.15 }
+        JAP = { country_event = jap.15 }
     }
 }
 
 # Invitation Acceptance
 country_event = {
-    id = japan.14
-    title = japan.14.t
-    desc = japan.14.d
+    id = jap.14
+    title = jap.14.t
+    desc = jap.14.d
     picture = GFX_report_event_generic_read_write
 
     is_triggered_only = yes
 
     option = {
-        name = japan.14.a
+        name = jap.14.a
 
         add_to_faction = FROM
     }
@@ -495,15 +497,15 @@ country_event = {
 
 # Invitation Rejection
 country_event = {
-    id = japan.15
-    title = japan.15.t
-    desc = japan.15.d
+    id = jap.15
+    title = jap.15.t
+    desc = jap.15.d
     picture = GFX_report_event_generic_read_write
 
     is_triggered_only = yes
 
     option = {
-        name = japan.15.a
+        name = jap.15.a
 
         create_wargoal = {
             target = FROM
@@ -517,7 +519,7 @@ country_event = {
     }
 
     option = {
-        name = japan.15.b
+        name = jap.15.b
 
         add_political_power = -100
     }
@@ -525,37 +527,37 @@ country_event = {
 
 # Russian Treaty
 country_event = {
-    id = japan.16
-    title = japan.16.t
-    desc = japan.16.d
+    id = jap.16
+    title = jap.16.t
+    desc = jap.16.d
     picture = GFX_report_event_chinese_japanese_handshake
 
     is_triggered_only = yes
 
     option = {
-        name = japan.16.a
+        name = jap.16.a
 
-        JAP = { country_event = japan.17 }
+        JAP = { country_event = jap.17 }
     }
 
     option = {
-        name = japan.16.b
+        name = jap.16.b
 
-        JAP = { country_event = japan.18 }
+        JAP = { country_event = jap.18 }
     }
 }
 
 # Russia Accept
 country_event = {
-    id = japan.17
-    title = japan.17.t
-    desc = japan.17.d
+    id = jap.17
+    title = jap.17.t
+    desc = jap.17.d
     picture = GFX_report_event_japanese_siam_politicians
 
     is_triggered_only = yes
 
     option = {
-        name = japan.17.a
+        name = jap.17.a
 
         diplomatic_relation = {
             country = RUS
@@ -567,15 +569,15 @@ country_event = {
 
 # Russia Rejects
 country_event = {
-    id = japan.18
-    title = japan.18.t
-    desc = japan.18.d
+    id = jap.18
+    title = jap.18.t
+    desc = jap.18.d
     picture = GFX_report_event_japanese_officers
 
     is_triggered_only = yes
 
     option = {
-        name = japan.18.a
+        name = jap.18.a
 
         add_opinion_modifier = {
             target = RUS

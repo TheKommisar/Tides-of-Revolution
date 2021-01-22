@@ -678,7 +678,7 @@ focus_tree = {
         prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
         relative_position_id = JAP_found_the_co_prosperity_sphere
         completion_reward = {
-            SIA = { country_event = japan.13 }
+            SIA = { country_event = jap.13 }
         }
     }
 
@@ -704,7 +704,7 @@ focus_tree = {
         prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
         relative_position_id = JAP_found_the_co_prosperity_sphere
         completion_reward = {
-            PHI = { country_event = japan.13 }
+            PHI = { country_event = jap.13 }
         }
     }
 
@@ -811,7 +811,12 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_democracy_survives }
         relative_position_id = JAP_democracy_survives
-        completion_reward = {}
+        completion_reward = {
+            add_timed_idea = {
+                idea = JAP_government_stabilization
+                days = 360
+            }
+        }
     }
 
     # End the Rivalry
@@ -846,7 +851,7 @@ focus_tree = {
         prerequisite = { focus = JAP_democracy_survives }
         relative_position_id = JAP_democracy_survives
         completion_reward = {
-            RUS = { country_event = japan.16 }
+            RUS = { country_event = jap.16 }
         }
     }
 

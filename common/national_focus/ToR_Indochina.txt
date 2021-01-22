@@ -1498,6 +1498,11 @@ focus_tree = {
                 type = annex_everything
                 target = SIA
             }
+            add_ai_strategy = {
+                type = conquer
+                id = "SIA"
+                value = 200
+            }
         }
     }
 
@@ -1572,6 +1577,11 @@ focus_tree = {
             create_wargoal = {
                 type = annex_everything
                 target = PHI
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "PHI"
+                value = 200
             }
         }
     }
@@ -2379,6 +2389,11 @@ focus_tree = {
                 target = ENG
                 generator = { 333 336 }
             }
+            add_ai_strategy = {
+                type = conquer
+                id = "ENG"
+                value = 200
+            }
         }
     }
 
@@ -2398,6 +2413,11 @@ focus_tree = {
                 type = annex_everything
                 target = SIA
             }
+            add_ai_strategy = {
+                id = "SIA"
+                value = 200
+                type = conquer
+            }
         }
     }
 
@@ -2414,8 +2434,13 @@ focus_tree = {
         relative_position_id = ICH_trade_with_germany
         completion_reward = {
             create_wargoal = {
-                 type = annex_everything
+                type = annex_everything
                 target = GXC
+            }
+            add_ai_strategy = {
+                id = "GXC"
+                type = conquer
+                value = 200
             }
         }
     }
