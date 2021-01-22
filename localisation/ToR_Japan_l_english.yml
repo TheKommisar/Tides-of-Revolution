@@ -49,7 +49,7 @@ JAP_revolutionary_socialist_party:0 "Nihon Musantō"
 JAP_revolutionary_socialist_party_long:0 "Nihon Musantō (Japan Proletarian Party)"
 JAP_democratic_socialist_party:0 "Taishutō"
 JAP_democratic_socialist_party_long:0 "Shakai Taishutō (Socialist Mass Party)"
-JAP_social_democrat_party:0 "Shakai Minshū-tō"
+JAP_social_democrat_party:0 "Minshū-tō"
 JAP_social_democrat_party_long:0 "Shakai Minshū-tō  (Social Democratic Party)"
 JAP_social_liberal_party:0 "Kenseikai"
 JAP_social_liberal_party_long:0 "Kenseikai (Constitutional Association)"
@@ -311,3 +311,85 @@ JAP_equipment_standardization:0 "Equipment Standardization"
 JAP_equipment_standardization_desc:0 ""
 JAP_artillery_modernization:0 "Artillery Modernization"
 JAP_artillery_modernization_desc:0 ""
+
+### Events
+japan.1.t:0 "Resignation of Prime Minister Inukai"
+japan.1.d:0 ""
+japan.1.a:0 "Enjoy the peace, Prime Minister!"
+
+japan.2.t:0 "Diet Convenes in Budget Review"
+japan.2.d:0 "The members of Japan's legislation, the Imperial Diet, have planned to convene in Tokyo in a few days, to discuss the review of the current Imperial Budget. It seems that the rising tension in the world and the rise of ultranationalist movements have made the legislators invest more on Japan's military as to prepare the Japanese mainland incase of foreign invasion. Many within the military will attend the review process to ensure that their branch will have enough to operate in terms of operations and research."
+japan.2.a:0 "Let's go to Tokyo!"
+
+japan.3.t:0 "Start of the Review"
+japan.3.d:0 "The Diet is now preparing to convene in one of the controversial issues that have erupted in Japan since the Meiji Period. Many delegations from different government branches have been invited to witness and discuss their ministry's financial wishes."
+japan.3.a:0 "Let get this over with"
+
+japan.4.t:0 "Budget Prioritization"
+japan.4.d:0 "The members of the Imperial Diet are now in hot seat today, as the legislation are having trouble in deciding whether to prioritize either the navy or the army, or an equal funding between the two.\n\nMany within the navy's supporters argue that the defense of mainland Japan, is in the hands of the Imperial Navy. While the army's supporters argue that it is their soldiers that can defend the mainland and the Emperor himself, incase of a foreign invasion.\n\nWhatever the Diet will choose, it will cause another rift between the branches of the military."
+japan.4.a:0 "Ensure the Army and Navy has equal funding"
+japan.4.b:0 "Pour a little more to the Army"
+japan.4.c:0 "Pour a little more to the Navy"
+
+japan.5.t:0 "Imported Resources Prioritization"
+japan.5.d:0 "Many within the iron and steel that are used by the Japanese industries have been imported from another nations as the Japanese islands do not possess these kinds of minerals within the lands; and these same imports are now being debated on what industry to dedicate them.\n\nOfficers from the IJA have been vocal in dedicating the imported iron ores as guns, as these would increase the national stockpile and strengthen overall the country's defense. On the other hand, officers from the IJN have been campaigning in dedicating the imports for ships to compete with the western naval powers."
+japan.5.a:0 "Prioritize it for the Army's Guns"
+japan.5.b:0 "Prioritize it for the Navy's Ships"
+
+japan.6.t:0 "Research Prioritization"
+japan.6.d:0 "R&D have between the IJA and the IJN is joined when they have been founded ever since; and now, officers between the two institutions demands that we pour more resources into their own research and development, in excuse of defending the nation and the Emperor.\n\nWhile we have the resources left, we can only fund one institution's research. Whoever we choose, once will be envious."
+japan.6.a:0 "The Army needs the advancements"
+japan.6.b:0 "The Navy needs the advancements"
+
+japan.7.t:0 "The Army Revolts!"
+japan.7.d:0 "Today marks a significant day as officers of the Imperial Japanese Army have ordered their regiments to march on the capital, capturing key government installations and have successully arrested high-ranking civilian officials; successfully taking control of the apparatus of state."
+japan.7.a:0 "Banzai!"
+
+japan.8.t:0 "The Navy Revolts!"
+japan.8.d:0 "Today marks a significant day as officers of the Imperial Japanese Navy have ordered their regiments to march on the capital, capturing key government installations and have successully arrested high-ranking civilian officials; successfully taking control of the apparatus of state."
+japan.8.a:0 "Banzai!"
+
+japan.9.t:0 "The Elections"
+japan.9.d:0 "There are two parties that dominate the Japanese politics, the first if the conservative Seiyukai, and the liberal Minseito. The Rikken Seiyukai has an absolute majority since the election of 1932, but their support has been declining ever since. However, the Minseito have been solidifying its electoral base throughout the cities and have began expanding into the countryside, hoping to end the Seiyukai's majority in the Diet. There is also a new third player in the general election of 1936, which is the Minshu-to, founded by the social democrats and left-wing politicians in 1933.\n\nIt is not time to see if the ruling party manages to keep their majority in the Diet."
+japan.9.a:0 "A same Seiyūkai majority"
+japan.9.b:0 "A new Minseitō majority"
+japan.9.c:0 "A suprise Minshū-tō majority"
+
+japan.10.t:0 "A New Era for Japan"
+japan.10.d:0 ""
+japan.10.a:0 "Banzai!"
+
+japan.11.t:0 "Army Officers Left in Protest!"
+japan.11.d:0 "In seems that the rivalry between the Army and the Navy is hotter than ever, as the current government have once again favoured the Imperial Navy. The Army's delegation have walked out in the meeting in protest as they thought that they have been insulted as the Navy is more prioritized rather than them."
+japan.11.a:0 "Why do they hate them so much?"
+
+japan.12.t:0 "Navy Officers Left in Protest!"
+japan.12.d:0 "In seems that the rivalry between the Army and the Navy is hotter than ever, as the current government have once again favoured the Imperial Army. The Navy's delegation have walked out in the meeting in protest as they thought that they have been insulted as the Army is more prioritized rather than them."
+japan.12.a:0 "Why do they hate them so much?"
+
+japan.13.t:0 "Invitation from [JAP.Capital.GetName]"
+japan.13.d:0 "We have received a telegram from the Foreign Ministry earlier today from the [JAP.GetAdjective] government. They have invited us in their sphere of influence and want us to cooperate and warmen diplomatic relations with them. Many within the ministry have been alerted as rejecting this invitation might lead to an invasion."
+japan.13.a:0 "Send our positive reply"
+japan.13.b:0 "We do not accept their invitation"
+
+japan.14.t:0 "[From.GetNameDefCap] accepts"
+japan.14.d:0 "The [From.GetAdjective] ambassador have confirmed that the [From.GetAdjective] Government have accepted our invitation to our sphere of influence."
+japan.14.a:0 "Good."
+
+japan.15.t:0 "[From.GetNameDefCap] rejects"
+japan.15.d:0 "A telegram from the [From.GetAdjective] government have confirmed that they are declining our invitation to them to our sphere of influence."
+japan.15.a:0 "Perhaps they will join us by force."
+japan.15.b:0 "We'll be back"
+
+japan.16.t:0 "[JAP.GetName] proposes Non-Agression Pact"
+japan.16.d:0 "The [JAP.GetAdjective] Foreign Ministry have proposed a non-agression pact between our two nations. It allows us to deal with other nations in our west without the fear of a Japanese invasion in the East."
+japan.16.a:0 "Sign the treaty"
+japan.16.b:0 "We don't deal with the Japanese."
+
+japan.17.t:0 "[From.Capital.GetName] Signs the Pact"
+japan.17.d:0 "[From.GetNameDefCap] has wisely agreed to sign our non-aggression pact. This means that we are free to act without risk of Russian intervention."
+japan.17.a:0 "Excellent"
+
+japan.18.t:0 "[From.Capital.GetName] Rejects the Pact"
+japan.18.d:0 "[From.GetNameDefCap] has refused to sign our non-aggression pact! This complicates matters, since we cannot deal decisively with the Chinese or the South East Asians without the risk of the Russians getting themselves involved."
+japan.18.a:0 "Curse them!"

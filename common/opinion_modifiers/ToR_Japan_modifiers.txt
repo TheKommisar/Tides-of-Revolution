@@ -1,0 +1,6 @@
+opinion_modifiers = {
+
+    # When Russia refuses non-agression pact
+    JAP_refused_detente = { value = -100 }
+
+}

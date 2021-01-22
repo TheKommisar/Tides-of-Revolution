@@ -1,1 +1,6 @@
-ICH_failed_coup = { value = -50 }
+opinion_modifiers = {
+
+    # When Commie Indochina fails a coup
+    ICH_failed_coup = { value = -50 }
+    
+}

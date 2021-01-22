@@ -96,7 +96,7 @@ bookmarks = {
 			ideas = {
 				JAP_army_navy_rivalry
 				JAP_reliance_on_exports
-				JAP_devotion_to_the_state
+				JAP_devotion_to_the_state1
 			}	
 			focuses = {
 				JAP_state_of_the_empire

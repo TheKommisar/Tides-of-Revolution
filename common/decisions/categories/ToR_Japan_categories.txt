@@ -5,7 +5,7 @@ JAP_repealing_western_imperialism = {
     priority = { base = 25 }
 }
 
-JAP_the_chinese_intervention = {
+JAP_intervention_in_china = {
     icon = GFX_decision_category_jap_intervene_in_china
 
     allowed = { original_tag = JAP }

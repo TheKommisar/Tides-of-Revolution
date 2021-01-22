@@ -260,7 +260,7 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = unlocked_later
-                always = no
+                has_country_flag = JAP_START_OF_THE_REVIEW
             }
         }
         prerequisite = { focus = JAP_infrastructure_expansion }
@@ -277,7 +277,7 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = unlocked_later
-                always = no
+                has_country_flag = JAP_ARMY_COUP
             }
         }
         mutually_exclusive = { focus = JAP_toseiha_dominance }
@@ -304,12 +304,18 @@ focus_tree = {
                 }
             }
         }
+        will_lead_to_war_with = MAN
         prerequisite = { focus = JAP_kodoha_dominance }
         relative_position_id = JAP_kodoha_dominance
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
-                target = CHI
+                target = MAN
+            }
+            add_ai_strategy = {
+                type = conquer
+                value = 1000
+                id = "MAN"
             }
         }
     }
@@ -378,17 +384,19 @@ focus_tree = {
             # Guangzhouwan
             if = {
                 limit = { has_full_control_of_state = 728 }
-                add_building_construction = {
-                    type = bunker
-                    province = 11981
-                    level = 5
-                    instant_build = yes
-                }
-                add_building_construction = {
-                    type = coastal_bunker
-                    province = 11981
-                    level = 5
-                    instant_build = yes
+                728 = {
+                    add_building_construction = {
+                        type = bunker
+                        province = 11981
+                        level = 5
+                        instant_build = yes
+                    }
+                    add_building_construction = {
+                        type = coastal_bunker
+                        province = 11981
+                        level = 5
+                        instant_build = yes
+                    }
                 }
             }
         }
@@ -413,6 +421,7 @@ focus_tree = {
                 }
             }
         }
+        will_lead_to_war_with = CHI
         prerequisite = { focus = JAP_ichi_go_focus }
         prerequisite = { focus = JAP_start_fortifications }
         relative_position_id = JAP_ichi_go_focus
@@ -420,6 +429,11 @@ focus_tree = {
             create_wargoal = {
                 type = annex_everything
                 target = CHI
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "CHI"
+                value = 1000
             }
         }
     }
@@ -543,6 +557,11 @@ focus_tree = {
                 target = TIB
                 type = annex_everything
             }
+            add_ai_strategy = {
+                type = conquer
+                id = "TIB"
+                value = 100
+            }
         }
     }
 
@@ -573,7 +592,7 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = unlocked_later
-                always = no
+                has_country_flag = JAP_NAVY_COUP
             }
         }
         mutually_exclusive = { focus = JAP_toseiha_dominance }
@@ -606,6 +625,11 @@ focus_tree = {
             create_wargoal = {
                 target = ICH
                 type = annex_everything
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "ICH"
+                value = 200
             }
         }
     }
@@ -653,7 +677,9 @@ focus_tree = {
         }
         prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
         relative_position_id = JAP_found_the_co_prosperity_sphere
-        completion_reward = {}
+        completion_reward = {
+            SIA = { country_event = japan.13 }
+        }
     }
 
     # Pressure Manila
@@ -677,7 +703,9 @@ focus_tree = {
         }
         prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
         relative_position_id = JAP_found_the_co_prosperity_sphere
-        completion_reward = {}
+        completion_reward = {
+            PHI = { country_event = japan.13 }
+        }
     }
 
     # Attack the British
@@ -687,8 +715,21 @@ focus_tree = {
         x = -1
         y = 1
         cost = 10
+        will_lead_to_war_with = ENG 
         prerequisite = { focus = JAP_pressure_manila }
         relative_position_id = JAP_pressure_manila
+        completion_reward = {
+            create_wargoal = {
+                type = take_state_focus
+                target = ENG
+                generator = { 333 336 }
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "ENG"
+                value = 200
+            }
+        }
     }
 
     # Attack the Dutch
@@ -698,8 +739,50 @@ focus_tree = {
         x = 1
         y = 1
         cost = 10
+        will_lead_to_war_with = HOL
         prerequisite = { focus = JAP_pressure_manila }
         relative_position_id = JAP_pressure_manila
+        completion_reward = {
+            if = {
+                limit = { INS = { exists = yes } }
+                create_wargoal = {
+                    type = annex_everything
+                    target = INS
+                }
+                add_ai_strategy = {
+                    type = conquer
+                    id = "INS"
+                    value = 200
+                }
+            }
+            if = {
+                limit = {
+                    INS = { exists = no }
+                    335 = { 
+                        CONTROLLER = {
+                            NOT = { is_in_faction_with = ROOT }
+                        }
+                    }
+                }
+                335 = {
+                    OWNER = {
+                        ROOT = {
+                            create_wargoal = {
+                                target = PREV
+                                type = take_state_focus
+                                expire = 0
+                                generator = { 335 334 672 673 668 667 669 738 }
+                            }
+                            add_ai_strategy = {
+                                type = conquer
+                                id = PREV
+                                value = 200
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     # Democracy Survives
@@ -712,7 +795,7 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = unlocked_later
-                always = no
+                has_country_flag = JAP_DEMOCRACY_SURVIVED
             }
         }
         prerequisite = { focus = JAP_state_of_the_empire }
@@ -752,9 +835,19 @@ focus_tree = {
         x = 0
         y = 4
         cost = 10
+        available = {
+            country_exists = RUS
+            is_subject = no
+            NOT = { has_war_with = RUS }
+        }
+        bypass = {
+            is_in_faction_with = SOV
+        }
         prerequisite = { focus = JAP_democracy_survives }
         relative_position_id = JAP_democracy_survives
-        completion_reward = {}
+        completion_reward = {
+            RUS = { country_event = japan.16 }
+        }
     }
 
     # Fund Rebels in Malaya
@@ -836,7 +929,7 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = JAP_reviewed_the_budget
-                has_country_flag = JAP_IMPERIAL_BUDGET_REVIEWED
+                has_country_flag = JAP_BUDGET_REVIEW_OVER
             }
         }
         prerequisite = { focus = JAP_spiritual_mobilization_focus }
