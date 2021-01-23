@@ -1,3 +1,6 @@
+# Japanese Decisions
+# created by: dax0102
+
 JAP_repealing_western_imperialism = {
     icon = GFX_decision_category_saf_anti_colonialist_crusade
     

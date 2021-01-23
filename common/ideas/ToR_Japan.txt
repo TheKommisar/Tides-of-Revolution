@@ -80,6 +80,55 @@ ideas = {
                 authoritarian_democrat_drift = -0.02
             }
         }
+
+        JAP_japanese_labour_code = {
+            allowed = { original_tag = JAP }
+            picture = country_focus_efficency
+
+            modifier = {
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
+        JAP_womens_sufferage = {
+            allowed = { original_tag = JAP }
+            picture = generic_victors_of_ww1
+
+            modifier = {
+                conscription_factor = 0.15
+            }
+        }
+
+        JAP_survival_training = {
+            allowed = { original_tag = JAP }
+            picture = chi_army_corruption3
+
+            modifier = {
+                training_time_factor = -0.15
+            }
+        }
+
+        JAP_worker_incentives_idea = {
+            allowed = { original_tag = JAP }
+            picture = country_focus_efficency
+
+            modifier = {
+                production_factory_max_efficiency_factor = 0.05
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
+        JAP_military_training_curriculum_idea = {
+            allowed = { original_tag = JAP }
+            picture = generic_reserve_divisions
+
+            modifier = {
+                conscription_factor = 0.05
+                training_time_factor = -0.05
+            }
+        }
     }
 
     # Head of Government
@@ -934,4 +983,318 @@ ideas = {
             }
         }
     }
+
+    # Tank Manufacturer
+    tank_manufacturer = {
+        designer = yes
+
+        JAP_hitachi = {
+            allowed = { original_tag = JAP }
+            traits = { medium_tank_producer_defense_2 }
+            research_bonus = { armor = 0.1 }
+        }
+
+        JAP_ishiwakajima_heavy_industries = {
+            allowed = { original_tag = JAP }
+			traits = { medium_tank_producer_offense_1 }
+			research_bonus = { armor = 0.1 }
+		}
+
+		JAP_nissan = {
+			allowed = { original_tag = JAP }
+			traits = { small_tank_producer_offense_1 }
+			research_bonus = { armor = 0.1 }
+		}
+
+		JAP_tokyo_gas = {
+			allowed = { original_tag = JAP }
+			traits = { 
+                small_tank_producer_mass_1 
+            }
+			research_bonus = {
+                armor = 0.1
+            }
+		}
+    }
+
+    # Naval Manufacturer
+    naval_manufacturer = {
+        designer = yes
+
+		JAP_yokosuka_naval_arsenal = {
+			allowed = { original_tag = JAP }
+			traits = {
+                capital_ship_producer_offense_2
+            }
+			research_bonus = { 
+                naval_equipment = 0.1
+            }
+		}
+
+		JAP_kure_naval_arsenal = {
+			allowed = { original_tag = JAP }
+			traits = { 
+                capital_ship_producer_defense_2
+            }
+			research_bonus = { 
+                naval_equipment = 0.1 
+            }
+		}
+
+		JAP_sasebo_naval_arsenal = {
+			allowed = { original_tag = JAP }
+            traits = { 
+                cruiser_producer_mass_2
+            }
+			research_bonus = { 
+                naval_equipment = 0.1
+            }
+		}
+
+		JAP_maizuru_naval_arsenal = {
+			allowed = { original_tag = JAP }
+            traits = { 
+                small_ship_producer_offense_1
+            }
+            research_bonus = { 
+                naval_equipment = 0.1
+            }
+		}
+    }
+
+    # Aircraft Manufacturer
+    aircraft_manufacturer = {
+        designer = yes
+
+        JAP_mitsubishi = {
+			allowed = { original_tag = JAP }
+			traits = {
+                fighter_producer_offense_2 
+            }
+			research_bonus = {
+                air_equipment = 0.1
+            }
+		}
+
+		JAP_kyushu_hikoki = {
+			allowed = { original_tag = JAP }
+			traits = { 
+                fighter_producer_defense_1
+            }
+            research_bonus = { 
+                air_equipment = 0.1
+            }
+		}
+
+		JAP_aichi = {
+			allowed = { original_tag = JAP }
+			traits = { 
+                fighter_producer_mass_1
+            }
+            research_bonus = { 
+                air_equipment = 0.1
+            }
+		}
+
+		JAP_tachikawa = {
+			allowed = { original_tag = JAP }
+			traits = { 
+                bomber_producer_offense_2
+            }
+			research_bonus = { 
+                air_equipment = 0.1
+            }
+		}
+
+	    JAP_nakajima = {
+			allowed = { original_tag = JAP }
+			traits = { 
+                bomber_producer_defense_1
+            }
+			research_bonus = { 
+                air_equipment = 0.1
+            }
+		}
+
+		JAP_yokosuka = {
+			allowed = { original_tag = JAP }
+			traits = { 
+                nav_cas_producer_offense_2
+            }
+			research_bonus = { 
+                air_equipment = 0.1
+            }
+		}
+
+		JAP_kawanishi = {
+			allowed = { original_tag = JAP }
+			traits = { 
+                nav_cas_producer_defense_1
+            }
+			research_bonus = { 
+                air_equipment = 0.1
+            }
+		}
+    }
+
+    # Weapons Manufacturer
+    materiel_manufacturer = {
+		designer = yes
+
+		JAP_kokura_arsenal = {
+			allowed = { original_tag = JAP }
+			traits = {
+				infantry_equipment_producer_offense_1
+			}
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+		}
+
+		JAP_nagoya_arsenal = {
+			allowed = { original_tag = JAP }
+			traits = {
+				infantry_equipment_producer_defense_1
+			}
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+		}
+
+		JAP_osaka_army_arsenal = {
+			allowed = { original_tag = JAP }
+			traits = {
+				artillery_producer_offense_1
+			}
+			research_bonus = {
+				artillery = 0.1
+			}
+		}
+
+		JAP_isuzu = {
+			allowed = { original_tag = JAP }
+			traits = {
+				motorised_equipment_producer_offense_1
+			}
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+		}
+
+		JAP_toyota = {
+			allowed = { original_tag = JAP }
+			traits = {
+				motorised_equipment_producer_mass_1
+			}
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+		}
+	}
+
+    # Industrial Concern
+    industrial_concern = {
+
+		JAP_kawasaki = {
+			allowed = { original_tag = JAP }
+			traits = {
+				industrial_manufacturer
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+
+		JAP_mitsui_zaibatsu = {
+			allowed = { original_tag = JAP }
+			traits = {
+				industrial_manufacturer
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+
+		JAP_nichitsu = {
+			allowed = { original_tag = JAP }
+			traits = {
+				chemical_producer
+			}
+			research_bonus = {
+				synth_resources = 0.1
+			}
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+			}
+		}
+
+		JAP_nippon_oil = {
+			allowed = { original_tag = JAP }
+			traits = {
+				chemical_producer
+			}
+			modifier = {
+				production_oil_factor = 0.2
+			}
+		}
+
+		JAP_sumitomo = {
+			allowed = { original_tag = JAP }
+			traits = {
+				electronics_manufacturer
+			}
+			research_bonus = {
+				electronics = 0.15
+			}
+		}
+
+		JAP_tokyo_shibaura_denki = {
+			allowed = { original_tag = JAP }
+			traits = {
+				electronics_manufacturer
+			}
+			research_bonus = {
+				electronics = 0.1
+			}
+		}
+
+		JAP_nihon_musen = {
+			allowed = { original_tag = JAP }
+			traits = {
+				electronics_manufacturer
+			}
+			research_bonus = {
+				electronics = 0.1
+			}
+			modifier = {
+				production_speed_radar_station_factor = 0.1
+			}
+		}
+
+		JAP_furukawa_siemens = {
+			allowed = { original_tag = JAP }
+			traits = {
+				electronics_manufacturer
+			}
+			modifier = {
+				production_speed_radar_station_factor = 0.15
+			}
+		}
+
+		JAP_nippon_electric_company = {
+			allowed = { original_tag = JAP }
+			traits = {
+				electronics_manufacturer
+			}
+			research_bonus = {
+				industry = 0.05
+				electronics = 0.05
+				synth_resources = 0.05
+			}
+		}
+	}
 }

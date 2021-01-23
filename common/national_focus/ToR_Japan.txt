@@ -14,7 +14,11 @@ focus_tree = {
     }
 
     default = no
-    continuous_focus_position = { x = 2000 y = 1000 }
+    continuous_focus_position = { x = 2200 y = 1000 }
+
+    initial_show_position = {
+        focus = JAP_state_of_the_economy
+    }
 
     # State of the Economy
     focus = {
@@ -271,7 +275,7 @@ focus_tree = {
     focus = {
         id = JAP_kodoha_dominance
         icon = GFX_goal_ideology_paternal_autocrat
-        x = -2
+        x = -6
         y = 0
         cost = 0
         available = {
@@ -569,7 +573,7 @@ focus_tree = {
     focus = {
         id = JAP_interservice_coordination
         icon = GFX_focus_generic_diplomatic_treaty
-        x = -1
+        x = -4
         y = 1
         cost = 10
         prerequisite = {
@@ -582,11 +586,99 @@ focus_tree = {
         }
     }
 
+    # Land Reform
+    focus = {
+        id = JAP_land_reform
+        icon = GFX_focus_AUS_agriculture
+        x = -3
+        y = 2
+        cost = 5
+        prerequisite = {
+            focus = JAP_kodoha_dominance
+            focus = JAP_toseiha_dominance
+        }
+        relative_position_id = JAP_toseiha_dominance
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+            }
+        }
+    }
+
+    # Worker Incentives
+    focus = {
+        id = JAP_worker_incentives
+        icon = GFX_goal_production
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_land_reform }
+        relative_position_id = JAP_land_reform
+        completion_reward = {
+            add_ideas = JAP_worker_incentives_idea
+        }
+    }
+
+    # Military Training Curriculum
+    focus = {
+        id = JAP_military_training_curriculum
+        icon = GFX_goal_army_guy_2
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_land_reform }
+        relative_position_id = JAP_land_reform
+        completion_reward = {
+            add_ideas = JAP_military_training_curriculum_idea
+        }
+    }
+
     # Toseiha Dominance
     focus = {
         id = JAP_toseiha_dominance
         icon = GFX_goal_ideology_authoritarian_democrat
-        x = -3
+        x = 1
         y = 1
         cost = 0
         available = {
@@ -735,7 +827,8 @@ focus_tree = {
     # Attack the Dutch
     focus = {
         id = JAP_attack_the_dutch
-        icon = GFX_focus_hol_oranje_boven
+        #icon = GFX_focus_hol_oranje_boven
+        icon = GFX_focus_jap_attack_east_indies
         x = 1
         y = 1
         cost = 10
@@ -789,7 +882,7 @@ focus_tree = {
     focus = {
         id = JAP_democracy_survives
         icon = GFX_goal_japanese_democracy
-        x = 3
+        x = 6
         y = 1
         cost = 0
         available = {
@@ -802,11 +895,25 @@ focus_tree = {
         relative_position_id = JAP_state_of_the_empire
     }
 
-    # Stabilize the Government
+    # End the Rivalry
     focus = {
-        id = JAP_stabilize_the_government
-        icon = GFX_goal_JAP_REF
+        id = JAP_end_the_rivalry
+        icon = GFX_goal_authoritarian
         x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = JAP_democracy_survives }
+        relative_position_id = JAP_democracy_survives
+        completion_reward = {
+            remove_ideas = JAP_army_navy_rivalry
+        }
+    }
+
+    # Bureaucratic Reforms
+    focus = {
+        id = JAP_bureaucratic_reforms
+        icon = GFX_goal_JAP_REF
+        x = 1
         y = 1
         cost = 10
         prerequisite = { focus = JAP_democracy_survives }
@@ -819,17 +926,60 @@ focus_tree = {
         }
     }
 
-    # End the Rivalry
+    # Pass the Labour Code
     focus = {
-        id = JAP_end_the_rivalry
-        icon = GFX_goal_authoritarian
+        id = JAP_pass_the_labour_code
+        icon = GFX_goal_red_star_dove
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_bureaucratic_reforms }
+        relative_position_id = JAP_bureaucratic_reforms
+        completion_reward = {
+            add_ideas = JAP_japanese_labour_code
+        }
+    }
+
+    # Judiciary Reform
+    focus = {
+        id = JAP_judiciary_reform
+        icon = GFX_goal_DOM_The_Trial
+        x = 3
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_bureaucratic_reforms }
+        relative_position_id = JAP_bureaucratic_reforms
+        completion_reward = {
+            add_stability = 0.05
+            add_political_power = 150
+        }
+    }
+
+    # Enact Womens Sufferage
+    focus = {
+        id = JAP_enact_womens_sufferage
+        icon = GFX_goal_the_gender_issue
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = JAP_judiciary_reform }
+        relative_position_id = JAP_judiciary_reform
+        completion_reward = {
+            add_ideas = JAP_womens_sufferage
+        }
+    }
+
+    # Survival Training for the Youth
+    focus = {
+        id = JAP_survival_training_for_the_youth
+        icon = GFX_goal_generic_army_cooperation
         x = 1
         y = 1
-        cost = 10
-        prerequisite = { focus = JAP_democracy_survives }
-        relative_position_id = JAP_democracy_survives
+        cost = 5
+        prerequisite = { focus = JAP_judiciary_reform }
+        relative_position_id = JAP_judiciary_reform
         completion_reward = {
-            remove_ideas = JAP_army_navy_rivalry
+            add_ideas = JAP_survival_training
         }
     }
 
@@ -864,6 +1014,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_treaty_with_the_russians }
         relative_position_id = JAP_treaty_with_the_russians
+        complete_effect = {
+            unlock_decision_tooltip = JAP_start_funding_mal
+        }
     }
 
     # Fund Rebels in the East Indies
@@ -875,6 +1028,9 @@ focus_tree = {
         cost = 10
         prerequisite = { focus = JAP_treaty_with_the_russians }
         relative_position_id = JAP_treaty_with_the_russians
+        complete_effect = {
+            unlock_decision_tooltip = JAP_start_funding_ins
+        }
     }
 
     #############################################

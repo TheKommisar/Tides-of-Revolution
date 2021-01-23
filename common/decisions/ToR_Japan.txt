@@ -1,3 +1,104 @@
+# Japanese Decisions
+# created by: dax0102
+
+JAP_repealing_western_imperialism = {
+    JAP_start_funding_mal = {
+        cost = 150
+        days_remove = 120
+        fire_only_once = yes
+
+        available = {
+            ENG = {
+                has_full_control_of_state = 333
+                has_full_control_of_state = 336
+            }
+        }
+
+        visible = {
+            has_completed_focus = JAP_fund_rebels_in_malaya
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = JAP_start_funding_tt
+            set_country_flag = JAP_FUNDED_REBELS_IN_MAL
+        }
+    }
+
+    JAP_start_funding_ins = {
+        cost = 150
+        days_remove = 120
+        fire_only_once = yes
+
+        available = {
+            INS = {
+                is_subject_of = HOL
+            }
+        }
+        
+        visible = {
+            has_completed_focus = JAP_fund_rebels_in_the_east_indies
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = JAP_start_funding_tt
+            set_country_flag = JAP_FUNDED_REBELS_IN_INS
+        }
+    }
+
+    JAP_start_rebellion_mal = {
+        cost = 150
+        days_remove = 30
+        fire_only_once = yes
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_start_rebellion_tt
+                has_country_flag = JAP_FUNDED_REBELS_IN_MAL
+            }
+        }
+
+        visible = {
+            ENG = {
+                has_full_control_of_state = 333
+                has_full_control_of_state = 336
+            }
+            has_country_flag = JAP_FUNDED_REBELS_IN_MAL
+        }
+
+        remove_effect = {
+            random_list = {
+                50 = { ENG = { country_event = jap.19 } }
+                50 = { country_event = jap.21 }
+            }
+        }
+    }
+
+    JAP_start_rebellion_ins = {
+        cost = 150
+        days_remove = 30
+        fire_only_once = yes
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_start_rebellion_tt
+                has_country_flag = JAP_FUNDED_REBELS_IN_INS
+            }
+        }
+
+        visible = {
+            INS = { is_subject_of = HOL }
+            has_country_flag = JAP_FUNDED_REBELS_IN_INS
+        }
+
+        remove_effect = {
+            random_list = {
+                50 = { HOL = { country_event = jap.19 } }
+                50 = { country_event = jap.21 }
+            }
+        }
+    }
+}
+
 JAP_intervention_in_china = {
     JAP_threaten_warlord = {
         icon = GFX_decision_jap_conquer_china
@@ -30,6 +131,16 @@ JAP_intervention_in_china = {
             }
         }
 
-        complete_effect = { FROM = { add_political_power = 100 } }
+        complete_effect = { 
+            create_wargoal = {
+                type = annex_everything
+                target = FROM
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = FROM
+                value = 200
+            }
+        }
     }
 }

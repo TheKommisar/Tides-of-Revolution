@@ -1,7 +1,7 @@
 # Japanese events
 # created by: dax0102
 
-add_namespace = japan
+add_namespace = jap
 
 # Intro Event
 country_event = {
@@ -583,5 +583,95 @@ country_event = {
             target = RUS
             modifier = JAP_refused_detente
         }
+    }
+}
+
+# Rebellion in the Colonies
+country_event = {
+    id = jap.19
+    title = jap.19.t
+    desc = jap.19.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = jap.19.a
+
+        if = {
+            limit = { THIS = { tag = ENG } }
+            release = MAL
+            declare_war_on = {
+                target = MAL
+                type = annex_everything
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "MAL"
+                value = 2000
+            }
+        }
+        if = {
+            limit = { THIS = { tag = HOL } }
+            end_puppet = INS
+            declare_war_on = {
+                target = INS
+                type = annex_everything
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "INS"
+                value = 2000
+            }
+        }
+        
+        JAP = { country_event = jap.20 }
+    }
+}
+
+# Rebellion Success
+country_event = {
+    id = jap.20
+    title = jap.20.t
+    desc = jap.20.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = jap.20.a
+
+        if = {
+            limit = { country_exits = MAL }
+            add_ai_strategy = {
+                type = befriend
+                id = "MAL"
+                value = 100
+            }
+        }
+
+        if = {
+            limit = { INS = { is_subject = no } }
+            add_ai_strategy = {
+                type = befriend
+                id = "INS"
+                value = 100
+            }
+        }
+    }
+}
+
+# Rebellion Failed
+country_event = {
+    id = jap.21
+    title = jap.21.t
+    desc = jap.21.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = jap.21.a
+        add_political_power = -25
     }
 }

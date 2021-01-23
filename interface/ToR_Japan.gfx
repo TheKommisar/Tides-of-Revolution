@@ -347,4 +347,132 @@ spriteTypes = {
 		name = "GFX_idea_JAP_Yamashita_Tomoyuki_cair"
 		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yamashita_Tomoyuki.tga"
 	}
+
+	# Tank Manufacturer
+	spriteType = {
+		name = "GFX_idea_JAP_hitachi"
+		texturefile = "gfx/interface/ideas/JAP/companies/hitachi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_ishiwakajima_heavy_industries"
+		texturefile = "gfx/interface/ideas/JAP/companies/ishikawajima_heavy_industries.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nissan"
+		texturefile = "gfx/interface/ideas/JAP/companies/nissan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_tokyo_gas"
+		texturefile = "gfx/interface/ideas/JAP/companies/tokyo_gas.tga"
+	}
+
+	# Naval Manufacturer
+	spriteType = {
+		name = "GFX_idea_JAP_yokosuka_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/yokosuka_naval_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kure_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/kure_naval_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_sasebo_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/sasebo_naval_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_maizuru_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/maizuru_naval_arsenal.tga"
+	}
+
+	# Aircraft Manufacturer
+	spriteType = {
+		name = "GFX_idea_JAP_mitsubishi"
+		texturefile = "gfx/interface/ideas/JAP/companies/mitsubishi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kyushu_hikoki"
+		texturefile = "gfx/interface/ideas/JAP/companies/kyushu_hikoki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_aichi"
+		texturefile = "gfx/interface/ideas/JAP/companies/aichi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_tachikawa"
+		texturefile = "gfx/interface/ideas/JAP/companies/tachikawa.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nakajima"
+		texturefile = "gfx/interface/ideas/JAP/companies/nakajima.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_yokosuka"
+		texturefile = "gfx/interface/ideas/JAP/companies/yokosuka.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kawanishi"
+		texturefile = "gfx/interface/ideas/JAP/companies/kawanishi.tga"
+	}
+
+	# Weapons Manufacturer
+	spriteType = {
+		name = "GFX_idea_JAP_kokura_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/kokura_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nagoya_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/nagoya_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_osaka_army_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/osaka_army_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_isuzu"
+		texturefile = "gfx/interface/ideas/JAP/companies/isuzu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_toyota"
+		texturefile = "gfx/interface/ideas/JAP/companies/toyota.tga"
+	}
+
+	# Industrial
+	spriteType = {
+		name = "GFX_idea_JAP_kawasaki"
+		texturefile = "gfx/interface/ideas/JAP/companies/kawasaki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_mitsui_zaibatsu"
+		texturefile = "gfx/interface/ideas/JAP/companies/mitsui_zaibatsu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nichitsu"
+		texturefile = "gfx/interface/ideas/JAP/companies/nichitsu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nippon_oil"
+		texturefile = "gfx/interface/ideas/JAP/companies/nippon_oil.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_sumitomo"
+		texturefile = "gfx/interface/ideas/JAP/companies/sumitomo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_tokyo_shibaura_denki"
+		texturefile = "gfx/interface/ideas/JAP/companies/tokyo_shibaura_denki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nihon_mausen"
+		texturefile = "gfx/interface/ideas/JAP/companies/nihon_mausen.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_furukawa_siemens"
+		texturefile = "gfx/interface/ideas/JAP/companies/furukawa_siemens.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nippon_electric_company"
+		texturefile = "gfx/interface/ideas/JAP/companies/nippon_electric_company.tga"
+	}
+
+
 }
