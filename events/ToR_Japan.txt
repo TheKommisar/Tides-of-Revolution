@@ -25,7 +25,7 @@ country_event = {
 
     trigger = {
         tag = JAP
-        date = 1936.4.5
+        date = 1936.3.17
     }
 
     mean_time_to_happen = {
@@ -37,10 +37,9 @@ country_event = {
     # Enjoy your retirement, Prime Minister
     option = {
         name = jap.1.a
-        swap_ideas = {
-            remove_idea = JAP_Inukai_Tsuyoshi_hog_sco
-            add_idea = JAP_Mitsuchi_Chuzo_hog_sco
-        }
+
+        remove_ideas_with_trait = head_of_government
+        add_ideas = JAP_Mitsuchi_Chuzo_hog_sco
     }
 }
 
@@ -53,7 +52,7 @@ country_event = {
 
     trigger = {
         tag = JAP
-        date = 1936.12.10
+        date = 1936.4.5
     }
 
     mean_time_to_happen = {
