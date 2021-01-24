@@ -130,6 +130,15 @@ country_event = {
     # Navy
     option = {
         name = jap.4.c
+        ai_chance = {
+            factor = 100
+
+            modifier = {
+                factor = 2
+                has_country_flag = JAP_FAVOUR_THE_NAVY
+            }
+        }
+
         navy_experience = 5
 
         add_to_variable = {
@@ -169,6 +178,14 @@ country_event = {
     # The Navy
     option = {
         name = jap.5.b
+        ai_chance = {
+            factor = 100
+
+            modifier = {
+                factor = 20
+                has_country_flag = JAP_FAVOUR_THE_NAVY
+            }
+        }
 
         add_to_variable = {
             var = jap_navy_var
@@ -196,6 +213,14 @@ country_event = {
     # The Army
     option = {
         name = jap.6.a
+        ai_chance = {
+            factor = 20
+
+            modifier = {
+                factor = 20
+                has_country_flag = JAP_FAVOUR_THE_NAVY
+            }
+        }
 
         set_country_flag = JAP_BUDGET_REVIEW_OVER
         add_to_variable = {

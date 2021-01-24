@@ -1231,7 +1231,7 @@ focus_tree = {
     focus = {
         id = JAP_address_the_navy
         icon = GFX_goal_generic_build_navy
-        x = 9
+        x = 8
         y = 1
         cost = 3
         prerequisite = { focus = JAP_matters_of_the_military }
@@ -1400,34 +1400,16 @@ focus_tree = {
         }
     }
 
-    # Expand the Marines
+    # Torpedoes
     focus = {
-        id = JAP_expand_the_marines
-        icon = GFX_goal_generic_amphibious_assault
+        id = JAP_torpedo_cruisers
+        icon = GFX_goal_generic_air_naval_bomber
         x = -1
         y = 1
         cost = 10
         prerequisite = { focus = JAP_transportation_equipment }
         prerequisite = { focus = JAP_battleship_improvements }
         relative_position_id = JAP_transportation_equipment
-        completion_reward = {
-            add_tech_bonus = {
-                category = marine_tech
-                bonus = 1.0
-                uses = 1
-            }
-        }
-    }
-
-    # Torpedoes
-    focus = {
-        id = JAP_torpedo_cruisers
-        icon = GFX_goal_generic_air_naval_bomber
-        x = 2
-        y = 1
-        cost = 10
-        prerequisite = { focus = JAP_new_dockyards }
-        relative_position_id = JAP_new_dockyards
         completion_reward = {
             if = {
 				limit = {
@@ -1438,6 +1420,27 @@ focus_tree = {
 			else = {
 				set_technology = { torpedo_cruiser_mtg = 1 }
 			}
+        }
+    }
+
+    # Expand the Marines
+    focus = {
+        id = JAP_expand_the_marines
+        icon = GFX_goal_generic_amphibious_assault
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { 
+            focus = JAP_new_dockyards
+            focus = JAP_new_doctrines
+        }
+        relative_position_id = JAP_new_dockyards
+        completion_reward = {
+            add_tech_bonus = {
+                category = marine_tech
+                bonus = 1.0
+                uses = 1
+            }
         }
     }
 
