@@ -281,7 +281,7 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = unlocked_later
-                has_country_flag = JAP_ARMY_COUP
+                has_country_flag = JAP_army_coup
             }
         }
         mutually_exclusive = { focus = JAP_toseiha_dominance }
@@ -684,7 +684,7 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = unlocked_later
-                has_country_flag = JAP_NAVY_COUP
+                has_country_flag = JAP_navy_coup
             }
         }
         mutually_exclusive = { focus = JAP_toseiha_dominance }
@@ -770,7 +770,7 @@ focus_tree = {
         prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
         relative_position_id = JAP_found_the_co_prosperity_sphere
         completion_reward = {
-            SIA = { country_event = jap.13 }
+            SIA = { country_event = japan.16 }
         }
     }
 
@@ -796,7 +796,7 @@ focus_tree = {
         prerequisite = { focus = JAP_found_the_co_prosperity_sphere }
         relative_position_id = JAP_found_the_co_prosperity_sphere
         completion_reward = {
-            PHI = { country_event = jap.13 }
+            PHI = { country_event = japan.16 }
         }
     }
 
@@ -888,7 +888,7 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = unlocked_later
-                has_country_flag = JAP_DEMOCRACY_SURVIVED
+                has_country_flag = JAP_democracy_survived
             }
         }
         prerequisite = { focus = JAP_state_of_the_empire }
@@ -1001,7 +1001,7 @@ focus_tree = {
         prerequisite = { focus = JAP_democracy_survives }
         relative_position_id = JAP_democracy_survives
         completion_reward = {
-            RUS = { country_event = jap.16 }
+            RUS = { country_event = japan.19 }
         }
     }
 

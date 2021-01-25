@@ -35,7 +35,16 @@ ideas = {
 
             picture = HUN_secret_rearmament
 
-            
+            equipment_bonus = {
+               infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+                artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+            }
         }
 
         ICH_the_indochinese_army = {
