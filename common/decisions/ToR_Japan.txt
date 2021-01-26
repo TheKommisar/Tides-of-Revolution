@@ -22,7 +22,10 @@ JAP_food_shortage_crisis = {
         timeout_effect = {
             custom_effect_tooltip = JAP_failed_the_food_shortage_crisis_tt
             hidden_effect = {
-                add_ideas = JAP_food_shortages
+                add_timed_idea = {
+                    idea = JAP_food_shortages
+                    days = 360
+                }
                 set_country_flag = JAP_failed_the_food_shortage_crisis
             }
         }
@@ -102,9 +105,17 @@ JAP_food_shortage_crisis = {
             }
         }
 
-        complete_effect = { set_country_flag = JAP_currently_importing }
+        complete_effect = { 
+            set_country_flag = JAP_currently_importing
+            FROM = {
+                add_ideas = JAP_japanese_food_import_payments
+            }
+        }
 
         remove_effect = {
+            FROM = {
+                remove_ideas = JAP_japanese_food_import_payments
+            }
             clr_country_flag = JAP_currently_importing
             custom_effect_tooltip = JAP_remove_from_funds_tt
             custom_effect_tooltip = JAP_add_imported_food_tt
@@ -138,7 +149,7 @@ JAP_food_shortage_crisis = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = JAP_acquiring_funds_tt
-                has_country_flag = JAP_acquiring_funds
+                NOT = { has_country_flag = JAP_acquiring_funds }
             }
         }
 
@@ -175,7 +186,7 @@ JAP_food_shortage_crisis = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = JAP_acquiring_funds_tt
-                has_country_flag = JAP_acquiring_funds
+                NOT = { has_country_flag = JAP_acquiring_funds }
             }
         }
 
@@ -205,15 +216,15 @@ JAP_food_shortage_crisis = {
             research_speed_factor = -0.15
         }
 
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+        }
+
         available = {
             custom_trigger_tooltip = {
                 tooltip = JAP_acquiring_funds_tt
-                has_country_flag = JAP_acquiring_funds
+                NOT = { has_country_flag = JAP_acquiring_funds }
             }
-        }
-
-        visible = {
-            has_country_flag = JAP_deal_with_the_food_shortage
         }
 
         complete_effect = {

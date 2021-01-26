@@ -24,6 +24,16 @@ ideas = {
             modifier = {
                 stability_factor = -0.25
                 war_support_factor = -0.25
+                industrial_capacity_factory = -0.25
+                industrial_capacity_dockyard = -0.25
+            }
+        }
+
+        JAP_japanese_food_import_payments = {
+            picture = generic_agrarian_society
+
+            modifier = {
+                consumer_goods_factor = -0.05
             }
         }
 

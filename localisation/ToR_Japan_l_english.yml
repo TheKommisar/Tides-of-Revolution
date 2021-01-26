@@ -69,7 +69,7 @@ JAP_national_populist_party_long:0 "Sakurakai (Cherry Blossom Society)"
 ### Decisions
 # Food Shortage
 JAP_food_shortage_crisis:0 "The Food Shortage Crisis"
-JAP_food_shortage_crisis_desc:0 "The rapidly growing population of Japan and farmers leaving their fields in search for better income in the cities have left Japan in shortages of food supplies. While the shortages have been manageable in the last few months, this month however, the trade ministry has seen a significant growth in demand for food, mainly due to the New Year festivities a few weeks back.\n\nTarget Food: [?japan_target_food|Y0] metric tonnes\nImported Food: [?japan_imported_food|G0] metric tonnes\n\nCurrent Budget: [?japan_food_budget|R0] Million Yen"
+JAP_food_shortage_crisis_desc:0 "The rapidly growing population of Japan and farmers leaving their fields in search for better income in the cities have left Japan in shortages of food supplies. While the shortages have been manageable in the last few months, this month however, the trade ministry has seen a significant growth in demand for food, mainly due to the New Year festivities a few weeks back.\n\nWe currently have [?japan_imported_food|G0] metric tonnes of food stored.\nIn order to avoid the food storage, we need [?japan_target_food|Y0] metric tonnes of food secured.\n\n\nWe currently have [?japan_food_budget|R0] million Yen in our budget to purchase food from neighboring countries."
 JAP_avoiding_the_shortage:0 "Avoiding the Shortage"
 JAP_open_trade:0 "Open Trade with §Y[From.GetName]§!"
 JAP_import_food:0 "Import Food from §Y[From.GetName]§!"
@@ -244,6 +244,7 @@ JAP_womens_sufferage:0 "Women's Sufferage"
 JAP_survival_training:0 "Youth Survival Training"
 JAP_worker_incentives_idea:0 "Worker Incentives"
 JAP_military_training_curriculum_idea:0 "Military Training Curriculum"
+JAP_japanese_food_import_payments:0 "Japanese Food Import Payments"
 
 ### Triggers
 JAP_reviewed_the_budget:0 "The Imperial Budget have been reviewed and approved."
@@ -415,16 +416,16 @@ JAP_artillery_modernization:0 "Artillery Modernization"
 JAP_artillery_modernization_desc:0 ""
 
 ### Events
-japan.1.t:0 ""
-japan.1.d:0 ""
-japan.1.a:0 ""
+japan.0.t:0 ""
+japan.0.d:0 ""
+japan.0.a:0 ""
 
 japan.1.t:0 "Experts warn of food shortage"
 japan.1.d:0 "A couple of experts from the universities and the trade ministry itself has announced that Japan may soon enter a food shortage if not addressed urgently and properly.\n\nThe Prime Minister has now announced that his cabinet will contact other countries in terms of import food from them. Whether the current government can handle this issue efficiently and urgently, is will be seen in the coming months."
 japan.1.a:0 "Concerning."
 
 japan.2.t:0 "Food Shortages Avoided"
-japan.2.d:0 "We have currently avoided in worsening the food shortages more. The current supply of food is now normal and in below demand. We should keep things in check from now on however."
+japan.2.d:0 "We have successfully secured enough food supplies from our imports from our neighboring countries. The secured stocks will last until next year, when we hope that a harvest in the coming months will secure another year of supplies. "
 japan.2.a:0 "Glad that was over."
 
 japan.3.t:0 "Food Imports for [JAP.GetNameDefCap]"
