@@ -17,13 +17,13 @@ ideas = {
             }
         }
 
-        JAP_reliance_on_exports = {
+        JAP_food_shortages = {
             allowed = { original_tag = JAP }
-            picture = can_wartime_prices_and_trade_board
+            picture = raj_risk_of_famine
 
             modifier = {
-                consumer_goods_factor = 0.15
-                local_resources_factor = 0.20
+                stability_factor = -0.25
+                war_support_factor = -0.25
             }
         }
 

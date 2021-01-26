@@ -21,11 +21,17 @@ JAP_food_shortage_crisis = {
 
         timeout_effect = {
             custom_effect_tooltip = JAP_failed_the_food_shortage_crisis_tt
-            set_country_flag = JAP_failed_the_food_shortage_crisis
+            hidden_effect = {
+                add_ideas = JAP_food_shortages
+                set_country_flag = JAP_failed_the_food_shortage_crisis
+            }
         }
         complete_effect = {
             custom_effect_tooltip = JAP_avoided_the_food_shortage_tt
             set_country_flag = JAP_avoided_the_food_shortage
+            hidden_effect = {
+                country_event = japan.2
+            }
         }
     }
 
@@ -117,7 +123,7 @@ JAP_food_shortage_crisis = {
 
     JAP_increase_taxes = {
         icon = GFX_decision_eng_trade_unions_support
-        cost = 50
+        cost = 20
         days_remove = 30
         days_re_enable = 60
 
@@ -154,7 +160,7 @@ JAP_food_shortage_crisis = {
 
     JAP_siphon_funds_from_factories = {
         icon = GFX_decision_ger_military_buildup
-        cost = 50
+        cost = 20
         days_remove = 30
         days_re_enable = 60
 
@@ -191,7 +197,7 @@ JAP_food_shortage_crisis = {
 
     JAP_decrease_military_budget = {
         icon = GFX_decision_generic_naval
-        cost = 50
+        cost = 20
         days_remove = 30
         days_re_enable = 60
 
@@ -221,6 +227,184 @@ JAP_food_shortage_crisis = {
                 add_to_variable = {
                     var = japan_food_budget
                     value = 200
+                }
+            }
+        }
+    }
+}
+
+JAP_hydroelectricity_decisions = {
+    JAP_kanto_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            282 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            282 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_kyushu_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            528 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            528 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_tohoku_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            533 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            533 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_tokai_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            532 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            532 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_koshinetsu_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            535 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            535 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_hokkaido_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            536 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            536 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_chugoku_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            529 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            529 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_kansai_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            531 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            531 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
                 }
             }
         }

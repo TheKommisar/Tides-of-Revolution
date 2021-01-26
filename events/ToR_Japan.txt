@@ -5,23 +5,23 @@ add_namespace = japan
 
 # Intro
 country_event = {
-    id = japan.1
-    title = japan.1.t
-    desc = japan.1.d
+    id = japan.0
+    title = japan.0.t
+    desc = japan.0.d
     picture = GFX_report_event_japanese_reply
 
     is_triggered_only = yes
 
     option = {
-        name = japan.1.a
+        name = japan.0.a
     }
 }
 
 # Food Shortages Worsening
 country_event = {
-    id = japan.2
-    title = japan.2.t
-    desc = japan.2.d
+    id = japan.1
+    title = japan.1.t
+    desc = japan.1.d
     picture = GFX_report_event_generic_read_write
     
     trigger = {
@@ -33,9 +33,11 @@ country_event = {
         days = 2
     }
 
+    fire_only_once = yes
+
     # We must import from other countries
     option = {
-        name = japan.2.a
+        name = japan.1.a
         custom_effect_tooltip = JAP_deal_with_food_shortage_tt
         hidden_effect = {
             set_country_flag = JAP_deal_with_the_food_shortage
@@ -49,7 +51,7 @@ country_event = {
             }
             set_variable = {
                 var = japan_food_budget
-                value = 200
+                value = 300
             }
             set_variable = {
                 var = japan_food_cost
@@ -60,6 +62,23 @@ country_event = {
                 value = 25
             }
         }
+    }
+}
+
+# Food Shortages Avoided
+country_event = {
+    id = japan.2
+    title = japan.2.t
+    desc = japan.2.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.2.a
+        add_stability = 0.05
+        add_war_support = 0.05
+        add_political_power = 100
     }
 }
 
@@ -574,13 +593,13 @@ country_event = {
     option = {
         name = japan.16.a
 
-        JAP = { country_event = jap.14 }
+        JAP = { country_event = japan.17 }
     }
 
     option = {
         name = japan.16.b
 
-        JAP = { country_event = jap.15 }
+        JAP = { country_event = japan.18 }
     }
 }
 

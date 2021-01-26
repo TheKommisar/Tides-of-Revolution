@@ -164,10 +164,10 @@ focus_tree = {
         }
     }
 
-    # Farming Subsidies
+    # Hydroelectricity
     focus = {
-        id = JAP_farming_subsidies
-        icon = GFX_focus_AUS_agriculture
+        id = JAP_hydroelectricity
+        icon = GFX_goal_dam
         x = 1
         y = 2
         cost = 5
@@ -175,7 +175,7 @@ focus_tree = {
         prerequisite = { focus = JAP_infrastructure_expansion }
         relative_position_id = JAP_industry_expansion
         completion_reward = {
-            remove_ideas = JAP_reliance_on_exports
+            unlock_decision_category_tooltip = JAP_hydroelectricity_decisions
         }
     }
 
@@ -227,7 +227,7 @@ focus_tree = {
         x = 0
         y = 3
         cost = 10
-        prerequisite = { focus = JAP_farming_subsidies }
+        prerequisite = { focus = JAP_hydroelectricity }
         prerequisite = { focus = JAP_modern_industrial_equipment }
         relative_position_id = JAP_industry_expansion
         completion_reward = {
