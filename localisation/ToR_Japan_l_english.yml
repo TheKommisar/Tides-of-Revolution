@@ -67,18 +67,20 @@ JAP_national_populist_party:0 "Sakurakai"
 JAP_national_populist_party_long:0 "Sakurakai (Cherry Blossom Society)"
 
 ### Decisions
-# Food Shortage
+# Food Shortage Crisis
 JAP_food_shortage_crisis:0 "The Food Shortage Crisis"
 JAP_food_shortage_crisis_desc:0 "The rapidly growing population of Japan and farmers leaving their fields in search for better income in the cities have left Japan in shortages of food supplies. While the shortages have been manageable in the last few months, this month however, the trade ministry has seen a significant growth in demand for food, mainly due to the New Year festivities a few weeks back.\n\nWe currently have [?japan_imported_food|G0] metric tonnes of food stored.\nIn order to avoid the food storage, we need [?japan_target_food|Y0] metric tonnes of food secured.\n\n\nWe currently have [?japan_food_budget|R0] million Yen in our budget to purchase food from neighboring countries."
 JAP_avoiding_the_shortage:0 "Avoiding the Shortage"
 JAP_open_trade:0 "Open Trade with §Y[From.GetName]§!"
 JAP_import_food:0 "Import Food from §Y[From.GetName]§!"
-JAP_increase_taxes:0 "Increase Taxes"
-JAP_increase_taxes_tt:0 "Add §G100§! to to the budget"
+JAP_suspend_welfare:0 "Suspend Welfare"
+JAP_suspend_welfare_tt:0 "Add §G150§! million Yen to to the budget"
 JAP_siphon_funds_from_factories:0 "Siphon Funds from Factories"
-JAP_siphon_funds_from_factories_tt:0 "Add §G150§! to the budget"
+JAP_siphon_funds_from_factories_tt:0 "Add §G150§! million Yen to the budget"
 JAP_decrease_military_budget:0 "Decrease Military Budget"
-JAP_decrease_military_budget_tt:0 "Add §G200§! to the budget"
+JAP_decrease_military_budget_tt:0 "Add §G150§! million Yen to the budget"
+JAP_increase_corporate_taxes:0 "Increase Corporate Taxes"
+JAP_increase_corporate_taxes_tt:0 "Add §G150§! million Yen to the budget"
 # Hydroelectricity
 JAP_hydroelectricity_decisions:0 "Hydroelectricity"
 JAP_kanto_hydroelectricity:0 "Build Dams and Irrigations in §GKanto§!"

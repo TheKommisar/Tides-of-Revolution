@@ -2174,6 +2174,7 @@ focus_tree = {
         available = {
             JAP = {
                 is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
             }
             is_in_faction = no
             is_subject = no
@@ -2197,6 +2198,7 @@ focus_tree = {
         available = {
             ENG = {
                 is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
             }
             is_in_faction = no
             is_subject = no
@@ -2221,6 +2223,7 @@ focus_tree = {
         available = {
             GER = {
                 is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
             }
             is_in_faction = no
             is_subject = no

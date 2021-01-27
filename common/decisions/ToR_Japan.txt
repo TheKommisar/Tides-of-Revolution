@@ -27,11 +27,13 @@ JAP_food_shortage_crisis = {
                     days = 360
                 }
                 set_country_flag = JAP_failed_the_food_shortage_crisis
+                clr_country_flag = JAP_deal_with_the_food_shortage
             }
         }
         complete_effect = {
             custom_effect_tooltip = JAP_avoided_the_food_shortage_tt
             set_country_flag = JAP_avoided_the_food_shortage
+            clr_country_flag = JAP_deal_with_the_food_shortage
             hidden_effect = {
                 country_event = japan.2
             }
@@ -132,14 +134,15 @@ JAP_food_shortage_crisis = {
         }
     }
 
-    JAP_increase_taxes = {
+    JAP_suspend_welfare = {
         icon = GFX_decision_eng_trade_unions_support
         cost = 20
         days_remove = 30
         days_re_enable = 60
 
         modifier = {
-            stability_weekly_factor = -0.025
+            stability_weekly_factor = -0.015
+            war_support_weekly_factor = -0.015
         }
 
         visible = {
@@ -238,6 +241,44 @@ JAP_food_shortage_crisis = {
                 add_to_variable = {
                     var = japan_food_budget
                     value = 200
+                }
+            }
+        }
+    }
+
+    JAP_increase_corporate_taxes = {
+        icon = GFX_decision_eng_trade_unions_support
+        cost = 20
+        days_remove = 30
+        days_re_enable = 60
+
+        modifier = {
+            industry_capacity_factory = -0.15
+            industry_capacity_dockyard = -0.15
+        }
+
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_acquiring_funds_tt
+                NOT = { has_country_flag = JAP_acquiring_funds }
+            }
+        }
+
+        complete_effect = {
+            set_country_flag = JAP_acquiring_funds
+        }
+
+        remove_effect = {
+            clr_country_flag = JAP_acquiring_funds
+            custom_effect_tooltip = JAP_increase_corporate_taxes_tt
+            hidden_effect = {
+                add_to_variable = {
+                    var = japan_food_budget
+                    value = 100
                 }
             }
         }

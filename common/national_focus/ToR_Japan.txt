@@ -944,7 +944,7 @@ focus_tree = {
     focus = {
         id = JAP_judiciary_reform
         icon = GFX_goal_DOM_The_Trial
-        x = 3
+        x = 2
         y = 1
         cost = 5
         prerequisite = { focus = JAP_bureaucratic_reforms }
