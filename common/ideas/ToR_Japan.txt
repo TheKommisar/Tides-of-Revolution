@@ -37,6 +37,15 @@ ideas = {
             }
         }
 
+        JAP_economic_investments = {
+
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+
         JAP_devotion_to_the_state1 = {
             allowed = { original_tag = JAP }
             picture = state_shintoism

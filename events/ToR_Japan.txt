@@ -186,6 +186,10 @@ country_event = {
         days = 14
     }
 
+    immediate = {
+        set_country_flag = JAP_budget_review_start
+    }
+
     option = {
         name = japan.7.a
 

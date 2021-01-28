@@ -16,6 +16,14 @@ JAP_hydroelectricity_decisions = {
     visible = { has_completed_focus = JAP_hydroelectricity }
 }
 
+JAP_extending_our_influence = {
+    
+
+    allowed = { original_tag = JAP }
+    priority = { base = 50 }
+    visible = { has_completed_focus = JAP_democracy_survives }
+}
+
 JAP_repealing_western_imperialism = {
     icon = GFX_decision_category_saf_anti_colonialist_crusade
     

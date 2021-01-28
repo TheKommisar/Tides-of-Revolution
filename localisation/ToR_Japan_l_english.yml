@@ -1,4 +1,5 @@
 ﻿l_english: 
+JAP_TIDES_OF_REVOLUTION_DESC:0 ""
 
 ### Country Names
 JAP_vanguardist:0 "Japanese Workers' Republic"
@@ -88,9 +89,13 @@ JAP_kyushu_hydroelectricity:0 "Build Dams and Irrigations in §GKyushu§!"
 JAP_tohoku_hydroelectricity:0 "Build Dams and Irrigations in §GTohoku§!"
 JAP_tokai_hydroelectricity:0 "Build Dams and Irrigations in §GTokai§!"
 JAP_koshinetsu_hydroelectricity:0 "Build Dams and Irrigations in §GKoshinetsu§!"
-JAP_hokkaido_hydroelectricity:0 "Build Dams and Irrigations in §Hokkaido§!"
+JAP_hokkaido_hydroelectricity:0 "Build Dams and Irrigations in §GHokkaido§!"
 JAP_chugoku_hydroelectricity:0 "Build Dams and Irrigations in §GChugoku§!"
 JAP_kansai_hydroelectricity:0 "Build Dams and Irrigations in §GKansai§!"
+# Extending Our Influence
+JAP_extending_our_influence:0 "Extending Our Influence"
+JAP_state_visit:0 "State Visit to §G[From.GetNameDef]§!"
+JAP_propose_investments:0 "Propose Investments to §G[From.GetNameDef]§!"
 # Intervention in China
 JAP_intervention_in_china:0 "Intervention in China"
 JAP_intervention_in_china_desc:0 ""
@@ -247,6 +252,7 @@ JAP_survival_training:0 "Youth Survival Training"
 JAP_worker_incentives_idea:0 "Worker Incentives"
 JAP_military_training_curriculum_idea:0 "Military Training Curriculum"
 JAP_japanese_food_import_payments:0 "Japanese Food Import Payments"
+JAP_economic_investments:0 "Japanese Economic Investments"
 
 ### Triggers
 JAP_reviewed_the_budget:0 "The Imperial Budget have been reviewed and approved."
@@ -418,9 +424,9 @@ JAP_artillery_modernization:0 "Artillery Modernization"
 JAP_artillery_modernization_desc:0 ""
 
 ### Events
-japan.0.t:0 ""
+japan.0.t:0 "The Land of the Rising Sun"
 japan.0.d:0 ""
-japan.0.a:0 ""
+japan.0.a:0 "Banzai!"
 
 japan.1.t:0 "Experts warn of food shortage"
 japan.1.d:0 "A couple of experts from the universities and the trade ministry itself has announced that Japan may soon enter a food shortage if not addressed urgently and properly.\n\nThe Prime Minister has now announced that his cabinet will contact other countries in terms of import food from them. Whether the current government can handle this issue efficiently and urgently, is will be seen in the coming months."
@@ -447,25 +453,27 @@ japan.6.t:0 "Resignation of Prime Minister Inukai"
 japan.6.d:0 "This morning, Prime Minister Inukai have announced that he will be resigning due to his failures in dealing with the food shortages that have worsened this year. He will be replaced by Mitsuchi Chuzo, a prominent leader and personality in the Rikken Seiyukai."
 japan.6.a:0 "Shame."
 
-japan.7.t:0 "Start of the Review"
-japan.7.d:0 "The Diet is now preparing to convene in one of the controversial issues that have erupted in Japan since the Meiji Period. Many delegations from different government branches have been invited to witness and discuss their ministry's financial wishes."
+japan.7.t:0 "Reviewing the Imperial Budget"
+japan.7.d:0 "The Diet is now preparing to convene in one of the controversial issues that have erupted in Japan since the Meiji Period. The recent events have made the Democrats and also the Liberals blame the current government in pouring funds in the military so much that it sacrifices other government resposibilities. These lead to the opposition calling for the review of the imperial budget so that the current government funds will be used efficiently."
 japan.7.a:0 "Let get this over with"
 
 japan.8.t:0 "Budget Prioritization"
-japan.8.d:0 "The members of the Imperial Diet are now in hot seat today, as the legislation are having trouble in deciding whether to prioritize either the navy or the army, or an equal funding between the two.\n\nMany within the navy's supporters argue that the defense of Japan itself, depends on how strong the Imperial Navy is. While the army's supporters argue that it is their soldiers that can actually defend the mainland and the Emperor himself, incase of a foreign invasion.\n\nWhatever the Diet will choose, it will cause another rift between the branches of the military."
-japan.8.a:0 "Ensure the Army and Navy has equal funding"
-japan.8.b:0 "Pour a little more to the Army"
-japan.8.c:0 "Pour a little more to the Navy"
+japan.8.d:0 "Due to calls of lessening the military's budgets, the Imperial Diet is now deciding whether both lessen the army and the navy's overall funding or just to lessen both of their financial capabilities.\n\nThe delegation from the IJN have argued that defense of Japan itself depends on how strong and well-funded the Imperial Navy is; while delegation from the IJA argue that it is the soldiers that can actually defend the mainland and the Emperor himself for that matter, incase of the foreign invasion.\n\nWhatever the Diet will choose, it will cause another rigt between the branches of the military."
+japan.8.a:0 "Lessen both their funding"
+japan.8.b:0 "Lessen the navy's funding"
+japan.8.c:0 "Lessen the army's funding"
 
 japan.9.t:0 "Imported Resources Prioritization"
 japan.9.d:0 "Many within the iron and steel that are used by the Japanese industries have been imported from another nations as the Japanese islands do not possess these kinds of minerals within the lands; and these same imports are now being debated on what industry to dedicate them.\n\nOfficers from the IJA have been vocal in dedicating the imported iron ores as guns, as these would increase the national stockpile and strengthen overall the country's defense. On the other hand, officers from the IJN have been campaigning in dedicating these resources in building more ships to compete with the western naval powers."
-japan.9.a:0 "Prioritize it for the Army's Guns"
-japan.9.b:0 "Prioritize it for the Navy's Ships"
+japan.9.a:0 "Prioritize it for the factories"
+japan.9.b:0 "Prioritize it for the Army's Guns"
+japan.9.c:0 "Prioritize it for the Navy's Ships"
 
 japan.10.t:0 "Research Prioritization"
-japan.10.d:0 "R&D have between the IJA and the IJN is joined when they have been founded ever since; and now, officers between the two institutions demands that we pour more resources into their own research and development, in excuse of defending the nation and the Emperor.\n\nWhile we have the resources left, we can only fund one institution's research. Whoever we choose, once will be envious."
-japan.10.a:0 "The Army needs the advancements"
-japan.10.b:0 "The Navy needs the advancements"
+japan.10.d:0 "R&D have between the IJA and the IJN is joined when they have been founded ever since; and now, officers between the two institutions demands that we pour more resources into their own research and development, in excuse of defending the nation and the Emperor.\n\nWhile we have the resources left, we can only fund one institution's research. Whoever we choose, one will be envious."
+japan.10.a:0 "Neither will have the advancements"
+japan.10.b:0 "The Army needs the advancements"
+japan.10.c:0 "The Navy needs the advancements"
 
 japan.11.t:0 "Army Officers Left in Protest!"
 japan.11.d:0 "In seems that the rivalry between the Army and the Navy is hotter than ever, as the current government have once again favoured the Imperial Navy. The Army's delegation have walked out from the meeting in protest as the other faction is being more prioritized rather than them."

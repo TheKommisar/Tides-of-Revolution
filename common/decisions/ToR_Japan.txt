@@ -162,7 +162,7 @@ JAP_food_shortage_crisis = {
 
         remove_effect = {
             clr_country_flag = JAP_acquiring_funds
-            custom_effect_tooltip = JAP_increase_taxes_tt
+            custom_effect_tooltip = JAP_suspend_welfare_tt
             hidden_effect = {
                 add_to_variable = {
                     var = japan_food_budget
@@ -253,8 +253,8 @@ JAP_food_shortage_crisis = {
         days_re_enable = 60
 
         modifier = {
-            industry_capacity_factory = -0.15
-            industry_capacity_dockyard = -0.15
+            industrial_capacity_factory = -0.15
+            industrial_capacity_dockyard = -0.15
         }
 
         visible = {
@@ -457,6 +457,81 @@ JAP_hydroelectricity_decisions = {
                     type = industrial_complex
                     level = 1
                     instant_build = yes
+                }
+            }
+        }
+    }
+}
+
+JAP_extending_our_influence = {
+    JAP_state_visit = {
+        cost = 150
+        days_remove = 50
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = PHI
+                    tag = ICH
+                    tag = MAL
+                    tag = INS
+                    tag = SIA
+                }
+            }
+        }
+
+        visible = {
+            country_exists = FROM
+            FROM = {
+                NOT = { has_war_with = ROOT }
+                NOT = { is_subject_of = ROOT }
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+
+        remove_effect = {
+            FROM = { 
+                set_country_flag = JAP_state_visit_from_japan
+                add_opinion_modifier = {
+                    target = ROOT
+                    modifier = JAP_state_visit
+                }
+            }
+        }
+    }
+
+    JAP_propose_investments = {
+        cost = 100
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = PHI
+                    tag = ICH
+                    tag = INS
+                    tag = MAL
+                    tag = SIA
+                }
+            }
+        }
+
+        visible = {
+            FROM = { has_country_flag = JAP_state_visit }
+        }
+
+        available = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+                NOT = { is_subject_of = ROOT }
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+
+        remove_effect = {
+            FROM = {
+                add_timed_idea = {
+                    idea = JAP_economic_investments
+                    days = 360
                 }
             }
         }
