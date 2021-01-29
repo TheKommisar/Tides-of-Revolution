@@ -33,6 +33,10 @@ country_event = {
         days = 2
     }
 
+    immediate = {
+        set_country_flag = JAP_budget_review_start
+    }
+
     fire_only_once = yes
 
     # We must import from other countries
@@ -149,7 +153,7 @@ country_event = {
 
     trigger = {
         tag = JAP
-        has_country_flag = JAP_failed_the_food_shortage_crisis
+        has_country_flag = JAP_failed_the_food_shortage
     }
 
     mean_time_to_happen = {
@@ -184,10 +188,6 @@ country_event = {
 
     mean_time_to_happen = {
         days = 14
-    }
-
-    immediate = {
-        set_country_flag = JAP_budget_review_start
     }
 
     option = {
@@ -479,7 +479,7 @@ country_event = {
 
     # Banzai!
     option = {
-        name = jap.8.a
+        name = japan.14.a
 
         set_politics = {
             ruling_party = paternal_autocrat
@@ -801,5 +801,119 @@ country_event = {
     option = {
         name = japan.24.a
         add_political_power = -25
+    }
+}
+
+# Japan Proposes Investments
+country_event = {
+    id = japan.25
+    title = japan.25.t
+    desc = japan.25.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.25.a
+        add_ideas = JAP_economic_investments
+        hidden_effect = { set_country_flag = JAP_accepted_investments }
+
+        JAP = { country_event = japan.26 }
+    }
+    option = {
+        name = japan.25.b
+
+        JAP = { country_event = japan.27 }
+    }
+}
+
+# From Accepts Investments
+country_event = {
+    id = japan.26
+    title = japan.26.t
+    desc = japan.26.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.26.a
+    }
+}
+
+# From Rejects Investments
+country_event = {
+    id = japan.27
+    title = japan.27.t
+    desc = japan.27.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.27.a
+    }
+}
+
+# Propose Protection
+country_event = {
+    id = japan.28
+    title = japan.28.t
+    desc = japan.28.d
+    picture = GFX_report_event_chinese_japanese_handshake
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.28.a
+
+        JAP = { 
+            country_event = japan.29
+
+            diplomatic_relation = {
+                country = ROOT
+                relation = guarantee
+                active = yes
+            }
+            diplomatic_relation = {
+                country = ROOT
+                relation = military_access
+                active = yes
+            } 
+        }
+    }
+
+    option = {
+        name = japan.28.b
+
+        JAP = { country_event = japan.30 }
+    }
+}
+
+# Protection Accepted
+country_event = {
+    id = japan.29
+    title = japan.29.t
+    desc = japan.29.d
+    picture = GFX_report_event_japanese_transport_soldiers
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.29.a
+    }
+}
+
+# Protection Rejected
+country_event = {
+    id = japan.30
+    title = japan.30.t
+    desc = japan.30.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.30.a
     }
 }

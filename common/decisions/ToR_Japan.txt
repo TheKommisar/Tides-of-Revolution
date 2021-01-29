@@ -26,7 +26,7 @@ JAP_food_shortage_crisis = {
                     idea = JAP_food_shortages
                     days = 360
                 }
-                set_country_flag = JAP_failed_the_food_shortage_crisis
+                set_country_flag = JAP_failed_the_food_shortage
                 clr_country_flag = JAP_deal_with_the_food_shortage
             }
         }
@@ -201,7 +201,45 @@ JAP_food_shortage_crisis = {
             clr_country_flag = JAP_acquiring_funds
             custom_effect_tooltip = JAP_siphon_funds_from_factories_tt
             hidden_effect = {
-                add_to_varible = {
+                add_to_variable = {
+                    var = japan_food_budget
+                    value = 150
+                }
+            }
+        }
+    }
+
+    JAP_deprioritize_research = {
+        icon = GFX_decision_generic_research
+        cost = 20
+        days_remove = 30
+        days_re_enable = 60
+
+        modifier = {
+            research_speed_factor = -0.15
+        }
+
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_acquiring_funds_tt
+                NOT = { has_country_flag = JAP_acquiring_funds }
+            }
+        }
+
+
+        complete_effect = {
+            set_country_flag = JAP_acquiring_funds
+        }
+
+        remove_effect = {
+            clr_country_flag = JAP_acquiring_funds
+            custom_effect_tooltip = JAP_deprioritize_research_tt
+            hidden_effect = {
+                add_to_variable = {
                     var = japan_food_budget
                     value = 150
                 }
@@ -216,7 +254,9 @@ JAP_food_shortage_crisis = {
         days_re_enable = 60
 
         modifier = {
-            research_speed_factor = -0.15
+            training_time_factor = 0.15
+            supply_consumption_factor = 0.15
+            planning_speed = 0.15
         }
 
         visible = {
@@ -240,7 +280,7 @@ JAP_food_shortage_crisis = {
             hidden_effect = {
                 add_to_variable = {
                     var = japan_food_budget
-                    value = 200
+                    value = 150
                 }
             }
         }
@@ -278,7 +318,7 @@ JAP_food_shortage_crisis = {
             hidden_effect = {
                 add_to_variable = {
                     var = japan_food_budget
-                    value = 100
+                    value = 150
                 }
             }
         }
@@ -465,6 +505,7 @@ JAP_hydroelectricity_decisions = {
 
 JAP_extending_our_influence = {
     JAP_state_visit = {
+        icon = GFX_decision_generic_political_discourse
         cost = 150
         days_remove = 50
 
@@ -501,6 +542,7 @@ JAP_extending_our_influence = {
     }
 
     JAP_propose_investments = {
+        icon = GFX_decision_hol_attract_foreign_investors   
         cost = 100
 
         target_trigger = {
@@ -529,10 +571,43 @@ JAP_extending_our_influence = {
 
         remove_effect = {
             FROM = {
-                add_timed_idea = {
-                    idea = JAP_economic_investments
-                    days = 360
+                country_event = japan.25
+            }
+        }
+    }
+
+    JAP_propose_protection = {
+        icon = GFX_decision_jap_pacific_guardian
+        cost = 250
+        days_remove = 14
+
+        target_trigger  = {
+            FROM = {
+                OR = {
+                    tag = PHI
+                    tag = ICH
+                    tag = INS
+                    tag = MAL
+                    tag = SIA
                 }
+            }
+        }
+
+        visible = {
+            FROM = { has_country_flag = JAP_accepted_investments }
+        }
+
+        available = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+                NOT = { is_subject_of = ROOT }
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+
+        remove_effect = {
+            FROM = {
+                country_event = japan.28
             }
         }
     }

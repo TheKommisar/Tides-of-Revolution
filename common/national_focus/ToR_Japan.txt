@@ -264,7 +264,10 @@ focus_tree = {
         available = {
             custom_trigger_tooltip = {
                 tooltip = unlocked_later
-                has_country_flag = JAP_budget_review_start
+                OR = {
+                    has_country_flag = JAP_avoided_the_food_shortage
+                    has_country_flag = JAP_failed_the_food_shortage_crisis
+                }
             }
         }
         prerequisite = { focus = JAP_infrastructure_expansion }
@@ -1089,8 +1092,11 @@ focus_tree = {
         cost = 3
         available = {
             custom_trigger_tooltip = {
-                tooltip = JAP_reviewed_the_budget
-                has_country_flag = JAP_BUDGET_REVIEW_OVER
+                tooltip = unlocked_later
+                OR = {
+                    has_country_flag = JAP_avoided_the_food_shortage
+                    has_country_flag = JAP_failed_the_food_shortage_crisis
+                }
             }
         }
         prerequisite = { focus = JAP_spiritual_mobilization_focus }
