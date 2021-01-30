@@ -1,0 +1,11 @@
+spriteTypes = {
+
+#Ministers
+
+	spriteType = {
+		name = "GFX_idea_USA_Huey_Long_hog"
+		texturefile = "gfx/interface/ideas/USA/ministers/USA_Huey_Long_hog.tga"
+	}
+	
+
+}

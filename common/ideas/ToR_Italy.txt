@@ -60,13 +60,40 @@ ideas = {
 				political_power_gain = 0.5	
 			}
 		} 
+		ITA_increased_miltary_spending = {
+			removal_cost = -1
+
+			allowed = { original_tag = ITA }
+			allowed_civil_war = { always = yes }
+		
+			modifier = {
+				war_support_factor = 0.15
+				offence = 0.5	
+				defence = 0.5
+                                training_time_factor = -0.2
+                                breakthrough_factor = 0.1
+                                political_power_factor = -0.1
+			}
+		} 
+		ITA_victor_emmanuel = {
+			removal_cost = -1
+			
+			allowed = { original_tag = ITA }
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = 0.03
+				war_support_factor	= 0.1			
+			}
+		}
 	}
 
 	# Head of Government
 	head_of_government = {
 		ITA_Palmiro_Togliatti_hog_van = {
 			allowed = { original_tag = ITA }
-			available = { can_replace_minister = no }
+                        available = {
+				has_government = vanguardist
+		        } 
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -77,7 +104,9 @@ ideas = {
 
 		ITA_Antonio_Gramsci_hog_ort = {
 			allowed = { original_tag = ITA }
-			available = { can_replace_minister = no }
+                        available = {
+				has_government = orthodox_marxist
+		        } 
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -88,7 +117,9 @@ ideas = {
 
 		ITA_Pietro_Nenni_hog_rev = {
 			allowed = { original_tag = ITA }
-			available = { can_replace_minister = no }
+                        available = {
+				has_government = revolutionary_socialist
+		        } 
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -97,25 +128,42 @@ ideas = {
 			}
 		}
 
-		ITA_Giacomo_Matteotti_hog_rev = {
+		ITA_Giacomo_Matteotti_hog_sde = {
 			allowed = { original_tag = ITA }
-			available = { can_replace_minister = no }
+                        available = {
+				has_government = social_democrat
+		        } 
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
-				democratic_socialist
+				social_democrat
 				hog_political_protege
 			}
 		}
 
 		ITA_Don_Luigi_Sturzo_hog_sde = {
 			allowed = { original_tag = ITA }
-			available = { can_replace_minister = no }
+                        available = {
+				has_government = social_democrat
+		        } 
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
 				social_democrat
 				hog_pragmatic_statesman
+			}
+		}
+	}
+        # Economic Minister
+        economy_minister = {
+		ITA_Alberto_Beneduce_eco = {
+			allowed = { original_tag = ITA }
+                        available = {
+				has_government = social_democrat
+		        } 
+			cancel_if_invalid = no
+			traits = {
+				social_democrat
 			}
 		}
 	}

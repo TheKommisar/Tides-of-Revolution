@@ -673,7 +673,7 @@
         shared_focus = {
 		id = ITA_regia_aeronautica
 		icon = GFX_goal_generic_build_airforce
-		x = 60
+		x = 36
                 y = 0
                 available = {}
 		cost = 5
@@ -855,7 +855,7 @@
         shared_focus = {
 		id = ITA_new_army_plan
 		icon = GFX_goal_generic_axis_build_infantry
-		x = 45
+		x = 21
                 y = 0
                 available = {}
 		cost = 5
@@ -1231,7 +1231,7 @@
         shared_focus = {
 		id = ITA_kickstart_navy_funding
 		icon = GFX_goal_generic_build_navy
-		x = 54
+		x = 30
 		y = 0
 		cost = 5
 		ai_will_do = {

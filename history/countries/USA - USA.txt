@@ -76,6 +76,7 @@ if = {
 set_convoys = 400
 
 add_ideas = {
+        USA_Huey_Long_hog
 	undisturbed_isolation
 	great_depression
 	disarmed_nation

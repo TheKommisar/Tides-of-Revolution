@@ -2,8 +2,7 @@ capital = 2
 
 oob = "ITA_1936"
 
-country_event = { id = italy.1 days = 1 } #Intro Event
-#country_event = { id = italy.6 days = 25 random = 240 } # motion of no confidence
+country_event = { id = ita.0 days = 1 } #Intro Event
 
 set_research_slots = 4
 set_stability = 0.25
@@ -11,9 +10,10 @@ set_war_support = 0.4
 add_ideas = {
         ITA_great_depression
         ITA_memories_of_the_war
-        ITA_new_constitution
+        ITA_victor_emmanuel
         ITA_political_radicalisation
-        #ITA_socialist_hegemony
+        ITA_Giacomo_Matteotti_hog_sde
+        ITA_Alberto_Beneduce_eco 
 }
 
 550 = {

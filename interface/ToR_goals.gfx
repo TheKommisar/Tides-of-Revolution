@@ -240,5 +240,9 @@ spriteTypes = {
 		name = "GFX_Italian_Settlers"
 		texturefile = "gfx/interface/goals/ITA/Italian_Settlers.dds"
 	}
+    SpriteType = { 
+		name = "GFX_goal_beneduce"
+		texturefile = "gfx/interface/goals/ITA/GFX_ITA_beneduce.tga"
+	}
 
 }

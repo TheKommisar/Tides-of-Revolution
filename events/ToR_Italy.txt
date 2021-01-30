@@ -31,6 +31,7 @@ country_event = {
         custom_effect_tooltip = ITA_with_the_liberals_tt
         hidden_effect = {
             complete_national_focus = ITA_with_the_liberals
+            set_country_flag = italy_liberal_compromise
         }
     }
 
@@ -40,6 +41,7 @@ country_event = {
         custom_effect_tooltip = ITA_with_the_socialists_tt
         hidden_effect = {
             complete_national_focus = ITA_with_the_socialists
+            set_country_flag = italy_socialist_compromise
         }
     }
 }
@@ -90,6 +92,9 @@ country_event = {
 
     option = {
         name = ita.4.a
+        trigger = { 
+                has_country_flag = italy_socialist_compromise
+        }
         hidden_effect = {
             country_event = { id = ita.5 days = 2 }
         }
@@ -97,6 +102,9 @@ country_event = {
 
     option = {
         name = ita.4.b
+        trigger = { 
+                has_country_flag = italy_liberal_compromise
+        }
         hidden_effect = {
             country_event = { id = ita.6 days = 2 }
         }
@@ -169,11 +177,10 @@ country_event = {
     is_triggered_only = yes
 
     immediate = {
-        hidden_effect = {
             set_global_flag = icw
+		
 
             SRI = {
-                set_country_flag = choice_made
 
                 if = {
                     limit = {
@@ -199,16 +206,38 @@ country_event = {
                     }
                     transfer_state = 159
                 }
+				
+				every_state = {
+					limit = {
+						is_core_of = ITA
+					}
+					THIS = {
+						add_core_of = PIE
+					}
+				}
 
                 add_equipment_to_stockpile = {
                     type = infantry_equipment
-                    amount = 1000
+                    amount = 10000
                     producer = SRI
                 }
-                add_manpower = 30000
+                add_manpower = 50000
                 load_oob = SRI_rebellion
             }
-        }
+			ITA = {
+			add_popularity = {
+				ideology = vanguardist
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = orthodox_marxist
+				popularity = -0.05
+			}	
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.05
+			}
+		}
     }
 
     option = {
@@ -221,7 +250,7 @@ country_event = {
 		add_war_support = 0.2
 
 		SRI = {
-			delare_war_on = {
+			declare_war_on = {
                 target = ITA
                 type = annex_everything
             }
@@ -240,7 +269,9 @@ country_event = {
 
 		SRI = {
             change_tag_from = ITA
-			delare_war_on = {
+                }
+		SRI = {
+			declare_war_on = {
                 target = ITA
                 type = annex_everything
             }
@@ -319,5 +350,102 @@ country_event = {
             transfer_state = 665
             transfer_state = 458
         }
+    }
+}
+
+# Military spending
+country_event = {
+    id = ita.11
+    title = ita.11.t
+    desc = ita.11.d
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+
+    is_triggered_only = yes
+
+    # The socialists have a point
+    option = {
+        name = ita.11.a
+        add_political_power = 50
+        add_stability = 0.05
+	add_popularity = {
+		ideology = democratic_socialist
+		popularity = 0.05
+	}  
+    }
+    # Maybe the conservatives aren't talking out of their ass for once
+    option = {
+        name = ita.11.b
+        add_political_power = -50
+        add_stability = -0.05
+	add_popularity = {
+		ideology = social_conservative
+		popularity = 0.05
+	}     
+        add_ideas = { ITA_increased_miltary_spending }   
+    }
+}
+
+country_event = {
+    id = ita.15
+    title = ita.15.t    
+    desc = ita.15.d
+
+    picture = GFX_report_event_italy_palace
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    
+    option = {  # integrate Tunisia as part of our North African holdings
+		name = ita.15.a
+                add_political_power = 40
+    }
+    option = {  # give Tunisia autonomy
+		name = ita.15.b
+                add_political_power = -40
+		TUN = { 
+            transfer_state = 458
+            transfer_state = 665
+               }
+
+        set_autonomy = {
+            target = TUN
+            autonomy_state = autonomy_colony
+        }
+    }
+}
+
+country_event = {
+    id = ita.16
+    title = ita.16.t    
+    desc = ita.16.d
+    
+    fire_only_once = yes
+  
+    is_triggered_only = yes
+
+    option = {  # we welcome Albania into our domain
+		name = ita.16.a
+            add_political_power = 10
+			set_autonomy = {
+                target = ALB
+                autonomy_state = autonomy_colony
+            }
+			ALB = { 
+				retire_country_leader = yes
+				set_politics = {	
+	                ruling_party = paternal_autocrat
+	                last_election = "1933.3.5"
+	                election_frequency = 48
+	                elections_allowed = no
+                }
+				create_country_leader = {
+	                name = "Ferdinand I"
+	                portrait_path = "gfx/leaders/ITA/portrait_ITA_ferdinando_adalberto.dds"
+	                expire = "1965.1.1"
+	                ideology = authoritarian_democrat_subtype
+                }
+            }
     }
 }
