@@ -207,7 +207,7 @@ create_country_leader = {
 	name = "Kyuichi Tokuda"
 	desc = "POLITICS_KYUICHI_TOKUDA_DESC"
 	picture = "GFX_Portrait_Kyuichi_Tokuda"
-	expire = "1953.10.14
+	expire = "1953.10.14"
 	ideology = vanguardist_subtype
 	traits = {}
 }
