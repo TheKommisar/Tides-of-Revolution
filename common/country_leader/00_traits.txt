@@ -1,5 +1,11 @@
 leader_traits = {
 
+	emperor_showa = {
+		random = no
+
+		stability_factor = 0.50
+	}
+
 	lit_weak_council = {
 		political_power_gain = -0.1
                 stability_factor = -0.05

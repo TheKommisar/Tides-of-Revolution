@@ -1,0 +1,919 @@
+# Japanese Events
+# created by: dax0102
+
+add_namespace = japan
+
+# Intro
+country_event = {
+    id = japan.0
+    title = japan.0.t
+    desc = japan.0.d
+    picture = GFX_report_event_japanese_reply
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.0.a
+    }
+}
+
+# Food Shortages Worsening
+country_event = {
+    id = japan.1
+    title = japan.1.t
+    desc = japan.1.d
+    picture = GFX_report_event_generic_read_write
+    
+    trigger = {
+        tag = JAP
+        date = 1936.2.17
+    }
+
+    mean_time_to_happen = {
+        days = 2
+    }
+
+    immediate = {
+        set_country_flag = JAP_budget_review_start
+    }
+
+    fire_only_once = yes
+
+    # We must import from other countries
+    option = {
+        name = japan.1.a
+        custom_effect_tooltip = JAP_deal_with_food_shortage_tt
+        hidden_effect = {
+            set_country_flag = JAP_deal_with_the_food_shortage
+            set_variable = {
+                var = japan_target_food
+                value = 500
+            }
+            set_variable = {
+                var = japan_imported_food
+                value = 0
+            }
+            set_variable = {
+                var = japan_food_budget
+                value = 300
+            }
+            set_variable = {
+                var = japan_food_cost
+                value = 30
+            }
+            set_variable = {
+                var = japan_import_amount
+                value = 25
+            }
+        }
+    }
+}
+
+# Food Shortages Avoided
+country_event = {
+    id = japan.2
+    title = japan.2.t
+    desc = japan.2.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.2.a
+        add_stability = 0.05
+        add_war_support = 0.05
+        add_political_power = 100
+    }
+}
+
+# Import Food
+country_event = {
+    id = japan.3
+    title = japan.3.t
+    desc = japan.3.d
+    picture = GFX_report_event_ast_navy
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.3.a
+        custom_effect_tooltip = JAP_can_import_food_tt
+
+        JAP = { country_event = japan.4 }
+    }
+
+    option = {
+        name = japan.3.b
+
+        JAP = { country_event = japan.5 }
+    }
+}
+
+# FROM agrees to export food
+country_event = {
+    id = japan.4
+    title = japan.4.t
+    desc = japan.4.d
+    picture = GFX_report_event_ast_navy
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.4.a
+        custom_effect_tooltip = JAP_can_import_food_from_tt
+        hidden_effect = {
+            FROM = {
+                set_country_flag = JAP_can_import_food
+            }
+        }
+    }
+}
+
+# FROM declines to export food
+country_event = {
+    id = japan.5
+    title = japan.5.t
+    desc = japan.5.d
+    picture = GFX_report_event_generic_sign_treaty1
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.5.a
+        add_political_power = -5
+    }
+}
+
+# Resignation of Prime Minister Inukai
+country_event = {
+    id = japan.6
+    title = japan.6.t
+    desc = japan.6.d
+    picture = GFX_report_event_asian_politicians
+
+    trigger = {
+        tag = JAP
+        has_country_flag = JAP_failed_the_food_shortage
+    }
+
+    mean_time_to_happen = {
+        days = 14
+    }
+
+    immediate = {
+        set_country_flag = JAP_inukai_resigned
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = japan.6.a
+
+        remove_ideas_with_trait = head_of_government
+        add_ideas = JAP_Mitsuchi_Chuzo_hog_sco
+    }
+}
+
+# Reviewing the Budget
+country_event = {
+    id = japan.7
+    title = japan.7.t
+    desc = japan.7.d
+    picture = GFX_report_event_japanese_transport_soldiers
+
+    trigger = {
+        tag = JAP
+        date = 1936.6.13
+    }
+
+    mean_time_to_happen = {
+        days = 14
+    }
+
+    option = {
+        name = japan.7.a
+
+        hidden_effect = {
+            country_event = { id = japan.8 days = 21 }
+        }
+    }
+}
+
+# Budget Prioritization
+country_event = {
+    id = japan.8
+    title = japan.8.t
+    desc = japan.8.d
+    picture = GFX_report_event_merchant_ship_01
+
+    is_triggered_only = yes
+
+    immediate = {
+        set_variable = { var = jap_army_var value = 1 }
+        set_variable = { var = jap_navy_var value = 1 }
+    }
+
+    # Equal
+    option = {
+        name = japan.8.a
+        
+        add_political_power = 100
+    }
+
+    # Army
+    option = {
+        name = japan.8.b
+        army_experience = 5
+
+        ai_chance = {
+            factor = 50
+
+            modifier = {
+                factor = 10
+                has_country_flag = JAP_favour_the_army
+            }
+        }
+
+        add_to_variable = {
+            var = jap_army_var
+            value = 5
+        }
+        hidden_effect = { country_event = { id = japan.9 days = 14 } }
+    }
+
+    # Navy
+    option = {
+        name = japan.8.c
+        ai_chance = {
+            factor = 100
+
+            modifier = {
+                factor = 2
+                has_country_flag = JAP_favour_the_navy
+            }
+        }
+
+        navy_experience = 5
+
+        add_to_variable = {
+            var = jap_navy_var
+            value = 5
+        }
+        hidden_effect = { country_event = { id = japan.9 days = 14 } }
+    }
+}
+
+# Imported Resource Prioritization
+country_event = {
+    id = japan.9
+    title = japan.9.t
+    desc = japan.9.d
+    picture = GFX_report_event_physics_lab_01
+
+    is_triggered_only = yes
+
+    # No One
+    option = {
+        name = japan.9.a
+
+        hidden_effect = {
+            country_event = { id = japan.10 days = 14 }
+        }
+    }
+
+    # The Army
+    option = {
+        name = japan.9.b
+
+        ai_chance = {
+            factor = 50
+
+            modifier = {
+                factor = 20
+                has_country_flag = JAP_favour_the_army
+            }
+        }
+
+        add_to_variable = {
+            var = jap_army_var
+            value = 2
+        }
+        hidden_effect = { 
+            country_event = { id = japan.10 days = 14 }
+            if = {
+                limit = { check_var = { jap_army_var > jap_navy_var } }
+                country_event = { id = japan.12 days = 3 }
+            }
+        }
+    }
+
+    # The Navy
+    option = {
+        name = japan.9.c
+        ai_chance = {
+            factor = 100
+
+            modifier = {
+                factor = 20
+                has_country_flag = JAP_favour_the_navy
+            }
+        }
+
+        add_to_variable = {
+            var = jap_navy_var
+            value = 2
+        }
+        hidden_effect = {
+            country_event = { id = japan.10 days = 14 }
+            if = {
+                limit = { check_var = { jap_navy_var > jap_army_var }}
+                country_event = { id = japan.11 days = 3 }
+            }
+        }
+    }
+}
+
+# Research Prioritization
+country_event = {
+    id = japan.10
+    title = japan.10.t
+    desc = japan.10.d
+    picture = GFX_report_event_physics_lab_02
+
+    is_triggered_only = yes
+
+    # Nothing
+    option = {
+        name = japan.10.a
+
+        hidden_effect = {
+            country_event = { japan.15 days = 30 }
+        }
+    }
+
+    # The Army
+    option = {
+        name = japan.10.b
+        ai_chance = {
+            factor = 20
+
+            modifier = {
+                factor = 20
+                has_country_flag = JAP_favour_the_navy
+            }
+        }
+
+        set_country_flag = JAP_budget_review_finished
+        add_to_variable = {
+            var = jap_army_var
+            value = 1
+        }
+    }
+
+    # The Navy
+    option = {
+        name = japan.10.c
+
+        set_country_flag = JAP_budget_review_finished
+        add_to_variable = {
+            var = jap_navy_var
+            value = 1
+        }
+    }
+}
+
+# Army Officers Left in Protest!
+country_event = {
+    id = japan.11
+    title = japan.11.t
+    desc = japan.11.d
+    picture = GFX_report_event_german_advisors_remain
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.11.a
+        army_experience = -5
+    }
+}
+
+# Navy Officers Left in Protest!
+country_event = {
+    id = japan.12
+    title = japan.12.t
+    desc = japan.12.d
+    picture = GFX_report_event_german_advisors_remain
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.12.a
+        navy_experience = -5
+    }
+}
+
+# The Army Coup
+country_event = {
+    id = japan.13
+    title = japan.13.t
+    desc = japan.13.d
+    picture = GFX_report_event_czech_soldiers_01
+
+    trigger = {
+        tag = JAP
+        has_country_flag = JAP_budget_review_finished
+        check_variable = { jap_navy_var > jap_army_var }
+    }
+
+    mean_time_to_happen = {
+        days = 30
+    }
+
+    fire_only_once = yes
+
+    # Banzai
+    option = {
+        name = japan.13.a
+
+        set_politics = {
+            ruling_party = authoritarian_democrat
+            elections_allowed = no
+        }
+
+        hidden_effect = {
+            set_country_flag = JAP_army_coup
+            add_popularity = {
+                ideology = authoritarian_democrat
+                popularity = 0.15
+            }
+            
+            remove_all_ministers = yes
+            add_ideas = {
+                JAP_Adachi_Kenzo_hog_ade
+                JAP_Arita_Hachiro_for_ade
+                JAP_Nakajima_Chikuhei_eco_ade
+                JAP_Mochizuki_Keisuke_sec_ade
+            }
+        }
+    }
+}
+
+# The Navy Coup
+country_event = {
+    id = japan.14
+    title = japan.14.t
+    desc = japan.14.d
+    picture = GFX_report_event_czech_soldiers_01
+
+    trigger = {
+        tag = JAP
+        has_country_flag = JAP_budget_review_finished
+        check_variable = { jap_navy_var < jap_army_var }
+    }
+
+    mean_time_to_happen = {
+        days = 30
+    }
+
+    fire_only_once = yes
+
+    # Banzai!
+    option = {
+        name = japan.14.a
+
+        set_politics = {
+            ruling_party = paternal_autocrat
+            elections_allowed = no
+        }
+
+        hidden_effect = {
+            set_country_flag = JAP_navy_coup
+            add_popularity = {
+                ideology = paternal_autocrat
+                popularity = 0.15
+            }
+
+            remove_all_ministers = yes
+            add_ideas = {
+                JAP_Nagata_Tetsuzan_hog_pau
+                JAP_Tatekawa_Yoshitsugu_for_pau
+                JAP_Shoda_Kazue_eco_pau
+                JAP_Shiono_Suehiko_sec_pau
+            }
+        }
+    }
+}
+
+# The Japanese Elections
+country_event = {
+    id = japan.15
+    title = japan.15.t
+    desc = japan.15.d
+    picture = GFX_report_event_election_vote
+
+    is_triggered_only = yes
+
+    immediate = {
+        set_country_flag = JAP_democracy_survived
+    }
+
+    # Seiyukai
+    option = {
+        name = japan.15.a
+
+        set_politics = {
+            ruling_party = social_conservative
+            elections_allowed = no
+        }
+
+        hidden_effect = {
+            add_popularity = {
+                ideology = social_conservative
+                popularity = 0.1
+            }
+        }
+    }
+
+    # Minseito
+    option = {
+        name = japan.15.b
+
+        set_politics = {
+            ruling_party = classic_liberal
+            elections_allowed = no
+        }
+
+        hidden_effect = {
+            add_popularity = {
+                ideology = classic_liberal
+                popularity = 0.1
+            }
+
+            remove_all_ministers = yes
+            add_ideas = {
+                JAP_Ugaki_Kazushige_hog_cli
+                JAP_Shidehara_Kijuro_for_cli
+                JAP_Inoue_Junnosuke_eco_cli
+                JAP_Kawasaki_Katsu_sec_cli
+            }
+        }
+    }
+
+    # Minshuto
+    option = {
+        name = japan.15.c
+
+        set_politics = {
+            ruling_party = social_democrat
+            elections_allowed = no
+        }
+
+        hidden_effect = {
+            add_popularity = {
+                ideology = social_democrat
+                popularity = 0.15
+            }
+
+            remove_all_ministers = yes
+            add_ideas = {
+                JAP_Katayama_Tetsu_hog_sde
+                JAP_Katayama_Tetsu_for_sde
+                JAP_Eda_Saburo_eco_sde
+                JAP_Matsuoka_Komakichi_sec_sde
+            }
+        }
+    }
+}
+
+# Invitation
+country_event = {
+    id = japan.16
+    title = japan.16.t
+    desc = japan.16.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.16.a
+
+        JAP = { country_event = japan.17 }
+    }
+
+    option = {
+        name = japan.16.b
+
+        JAP = { country_event = japan.18 }
+    }
+}
+
+# Invitation Acceptance
+country_event = {
+    id = japan.17
+    title = japan.17.t
+    desc = japan.17.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.17.a
+
+        add_to_faction = FROM
+    }
+}
+
+# Invitation Rejection
+country_event = {
+    id = japan.18
+    title = japan.18.t
+    desc = japan.18.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.18.a
+
+        create_wargoal = {
+            target = FROM
+            type = puppet
+        }
+        add_ai_strategy = {
+            type = conquer
+            id = FROM
+            value = 500
+        }
+    }
+
+    option = {
+        name = japan.18.b
+
+        add_political_power = -100
+    }
+}
+
+# Russian Treaty
+country_event = {
+    id = japan.19
+    title = japan.19.t
+    desc = japan.19.d
+    picture = GFX_report_event_chinese_japanese_handshake
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.19.a
+
+        JAP = { country_event = japan.20 }
+    }
+
+    option = {
+        name = japan.19.b
+
+        JAP = { country_event = japan.21 }
+    }
+}
+
+# Russia Accept
+country_event = {
+    id = japan.20
+    title = japan.20.t
+    desc = japan.20.d
+    picture = GFX_report_event_japanese_siam_politicians
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.20.a
+
+        diplomatic_relation = {
+            country = RUS
+            relation = non_aggression_pact
+            active = yes
+        }
+    }
+}
+
+# Russia Rejects
+country_event = {
+    id = japan.21
+    title = japan.21.t
+    desc = japan.21.d
+    picture = GFX_report_event_japanese_officers
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.21.a
+
+        add_opinion_modifier = {
+            target = RUS
+            modifier = JAP_refused_detente
+        }
+    }
+}
+
+# Rebellion in the Colonies
+country_event = {
+    id = japan.22
+    title = japan.22.t
+    desc = japan.22.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.22.a
+
+        if = {
+            limit = { THIS = { tag = ENG } }
+            release = MAL
+            declare_war_on = {
+                target = MAL
+                type = annex_everything
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "MAL"
+                value = 2000
+            }
+        }
+        if = {
+            limit = { THIS = { tag = HOL } }
+            end_puppet = INS
+            declare_war_on = {
+                target = INS
+                type = annex_everything
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "INS"
+                value = 2000
+            }
+        }
+        
+        JAP = { country_event = jap.23 }
+    }
+}
+
+# Rebellion Success
+country_event = {
+    id = japan.23
+    title = japan.23.t
+    desc = japan.23.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.23.a
+
+        if = {
+            limit = { country_exits = MAL }
+            add_ai_strategy = {
+                type = befriend
+                id = "MAL"
+                value = 100
+            }
+        }
+
+        if = {
+            limit = { INS = { is_subject = no } }
+            add_ai_strategy = {
+                type = befriend
+                id = "INS"
+                value = 100
+            }
+        }
+    }
+}
+
+# Rebellion Failed
+country_event = {
+    id = japan.24
+    title = japan.24.t
+    desc = japan.24.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.24.a
+        add_political_power = -25
+    }
+}
+
+# Japan Proposes Investments
+country_event = {
+    id = japan.25
+    title = japan.25.t
+    desc = japan.25.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.25.a
+        add_ideas = JAP_economic_investments
+        hidden_effect = { set_country_flag = JAP_accepted_investments }
+
+        JAP = { country_event = japan.26 }
+    }
+    option = {
+        name = japan.25.b
+
+        JAP = { country_event = japan.27 }
+    }
+}
+
+# From Accepts Investments
+country_event = {
+    id = japan.26
+    title = japan.26.t
+    desc = japan.26.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.26.a
+    }
+}
+
+# From Rejects Investments
+country_event = {
+    id = japan.27
+    title = japan.27.t
+    desc = japan.27.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.27.a
+    }
+}
+
+# Propose Protection
+country_event = {
+    id = japan.28
+    title = japan.28.t
+    desc = japan.28.d
+    picture = GFX_report_event_chinese_japanese_handshake
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.28.a
+
+        JAP = { 
+            country_event = japan.29
+
+            diplomatic_relation = {
+                country = ROOT
+                relation = guarantee
+                active = yes
+            }
+            diplomatic_relation = {
+                country = ROOT
+                relation = military_access
+                active = yes
+            } 
+        }
+    }
+
+    option = {
+        name = japan.28.b
+
+        JAP = { country_event = japan.30 }
+    }
+}
+
+# Protection Accepted
+country_event = {
+    id = japan.29
+    title = japan.29.t
+    desc = japan.29.d
+    picture = GFX_report_event_japanese_transport_soldiers
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.29.a
+    }
+}
+
+# Protection Rejected
+country_event = {
+    id = japan.30
+    title = japan.30.t
+    desc = japan.30.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.30.a
+    }
+}

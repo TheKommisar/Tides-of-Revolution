@@ -1498,6 +1498,11 @@ focus_tree = {
                 type = annex_everything
                 target = SIA
             }
+            add_ai_strategy = {
+                type = conquer
+                id = "SIA"
+                value = 200
+            }
         }
     }
 
@@ -1572,6 +1577,11 @@ focus_tree = {
             create_wargoal = {
                 type = annex_everything
                 target = PHI
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "PHI"
+                value = 200
             }
         }
     }
@@ -2164,6 +2174,7 @@ focus_tree = {
         available = {
             JAP = {
                 is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
             }
             is_in_faction = no
             is_subject = no
@@ -2187,6 +2198,7 @@ focus_tree = {
         available = {
             ENG = {
                 is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
             }
             is_in_faction = no
             is_subject = no
@@ -2211,6 +2223,7 @@ focus_tree = {
         available = {
             GER = {
                 is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
             }
             is_in_faction = no
             is_subject = no
@@ -2379,6 +2392,11 @@ focus_tree = {
                 target = ENG
                 generator = { 333 336 }
             }
+            add_ai_strategy = {
+                type = conquer
+                id = "ENG"
+                value = 200
+            }
         }
     }
 
@@ -2398,6 +2416,11 @@ focus_tree = {
                 type = annex_everything
                 target = SIA
             }
+            add_ai_strategy = {
+                id = "SIA"
+                value = 200
+                type = conquer
+            }
         }
     }
 
@@ -2414,8 +2437,13 @@ focus_tree = {
         relative_position_id = ICH_trade_with_germany
         completion_reward = {
             create_wargoal = {
-                 type = annex_everything
+                type = annex_everything
                 target = GXC
+            }
+            add_ai_strategy = {
+                id = "GXC"
+                type = conquer
+                value = 200
             }
         }
     }

@@ -35,7 +35,16 @@ ideas = {
 
             picture = HUN_secret_rearmament
 
-            
+            equipment_bonus = {
+               infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+                artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+            }
         }
 
         ICH_the_indochinese_army = {
@@ -419,7 +428,7 @@ ideas = {
     head_of_government = {
         ICH_Pham_Hung_hog_van = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -430,7 +439,7 @@ ideas = {
 
 		ICH_Pham_Van_Dong_hog_van = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -441,7 +450,7 @@ ideas = {
 
 		ICH_Nguyen_Van_Cu_hog_ort = {
 			allowed = { original_tag = ICH }
-            available = { can_replace_minister = no }
+            available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -452,7 +461,7 @@ ideas = {
 
 		ICH_Ton_Duc_Thang_hog_ort = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -463,7 +472,7 @@ ideas = {
 
 		ICH_Truong_Chinh_hog_ort = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -474,7 +483,7 @@ ideas = {
 
 		ICH_Chu_Van_Tan_hog_rev = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -485,7 +494,7 @@ ideas = {
 
 		ICH_Nguyen_The_Truyen_hog_rev = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -496,7 +505,7 @@ ideas = {
 
 		ICH_Souphanou_Vong_hog_rev = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -507,7 +516,7 @@ ideas = {
 
 		ICH_Tran_Van_Giau_hog_rev = {
 			allowed = { original_tag = ICH }
-            available = { can_replace_minister = no }
+            available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -518,7 +527,7 @@ ideas = {
 
 		ICH_Truong_Thi_Sau_hog_rev = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -529,7 +538,7 @@ ideas = {
 
 		ICH_Dao_Duy_Anh_hog_sde = {
 			allowed = { original_tag = ICH }
-            available = { can_replace_minister = no }
+            available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -540,7 +549,7 @@ ideas = {
 
 		ICH_Nguyen_Hai_Than_hog_sli = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -551,7 +560,7 @@ ideas = {
 
 		ICH_Lon_Nol_hog_pau = {
 			allowed = { original_tag = ICH }
-            available = { can_replace_minister = no }
+            available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -562,7 +571,7 @@ ideas = {
 
 		ICH_Nguyen_Phuc_Buu_Dinh_hog_pau = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government
@@ -573,7 +582,7 @@ ideas = {
 
 		ICH_Le_Van_Hoach_hog_npo = {
 			allowed = { original_tag = ICH }
-			available = { can_replace_minister = no }
+			available = { can_replace_hog = no }
 			cancel_if_invalid = no
 			traits = {
 				head_of_government

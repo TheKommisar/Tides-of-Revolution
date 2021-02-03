@@ -1,0 +1,60 @@
+# AI Strategy Plan for Japan
+# created by: dax0102
+
+# note: I don't know how these works
+
+JAP_kodoha_plan = {
+    name = "Japanese Kodoha Plan"
+    desc = "The Kodoha AI path for Japan"
+
+    enable = {
+        original_tag = JAP
+    }
+
+    ai_national_focuses = {
+        JAP_state_of_the_economy
+        JAP_industry_expansion
+        JAP_factory_expansion
+        JAP_investments_from_the_zaibatsu
+        JAP_infrastructure_expansion
+        JAP_modern_excavation_methods
+        JAP_spiritual_mobilization_focus
+        JAP_modern_industrial_equipment
+        JAP_synthetic_resources
+        JAP_farming_subsidies
+        JAP_new_construction_methods
+        JAP_electronic_advancements
+        JAP_research_funding
+
+        JAP_matters_of_the_military
+        JAP_air_force_expansion
+        JAP_fighter_modernization
+        JAP_air_doctrines
+        JAP_reform_the_army
+        JAP_new_doctrines
+    }
+
+    research = {
+        industry = 20.0
+        air_equipment = 15.0
+        infantry_weapons = 15.0
+        artillery = 15.0
+        support_tech = 5.0
+        naval_equipment = 5.0
+    }
+
+    weight = {
+        factor = 1.0
+        modifier = {
+            factor = 1.0
+        }
+    }
+
+    focus_factors = {
+        JAP_state_of_the_empire
+        JAP_kodoha_dominance
+        JAP_ichi_go_focus
+        JAP_start_fortifications
+        JAP_attack_the_republic
+    }
+}
