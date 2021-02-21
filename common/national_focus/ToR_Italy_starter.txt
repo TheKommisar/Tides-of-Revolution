@@ -43,7 +43,7 @@ focus_tree = {
 	# Break a Compromise
 	focus = {
 		id = ITA_break_a_compromise
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_goal_ideology_social_democrat
 		x = 0
 		y = 1
 		cost = 1
