@@ -74,7 +74,9 @@ GER_unworthy_sacrafice_desc:0 "To every German man, woman and child, whether the
 #should be reintegrated
 GER_Erich_Ludendorff_hog:0 "Erich Ludendorff"
 GER_Alfred_Hugenberg_eco:0 "Alfred Hugenburg"
-GER_Konstantin_Neurath:0 "Konstantin von Neurath"
+GER_Konstantin_Neurath_frm:0 "Konstantin von Neurath"
+GER_Otto_Lossow_sec:0 "Otto Lossow"
+GER_Hans_Frank_int:0 "Hans Frank"
 
  
 #Focuses
