@@ -42,34 +42,5 @@ ideas = {
 				defense_bonus_against = 0.075
 			}
 		}
-<<<<<<< Updated upstream
 	}
 }
-=======
-			ROM_treaty_of_bucharest = {
-		allowed = {
-			always = no
-		}
-		allowed_civil_war = {
-			always = yes
-		}
-                picture = ROM_treaty_of_bucharest
-		removal_cost = -1
-		modifier = {
-		political_power_gain = -0.25
-		conscription_factor = -0.20
-		stability_factor = -0.10
-		justify_war_goal_time = 0.50
-		army_morale_factor = -0.05
-		war_support_factor = 0.10
-		army_org_factor = -0.05
-		training_time_army_factor = 0.25
-		consumer_goods_factor = 0.05
-			}
-									targeted_modifier = {
-				tag = AUS
-				trade_cost_for_target_factor = -0.25
-				extra_trade_to_target_factor = 0.10
-			}
-		}
->>>>>>> Stashed changes

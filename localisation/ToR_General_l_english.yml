@@ -61,6 +61,8 @@ TIDES_OF_REVOLUTION_NAME:0 "Tides of Revolution"
 
 FUHRERREICH_DESC:0 "The end of the Great War saw the empires of the old—the Ottomans, the Austrians, and the Germans—fall greatly in both power and influence while the United States, Britain, and France have risen. While the Great War was thought by many to usher in a new era of peace, it seems that the tensions of old have not yet faded away and, with them, could threaten the tenuous peace that remains..."
 
+ITA_TIDES_OF_REVOLUTION_DESC:0 "As the war in Europe came to a close, the nations of Europe found a peace and quiet they had long forgotten. For Italy, however, there was no peace and quiet, as the constant threat of civil conflict always seemed to be one step away. With Italy nearly destroyed by war, socialists and nationalists alike sought major reforms, or in some cases, revolution entirely. However, compromises and agreements would restore a fragile balance of peace to the divided Kingdom. Yet, in 1936, with a ruined economy and severe political polarization, the civil war much feared by many is creeping close once again, and it seems soon Garibaldi’s work may be all undone."
+
 ###OTHER COUNTRIES DESC###
 OTHER_TIDES_OF_REVOLUTION_DESC:0 "It is 1936, and the world is on a brink of a new, inevitable, war. But the world is made up of more than a few monolithic empires. The smallest stones can bring about tidal waves, and these lesser states can bring about much change. Will you side with the nationalists? Will you carry on the torch of the revolution? Or maybe you will grant your people true freedom, the likes of which they have never seen? The world will soon derail from its current situation, plummeting into the hells of war. And it will not wait for your decisions."
 
@@ -151,6 +153,7 @@ commonwealth:0 "Commonwealth of Nations"
 prosperity_sphere:0 "Co-Prosperity Sphere"
 mittelmachte:0 "Mittelmächte"
 freipakt:0 "Freipakt (Free Pact)"
+asian_solidarity_union:0 "Asian Solidarity Union"
 
 ### Interface ###
 minister:1 "Ministers"
@@ -167,13 +170,24 @@ ministers_cannot_be_replaced:0 "Ministers Cannot Be Replaced"
 unlocked_later:0 "Your path remains closed until an opportunity presents itself."
 ENG_annex:0 "§RThis will result in your annexation!§"
 
+#### Trigger Tooltips ####
+ToR_is_socialist:0 "Has a Vanguardist, Orthodox-Marxist, Revolutionary Socialist or a Marxist-aligned Democratic Socialist government."
+ToR_is_socialist_NOT:0 "Does §Rnot§! have a Vanguardist, Orthodox-Marxist, Revolutionary Socialist or a Marxist-aligned Democratic Socialist government."
+ToR_is_democratic:0 "Has a democratic government."
+ToR_is_democratic_NOT:0 "Does §Rnot§! have a democratic government."
+
 ###### Political ######
 vanguardist_drift:0 "Daily Vanguardist support"
 orthodox_marxist_drift:0 "Daily Orthodox Marxist support"
 revolutionary_socialist_drift:0 "Daily Revolutionary Socialist support"
+democratic_socialist_drift:0 "Daily Democratic Socialist support"
 social_democrat_drift:0 "Daily Social Democrat support"
 social_liberal_drift:0 "Daily Social Liberal support"
 social_conservative_drift:0 "Daily Social Conservative support"
 authoritarian_democrat_drift:0 "Daily Authoritarian Democrat support"
-paternal_autocrat_drift:0 "Daily Paternal Autocrat support"
+national_romantic_drift:0 "Daily National Romantic support"
+paternal_autocrat_drift:0 "Daily Despotism support"
 national_populist_drift:0 "Daily National Populist support"
+
+###### Misc. ##### 
+tidesofrevolution_TITLE:0 "Revolution Radio"

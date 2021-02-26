@@ -581,7 +581,10 @@ KUB = {
     color = rgb { 153 21 89 }
 	color_ui = rgb { 153 21 89 }
 }
-
+DON = {
+	color = rgb { 249 201 0 }
+	color_ui = rgb { 249 201 0 }
+}
 MRP = {
         color = rgb { 158 82 34 }
 	color_ui = rgb { 158 82 34 }
@@ -726,4 +729,24 @@ MOR = {
 WLN = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
+}
+TUN = {
+	color = rgb { 180 104 54 }
+	color_ui = rgb { 180 104 54 }
+}
+PNR = {
+	color = rgb { 74 132 53 }
+	color_ui = rgb { 135 198 108 }
+}
+CMX = {
+	color = rgb { 74 132 53 }
+	color_ui = rgb { 135 198 108 }
+}
+VIL = {
+	color = rgb { 74 132 53 }
+	color_ui = rgb { 135 198 108 }
+}
+ICH = {
+	color = rgb { 51 153 255 }
+	color_ui = rgb { 51 153 255 }
 }

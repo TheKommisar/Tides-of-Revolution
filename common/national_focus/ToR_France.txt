@@ -11,4 +11,465 @@ focus_tree = {
 	}
 	
 	default = no
+
+	focus = {
+		id = FRA_rebuilding_the_army
+		icon = wip
+		available = {
+		}
+		x = 20
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		    army_experience = 20
+		}
+	}
+
+	focus = {
+		id = FRA_integrate_the_militias
+		prerequisite = { focus = FRA_rebuilding_the_army }
+		mutually_exclusive = { focus = FRA_a_militia_based_army }
+		icon = wip
+		available = {
+		}
+		x = -3
+		y = 1
+		relative_position_id = FRA_rebuilding_the_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_repurpose_saint_cyr
+		prerequisite = { focus = FRA_integrate_the_militias }
+		icon = wip
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_integrate_the_militias
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_expand_officer_training
+		prerequisite = { focus = FRA_repurpose_saint_cyr }
+		icon = wip
+		available = {
+		}
+		x = -1
+		y = 2
+		relative_position_id = FRA_integrate_the_militias
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_remember_our_victories
+		prerequisite = { focus = FRA_integrate_the_militias }
+		icon = wip
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_integrate_the_militias
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_and_our_defeats
+		prerequisite = { focus = FRA_remember_our_victories }
+		icon = wip
+		available = {
+		}
+		x = 1
+		y = 2
+		relative_position_id = FRA_integrate_the_militias
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_quality_of_leadership
+		prerequisite = { focus = FRA_and_our_defeats }
+		prerequisite = { focus = FRA_expand_officer_training }
+		icon = wip
+		available = {
+		}
+		x = 0
+		y = 3
+		relative_position_id = FRA_integrate_the_militias
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_a_professional_army
+		prerequisite = { focus = FRA_quality_of_leadership }
+		icon = wip
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = FRA_integrate_the_militias
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_a_militia_based_army
+		prerequisite = { focus = FRA_rebuilding_the_army }
+		mutually_exclusive = { focus = FRA_integrate_the_militias }
+		icon = wip
+		available = {
+		}
+		x = 3
+		y = 1
+		relative_position_id = FRA_rebuilding_the_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_arming_the_citizenry
+		prerequisite = { focus = FRA_a_militia_based_army }
+		icon = wip
+		available = {
+		}
+		x = -1
+		y = 1
+		relative_position_id = FRA_a_militia_based_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_a_gun_behind_every_blade_of_grass
+		prerequisite = { focus = FRA_arming_the_citizenry }
+		icon = wip
+		available = {
+		}
+		x = -1
+		y = 2
+		relative_position_id = FRA_a_militia_based_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_militarize_the_guards
+		prerequisite = { focus = FRA_a_militia_based_army }
+		icon = wip
+		available = {
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_a_militia_based_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_revolution_around_warfare
+		prerequisite = { focus = FRA_militarize_the_guards }
+		icon = wip
+		available = {
+		}
+		x = 1
+		y = 2
+		relative_position_id = FRA_a_militia_based_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_militiarized_society
+		prerequisite = { focus = FRA_revolution_around_warfare }
+		prerequisite = { focus = FRA_a_gun_behind_every_blade_of_grass }
+		icon = wip
+		available = {
+		}
+		x = 0
+		y = 3
+		relative_position_id = FRA_a_militia_based_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_unbreakable_spirit
+		prerequisite = { focus = FRA_militiarized_society }
+		icon = wip
+		available = {
+		}
+		x = 0
+		y = 4
+		relative_position_id = FRA_a_militia_based_army
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_reoccupy_alsace_lorraine
+		prerequisite = { focus = FRA_a_professional_army }
+		prerequisite = { focus = FRA_unbreakable_spirit }
+		icon = wip
+		available = {
+		}
+		x = -3
+		y = 5
+		relative_position_id = FRA_a_militia_based_army
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_they_shall_not_pass
+		prerequisite = { focus = FRA_reoccupy_alsace_lorraine }
+		mutually_exclusive = { focus = FRA_legacy_of_the_grande_armee }
+		icon = wip
+		available = {
+		}
+		x = -7
+		y = 1
+		relative_position_id = FRA_reoccupy_alsace_lorraine
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = FRA_legacy_of_the_grande_armee
+		prerequisite = { focus = FRA_reoccupy_alsace_lorraine }
+		mutually_exclusive = { focus = FRA_they_shall_not_pass }
+		icon = wip
+		available = {
+		}
+		x = 7
+		y = 1
+		relative_position_id = FRA_reoccupy_alsace_lorraine
+		cost = 2
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_modernizing_our_equipment
+		prerequisite = { focus = FRA_they_shall_not_pass }
+		prerequisite = { focus = FRA_legacy_of_the_grande_armee }
+		icon = wip
+		available = {
+		}
+		x = 0
+		y = 2
+		relative_position_id = FRA_reoccupy_alsace_lorraine
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_small_arms_advancements
+		prerequisite = { focus = FRA_modernizing_our_equipment }
+		icon = wip
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = FRA_modernizing_our_equipment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_artillery_production_lines
+		prerequisite = { focus = FRA_modernizing_our_equipment }
+		icon = wip
+		available = {
+		}
+		x = -2
+		y = 1
+		relative_position_id = FRA_modernizing_our_equipment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_streamlined_vehicle_production
+		prerequisite = { focus = FRA_modernizing_our_equipment }
+		icon = wip
+		available = {
+		}
+		x = 2
+		y = 1
+		relative_position_id = FRA_modernizing_our_equipment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_ground_based_anti_air
+		prerequisite = { focus = FRA_artillery_production_lines }
+		prerequisite = { focus = FRA_small_arms_advancements }
+		icon = wip
+		available = {
+		}
+		x = 1
+		y = 2
+		relative_position_id = FRA_modernizing_our_equipment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_mechanized_developments
+		prerequisite = { focus = FRA_streamlined_vehicle_production }
+		prerequisite = { focus = FRA_small_arms_advancements }
+		icon = wip
+		available = {
+		}
+		x = -1
+		y = 2
+		relative_position_id = FRA_modernizing_our_equipment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_technological_supremacy
+		prerequisite = { focus = FRA_mechanized_developments }
+		prerequisite = { focus = FRA_ground_based_anti_air }
+		icon = wip
+		available = {
+		}
+		x = 0
+		y = 3
+		relative_position_id = FRA_modernizing_our_equipment
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+	}
 }

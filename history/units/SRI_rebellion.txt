@@ -5,6 +5,9 @@ division_template = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
 		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
 	}
 }
 
@@ -31,14 +34,15 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Mounted Police Defectors" 				# Cavalry
+	name = "Mounted Police Brigade" 				# Cavalry
 	division_names_group = SRI_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
 	}
 	support = {
 		military_police = { x = 0 y = 0 }
@@ -57,69 +61,159 @@ division_template = {
 	}
 }
 
-units = {		
-	division = {			
-		name = "Genoese Volunteers"		
-		location = 6788
-		division_template = "Workers Militia"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.25
+units = {
 
+	division= {	
+		name = "1st Milan Milizia"
+		location = 3780
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
 	}
-        division = {			
-		name = "Red Guard"		
+	
+	division= {	
+		name = "2nd Milan Milizia"
+		location = 3780
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "3rd Milan Milizia"
+		location = 3780
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "4th Milan Milizia"
+		location = 3780
+		division_template = "Divisione Celere"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "Red Guard"
 		location = 3976
-		division_template = "Revolutionary Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
+		division_template = "Revolutionary Division"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
 	}
-        division = {			
-		name = "Bolognese Volunteers"		
+	
+	division= {	
+		name = "Bolognese Volunteers"
 		location = 6606
-		division_template = "Workers Militia"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.25
-
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
 	}
-        division = {			
-		name = "Genoese Police Defectors"		
-		location = 6788
-		division_template = "Police Brigade"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
-
+	
+	division= {	
+		name = "Red Guard"
+		location = 6606
+		division_template = "Revolutionary Division"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
 	}
-        division = {			
-		name = "Red Guard"		
+	
+	division= {	
+		name = "American 'Abraham Lincoln' Brigade"
+		location = 6606
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "4th Bologna Milizia"
+		location = 6606
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "Torino Red Guard"
 		location = 6780
-		division_template = "Revolutionary Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
+		division_template = "Revolutionary Division"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
 	}
-        division = {			
-		name = "Red Guard"		
-		location = 6606
-		division_template = "Revolutionary Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
+	
+	division= {	
+		name = "2nd Torino Milizia"
+		location = 6780
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
 	}
-        division = {			
-		name = "Genoa Sailors"		
+	
+	division= {	
+		name = "Torino Mounted Police Defectors"
+		location = 6780
+		division_template = "Mounted Police Brigade"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "4th Torino Milizia"
+		location = 6780
+		division_template = "Divisione Celere"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "1st Livorno Milizia"
+		location = 11833
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "2nd Livorno Milizia"
+		location = 11833
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "Genoese Police Defectors"
 		location = 6788
-		division_template = "Red Sailors"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.9
-
+		division_template = "Police Brigade"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
 	}
-        division = {			
-		name = "Ravenna Sailors"		
+	
+	division= {	
+		name = "1st Ancona Milizia"
+		location = 925
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "2nd Ancona Milizia"
+		location = 925
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "Ravenna Sailors"
 		location = 782
-		division_template = "Red Sailors"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
+		division_template = "Red Sailors"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "Firenze Red Guard"
+		location = 9907
+		division_template = "Workers Militia"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "La Spezia Mounted Defectors"
+		location = 6973
+		division_template = "Mounted Police Brigade"		# "Semi-Mountain" (less trained & equipped than Alpina)
+		start_experience_factor = 0.1
+	}
+	
+	division= {	
+		name = "Genoese Sailors"
+		location = 6788
+		division_template = "Red Sailors"	
+		start_experience_factor = 0.1
 	}
 }

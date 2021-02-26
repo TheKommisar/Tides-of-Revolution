@@ -51,7 +51,7 @@ if = {
 
 set_convoys = 120
 set_politics = {	
-	ruling_party = orthodox_marxist
+	ruling_party = authoritarian_democrat
 	last_election = "1933.1.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,13 +60,13 @@ set_politics = {
 
 set_popularities = {
     vanguardist = 16
-    orthodox_marxist = 38
+    orthodox_marxist = 10
     revolutionary_socialist = 13
     social_democrat = 6
     social_liberal = 4
     classic_liberal = 0
     social_conservative = 5
-    authoritarian_democrat = 10
+    authoritarian_democrat = 38
     paternal_autocrat = 8
     national_populist = 0
 }
@@ -116,9 +116,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pedro Pablo Ramirez"
+	name = "Agustín Pedro Justo"
 	desc = "POLITICS_MARCELO_ALVEAR_DESC"
-	picture = "Portrait_Argentine_Pablo_Ramirez.tga"
+	picture = "Portrait_Argentine_Agustin_Justo.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

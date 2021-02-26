@@ -1,0 +1,19 @@
+state={
+	id=811
+	name="STATE_811"
+	state_category=town
+	history={
+		owner=ICH
+		add_core_of=ICH
+		add_core_of=VIN
+	    buildings={
+	        infrastructure = 4
+			industrial_complex = 2
+	    }
+	}
+	provinces={
+		1157 4119 7093 7518 9948 12065 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

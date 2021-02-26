@@ -2,6 +2,8 @@
 
 oob = "NIC_1936"
 
+
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -13,7 +15,7 @@ set_war_support = 0.1
 set_convoys = 10
 
 set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = social_liberal
 	last_election = "1936.1.1" 
 	election_frequency = 48 
 	elections_allowed = no
@@ -23,13 +25,14 @@ set_popularities = {
         orthodox_marxist = 14
 	revolutionary_socialist = 28
         social_democrat = 6
-        social_liberal = 12
+        social_liberal = 42
         classic_liberal = 0
         social_conservative = 0
         authoritarian_democrat = 0
-        paternal_autocrat = 30
+        paternal_autocrat = 0
         national_populist = 0
 }
+
 
 create_country_leader = {
 	name = "Juan Bautista Sacasa"
@@ -42,28 +45,4 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Arthur Macarthur III"
-	desc = "POLITICS_ARTHUR_MACARTHUR_DESC"
-	picture = "gfx/leaders/USA/Portrait_USA_Arthur_MacArthur_III.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_navy_leader = {# Arthur MacArthur III
-	name = "Arthur MacArthur III"
-	portrait_path = "gfx/leaders/USA/Portrait_USA_Arthur_MacArthur_III.tga"
-	traits = {
-		navy_career_officer
-		fleet_protector
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	maneuvering_skill = 2
-	coordination_skill = 2
-}
 

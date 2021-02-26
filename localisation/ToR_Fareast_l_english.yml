@@ -1,0 +1,87 @@
+﻿l_english: 
+
+#Parties
+FER_national_populist_party:0 "NTS"
+FER_national_populist_party_long:0 "Nacional'no Trudovoj Sojuz (National Labor Union)"
+FER_vanguardist_party:0 "Bolsheviks"
+FER_vanguardist_party_long:0 "Bolsheviks"
+FER_social_conservative_party:0 "Oktyabristi"
+FER_social_conservative_party_long:0 "Soyuz 17 Oktyabrya (Union of October 17)"
+FER_paternal_autocrat_party:0 "DVP"
+FER_paternal_autocrat_party_long:0 "Dal'nevostochnoye Voyennoye Pravitel'stvo"
+FER_authoritarian_democrat_party:0 "Natsional'noye Dvizheniye"
+FER_authoritarian_democrat_party_long:0 "Natsional'noye Dvizheniye"
+FER_social_democrat_party:0 "SRs"
+FER_social_democrat_party_long:0 "Partiya Sotsialistov-Revolyutsionerov (Socialist Revolutionary Party)"
+FER_social_liberal_party:0 "K-D"
+FER_social_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya (Constitutional Democratic Party)"
+FER_classic_liberal_party:0 "K-D"
+FER_classic_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya (Constitutional Democratic Party)"
+FER_revolutionary_socialist_party:0 "Mensheviks"
+FER_revolutionary_socialist_party_long:0 "Mensheviks"
+FER_orthodox_marxist_party:0 "Bolsheviks"
+FER_orthodox_marxist_party_long:0 "Bolsheviks"
+
+#Country Names
+FER_national_populist:0 "Solidarist Russia"
+FER_national_populist_DEF:0 "Solidarist Russia"
+FER_totalitarian_socialist:0 "Soviet Russia"
+FER_totalitarian_socialist_DEF:0 "Soviet Russia"
+FER_paternal_autocrat:0 "Eastern Okraina"
+FER_paternal_autocrat_DEF:0 "the Russian Eastern Outskirts"
+FER_social_conservative:0 "Russian Republic"
+FER_social_conservative_DEF:0 "the Russian Republic"
+FER_authoritarian_democrat:1 "Russian State"
+FER_authoritarian_democrat_DEF:1 "the Russian State"
+FER_orthodox_marxist:0 "Russian Republic"
+FER_orthodox_marxist_DEF:0 "the Russian Republic"
+FER_revolutionary_socialist:0 "Soviet Russia"
+FER_revolutionary_socialist_DEF:0 "Soviet Russia"
+FER_social_democrat:0 "Russian Republic"
+FER_social_democrat_DEF:0 "the Russian Republic"
+FER_social_liberal:0 "Russian Republic"
+FER_social_liberal_DEF:0 "the Russian Republic"
+FER_classic_liberal:0 "Russian Republic"
+FER_classic_liberal_DEF:0 "the Russian Republic"
+FER_vanguardist:0 "Soviet Russia"
+FER_vanguardist_DEF:0 "Soviet Russia"
+ 
+ FER_national_populist_ADJ:0 "Russian"
+ FER_totalitarian_socialist_ADJ:0 "Soviet"
+ FER_social_conservative_ADJ:0 "Russian"
+ FER_paternal_autocrat_ADJ:0 "Russian"
+ FER_orthodox_marxist_ADJ:0 "Russian"
+ FER_authoritarian_democrat_ADJ:0 "Russian"
+ FER_revolutionary_socialist_ADJ:0 "Soviet"
+ FER_social_democrat_ADJ:0 "Russian"
+ FER_social_liberal_ADJ:0 "Russian"
+ FER_classic_liberal_ADJ:0 "Russian"
+ FER_vanguardist_ADJ:0 "Soviet"
+
+
+
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags
+ 
+
+#Ideas
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+﻿l_english: 
+
+###
+### United Mexican States ###
+###
+
+### Land ###
+MEX_gw_tank_equipment:0 "TNCA Salinas"
+MEX_gw_tank_equipment_short:0 "TNCA Salinas"
+
+
+###
+### France ###
+###
+
+FRA_gw_tank_equipment:0 "Renault FT"
+FRA_gw_tank_equipment_short:0 "FT-17"

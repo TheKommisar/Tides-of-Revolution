@@ -6,14 +6,15 @@ focus_tree = {
 	continuous_focus_position = { x = 2300 y = 1100 }
 	shared_focus = ITA_fixing_our_economy
 	shared_focus = ITA_looking_outwards
-
-
+        shared_focus = ITA_regia_aeronautica
+        shared_focus = ITA_new_army_plan
+        shared_focus = ITA_kickstart_navy_funding
 
         #Conservative coalition branch
 
         focus = {
 		id = ITA_conservative_victory
-		icon = GFX_wip
+		icon = GFX_goal_ideology_social_conservative
 		x = 2
                 y = 0
                 available = {}
@@ -28,7 +29,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_christian_democracy
-		icon = GFX_wip
+		icon = GFX_BEL_Federalism
                 prerequisite = { focus = ITA_conservative_victory }
 		x = -3
                 y = 1
@@ -45,7 +46,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_conservative_family_values 
-		icon = GFX_wip
+		icon = GFX_goal_generic_defence
                 prerequisite = { focus = ITA_christian_democracy }
 		x = -1
                 y = 1
@@ -63,7 +64,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_christian_trade_unions
-		icon = GFX_wip
+		icon = GFX_goal_white_star
                 prerequisite = { focus = ITA_christian_democracy }
 		x = 1
                 y = 1
@@ -80,7 +81,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_teaching_freedom
-		icon = GFX_wip
+		icon = GFX_goal_volunteer_alliance
                 prerequisite = { focus = ITA_christian_trade_unions }
                 prerequisite = { focus = ITA_conservative_family_values }
 		x = 1
@@ -98,7 +99,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_pass_reforms
-		icon = GFX_wip
+		icon = GFX_goal_generic_forceful_treaty
                 prerequisite = { focus = ITA_conservative_victory }
 		x = 3
                 y = 1
@@ -115,7 +116,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_womens_suffrage
-		icon = GFX_wip
+		icon = GFX_goal_support_democracy
                 prerequisite = { focus = ITA_pass_reforms }
 		x = -1
                 y = 1
@@ -132,7 +133,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_progressive_tax_system
-		icon = GFX_wip
+		icon = GFX_goal_gold_reserve
                 prerequisite = { focus = ITA_pass_reforms }
 		x = 1
                 y = 1
@@ -149,7 +150,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_discourage_radical_ideals
-		icon = GFX_wip
+		icon = GFX_goal_anti_comintern_pact
                 prerequisite = { focus = ITA_womens_suffrage }
                 prerequisite = { focus = ITA_progressive_tax_system }
 		x = 1
@@ -167,7 +168,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_increase_welfare_spending
-		icon = GFX_wip
+		icon = GFX_goal_gold_up
                 prerequisite = { focus = ITA_conservative_victory }
 		x = 0
                 y = 1
@@ -184,7 +185,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_rights_of_man
-		icon = GFX_wip
+		icon = GFX_goal_DOM_End_Judicial_Corruption
                 prerequisite = { focus = ITA_increase_welfare_spending }
 		x = 0
                 y = 1
@@ -201,7 +202,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_loyalty_to_king
-		icon = GFX_wip
+		icon = GFX_focus_rom_royal_dictatorship
                 prerequisite = { focus = ITA_rights_of_man }
 		x = 0
                 y = 1
@@ -218,7 +219,7 @@ focus_tree = {
 
         focus = {
 		id = ITA_christianity_and_progress
-		icon = GFX_wip
+		icon = GFX_BEL_Improve_Catholic_Relations
                 prerequisite = { focus = ITA_loyalty_to_king }
                 prerequisite = { focus = ITA_discourage_radical_ideals }
                 prerequisite = { focus = ITA_teaching_freedom }

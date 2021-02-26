@@ -27,8 +27,6 @@ POL_orthodox_marxist_party_long:0 ""
 #Country Names
 POL_national_populist:0 "Kingdom of Poland"
 POL_national_populist_DEF:0 "the Kingdom of Poland"
-POL_totalitarian_socialist:0 "Polish Workers' Union"
-POL_totalitarian_socialist_DEF:0 "the Polish Workers' Union"
 POL_paternal_autocrat:0 "Kingdom of Poland"
 POL_paternal_autocrat_DEF:0 "the Kingdom of Poland"
 POL_social_conservative:0 "Polish Republic"
@@ -49,7 +47,6 @@ POL_vanguardist:0 "Polish Commune"
 POL_vanguardist_DEF:0 "the Polish Commune"
  
 POL_national_populist_ADJ:0 "Polish"
-POL_totalitarian_socialist_ADJ:0 "Polish"
 POL_social_conservative_ADJ:0 "Polish"
 POL_paternal_autocrat_ADJ:0 "Polish"
 POL_orthodox_marxist_ADJ:0 "Polish"
@@ -61,7 +58,8 @@ POL_classic_liberal_ADJ:0 "Polish"
 POL_vanguardist_ADJ:0 "Polish"
 
 
-
+#Ideas
+POL_german_industry:0 "German Industrial Dominance"
 
 #Ministers
 #should be reintegrated

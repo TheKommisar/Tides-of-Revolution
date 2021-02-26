@@ -9,8 +9,6 @@ if = {
 	}
 }
 
-set_cosmetic_tag = AUS_unitedstates
-
 set_research_slots = 4
 
 set_technology = {
@@ -62,16 +60,18 @@ set_politics = {
 }
 
 set_popularities = {
-	vanguardist = 1
-        orthodox_marxist = 2
-	revolutionary_socialist = 5
+	vanguardist = 0
+        orthodox_marxist = 1
+	revolutionary_socialist = 2
+        democratic_socialist = 5
         social_democrat = 34
         social_liberal = 9
         classic_liberal = 17
         social_conservative = 30
         authoritarian_democrat = 0
-        paternal_autocrat = 0
-        national_populist = 2
+        national_romantic = 0
+        paternal_autocrat = 2
+        national_populist = 0
 
 }
 
@@ -137,7 +137,7 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Ludwig von Eimannsberger"
 	portrait_path = "gfx/leaders/AUS/Ludwig_von_Eimannsberger.tga"
 	traits = { panzer_leader }
@@ -146,6 +146,20 @@ create_corps_commander = {
     defense_skill = 2
     planning_skill = 3
     logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Joseph August von Habsburg-Lothringen"
+	portrait_path = "gfx/leaders/AUS/AUS_joseph_august.tga"
+	traits = {
+		politically_connected
+                charismatic
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -251,19 +265,6 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Otto von Habsburg-Lothringen"
-	portrait_path = "gfx/leaders/AUS/Portrait_AUS_Otto_I.tga"
-	traits = {
-		politically_connected
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
 }
 
 create_navy_leader = {

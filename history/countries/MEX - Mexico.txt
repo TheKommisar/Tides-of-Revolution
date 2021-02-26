@@ -46,31 +46,39 @@ set_convoys = 45
 set_stability = 0.2
 set_war_support = 0.1
 
+add_ideas = {
+    MEX_serrano_gomez_junta 
+    MEX_foreign_exploitation 
+    MEX_general_strike 
+    free_trade
+    limited_conscription
+}
+
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = no
 }
 set_popularities = {
-	vanguardist = 1
+	vanguardist = 0
         orthodox_marxist = 4
-	revolutionary_socialist = 9 
+	revolutionary_socialist = 11
         social_democrat = 10
         social_liberal = 4
-        classic_liberal = 1 
+        classic_liberal = 0 
         social_conservative = 4 
-        authoritarian_democrat = 55
-        paternal_autocrat = 4
+        authoritarian_democrat = 19
+        paternal_autocrat = 40
         national_populist = 8
 }
 
 create_country_leader = {
-	name = "Alvaro Obregon"
+	name = "Arnulfo R. Gómez"
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
-	picture = "Portrait_Alvaro_Obregon.tga"
+	picture = "Portrait_Arnulfo_Gomez.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
 		#
 	}
@@ -114,7 +122,7 @@ create_country_leader = {
 	desc = "POLITICS_PLUTARCO_ELIAS_CALLES_DESC"
 	picture = "portrait_MEX_Plutarco_Elias_Calles.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
@@ -131,9 +139,33 @@ create_country_leader = {
 	}
 }
 
+######### Commanders ####
+
+create_field_marshal = {
+	name = "Arnulfo R. Gómez"
+	picture = "Portrait_Arnulfo_Gomez.tga"
+	traits = { politically_connected }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Francisco R. Serrano"
+	picture = ""
+	traits = { politically_connected }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+
 create_corps_commander = {
 	name = "Luis Farell"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	picture = "MEX_Luis_Farell.tga"
 	traits = { }
 	skill = 3
     attack_skill = 4
@@ -144,7 +176,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Gildardo Magaña"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	picture = "MEX_Gildardo_Magana.tga"
 	traits = { desert_fox }
 	skill = 3
     attack_skill = 2
@@ -155,7 +187,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Paul Suarez"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	picture = "MEX_Paul_Suarez.tga"
 	traits = { superior_tactician }
 	skill = 3
 }

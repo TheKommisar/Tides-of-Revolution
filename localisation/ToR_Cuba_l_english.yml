@@ -1,0 +1,89 @@
+﻿l_english: 
+
+#Parties
+CUB_vanguardist_party:0 "PCC"
+CUB_vanguardist_party_long:0 "Partido Comunista de Cuba"
+CUB_orthodox_marxist_party:0 "PCC"
+CUB_orthodox_marxist_party_long:0 "Partido Comunista de Cuba"
+CUB_revolutionary_socialist_party:0 "PCC"
+CUB_revolutionary_socialist_party_long:0 "Partido Comunista de Cuba"
+CUB_social_democrat_party:0 "PLN"
+CUB_social_democrat_party_long:0 "Partido Laborista Nacional"
+CUB_social_liberal_party:0 "AND"
+CUB_social_liberal_party_long:0 "Asociación Nacional Demócrata"
+CUB_classic_liberal_party:0 "PLC"
+CUB_classic_liberal_party_long:0 "Partido Liberal de Cuba" #unironic ancaps
+CUB_social_conservative_party:0 "PUN"
+CUB_social_conservative_party_long:0 "Partido Unión Nacionalista"
+CUB_authoritarian_democrat_party:0 "PLC"
+CUB_authoritarian_democrat_party_long:0 "Partido Liberal de Cuba" #ancaps with authoritarianism
+CUB_paternal_autocrat_party:0 "Los Sargentos"
+CUB_paternal_autocrat_party_long:0 "Junta Batista"
+CUB_national_populist_party:0 "PRC-A"
+CUB_national_populist_party_long:0 "Partido Revolucionario Cubano – Auténtico"
+
+#Country Names
+CUB_national_populist:0 "Cuba"
+CUB_national_populist_DEF:0 "Cuba"
+CUB_paternal_autocrat:0 "Cuba"
+CUB_paternal_autocrat_DEF:0 "Cuba"
+CUB_social_conservative:0 "Cuba"
+CUB_social_conservative_DEF:0 "Cuba"
+CUB_authoritarian_democrat:0 "Cuba"
+CUB_authoritarian_democrat_DEF:0 "Cuba"
+CUB_orthodox_marxist:0 "Cuban Socialist Republic"
+CUB_orthodox_marxist_DEF:0 "the Cuban Socialist Republic"
+CUB_revolutionary_socialist:0 "Cuban Socialist Republic"
+CUB_revolutionary_socialist_DEF:0 "the Cuban Socialist Republic"
+CUB_social_democrat:0 "Cuba"
+CUB_social_democrat_DEF:0 "Cuba"
+CUB_social_liberal:0 "Cuba"
+CUB_social_liberal_DEF:0 "Cuba"
+CUB_classic_liberal:0 "Cuba"
+CUB_classic_liberal_DEF:0 "Cuba"
+CUB_vanguardist:0 "Cuban Socialist Republic"
+CUB_vanguardist_DEF:0 "the Cuban Socialist Republic"
+ 
+CUB_national_populist_ADJ:0 "Cuban"
+CUB_social_conservative_ADJ:0 "Cuban"
+CUB_paternal_autocrat_ADJ:0 "Cuban"
+CUB_orthodox_marxist_ADJ:0 "Cuban"
+CUB_authoritarian_democrat_ADJ:0 "Cuban"
+CUB_revolutionary_socialist_ADJ:0 "Cuban"
+CUB_social_democrat_ADJ:0 "Cuban"
+CUB_social_liberal_ADJ:0 "Cuban"
+CUB_classic_liberal_ADJ:0 "Cuban"
+CUB_vanguardist_ADJ:0 "Cuban"
+
+
+#Ideas
+CUB_extreme_inequality:0 "Extreme Inequality" 
+CUB_american_influence:0 "American Influence"
+CUB_american_influence_desc:0 "As the liberators of our country from Spain, the Americans watch over our country with wary eyes, ready to send marines into Havana at a moment's notice. This arrangement has existed since the end of the Spanish-American War, and the Americans and foreign corporations have used this to exploit our country on multiple occassions. For many Cubans, this arrangement is just part of the bleak reality which many citizens have become accustomed to, although a determined few seek to change that."
+CUB_heavy_corruption:0 "Severe Corruption"
+
+cuba_martial_law_tt:0 "§RThis may prove to have dire consequences upon Cuba and Cuba's economy!§R"
+cuba_continue_as_normal:0 "§RThis action may anger the Americans down the line!§R"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+cuba.1.t:0 "Opposition parties begin to radicalise"
+cuba.1.d:0 "Text goes here"
+cuba.2.t:0 "Trade unions call for a general strike"
+cuba.2.d:0 "Text goes here"
+cuba.2.a:0 "This is enough, enact martial law!"
+cuba.2.b:0 "We may be in a dire situation, but martial law will make it worse."
+
+#Descriptions
+
+#cosmetic tags
+ 

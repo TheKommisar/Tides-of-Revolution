@@ -2,8 +2,7 @@ capital = 2
 
 oob = "ITA_1936"
 
-country_event = { id = italy.1 days = 1 } #Intro Event
-#country_event = { id = italy.6 days = 25 random = 240 } # motion of no confidence
+country_event = { id = ita.0 days = 1 } #Intro Event
 
 set_research_slots = 4
 set_stability = 0.25
@@ -11,9 +10,10 @@ set_war_support = 0.4
 add_ideas = {
         ITA_great_depression
         ITA_memories_of_the_war
-        ITA_new_constitution
+        ITA_victor_emmanuel
         ITA_political_radicalisation
-        ITA_socialist_hegemony
+        ITA_Giacomo_Matteotti_hog_sde
+        ITA_Alberto_Beneduce_eco 
 }
 
 550 = {
@@ -123,9 +123,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Umberto II"
+	name = "Victor Emmanuel III" 
 	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-	picture = "Portrait_Italy_Umberto_II.dds"
+	picture = "Portrait_Italy_Victor_Emmanuel_III.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -134,9 +134,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Umberto II"
+	name = "Victor Emmanuel III" 
 	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-	picture = "Portrait_Italy_Umberto_II.dds"
+	picture = "Portrait_Italy_Victor_Emmanuel_III.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -145,9 +145,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Umberto II"
+	name = "Victor Emmanuel III" 
 	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-	picture = "Portrait_Italy_Umberto_II.dds"
+	picture = "Portrait_Italy_Victor_Emmanuel_III.tga"
 	expire = "1965.1.1"
 	ideology = classic_liberal_subtype
 	traits = {
@@ -156,9 +156,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Umberto II"
+	name = "Victor Emmanuel III" 
 	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
-	picture = "Portrait_Italy_Umberto_II.dds"
+	picture = "Portrait_Italy_Victor_Emmanuel_III.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {

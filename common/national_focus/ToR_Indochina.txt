@@ -1,0 +1,2470 @@
+# Indochinese Focus Tree
+# created by: dax0102
+
+focus_tree = {
+    id = indochinese_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ICH
+		}
+	}
+    initial_show_position = {
+        focus = ICH_into_the_modern_age
+    }
+
+    continuous_focus_position = { x = 0 y = 900 }
+
+    #############################################
+    #                                           #
+    #                   INDUSTRY                #
+    #                                           #
+    #############################################
+
+    # Into the Modern Age
+    focus = {
+        id = ICH_into_the_modern_age
+        icon = GFX_focus_generic_the_giant_wakes
+        x = 4
+        y = 0
+        cost = 10
+        completion_reward = {
+            add_tech_bonus = {
+                technology = construction1
+                technology = construction2
+                technology = construction3
+                technology = construction4
+                technology = construction5
+                bonus = 1.0
+                uses = 2
+            }
+        }
+    }
+
+    # Infrastructure Projects
+    focus = {
+        id = ICH_infrastructure_projects
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_into_the_modern_age }
+        relative_position_id = ICH_into_the_modern_age
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+        }
+    }
+
+    # Electronic Innovations
+    focus = {
+        id = ICH_electronic_innovations
+        icon = GFX_goal_machine
+        # icon = GFX_goal_radio
+        x = 1
+        y = 1
+        cost = 5
+        mutually_exclusive = { focus = ICH_industrial_innovations }
+        prerequisite = { focus = ICH_infrastructure_projects }
+        relative_position_id = ICH_infrastructure_projects
+        completion_reward = {
+            add_tech_bonus = {
+                category = electronics
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Industrial Innovations
+    focus = {
+        id = ICH_industrial_innovations
+        icon = GFX_goal_generic_production
+        x = -1
+        y = 1
+        cost = 5
+        mutually_exclusive = { focus = ICH_electronic_innovations }
+        prerequisite = { focus = ICH_infrastructure_projects }
+        relative_position_id = ICH_infrastructure_projects
+        completion_reward = {
+            add_tech_bonus = {
+                category = industry
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # University of Hanoi
+    focus = {
+        id = ICH_university_of_hanoi
+        icon = GFX_focus_research
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = {
+            focus = ICH_industrial_innovations
+            focus = ICH_electronic_innovations
+        }
+        relative_position_id = ICH_infrastructure_projects
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+
+    # An Atom Divisible
+    focus = {
+        id = ICH_an_atom_divisible
+        icon = GFX_focus_wonderweapons
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_university_of_hanoi }
+        relative_position_id = ICH_university_of_hanoi
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = nuclear
+            }
+        }
+    }
+
+    # Rocketry
+    focus = {
+        id = ICH_rocketry
+        icon = GFX_focus_rocketry
+        x = 1
+        y = 1
+        cost = 10 
+        prerequisite = { focus = ICH_university_of_hanoi }
+        relative_position_id = ICH_university_of_hanoi
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 1.0
+                uses = 1
+                category = rocketry
+            }
+        }
+    }
+
+    # Expand Current Industries
+    focus = {
+        id = ICH_expand_current_industries
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -3
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_into_the_modern_age }
+        relative_position_id = ICH_into_the_modern_age
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Construct New Industries
+    focus = {
+        id = ICH_construct_new_industries
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_expand_current_industries }
+        prerequisite = { focus = ICH_infrastructure_projects }
+        relative_position_id = ICH_expand_current_industries
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Expand Current Factories
+    focus = {
+        id = ICH_expand_current_factories
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 3
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_into_the_modern_age }
+        relative_position_id = ICH_into_the_modern_age
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Construct New Factories
+    focus = {
+        id = ICH_construct_new_factories
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_expand_current_factories }
+        prerequisite = { focus = ICH_infrastructure_projects }
+        relative_position_id = ICH_expand_current_factories
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Synthetic Resource Development
+    focus = {
+        id = ICH_synthetic_resources_development
+        icon = GFX_goal_generic_oil_refinery
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { 
+            focus = ICH_construct_new_industries 
+            focus = ICH_industrial_innovations
+        }
+        relative_position_id = ICH_construct_new_industries
+        completion_reward = {
+            add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = synth_resources
+			}
+        }
+    }
+
+    # New Excavation Methods
+    focus = {
+        id = ICH_new_excavation_methods
+        icon = GFX_goal_generic_construction2
+        x = -1
+        y = 1
+        prerequisite = { 
+            focus = ICH_construct_new_factories
+            focus = ICH_electronic_innovations
+        }
+        relative_position_id = ICH_construct_new_factories
+        completion_reward = {
+            add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = excavation_tech
+			}
+        }
+    }
+
+    #############################################
+    #                                           #
+    #                AIR FORCE                  #
+    #                                           #
+    #############################################
+
+    # The Indochinese Air Force
+    focus = {
+        id = ICH_the_indochinese_air_force
+        icon = GFX_goal_generic_build_airforce
+        x = 12
+        y = 0
+        cost = 3
+        completion_reward = {
+            air_experience = 10
+        }
+    }
+
+    # Fighter Modernization
+    focus = {
+        id = ICH_fighter_modernization
+        icon = GFX_goal_generic_air_fighter
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_indochinese_air_force }
+        relative_position_id = ICH_the_indochinese_air_force
+        completion_reward = {
+            add_tech_bonus = {
+                category = light_fighter
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Bomber Modernization
+    focus = {
+        id = ICH_bomber_modernization
+        icon = GFX_goal_generic_air_bomber
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_indochinese_air_force }
+        relative_position_id = ICH_the_indochinese_air_force
+        completion_reward = {
+            add_tech_bonus = {
+                category = tactical_bomber
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # CAS Modernization
+    focus = {
+        id = ICH_cas_modernization
+        icon = GFX_goal_generic_CAS
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_indochinese_air_force }
+        relative_position_id = ICH_the_indochinese_air_force
+        completion_reward = {
+            add_tech_bonus = {
+                category = cas_bomber
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Air Doctrines
+    focus = {
+        id = ICH_air_doctrines
+        icon = GFX_goal_generic_air_doctrine
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = ICH_fighter_modernization
+            focus = ICH_bomber_modernization
+            focus = ICH_cas_modernization
+        }
+        relative_position_id = ICH_bomber_modernization
+        completion_reward = {
+            add_tech_bonus = {
+                category = air_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    #############################################
+    #                                           #
+    #                     NAVY                  #
+    #                                           #
+    #############################################
+
+    # The Indochinese Navy
+    focus = {
+        id = ICH_the_indochinese_navy
+        icon = GFX_goal_generic_build_navy
+        x = 0
+        y = 1
+        cost = 3
+        relative_position_id = ICH_air_doctrines
+        completion_reward = {
+            navy_experience = 10
+        }
+    }
+
+    # Construct the Saigon Dockyards
+    focus = {
+        id = ICH_construct_the_saigon_dockyards
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_construct_the_saigon_dockyards }
+        prerequisite = { focus = ICH_the_indochinese_navy }
+        relative_position_id = ICH_the_indochinese_navy
+        completion_reward = {
+            613 = {
+                if = {
+					limit = {
+                        is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+            }
+        }
+    }
+    
+    # Expand Shipbuilding Capabilities
+    focus = {
+        id = ICH_expand_shipbuilding_capabilities
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_construct_new_factories }
+        relative_position_id = ICH_construct_the_saigon_dockyards
+        completion_reward = {
+            random_owned_controlled_state = {
+                if = {
+					limit = {
+                        is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+            }
+            random_owned_controlled_state = {
+                if = {
+					limit = {
+                        is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+            }
+        }
+    }
+
+    # Flexible Navy
+    focus = {
+        id = ICH_flexible_navy
+        icon = GFX_goal_generic_navy_carrier
+        x = 0
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_large_navy }
+        prerequisite = { focus = ICH_the_indochinese_navy }
+        relative_position_id = ICH_the_indochinese_navy
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 2.0
+                category = cl_tech
+                category = ca_tech
+                uses = 1
+            }
+            add_tech_bonus = {
+                bonus = 1.0
+                category = bb_tech
+                uses = 1
+            }
+        }
+    }
+
+    # Capital Ship Tactics
+    focus = {
+        id = ICH_capital_ship_tactics
+        icon = GFX_goal_generic_navy_battleship
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_flexible_navy }
+        relative_position_id = ICH_flexible_navy
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_fleet_in_being
+                category = cat_base_strike
+                bonus = 1.0
+                uses = 2
+            }
+        }
+    }
+
+    # Large Navy
+    focus = {
+        id = ICH_large_navy
+        icon = GFX_goal_generic_navy_submarine
+        x = 2
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_flexible_navy }
+        prerequisite = { focus = ICH_the_indochinese_navy }
+        relative_position_id = ICH_the_indochinese_navy
+        completion_reward = {
+            add_tech_bonus = {
+                bonus = 2.0
+                category = dd_tech
+                uses = 1
+            }
+            add_tech_bonus = {
+                bonus = 2.0
+                category = ss_tech
+                uses = 1
+            }
+        }
+    }
+
+    # Wolfpack Tactics
+    focus = {
+        id = ICH_wolfpack_tactics
+        icon = GFX_goal_generic_wolf_pack
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_large_navy }
+        relative_position_id = ICH_large_navy
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_trade_interdiction
+                bonus = 1.0
+                uses = 2
+            }
+        }
+    }
+
+    #############################################
+    #                                           #
+    #                    ARMY                   #
+    #                                           #
+    #############################################
+
+    # The Indochinese Army
+    focus = {
+        id = ICH_the_indochinese_army
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 12
+        y = 6
+        cost = 3
+        completion_reward = {
+            army_experience = 10
+        }
+    }
+    
+    # Speed Focus
+    focus = {
+        id = ICH_speed_focus
+        icon = GFX_goal_planning_bonus
+        x = -1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_planning_focus }
+        prerequisite = { focus = ICH_the_indochinese_army }
+        relative_position_id = ICH_the_indochinese_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_mobile_warfare
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Modern Logistics
+    focus = {
+        id = ICH_modern_logistics
+        icon = GFX_goal_RUS_Markov_plan
+        x = -3
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_speed_focus }
+        relative_position_id = ICH_speed_focus
+        completion_reward = {
+            add_tech_bonus = {
+                category = logistics_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Armor Research
+    focus = {
+        id = ICH_armor_research
+        icon = GFX_goal_generic_army_tanks
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_modern_logistics }
+        relative_position_id = ICH_modern_logistics
+        completion_reward = {
+            add_tech_bonus = {
+                category = armor
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Army Motorization
+    focus = {
+        id = ICH_army_motorization
+        icon = GFX_goal_generic_army_motorized
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_speed_focus }
+        relative_position_id = ICH_speed_focus
+        completion_reward = {
+            add_tech_bonus = {
+                category = motorized_equipment
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Signal Companies
+    focus = {
+        id = ICH_signal_companies
+        icon = GFX_goal_radio
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_army_motorization }
+        relative_position_id = ICH_army_motorization
+        completion_reward = {
+            add_tech_bonus = {
+                category = signal_company_tech
+                bonus = 1.0
+                uses = 1.0
+            }
+        }
+    }
+
+    # Tank Divisions
+    focus = {
+        id = ICH_tank_divisions
+        icon = GFX_goal_generic_army_tanks
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_signal_companies }
+        prerequisite = { focus = ICH_armor_research }
+        relative_position_id = ICH_signal_companies
+        completion_reward = {
+            add_tech_bonus = {
+                category = armor
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Mechanized Experiments
+    focus = {
+        id = ICH_mechanized_experiments
+        icon = GFX_goal_generic_army_artillery
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_tank_divisions }
+        relative_position_id = ICH_tank_divisions
+        completion_reward = {
+            add_tech_bonus = {
+                category = motorized_equipment
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Planning Focus
+    focus = {
+        id = ICH_planning_focus
+        icon = GFX_goal_national_mobilization
+        x = 1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_speed_focus }
+        prerequisite = { focus = ICH_the_indochinese_army }
+        relative_position_id = ICH_the_indochinese_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = cat_grand_battle_plan
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # The General Staff
+    focus = {
+        id = ICH_the_general_staff
+        icon = GFX_focus_RAJ_lions_of_the_great_war
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_planning_focus }
+        relative_position_id = ICH_planning_focus
+        completion_reward = {
+            add_ideas = ICH_general_staff_idea
+        }
+    }
+
+    # Equipment Standardization
+    focus = {
+        id = ICH_equipment_standardization
+        icon = GFX_goal_generic_small_arms
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_general_staff }
+        relative_position_id = ICH_the_general_staff
+        completion_reward = {
+            add_tech_bonus = {
+                category = infantry_weapons
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Reconnaisance Improvements
+    focus = {
+        id = ICH_reconnaissance_improvements
+        icon = GFX_goal_generic_cavalry
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_equipment_standardization }
+        prerequisite = { focus = ICH_modern_doctrines }
+        relative_position_id = ICH_equipment_standardization
+        completion_reward = {
+            add_tech_bonus = {
+                category = recon_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Specialized Equipment Production
+    focus = {
+        id = ICH_specialized_equipment_production
+        icon = GFX_goal_national_arsenal
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_reconnaissance_improvements }
+        relative_position_id = ICH_reconnaissance_improvements
+        completion_reward = {
+            add_ideas = ICH_dedicated_weapons_factories
+        }
+    }
+
+    # Army Engineers
+    focus = {
+        id = ICH_army_engineers
+        icon = GFX_goal_army_guy_2
+        x = 3
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_planning_focus }
+        relative_position_id = ICH_planning_focus
+        completion_reward = {
+            add_tech_bonus = {
+                category = engineers_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Modern Doctrines
+    focus = {
+        id = ICH_modern_doctrines
+        icon = GFX_goal_generic_army_doctrines
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_army_engineers }
+        relative_position_id = ICH_army_engineers
+        completion_reward = {
+            add_tech_bonus = {
+                category = land_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Artillery Modernization
+    focus = {
+        id = ICH_artillery_modernization
+        icon = GFX_goal_generic_army_artillery2
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = {
+            focus = ICH_speed_focus
+            focus = ICH_planning_focus
+        }
+        relative_position_id = ICH_the_indochinese_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = artillery
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # A Reformed Army
+    focus = {
+        id = ICH_a_reformed_army
+        icon = GFX_goal_conscription
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_artillery_modernization }
+        relative_position_id = ICH_artillery_modernization
+        completion_reward = {
+            add_ideas = ICH_the_indochinese_army
+        }
+    }
+
+    #############################################
+    #                                           #
+    #                   COMMIE                  #
+    #                                           #
+    #############################################
+
+    # The First Worker's Congress
+    focus = {
+        id = ICH_first_workers_congress
+        icon = GFX_goal_red_star_green_wreath
+        x = 23
+        y = 0
+        cost = 10
+        available = { has_country_flag = ICH_WORKERS_VICTORY_FLAG }
+        prerequisite = { focus = ICH_workers_victory }
+        select_effect = {
+            country_event = {
+                id = ich.7 days = 0
+            }
+        }
+        completion_reward = { custom_effect_tooltip = ICH_first_workers_congress_tt }
+    }
+
+    # Socialist Economy
+    focus = {
+        id = ICH_socialist_economy
+        icon = GFX_goal_ideology_radical_socialist
+        x = -4
+        y = 1
+        cost = 1
+        available = { has_country_flag = ICH_SOCIALIST_POLICY_FLAG }
+        mutually_exclusive = { focus = ICH_marxist_economy }
+        mutually_exclusive = { focus = ICH_vanguardist_economy }
+        prerequisite = { focus = ICH_first_workers_congress }
+        relative_position_id = ICH_first_workers_congress
+        completion_reward = {
+            add_popularity = {
+                ideology = revolutionary_socialist
+                popularity = 0.15
+            }
+        }
+    }
+
+    # Industrial Unionism
+    focus = {
+        id = ICH_industrial_unionism
+        icon = GFX_goal_economic_control
+        x = -1
+        y = 1
+        cost = 5 
+        prerequisite = { focus = ICH_socialist_economy }
+        relative_position_id = ICH_socialist_economy
+        completion_reward = {
+            add_ideas = ICH_empowered_worker_unions
+        }
+    }
+
+    # Agricultural Unions
+    focus = {
+        id = ICH_agricultural_unions
+        icon = GFX_goal_Workers_Paradise
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_industrial_unionism }
+        relative_position_id = ICH_industrial_unionism
+        completion_reward = {
+            add_ideas = ICH_farmer_unions
+        }
+    }
+
+    # Worker's Cooperatives
+    focus = {
+        id = ICH_workers_cooperatives
+        icon = GFX_goal_syndicalist_industry
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_socialist_economy }
+        relative_position_id = ICH_socialist_economy
+        completion_reward = {
+            add_ideas = ICH_workers_cooperatives
+        }
+    }
+
+    # Industrial Democracy
+    focus = {
+        id = ICH_industrial_democracy
+        icon = GFX_goal_workers_rights
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_workers_cooperatives }
+        relative_position_id = ICH_workers_cooperatives
+        completion_reward = {
+            add_stability = 0.15
+            add_war_support = 0.05
+        }
+    }
+
+    # Orthodox Syndicalism
+    focus = {
+        id = ICH_orthodox_syndicalism
+        icon = GFX_goal_red_star_dove
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = ICH_agricultural_unions }
+        prerequisite = { focus = ICH_industrial_democracy }
+        relative_position_id = ICH_socialist_economy
+        completion_reward = {
+            remove_ideas = ICH_sick_man_of_asia
+        }
+    }
+
+    # Marxist Economy
+    focus = {
+        id = ICH_marxist_economy
+        icon = GFX_goal_ideology_syndicalist
+        x = 0
+        y = 1
+        cost = 1
+        available = { has_country_flag = ICH_MARXIST_POLICY_FLAG }
+        mutually_exclusive = { focus = ICH_vanguardist_economy }
+        mutually_exclusive = { focus = ICH_socialist_economy }
+        prerequisite = { focus = ICH_first_workers_congress }
+        relative_position_id = ICH_first_workers_congress
+        completion_reward = {
+            add_popularity = {
+                ideology = orthodox_marxist
+                popularity = 0.15
+            }
+        }
+    }
+    
+    # Resource Nationalization
+    focus = {
+        id = ICH_resource_nationalization 
+        icon = GFX_goal_generic_oil_refinery
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_marxist_economy }
+        relative_position_id = ICH_marxist_economy
+        completion_reward = {
+            add_ideas = ICH_nationalized_resource
+        }
+    }
+
+    # Collective Farms
+    focus = {
+        id = ICH_collective_farms
+        icon = GFX_focus_AUS_agriculture
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_resource_nationalization }
+        relative_position_id = ICH_resource_nationalization
+        completion_reward = {
+            add_ideas = ICH_collective_farms_idea
+        }
+    }
+
+    # Worker's Self Management
+    focus = {
+        id = ICH_workers_self_management
+        icon = GFX_goal_state_economy
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_marxist_economy }
+        relative_position_id = ICH_marxist_economy
+        completion_reward = {
+            add_stability = 0.15
+            add_war_support = 0.05
+        }
+    }
+
+    # Worker Incentives
+    focus = {
+        id = ICH_worker_incentives
+        icon = GFX_goal_generic_consumer_goods
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_workers_self_management }
+        relative_position_id = ICH_workers_self_management
+        completion_reward = {
+            add_ideas = ICH_worker_incentives_idea
+        }
+    }
+
+    # Centralized Syndicalism
+    focus = {
+        id = ICH_centralized_syndicalism
+        icon = GFX_Socialist_Law
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = ICH_collective_farms }
+        prerequisite = { focus = ICH_worker_incentives }
+        relative_position_id = ICH_marxist_economy
+        completion_reward = {
+            remove_ideas = ICH_sick_man_of_asia
+        }
+    }
+
+    # Vanguardist Economy
+    focus = {
+        id = ICH_vanguardist_economy
+        icon = GFX_goal_ideology_totalist
+        x = 4
+        y = 1
+        cost = 1
+        available = { has_country_flag = ICH_VANGUARDIST_POLICY_FLAG }
+        mutually_exclusive = { focus = ICH_socialist_economy }
+        mutually_exclusive = { focus = ICH_marxist_economy }
+        prerequisite = { focus = ICH_first_workers_congress }
+        relative_position_id = ICH_first_workers_congress
+        completion_reward = {
+            add_popularity = {
+                ideology = vanguardist
+                popularity = 0.15
+            }
+        }
+    }
+
+    # Price Controls
+    focus = {
+        id = ICH_price_controls
+        icon = GFX_goal_generic_neutrality_focus
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_vanguardist_economy }
+        relative_position_id = ICH_vanguardist_economy
+        completion_reward = {
+            add_stability = 0.15
+            add_war_support = 0.05
+        }
+    }
+
+    # State Farms
+    focus = {
+        id = ICH_state_farms
+        icon = GFX_focus_prc_agrarian_socialism
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_price_controls }
+        relative_position_id = ICH_price_controls
+        completion_reward = {
+            add_ideas = ICH_state_farms_idea
+        }
+    }
+
+    # Manage the Unions
+    focus = {
+        id = ICH_manage_the_unions
+        icon = GFX_goal_generic_improve_relations
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_vanguardist_economy }
+        relative_position_id = ICH_vanguardist_economy
+        completion_reward = {
+            add_ideas = ICH_state_unions
+        }
+    }
+
+    # State Quotas
+    focus = {
+        id = ICH_state_quotas
+        icon = GFX_goal_munitions_factories
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_manage_the_unions }
+        relative_position_id = ICH_manage_the_unions
+        completion_reward = {
+            add_ideas = ICH_state_quotas_idea
+        }
+    }
+
+    # Planned Economy
+    focus = {
+        id = ICH_planned_economy
+        icon = GFX_goal_generic_soviet_construction
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = ICH_state_farms }
+        prerequisite = { focus = ICH_state_quotas }
+        relative_position_id = ICH_vanguardist_economy
+        completion_reward = {
+            remove_ideas = ICH_sick_man_of_asia
+        }
+    }
+
+    # Protect the Revolution
+    focus = {
+        id = ICH_protect_the_revolution
+        icon = GFX_goal_revolution_tools
+        x = -2
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_lead_the_revolution }
+        prerequisite = { 
+            focus = ICH_centralized_syndicalism  
+            focus = ICH_orthodox_syndicalism
+        }
+        relative_position_id = ICH_centralized_syndicalism
+        completion_reward = {
+            add_stability = 0.25
+        }
+    }
+
+    # Lead the Revolution
+    focus = {
+        id = ICH_lead_the_revolution
+        icon = GFX_goal_authority
+        x = 2
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_protect_the_revolution }
+        prerequisite = { 
+            focus = ICH_centralized_syndicalism 
+            focus = ICH_planned_economy
+        }
+        relative_position_id = ICH_centralized_syndicalism
+        completion_reward = {
+            add_war_support = 0.25
+        }
+    }
+
+    # Revolutionary Science
+    focus = {
+        id = ICH_revolutionary_science
+        icon = GFX_focus_generic_socialist_science
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = {
+            focus = ICH_protect_the_revolution
+            focus = ICH_lead_the_revolution
+        }
+        relative_position_id = ICH_centralized_syndicalism
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+
+    # Defensive Preparations Commitee
+    focus = {
+        id = ICH_defensive_preparations_commitee
+        icon = GFX_goal_HOL_council_communism
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_protect_the_revolution }
+        relative_position_id = ICH_protect_the_revolution
+        completion_reward = {
+            add_ideas = ICH_dpc_idea
+        }
+    }
+
+    # Federal Security Bureau
+    focus = {
+        id = ICH_federal_security_bureau
+        icon = GFX_goal_NOR_secret_police
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_lead_the_revolution }
+        relative_position_id = ICH_lead_the_revolution
+        completion_reward = {
+            add_ideas = ICH_fsb_idea
+        }
+    }
+
+    # Purge Reactionaries
+    focus = {
+        id = ICH_purge_reactionaries
+        icon = GFX_goal_backstab
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_revolutionary_science }
+        prerequisite = {
+            focus = ICH_federal_security_bureau
+            focus = ICH_defensive_preparations_commitee
+        }
+        relative_position_id = ICH_revolutionary_science
+        completion_reward = {
+            remove_ideas = ICH_unstable_state
+            add_timed_idea = {
+                idea = ICH_purge_the_reactionaries
+                days = 360
+            }
+        }
+    }
+
+    # Join the Internationale
+    focus = {
+        id = ICH_join_the_internationale
+        icon = GFX_focus_chi_reach_out_to_france
+        x = -1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_on_our_own }
+        available = {
+            FRA = {
+                is_faction_leader = yes
+            }
+            is_subject = no
+            has_socialist_government = yes
+        }
+        prerequisite = { focus = ICH_purge_reactionaries }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            FRA = {
+                country_event = { id = ich.9 days = 1 }
+            }
+        }
+    }
+
+    # On Our Own
+    focus = {
+        id = ICH_on_our_own
+        icon = GFX_focus_generic_join_comintern
+        x = 1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = ICH_on_our_own }
+        available = {
+            is_in_faction = no
+            is_subject = no
+            has_socialist_government = yes
+        }
+        prerequisite = { focus = ICH_purge_reactionaries }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            set_rule = {
+                can_create_factions = yes
+            }
+            create_faction = asian_solidarity_union
+        }
+    }
+
+    # Support our Comrades in Siam
+    focus = {
+        id = ICH_support_our_comrades_in_siam
+        icon = GFX_goal_flag_siam
+        x = -3
+        y = 2
+        cost = 10
+        mutually_exclusive = { focus = ICH_liberate_siam }
+        available = {
+            SIA = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            SIA = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            }
+        }
+        prerequisite = { 
+            focus = ICH_join_the_internationale
+            focus = ICH_on_our_own
+        }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            SIA = {
+                set_country_flag = ICH_COUP_ALLOWED_FLAG
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = ICH_prepare_coup
+                }
+            }
+        }
+    }
+
+    # Liberate Siam
+    focus = {
+        id = ICH_liberate_siam
+        icon = GFX_goal_JAP_target_siam
+        x = -1
+        y = 2
+        cost = 10
+        mutually_exclusive = { focus = ICH_support_our_comrades_in_siam }
+        available = {
+            SIA = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            SIA = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            }
+        }
+        prerequisite = { 
+            focus = ICH_join_the_internationale
+            focus = ICH_on_our_own
+        }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = SIA
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "SIA"
+                value = 200
+            }
+        }
+    }
+
+    # Support our Comrades in the Philippines
+    focus = {
+        id = ICH_support_our_comrades_in_the_philippines
+        icon = GFX_goal_flag_phillipines
+        x = 3
+        y = 2
+        cost = 10
+        mutually_exclusive = { focus = ICH_liberate_the_philippines }
+        prerequisite = { 
+            focus = ICH_join_the_internationale
+            focus = ICH_on_our_own
+        }
+        available = {
+            PHI = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            PHI = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            } 
+        }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            PHI = {
+                set_country_flag = ICH_COUP_ALLOWED_FLAG
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = ICH_prepare_coup
+                }
+            }
+        }
+    }
+
+    # Liberate the Philippines
+    focus = {
+        id = ICH_liberate_the_philippines
+        icon = GFX_goal_JAP_target_phillipines
+        x = 1
+        y = 2
+        cost = 10
+        mutually_exclusive = { focus = ICH_support_our_comrades_in_the_philippines }
+        prerequisite = { 
+            focus = ICH_join_the_internationale
+            focus = ICH_on_our_own
+        }
+        available = {
+            PHI = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            PHI = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            }
+        }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = PHI
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "PHI"
+                value = 200
+            }
+        }
+    }
+
+    # Destablize the Raj
+    focus = {
+        id = ICH_destablize_the_raj
+        icon = GFX_focus_RAJ_seek_help_from_soviet
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = ICH_liberate_siam
+            focus = ICH_support_our_comrades_in_siam
+        }
+        available = {
+            RAJ = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            RAJ = {
+                OR = {
+                    exists = no
+                    is_subject_of = ICH
+                    is_in_faction_with = ICH
+                }
+            }
+        }
+        relative_position_id = ICH_liberate_siam
+        completion_reward = {
+            RAJ = {
+                set_country_flag = ICH_COUP_ALLOWED_FLAG
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = ICH_prepare_coup
+                }
+            }
+        }
+    }
+
+    # Destablize the East Indies
+    focus = {
+        id = ICH_destablize_the_east_indies
+        icon = GFX_focus_jap_strike_south
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = ICH_liberate_the_philippines
+            focus = ICH_support_our_comrades_in_the_philippines
+        }
+        available = {
+            INS = {
+                exists = yes
+                NOT = { is_subject_of = ICH }
+            }
+        }
+        bypass = {
+            INS = {
+                exists = no
+                is_subject_of = ICH
+                is_in_faction_with = ICH
+            }
+        }
+        relative_position_id = ICH_liberate_the_philippines
+        completion_reward = {
+            INS = {
+                set_country_flag = ICH_COUP_ALLOWED_FLAG
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = ICH_prepare_coup
+                }
+            }
+        }
+    }
+
+    # Bastion of Socialism
+    focus = {
+        id = ICH_bastion_of_socialism
+        icon = GFX_goal_NOR_syndicalist
+        x = 0
+        y = 4
+        cost = 10
+        prerequisite = { focus = ICH_destablize_the_raj }
+        prerequisite = { focus = ICH_destablize_the_east_indies }
+        relative_position_id = ICH_purge_reactionaries
+        completion_reward = {
+            add_ideas = ICH_bastion_of_socialism_idea
+        }
+    }
+
+    #############################################
+    #                                           #
+    #                  SOC-DEM                  #
+    #                                           #
+    #############################################
+
+    # The Status Quo Prevails
+    focus = {
+        id = ICH_the_status_quo_prevails
+        icon = GFX_goal_ideology_social_democrat
+        x = 32
+        y = 0
+        cost = 0
+        available = { has_country_flag = ICH_SOC_DEM_VICTORY_FLAG }
+    }
+
+    # Ban the ICP
+    focus = {
+        id = ICH_ban_the_icp
+        icon = GFX_goal_anti_comintern_pact
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_status_quo_prevails }
+        relative_position_id = ICH_the_status_quo_prevails
+        completion_reward = {
+            add_popularity = {
+                ideology = vanguardist
+                popularity = -0.25
+            }
+            add_popularity = {
+                ideology = orthodox_marxist
+                popularity = -0.25
+            }
+            add_popularity = {
+                ideology = revolutionary_socialist
+                popularity= -0.25
+            }
+        }
+    }
+
+    # Banking Reforms
+    focus = {
+        id = ICH_banking_reforms
+        icon = GFX_goal_government_icon
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_status_quo_prevails }
+        relative_position_id = ICH_the_status_quo_prevails
+        completion_reward = {
+            add_ideas = ICH_stable_currency
+        }
+    }
+    
+    # Pass the Labour Act
+    focus = {
+        id = ICH_pass_the_labour_act
+        icon = GFX_goal_production
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_status_quo_prevails }
+        relative_position_id = ICH_the_status_quo_prevails
+        completion_reward = {
+            add_stability = 0.15
+            add_war_support = 0.15
+        }
+    }
+
+    # Deals with Businesses
+    focus = {
+        id = ICH_deals_with_businesses
+        icon = GFX_goal_gold_reserve
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_banking_reforms }
+        relative_position_id = ICH_banking_reforms
+        completion_reward = {
+            add_ideas = ICH_corporate_agreements
+        }
+    }
+
+    # Deals with the Unions
+    focus = {
+        id = ICH_deals_with_the_unions
+        icon = GFX_goal_red_star_dove
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_banking_reforms }
+        relative_position_id = ICH_banking_reforms
+        completion_reward = {
+            add_ideas = ICH_union_agreements
+        }
+    }
+
+    # Commitee on State Security
+    focus = {
+        id = ICH_commitee_on_state_security
+        icon = GFX_goal_secret_agents
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = ICH_ban_the_icp }
+        relative_position_id = ICH_ban_the_icp
+        completion_reward = {
+            add_ideas = ICH_commitee_on_state_security_idea
+        }
+    }
+
+    # Economic Recovery Act
+    focus = {
+        id = ICH_economic_recovery_act
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 2
+        cost = 5
+        prerequisite = { focus = ICH_deals_with_businesses }
+        prerequisite = { focus = ICH_deals_with_the_unions }
+        relative_position_id = ICH_banking_reforms
+        completion_reward = {
+            remove_ideas = ICH_sick_man_of_asia
+        }
+    }
+
+    # Free Education
+    focus = {
+        id = ICH_free_education
+        icon = GFX_focus_research
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = ICH_pass_the_labour_act }
+        relative_position_id = ICH_pass_the_labour_act
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+
+    # Stand for Democracy
+    focus = {
+        id = ICH_stand_for_democracy
+        icon = GFX_goal_Centralised_Government
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_economic_recovery_act }
+        prerequisite = { focus = ICH_free_education }
+        prerequisite = { focus = ICH_commitee_on_state_security }
+        relative_position_id = ICH_economic_recovery_act
+        completion_reward = {
+            remove_ideas = ICH_unstable_state
+            add_ideas = ICH_democratic_defense
+        }
+    }
+        
+    #############################################
+    #                                           #
+    #                  LIBERAL                  #
+    #                                           #
+    #############################################
+
+    # A New Administration
+    focus = {
+        id = ICH_a_new_administration
+        icon = GFX_goal_ideology_social_liberal
+        x = 38
+        y = 0
+        cost = 0
+        available = { has_country_flag = ICH_SOC_LIB_VICTORY_FLAG }
+    }
+
+    # Judiciary Reforms
+    focus = {
+        id = ICH_judiciary_reforms
+        icon = GFX_goal_DOM_The_Trial
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_a_new_administration }
+        relative_position_id = ICH_a_new_administration
+        completion_reward = {
+            add_stability = 0.15
+            add_war_support = 0.15
+        }
+    }
+
+    # Guarantee Basic Rights
+    focus = {
+        id = ICH_guarantee_basic_rights
+        icon = GFX_focus_generic_self_management
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_a_new_administration }
+        relative_position_id = ICH_a_new_administration
+        completion_reward = {
+            add_popularity = {
+                ideology = social_liberal
+                popularity = 0.15
+            }
+        }
+    }
+    
+    # Women's Sufferage
+    focus = {
+        id = ICH_womens_sufferage
+        icon = GFX_goal_DOM_End_Judicial_Corruption
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_a_new_administration }
+        relative_position_id = ICH_a_new_administration
+        completion_reward = {
+            add_ideas = ICH_womens_rights
+            set_rule = {
+				can_generate_female_aces = yes
+			}
+        }
+    }
+
+    # Tax Reforms
+    focus = {
+        id = ICH_tax_reforms
+        icon = GFX_goal_bag_of_money
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_guarantee_basic_rights }
+        relative_position_id = ICH_guarantee_basic_rights
+        completion_reward = {
+            add_ideas = ICH_stable_currency
+        }
+    }
+
+    # Labour Reforms
+    focus = {
+        id = ICH_labour_reforms
+        icon = GFX_goal_munitions_factories
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_guarantee_basic_rights }
+        relative_position_id = ICH_guarantee_basic_rights
+        completion_reward = {
+            add_ideas = ICH_workers_rights
+        }
+    }
+
+    # Kickstart the Economy
+    focus = {
+        id = ICH_kickstart_the_economy
+        icon = GFX_focus_generic_industry_3
+        x = 0
+        y = 2
+        cost = 5
+        prerequisite = { focus = ICH_labour_reforms }
+        prerequisite = { focus = ICH_tax_reforms }
+        relative_position_id = ICH_guarantee_basic_rights
+        completion_reward = {
+            remove_ideas = ICH_sick_man_of_asia
+        }
+    }
+
+    # Research Incentives
+    focus = {
+        id = ICH_research_incentives
+        icon = GFX_goal_double_research
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = ICH_judiciary_reforms }
+        relative_position_id = ICH_judiciary_reforms
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+
+    # Union Ties
+    focus = {
+        id = ICH_union_ties
+        icon = GFX_goal_red_star_gold_wreath
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = ICH_womens_sufferage }
+        relative_position_id = ICH_womens_sufferage
+        completion_reward = {
+            add_stability = 0.05
+            add_war_support = 0.05
+        }
+    }
+
+    # A Liberal Indochina
+    focus = {
+        id = ICH_a_liberal_indochina
+        icon = GFX_goal_support_democracy
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_kickstart_the_economy }
+        prerequisite = { focus = ICH_union_ties }
+        prerequisite = { focus = ICH_research_incentives }
+        relative_position_id = ICH_kickstart_the_economy
+        completion_reward = {
+            remove_ideas = ICH_unstable_state
+            add_ideas = ICH_democratic_defense
+        }
+    }
+
+    #############################################
+    #                                           #
+    #                 AUTH-DEM                  #
+    #                                           #
+    #############################################
+
+    # The Army in Power
+    focus = {
+        id = ICH_the_army_in_power
+        icon = GFX_goal_ideology_authoritarian_democrat
+        x = 44
+        y = 0
+        cost = 0
+        available = { has_country_flag = ICH_ARMY_COUP_FLAG }
+    }
+
+    # Purge the Red Menace
+    focus = {
+        id = ICH_purge_the_red_menace
+        icon = GFX_goal_backstab
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_army_in_power }
+        relative_position_id = ICH_the_army_in_power
+        completion_reward = {
+            add_ideas = ICH_red_purge
+        }
+    }
+
+    # Indochinese Militarism
+    focus = {
+        id = ICH_indochinese_militarism
+        icon = GFX_goal_army_guy_2
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_army_in_power }
+        relative_position_id = ICH_the_army_in_power
+        completion_reward = {
+            add_ideas = ICH_indochinese_militarism_idea
+        }
+    }
+
+    # State Sponsored Education
+    focus = {
+        id = ICH_state_sponsored_education
+        icon = GFX_focus_research
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_the_army_in_power }
+        relative_position_id = ICH_the_army_in_power
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+
+    # Corporate Alliance
+    focus = {
+        id = ICH_corporate_alliance
+        icon = GFX_goal_tripartite_pact
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_indochinese_militarism }
+        relative_position_id = ICH_indochinese_militarism
+        completion_reward = {
+            add_ideas = ICH_corporate_economy
+        }
+    }
+
+    # Loyal Officers
+    focus = {
+        id = ICH_loyal_officers
+        icon = GFX_focus_generic_military_mission
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = ICH_indochinese_militarism }
+        relative_position_id = ICH_indochinese_militarism
+        completion_reward = {
+            army_experience = 15
+            air_experience = 15
+            navy_experience = 15
+            add_popularity = {
+                popularity = 0.15
+                ideology = authoritarian_democrat
+            }
+        }
+    }
+
+    # Ban the Unions
+    focus = {
+        id = ICH_ban_the_unions
+        icon = GFX_goal_revolution_tools
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = ICH_purge_the_red_menace }
+        relative_position_id = ICH_purge_the_red_menace
+        completion_reward = {
+            add_ideas = ICH_banned_unions
+        }
+    }
+
+    # Secret Police
+    focus = {
+        id = ICH_secret_police
+        icon = GFX_goal_secret_agents
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = ICH_state_sponsored_education }
+        relative_position_id = ICH_state_sponsored_education
+        completion_reward = {
+            add_ideas = ICH_commitee_on_state_security_idea
+        }
+    }
+
+    # Leave the Business to the Businessmen
+    focus = {
+        id = ICH_leave_the_business_to_the_businessmen
+        icon = GFX_goal_generic_forceful_treaty
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = ICH_corporate_alliance }
+        prerequisite = { focus = ICH_loyal_officers }
+        relative_position_id = ICH_indochinese_militarism
+        completion_reward = {
+            remove_ideas = ICH_sick_man_of_asia
+        }
+    }
+
+    # Centralized Power
+    focus = {
+        id = ICH_centralized_power
+        icon = GFX_goal_authoritarian
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = ICH_ban_the_unions }
+        prerequisite = { focus = ICH_secret_police }
+        prerequisite = { focus = ICH_leave_the_business_to_the_businessmen }
+        relative_position_id = ICH_indochinese_militarism
+        completion_reward = {
+            remove_ideas = ICH_unstable_state
+            add_stability = 0.15
+            add_war_support = 0.15
+        }
+    }
+
+    #############################################
+    #                                           #
+    #              FOREIGN POLICY               #
+    #                                           #
+    #############################################
+
+    # Seeking New Friends
+    focus = {
+        id = ICH_seeking_new_friends
+        icon = GFX_goal_generic_national_unity
+        x = 0
+        y = 2
+        cost = 3
+        prerequisite = {
+            focus = ICH_stand_for_democracy
+            focus = ICH_a_liberal_indochina
+            focus = ICH_centralized_power
+        }
+        relative_position_id = ICH_a_liberal_indochina
+        completion_reward = {
+            add_political_power = 150
+        }
+    }
+
+    # Tokyo
+    focus = {
+        id = ICH_tokyo_focus
+        icon = GFX_goal_japan
+        x = -4
+        y = 1
+        cost = 2
+        available = {
+            JAP = {
+                is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
+            }
+            is_in_faction = no
+            is_subject = no
+        }
+        prerequisite = { focus = ICH_seeking_new_friends }
+        relative_position_id = ICH_seeking_new_friends
+        completion_reward = {
+            JAP = {
+                country_event = { id = ich.10 days = 1 }
+            }
+        }
+    }
+
+    # London
+    focus = {
+        id = ICH_london_focus
+        icon = GFX_goal_united_kingdom
+        x = 0
+        y = 1
+        cost = 2
+        available = {
+            ENG = {
+                is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
+            }
+            is_in_faction = no
+            is_subject = no
+            has_democratic_government = yes
+        }
+        prerequisite = { focus = ICH_seeking_new_friends }
+        relative_position_id = ICH_seeking_new_friends
+        completion_reward = {
+            ENG = {
+                country_event = { id = ich.11 days = 1 }
+            }
+        }
+    }
+
+    # Berlin
+    focus = {
+        id = ICH_berlin_focus
+        icon = GFX_goal_germany
+        x = 4
+        y = 1
+        cost = 2
+        available = {
+            GER = {
+                is_faction_leader = yes
+                NOT = { has_war_with = ROOT }
+            }
+            is_in_faction = no
+            is_subject = no
+        }
+        prerequisite = { focus = ICH_seeking_new_friends }
+        relative_position_id = ICH_seeking_new_friends
+        completion_reward = {
+            GER = {
+                country_event = { id = ich.12 days = 1 }
+            }
+        }
+    }
+
+    # Trade with Japan
+    focus = {
+        id = ICH_trade_with_japan
+        icon = GFX_focus_chi_collaboration_with_the_japanese
+        x = 0
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = JAP
+        }
+        prerequisite = { focus = ICH_tokyo_focus }
+        relative_position_id = ICH_tokyo_focus
+        completion_reward = {
+            add_ideas = ICH_japanese_trade
+        }
+    }
+
+    # Trade with Britain
+    focus = {
+        id = ICH_trade_with_britain
+        icon = GFX_focus_chi_british_cooperation
+        x = 0
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = ENG
+        }
+        prerequisite = { focus = ICH_london_focus }
+        relative_position_id = ICH_london_focus
+        completion_reward = {
+            add_ideas = ICH_british_trade
+        }
+    }
+
+    # Trade with Germany
+    focus = {
+        id = ICH_trade_with_germany
+        icon = GFX_focus_chi_mission_to_germany
+        x = 0
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = GER
+        }
+        prerequisite = { focus = ICH_berlin_focus }
+        relative_position_id = ICH_berlin_focus
+        completion_reward = {
+            add_ideas = ICH_german_trade
+        }
+    }
+
+    # Japanese Air Advisors
+    focus = {
+        id = ICH_air_advisors
+        icon = GFX_focus_jap_zero
+        x = -2
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = JAP
+        }
+        prerequisite = { focus = ICH_tokyo_focus }
+        relative_position_id = ICH_tokyo_focus
+        completion_reward = {
+            add_ideas = ICH_japanese_advisors
+        }
+    }
+
+    # Request Assistance on the Navy
+    focus = {
+        id = ICH_request_assistance_on_the_navy
+        icon = GFX_goal_generic_sea_focused_navy
+        x = -2
+        y = 1
+        cost = 5
+        available = {
+            OR = {
+                is_in_faction_with = JAP
+                is_in_faction_with = ENG
+            }
+        }
+        prerequisite = { 
+            focus = ICH_tokyo_focus
+            focus = ICH_london_focus
+        }
+        relative_position_id = ICH_london_focus
+        completion_reward = {
+            add_timed_idea = {
+                idea = ICH_naval_financing
+                days = 960
+            }
+        }
+    }
+
+    # Tank Modernization
+    focus = {
+        id = ICH_tank_modernization
+        icon = GFX_focus_generic_license_production
+        x = 2
+        y = 1
+        cost = 5
+        available = {
+            OR = {
+                is_in_faction_with = ENG
+                is_in_faction_with = GER
+            }
+        }
+        prerequisite = {
+            focus = ICH_london_focus
+            focus = ICH_berlin_focus
+        }
+        relative_position_id = ICH_london_focus
+        completion_reward = {
+            add_tech_bonus = {
+                technology = armor
+                bonus = 2.0
+                uses = 2
+            }
+        }
+    }
+
+    # German Advisors
+    focus = {
+        id = ICH_german_advisors
+        icon = GFX_focus_generic_military_mission
+        x = 2
+        y = 1
+        cost = 5
+        available = {
+            is_in_faction_with = GER
+        }
+        prerequisite = { focus = ICH_berlin_focus }
+        relative_position_id = ICH_berlin_focus
+        completion_reward = {
+            add_ideas = ICH_german_advisors_idea
+        }
+    }
+
+    # Southern Expedition
+    focus = {
+        id = ICH_southern_expedition
+        icon = GFX_focus_attack_britain
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_trade_with_japan }
+        prerequisite = { focus = ICH_air_advisors }
+        prerequisite = { focus = ICH_request_assistance_on_the_navy }
+        relative_position_id = ICH_trade_with_japan
+        completion_reward = {
+            create_wargoal = {
+                type = take_state_focus
+                target = ENG
+                generator = { 333 336 }
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = "ENG"
+                value = 200
+            }
+        }
+    }
+
+    # Western Expedition
+    focus = {
+        id = ICH_western_expedition
+        icon = YUN_GFX_Goal_The_Siamese_Threat
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_trade_with_britain }
+        prerequisite = { focus = ICH_request_assistance_on_the_navy }
+        prerequisite = { focus = ICH_tank_modernization }
+        relative_position_id = ICH_trade_with_britain
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = SIA
+            }
+            add_ai_strategy = {
+                id = "SIA"
+                value = 200
+                type = conquer
+            }
+        }
+    }
+
+    # Northern Expedition
+    focus = {
+        id = ICH_northern_expedition
+        icon = GFX_focus_attack_china
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = ICH_trade_with_germany }
+        prerequisite = { focus = ICH_tank_modernization }
+        prerequisite = { focus = ICH_german_advisors }
+        relative_position_id = ICH_trade_with_germany
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = GXC
+            }
+            add_ai_strategy = {
+                id = "GXC"
+                type = conquer
+                value = 200
+            }
+        }
+    }
+    
+    # Indochina at the World Stage
+    focus = {
+        id = ICH_indochina_at_the_world_stage
+        icon = GFX_goal_indochina_flag
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = ICH_southern_expedition
+            focus = ICH_western_expedition
+            focus = ICH_northern_expedition
+        }
+        relative_position_id = ICH_western_expedition
+        completion_reward = {
+            add_stability = 0.15
+            add_war_support = 0.15
+            set_major = yes
+        }
+    }
+}

@@ -4,17 +4,7 @@ head_of_government = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Herbert_Samuel_dead }
-					has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Herbert_Samuel_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Herbert_Samuel_hog"
+					has_government = social_liberal
 			}
 			traits = {
 				hog_pragmatic_statesman
@@ -27,18 +17,8 @@ head_of_government = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Clement_Attlee_dead }
-					has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Clement_Attlee_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Clement_Attlee_hog"
-			}
+					has_government = social_democrat
+		    }
 			traits = {
 				hog_naive_optimist
                                 social_democrat
@@ -50,17 +30,7 @@ head_of_government = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Henry_Page_Croft_dead }
-					has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Henry_Page_Croft_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Henry_Page_Croft_hog"
+				has_government = social_conservative
 			}
 			traits = {
 				hog_naive_optimist
@@ -75,17 +45,7 @@ foreign_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = David_Lloyd_George_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = David_Lloyd_George_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_David_Lloyd_George_frm"
+				has_government = social_liberal
 			}
 			traits = {
 				frm_skilled_negotiator
@@ -96,17 +56,7 @@ foreign_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Ernest_Bevin_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Ernest_Bevin_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Ernest_Bevin_frm"
+				has_government = social_democrat
 			}
 			traits = {
 				frm_skilled_negotiator
@@ -117,17 +67,7 @@ foreign_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Anthony_Eden_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Anthony_Eden_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Anthony_Eden_frm"
+				has_government = social_conservative
 			}
 			traits = {
 				frm_skilled_negotiator
@@ -140,17 +80,7 @@ economy_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Isaac_Foot_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Isaac_Foot_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Isaac_Foot_eco"
+				has_government = social_liberal
 			}
 			traits = {
 				eco_laissez_faire_capitalist
@@ -161,17 +91,7 @@ economy_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Herbert_Morrison_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Herbert_Morrison_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Herbert_Morrison_eco"
+				has_government = social_democrat
 			}
 			traits = {
 				eco_laissez_faire_capitalist
@@ -182,17 +102,7 @@ economy_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Kingsley_Wood_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Kingsley_Wood_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Kingsley_Wood_eco"
+				has_government = social_conservative
 			}
 			traits = {
 				eco_laissez_faire_capitalist
@@ -205,17 +115,7 @@ security_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Winston_Churchill_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Winston_Churchill_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Winston_Churchill_sec"
+				has_government = social_liberal
 			}
 			traits = {
 				sec_british_bulldog
@@ -226,17 +126,7 @@ security_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = James_Chuter_Ede_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = James_Chuter_Ede_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_James_Chuter_Ede_sec"
+				has_government = social_democrat
 			}
 			traits = {
 				
@@ -247,17 +137,7 @@ security_minister = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Leo_Amery_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Leo_Amery_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_Leo_Amery_sec"
+				has_government = social_conservative
 			}
 			traits = {
 				
@@ -270,17 +150,7 @@ head_of_intel = {
 				
 			allowed = { original_tag = ENG }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = George_Lambert_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = George_Lambert_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea ENG_George_Lambert_int"
+				has_government = social_liberal
 			}
 			traits = {
 				int_foreign_expert

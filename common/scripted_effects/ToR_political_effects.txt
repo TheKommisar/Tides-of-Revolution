@@ -1,0 +1,9 @@
+# removes all current ministers for the country in scope - no tooltips displayed
+remove_all_ministers = {
+	hidden_effect = {
+		remove_ideas_with_trait = head_of_government
+		remove_ideas_with_trait = foreign_minister
+		remove_ideas_with_trait = economy_minister
+		remove_ideas_with_trait = security_minister
+	}
+}

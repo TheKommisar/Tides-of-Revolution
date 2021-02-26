@@ -1,0 +1,58 @@
+﻿capital = 458
+
+# Starting tech
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_submarine = 1
+	early_destroyer = 1
+	fuel_silos = 1
+}
+
+set_convoys = 20
+
+add_ideas = {
+    GEN_HOG_Ade
+}
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    vanguardist = 10
+    orthodox_marxist = 8
+    revolutionary_socialist = 8
+    social_democrat = 15
+    social_liberal = 15
+    classic_liberal = 0
+    social_conservative = 12
+    authoritarian_democrat = 24
+    paternal_autocrat = 8
+    national_populist = 0
+}
+
+create_country_leader = {
+	name = "Ahmad II"
+	picture = "Ahmad_II_of_Tunis.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Ahmad II"
+	picture = "Ahmad_II_of_Tunis.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}

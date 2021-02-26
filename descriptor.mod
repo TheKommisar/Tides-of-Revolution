@@ -1,4 +1,5 @@
 version="0.1"
+replace_path="common/ideas"
 replace_path="events"
 replace_path="history/states"
 tags={
@@ -8,4 +9,4 @@ tags={
 	"Gameplay"
 }
 name="Tides of Revolution"
-supported_version="1.9.3"
+supported_version="1.10.*"

@@ -28,9 +28,14 @@ spriteTypes = {
 #Ministers
 
 	spriteType = {
-		name = "GFX_idea_GER_Ernst_Junger_hog"
-		texturefile = "gfx/interface/ideas/GER/ministers/GER_Ernst_Junger.tga"
+		name = "GFX_idea_GER_Erich_Ludendorff_hog"
+		texturefile = "gfx/interface/ideas/GER/ministers/GER_Erich_Ludendorff.tga"
 	}
+
+#	spriteType = {
+#		name = "GFX_idea_GER_Ernst_Junger_hog"
+#		texturefile = "gfx/interface/ideas/GER/ministers/GER_Ernst_Junger.tga"
+#	}
      
         spriteType = {
 		name = "GFX_idea_GER_Konstantin_Neurath_frm"

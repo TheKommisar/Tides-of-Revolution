@@ -62,8 +62,8 @@ ROM_vanguardist_ADJ:0 "Romanian"
 
 #Ideas
 ROM_new_order:0 "The New Order"
-ROM_greater_romania:0 "Greater Romanian Ambition"
-ROM_treaty_of_bucharest:0 "Treaty of Bucharest"
+ROM_new_order_desc:0 "placeholder"
+
 
 #Ministers
 #should be reintegrated

@@ -1,0 +1,27 @@
+#MEXICAN EVENTS
+
+add_namespace = mexico
+
+country_event = { #founding of the PNR in cuba
+    id = cuba.1
+    title = cuba.1.t    
+    desc = cuba.1.d
+
+    picture = GFX_report_event_italy_palace
+    
+    fire_only_once = yes
+  
+    trigger = { 
+          tag = MEX
+          has_country_flag = serrano_victory
+    }
+
+    option = {
+		name = "Just a bunch of rabble-rousers."
+                set_country_flag = pnr_founded_cuba  
+		CUB = {
+			country_event = cuba.1
+		}
+    }
+
+}

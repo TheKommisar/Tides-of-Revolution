@@ -1,0 +1,62 @@
+ideas = {
+
+	country = {
+		CUB_extreme_inequality = {
+                        picture = generic_agrarian_society
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.15
+			}
+		}
+                CUB_american_influence = {
+                        picture = LIB_bailout_usa
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				stability_factor = -0.2
+			}
+		}
+                CUB_heavy_corruption = {
+                        picture = generic_disjointed_gov
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			
+			modifier = {
+				political_power_factor = -0.15
+                                production_speed_buildings_factor = -0.2
+                                consumer_goods_factor = 0.10
+			}
+		}
+	}
+}

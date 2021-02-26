@@ -8,10 +8,19 @@ set_technology = {
 	early_fighter = 1
 }
 set_war_support = 0.1
+set_stability = 0.5
 set_convoys = 20
 
+add_ideas = {
+    CUB_extreme_inequality 
+    CUB_american_influence 
+    CUB_heavy_corruption 
+    free_trade
+    limited_conscription
+}
+
 set_politics = {
-	ruling_party = classic_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = no
@@ -22,18 +31,18 @@ set_popularities = {
 	revolutionary_socialist = 3
         social_democrat = 8
         social_liberal = 16
-        classic_liberal = 52
+        classic_liberal = 4
         social_conservative = 7
-        authoritarian_democrat = 4
+        authoritarian_democrat = 52
         paternal_autocrat = 3
         national_populist = 1
 }
 create_country_leader = {
-	name = "José Agripino Barnet"
+	name = "Gerardo Machado"
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "ANCAP_BARNET.tga"
+	picture = "Gerardo_Machado.tga"
 	expire = "1965.1.1"
-	ideology = classic_liberal_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

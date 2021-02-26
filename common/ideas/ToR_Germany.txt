@@ -79,46 +79,29 @@ ideas = {
 		justify_war_goal_time = 1
 			}
 		}
+	}
 head_of_government = {
         GER_Erich_Ludendorff_hog = {
-				
-			allowed = { original_tag = GER }
-			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Erich_Ludendorff_dead }
-					#has_country_flag = can_replace_hog
-				}
+
+            allowed = { original_tag = GER }
+            available = {
+					has_government = paternal_autocrat
 			}
-			visible = {
-				NOT = { has_country_flag = Erich_Ludendorff_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Erich_Ludendorff_hog"
-			}
-			traits = {
-			#
-			}
-			cancel_if_invalid = yes
-		}
-	}
+
+            traits = {
+            #
+            }
+            cancel_if_invalid = yes
+        }
+
+    }
 
 foreign_minister = {
          GER_Konstantin_Neurath_frm = {
 				
 			allowed = { original_tag = GER }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Konstantin_Neurath_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Konstantin_Neurath_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Konstantin_Neurath_frm"
+				has_government = paternal_autocrat
 			}
 			traits = {
 				#
@@ -131,18 +114,9 @@ economy_minister = {
 				
 			allowed = { original_tag = GER }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Alfred_Hugenberg_dead }
-					#has_country_flag = can_replace_hog
-				}
+				has_government = paternal_autocrat
 			}
-			visible = {
-				NOT = { has_country_flag = Alfred_Hugenberg_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Alfred_Hugenberg_eco"
-			}
+			
 			traits = {
 				#
 			}
@@ -154,17 +128,7 @@ security_minister = {
 				
 			allowed = { original_tag = GER }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Otto_Lossow_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Otto_Lossow_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Otto_Lossow_sec"
+				has_government = paternal_autocrat
 			}
 			traits = {
 				#
@@ -177,21 +141,12 @@ head_of_intel = {
 				
 			allowed = { original_tag = GER }
 			available = {
-				custom_trigger_tooltip = {
-					tooltip = minister_available
-					NOT = { has_country_flag = Hans_Frank_dead }
-					#has_country_flag = can_replace_hog
-				}
-			}
-			visible = {
-				NOT = { has_country_flag = Hans_Frank_dead }
-			}
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea GER_Hans_Frank_int"
+				has_government = paternal_autocrat
 			}
 			traits = {
 				int_foreign_expert
 			}
 			cancel_if_invalid = yes
 		}
+}
 }

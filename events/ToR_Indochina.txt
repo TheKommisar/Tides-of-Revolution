@@ -1,0 +1,718 @@
+# Indochinese Events
+# Created by: dax0102
+
+add_namespace = ich
+
+# Intro Event
+country_event = {
+    id = ich.0
+    title = ich.0.t
+    desc = ich.0.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = {
+        name = ich.0.a
+    }
+}
+
+# Elections
+country_event = {
+    id = ich.1
+    title = ich.1.t 
+    desc = ich.1.d
+    picture = GFX_report_event_election_vote
+
+    fire_only_once = yes
+
+	trigger = {
+		tag = ICH
+		date > 1936.8.12
+	}
+    	
+	mean_time_to_happen = {
+		days = 0
+	}
+
+    # SocDem
+    option = {
+        name = ich.1.a
+
+        ai_chance = {
+            factor = 400
+        }
+
+        add_popularity = {
+            ideology = social_democrat
+            popularity = 0.05
+        }
+
+        hidden_effect = {
+            set_country_flag = ICH_SOC_DEM_VICTORY_FLAG
+
+            country_event = { id = ich.2 days = 14 }
+        }
+    }
+
+    # SocLib
+    option = {
+        name = ich.1.b
+
+        set_politics = {
+            ruling_party = social_liberal
+            elections_allowed = yes
+        }
+
+        add_popularity = {
+            ideology = social_liberal
+            popularity = 0.05
+        }
+
+        hidden_effect = {
+            remove_all_ministers = yes
+
+            add_ideas = {
+                ICH_Nguyen_Hai_Than_hog_sli
+                ICH_Sisowath_Monipong_for_sco
+                ICH_Sisowath_Youtevong_eco_cli
+                ICH_Sisowath_Monireth_sec_sco
+            }
+
+            set_country_flag = ICH_SOC_LIB_VICTORY_FLAG
+        }
+    }
+
+    # Commie
+    option = {
+        name = ich.1.c
+
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.15
+        }
+
+        hidden_effect = {
+            set_country_flag = ICH_WORKERS_VICTORY_FLAG
+
+            remove_all_ministers = yes
+
+            add_ideas = {
+                ICH_Ton_Duc_Thang_hog_ort
+                ICH_Duong_Bach_Mai_for_ort
+                ICH_Nguyen_Van_Linh_eco_ort
+                ICH_Le_Hong_Phong_sec_ort
+            }
+
+            set_party_name = { 
+                ideology = revolutionary_socialist
+                name = ICH_revolutionary_socialist_factions
+                long_name = ICH_revolutionary_socialist_factions_long
+            }
+            set_party_name = { 
+                ideology = orthodox_marxist
+                name = ICH_orthodox_marxist_factions
+                long_name = ICH_orthodox_marxist_factions_long
+            }
+            set_party_name = { 
+                ideology = vanguardist
+                name = ICH_vanguardist_factions
+                long_name = ICH_vanguardist_factions_long
+            }
+
+            retire_ideology_leader = vanguardist
+            retire_ideology_leader = revolutionary_socialist
+        }
+    }
+}
+
+# Allegations of Elections Fraud
+country_event = {
+    id = ich.2
+    title = ich.2.t
+    desc = ich.2.d
+    picture = GFX_report_event_communist_leader
+
+    is_triggered_only = yes
+
+    # Let them whine
+    option = {
+        name = ich.2.a
+
+        add_political_power = -150
+        hidden_effect = {
+            country_event = { id = ich.3 days = 7 }
+        }
+    }
+}
+
+# Protests
+country_event = {
+    id = ich.3
+    title = ich.3.t
+    desc = ich.3.d
+    picture = GFX_report_event_worker_protests
+
+    is_triggered_only = yes
+
+    # Send in the security forces
+    option = {
+        name = ich.3.a
+
+        hidden_effect = {
+            country_event = { id = ich.4 days = 21 }
+        }
+    }
+}
+
+# ICP Coup
+country_event = {
+    id = ich.4
+    title = ich.4.t
+    desc = ich.4.d
+    picture = GFX_report_event_german_politician_speech
+
+    is_triggered_only = yes
+
+    # The Army crushed the coup
+    option = {
+        name = ich.4.a
+
+        hidden_effect = {
+            country_event = { id = ich.5 days = 2 }
+        }
+    }
+
+    # The Army joins the coup
+    option = {
+        name = ich.4.b
+
+        hidden_effect = {
+            country_event = { id = ich.6 days = 2 }
+        }
+    }
+}
+
+# The General's Decisions
+country_event = {
+    id = ich.5
+    title = ich.5.t
+    desc = ich.5.d
+    picture = GFX_report_event_german_italian_pact
+
+    is_triggered_only = yes
+
+    # Restore Democracy
+    option = {
+        name = ich.5.a
+
+        add_popularity = {
+            ideology = social_democrat
+            popularity = 0.05
+        }
+
+        add_stability = 0.05
+    }
+
+    # Military Dictatorship
+    option = {
+        name = ich.5.b
+
+        set_politics = {
+            ruling_party = authoritarian_democrat
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = authoritarian_democrat
+            popularity = 0.15
+        }
+
+        hidden_effect = {
+            clr_country_flag = ICH_SOC_DEM_VICTORY_FLAG
+            set_country_flag = ICH_ARMY_COUP_FLAG
+
+            remove_all_ministers = yes
+
+            add_ideas = {
+                ICH_Nguyen_Phuc_Buu_Dinh_hog_pau
+                ICH_Ha_Thuc_Ky_for_ade
+                ICH_Boun_Oum_eco_pau
+                ICH_Nguyen_Ton_Hoan_sec_ade
+            }
+        }
+    }
+}
+
+# ICP Triumphant
+country_event = {
+    id = ich.6
+    title = ich.6.t
+    desc = ich.6.d
+    picture = GFX_report_event_stalin_propaganda
+    
+    is_triggered_only = yes
+
+    # Break the Chains!
+    option = {
+        name = ich.6.a
+
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.05
+        }
+
+        hidden_effect = {
+            clr_country_flag = ICH_SOC_DEM_VICTORY_FLAG
+            set_country_flag = ICH_WORKERS_VICTORY_FLAG
+
+            remove_all_ministers = yes
+            add_ideas = {
+                ICH_Ton_Duc_Thang_hog_ort
+                ICH_Duong_Bach_Mai_for_ort
+                ICH_Nguyen_Van_Linh_eco_ort
+                ICH_Le_Hong_Phong_sec_ort
+            }
+
+            set_party_name = { 
+                ideology = revolutionary_socialist
+                name = ICH_revolutionary_socialist_factions
+                long_name = ICH_revolutionary_socialist_factions_long
+            }
+            set_party_name = { 
+                ideology = orthodox_marxist
+                name = ICH_orthodox_marxist_factions
+                long_name = ICH_orthodox_marxist_factions_long
+            }
+            set_party_name = { 
+                ideology = vanguardist
+                name = ICH_vanguardist_factions
+                long_name = ICH_vanguardist_factions_long
+            }
+
+            retire_ideology_leader = vanguardist
+            retire_ideology_leader = revolutionary_socialist
+        }
+    }
+}
+
+# The First Congress
+country_event = {
+    id = ich.7
+    title = ich.7.t
+    desc = ich.7.d
+    picture = GFX_report_event_fascist_gathering
+
+    is_triggered_only = yes
+
+    # Let the Meeting Commence
+    option = {
+        name = ich.7.a
+
+        hidden_effect = {
+            country_event = { id = ich.8 days = 21 }
+        }
+    }
+}
+
+# The New Premier
+country_event = {
+    id = ich.8
+    title = ich.8.t
+    desc = ich.8.d
+    picture = GFX_report_event_election_vote
+
+    is_triggered_only = yes
+
+    # Ho Chi Minh remains Premier
+    option = {
+        name = ich.8.a
+
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.05
+        }
+
+        hidden_effect = {
+            set_country_flag = ICH_MARXIST_POLICY_FLAG
+        }
+    }
+
+    # Nguyen An Ninh is the new Premier
+    option = {
+        name = ich.8.b
+
+        set_politics = {
+            ruling_party = revolutionary_socialist
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = revolutionary_socialist
+            popularity = 0.15
+        }
+
+        hidden_effect = {
+            set_country_flag = ICH_SOCIALIST_POLICY_FLAG
+
+            remove_all_ministers = yes
+            add_ideas = {
+                ICH_Truong_Thi_Sau_hog_rev
+                ICH_Tran_Van_Giau_for_rev
+                ICH_Ngo_Tan_Nhon_eco_rev
+                ICH_Ta_Dinh_De_sec_rev
+            }
+        }
+    }
+
+    # Pham Van Dong is the new Premier
+    option = {
+        name = ich.8.c
+
+        set_politics = {
+            ruling_party = vanguardist
+            popularity = 0.15
+        }
+
+        add_popularity = {
+            ideology = vanguardist
+            popularity = 0.15
+        }
+
+        hidden_effect = {
+            set_country_flag = ICH_VANGUARDIST_POLICY_FLAG
+
+            remove_all_ministers = yes
+            add_ideas = {
+                ICH_Pham_Hung_hog_van
+                ICH_Xuan_Thuy_for_van
+                ICH_Pham_Van_Dong_eco_van
+                ICH_Tran_Quoc_Hoan_sec_van
+            }
+        }
+    }
+}
+
+# Indochina in the Internationale
+country_event = {
+    id = ich.9
+    title = ich.9.t
+    desc = ich.9.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.9.a
+        FRA = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.9.b
+        hidden_effect = {
+            ICH = {
+                country_event = { id = ich.13 days = 1 }
+            }
+        }
+    }
+}
+
+# Co-Prosperity Sphere
+country_event = {
+    id = ich.10
+    title = ich.10.t
+    desc = ich.10.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.10.a
+        JAP = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.10.b
+        hidden_effect = {
+            ICH = {
+                country_event = { id = ich.13 days = 1 }
+            }
+        }
+    }
+}
+
+# Commonwealth
+country_event = {
+    id = ich.11
+    title = ich.11.t
+    desc = ich.11.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.11.a
+        ENG = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.11.b
+        hidden_effect = {
+            ICH = {
+                country_event = { id = ich.13 days = 1 }
+            }
+        }
+    }
+}
+
+# German Faction
+country_event = {
+    id = ich.12
+    title = ich.12.t
+    desc = ich.12.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.12.a
+
+        GER = {
+            add_to_faction = ICH
+        }
+    }
+
+    option = {
+        name = ich.12.b
+
+        ICH = {
+            country_event = { id = ich.13 days = 1}
+        }
+    }
+}
+
+# Country Rejects
+country_event = {
+    id = ich.13
+    title = ich.13.t
+    desc = ich.13.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.13.a
+    }
+}
+
+# Indochinese Sponsored Coup
+country_event = {
+    id = ich.14
+    title = ich.14.t
+    desc = ich.14.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.14.a
+
+        add_opinion_modifier = {
+            target = ICH
+            modifier = ICH_failed_coup
+        }
+        hidden_effect = {
+            ICH = {
+                country_event = { id = ich.15 days = 1 }
+            }
+        }
+    }
+
+    option = {
+        name = ich.14.b
+        ai_chance = {
+            factor = 50
+
+            # Increase if socialist support is high
+            modifier = {
+                factor = 2
+                OR = {
+                    vanguardist > 0.2
+                    orthodox_marxist > 0.2
+                    revolutionary_socialist > 0.2
+                    democratic_socialist > 0.2
+                }
+            }
+            # Increase if socialists are already in the government
+            modifier = {
+                factor = 10
+                OR = {
+                    has_government = vanguardist
+                    has_government = orthodox_marxist
+                    has_government = revolutionary_socialist
+                    has_government = democratic_socialist
+                }
+            }
+            # Decrease if reactionary support is high
+            modifier = {
+                factor = 0.2
+                OR = {
+                    authoritarian_democrat > 0.2
+                    national_romantic > 0.2
+                    paternal_autocrat > 0.2
+                    national_populist > 0.2
+                }
+            }
+            # Decrease if reactionaries are in the government
+            modifier = {
+                factor = 0.2
+                OR = {
+                    has_government = authoritarian_democrat
+                    has_government = national_populist
+                    has_government = paternal_autocrat
+                    has_government = national_populist
+                }
+            }
+        }
+        set_politics = {
+            ruling_party = orthodox_marxist
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = orthodox_marxist
+            popularity = 0.25
+        }
+    }
+}
+
+# Uprising failed
+country_event = {
+    id = ich.15
+    title = ich.15.t
+    desc = ich.15.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.15.a
+        add_political_power = -10
+    }
+}
+
+# British Malaya Capitulation
+country_event = {
+    id = ich.16
+    title = ich.16.t
+    desc = ich.16.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    trigger = {
+        tag = ICH
+        ICH = { 
+            controls_state = 333
+            controls_state = 336
+            has_war_with = ENG
+        }
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = ich.16.a
+        ENG = {
+            country_event = { id = ich.17 days = 1 }
+        }
+    }
+}
+
+# ENG Proposal
+country_event = {
+    id = ich.17
+    title = ich.17.t
+    desc = ich.17.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    # Accept the offer
+    option = {
+        name = ich.17.a
+        every_country = {
+            limit = {
+                is_in_faction_with = ENG
+                has_war_with = ICH
+            }
+            whitepeace = ICH
+        }
+    }
+    # Reject
+    option = {
+        name = ich.17.b
+        add_war_support = -0.05
+    }
+}
+
+# Invitation to the Faction
+country_event = {
+    id = ich.18
+    title = ich.18.t
+    desc = ich.18.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.18.a
+
+        ICH = {
+            add_to_faction = PREV
+        }
+    }
+    option = {
+        name = ich.18.b
+        ICH = {
+            country_event = { id = ich.19 days = 2 }
+        }
+    }
+}
+
+# From Rejects
+country_event = {
+    id = ich.19
+    title = ich.19.t
+    desc = ich.19.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = ich.19.a
+    }
+}

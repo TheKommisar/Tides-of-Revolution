@@ -5,13 +5,16 @@ ideas = {
 #############
 ### Head of Government
 head_of_government = {
-		GEN_HOG_Van = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Van"}
+	GEN_HOG_Van = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Van"}
 		allowed = {
 			NOT = {
 				OR = {				    
-                                        original_tag = GER
+                    original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -31,13 +34,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 	
-		GEN_HOG_Ort = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Ort"}
+	GEN_HOG_Ort = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Ort"}
 		allowed = {
 			NOT = {
 				OR = {
-				        original_tag = GER
+				    original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -57,13 +63,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 
-                GEN_HOG_Rev = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Rev"}
+    GEN_HOG_Rev = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Rev"}
 		allowed = {
 			NOT = {
 				OR = {
-				        original_tag = GER
+				    original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -84,13 +93,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 	
-		GEN_HOG_Sde = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sde"}
+	GEN_HOG_Sde = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sde"}
 		allowed = {
 			NOT = {
 				OR = {					
 				 	original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -111,13 +123,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 	
-		GEN_HOG_Sli = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sli"}
+	GEN_HOG_Sli = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sli"}
 		allowed = {
 			NOT = {
 				OR = {					
 				 	original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                   	original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -139,13 +154,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 	
-		GEN_HOG_Cli = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Cli"}
+	GEN_HOG_Cli = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Cli"}
 		allowed = {
 			NOT = {
 				OR = {					
 				 	original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -166,13 +184,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 
-		GEN_HOG_Sco = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sco"}
+	GEN_HOG_Sco = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Sco"}
 		allowed = {
 			NOT = {
 				OR = {
 					original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -193,13 +214,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 	
-		GEN_HOG_Ade = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Ade"}
+	GEN_HOG_Ade = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Ade"}
 		allowed = {
 			NOT = {
 				OR = {					
 				 	original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -220,13 +244,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 	
-		GEN_HOG_Pau = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Pau"}
+	GEN_HOG_Pau = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Pau"}
 		allowed = {
 			NOT = {
 				OR = {					
 				 	original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}
@@ -246,13 +273,16 @@ head_of_government = {
 		cancel_if_invalid = no
 	}
 	
-		GEN_HOG_Npo = {#Auto-Generated
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Npo"}
+	GEN_HOG_Npo = {#Auto-Generated
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEN_HOG_Npo"}
 		allowed = {
 			NOT = {
 				OR = {					
 				 	original_tag = GER
 					original_tag = ENG
+					original_tag = ICH
+                    original_tag = USA
+					original_tag = JAP
 				}
 			}
 		}

@@ -1,0 +1,101 @@
+ICH_subversive_operations = {
+    ICH_prepare_coup = {
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = SIA
+                    tag = PHI
+                    tag = RAJ
+                    tag = INS
+                }
+            }
+        }
+        
+        visible = {
+            FROM = { has_country_flag = ICH_COUP_ALLOWED_FLAG }
+        }
+
+        cost = 50
+        days_remove = 180
+        fire_only_once = yes
+        
+        complete_effect = {
+            FROM = {
+                add_ideas = ICH_subversive_operations
+            }
+            set_country_flag = INS_PREPARING_COUP_FLAG
+        }
+
+        remove_effect = {
+            clr_country_flag = INS_PREPARING_COUP_FLAG
+            FROM = {
+                remove_ideas = ICH_subversive_operations
+                set_country_flag = ICH_ONGOING_TARGET_FLAG 
+            }
+        }
+    }
+
+    ICH_ignite_coup = {
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = SIA
+                    tag = PHI
+                    tag = RAJ
+                    tag = INS
+                }
+            }
+        }
+
+        visible = {
+            FROM = { has_country_flag = ICH_ONGOING_TARGET_FLAG }
+        }
+
+        cost = 150
+        days_remove = 120
+        fire_only_once = yes
+
+        remove_effect = {
+            clr_country_flag = INS_ONGOING_TARGET
+            FROM = {
+                country_event = { id = ich.14 days = 1 }
+            }
+        }
+    }
+}
+
+ICH_the_asian_solidarity_union_decisions = {
+    ICH_invite_tag = {
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = SIA
+                    tag = PHI
+                    tag = RAJ
+                    tag = INS
+                }
+            }
+        }
+
+        visible = {
+            FROM = { 
+                is_in_faction = no
+                is_subject = no
+            }
+        }
+
+        available = {
+            FROM = {
+                has_socialist_government = yes
+            }
+        }
+
+        cost = 20
+        
+        complete_effect = {
+            FROM = {
+                country_event = { id = ich.18 days = 2 }
+            }
+        }
+    }
+}

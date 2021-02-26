@@ -1,0 +1,758 @@
+# Japanese Decisions
+# created by: dax0102
+
+JAP_food_shortage_crisis = {
+    JAP_avoiding_the_shortage = {
+        icon = GFX_decision_ger_mefo_bills
+        days_mission_timeout = 360
+        is_good = no
+        selectable_mission = no
+
+        activation = { has_country_flag = JAP_deal_with_the_food_shortage }
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_has_sufficient_food_tt
+                OR = {
+                    check_variable = { japan_imported_food > japan_target_food }
+                    check_variable = { japan_imported_food = japan_target_food }
+                }
+            }
+        }
+
+        timeout_effect = {
+            custom_effect_tooltip = JAP_failed_the_food_shortage_crisis_tt
+            hidden_effect = {
+                add_timed_idea = {
+                    idea = JAP_food_shortages
+                    days = 360
+                }
+                set_country_flag = JAP_failed_the_food_shortage
+                clr_country_flag = JAP_deal_with_the_food_shortage
+            }
+        }
+        complete_effect = {
+            custom_effect_tooltip = JAP_avoided_the_food_shortage_tt
+            set_country_flag = JAP_avoided_the_food_shortage
+            clr_country_flag = JAP_deal_with_the_food_shortage
+            hidden_effect = {
+                country_event = japan.2
+            }
+        }
+    }
+
+    JAP_open_trade = {
+        icon = GFX_decision_hol_exchange_intelligence_data
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = PHI
+                    tag = SIA
+                    tag = ICH
+                    tag = MAN
+                    tag = CHI
+                }
+            }
+        }
+
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+            FROM = {
+                NOT = { has_country_flag = JAP_can_import_food }
+            }
+        }
+
+        available = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+            }
+        }
+
+        complete_effect = {
+            FROM = { country_event = japan.3 }
+        }
+    }
+
+    JAP_import_food = {
+        icon = GFX_decision_hol_attract_foreign_investors
+        days_remove = 14
+        days_re_enable = 30
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = PHI
+                    tag = SIA
+                    tag = ICH
+                    tag = MAN
+                    tag = CHI
+                }
+            }
+        }
+
+        visible = {
+            FROM = {
+                has_country_flag = JAP_can_import_food
+            }
+        }
+
+        available = {   
+            custom_trigger_tooltip = {
+                tooltip = JAP_has_sufficient_funds_tt
+                OR = {
+                    check_variable = { japan_food_cost < japan_food_budget }
+                    check_variable = { japan_food_cost = japan_food_budget }
+                }
+                NOT = { has_country_flag = JAP_currently_importing }
+            }
+        }
+
+        complete_effect = { 
+            set_country_flag = JAP_currently_importing
+            FROM = {
+                add_ideas = JAP_japanese_food_import_payments
+            }
+        }
+
+        remove_effect = {
+            FROM = {
+                remove_ideas = JAP_japanese_food_import_payments
+            }
+            clr_country_flag = JAP_currently_importing
+            custom_effect_tooltip = JAP_remove_from_funds_tt
+            custom_effect_tooltip = JAP_add_imported_food_tt
+            hidden_effect = {
+                subtract_from_variable = {
+                    var = japan_food_budget
+                    value = japan_food_cost
+                }
+                add_to_variable = {
+                    var = japan_imported_food
+                    value = japan_import_amount
+                }
+            }
+        }
+    }
+
+    JAP_suspend_welfare = {
+        icon = GFX_decision_eng_trade_unions_support
+        cost = 20
+        days_remove = 30
+        days_re_enable = 60
+
+        modifier = {
+            stability_weekly_factor = -0.015
+            war_support_weekly_factor = -0.015
+        }
+
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_acquiring_funds_tt
+                NOT = { has_country_flag = JAP_acquiring_funds }
+            }
+        }
+
+        complete_effect = {
+            set_country_flag = JAP_acquiring_funds
+        }
+
+        remove_effect = {
+            clr_country_flag = JAP_acquiring_funds
+            custom_effect_tooltip = JAP_suspend_welfare_tt
+            hidden_effect = {
+                add_to_variable = {
+                    var = japan_food_budget
+                    value = 100
+                }
+            }
+        }
+    }
+
+    JAP_siphon_funds_from_factories = {
+        icon = GFX_decision_ger_military_buildup
+        cost = 20
+        days_remove = 30
+        days_re_enable = 60
+
+        modifier = {
+            consumer_goods_factor = 0.05
+        }
+
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_acquiring_funds_tt
+                NOT = { has_country_flag = JAP_acquiring_funds }
+            }
+        }
+
+        complete_effect = {
+            set_country_flag = JAP_acquiring_funds
+        }
+
+        remove_effect = {
+            clr_country_flag = JAP_acquiring_funds
+            custom_effect_tooltip = JAP_siphon_funds_from_factories_tt
+            hidden_effect = {
+                add_to_variable = {
+                    var = japan_food_budget
+                    value = 150
+                }
+            }
+        }
+    }
+
+    JAP_deprioritize_research = {
+        icon = GFX_decision_generic_research
+        cost = 20
+        days_remove = 30
+        days_re_enable = 60
+
+        modifier = {
+            research_speed_factor = -0.15
+        }
+
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_acquiring_funds_tt
+                NOT = { has_country_flag = JAP_acquiring_funds }
+            }
+        }
+
+
+        complete_effect = {
+            set_country_flag = JAP_acquiring_funds
+        }
+
+        remove_effect = {
+            clr_country_flag = JAP_acquiring_funds
+            custom_effect_tooltip = JAP_deprioritize_research_tt
+            hidden_effect = {
+                add_to_variable = {
+                    var = japan_food_budget
+                    value = 150
+                }
+            }
+        }
+    }
+
+    JAP_decrease_military_budget = {
+        icon = GFX_decision_generic_naval
+        cost = 20
+        days_remove = 30
+        days_re_enable = 60
+
+        modifier = {
+            training_time_factor = 0.15
+            supply_consumption_factor = 0.15
+            planning_speed = 0.15
+        }
+
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_acquiring_funds_tt
+                NOT = { has_country_flag = JAP_acquiring_funds }
+            }
+        }
+
+        complete_effect = {
+            set_country_flag = JAP_acquiring_funds
+        }
+
+        remove_effect = {
+            clr_country_flag = JAP_acquiring_funds
+            custom_effect_tooltip = JAP_decrease_military_budget_tt
+            hidden_effect = {
+                add_to_variable = {
+                    var = japan_food_budget
+                    value = 150
+                }
+            }
+        }
+    }
+
+    JAP_increase_corporate_taxes = {
+        icon = GFX_decision_eng_trade_unions_support
+        cost = 20
+        days_remove = 30
+        days_re_enable = 60
+
+        modifier = {
+            industrial_capacity_factory = -0.15
+            industrial_capacity_dockyard = -0.15
+        }
+
+        visible = {
+            has_country_flag = JAP_deal_with_the_food_shortage
+        }
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_acquiring_funds_tt
+                NOT = { has_country_flag = JAP_acquiring_funds }
+            }
+        }
+
+        complete_effect = {
+            set_country_flag = JAP_acquiring_funds
+        }
+
+        remove_effect = {
+            clr_country_flag = JAP_acquiring_funds
+            custom_effect_tooltip = JAP_increase_corporate_taxes_tt
+            hidden_effect = {
+                add_to_variable = {
+                    var = japan_food_budget
+                    value = 150
+                }
+            }
+        }
+    }
+}
+
+JAP_hydroelectricity_decisions = {
+    JAP_kanto_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            282 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            282 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_kyushu_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            528 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            528 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_tohoku_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            533 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            533 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_tokai_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            532 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            532 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_koshinetsu_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            535 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            535 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_hokkaido_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            536 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            536 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_chugoku_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            529 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            529 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    JAP_kansai_hydroelectricity = {
+        icon = generic_construction
+        days_remove = 60
+        cost = 20
+        fire_only_once = yes
+
+        visible = {
+            531 = { is_owned_and_controlled_by = ROOT }
+        }
+
+        remove_effect = {
+            531 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+    }
+}
+
+JAP_extending_our_influence = {
+    JAP_state_visit = {
+        icon = GFX_decision_generic_political_discourse
+        cost = 150
+        days_remove = 50
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = PHI
+                    tag = ICH
+                    tag = MAL
+                    tag = INS
+                    tag = SIA
+                }
+            }
+        }
+
+        visible = {
+            country_exists = FROM
+            FROM = {
+                NOT = { has_war_with = ROOT }
+                NOT = { is_subject_of = ROOT }
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+
+        remove_effect = {
+            FROM = { 
+                set_country_flag = JAP_state_visit_from_japan
+                add_opinion_modifier = {
+                    target = ROOT
+                    modifier = JAP_state_visit
+                }
+            }
+        }
+    }
+
+    JAP_propose_investments = {
+        icon = GFX_decision_hol_attract_foreign_investors   
+        cost = 100
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = PHI
+                    tag = ICH
+                    tag = INS
+                    tag = MAL
+                    tag = SIA
+                }
+            }
+        }
+
+        visible = {
+            FROM = { has_country_flag = JAP_state_visit }
+        }
+
+        available = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+                NOT = { is_subject_of = ROOT }
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+
+        remove_effect = {
+            FROM = {
+                country_event = japan.25
+            }
+        }
+    }
+
+    JAP_propose_protection = {
+        icon = GFX_decision_jap_pacific_guardian
+        cost = 250
+        days_remove = 14
+
+        target_trigger  = {
+            FROM = {
+                OR = {
+                    tag = PHI
+                    tag = ICH
+                    tag = INS
+                    tag = MAL
+                    tag = SIA
+                }
+            }
+        }
+
+        visible = {
+            FROM = { has_country_flag = JAP_accepted_investments }
+        }
+
+        available = {
+            FROM = {
+                NOT = { has_war_with = ROOT }
+                NOT = { is_subject_of = ROOT }
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+
+        remove_effect = {
+            FROM = {
+                country_event = japan.28
+            }
+        }
+    }
+}
+
+JAP_repealing_western_imperialism = {
+    JAP_start_funding_mal = {
+        cost = 150
+        days_remove = 120
+        fire_only_once = yes
+
+        available = {
+            ENG = {
+                has_full_control_of_state = 333
+                has_full_control_of_state = 336
+            }
+        }
+
+        visible = {
+            has_completed_focus = JAP_fund_rebels_in_malaya
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = JAP_start_funding_tt
+            set_country_flag = JAP_funded_rebels_in_mal
+        }
+    }
+
+    JAP_start_funding_ins = {
+        cost = 150
+        days_remove = 120
+        fire_only_once = yes
+
+        available = {
+            INS = {
+                is_subject_of = HOL
+            }
+        }
+        
+        visible = {
+            has_completed_focus = JAP_fund_rebels_in_the_east_indies
+        }
+
+        remove_effect = {
+            custom_effect_tooltip = JAP_start_funding_tt
+            set_country_flag = JAP_funded_rebels_in_ins
+        }
+    }
+
+    JAP_start_rebellion_mal = {
+        cost = 150
+        days_remove = 30
+        fire_only_once = yes
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_start_rebellion_tt
+                has_country_flag = JAP_funded_rebels_in_mal
+            }
+        }
+
+        visible = {
+            ENG = {
+                has_full_control_of_state = 333
+                has_full_control_of_state = 336
+            }
+            has_country_flag = JAP_funded_rebels_in_mal
+        }
+
+        remove_effect = {
+            random_list = {
+                50 = { ENG = { country_event = japan.22 } }
+                50 = { country_event = japan.23 }
+            }
+        }
+    }
+
+    JAP_start_rebellion_ins = {
+        cost = 150
+        days_remove = 30
+        fire_only_once = yes
+
+        available = {
+            custom_trigger_tooltip = {
+                tooltip = JAP_start_rebellion_tt
+                has_country_flag = JAP_funded_rebels_in_ins
+            }
+        }
+
+        visible = {
+            INS = { is_subject_of = HOL }
+            has_country_flag = JAP_funded_rebels_in_ins
+        }
+
+        remove_effect = {
+            random_list = {
+                50 = { HOL = { country_event = japan.22 } }
+                50 = { country_event = japan.23 }
+            }
+        }
+    }
+}
+
+JAP_intervention_in_china = {
+    JAP_threaten_warlord = {
+        icon = GFX_decision_jap_conquer_china
+        fire_only_once = yes
+        cost = 50
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = SHX
+                    tag = GXC
+                    tag = HNN
+                    tag = YUN
+                    tag = SHN
+                    tag = SCH
+                    tag = KAS
+                    tag = SIK
+                    tag = XSM
+                }
+            }
+        }
+
+        visible = {
+            FROM = {
+                exists = yes
+                has_country_flag = JAP_PACIFICATION_AVAILABLE
+                NOT = { has_war_with = JAP }
+                NOT = { is_in_faction_with = JAP }
+                NOT = { is_subject_of = JAP }
+            }
+        }
+
+        complete_effect = { 
+            create_wargoal = {
+                type = annex_everything
+                target = FROM
+            }
+            add_ai_strategy = {
+                type = conquer
+                id = FROM
+                value = 200
+            }
+        }
+    }
+}

@@ -12,7 +12,7 @@ set_technology = {
 
 set_convoys = 10
 
-set_cosmetic_tag = IRE_ENG_subject
+#set_cosmetic_tag = IRE_ENG_subject
 
 set_politics = {
 	ruling_party = social_conservative
@@ -67,9 +67,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Brodrick"
+	name = "Arthur Griffith"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_Ireland_John_Brodrick.dds"
+	picture = "Portrait_IRE_Griffith.tga"
 	expire = "1999.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -78,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John Brodrick"
+	name = "Arthur Griffith"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_Ireland_John_Brodrick.dds"
+	picture = "Portrait_IRE_Griffith.tga"
 	expire = "1999.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

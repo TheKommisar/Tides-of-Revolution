@@ -1,5 +1,21 @@
 ### American Ideas
 ideas = {
+head_of_government = {
+	USA_Huey_Long_hog = {
+				allowed = { original_tag = USA }
+				#picture = GFX_idea_USA_HOG_Cutting
+				available = {
+					has_government = social_democrat
+				}
+
+				traits = {
+                                        hog_pragmatic_statesman
+                                        social_democrat
+					head_of_government
+				}
+                                cancel_if_invalid = yes
+			}
+}
 	### Country ideas ###
 	country = {
 	### Starting Ideas ###

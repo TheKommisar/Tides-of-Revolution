@@ -69,14 +69,14 @@ set_politics = {
 }
 
 set_popularities = {
-    vanguardist = 0
-    orthodox_marxist = 4
+    vanguardist = 6
+    orthodox_marxist = 8
     revolutionary_socialist = 22
-    social_democrat = 33
-    social_liberal = 11
+    social_democrat = 41
+    social_liberal = 5
     classic_liberal = 6
     social_conservative = 5
-    authoritarian_democrat = 16
+    authoritarian_democrat = 4
     paternal_autocrat = 3
     national_populist = 0
 }
@@ -97,6 +97,17 @@ create_country_leader = {
 	picture = "Portrait_GEO_Noe_Ramishvili.tga"
 	expire = "1955.3.1"
 	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Sergo Ordzhonikidze"
+	desc = ""
+	picture = "Portrait_GEO_Sergo_Ordzhonikidze.tga"
+	expire = "1955.3.1"
+	ideology = vanguardist_subtype
 	traits = {
 		
 	}

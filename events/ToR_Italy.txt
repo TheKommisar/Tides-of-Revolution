@@ -1,163 +1,291 @@
-﻿
-add_namespace = italy
+﻿# Italian Events
+# created by: unkn0wn3ntity and dax
 
+add_namespace = ita
+
+# Intro
 country_event = {
-    id = italy.1
-    title = italy.1.t    
-    desc = italy.1.d
+    id = ita.0
+    title = ita.0.t
+    desc = ita.0.d
 
-    picture = GFX_report_event_italy_palace
-    
-    fire_only_once = yes
-  
     is_triggered_only = yes
 
-    
     option = {
-		name = italy.1.a
+        name = ita.0.a
     }
 }
 
-country_event = { #Outbreak of the Civil War
-    id = italy.2
-    title = italy.2.t    
-    desc = italy.2.d
+# Break a Compromise
+country_event = {
+    id = ita.1
+    title = ita.1.t
+    desc = ita.1.d
+    picture = GFX_report_event_generic_read_write
 
-    picture = GFX_report_event_spain_civil_war_volunteers_02
-    
-    fire_only_once = yes
-  
+    is_triggered_only = yes
+
+    # Liberal 
+    option = {
+        name = ita.1.a
+        custom_effect_tooltip = ITA_with_the_liberals_tt
+        hidden_effect = {
+            complete_national_focus = ITA_with_the_liberals
+            set_country_flag = italy_liberal_compromise
+        }
+    }
+
+    # Socialist
+    option = {
+        name = ita.1.b
+        custom_effect_tooltip = ITA_with_the_socialists_tt
+        hidden_effect = {
+            complete_national_focus = ITA_with_the_socialists
+            set_country_flag = italy_socialist_compromise
+        }
+    }
+}
+
+# Failed to Pass the Bill
+country_event = {
+    id = ita.2
+    title = ita.2.t
+    desc = ita.2.d
+    picture = GFX_report_event_imperial_conference
+
     is_triggered_only = yes
 
     option = {
-		name = italy.2.a
+        name = ita.2.a
+        add_stability = -0.15
+        hidden_effect = {
+            country_event = { id = ita.3 days = 2 }
+        }
+    }
+}
+
+# Mass Riots
+country_event = {
+    id = ita.3
+    title = ita.3.t
+    desc = ita.3.d
+    picture = GFX_report_event_worker_protests
+
+    is_triggered_only = yes
+
+    option = {
+        name = ita.3.a
+        hidden_effect = {
+            country_event = { id = ita.4 days = 2 }
+        }
+    }
+}
+
+# Prime Minister Resigns
+country_event = {
+    id = ita.4
+    title = ita.4.t
+    desc = ita.4.d
+    picture = GFX_report_event_generic_read_write
+
+    is_triggered_only = yes
+
+    option = {
+        name = ita.4.a
+        trigger = { 
+                has_country_flag = italy_socialist_compromise
+        }
+        hidden_effect = {
+            country_event = { id = ita.5 days = 2 }
+        }
+    }
+
+    option = {
+        name = ita.4.b
+        trigger = { 
+                has_country_flag = italy_liberal_compromise
+        }
+        hidden_effect = {
+            country_event = { id = ita.6 days = 2 }
+        }
+    }
+}
+
+# Military Coup
+country_event = {
+    id = ita.5
+    title = ita.5.t
+    desc = ita.5.d
+    picture = GFX_report_event_german_troops
+
+    is_triggered_only = yes
+
+    option = {
+        name = ita.5
+
+        set_politics = {
+            ruling_party = paternal_autocrat
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = paternal_autocrat
+            popularity = 0.25
+        }
+
+        hidden_effect = {
+            country_event = { id = ita.7 days = 7 }
+        }
+    }
+}
+
+# King Intervenes
+country_event = {
+    id = ita.6
+    title = ita.6.t
+    desc = ita.6.d
+    picture = GFX_report_event_finnish_letter
+
+    is_triggered_only = yes
+
+    option = {
+        name = ita.6
+
+        set_politics = {
+            ruling_party = authoritarian_democrat
+            elections_allowed = no
+        }
+
+        add_popularity = {
+            ideology = authoritarian_democrat
+            popularity = 0.25
+        }
+
+        hidden_effect = {
+            country_event = { id = ita.7 days = 7 }
+        }
+    }
+}
+
+# Civil War
+country_event = {
+    id = ita.7
+    title = ita.7.t
+    desc = ita.7.d
+    picture = GFX_report_event_french_resistance_01
+
+    is_triggered_only = yes
+
+    immediate = {
+            set_global_flag = icw
+		
+
+            SRI = {
+
+                if = {
+                    limit = {
+                        FROM = { controls_state = 158 }
+                    }
+                    transfer_state = 158
+                }
+                if = {
+                    limit = {
+                        FROM = { controls_state = 161 }
+                    }
+                    transfer_state = 161
+                }
+                if = {
+                    limit = {
+                        FROM = { controls_state = 162 }
+                    }
+                    transfer_state = 162
+                }
+                if = {
+                    limit = {
+                        FROM = { controls_state = 159 }
+                    }
+                    transfer_state = 159
+                }
+				
+				every_state = {
+					limit = {
+						is_core_of = ITA
+					}
+					THIS = {
+						add_core_of = PIE
+					}
+				}
+
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 10000
+                    producer = SRI
+                }
+                add_manpower = 50000
+                load_oob = SRI_rebellion
+            }
+			ITA = {
+			add_popularity = {
+				ideology = vanguardist
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = orthodox_marxist
+				popularity = -0.05
+			}	
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.05
+			}
+		}
+    }
+
+    option = {
+		name = ita.7.a
 		ai_chance = {
 			factor = 100
 		}
-                set_global_flag = icw
-		SRI = {
-			set_country_flag = choice_made
-		}
-		add_stability = 0.15
+
+        add_stability = 0.15
 		add_war_support = 0.2
+
 		SRI = {
-			if = {
-				limit = {
-					FROM = {
-						controls_state = 158
-					}
-				}
-				transfer_state = 158
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 161
-					}
-				}
-				transfer_state = 161
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 162
-					}
-				}
-				transfer_state = 162
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 159
-					}
-				}
-				transfer_state = 159
-			}
-                 
-            SRI = { declare_war_on = { 
-				target = ITA
-				type = annex_everything
-            }}
-             SRI = {
-				add_manpower = 30000
-				load_oob = SRI_rebellion
-			}
-                                    add_equipment_to_stockpile = {
-                         type = infantry_equipment
-                         amount = 1000
-                         producer = SRI
-                 } 
-		    news_event = { hours = 6 id = tornews.3 }
+			declare_war_on = {
+                target = ITA
+                type = annex_everything
+            }
 		}
+
+        news_event = { hours = 6 id = tornews.3 }
     }
-     option = {
-		name = italy.2.b
+     
+    option = {
+		name = ita.7.b
 		ai_chance = {
 			factor = 0
 		}
-                set_global_flag = icw
-		SRI = {
-			set_country_flag = choice_made
-		}
-		add_stability = 0.15
+        add_stability = 0.15
 		add_war_support = 0.2
+
 		SRI = {
-			if = {
-				limit = {
-					FROM = {
-						controls_state = 158
-					}
-				}
-				transfer_state = 158
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 161
-					}
-				}
-				transfer_state = 161
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 162
-					}
-				}
-				transfer_state = 162
-			}
-                        if = {
-				limit = {
-					FROM = {
-						controls_state = 159
-					}
-				}
-				transfer_state = 159
-			}
-                 
-            SRI = { declare_war_on = { 
-				target = ITA
-				type = annex_everything
-            }}
-             SRI = {
-				add_manpower = 30000
-				load_oob = SRI_rebellion
-			}
-                                    add_equipment_to_stockpile = {
-                         type = infantry_equipment
-                         amount = 1000
-                         producer = SRI
-                 } 
-		    news_event = { hours = 6 id = tornews.3 }
+            change_tag_from = ITA
+                }
+		SRI = {
+			declare_war_on = {
+                target = ITA
+                type = annex_everything
+            }
 		}
+
+        news_event = { hours = 6 id = tornews.3 }
     }
 }
 
-
-country_event = { #France - should we send the Italians support?
-    id = italy.3
-    title = italy.3.t
-    desc = italy.3.d
+# FRA - Should we send the Italians support
+country_event = {
+    id = ita.8
+    title = ita.8.t
+    desc = ita.8.d
     picture = GFX_report_event_spain_civil_war_volunteers_02
 
     trigger = {
@@ -167,8 +295,9 @@ country_event = { #France - should we send the Italians support?
 
     fire_only_once = yes
 
-    option = { #Send them weapons and volunteers
-        name = italy.3.a
+    # Send them weapons and volunteers
+    option = {
+        name = ita.8.a
         ai_chance = {
             factor = 80
         }
@@ -180,36 +309,41 @@ country_event = { #France - should we send the Italians support?
         }
     }
 
-    option = { #its not worth it
-        add_stability = -0.03
+    # Its not worth it
+    option = { 
+        add_political_power = -20
     }
 }
 
-country_event = { #SRI - France supports us!
-    id = italy.4
-    title = italy.4.t
-    desc = italy.4.d
+# SRI - France supports us!
+country_event = {
+    id = ita.9
+    title = ita.9.t
+    desc = ita.9.d
     picture = GFX_report_event_spain_civil_war_volunteers_02
 
     is_triggered_only = yes
 
-    option = { #Thanks, France
-        name = italy.4.a
+    # Thanks, France
+    option = {
+        name = ita.9.a
         add_manpower = 5000
         add_political_power = 25
     }
 }
 
-country_event = { #Italy - Libya declares neutrality!
-    id = italy.5
-    title = italy.5.t
-    desc = italy.5.d
+# ITA - Libya declares neutrality
+country_event = {
+    id = ita.10
+    title = ita.10.t
+    desc = ita.10.d
     picture = GFX_report_event_spain_civil_war_volunteers_02
 
     is_triggered_only = yes
 
-    option = { #Fuck
-        name = italy.5.a
+    # Fuck
+    option = {
+        name = ita.10.a
         release = LBA
         LBA = {
             set_cosmetic_tag = ITA_LBA
@@ -219,125 +353,99 @@ country_event = { #Italy - Libya declares neutrality!
     }
 }
 
+# Military spending
 country_event = {
-    id = italy.6
-    title = italy.6.t    
-    desc = italy.6.d
-    picture = GFX_report_event_generic_conference
-    
-    fire_only_once = yes
-  
+    id = ita.11
+    title = ita.11.t
+    desc = ita.11.d
+    picture = GFX_report_event_spain_civil_war_volunteers_02
+
     is_triggered_only = yes
 
-    
+    # The socialists have a point
     option = {
-		name = italy.6.a
-                ai_chance = {
-			factor = 60
-		}
-                hidden_effect = {
-                country_event = { days = 15 id = italy.7 }
-                }
+        name = ita.11.a
+        add_political_power = 50
+        add_stability = 0.05
+	add_popularity = {
+		ideology = democratic_socialist
+		popularity = 0.05
+	}  
     }
+    # Maybe the conservatives aren't talking out of their ass for once
     option = {
-		name = italy.6.b
-                ai_chance = {
-			factor = 40
-		}
-                hidden_effect = {
-                country_event = { days = 20 id = italy.9 }
-                }
-    }
-}
-
-country_event = {
-    id = italy.7
-    title = italy.7.t    
-    desc = italy.7.d
-
-    picture = GFX_report_event_generic_conference
-    
-    fire_only_once = yes
-  
-    is_triggered_only = yes
-
-    
-    option = {
-		name = italy.7.a
-                hidden_effect = {
-                country_event = { days = 27 id = italy.8 }
-                }
+        name = ita.11.b
+        add_political_power = -50
+        add_stability = -0.05
+	add_popularity = {
+		ideology = social_conservative
+		popularity = 0.05
+	}     
+        add_ideas = { ITA_increased_miltary_spending }   
     }
 }
 
 country_event = {
-    id = italy.8
-    title = italy.8.t    
-    desc = italy.8.d
+    id = ita.15
+    title = ita.15.t    
+    desc = ita.15.d
 
-    picture = GFX_report_event_generic_parliament
+    picture = GFX_report_event_italy_palace
     
     fire_only_once = yes
   
     is_triggered_only = yes
 
     
-    option = {
-		name = italy.8.a
-                hidden_effect = {
-                country_event = { days = 5 id = italy.2 }
-                }
+    option = {  # integrate Tunisia as part of our North African holdings
+		name = ita.15.a
+                add_political_power = 40
+    }
+    option = {  # give Tunisia autonomy
+		name = ita.15.b
+                add_political_power = -40
+		TUN = { 
+            transfer_state = 458
+            transfer_state = 665
+               }
+
+        set_autonomy = {
+            target = TUN
+            autonomy_state = autonomy_colony
+        }
     }
 }
 
-country_event = { #Writ of election issued
-    id = italy.9
-    title = italy.9.t    
-    desc = italy.9.d
-
-    picture = GFX_report_event_generic_conference
+country_event = {
+    id = ita.16
+    title = ita.16.t    
+    desc = ita.16.d
     
     fire_only_once = yes
   
     is_triggered_only = yes
 
-    
-    option = {
-		name = italy.9.a
-		hidden_effect = {
-                country_event = { days = 30 id = italy.10 }
+    option = {  # we welcome Albania into our domain
+		name = ita.16.a
+            add_political_power = 10
+			set_autonomy = {
+                target = ALB
+                autonomy_state = autonomy_colony
+            }
+			ALB = { 
+				retire_country_leader = yes
+				set_politics = {	
+	                ruling_party = paternal_autocrat
+	                last_election = "1933.3.5"
+	                election_frequency = 48
+	                elections_allowed = no
                 }
-    }
-}
-
-country_event = { #election
-    id = italy.10
-    title = italy.10.t    
-    desc = italy.10.d
-
-    picture = GFX_report_event_generic_conference
-    
-    fire_only_once = yes
-  
-    is_triggered_only = yes
-
-    
-    option = {
-		name = italy.10.a #soc dem
-                ITA = {
-			load_focus_tree = ITA_SocDem
-		}
-    }
-    option = {
-		name = italy.10.b #soc con
-                ITA = {
-			load_focus_tree = ITA_SocCon
-		}
-    }
-    option = {
-		name = italy.10.c #cla lib
-                ITA = {
-			load_focus_tree = ITA_ClaLib
-		}
+				create_country_leader = {
+	                name = "Ferdinand I"
+	                portrait_path = "gfx/leaders/ITA/portrait_ITA_ferdinando_adalberto.dds"
+	                expire = "1965.1.1"
+	                ideology = authoritarian_democrat_subtype
+                }
+            }
     }
 }

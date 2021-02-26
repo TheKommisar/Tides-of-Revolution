@@ -1,8 +1,8 @@
 ﻿l_english: 
 
 #Parties
-GER_national_populist_party:0 "DAP"
-GER_national_populist_party_long:0 "Deutsche Arbeiterpartei"
+GER_national_populist_party:0 "DVLP"
+GER_national_populist_party_long:0 "Deutsche Vaterlandspartei"
 GER_vanguardist_party:0 "KPD"
 GER_vanguardist_party_long:0 "Kommunistische Partei Deutschlands"
 GER_social_conservative_party:0 "Zentrum"
@@ -74,7 +74,9 @@ GER_unworthy_sacrafice_desc:0 "To every German man, woman and child, whether the
 #should be reintegrated
 GER_Erich_Ludendorff_hog:0 "Erich Ludendorff"
 GER_Alfred_Hugenberg_eco:0 "Alfred Hugenburg"
-GER_Konstantin_Neurath:0 "Konstantin von Neurath"
+GER_Konstantin_Neurath_frm:0 "Konstantin von Neurath"
+GER_Otto_Lossow_sec:0 "Otto Lossow"
+GER_Hans_Frank_int:0 "Hans Frank"
 
  
 #Focuses

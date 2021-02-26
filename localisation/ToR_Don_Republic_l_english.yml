@@ -1,0 +1,62 @@
+﻿l_english: 
+
+#Parties
+DON_vanguardist_party:0 "-"
+DON_orthodox_marxist_party:0 "-"
+DON_revolutionary_socialist_party:0 "-"
+DON_social_democrat_party:0 "-"
+DON_social_liberal_party:0 "-"
+DON_classic_liberal_party:0 "-"
+DON_social_conservative_party:0 "-"
+DON_authoritarian_democrat_party:0 "Cossack Host"
+DON_paternal_autocrat_party:0 "-"
+DON_national_populist_party:0 "-"
+
+#Country Names
+ DON_national_populist:0 "Don Republic"
+ DON_national_populist_DEF:0 "the Don Republic"
+ DON_paternal_autocrat:0 "Don Republic"
+ DON_paternal_autocrat_DEF:0 "the Don Republic"
+ DON_social_conservative:0 "Don Republic"
+ DON_social_conservative_DEF:0 "the Don Republic"
+ DON_authoritarian_democrat:0 "Don Republic"
+ DON_authoritarian_democrat_DEF:0 "the Don Republic"
+ DON_orthodox_marxist:0 "Don Republic"
+ DON_orthodox_marxist_DEF:0 "the Don Republic"
+ DON_revolutionary_socialist:0 "Don Republic"
+ DON_revolutionary_socialist_DEF:0 "the Don Republic"
+ DON_social_democrat:0 "Don Republic"
+ DON_social_democrat_DEF:0 "the Don Republic"
+ DON_social_liberal:0 "Don Republic"
+ DON_social_liberal_DEF:0 "the Don Republic"
+ DON_classic_liberal:0 "Don Republic"
+ DON_classic_liberal_DEF:0 "the Don Republic"
+ DON_vanguardist:0 "Don Republic"
+ DON_vanguardist_DEF:0 "the Don Republic"
+ 
+ DON_national_populist_ADJ:0 "Donian"
+ DON_democratic_socialist_ADJ:0 "Donian"
+ DON_social_conservative_ADJ:0 "Donian"
+ DON_paternal_autocrat_ADJ:0 "Donian"
+ DON_orthodox_marxist_ADJ:0 "Donian"
+ DON_authoritarian_democrat_ADJ:0 "Donian"
+ DON_revolutionary_socialist_ADJ:0 "Donian"
+ DON_social_democrat_ADJ:0 "Donian"
+ DON_social_liberal_ADJ:0 "Donian"
+ DON_classic_liberal_ADJ:0 "Donian"
+ DON_vanguardist_ADJ:0 "Donian"
+
+#Ministers
+#should be reintegrated
+
+
+ 
+#Focuses
+#should be reintegrated
+
+#Events
+#should be reintegrated
+
+#Descriptions
+
+#cosmetic tags

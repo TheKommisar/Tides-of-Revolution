@@ -64,6 +64,7 @@ country_event = { id = australia.1 days = 1 } #Intro Event
 add_ideas = {
 	legacy_of_the_anzacs
         AST_economic_depression
+        AST_emu_war
 }
 
 set_cosmetic_tag = AST_UK

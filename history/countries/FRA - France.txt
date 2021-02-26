@@ -84,28 +84,30 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = revolutionary_socialist
+	ruling_party = democratic_socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	vanguardist = 23
+	vanguardist = 10
     orthodox_marxist = 18
-	revolutionary_socialist = 42
-    social_democrat = 15
+	revolutionary_socialist = 18
+    democratic_socialist = 42
+    social_democrat = 10
     social_liberal = 2
     classic_liberal = 0
     social_conservative = 0
     authoritarian_democrat = 0
+    national_romantic = 0
     paternal_autocrat = 0
     national_populist = 0
 }
 
 create_faction = pri
 add_to_faction = FRA
-add_to_faction = ARG
+add_to_faction = GEO
 
 add_ideas = {
     legacy_of_the_commune
@@ -119,7 +121,7 @@ create_country_leader = {
 	desc = "POLITICS_JEAN_LONGUET_DESC"
 	picture = "Portrait_France_Jean_Longuet.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = democratic_socialist_subtype
 	traits = {
 		#
 	}

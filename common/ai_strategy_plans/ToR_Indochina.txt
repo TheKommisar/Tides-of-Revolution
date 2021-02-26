@@ -1,0 +1,60 @@
+# AI Strategy Plan for Indochina
+# created by: dax0102
+
+# note: I don't know how these works
+
+ICH_default_plan = {
+    name = "Indochinese Default Plan"
+    desc = "The default AI stretegic plan for Indochina"
+
+    enable = {
+        original_tag = ICH
+    }
+
+    ai_national_focuses = {
+        ICH_into_the_modern_age
+        ICH_infrastructure_projects
+        ICH_industrial_innovations
+        ICH_expand_current_industries
+        ICH_expand_current_factories
+
+        ICH_the_indochinese_army
+        ICH_planning_focus
+        ICH_the_indochinese_air_force
+        ICH_fighter_modernization
+        ICH_cas_modernization
+        ICH_the_general_staff
+        ICH_equipment_standardization
+        ICH_army_engineers
+
+        ICH_construct_new_industries
+        ICH_construct_new_factories
+
+        ICH_the_indochinese_navy
+        ICH_construct_the_saigon_dockyards
+        ICH_large_navy
+        ICH_wolfpack_tactics
+    }
+
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+		industry = 10.0
+	}
+
+    weight = {
+        factor = 1.0
+        modifier = {
+            factor = 1.0
+        }
+    }
+
+    focus_factors = {
+        ICH_economic_recovery_act
+        ICH_the_status_quo_prevails
+        ICH_ban_the_icp
+        ICH_stand_for_democracy
+    }
+}

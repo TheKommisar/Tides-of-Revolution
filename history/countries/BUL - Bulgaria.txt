@@ -19,7 +19,7 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = revolutionary_socialist
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1" 
 	election_frequency = 48 # number is of months
 	elections_allowed = no
@@ -27,20 +27,20 @@ set_politics = {
 set_popularities = {
 	vanguardist = 0
         orthodox_marxist = 0
-	revolutionary_socialist = 100
+	revolutionary_socialist = 0
         social_democrat = 0
         social_liberal = 0
         classic_liberal = 0
         social_conservative = 0
-        authoritarian_democrat = 0
+        authoritarian_democrat = 100
         paternal_autocrat = 0
         national_populist = 0
 }
 
 create_country_leader = {
-	name = "Ferdinand I"
+	name = "Boris III"
 	desc = "POLITICS_BORIS_III_DESC"
-	picture = "Portrait_Bulgaria_Tsar_Ferdinand.tga"
+	picture = "Portrait_BUL_Boris_III_not_shitty.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

@@ -1,0 +1,478 @@
+spriteTypes = {
+
+    # Head of Government
+    spriteType = {
+		name = "GFX_idea_JAP_Oyama_Ikuo_hog_ort"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Oyama_Ikuo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Suzuki_Mosaburo_hog_rev"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Suzuki_Mosaburo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Abe_Iso_hog_sde"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Abe_Iso.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Katayama_Tetsu_hog_sde"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Katayama_Tetsu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Hamaguchi_Osachi_hog_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Hamaguchi_Osachi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Machida_Chuji_hog_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Machida_Chuji.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Ugaki_Kazushige_hog_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Ugaki_Kazushige.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Hatoyama_Ichiro_hog_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Hatoyama_Ichiro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Inukai_Tsuyoshi_hog_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Inukai_Tsuyoshi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Mitsuchi_Chuzo_hog_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Mitsuchi_Chuzo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Adachi_Kenzo_hog_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Adachi_Kenzo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Maeda_Yonezo_hog_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Maeda_Yonezo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Nagata_Tetsuzan_hog_pau"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Nagata_Tetsuzan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Tojo_Hideki_hog_pau"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Tojo_Hideki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Araki_Sadao_hog_npo"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Araki_Sadao.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Konoe_Fumimaro_hog_npo"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Konoe_Fumimaro.tga"
+	}
+
+    # Foreign Minister
+	spriteType = {
+		name = "GFX_idea_JAP_Fukumoto_Kazuo_for_van"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Fukumoto_Kazuo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Yamamoto_Kenzo_for_ort"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yamamoto_Kenzo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Katayama_Tetsu_for_sde"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Katayama_Tetsu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Shidehara_Kijuro_for_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Shidehara_Kijuro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Ashida_Hitoshi_for_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Ashida_Hitoshi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Yoshida_Shigeru_for_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yoshida_Shigeru.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Yoshizawa_Kenkichi_for_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yoshizawa_Kenkichi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Arita_Hachiro_for_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Arita_Hachiro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Hirota_Koki_for_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Hirota_Koki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Ogawa_Gotaro_for_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Ogawa_Gotaro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Honda_Kumataro_for_pau"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Honda_Kumataro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Tatekawa_Yoshitsugu_for_pau"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Tatekawa_Yoshitsugu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Okawa_Shumei_for_npo"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Okawa_Shumei.tga"
+	}
+
+	# Economy Minister
+    spriteType = {
+		name = "GFX_idea_JAP_Asanuma_Inejiro_eco_van"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Asanuma_Inejiro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Yamada_Moritaro_eco_ort"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yamada_Moritaro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Eda_Saburo_eco_sde"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Eda_Saburo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Mizutani_Chozaburo_eco_sde"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Mizutani_Chozaburo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Inoue_Junnosuke_eco_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Inoue_Junnosuke.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Matsumura_Kenzo_eco_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Matsumura_Kenzo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Miki_Bukichi_eco_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Miki_Bukichi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Ikeda_Shigeaki_eco_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Ikeda_Shigeaki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Matsuno_Tsuruhei_eco_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Matsuno_Tsuruhei.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Mitsuchi_Chuzo_eco_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Mitsuchi_Chuzo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Maeda_Yonezo_eco_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Maeda_Yonezo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Nakajima_Chikuhei_eco_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Nakajima_Chikuhei.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Ogawa_Gotaro_eco_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Ogawa_Gotaro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Godo_Takuo_eco_pau"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Godo_Takuo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Shoda_Kazue_eco_pau"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Shoda_Kazue.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Suzuki_Teiichi_eco_npo"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Suzuki_Teiichi.tga"
+	}
+
+    # Security Minister
+	spriteType = {
+		name = "GFX_idea_JAP_Sakisaka_Itsuro_sec_rev"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Sakisaka_Itsuro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Matsuoka_Komakichi_sec_sde"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Matsuoka_Komakichi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Kawasaki_Katsu_sec_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Kawasaki_Katsu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Kawasaki_Takukichi_sec_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Kawasaki_Takukichi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Kimura_Kozaemon_sec_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Kimura_Kozaemon.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Saito_Takao_sec_cli"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Saito_Takao.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Hatoyama_Ichiro_sec_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Hatoyama_Ichiro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Kawamura_Takeji_sec_sco"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Kawamura_Takeji.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Adachi_Kenzo_sec_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Adachi_Kenzo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Akita_Kiyoshi_sec_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Akita_Kiyoshi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Mochizuki_Keisuke_sec_ade"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Mochizuki_Keisuke.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Fujie_Keisuke_sec_pau"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Fujie_Keisuke.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Shiono_Suehiko_sec_pau"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Shiono_Suehiko.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Suetsugu_Nobumasa_sec_npo"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Suetsugu_Nobumasa.tga"
+	}
+
+    # Chief of Staff
+	spriteType = {
+		name = "GFX_idea_JAP_Umezu_Yoshijiro_cos"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Umezu_Yoshijiro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Anami_Korechika_cos"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Anami_Korechika.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Kanin_Kotohito_cos"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Kanin_Kotohito.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Nagata_Tetsuzan_cos"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Nagata_Tetsuzan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Sugiyama_Hajime_cos"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Sugiyama_Hajime.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Masaki_Jinzaburo_cos"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Masaki_Jinzaburo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Yamashita_Tomoyuki_cos"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yamashita_Tomoyuki.tga"
+	}
+
+    # Chief of Army
+	spriteType = {
+		name = "GFX_idea_JAP_Umezu_Yoshijiro_carm"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Umezu_Yoshijiro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Kanin_Kotohito_carm"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Kanin_Kotohito.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Nagata_Tetsuzan_carm"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Nagata_Tetsuzan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Sugiyama_Hajime_carm"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Sugiyama_Hajime.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Masaki_Jinzaburo_carm"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Masaki_Jinzaburo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Yamashita_Tomoyuki_carm"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yamashita_Tomoyuki.tga"
+	}
+
+    # Chief of Navy
+	spriteType = {
+		name = "GFX_idea_JAP_Yamamoto_Isoroku_cnav"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yamamoto_Isoroku.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Koga_Mineichi_cnav"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Koga_Mineichi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Ozawa_Jisaburo_cnav"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Ozawa_Jisaburo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Nagano_Osami_cnav"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Nagano_Osami.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Oikawa_Koshiro_cnav"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Oikawa_Koshiro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Toyoda_Soemu_cnav"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Toyoda_Soemu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Fushimi_Hiroyasu_cnav"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Fushimi_Hiroyasu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Shimada_Shigetaro_cnav"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Shimada_Shigetaro.tga"
+	}
+
+	# Chief of Air Force
+	spriteType = {
+		name = "GFX_idea_JAP_Teramoto_Kumaichi_cair"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Teramoto_Kumaichi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Sugawara_Michio_cair"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Sugawara_Michio.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Yamashita_Tomoyuki_cair"
+		texturefile = "gfx/interface/ideas/JAP/ministers/JAP_Yamashita_Tomoyuki.tga"
+	}
+
+	# Tank Manufacturer
+	spriteType = {
+		name = "GFX_idea_JAP_hitachi"
+		texturefile = "gfx/interface/ideas/JAP/companies/hitachi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_ishiwakajima_heavy_industries"
+		texturefile = "gfx/interface/ideas/JAP/companies/ishikawajima_heavy_industries.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nissan"
+		texturefile = "gfx/interface/ideas/JAP/companies/nissan.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_tokyo_gas"
+		texturefile = "gfx/interface/ideas/JAP/companies/tokyo_gas.tga"
+	}
+
+	# Naval Manufacturer
+	spriteType = {
+		name = "GFX_idea_JAP_yokosuka_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/yokosuka_naval_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kure_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/kure_naval_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_sasebo_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/sasebo_naval_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_maizuru_naval_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/maizuru_naval_arsenal.tga"
+	}
+
+	# Aircraft Manufacturer
+	spriteType = {
+		name = "GFX_idea_JAP_mitsubishi"
+		texturefile = "gfx/interface/ideas/JAP/companies/mitsubishi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kyushu_hikoki"
+		texturefile = "gfx/interface/ideas/JAP/companies/kyushu_hikoki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_aichi"
+		texturefile = "gfx/interface/ideas/JAP/companies/aichi.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_tachikawa"
+		texturefile = "gfx/interface/ideas/JAP/companies/tachikawa.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nakajima"
+		texturefile = "gfx/interface/ideas/JAP/companies/nakajima.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_yokosuka"
+		texturefile = "gfx/interface/ideas/JAP/companies/yokosuka.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kawanishi"
+		texturefile = "gfx/interface/ideas/JAP/companies/kawanishi.tga"
+	}
+
+	# Weapons Manufacturer
+	spriteType = {
+		name = "GFX_idea_JAP_kokura_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/kokura_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nagoya_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/nagoya_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_osaka_army_arsenal"
+		texturefile = "gfx/interface/ideas/JAP/companies/osaka_army_arsenal.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_isuzu"
+		texturefile = "gfx/interface/ideas/JAP/companies/isuzu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_toyota"
+		texturefile = "gfx/interface/ideas/JAP/companies/toyota.tga"
+	}
+
+	# Industrial
+	spriteType = {
+		name = "GFX_idea_JAP_kawasaki"
+		texturefile = "gfx/interface/ideas/JAP/companies/kawasaki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_mitsui_zaibatsu"
+		texturefile = "gfx/interface/ideas/JAP/companies/mitsui_zaibatsu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nichitsu"
+		texturefile = "gfx/interface/ideas/JAP/companies/nichitsu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nippon_oil"
+		texturefile = "gfx/interface/ideas/JAP/companies/nippon_oil.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_sumitomo"
+		texturefile = "gfx/interface/ideas/JAP/companies/sumitomo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_tokyo_shibaura_denki"
+		texturefile = "gfx/interface/ideas/JAP/companies/tokyo_shibaura_denki.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nihon_mausen"
+		texturefile = "gfx/interface/ideas/JAP/companies/nihon_mausen.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_furukawa_siemens"
+		texturefile = "gfx/interface/ideas/JAP/companies/furukawa_siemens.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nippon_electric_company"
+		texturefile = "gfx/interface/ideas/JAP/companies/nippon_electric_company.tga"
+	}
+
+
+}

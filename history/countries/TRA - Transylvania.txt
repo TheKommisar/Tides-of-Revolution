@@ -38,11 +38,11 @@ set_politics = {
 
 set_popularities = {
     vanguardist = 2
-    collectivist = 1
-    libertarian_socialist = 5
+    orthodox_marxist = 1
+    revolutionary_socialist = 5
     social_democrat = 7
     social_liberal = 13
-    market_liberal = 18
+    classic_liberal = 18
     social_conservative = 24
     authoritarian_democrat = 19
     paternal_autocrat = 6

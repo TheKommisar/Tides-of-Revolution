@@ -462,8 +462,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_totalitarian_socialist_group"
-		texturefile = "gfx/interface/ideologies/totalitarian_socialist_group.dds"
+		name = "GFX_ideology_democratic_socialist_group"
+		texturefile = "gfx/interface/ideologies/democratic_socialist_group.dds"
 	}
 	
 	spriteType = {
@@ -474,6 +474,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_paternal_autocrat_group"
 		texturefile = "gfx/interface/ideologies/paternal_autocrat_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_national_romantic_group"
+		texturefile = "gfx/interface/ideologies/national_romantic_group.dds"
 	}
 
      spriteType = {
