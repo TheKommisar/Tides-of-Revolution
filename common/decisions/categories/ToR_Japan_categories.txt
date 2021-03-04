@@ -17,7 +17,7 @@ JAP_hydroelectricity_decisions = {
 }
 
 JAP_extending_our_influence = {
-    
+    icon = GFX_decision_category_jap_southern_expansion
 
     allowed = { original_tag = JAP }
     priority = { base = 50 }

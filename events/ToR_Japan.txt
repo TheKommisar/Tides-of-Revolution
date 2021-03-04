@@ -141,6 +141,13 @@ country_event = {
     option = {
         name = japan.5.a
         add_political_power = -5
+
+        hidden_effect = {
+            if = {
+                limit = { FROM = { tag = MAN } }
+                country_event = japan.31
+            }
+        }
     }
 }
 
@@ -915,5 +922,28 @@ country_event = {
 
     option = {
         name = japan.30.a
+    }
+}
+
+# Propose to Attack Manchuria
+country_event = {
+    id = japan.31
+    title = japan.31.t
+    desc = japan.31.d
+    picture = GFX_report_event_japanese_reply
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.31.a
+
+        create_wargoal = {
+            target = MAN
+            type = annex_everything
+        }
+    }
+
+    option = {
+        name = japan.31.b
     }
 }
