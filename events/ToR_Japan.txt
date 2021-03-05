@@ -947,3 +947,118 @@ country_event = {
         name = japan.31.b
     }
 }
+
+# Orchestrate Conflict with Mongolia
+country_event = {
+    id = japan.32
+    title = japan.32.t
+    desc = japan.32.d
+    picture = GFX_report_event_nationalist_china_machinegun_firing
+    
+    fire_only_once = yes
+
+    trigger = {
+        MON = {
+            exists = yes
+            NOT = { is_subject_of = JAP }
+            NOT = { is_in_faction_with = JAP }
+        }
+        OR = {
+            is_neighbor_of = MON
+
+            MAN = {
+                AND = {
+                    is_subject_of = JAP
+                    is_neighbor_of = MON
+                }
+            }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 30
+    }
+
+    option = {
+        name = japan.32.a
+        hidden_effect = {
+            random_list = {
+                60 = { country_event = { id = japan.33 days = 21 } }
+                40 = { country_event = { id = japan.34 days = 21 } }
+            }
+        }
+    }
+
+    option = {
+        name = japan.32.b
+        add_political_power = -25
+    }
+}
+
+# Operation Success
+country_event = {
+    id = japan.33
+    title = japan.33.t
+    desc = japan.33.d
+    picture = GFX_report_event_japanese_transport_soldiers
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.33.a
+        MON = {
+            country_event = japan.35
+        }
+    }
+}
+
+# Operation Failed
+country_event = {
+    id = japan.34
+    title = japan.34.t
+    desc = japan.34.d
+    picture = GFX_report_event_soviet_purge_trial
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.34.a
+        add_manpower = -5
+        add_political_power = -100
+    }
+}
+
+# Japanese Operations in our Border (MON)
+country_event = {
+    id = japan.35
+    title = japan.35.t
+    desc = japan.35.d
+    picture = GFX_report_event_spain_civil_war_soldiers
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.35.a
+        add_political_power = -50
+        add_manpower = 25000
+        JAP = { country_event = japan.36 }
+    }
+}
+
+# Everything according to plan
+country_event = {
+    id = japan.36
+    title = japan.36.t
+    desc = japan.36.d
+    picture = GFX_report_event_japanese_transport_soldiers
+
+    is_triggered_only = yes
+
+    option = {
+        name = japan.36.a
+        create_wargoal = {
+            target = MON
+            type = annex_everything
+        }
+    }
+}

@@ -569,3 +569,24 @@ japan.31.t:0 "A Proposal from the Generals"
 japan.31.d:0 "The State of Manchuria have recently declined our offer to purchase food from them. However, some within the army have proposed that we can alleviate the demands for food with forcefull occupation of the Manchurian Rice Fields. The Generals have mobilized the Kwantung Army, and are only waiting for a go signal."
 japan.31.a:0 "Desperate times, desperate measures"
 japan.31.b:0 "We can just trade with other nations."
+
+japan.32.t:0 "Operation Kihei"
+japan.32.d:0 "Some within the Army General Staff have proposed a conflict against Mongolia, we will pay some mercenaries preferrably Chinese, to disguise themselves as Mongolian border guards and to start shooting on our own troops at the border, to start a border conflict. We then escalate this conflict to a full blown war when our non-agreeable demands on the Mongolian government have been rejected."
+japan.32.a:0 "Greenlight the operation"
+japan.32.b:0 "Russia might help them so no."
+
+japan.33.t:0 "Operation Kihei - Success"
+japan.33.d:0 "Our little orchestrated operation in the Mongolian border have been a success, and our intelligence operatives confirmed that, the Mongolian Government have been informed about the current situation. Now, we should send them our demands to calm the situation."
+japan.33.a:0 "Off the telegram you go"
+
+japan.34.t:0 "Operation Kihei - Failure"
+japan.34.d:0 "Our little orchestrated operation in the Mongolian border have been a failure as Mongolian intelligence services have quickly identified and arrested the mercenaries we hired. They are now being interrogated as we speak."
+japan.34.a:0 "Deny every connection possible!"
+
+japan.35.t:0 "Aftermath of the Incident"
+japan.35.d:0 "Earlier this day, we have received reports of a border conflict against the Japanese. The intelligence have said that troops with our uniform have called the first shot and have directed it with stationed Japanese troops at the border. We do not know any more information regarding this but the [JAP.GetAdjective] Government have demanded an apology and have compiled their list of demands to that peace in northern Asia will not be threated."
+japan.35.a:0 "We can't agree to this!"
+
+japan.36.t:0 "Mongolia is Defiant!"
+japan.36.d:0 "The [MON.GetAdjective] Government have rejected our demands on the aftermath of the border incident a few days ago."
+japan.36.a:0 "To War!"
