@@ -1,0 +1,97 @@
+# Chinese Events
+# created by: dax0102
+
+add_namespace = china
+
+# Chiang's Decision
+country_event = {
+    id = china.1
+    title = china.1.t
+    desc = china.1.d
+    picture = GFX_report_event_china_chiang_kai_shek
+
+    is_triggered_only = yes
+
+    option = {
+        name = china.1.a
+        hidden_effect = {
+            set_country_flag = CHI_CHOSEN_UNIFICATION
+        }
+    }
+
+    option = {
+        name = china.1.b
+        hidden_effect = {
+            set_country_flag = CHI_CHOSEN_SURVIVAL
+        }
+    }
+}
+
+# Foreign Economic Partnership
+country_event = {
+    id = china.2
+    title = china.2.t
+    desc = china.2.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = china.2.a
+        CHI = {
+            country_event = china.3
+        }
+    }
+
+    option = {
+        name = china.2.b
+        CHI = {
+            country_event = china.4
+        }
+    }
+}
+
+# Economic Partnership Agreed
+country_event = {
+    id = china.3
+    title = china.3.t
+    desc = china.3.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = china.3.a
+        hidden_effect = {
+            if = {
+                limit = {
+                    FROM = { tag = ENG }
+                }
+                set_country_flag = CHI_ENG_ECONOMIC_PARTNERSHIP
+                add_ideas = CHI_sino_british_economic_partnership
+            }
+
+            if = {
+                limit = {
+                    FROM = { tag = GER }
+                }
+                set_country_flag = CHI_GER_ECONOMIC_PARTNERSHIP
+                add_ideas = CHI_sino_german_economic_partnership
+            }
+        }
+    }
+}
+
+# Economic Partnership Declined
+country_event = {
+    id = china.4
+    title = china.4.t
+    desc = china.4.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+
+    option = {
+        name = china.4.a
+    }
+}

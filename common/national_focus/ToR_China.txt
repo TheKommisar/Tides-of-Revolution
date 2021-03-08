@@ -1,0 +1,1384 @@
+# Chinese Focus Tree
+# created by: dax0102
+
+focus_tree = {
+    id = chinese_focus
+
+    country = {
+        factor = 0
+
+        modifier = {
+            tag = CHI
+            add = 10
+        }
+    }
+
+    continuous_focus_position = { x = 100 y = 1300 }
+
+    # Chiang Addresses the Nation
+    focus = {
+        id = CHI_chiang_addresses_the_nation
+        icon = GFX_focus_prc_remove_chiang_kai_shek
+        x = 10
+        y = -1
+        cost = 10
+        relative_position_id = CHI_focus_on_the_economy
+        completion_reward = {
+            country_event = china.1
+        }
+    }
+
+    #################################
+    #                               #
+    #             ECONOMY           #
+    #                               #
+    #################################
+
+    # Focus on the Economy
+    focus = {
+        id = CHI_focus_on_the_economy
+        icon = GFX_focus_generic_industry_3
+        x = 4
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_chiang_addresses_the_nation }
+        completion_reward = {
+            add_tech_bonus = {
+                category = industry
+                bonus = 1.0
+                uses = 2
+            }
+        }
+    }
+
+    # Fund Industries
+    focus = {
+        id = CHI_fund_industries
+        icon = GFX_goal_generic_construct_civ_factory
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_focus_on_the_economy }
+        relative_position_id = CHI_focus_on_the_economy
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Pass the Labour Act
+    focus = {
+        id = CHI_pass_the_labour_act
+        icon = GFX_goal_production
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_fund_industries }
+        relative_position_id = CHI_fund_industries
+        completion_reward = {
+            add_ideas = CHI_labour_laws
+        }
+    }
+
+    # Fund Factories
+    focus = {
+        id = CHI_fund_factories
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_focus_on_the_economy }
+        relative_position_id = CHI_focus_on_the_economy
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Subsidies for Farmers
+    focus = {
+        id = CHI_subsidies_for_farmers
+        icon = GFX_focus_AUS_agriculture
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_fund_factories }
+        relative_position_id = CHI_fund_factories
+        completion_reward = {
+            add_stability = 0.15
+        }
+    }
+
+    # Construct Infrastructure
+    focus = {
+        id = CHI_construct_infrastructure
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_focus_on_the_economy }
+        relative_position_id = CHI_focus_on_the_economy
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+            random_owned_controlled_state = {
+                add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+            }
+        }
+    }
+
+    # Request British Assistance
+    focus = {
+        id = CHI_request_british_assistance
+        icon = GFX_focus_chi_british_cooperation
+        x = -1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = CHI_request_german_assistance }
+        prerequisite = { focus = CHI_construct_infrastructure }
+        prerequisite = { focus = CHI_pass_the_labour_act }
+        prerequisite = { focus = CHI_subsidies_for_farmers }
+        relative_position_id = CHI_construct_infrastructure
+        completion_reward = {
+            ENG = { country_event = china.2 }
+        }
+    }
+
+    # Request German Assistance
+    focus = {
+        id = CHI_request_german_assistance
+        icon = GFX_focus_chi_mission_to_germany
+        x = 1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = CHI_request_british_assistance }
+        prerequisite = { focus = CHI_construct_infrastructure }
+        prerequisite = { focus = CHI_pass_the_labour_act }
+        prerequisite = { focus = CHI_subsidies_for_farmers }
+        relative_position_id = CHI_construct_infrastructure
+        completion_reward = {
+            GER = { country_event = china.3 }
+        }
+    }
+
+    # Continue Modernization
+    focus = {
+        id = CHI_continue_modernization
+        icon = GFX_goal_plantation_grants
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = {
+            focus = CHI_request_british_assistance
+            focus = CHI_request_german_assistance
+        }
+        relative_position_id = CHI_construct_infrastructure
+        completion_reward = {
+            swap_ideas = {
+                remove_idea = CHI_ancient_economy1
+                add_idea = CHI_ancient_economy2
+            }
+        }
+    }
+
+    # Modernizing Mining Industries
+    focus = {
+        id = CHI_modernizing_mining_industries
+        icon = GFX_goal_generic_construction2
+        x = -3
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_continue_modernization }
+        relative_position_id = CHI_continue_modernization
+        completion_reward = {
+            add_tech_bonus = {
+                category = excavation_tech
+                bonus = 1
+                uses = 1
+            }
+        }
+    }
+
+    # Modernizing Construction Industries
+    focus = {
+        id = CHI_modernizing_construction_industries
+        icon = GFX_goal_generic_construction
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_continue_modernization }
+        relative_position_id = CHI_continue_modernization
+        completion_reward = {
+            add_tech_bonus = {
+                technology = construction1
+                technology = construction2
+                technology = construction3
+                technology = construction4
+                technology = construction5
+                bonus = 1
+                uses = 1
+            }
+        }
+    }
+
+    # Research Institutes
+    focus = {
+        id = CHI_research_institutes
+        icon = GFX_focus_research
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_modernizing_construction_industries }
+        prerequisite = { focus = CHI_modernizing_mining_industries }
+        relative_position_id = CHI_modernizing_construction_industries
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+
+    # Land Reforms
+    focus = {
+        id = CHI_land_reforms
+        icon = GFX_goal_coffee_boom
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_continue_modernization }
+        relative_position_id = CHI_continue_modernization
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+        }
+    }
+
+    # Prioritizing Trade Exports
+    focus = {
+        id = CHI_prioritizing_trade_exports
+        icon = GFX_goal_generic_trade
+        x = 3
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_continue_modernization }
+        relative_position_id = CHI_continue_modernization
+        completion_reward = {
+            add_ideas = CHI_open_markets
+        }
+    }
+
+    # Promote Tourism
+    focus = {
+        id = CHI_promote_tourism
+        icon = GFX_goal_NOR_passport_convention
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_land_reforms }
+        prerequisite = { focus = CHI_prioritizing_trade_exports }
+        relative_position_id = CHI_land_reforms
+        completion_reward = {
+            add_ideas = CHI_tourism
+        }
+    }
+
+    # Tax Reforms
+    focus = {
+        id = CHI_tax_reforms
+        icon = GFX_goal_bag_of_money
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_continue_modernization }
+        relative_position_id = CHI_continue_modernization
+        completion_reward = {
+            add_timed_idea = {
+                idea = CHI_currency_stability
+                days = 360
+            }
+        }
+    }
+
+    # The Growing Economy
+    focus = {
+        id = CHI_the_growing_economy
+        icon = GFX_focus_generic_the_giant_wakes
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_tax_reforms }
+        prerequisite = { focus = CHI_research_institutes }
+        prerequisite = { focus = CHI_promote_tourism }
+        relative_position_id = CHI_tax_reforms
+        completion_reward = {
+            remove_idea = CHI_ancient_economy2
+            add_timed_idea = {
+                idea = CHI_transitioning_economy
+                days = 360
+            }
+        }
+    }
+
+    #################################
+    #                               #
+    #          UNIFICATION          #
+    #                               #
+    #################################
+
+    # Focus on Unification
+    focus = {
+        id = CHI_focus_on_unification
+        icon = GFX_focus_generic_china1
+        x = -1
+        y = 1
+        cost = 5
+        available = {
+            has_country_flag = CHI_CHOSEN_UNIFICATION
+        }
+        mutually_exclusive = { focus = CHI_focus_on_survival }
+        prerequisite = { focus = CHI_chiang_addresses_the_nation }
+        relative_position_id = CHI_chiang_addresses_the_nation
+        completion_reward = {
+            add_war_support = 0.15
+        }
+    }
+
+    # Electrifications
+    focus = {
+        id = CHI_electrifications
+        icon = GFX_goal_generic_lightbulb
+        x = -5
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_focus_on_unification }
+        relative_position_id = CHI_focus_on_unification
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+        }
+    }
+
+    # Heavy Industry Expansion
+    focus = {
+        id = CHI_heavy_industry_expansion
+        icon = GFX_goal_factory_complex
+        x = 0
+        y = 3
+        cost = 5
+        prerequisite = { 
+            focus = CHI_electrifications 
+            focus = CHI_acquire_modern_equipment
+        }
+        relative_position_id = CHI_electrifications
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Acquire Modern Equipment
+    focus = {
+        id = CHI_acquire_modern_equipment
+        icon = GFX_goal_generic_production2
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_deals_with_businesses }
+        relative_position_id = CHI_deals_with_businesses
+        completion_reward = {
+            add_tech_bonus = {
+                category = industry
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Start Welfare Services
+    focus = {
+        id = CHI_start_welfare_services
+        icon = GFX_goal_famine
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_focus_on_unification }
+        relative_position_id = CHI_focus_on_unification
+        completion_reward = {
+            add_stability = 0.05
+            add_war_support = 0.05
+        }
+    }
+
+    # Expand the Bureaucracy
+    focus = {
+        id = CHI_expand_the_bureaucracy
+        icon = GFX_goal_government_icon
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_focus_on_unification }
+        relative_position_id = CHI_focus_on_unification
+        completion_reward = {
+            
+        }
+    }
+
+    # A Secret Police
+    focus = {
+        id = CHI_a_secret_police
+        icon = GFX_goal_secret_agents
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_expand_the_bureaucracy }
+        relative_position_id = CHI_expand_the_bureaucracy
+        completion_reward = {
+            add_tech_bonus = {
+                category = encryption_tech
+                category = decryption_tech
+                bonus = 1.0
+                uses = 1
+            }
+            remove_ideas = CHI_white_terror
+        }
+    }
+
+    # Deals with Businesses
+    focus = {
+        id = CHI_deals_with_businesses
+        icon = GFX_focus_generic_self_management
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_start_welfare_services }
+        relative_position_id = CHI_start_welfare_services
+        completion_reward = {
+            add_ideas = CHI_nanjing_deals
+        }
+    }
+
+    # Education Funding
+    focus = {
+        id = CHI_education_funding
+        icon = GFX_goal_great_science
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_start_welfare_services }
+        relative_position_id = CHI_start_welfare_services
+        completion_reward = {
+            add_research_slot = 1
+        }
+    }
+
+    # Shanghai Trade Harbor
+    focus = {
+        id = CHI_shanghai_trade_harbor
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_education_funding }
+        prerequisite = { focus = CHI_deals_with_businesses }
+        relative_position_id = CHI_education_funding
+        completion_reward = {
+            613 = {
+                add_building_construction = {
+                    type = naval_base
+                    province = 7014
+                    level = 5
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Demand Submission of Shandong
+    focus = {
+        id = CHI_demand_submission_of_shandong
+        icon = GFX_goal_skull_treaty
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_shanghai_trade_harbor }
+        prerequisite = { focus = CHI_a_secret_police }
+        relative_position_id = CHI_a_secret_police
+    }
+
+    # Negotiate with Yan Xishan
+    focus = {
+        id = CHI_negotiate_with_yan_xishan
+        icon = GFX_goal_generic_improve_relations
+        x = -2
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_demand_submission_of_shandong }
+        relative_position_id = CHI_demand_submission_of_shandong
+    }
+
+    # Attack Hunnan
+    focus = {
+        id = CHI_attack_hunnan
+        icon = GFX_goal_anti_comintern_pact
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_demand_submission_of_shandong }
+        relative_position_id = CHI_demand_submission_of_shandong
+    }
+
+    # Pacify Guangxi
+    focus = {
+        id = CHI_pacify_guangxi
+        icon = GFX_goal_generic_demand_territory
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_demand_submission_of_shandong }
+        relative_position_id = CHI_demand_submission_of_shandong
+    }
+
+    # Demand Yunnan's Obedience
+    focus = {
+        id = CHI_demand_yunans_obedience
+        icon = GFX_goal_generic_political_pressure
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_pacify_guangxi }
+        relative_position_id = CHI_pacify_guangxi
+    }
+
+    # Attack the Ma Clique
+    focus = {
+        id = CHI_attack_the_ma_clique
+        icon = GFX_goal_revolution
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_attack_hunnan }
+        prerequisite = { focus = CHI_negotiate_with_yan_xishan }
+        relative_position_id = CHI_attack_hunnan
+    }
+
+    # Attack Sinkiang
+    focus = {
+        id = CHI_attack_sinkiang
+        icon = GFX_goal_generic_major_war
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_attack_the_ma_clique }
+        relative_position_id = CHI_attack_the_ma_clique
+    }
+
+    # Attack Sichuan
+    focus = {
+        id = CHI_attack_sichuan
+        icon = GFX_goal_generic_attack_allies
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_attack_hunnan }
+        relative_position_id = CHI_attack_hunnan
+    }
+
+    # Marching to Manchuria
+    focus = {
+        id = CHI_marching_to_manchuria
+        icon = GFX_goal_step_on_skull
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_negotiate_with_yan_xishan }
+        relative_position_id = CHI_negotiate_with_yan_xishan
+    }
+
+    # A Unified China
+    focus = {
+        id = CHI_a_unified_china
+        #icon = GFX_goal_china_deal
+        icon = GFX_goal_QIE_zhili_unite_china
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_marching_to_manchuria }
+        prerequisite = { focus = CHI_demand_yunans_obedience }
+        relative_position_id = CHI_attack_sinkiang
+        completion_reward = {
+            remove_ideas = CHI_failing_republic
+        }
+    }
+
+    #################################
+    #                               #
+    #           SURVIVAL            #
+    #                               #
+    #################################
+
+    # Focus on Survival
+    focus = {
+        id = CHI_focus_on_survival
+        icon = GFX_goal_generic_construct_military
+        x = 1
+        y = 1
+        cost = 5
+        available = {
+            has_country_flag = CHI_CHOSEN_SURVIVAL
+        }
+        mutually_exclusive = { focus = CHI_focus_on_unification }
+        prerequisite = { focus = CHI_chiang_addresses_the_nation }
+        relative_position_id = CHI_chiang_addresses_the_nation
+        completion_reward = {
+            add_stability = 0.15
+        }
+    }
+
+    # Soup Kitchens
+    focus = {
+        id = CHI_soup_kitchens
+        icon = GFX_goal_famine
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_focus_on_survival }
+        relative_position_id = CHI_focus_on_survival
+        completion_reward = {
+            add_stability = 0.05
+        }
+    }
+
+    # State Propaganda
+    focus = {
+        id = CHI_state_propaganda
+        icon = GFX_Goal_Kuomintang_Government_Initiative
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = { focus = CHI_soup_kitchens }
+        relative_position_id = CHI_soup_kitchens
+        completion_reward = {
+            add_stability = 0.15
+            add_war_support = 0.15
+        }
+    }
+
+    # Favour Foreign Businesses
+    focus = {
+        id = CHI_favour_foreign_businesses
+        icon = GFX_goal_German_Investements
+        x = 2
+        y = 0
+        cost = 10
+        prerequisite = { focus = CHI_focus_on_survival }
+        relative_position_id = CHI_soup_kitchens
+        completion_reward = {
+            add_ideas = CHI_foreign_businesses
+        }
+    }
+
+    # New Cities
+    focus = {
+        id = CHI_new_cities
+        icon = GFX_goal_construction
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_favour_foreign_businesses }
+        relative_position_id = CHI_favour_foreign_businesses
+        completion_reward = {
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+            random_owned_controlled_state = {
+                add_extra_state_shared_building_slots = 1
+            }
+        }
+    }
+
+    # Appeal to London
+    focus = {
+        id = CHI_appeal_to_london
+        icon = GFX_GBR_big_ben
+        x = -1
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_favour_foreign_businesses }
+        relative_position_id = CHI_favour_foreign_businesses 
+    }
+
+    # Appeal to Washington
+    focus = {
+        id = CHI_appeal_to_washington
+        icon = GFX_goal_USA_victory
+        x = 1
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_favour_foreign_businesses }
+        relative_position_id = CHI_favour_foreign_businesses
+    }
+
+    # Enact Conscription
+    focus = {
+        id = CHI_enact_conscription
+        icon = GFX_goal_CHI_form_2nd_NRA
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_state_propaganda }
+        prerequisite = { 
+            focus = CHI_appeal_to_london
+            focus = CHI_appeal_to_washington
+        }
+        relative_position_id = CHI_state_propaganda
+        completion_reward = {
+            remove_ideas = CHI_white_terror
+        }
+    }
+
+    # Ban Factionalism
+    focus = {
+        id = CHI_ban_factionalism
+        icon = GFX_goal_authoritarian
+        x = 0
+        y = 2
+        cost = 10
+        prerequisite = { focus = CHI_enact_conscription }
+        relative_position_id = CHI_enact_conscription
+        completion_reward = {
+            remove_ideas = CHI_failing_republic
+        }
+    }
+
+    # Establishing Intelligence Services
+    focus = {
+        id = CHI_establishing_intelligence_services
+        icon = GFX_goal_secret_agents
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = CHI_appeal_to_washington
+            focus = CHI_appeal_to_london
+        }
+        relative_position_id = CHI_appeal_to_london
+    }
+
+    # Shanghai Fortifications
+    focus = {
+        id = CHI_shanghai_fortifications
+        icon = GFX_goal_generic_construct_military
+        x = 2
+        y = 0
+        cost = 5
+        prerequisite = { focus = CHI_focus_on_survival }
+        relative_position_id = CHI_favour_foreign_businesses
+        completion_reward = {
+            613 = {
+                add_building_construction = {
+                    type = bunker
+                    province = 7014
+                    level = 5
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Acquire American Aircraft
+    focus = {
+        id = CHI_acquire_american_aircraft
+        icon = GFX_goal_generic_air_fighter
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = CHI_shanghai_fortifications }
+        prerequisite = { focus = CHI_appeal_to_washington }
+        relative_position_id = CHI_shanghai_fortifications
+    }
+
+    # Expand Current Armament Factories
+    focus = {
+        id = CHI_expand_current_armament_factories
+        icon = GFX_goal_generic_construct_mil_factory
+        x = -1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = CHI_expand_current_armament_factories }
+        prerequisite = { focus = CHI_establishing_intelligence_services }
+        relative_position_id = CHI_establishing_intelligence_services
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Expand Current Industries
+    focus = {
+        id = CHI_expand_current_industries
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 1
+        cost = 10
+        mutually_exclusive = { focus = CHI_expand_current_armament_factories }
+        prerequisite = { focus = CHI_establishing_intelligence_services }
+        relative_position_id = CHI_establishing_intelligence_services
+        completion_reward = {
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+        }
+    }
+
+    # Defending the Nation
+    focus = {
+        id = CHI_defending_the_nation
+        icon = GFX_goal_CHI_peoples_army
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = CHI_expand_current_armament_factories
+            focus = CHI_expand_current_industries
+        }
+        relative_position_id = CHI_expand_current_armament_factories
+    }
+
+    # A Chinese Air Force
+    focus = {
+        id = CHI_a_chinese_air_force
+        icon = GFX_goal_generic_build_airforce
+        x = 7
+        y = 0
+        cost = 5
+        prerequisite = { focus = CHI_chiang_addresses_the_nation }
+        relative_position_id = CHI_focus_on_survival
+        completion_reward = {
+            air_experience = 15
+        }
+    }
+
+    # Fighter Research
+    focus = {
+        id = CHI_fighter_research
+        icon = GFX_goal_generic_air_fighter
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_a_chinese_air_force }
+        relative_position_id = CHI_a_chinese_air_force
+        completion_reward = {
+            add_tech_bonus = {
+                category = light_fighter
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # CAS Research
+    focus = {
+        id = CHI_cas_research
+        icon = GFX_goal_generic_air_bomber
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_a_chinese_air_force }
+        relative_position_id = CHI_a_chinese_air_force
+        completion_reward = {
+            add_tech_bonus = {
+                category = cas_bomber
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Air Excercises
+    focus = {
+        id = CHI_air_excercises
+        icon = GFX_goal_generic_air_doctrine
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_fighter_research }
+        relative_position_id = CHI_fighter_research
+        completion_reward = {
+            add_tech_bonus = {
+                category = air_doctrine
+                bonus = 1.0
+                uses = 1 
+            }
+        }
+    }
+
+    # Women Air Pilots
+    focus = {
+        id = CHI_female_air_pilots
+        icon = GFX_goal_conscription
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_cas_research }
+        relative_position_id = CHI_cas_research
+        completion_reward = {
+            air_experience = 20
+            set_rule = {
+				can_generate_female_aces = yes
+			}
+        }
+    }
+
+    # New Air Bases
+    focus = {
+        id = CHI_new_air_bases
+        icon = GFX_goal_generic_air_production
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_air_excercises }
+        prerequisite = { focus = CHI_female_air_pilots }
+        relative_position_id = CHI_air_excercises
+        completion_reward = {
+            random_owned_controlled_state = {
+                if = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}
+				}
+            }
+            random_owned_controlled_state = {
+                if = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 4
+						instant_build = yes
+					}
+				}
+            }
+        }
+    }
+
+    # Address the Army
+    focus = {
+        id = CHI_address_the_army
+        icon = GFX_goal_generic_axis_build_infantry
+        x = 9
+        y = 3
+        cost = 5
+        prerequisite = { focus = CHI_chiang_addresses_the_nation }
+        relative_position_id = CHI_focus_on_survival
+        completion_reward = {
+            army_experience = 15
+        }
+    }
+
+    # Organize the General Staff
+    focus = {
+        id = CHI_organize_the_general_staff
+        icon = GFX_goal_CHI_military_affairs_cmsn
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_address_the_army }
+        relative_position_id = CHI_address_the_army
+        completion_reward = {
+            add_ideas = CHI_chinese_general_staff
+        }
+    }
+
+    # Adopt New Tactics
+    focus = {
+        id = CHI_adopt_new_tactics
+        icon = GFX_goal_generic_army_doctrines
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_address_the_army }
+        relative_position_id = CHI_address_the_army
+        completion_reward = {
+            add_tech_bonus = {
+                category = land_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Guns for Every Soldier
+    focus = {
+        id = CHI_guns_for_every_soldier
+        icon = GFX_goal_generic_small_arms
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_organize_the_general_staff }
+        prerequisite = { focus = CHI_adopt_new_tactics }
+        relative_position_id = CHI_organize_the_general_staff
+        completion_reward = {
+            add_tech_bonus = {
+                category = infantry_weapons
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Army Logistics
+    focus = {
+        id = CHI_army_logistics
+        icon = GFX_goal_generic_more_territorial_claims
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_organize_the_general_staff }
+        prerequisite = { focus = CHI_adopt_new_tactics }
+        relative_position_id = CHI_organize_the_general_staff
+        completion_reward = {
+            add_tech_bonus = {
+                category = logistics_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Motorization of the Army
+    focus = {
+        id = CHI_motorization_of_the_army
+        icon = GFX_goal_generic_army_motorized
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_organize_the_general_staff }
+        prerequisite = { focus = CHI_adopt_new_tactics }
+        relative_position_id = CHI_adopt_new_tactics
+        completion_reward = {
+            add_tech_bonus = {
+                category = motorized
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Tank Experiments
+    focus = {
+        id = CHI_tank_experiments
+        icon = GFX_goal_generic_army_tanks
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_army_logistics }
+        relative_position_id = CHI_army_logistics
+        completion_reward = {
+            add_tech_bonus = {
+                category = armor
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Artillery Modernization
+    focus = {
+        id = CHI_artillery_modernization
+        icon = GFX_goal_generic_army_artillery2
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_tank_experiments }
+        relative_position_id = CHI_tank_experiments
+        completion_reward = {
+            add_tech_bonus = {
+                category = artillery
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Army Engineers
+    focus = {
+        id = CHI_army_engineers
+        icon = GFX_goal_generic_production2
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_army_logistics }
+        relative_position_id = CHI_army_logistics   
+        completion_reward = {
+            add_tech_bonus = {
+                category = engineers_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Army Mountaineers
+    focus = {
+        id = CHI_army_mountaineers
+        icon = GFX_goal_generic_occupy_states_ongoing_war
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_army_engineers }
+        relative_position_id = CHI_army_engineers
+        completion_reward = {
+            add_tech_bonus = {
+                category = mountaineers_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Nanjing Military Academy
+    focus = {
+        id = CHI_nanjing_military_academy
+        icon = GFX_focus_chi_whampoa_military_academy
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_artillery_modernization }
+        prerequisite = { focus = CHI_army_mountaineers }
+        relative_position_id = CHI_artillery_modernization
+        completion_reward = {
+            remove_ideas = CHI_incompetent_officers
+        }
+    }
+
+    # A Chinese Navy
+    focus = {
+        id = CHI_a_chinese_navy
+        icon = GFX_goal_generic_build_navy
+        x = 4
+        y = 0
+        cost = 5
+        prerequisite = { focus = CHI_chiang_addresses_the_nation }
+        relative_position_id = CHI_a_chinese_air_force
+        completion_reward = {
+            navy_experience = 15
+        }
+    }
+
+    # Submarine Acquisitions
+    focus = {
+        id = CHI_submarine_acquisitions
+        icon = GFX_goal_generic_navy_submarine
+        x = -1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_a_chinese_navy }
+        relative_position_id = CHI_a_chinese_navy
+        completion_reward = {
+            add_tech_bonus = {
+                category = ss_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Destroyer Acquisitions
+    focus = {
+        id = CHI_destroyer_acquisitions
+        icon = GFX_goal_generic_navy_battleship
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_a_chinese_navy }
+        relative_position_id = CHI_a_chinese_navy
+        completion_reward = {
+            add_tech_bonus = {
+                category = dd_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # New Doctrines
+    focus = {
+        id = CHI_new_doctrines
+        icon = GFX_goal_generic_navy_doctrines_tactics
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = { focus = CHI_submarine_acquisitions }
+        relative_position_id = CHI_submarine_acquisitions
+        completion_reward = {
+            add_tech_bonus = {
+                category = naval_doctrine
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+
+    # Shanghai Shipbuilding
+    focus = {
+        id = CHI_shanghai_shipbuilding
+        icon = GFX_goal_generic_construct_naval_dockyard
+        x = 1
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = CHI_new_doctrines
+            focus = CHI_destroyer_acquisitions
+        }
+        relative_position_id = CHI_new_doctrines
+        completion_reward = {
+            613 = {
+                if = {
+					limit = {
+                        is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 0
+							include_locked = yes
+						}
+					}
+
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+            }
+        }
+    }
+
+    # Marines
+    focus = {
+        id = CHI_marines
+        icon = GFX_goal_generic_amphibious_assault
+        x = 0
+        y = 3
+        cost = 10
+        prerequisite = { focus = CHI_destroyer_acquisitions }
+        prerequisite = { focus = CHI_address_the_army }
+        relative_position_id = CHI_destroyer_acquisitions
+        completion_reward = {
+            add_tech_bonus = {
+                category = marine_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
+    }
+}
