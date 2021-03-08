@@ -1,0 +1,71 @@
+# Chinese Decisions
+# created by: dax0102
+
+CHI_unification_of_china = {
+    CHI_attack_warlord = {
+        icon = GFX_decision_jap_conquer_china
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = MAN
+                    tag = SCH
+                    tag = SIK
+                    tag = HNN
+                    tag = XSM
+                    tag = SHN
+                    tag = YUN
+                    tag = SHX
+                    tag = GXC
+                }
+            }
+        }
+
+        visible = {
+            FROM = {
+                has_country_flag = CHI_ATTACK_WARLORD
+            }
+        }
+
+        complete_effect = {
+            declare_war_on = {
+                type = annex_everything
+                target = FROM
+            }
+        }
+    }
+}
+
+CHI_chinese_united_front = {
+    CHI_invite_warlord = {
+        icon = GFX_decision_eng_trade_unions_support
+
+        target_trigger = {
+            FROM = {
+                OR = {
+                    tag = MAN
+                    tag = SCH
+                    tag = SIK
+                    tag = HNN
+                    tag = XSM
+                    tag = SHN
+                    tag = YUN
+                    tag = SHX
+                    tag = GXC
+                }
+            }
+        }
+
+        visible = {
+            FROM = {
+                NOT = { has_country_flag = CHI_INVITED_WARLORD }
+            }
+        }
+
+        complete_effect = {
+            FROM = {
+                country_event = china.11
+            }
+        }
+    }
+}

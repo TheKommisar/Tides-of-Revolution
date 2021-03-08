@@ -1,3 +1,6 @@
+# Chinese Ideas
+# created by: dax0102
+
 ideas = {
      country = {
 
@@ -165,6 +168,28 @@ ideas = {
 			modifier = {
 				production_factory_max_efficiency_factor = 0.15
 				production_speed_buildings_factor = 0.15
+			}
+		}
+
+		CHI_investigation_and_statistics_bureau = {
+			allowed = { original_tag = CHI }
+
+			picture = generic_spy_intel
+
+			modifier = {
+				resistance_growth_on_our_occupied_states = -0.15
+				occupation_cost = -0.15
+				foreign_subversive_activites = -0.15
+			}
+		}
+
+		CHI_chinese_unity = {
+			allowed = { original_tag = CHI }
+
+			picture = chi_chinese_unity
+
+			modifier = {
+				surrender_limit = 0.15
 			}
 		}
 	}

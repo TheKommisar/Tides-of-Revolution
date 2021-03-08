@@ -489,7 +489,7 @@ focus_tree = {
         prerequisite = { focus = CHI_focus_on_unification }
         relative_position_id = CHI_focus_on_unification
         completion_reward = {
-            
+            remove_ideas = CHI_failing_republic
         }
     }
 
@@ -503,12 +503,7 @@ focus_tree = {
         prerequisite = { focus = CHI_expand_the_bureaucracy }
         relative_position_id = CHI_expand_the_bureaucracy
         completion_reward = {
-            add_tech_bonus = {
-                category = encryption_tech
-                category = decryption_tech
-                bonus = 1.0
-                uses = 1
-            }
+            add_ideas = CHI_investigation_and_statistics_bureau
             remove_ideas = CHI_white_terror
         }
     }
@@ -570,9 +565,25 @@ focus_tree = {
         x = -1
         y = 1
         cost = 10
+        available = {
+            is_subject = no
+            SHN = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = SHN }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_shanghai_trade_harbor }
         prerequisite = { focus = CHI_a_secret_police }
         relative_position_id = CHI_a_secret_police
+        completion_reward = {
+            SHN = { country_event = china.5 }
+        }
     }
 
     # Negotiate with Yan Xishan
@@ -582,8 +593,24 @@ focus_tree = {
         x = -2
         y = 1
         cost = 10
+        available = {
+            is_subject = no
+            SHX = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = SHX }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_demand_submission_of_shandong }
         relative_position_id = CHI_demand_submission_of_shandong
+        completion_reward = {
+            SHX = { country_event = china.5 }
+        }
     }
 
     # Attack Hunnan
@@ -593,8 +620,30 @@ focus_tree = {
         x = 0
         y = 1
         cost = 10
+        available = {
+            is_subject = no
+            HNN = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = HNN }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_demand_submission_of_shandong }
         relative_position_id = CHI_demand_submission_of_shandong
+        completion_reward = {
+            HNN = {
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = CHI_attack_warlord
+                }
+                set_country_flag = CHI_ATTACK_WARLORD
+            }
+        }
     }
 
     # Pacify Guangxi
@@ -604,8 +653,30 @@ focus_tree = {
         x = 2
         y = 1
         cost = 10
+        available = {
+            is_subject = no
+            GXC = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = GXC }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_demand_submission_of_shandong }
         relative_position_id = CHI_demand_submission_of_shandong
+        completion_reward = {
+            GXC = {
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = CHI_attack_warlord
+                }
+                set_country_flag = CHI_ATTACK_WARLORD
+            }
+        }
     }
 
     # Demand Yunnan's Obedience
@@ -615,8 +686,24 @@ focus_tree = {
         x = 0
         y = 2
         cost = 10
+        available = {
+            is_subject = no
+            YUN = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = YUN }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_pacify_guangxi }
         relative_position_id = CHI_pacify_guangxi
+        completion_reward = {
+            YUN = { country_event = china.5 }
+        }
     }
 
     # Attack the Ma Clique
@@ -626,9 +713,31 @@ focus_tree = {
         x = -1
         y = 1
         cost = 10
+        available = {
+            is_subject = no
+            XSM = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = XSM }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_attack_hunnan }
         prerequisite = { focus = CHI_negotiate_with_yan_xishan }
         relative_position_id = CHI_attack_hunnan
+        completion_reward = {
+            XBM = {
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = CHI_attack_warlord
+                }
+                set_country_flag = CHI_ATTACK_WARLORD
+            }
+        }
     }
 
     # Attack Sinkiang
@@ -638,8 +747,30 @@ focus_tree = {
         x = 1
         y = 1
         cost = 10
+        available = {
+            is_subject = no
+            SIK = {
+                country_exists = SIK
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = SIK }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_attack_the_ma_clique }
         relative_position_id = CHI_attack_the_ma_clique
+        completion_reward = {
+            SIK = {
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = CHI_attack_warlord
+                }
+                set_country_flag = CHI_ATTACK_WARLORD
+            }
+        }
     }
 
     # Attack Sichuan
@@ -649,8 +780,30 @@ focus_tree = {
         x = 1
         y = 1
         cost = 10
+        available = {
+            is_subject = no
+            SCH = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = SCH }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_attack_hunnan }
         relative_position_id = CHI_attack_hunnan
+        completion_reward = {
+            SHC = {
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = CHI_attack_warlord
+                }
+                set_country_flag = CHI_ATTACK_WARLORD
+            }
+        }
     }
 
     # Marching to Manchuria
@@ -660,23 +813,57 @@ focus_tree = {
         x = 0
         y = 2
         cost = 10
+        available = {
+            is_subject = no
+            MAN = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            OR = {
+                NOT = { country_exists = MAN }
+                is_subject_of = ROOT
+            }
+        }
         prerequisite = { focus = CHI_negotiate_with_yan_xishan }
         relative_position_id = CHI_negotiate_with_yan_xishan
+        completion_reward = {
+            MAN = {
+                activate_targeted_decision = {
+                    target = THIS
+                    decision = CHI_attack_warlord
+                }
+                set_country_flag = CHI_ATTACK_WARLORD
+            }
+        }
     }
 
-    # A Unified China
+    # Take Down the Rising Sun!
     focus = {
-        id = CHI_a_unified_china
-        #icon = GFX_goal_china_deal
-        icon = GFX_goal_QIE_zhili_unite_china
+        id = CHI_take_down_the_rising_sun
+        icon = GFX_focus_attack_japan
         x = 0
         y = 1
         cost = 10
+        available = {
+            is_subject = no
+            JAP = {
+                country_exists = THIS
+                NOT = { is_in_faction_with = ROOT }
+            }
+        }
+        bypass = {
+            NOT = { country_exists = JAP }
+        }
         prerequisite = { focus = CHI_marching_to_manchuria }
         prerequisite = { focus = CHI_demand_yunans_obedience }
         relative_position_id = CHI_attack_sinkiang
         completion_reward = {
-            remove_ideas = CHI_failing_republic
+            create_wargoal = {
+                target = JAP
+                type = puppet_wargoal_focus
+            }
         }
     }
 
@@ -704,17 +891,21 @@ focus_tree = {
         }
     }
 
-    # Soup Kitchens
+    # The United Front
     focus = {
-        id = CHI_soup_kitchens
-        icon = GFX_goal_famine
+        id = CHI_the_united_front
+        icon = GFX_focus_chi_one_china_policy
         x = 0
         y = 1
         cost = 10
         prerequisite = { focus = CHI_focus_on_survival }
         relative_position_id = CHI_focus_on_survival
         completion_reward = {
-            add_stability = 0.05
+            set_rule = {
+                can_create_factions = yes
+            }
+            create_faction = united_front
+            unlock_decision_category_tooltip = CHI_chinese_united_front
         }
     }
 
@@ -725,8 +916,8 @@ focus_tree = {
         x = 0
         y = 1
         cost = 5
-        prerequisite = { focus = CHI_soup_kitchens }
-        relative_position_id = CHI_soup_kitchens
+        prerequisite = { focus = CHI_the_united_front }
+        relative_position_id = CHI_the_united_front
         completion_reward = {
             add_stability = 0.15
             add_war_support = 0.15
@@ -741,7 +932,7 @@ focus_tree = {
         y = 0
         cost = 10
         prerequisite = { focus = CHI_focus_on_survival }
-        relative_position_id = CHI_soup_kitchens
+        relative_position_id = CHI_the_united_front
         completion_reward = {
             add_ideas = CHI_foreign_businesses
         }
@@ -770,22 +961,28 @@ focus_tree = {
     focus = {
         id = CHI_appeal_to_london
         icon = GFX_GBR_big_ben
-        x = -1
-        y = 2
-        cost = 10
-        prerequisite = { focus = CHI_favour_foreign_businesses }
-        relative_position_id = CHI_favour_foreign_businesses 
-    }
-
-    # Appeal to Washington
-    focus = {
-        id = CHI_appeal_to_washington
-        icon = GFX_goal_USA_victory
         x = 1
         y = 2
-        cost = 10
+        cost = 5
         prerequisite = { focus = CHI_favour_foreign_businesses }
         relative_position_id = CHI_favour_foreign_businesses
+        completion_reward = {
+            ENG = { country_event = china.9 }
+        }
+    }
+
+    # Appeal to Berlin
+    focus = {
+        id = CHI_appeal_to_berlin
+        icon = GFX_focus_ger_return_of_the_kaiser
+        x = -1
+        y = 2
+        cost = 5
+        prerequisite = { focus = CHI_favour_foreign_businesses }
+        relative_position_id = CHI_favour_foreign_businesses
+        completion_reward = {
+            GER = { country_event = china.9 }
+        }
     }
 
     # Enact Conscription
@@ -798,7 +995,7 @@ focus_tree = {
         prerequisite = { focus = CHI_state_propaganda }
         prerequisite = { 
             focus = CHI_appeal_to_london
-            focus = CHI_appeal_to_washington
+            focus = CHI_appeal_to_berlin
         }
         relative_position_id = CHI_state_propaganda
         completion_reward = {
@@ -824,14 +1021,22 @@ focus_tree = {
     focus = {
         id = CHI_establishing_intelligence_services
         icon = GFX_goal_secret_agents
-        x = 1
+        x = -1
         y = 1
         cost = 10
         prerequisite = {
-            focus = CHI_appeal_to_washington
+            focus = CHI_appeal_to_berlin
             focus = CHI_appeal_to_london
         }
         relative_position_id = CHI_appeal_to_london
+        completion_reward = {
+            add_tech_bonus = {
+                category = encryption_tech
+                category = decryption_tech
+                bonus = 1.0
+                uses = 1
+            }
+        }
     }
 
     # Shanghai Fortifications
@@ -855,16 +1060,19 @@ focus_tree = {
         }
     }
 
-    # Acquire American Aircraft
+    # Acquire British Aircraft
     focus = {
-        id = CHI_acquire_american_aircraft
+        id = CHI_acquire_british_aircraft
         icon = GFX_goal_generic_air_fighter
         x = 0
         y = 3
         cost = 10
         prerequisite = { focus = CHI_shanghai_fortifications }
-        prerequisite = { focus = CHI_appeal_to_washington }
+        prerequisite = { focus = CHI_appeal_to_berlin }
         relative_position_id = CHI_shanghai_fortifications
+        completion_reward = {
+            
+        }
     }
 
     # Expand Current Armament Factories
@@ -939,6 +1147,9 @@ focus_tree = {
             focus = CHI_expand_current_industries
         }
         relative_position_id = CHI_expand_current_armament_factories
+        completion_reward = {
+            add_ideas = CHI_chinese_unity
+        }
     }
 
     # A Chinese Air Force
