@@ -249,6 +249,64 @@ CHI_shanghai_shipbuilding_desc:0 ""
 CHI_marines:0 "Marines"
 CHI_marines_desc:0 ""
 
+### Events
+china.1.t:0 "Announcement from Generalissimo Chiang"
+china.1.d:0 "Many have gathered in front of the Presidential Palace in the capital, Nanjing. Generalissimo Chiang have announced the priority of the National Government of the Republic of China. Many were skeptical however as the priority might involved armed conflict. Many economists in Shanghai were also anxious as these decisions by the Government were hurting the Chinese economy so badly. It seems that the Government would not change its mind however as the cabinet is already planning to prepare on how to implement General Chiang's decision."
+china.1.a:0 "Chiang decided to prepare for Unification of China"
+china.1.b:0 "Chiang decided to prepare the Survival of the Republic"
+
+china.2.t:0 "[CHI.GetAdjective] Economic Partnership"
+china.2.d:0 "The [CHI.GetAdjective] Government have approached us proposing for an economic partnership that will benefit our nations both. It seems that the [CHI.GetAdjective] Government are preparing to transition their economy from agricultural to industrial, and have asked us to provide them with aid and in return they will allow us to establish businesses in the mainland."
+china.2.a:0 "We accept"
+china.2.b:0 "China will stay as an agricultural nation"
+
+china.3.t:0 "The [From.GetAdjective] accepts"
+china.3.d:0 "The [From.GetAdjective] Government have accepted to our proposal of economic partnership. They are currently preparing to send us some initial aid and have informed many of their conglomerates and entrepreneurs of possible business with our nation."
+china.3.a:0 "Good."
+
+china.4.t:0 "The [From.GetAdjective] declines"
+china.4.d:0 "The [From.GetAdjective] Government have declined to our proposal of economic partnership. "
+china.4.a:0 "Shame."
+
+china.5.t:0 "[CHI.GetLeader] wants our obedience"
+china.5.d:0 "Recent telegrams from the [CHI.GetName] have informed us that, General [CHI.GetLeader] wants our obedience and have ordered us to unify with the National Government."
+china.5.a:0 "Accept it, it is better for China."
+china.5.b:0 "Tell them that they need to get us by force!"
+
+china.6.t:0 "[From.GetName] accepts"
+china.6.d:0 "The warlord province of [From.GetName] have agreed on peacefully integrating their province and government into ours."
+china.6.a:0 "Good."
+
+china.7.t:0 "[From.GetName] rejects"
+china.7.d:0 "The warlord province of [From.GetName] have rejected on peacefully integrating their province and government into ours. The general staff is already preparing to mobilize our troops, as armed conflict is inevitable."
+china.7.a:0 "There would be bloodshed"
+
+china.8.t:0 "The [CHI.GetAdjective] Delegation"
+china.8.d:0 "A delegation from the [CHI.GetAdjective] Government have arried here today discussing a possible equipment aid from us. They have expressed a great deal of anxiety us the survival of their nation might depend on our aid to them."
+china.8.a:0 "Send them the old ones."
+china.8.b:0 "There's nothing we can share."
+
+china.9.t:0 "[From.GetAdjective] Equipment Arrives"
+china.9.d:0 "Our delegation in the [From.GetName] have been an outstanding success as the [From.GetAdjective] have agreed to send us some our their equipment in hopes of our survival."
+china.9.a:0 "That's great"
+
+china.10.t:0 "No [From.GetAdjective] Equipment Will Arrives"
+china.10.d:0 "Our delegation in the [From.GetName] have been an failure as the [From.GetAdjective] have declined to send us some our their equipment in hopes of our survival."
+china.10.a:0 "Imperialists do what they do best."
+
+china.11.t:0 "Invitation for a United Front"
+china.11.d:0 "The National Government have sent us a telegram inviting our province in their united front against a possible foreign invasion. Shall we accept?"
+china.11.a:0 "Yes, after all we are all Chinese"
+china.11.b:0 "No"
+
+china.12.t:0 "[From.GetName] accepts"
+china.12.d:0 "The province of [From.GetName] have agreed to join our united front."
+china.12.a:0 "Good."
+
+china.13.t:0 "[From.GetName] declines"
+china.13.d:0 "The province of [From.GetName] have declined to join our united front."
+china.13.a:0 "Shame."
+
 #ideas
 CHI_shared_economy:0 "Ancient Economy"
 CHI_shared_economy_desc:0 "China has a woefully poor economy, this has been a factor of life in Chinese society apparent to just about everyone since the Europeans and Japanese put on full display their economic prowess. Urbanization, much less any meaningful industrial base, is extraordinarily hard to come by, farming methods are outdated and agriculture has remained unreformed and modern technological advances are nearly completely absent."

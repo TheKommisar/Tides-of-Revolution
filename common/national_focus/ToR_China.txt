@@ -967,7 +967,7 @@ focus_tree = {
         prerequisite = { focus = CHI_favour_foreign_businesses }
         relative_position_id = CHI_favour_foreign_businesses
         completion_reward = {
-            ENG = { country_event = china.9 }
+            ENG = { country_event = china.8 }
         }
     }
 
@@ -981,7 +981,7 @@ focus_tree = {
         prerequisite = { focus = CHI_favour_foreign_businesses }
         relative_position_id = CHI_favour_foreign_businesses
         completion_reward = {
-            GER = { country_event = china.9 }
+            GER = { country_event = china.8 }
         }
     }
 

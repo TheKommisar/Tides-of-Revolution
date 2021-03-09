@@ -183,6 +183,10 @@ country_event = {
     option = {
         name = china.7.a
         FROM = { 
+            activate_targeted_decision = {
+                target = THIS
+                decision = CHI_attack_warlord
+            }
             set_country_flag = CHI_ATTACK_WARLORD
         }
     }
