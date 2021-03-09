@@ -12,7 +12,7 @@ add_ideas = {
         ITA_memories_of_the_war
         ITA_victor_emmanuel
         ITA_political_radicalisation
-        ITA_Giacomo_Matteotti_hog_sde
+        ITA_Giacomo_Matteoti_hog
         ITA_Alberto_Beneduce_eco 
 }
 
