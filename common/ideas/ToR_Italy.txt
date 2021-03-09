@@ -89,7 +89,7 @@ ideas = {
 
 	# Head of Government
 	head_of_government = {
-		ITA_Palmiro_Togliatti_hog_van = {
+		ITA_Palmiro_Togliatti_hog = {
 			allowed = { original_tag = ITA }
                         available = {
 				has_government = vanguardist
@@ -102,7 +102,7 @@ ideas = {
 			}
 		}
 
-		ITA_Antonio_Gramsci_hog_ort = {
+		ITA_Antonio_Gramsci_hog = {
 			allowed = { original_tag = ITA }
                         available = {
 				has_government = orthodox_marxist
@@ -115,7 +115,7 @@ ideas = {
 			}
 		}
 
-		ITA_Pietro_Nenni_hog_rev = {
+		ITA_Pietro_Nenni_hog = {
 			allowed = { original_tag = ITA }
                         available = {
 				has_government = revolutionary_socialist
@@ -128,7 +128,7 @@ ideas = {
 			}
 		}
 
-		ITA_Giacomo_Matteotti_hog_sde = {
+		ITA_Giacomo_Matteoti_hog = {
 			allowed = { original_tag = ITA }
                         available = {
 				has_government = social_democrat
@@ -141,7 +141,7 @@ ideas = {
 			}
 		}
 
-		ITA_Don_Luigi_Sturzo_hog_sde = {
+		ITA_Don_Luigi_Sturzo_hog = {
 			allowed = { original_tag = ITA }
                         available = {
 				has_government = social_democrat
