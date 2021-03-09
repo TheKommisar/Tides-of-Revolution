@@ -18,7 +18,8 @@ focus_tree = {
     # Chiang Addresses the Nation
     focus = {
         id = CHI_chiang_addresses_the_nation
-        icon = GFX_focus_prc_remove_chiang_kai_shek
+        #icon = GFX_focus_prc_remove_chiang_kai_shek
+        icon = GFX_focus_china_chiang_announcement
         x = 10
         y = -1
         cost = 10

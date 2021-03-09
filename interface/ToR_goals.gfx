@@ -1,6 +1,11 @@
 spriteTypes = {	
 
 	SpriteType = {
+		name = "GFX_focus_china_chiang_announcement"
+		texturefile = "gfx/interface/goals/CHI/China_Chiang_announcement.tga"
+	}
+
+	SpriteType = {
 		name = "GFX_focus_jap_attack_east_indies"
 		texturefile = "gfx/interface/goals/JAP/JAP_attack_east_indies.tga"
 	}
