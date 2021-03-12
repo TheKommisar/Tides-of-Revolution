@@ -67,12 +67,12 @@ ideas = {
 			allowed_civil_war = { always = yes }
 		
 			modifier = {
-				war_support_factor = 0.15
-				offence = 0.5	
-				defence = 0.5
-                                training_time_factor = -0.2
+				war_support_factor = 0.10
+				offence = 0.2	
+				defence = 0.2
+                                training_time_factor = 0.1
                                 breakthrough_factor = 0.1
-                                political_power_factor = -0.1
+                                political_power_factor = -0.15
 			}
 		} 
 		ITA_victor_emmanuel = {
@@ -164,6 +164,20 @@ ideas = {
 			cancel_if_invalid = no
 			traits = {
 				social_democrat
+			}
+		}
+		
+		ITA_Alceste_de_Ambris_eco = {
+			allowed = { original_tag = ITA }
+                        available = {
+						OR = {
+				has_government = revolutionary_socialist
+				has_government = social_democrat
+		        } 
+				}
+			cancel_if_invalid = no
+			traits = {
+				revolutionary_socialist
 			}
 		}
 	}

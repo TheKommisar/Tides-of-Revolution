@@ -22,6 +22,11 @@ spriteTypes = {
 		name = "GFX_idea_ITA_Alberto_Beneduce_eco"
 		texturefile = "gfx/interface/ideas/ITA/ministers/ITA_Alberto_Beneduce_eco.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_ITA_Alceste_de_Ambris_eco"
+		texturefile = "gfx/interface/ideas/ITA/ministers/ITA_Alceste_de_Ambris_eco.tga"
+	}
 
 
 }

@@ -37,12 +37,14 @@ focus_tree = {
 		relative_position_id = ITA_aftermath_of_bill_failure
 		completion_reward = {
 			add_stability = 0.05
+			remove_ideas = ITA_Alberto_Beneduce_eco
+			add_ideas = ITA_Alceste_de_Ambris_eco
 		}
 	}
 
-	# Break a Compromise
+	# Meet with Moderates
 	focus = {
-		id = ITA_break_a_compromise
+		id = ITA_calm_the_moderates
 		icon = GFX_goal_ideology_social_democrat
 		x = 0
 		y = 1
@@ -50,42 +52,39 @@ focus_tree = {
 		prerequisite = { focus = ITA_dismiss_beneduce }
 		relative_position_id = ITA_dismiss_beneduce
 		completion_reward = {
-			country_event = { id = ita.1 }
+		#	country_event = { id = ita.1 }
 		}
 	}
 
-	# With the Liberals
+	# Firm Handshake with the Liberals
 	focus = {
 		id = ITA_with_the_liberals
 		icon = GFX_goal_ideology_social_liberal
 		x = -2
 		y = 1
 		cost = 0
-		available = {
-			hidden_trigger = {
-				always = no
-			}
-		}
 		mutually_exclusive = { focus = ITA_with_the_socialists }
-		prerequisite = { focus = ITA_break_a_compromise }
-		relative_position_id = ITA_break_a_compromise
+		prerequisite = { focus = ITA_calm_the_moderates }
+		relative_position_id = ITA_calm_the_moderates
+						completion_reward = {
+		custom_effect_tooltip = ITA_with_the_liberals_tt
+		}
 	}
 
-	# With the Socialists
+	# Break the Ice with the Socialists
 	focus = {
 		id = ITA_with_the_socialists
 		icon = GFX_goal_ideology_radical_socialist
 		x = 2
 		y = 1
 		cost = 0
-		available = {
-			hidden_trigger = {
-				always = no
-			}
-		}
 		mutually_exclusive = { focus = ITA_with_the_liberals }
-		prerequisite = { focus = ITA_break_a_compromise }
-		relative_position_id = ITA_break_a_compromise
+		prerequisite = { focus = ITA_calm_the_moderates }
+		relative_position_id = ITA_calm_the_moderates
+				completion_reward = {
+		custom_effect_tooltip = ITA_with_the_socialists_tt
+		}
+		
 	}
 
 	# Work with Farmers
@@ -97,7 +96,9 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = ITA_with_the_liberals }
 		relative_position_id = ITA_with_the_liberals
-		completion_reward = {}
+		completion_reward = {
+		
+		}
 	}
 
 	# Work with Labourers
@@ -204,7 +205,10 @@ focus_tree = {
 		cost = 5
 		prerequisite = { focus = ITA_sigh_of_relief }
 		relative_position_id = ITA_sigh_of_relief
-		completion_reward = {}
+		completion_reward = {
+		custom_effect_tooltip = ITA_as_cool_heads_prevail_tt
+		}
+		}
 	}
 
 

@@ -89,39 +89,56 @@ country_event = {
     picture = GFX_report_event_generic_read_write
 
     is_triggered_only = yes
-
-    option = {
+	
+	option = {
         name = ita.4.a
-        trigger = { 
-                has_country_flag = italy_socialist_compromise
-        }
+
         hidden_effect = {
-            country_event = { id = ita.5 days = 2 }
+            country_event = { id = ita.6 days = 7 }
         }
     }
 
-    option = {
-        name = ita.4.b
-        trigger = { 
-                has_country_flag = italy_liberal_compromise
-        }
-        hidden_effect = {
-            country_event = { id = ita.6 days = 2 }
-        }
-    }
 }
 
-# Military Coup
+# The Chamber appoints Gramsci
 country_event = {
     id = ita.5
     title = ita.5.t
     desc = ita.5.d
-    picture = GFX_report_event_german_troops
+    picture = GFX_report_event_finnish_letter
 
     is_triggered_only = yes
 
     option = {
         name = ita.5
+
+        option = {  # I must be granted emergency powers!
+        name = ita.5.a
+        hidden_effect = {
+            country_event = { id = ita.6 days = 2 }
+        }
+    }
+
+    option = {  # I must consult the Chamber on my next actions
+        name = ita.5.b
+        hidden_effect = {
+            country_event = { id = ita.7 days = 2 }
+        }
+    }
+    }
+}
+
+# Military Coup
+country_event = {
+    id = ita.6
+    title = ita.6.t
+    desc = ita.6.d
+    picture = GFX_report_event_german_troops
+
+    is_triggered_only = yes
+
+    option = {
+        name = ita.6
 
         set_politics = {
             ruling_party = paternal_autocrat
@@ -134,44 +151,39 @@ country_event = {
         }
 
         hidden_effect = {
-            country_event = { id = ita.7 days = 7 }
+            country_event = { id = ita.8 days = 7 }
         }
     }
 }
 
-# King Intervenes
+# Military Failed Coup
 country_event = {
-    id = ita.6
-    title = ita.6.t
-    desc = ita.6.d
-    picture = GFX_report_event_finnish_letter
+    id = ita.7
+    title = ita.7.t
+    desc = ita.7.d
+    picture = GFX_report_event_german_troops
 
     is_triggered_only = yes
 
     option = {
-        name = ita.6
-
-        set_politics = {
-            ruling_party = authoritarian_democrat
-            elections_allowed = no
-        }
+        name = ita.7
 
         add_popularity = {
-            ideology = authoritarian_democrat
-            popularity = 0.25
+            ideology = orthodox_marxist
+            popularity = 0.3
         }
 
         hidden_effect = {
-            country_event = { id = ita.7 days = 7 }
+            country_event = { id = ita.8 days = 7 }
         }
     }
 }
 
 # Civil War
 country_event = {
-    id = ita.7
-    title = ita.7.t
-    desc = ita.7.d
+    id = ita.8
+    title = ita.8.t
+    desc = ita.8.d
     picture = GFX_report_event_french_resistance_01
 
     is_triggered_only = yes
@@ -241,7 +253,7 @@ country_event = {
     }
 
     option = {
-		name = ita.7.a
+		name = ita.8.a
 		ai_chance = {
 			factor = 100
 		}
@@ -260,7 +272,7 @@ country_event = {
     }
      
     option = {
-		name = ita.7.b
+		name = ita.8.b
 		ai_chance = {
 			factor = 0
 		}
@@ -283,9 +295,9 @@ country_event = {
 
 # FRA - Should we send the Italians support
 country_event = {
-    id = ita.8
-    title = ita.8.t
-    desc = ita.8.d
+    id = ita.9
+    title = ita.9.t
+    desc = ita.9.d
     picture = GFX_report_event_spain_civil_war_volunteers_02
 
     trigger = {
@@ -297,7 +309,7 @@ country_event = {
 
     # Send them weapons and volunteers
     option = {
-        name = ita.8.a
+        name = ita.9.a
         ai_chance = {
             factor = 80
         }
@@ -317,23 +329,6 @@ country_event = {
 
 # SRI - France supports us!
 country_event = {
-    id = ita.9
-    title = ita.9.t
-    desc = ita.9.d
-    picture = GFX_report_event_spain_civil_war_volunteers_02
-
-    is_triggered_only = yes
-
-    # Thanks, France
-    option = {
-        name = ita.9.a
-        add_manpower = 5000
-        add_political_power = 25
-    }
-}
-
-# ITA - Libya declares neutrality
-country_event = {
     id = ita.10
     title = ita.10.t
     desc = ita.10.d
@@ -341,17 +336,34 @@ country_event = {
 
     is_triggered_only = yes
 
-    # Fuck
+    # Thanks, France
     option = {
         name = ita.10.a
-        release = LBA
-        LBA = {
-            set_cosmetic_tag = ITA_LBA
-            transfer_state = 665
-            transfer_state = 458
-        }
+        add_manpower = 5000
+        add_political_power = 25
     }
 }
+
+# ITA - Libya declares neutrality   # just ignore this event for now
+#country_event = {
+#    id = ita.10
+#    title = ita.10.t
+#    desc = ita.10.d
+#    picture = GFX_report_event_spain_civil_war_volunteers_02
+#
+#    is_triggered_only = yes
+#
+#    # Fuck
+#    option = {
+#        name = ita.10.a
+#        release = LBA
+#        LBA = {
+#            set_cosmetic_tag = ITA_LBA
+#            transfer_state = 665
+#            transfer_state = 458
+#        }
+#    }
+#}
 
 # Military spending
 country_event = {
@@ -365,8 +377,8 @@ country_event = {
     # The socialists have a point
     option = {
         name = ita.11.a
-        add_political_power = 50
-        add_stability = 0.05
+        add_political_power = 100
+        add_stability = 0.1
 	add_popularity = {
 		ideology = democratic_socialist
 		popularity = 0.05
@@ -375,8 +387,8 @@ country_event = {
     # Maybe the conservatives aren't talking out of their ass for once
     option = {
         name = ita.11.b
-        add_political_power = -50
-        add_stability = -0.05
+        add_political_power = -70
+        add_stability = -0.07
 	add_popularity = {
 		ideology = social_conservative
 		popularity = 0.05
